@@ -1,63 +1,74 @@
-
 import React from 'react';
 import { useParams, Navigate, Link } from 'react-router-dom';
 import { MOCK_ARTICLES, HUBS } from '../constants';
-import { ArrowLeft, Calendar, User, CheckCircle, AlertTriangle, Plus, Minus, ArrowRight } from 'lucide-react';
+import { CheckCircle, AlertTriangle, Plus, Minus, ArrowRight } from 'lucide-react';
 import LeadForm from '../components/LeadForm';
 import RetirementCalculator from '../components/RetirementCalculator';
+import Breadcrumb from '../components/Breadcrumb';
+import AuthorBio from '../components/AuthorBio';
+import Disclaimer from '../components/Disclaimer';
+import SchemaMarkup from '../components/SchemaMarkup';
 
 const ArticlePage: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
   const article = MOCK_ARTICLES.find(a => a.slug === slug);
   const [openFaq, setOpenFaq] = React.useState<number | null>(null);
-  
+
   if (!article) {
-    // Basic fallback if article isn't in mock data, usually redirects
     return <Navigate to="/" replace />;
   }
-  
+
   const displayHub = HUBS.find(h => h.id === article.hubId);
+  const currentUrl = `https://www.wealthauthority.org/article/${article.slug}`;
+
+  // Build breadcrumb items
+  const breadcrumbItems = displayHub
+    ? [
+        { name: displayHub.title, url: `/hub/${displayHub.slug}` },
+        { name: article.title, url: `/article/${article.slug}` }
+      ]
+    : [{ name: article.title, url: `/article/${article.slug}` }];
 
   return (
     <div className="min-h-screen bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        
-        {/* Breadcrumb */}
-        <div className="mb-8">
-           <Link to={displayHub ? `/hub/${displayHub.slug}` : '/'} className="flex items-center gap-2 text-emerald-600 font-medium hover:underline text-sm uppercase tracking-wide">
-             <ArrowLeft size={16} /> Back to {displayHub ? displayHub.title : 'Hub'}
-           </Link>
-        </div>
+      {/* Schema Markup */}
+      <SchemaMarkup
+        type="article"
+        title={article.title}
+        description={article.metaDescription || article.excerpt}
+        author={article.author}
+        publishDate={article.publishDate}
+        lastUpdated={article.lastUpdated}
+        url={currentUrl}
+      />
+      {article.faqs && article.faqs.length > 0 && (
+        <SchemaMarkup type="faq" faqs={article.faqs} />
+      )}
 
-        <div className="lg:grid lg:grid-cols-12 gap-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+
+        {/* Breadcrumb */}
+        <Breadcrumb items={breadcrumbItems} />
+
+        <div className="lg:grid lg:grid-cols-12 gap-12 mt-6">
           <div className="lg:col-span-8">
-            
+
             {/* Header */}
             <h1 className="text-3xl md:text-5xl font-serif font-bold text-emerald-950 mb-6 leading-tight">
               {article.title}
             </h1>
 
-            {/* Author Meta */}
-            <div className="flex flex-wrap items-center gap-6 text-gray-500 text-sm mb-10 border-b border-gray-100 pb-8">
-              <div className="flex items-center gap-2">
-                <div className="w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-700 font-bold">
-                  {article.author.name.charAt(0)}
-                </div>
-                <div>
-                  <span className="font-bold text-gray-900 block">{article.author.name}</span>
-                  <span className="text-xs">{article.author.role}</span>
-                </div>
-              </div>
-              <div className="flex items-center gap-2">
-                 <Calendar size={16} /> <span>Published {new Date(article.publishDate).toLocaleDateString()}</span>
-              </div>
-              <div className="flex items-center gap-2 bg-emerald-50 px-2 py-1 rounded text-emerald-700 text-xs font-bold">
-                 <CheckCircle size={14} /> Fact Checked
-              </div>
-            </div>
+            {/* Author Meta - Compact Version */}
+            <AuthorBio
+              author={article.author}
+              reviewer={article.reviewer}
+              publishDate={article.publishDate}
+              lastUpdated={article.lastUpdated}
+              compact={true}
+            />
 
             {/* Lead Paragraph */}
-            <p className="text-xl text-gray-600 mb-10 leading-relaxed font-serif">
+            <p className="text-xl text-gray-600 mt-8 mb-10 leading-relaxed font-serif">
               {article.excerpt}
             </p>
 
@@ -76,11 +87,30 @@ const ArticlePage: React.FC = () => {
               </div>
             )}
 
+            {/* Table of Contents - for long articles */}
+            {article.sections && article.sections.filter(s => s.title).length >= 3 && (
+              <nav className="bg-gray-50 rounded-lg p-6 mb-10 border border-gray-200">
+                <h4 className="font-bold text-gray-900 mb-3 text-sm uppercase tracking-wide">In This Article</h4>
+                <ul className="space-y-2">
+                  {article.sections.filter(s => s.title).map((section, idx) => (
+                    <li key={idx}>
+                      <a
+                        href={`#section-${idx}`}
+                        className="text-emerald-700 hover:text-emerald-900 hover:underline text-sm"
+                      >
+                        {section.title}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </nav>
+            )}
+
             {/* Dynamic Content Sections */}
             <div className="space-y-12">
               {article.sections && article.sections.map((section, idx) => (
-                <div key={idx} className="prose prose-lg prose-emerald max-w-none">
-                  
+                <div key={idx} id={`section-${idx}`} className="prose prose-lg prose-emerald max-w-none scroll-mt-24">
+
                   {/* Text Section */}
                   {section.type === 'text' && (
                     <>
@@ -91,7 +121,10 @@ const ArticlePage: React.FC = () => {
 
                   {/* Calculator Section */}
                   {section.type === 'calculator' && section.calculatorType === 'retirement-4-percent' && (
-                    <RetirementCalculator />
+                    <>
+                      <RetirementCalculator />
+                      <Disclaimer type="calculator" />
+                    </>
                   )}
 
                   {/* List / Steps Section */}
@@ -142,7 +175,7 @@ const ArticlePage: React.FC = () => {
                        </div>
                     </div>
                   )}
-                  
+
                   {/* Table Section */}
                   {section.type === 'table' && section.tableData && (
                     <div className="my-8">
@@ -214,6 +247,17 @@ const ArticlePage: React.FC = () => {
               </Link>
             </div>
 
+            {/* Author Bio - Full Version */}
+            <AuthorBio
+              author={article.author}
+              reviewer={article.reviewer}
+              publishDate={article.publishDate}
+              lastUpdated={article.lastUpdated}
+            />
+
+            {/* Disclaimer */}
+            <Disclaimer type="standard" />
+
           </div>
 
           {/* Sidebar */}
@@ -229,11 +273,11 @@ const ArticlePage: React.FC = () => {
                  </div>
                </div>
 
-               {/* Related Articles (Placeholder for now based on same hub) */}
+               {/* Related Articles */}
                <div className="bg-gray-50 p-6 rounded-xl border border-gray-200">
                  <h4 className="font-bold text-gray-900 mb-4 uppercase tracking-wide text-xs">More on {displayHub?.title}</h4>
                  <ul className="space-y-4">
-                    {MOCK_ARTICLES.filter(a => a.hubId === article.hubId && a.id !== article.id).map(rel => (
+                    {MOCK_ARTICLES.filter(a => a.hubId === article.hubId && a.id !== article.id).slice(0, 5).map(rel => (
                       <li key={rel.id}>
                         <Link to={`/article/${rel.slug}`} className="group block">
                           <span className="text-gray-800 font-medium group-hover:text-emerald-700 leading-snug block mb-1">{rel.title}</span>

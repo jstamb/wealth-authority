@@ -30,102 +30,162 @@ export const HUBS: TopicHub[] = [
     id: 'retirement',
     title: 'Retirement Planning',
     slug: 'retirement-planning',
-    description: 'Strategies for building and preserving wealth through retirement.',
+    description: 'Comprehensive strategies for building, preserving, and distributing wealth through retirement. Learn about savings targets, withdrawal strategies, Social Security optimization, and healthcare planning from certified financial experts.',
     iconName: 'TrendingUp',
     keyTakeaways: [
-      'Start saving early to maximize compound growth',
-      'Diversify your retirement accounts (401k, IRA, Roth)',
-      'Plan for healthcare costs in retirement',
-      'Consider your Social Security claiming strategy'
+      'Target saving 10-12x your final salary by retirement age',
+      'Start early to maximize compound growth—even small amounts matter',
+      'Diversify across tax-advantaged accounts (401k, Traditional IRA, Roth IRA)',
+      'Budget $300,000+ for healthcare costs in retirement as a couple',
+      'Delay Social Security to age 70 to maximize lifetime benefits (8% annual increase)',
+      'Consider sequence of returns risk when planning withdrawals'
     ],
+    expertQuote: {
+      text: 'The biggest mistake I see is people not starting early enough. Time is your greatest asset in retirement planning—a 25-year-old investing $500/month will have more at 65 than a 35-year-old investing $1,000/month.',
+      author: 'Michael Chen',
+      credentials: 'CFP, CFA | 25+ Years in Retirement Planning'
+    },
     faqs: [
-      { question: 'How much do I need to retire?', answer: 'Most experts recommend having 10-12x your final salary saved, but your specific number depends on your lifestyle and location.' },
-      { question: 'When should I start taking Social Security?', answer: 'Delaying until age 70 maximizes your benefit, but the right age depends on your health, finances, and other income sources.' }
+      { question: 'How much do I need to retire?', answer: 'Most experts recommend having 10-12x your final salary saved. For someone earning $100,000, that means $1-1.2 million. However, your specific number depends on your desired lifestyle, location, healthcare needs, and other income sources like Social Security or pensions.' },
+      { question: 'When should I start taking Social Security?', answer: 'Delaying until age 70 maximizes your benefit by 8% per year past full retirement age. However, the optimal age depends on your health, life expectancy, spousal benefits, and other income sources. Those with health concerns or immediate financial needs may benefit from claiming earlier.' },
+      { question: 'What is the 4% rule?', answer: 'The 4% rule suggests you can withdraw 4% of your portfolio in year one of retirement, then adjust for inflation annually, with a high probability your money lasts 30 years. However, many advisors now suggest 3-3.5% for early retirees or during periods of low expected returns.' },
+      { question: 'Should I pay off my mortgage before retiring?', answer: 'It depends on your mortgage rate versus expected investment returns. If your mortgage rate is below 4-5%, investing the money may provide better returns. However, the psychological benefit of being debt-free in retirement is valuable for many people.' },
+      { question: 'How do I handle healthcare before Medicare at 65?', answer: 'Options include COBRA coverage (up to 18 months), ACA marketplace plans, spouse employer coverage, or health sharing ministries. Budget $500-1,500/month for quality coverage. Some early retirees work part-time specifically for health benefits.' }
     ]
   },
   {
     id: 'financial-planning',
     title: 'Financial Planning',
     slug: 'financial-planning',
-    description: 'Comprehensive strategies for managing your complete financial picture.',
+    description: 'Comprehensive strategies for managing your complete financial picture, from budgeting and debt management to insurance and goal-setting. Build a solid foundation for long-term wealth with expert guidance.',
     iconName: 'PieChart',
     keyTakeaways: [
-      'Create a comprehensive budget and stick to it',
-      'Build an emergency fund of 3-6 months expenses',
-      'Pay off high-interest debt first',
-      'Invest consistently regardless of market conditions'
+      'Follow the 50/30/20 rule: 50% needs, 30% wants, 20% savings',
+      'Build an emergency fund covering 3-6 months of essential expenses',
+      'Prioritize high-interest debt (above 7%) before aggressive investing',
+      'Automate savings and investments to remove emotional decision-making',
+      'Review and update your financial plan annually or after major life events',
+      'Understand your complete net worth, not just your bank balance'
     ],
+    expertQuote: {
+      text: 'Financial planning is not about predicting the future—it is about preparing for multiple futures. A good plan accounts for job loss, market downturns, health emergencies, and unexpected opportunities.',
+      author: 'Sarah Williams',
+      credentials: 'CFP, ChFC | Founder, Williams Wealth Advisory'
+    },
     faqs: [
-      { question: 'Do I need a financial advisor?', answer: 'If you have complex finances, significant assets, or lack time to manage investments, a fiduciary advisor can add significant value.' },
-      { question: 'How much should I save each month?', answer: 'Aim to save at least 20% of your income, with 15% going toward retirement.' }
+      { question: 'Do I need a financial advisor?', answer: 'Consider an advisor if you have complex finances (multiple income sources, stock options, inheritance), significant assets ($500k+), or simply lack time to manage investments properly. A good fiduciary advisor typically adds 1-3% in annual value through tax optimization, behavioral coaching, and proper asset allocation.' },
+      { question: 'How much should I save each month?', answer: 'Aim to save at least 20% of gross income. Prioritize: 1) Employer 401k match (free money), 2) High-interest debt payoff, 3) Emergency fund, 4) Max retirement accounts, 5) Taxable investing. If 20% feels impossible, start with 10% and increase 1% each year.' },
+      { question: 'What is a good net worth for my age?', answer: 'A common benchmark: by 30, have 1x salary saved; by 40, have 3x; by 50, have 6x; by 60, have 8x; by 67, have 10x. However, these are averages—your target depends on desired retirement lifestyle and location.' },
+      { question: 'Should I pay off debt or invest?', answer: 'Generally, pay off debt above 7% interest before investing beyond employer match. For lower-rate debt (mortgage, student loans), the math often favors investing, but psychological peace of mind from being debt-free has real value.' },
+      { question: 'How often should I review my financial plan?', answer: 'Conduct a comprehensive review annually and after major life events (marriage, children, job change, inheritance, home purchase). Monthly check-ins on spending and quarterly portfolio reviews are also recommended.' }
     ]
   },
   {
     id: 'find-advisor',
     title: 'Find an Advisor',
     slug: 'find-advisor',
-    description: 'How to find and vet the right wealth manager for your needs.',
+    description: 'Learn how to find, vet, and work with the right wealth manager for your unique financial situation. Understand fiduciary duty, fee structures, credentials, and the questions to ask before hiring.',
     iconName: 'Users',
     keyTakeaways: [
-      'Always work with a fiduciary who puts your interests first',
-      'Understand fee structures before committing',
-      'Check credentials and regulatory history',
-      'Interview multiple advisors before deciding'
+      'Always verify fiduciary status—advisors must put your interests first',
+      'Understand all fees: AUM, flat fees, hourly rates, and hidden costs',
+      'Check credentials (CFP, CFA, CPA) and verify through FINRA BrokerCheck',
+      'Interview at least 3 advisors before making a decision',
+      'Ask about their investment philosophy and typical client profile',
+      'Ensure clear communication style and accessibility match your needs'
     ],
+    expertQuote: {
+      text: 'The most important question to ask any advisor is "Are you a fiduciary 100% of the time?" Many advisors are only fiduciaries sometimes, which creates conflicts of interest that can cost you significantly over time.',
+      author: 'Jennifer Martinez',
+      credentials: 'CFP, JD | Consumer Finance Advocate'
+    },
     faqs: [
-      { question: 'What is a fiduciary?', answer: 'A fiduciary is legally required to act in your best interest, unlike brokers who only need to recommend "suitable" products.' },
-      { question: 'How much do financial advisors charge?', answer: 'Typical fees range from 0.5% to 1.5% of assets under management annually, though fee structures vary.' }
+      { question: 'What is a fiduciary?', answer: 'A fiduciary is legally required to act in your best interest at all times, not just recommend "suitable" products. This means they must disclose conflicts of interest, avoid self-dealing, and put your financial welfare above their own compensation. Not all financial advisors are fiduciaries.' },
+      { question: 'How much do financial advisors charge?', answer: 'Common fee structures: AUM fees (0.5-1.5% annually), flat retainer ($2,000-$10,000/year), hourly ($150-$400/hour), or commission-based. For a $1 million portfolio at 1% AUM, expect to pay $10,000/year. Fee-only advisors generally have fewer conflicts than commission-based advisors.' },
+      { question: 'What credentials should I look for?', answer: 'CFP (Certified Financial Planner) is the gold standard for comprehensive planning. CFA (Chartered Financial Analyst) indicates investment expertise. CPA with PFS (Personal Financial Specialist) combines tax and planning. Check credentials are active and verify through issuing organizations.' },
+      { question: 'How do I verify an advisors background?', answer: 'Use FINRA BrokerCheck (brokercheck.finra.org) for brokers and SEC Investment Adviser Public Disclosure for RIAs. Look for any disciplinary actions, customer complaints, or employment terminations. Check state securities regulators for additional records.' },
+      { question: 'When do I need a wealth manager vs financial planner?', answer: 'Wealth managers typically serve clients with $500k+ and provide comprehensive services including investment management, tax planning, and estate planning. Financial planners may work with smaller accounts and focus more on budgeting, debt management, and goal planning. Both can be valuable depending on your needs.' }
     ]
   },
   {
     id: 'tax-planning',
     title: 'Tax Planning',
     slug: 'tax-planning',
-    description: 'Legal strategies to minimize your tax burden and maximize wealth.',
+    description: 'Legal strategies to minimize your tax burden and maximize wealth accumulation. Learn about tax-loss harvesting, Roth conversions, charitable giving, capital gains management, and state tax optimization from tax planning experts.',
     iconName: 'Calculator',
     keyTakeaways: [
-      'Maximize tax-advantaged accounts annually',
-      'Consider tax-loss harvesting opportunities',
-      'Plan charitable giving strategically',
-      'Understand capital gains implications'
+      'Max out 401k ($23,000 in 2024) and IRA ($7,000) contributions annually',
+      'Use tax-loss harvesting to offset gains and reduce taxable income',
+      'Time Roth conversions during low-income years for tax-free growth',
+      'Donate appreciated stock directly to charity to avoid capital gains',
+      'Hold investments 1+ year to qualify for lower long-term capital gains rates',
+      'Consider state tax implications when relocating or establishing domicile'
     ],
+    expertQuote: {
+      text: 'Tax planning should happen year-round, not just in April. The best strategies—Roth conversions, tax-loss harvesting, charitable giving—require advance planning. By December, many opportunities have already passed.',
+      author: 'Robert Kim',
+      credentials: 'CPA, CFP | Tax Strategy Director, 20+ Years'
+    },
     faqs: [
-      { question: 'How can I reduce my tax bill?', answer: 'Maximize retirement contributions, use tax-loss harvesting, consider municipal bonds, and time income recognition strategically.' },
-      { question: 'Should I convert to a Roth IRA?', answer: 'Roth conversions make sense if you expect higher tax rates in retirement or want tax-free growth for heirs.' }
+      { question: 'How can I reduce my tax bill?', answer: 'Key strategies include: maximizing retirement contributions, tax-loss harvesting, investing in municipal bonds for tax-free income, timing income recognition (defer bonuses, accelerate deductions), qualified charitable distributions from IRAs after 70.5, and strategic Roth conversions during low-income years.' },
+      { question: 'Should I convert to a Roth IRA?', answer: 'Roth conversions make sense if: you expect higher tax rates in retirement, you want tax-free growth for heirs, you have a long time horizon, or you are in a temporarily low tax bracket. The taxes paid now fund tax-free withdrawals later. Consider converting gradually to avoid jumping tax brackets.' },
+      { question: 'What is tax-loss harvesting?', answer: 'Tax-loss harvesting involves selling investments at a loss to offset capital gains and reduce taxable income (up to $3,000/year against ordinary income). You can reinvest in similar (not identical) securities to maintain market exposure. Watch for wash sale rules—cannot repurchase substantially identical securities within 30 days.' },
+      { question: 'How do capital gains taxes work?', answer: 'Short-term gains (held under 1 year) are taxed as ordinary income (up to 37%). Long-term gains (held 1+ year) are taxed at 0%, 15%, or 20% depending on income. The 3.8% Net Investment Income Tax applies to high earners. Strategic timing of sales can significantly reduce your tax bill.' },
+      { question: 'What are the best tax-advantaged accounts?', answer: 'In order of typical priority: 1) 401k to employer match (free money), 2) HSA if eligible (triple tax advantage), 3) Roth or Traditional IRA, 4) Rest of 401k, 5) 529 for education, 6) Taxable brokerage. Mega backdoor Roth and backdoor Roth IRA strategies may be available for high earners.' }
     ]
   },
   {
     id: 'estate-planning',
     title: 'Estate Planning',
     slug: 'estate-planning',
-    description: 'Protect your legacy and transfer wealth efficiently to the next generation.',
+    description: 'Protect your legacy and transfer wealth efficiently to the next generation. Learn about wills, trusts, beneficiary designations, powers of attorney, and strategies to minimize estate taxes and avoid probate.',
     iconName: 'Shield',
     keyTakeaways: [
-      'Everyone needs at least a basic will',
-      'Review beneficiary designations regularly',
-      'Consider trusts for complex situations',
-      'Plan for incapacity with power of attorney'
+      'Everyone needs at minimum a will, healthcare directive, and power of attorney',
+      'Review beneficiary designations annually—they override your will',
+      'Revocable living trusts avoid probate and provide privacy',
+      'Irrevocable trusts can reduce estate taxes but require giving up control',
+      'Gift up to $18,000/person annually ($36,000 for couples) tax-free',
+      'Life insurance proceeds are generally tax-free but may be subject to estate tax'
     ],
+    expertQuote: {
+      text: 'The biggest estate planning mistake is not having a plan at all. Without proper documents, your state decides who gets your assets, who raises your children, and who makes medical decisions for you. That is rarely what people would have chosen.',
+      author: 'Patricia Nguyen',
+      credentials: 'JD, TEP | Estate Planning Attorney, 30+ Years'
+    },
     faqs: [
-      { question: 'Do I need a trust?', answer: 'Trusts can avoid probate, provide privacy, and offer more control over asset distribution, but simple estates may only need a will.' },
-      { question: 'What is the estate tax exemption?', answer: 'The federal exemption is approximately $13 million per person in 2024, but state exemptions vary significantly.' }
+      { question: 'Do I need a trust?', answer: 'Trusts are valuable for: avoiding probate (saves time and money), maintaining privacy, controlling distribution timing (for minors or spendthrift heirs), providing for special needs beneficiaries, and reducing estate taxes. Simple estates under $1 million with straightforward beneficiaries may only need a will, but revocable living trusts are increasingly common.' },
+      { question: 'What is the estate tax exemption?', answer: 'The 2024 federal exemption is $13.61 million per person ($27.22 million for married couples with portability). This is scheduled to drop to approximately $7 million in 2026 unless Congress acts. Many states have lower exemptions—Massachusetts and Oregon tax estates over $1 million.' },
+      { question: 'What documents do I need?', answer: 'Essential documents include: 1) Last Will and Testament, 2) Revocable Living Trust (optional but recommended), 3) Durable Power of Attorney for finances, 4) Healthcare Power of Attorney/Proxy, 5) Living Will/Advance Directive, 6) HIPAA Authorization. Update these every 3-5 years or after major life events.' },
+      { question: 'How can I avoid probate?', answer: 'Strategies include: revocable living trusts (most comprehensive), beneficiary designations on retirement accounts and life insurance, payable-on-death (POD) bank accounts, transfer-on-death (TOD) brokerage accounts, and joint ownership with right of survivorship. Each has pros and cons depending on your situation.' },
+      { question: 'What happens if I die without a will?', answer: 'Your state intestacy laws determine who inherits your assets—typically spouse and children in varying proportions. Unmarried partners receive nothing. The court appoints an administrator for your estate and potentially a guardian for minor children. The process takes longer and costs more than with proper planning.' }
     ]
   },
   {
     id: 'investment',
     title: 'Investment Strategies',
     slug: 'investment-strategies',
-    description: 'Build and protect wealth through smart investment decisions.',
+    description: 'Build and protect wealth through smart, evidence-based investment decisions. Learn about asset allocation, diversification, index investing, risk management, and behavioral finance from investment professionals.',
     iconName: 'BarChart',
     keyTakeaways: [
-      'Diversification reduces risk without sacrificing returns',
-      'Keep investment costs low with index funds',
-      'Rebalance your portfolio annually',
-      'Stay invested through market volatility'
+      'Diversification across asset classes reduces risk without sacrificing expected returns',
+      'Low-cost index funds outperform most actively managed funds over time',
+      'Asset allocation determines 90%+ of portfolio returns—get this right first',
+      'Rebalance your portfolio annually or when allocations drift 5%+ from targets',
+      'Time in the market beats timing the market—stay invested through volatility',
+      'Understand your true risk tolerance before a market crash tests it'
     ],
+    expertQuote: {
+      text: 'The stock market is a device for transferring money from the impatient to the patient. The investors who build real wealth are those who stay disciplined through market cycles, keeping costs low and emotions out of their decisions.',
+      author: 'Dr. James Richardson',
+      credentials: 'PhD Economics, CFA | Investment Research Director'
+    },
     faqs: [
-      { question: 'Should I try to time the market?', answer: 'No. Studies consistently show that time in the market beats timing the market. Stay invested for the long term.' },
-      { question: 'How should I allocate my portfolio?', answer: 'A common rule is to subtract your age from 110 to get your stock allocation percentage, but your risk tolerance and timeline matter more.' }
+      { question: 'Should I try to time the market?', answer: 'No. Research consistently shows that time in the market beats timing the market. Missing just the 10 best days over 20 years can cut your returns in half. The best strategy is consistent investing regardless of market conditions (dollar-cost averaging) and staying invested for the long term.' },
+      { question: 'How should I allocate my portfolio?', answer: 'A common starting point is subtracting your age from 110-120 to get your stock allocation percentage. A 40-year-old might hold 70-80% stocks, 20-30% bonds. However, your risk tolerance, time horizon, income stability, and financial goals matter more than any formula. Consider working with an advisor for a personalized allocation.' },
+      { question: 'What are index funds and why are they popular?', answer: 'Index funds track a market index (like the S&P 500) rather than trying to beat it. They offer broad diversification, very low costs (0.03-0.20% vs 1%+ for active funds), tax efficiency, and have outperformed 80-90% of actively managed funds over 15+ year periods. Warren Buffett recommends them for most investors.' },
+      { question: 'How much should I keep in bonds?', answer: 'Bond allocation typically increases with age and as you approach needing the money. General guidelines: 20s-30s: 10-20% bonds, 40s-50s: 20-40%, 60s+: 40-60%. Bonds provide stability, income, and dry powder to buy stocks during downturns. Your specific allocation depends on risk tolerance and other income sources.' },
+      { question: 'What is rebalancing and why does it matter?', answer: 'Rebalancing means selling winners and buying losers to maintain your target allocation. If stocks surge from 70% to 80% of your portfolio, you sell stocks and buy bonds to return to 70/30. This forces "buy low, sell high" discipline. Rebalance annually or when allocations drift 5%+ from targets. Some advisors use "rebalancing bands" for a more systematic approach.' }
     ]
   }
 ];

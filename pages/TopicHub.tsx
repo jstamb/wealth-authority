@@ -1,8 +1,11 @@
 import React from 'react';
 import { useParams, Navigate, Link } from 'react-router-dom';
 import { HUBS, MOCK_ARTICLES } from '../constants';
-import { FileText, ArrowRight, Quote, Plus, Minus } from 'lucide-react';
+import { ArrowRight, Quote, Plus, Minus, Clock, CheckCircle } from 'lucide-react';
 import LeadForm from '../components/LeadForm';
+import Breadcrumb from '../components/Breadcrumb';
+import Disclaimer from '../components/Disclaimer';
+import SchemaMarkup from '../components/SchemaMarkup';
 
 const TopicHub: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -14,26 +17,42 @@ const TopicHub: React.FC = () => {
   }
 
   const articles = MOCK_ARTICLES.filter(a => a.hubId === hub.id);
+  const breadcrumbItems = [{ name: hub.title, url: `/hub/${hub.slug}` }];
 
   return (
     <div className="min-h-screen bg-white">
+      {/* Schema Markup */}
+      {hub.faqs.length > 0 && (
+        <SchemaMarkup type="faq" faqs={hub.faqs} />
+      )}
+
       {/* Hub Hero */}
-      <div className="bg-gray-50 border-b border-gray-200">
+      <div className="bg-gradient-to-br from-emerald-900 to-emerald-950">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-          <div className="flex items-center gap-2 text-emerald-600 font-bold uppercase tracking-wider text-sm mb-4">
-             Hub / {hub.title}
+          <Breadcrumb items={breadcrumbItems} />
+          <div className="mt-6">
+            <h1 className="text-4xl md:text-5xl font-serif font-bold text-white mb-6">{hub.title}</h1>
+            <p className="text-xl text-emerald-100 max-w-3xl leading-relaxed">{hub.description}</p>
+            <div className="mt-6 flex items-center gap-4 text-emerald-200 text-sm">
+              <span className="flex items-center gap-2">
+                <Clock className="w-4 h-4" />
+                {articles.length} Comprehensive Guides
+              </span>
+              <span className="flex items-center gap-2">
+                <CheckCircle className="w-4 h-4" />
+                Expert Reviewed
+              </span>
+            </div>
           </div>
-          <h1 className="text-4xl md:text-5xl font-serif font-bold text-emerald-950 mb-6">{hub.title}</h1>
-          <p className="text-xl text-gray-600 max-w-3xl leading-relaxed">{hub.description}</p>
         </div>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="lg:grid lg:grid-cols-12 gap-12">
-          
+
           {/* Main Content Column */}
           <div className="lg:col-span-8 space-y-16">
-            
+
             {/* Key Takeaways */}
             {hub.keyTakeaways.length > 0 && (
               <div className="bg-emerald-50 rounded-xl p-8 border border-emerald-100">
@@ -51,13 +70,35 @@ const TopicHub: React.FC = () => {
               </div>
             )}
 
+            {/* Table of Contents */}
+            {articles.length > 3 && (
+              <nav className="bg-gray-50 rounded-lg p-6 border border-gray-200">
+                <h3 className="font-bold text-gray-900 mb-4 text-sm uppercase tracking-wide">In This Guide</h3>
+                <ul className="grid md:grid-cols-2 gap-2">
+                  {articles.map((article, idx) => (
+                    <li key={article.id}>
+                      <Link
+                        to={`/article/${article.slug}`}
+                        className="text-emerald-700 hover:text-emerald-900 hover:underline text-sm flex items-center gap-2"
+                      >
+                        <span className="text-emerald-400">{idx + 1}.</span>
+                        {article.title}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </nav>
+            )}
+
             {/* Articles List */}
             <div>
-              <h2 className="text-2xl font-serif font-bold text-emerald-950 border-b border-gray-200 pb-4 mb-8">Latest Guides</h2>
+              <h2 className="text-2xl font-serif font-bold text-emerald-950 border-b border-gray-200 pb-4 mb-8">
+                {hub.title} Guides
+              </h2>
               {articles.length > 0 ? (
                 <div className="grid gap-8">
                   {articles.map(article => (
-                    <div key={article.id} className="group cursor-pointer bg-white rounded-xl hover:bg-gray-50 transition-colors p-6 border border-gray-100 shadow-sm hover:shadow-md">
+                    <article key={article.id} className="group cursor-pointer bg-white rounded-xl hover:bg-gray-50 transition-colors p-6 border border-gray-100 shadow-sm hover:shadow-md">
                       <Link to={`/article/${article.slug}`} className="block">
                         <div className="flex items-center gap-3 text-xs text-emerald-600 font-bold uppercase tracking-wider mb-2">
                            <span>Guide</span>
@@ -68,11 +109,21 @@ const TopicHub: React.FC = () => {
                           {article.title}
                         </h3>
                         <p className="text-gray-600 mb-4 leading-relaxed">{article.excerpt}</p>
+                        {article.keyTakeaways && article.keyTakeaways.length > 0 && (
+                          <ul className="mb-4 space-y-1">
+                            {article.keyTakeaways.slice(0, 2).map((takeaway, idx) => (
+                              <li key={idx} className="text-sm text-gray-500 flex items-start gap-2">
+                                <CheckCircle className="w-4 h-4 text-emerald-500 flex-shrink-0 mt-0.5" />
+                                <span>{takeaway}</span>
+                              </li>
+                            ))}
+                          </ul>
+                        )}
                         <span className="text-emerald-700 font-bold flex items-center gap-1 group-hover:gap-2 transition-all">
                           Read Full Article <ArrowRight size={16} />
                         </span>
                       </Link>
-                    </div>
+                    </article>
                   ))}
                 </div>
               ) : (
@@ -123,6 +174,25 @@ const TopicHub: React.FC = () => {
               </div>
             )}
 
+            {/* CTA Section */}
+            <div className="bg-gradient-to-r from-emerald-800 to-emerald-900 rounded-2xl p-8 text-center">
+              <h3 className="text-2xl font-serif font-bold text-white mb-4">
+                Ready to Get Expert Help with {hub.title}?
+              </h3>
+              <p className="text-emerald-100 mb-6 max-w-xl mx-auto">
+                Connect with a vetted, fiduciary wealth manager who specializes in {hub.title.toLowerCase()}.
+              </p>
+              <Link
+                to="/find-advisor"
+                className="inline-block bg-white text-emerald-900 font-bold py-3 px-8 rounded-lg hover:bg-emerald-50 transition-colors"
+              >
+                Find Your Advisor
+              </Link>
+            </div>
+
+            {/* Disclaimer */}
+            <Disclaimer type="standard" />
+
           </div>
 
           {/* Sidebar */}
@@ -136,6 +206,24 @@ const TopicHub: React.FC = () => {
                 <div className="p-4">
                   <LeadForm isCompact={true} />
                 </div>
+              </div>
+
+              {/* Related Hubs */}
+              <div className="bg-gray-50 p-6 rounded-xl border border-gray-200">
+                <h4 className="font-bold text-gray-900 mb-4 uppercase tracking-wide text-xs">Related Topics</h4>
+                <ul className="space-y-3">
+                  {HUBS.filter(h => h.id !== hub.id).slice(0, 4).map(relatedHub => (
+                    <li key={relatedHub.id}>
+                      <Link
+                        to={`/hub/${relatedHub.slug}`}
+                        className="text-gray-700 hover:text-emerald-700 flex items-center gap-2"
+                      >
+                        <ArrowRight className="w-4 h-4 text-emerald-500" />
+                        {relatedHub.title}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
               </div>
             </div>
           </div>

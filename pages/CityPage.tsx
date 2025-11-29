@@ -2,6 +2,9 @@ import React from 'react';
 import { useParams, Navigate, Link } from 'react-router-dom';
 import { CITIES, HUBS } from '../constants';
 import LeadForm from '../components/LeadForm';
+import Breadcrumb from '../components/Breadcrumb';
+import Disclaimer from '../components/Disclaimer';
+import SchemaMarkup from '../components/SchemaMarkup';
 import { MapPin, ArrowRight, Building2, TrendingUp, Users, Plus, Minus, Home, Percent, Wallet } from 'lucide-react';
 
 const CityPage: React.FC = () => {
@@ -13,19 +16,38 @@ const CityPage: React.FC = () => {
     return <Navigate to="/" replace />;
   }
 
+  const breadcrumbItems = [
+    { name: 'Find an Advisor', url: '/find-advisor' },
+    { name: `${city.name}, ${city.state}`, url: `/city/${city.slug}` }
+  ];
+
   return (
     <div className="min-h-screen bg-gray-50">
-      
+      {/* Schema Markup */}
+      <SchemaMarkup type="localBusiness" cityName={city.name} stateName={city.state} />
+      {city.faqs && city.faqs.length > 0 && (
+        <SchemaMarkup type="faq" faqs={city.faqs} />
+      )}
+
       {/* City Hero */}
       <div className="relative min-h-[600px] flex items-center py-20">
         <div className="absolute inset-0 overflow-hidden">
           <img src={city.image} alt={city.name} className="w-full h-full object-cover" />
-          <div className="absolute inset-0 bg-black/10"></div>
+          <div className="absolute inset-0 bg-black/40"></div>
         </div>
-        
+
+        {/* Breadcrumb - positioned at top */}
+        <div className="absolute top-0 left-0 right-0 z-10">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-4">
+            <div className="[&_a]:text-white [&_a:hover]:text-emerald-200 [&_span]:text-white/80 [&_svg]:text-white/60">
+              <Breadcrumb items={breadcrumbItems} />
+            </div>
+          </div>
+        </div>
+
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
           <div className="lg:grid lg:grid-cols-12 gap-8 lg:gap-12 items-center">
-            
+
             {/* Left Content Card */}
             <div className="lg:col-span-7 bg-white/95 backdrop-blur-sm p-8 md:p-10 rounded-2xl shadow-2xl mb-8 lg:mb-0 border border-gray-100">
               <div className="inline-flex items-center gap-2 bg-emerald-50 px-3 py-1 rounded-full text-emerald-700 text-sm font-bold mb-6 border border-emerald-100">
@@ -168,6 +190,9 @@ const CityPage: React.FC = () => {
                 ))}
               </div>
             </div>
+
+            {/* Disclaimer */}
+            <Disclaimer type="standard" />
 
           </div>
 

@@ -4,6 +4,15 @@ export interface Author {
   role: string;
   image?: string;
   credentials?: string;
+  bio?: string;
+  linkedIn?: string;
+  experience?: string;
+}
+
+export interface SEOMetadata {
+  primaryKeyword: string;
+  metaDescription: string;
+  lastUpdated?: string;
 }
 
 export interface FAQItem {
@@ -79,10 +88,14 @@ export interface Article {
   author: Author;
   reviewer?: Author;
   publishDate: string;
+  lastUpdated?: string;
+  primaryKeyword?: string;
+  metaDescription?: string;
   keyTakeaways: string[];
   sections: ContentSection[];
   faqs?: FAQItem[];
   bottomLine: string;
+  wordCount?: number;
 }
 
 export interface LeadFormData {
