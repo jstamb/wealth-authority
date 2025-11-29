@@ -238,6 +238,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.wealthauthority.org/article/estate-planning-denver</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.wealthauthority.org/article/estate-planning-houston</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -248,7 +253,17 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.wealthauthority.org/article/estate-planning-miami</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.wealthauthority.org/article/estate-planning-nyc</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.wealthauthority.org/article/estate-planning-phoenix</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -348,6 +363,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.wealthauthority.org/article/high-net-worth-denver</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.wealthauthority.org/article/high-net-worth-houston</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -358,7 +378,17 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.wealthauthority.org/article/high-net-worth-miami</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.wealthauthority.org/article/high-net-worth-nyc</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.wealthauthority.org/article/high-net-worth-phoenix</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -418,6 +448,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.wealthauthority.org/article/investment-strategies-denver</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.wealthauthority.org/article/investment-strategies-houston</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -428,7 +463,17 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.wealthauthority.org/article/investment-strategies-miami</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.wealthauthority.org/article/investment-strategies-nyc</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.wealthauthority.org/article/investment-strategies-phoenix</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -548,6 +593,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.wealthauthority.org/article/retirement-planning-denver</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.wealthauthority.org/article/retirement-planning-houston</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -558,7 +608,17 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.wealthauthority.org/article/retirement-planning-miami</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.wealthauthority.org/article/retirement-planning-nyc</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.wealthauthority.org/article/retirement-planning-phoenix</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -643,6 +703,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.wealthauthority.org/article/tax-planning-denver</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.wealthauthority.org/article/tax-planning-houston</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -653,7 +718,17 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.wealthauthority.org/article/tax-planning-miami</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.wealthauthority.org/article/tax-planning-nyc</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.wealthauthority.org/article/tax-planning-phoenix</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
