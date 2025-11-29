@@ -3,6 +3,9 @@ import { TopicHub, City, Article } from './types';
 import { RETIREMENT_ARTICLES } from './data/retirementArticles';
 import { FINANCIAL_PLANNING_ARTICLES } from './data/financialPlanningArticles';
 import { FIND_ADVISOR_ARTICLES } from './data/findAdvisorArticles';
+import { TAX_PLANNING_ARTICLES } from './data/taxPlanningArticles';
+import { ESTATE_PLANNING_ARTICLES } from './data/estatePlanningArticles';
+import { INVESTMENT_ARTICLES } from './data/investmentArticles';
 import { CITY_ARTICLES } from './data/cityArticles';
 
 // Asset ranges for lead form
@@ -407,5 +410,8 @@ export const MOCK_ARTICLES: Article[] = [
   ...RETIREMENT_ARTICLES,
   ...FINANCIAL_PLANNING_ARTICLES,
   ...FIND_ADVISOR_ARTICLES,
+  ...TAX_PLANNING_ARTICLES,
+  ...ESTATE_PLANNING_ARTICLES,
+  ...INVESTMENT_ARTICLES,
   ...CITY_ARTICLES
 ];

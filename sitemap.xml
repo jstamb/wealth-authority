@@ -252,6 +252,57 @@
     <priority>0.7</priority>
   </url>
 
+  <!-- Tax Planning Articles -->
+  <url>
+    <loc>https://www.wealthauthority.org/article/tax-loss-harvesting-guide</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.wealthauthority.org/article/roth-conversion-strategies</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.wealthauthority.org/article/charitable-giving-tax-strategies</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Estate Planning Articles -->
+  <url>
+    <loc>https://www.wealthauthority.org/article/revocable-living-trust-guide</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.wealthauthority.org/article/beneficiary-designations-guide</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.wealthauthority.org/article/power-of-attorney-guide</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Investment Strategy Articles -->
+  <url>
+    <loc>https://www.wealthauthority.org/article/asset-allocation-guide</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.wealthauthority.org/article/index-funds-vs-active-funds</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.wealthauthority.org/article/behavioral-investing-guide</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
   <!-- NYC City-Specific Articles -->
   <url>
     <loc>https://www.wealthauthority.org/article/retirement-planning-nyc</loc>
