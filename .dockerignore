@@ -2,7 +2,7 @@
 .git
 .gitignore
 
-# Dependencies (not needed for this app)
+# Dependencies - will be installed during build
 node_modules
 
 # IDE and editor files
@@ -15,9 +15,8 @@ node_modules
 .DS_Store
 Thumbs.db
 
-# Build files
+# Build output - will be created during build
 dist
-build
 
 # Environment files
 .env
@@ -26,10 +25,4 @@ build
 
 # Logs
 *.log
-
-# Development config
-vite.config.ts
-tsconfig.json
-
-# Documentation
-*.md
+npm-debug.log*
