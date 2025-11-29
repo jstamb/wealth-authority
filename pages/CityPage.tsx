@@ -1,11 +1,11 @@
 import React from 'react';
 import { useParams, Navigate, Link } from 'react-router-dom';
-import { CITIES, HUBS } from '../constants';
+import { CITIES, HUBS, MOCK_ARTICLES } from '../constants';
 import LeadForm from '../components/LeadForm';
 import Breadcrumb from '../components/Breadcrumb';
 import Disclaimer from '../components/Disclaimer';
 import SchemaMarkup from '../components/SchemaMarkup';
-import { MapPin, ArrowRight, Building2, TrendingUp, Users, Plus, Minus, Home, Percent, Wallet } from 'lucide-react';
+import { MapPin, ArrowRight, Building2, TrendingUp, Users, Plus, Minus, Home, Percent, Wallet, BookOpen, Clock } from 'lucide-react';
 
 const CityPage: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -15,6 +15,9 @@ const CityPage: React.FC = () => {
   if (!city) {
     return <Navigate to="/" replace />;
   }
+
+  // Filter articles that are specific to this city
+  const cityArticles = MOCK_ARTICLES.filter(article => article.hubId === city.id);
 
   const breadcrumbItems = [
     { name: 'Find an Advisor', url: '/find-advisor' },
@@ -173,6 +176,36 @@ const CityPage: React.FC = () => {
                         </div>
                       )}
                     </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* City Guides - Local Articles */}
+            {cityArticles.length > 0 && (
+              <div>
+                <h3 className="text-2xl font-serif font-bold text-emerald-950 mb-6">{city.name} Wealth Guides</h3>
+                <p className="text-gray-600 mb-6">Expert insights tailored specifically for {city.name} residents navigating local financial considerations.</p>
+                <div className="grid gap-4">
+                  {cityArticles.map(article => (
+                    <Link
+                      key={article.id}
+                      to={`/article/${article.slug}`}
+                      className="flex items-start gap-4 p-5 bg-white border border-gray-200 rounded-xl hover:border-emerald-500 hover:shadow-lg transition-all group"
+                    >
+                      <div className="w-12 h-12 bg-emerald-50 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:bg-emerald-100 transition-colors">
+                        <BookOpen size={24} className="text-emerald-600" />
+                      </div>
+                      <div className="flex-1 min-w-0">
+                        <h4 className="font-bold text-gray-900 group-hover:text-emerald-700 transition-colors mb-1">{article.title}</h4>
+                        <p className="text-sm text-gray-500 line-clamp-2">{article.excerpt}</p>
+                        <div className="flex items-center gap-4 mt-2 text-xs text-gray-400">
+                          <span className="flex items-center gap-1"><Clock size={12} /> {article.readTime}</span>
+                          <span className="bg-gray-100 px-2 py-0.5 rounded">{article.category}</span>
+                        </div>
+                      </div>
+                      <ArrowRight size={20} className="text-gray-300 group-hover:text-emerald-500 flex-shrink-0 mt-3" />
+                    </Link>
                   ))}
                 </div>
               </div>
