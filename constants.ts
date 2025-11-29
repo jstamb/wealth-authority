@@ -404,6 +404,188 @@ export const CITIES: City[] = [
     faqs: [
       { question: 'What is TABOR?', answer: 'The Taxpayer Bill of Rights limits government revenue growth and can result in refunds to taxpayers when revenues exceed limits.' }
     ]
+  },
+  {
+    id: 'san-francisco',
+    name: 'San Francisco',
+    slug: 'san-francisco',
+    tier: 1,
+    state: 'California',
+    description: 'Tech capital with highest state taxes but exceptional wealth-building opportunities.',
+    image: 'https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=800&q=80',
+    stats: {
+      medianHomePrice: '$1,300,000',
+      colIndex: 179,
+      incomeTax: '13.3% (State)'
+    },
+    localChallenges: [
+      { title: 'Extreme Housing Costs', description: 'Median home prices exceed $1.3 million in the city proper.' },
+      { title: 'High State Taxes', description: 'California\'s 13.3% top rate is the highest in the nation.' }
+    ],
+    keyTakeaways: [
+      'Tech RSUs and options require careful tax planning',
+      'Prop 13 benefits long-term homeowners significantly',
+      'Consider domicile planning for remote work situations'
+    ],
+    faqs: [
+      { question: 'Is it worth the high taxes to live in SF?', answer: 'For tech workers with equity compensation, SF offers unmatched career opportunities despite high taxes. Long-term residents benefit from Prop 13 property tax limits.' }
+    ]
+  },
+  {
+    id: 'dallas',
+    name: 'Dallas',
+    slug: 'dallas',
+    tier: 1,
+    state: 'Texas',
+    description: 'Business-friendly metroplex with no state income tax and growing financial sector.',
+    image: 'https://images.unsplash.com/photo-1545194445-dddb8f4487c6?w=800&q=80',
+    stats: {
+      medianHomePrice: '$400,000',
+      colIndex: 102,
+      incomeTax: '0%'
+    },
+    localChallenges: [
+      { title: 'Property Taxes', description: 'Texas has no income tax but property taxes average 2.2% of home value.' },
+      { title: 'Extreme Weather', description: 'Summer heat and occasional severe weather events require planning.' }
+    ],
+    keyTakeaways: [
+      'No state income tax on any income type',
+      'Corporate relocations are driving job growth',
+      'Lower cost of living than coastal metros'
+    ],
+    faqs: [
+      { question: 'How much can I save with no state income tax?', answer: 'High earners can save 5-13% compared to states like California or New York, potentially $50,000+ annually on $500,000 income.' }
+    ]
+  },
+  {
+    id: 'austin',
+    name: 'Austin',
+    slug: 'austin',
+    tier: 2,
+    state: 'Texas',
+    description: 'Fast-growing tech hub with no state income tax and vibrant culture.',
+    image: 'https://images.unsplash.com/photo-1531218150217-54595bc2b934?w=800&q=80',
+    stats: {
+      medianHomePrice: '$550,000',
+      colIndex: 112,
+      incomeTax: '0%'
+    },
+    localChallenges: [
+      { title: 'Rapid Growth', description: 'Population growth has driven housing costs up significantly.' },
+      { title: 'Property Taxes', description: 'High property tax rates offset the lack of income tax.' }
+    ],
+    keyTakeaways: [
+      'No state income tax benefits tech workers with equity',
+      'Growing tech scene attracts major employers',
+      'Property taxes require careful budgeting'
+    ],
+    faqs: [
+      { question: 'Is Austin still affordable?', answer: 'While no longer a bargain, Austin remains more affordable than coastal tech hubs while offering no state income tax and strong job growth.' }
+    ]
+  },
+  {
+    id: 'boston',
+    name: 'Boston',
+    slug: 'boston',
+    tier: 2,
+    state: 'Massachusetts',
+    description: 'Historic financial and education hub with high taxes but strong wealth management infrastructure.',
+    image: 'https://images.unsplash.com/photo-1501979376754-2ff867a4f659?w=800&q=80',
+    stats: {
+      medianHomePrice: '$800,000',
+      colIndex: 152,
+      incomeTax: '9% (Flat + Surtax)'
+    },
+    localChallenges: [
+      { title: 'Millionaire Tax', description: 'New 4% surtax on income over $1 million brings top rate to 9%.' },
+      { title: 'High Housing Costs', description: 'Limited housing supply keeps prices elevated.' }
+    ],
+    keyTakeaways: [
+      'New millionaire surtax affects high earners significantly',
+      'Strong biotech and finance job markets',
+      'Estate tax starts at $2 million (among lowest thresholds)'
+    ],
+    faqs: [
+      { question: 'How does the Massachusetts millionaire tax work?', answer: 'A 4% surtax applies to income over $1 million, bringing the effective rate to 9% on income above that threshold.' }
+    ]
+  },
+  {
+    id: 'philadelphia',
+    name: 'Philadelphia',
+    slug: 'philadelphia',
+    tier: 2,
+    state: 'Pennsylvania',
+    description: 'Affordable Northeast hub with moderate state taxes and strong healthcare sector.',
+    image: 'https://images.unsplash.com/photo-1569761316261-9a8696fa2ca3?w=800&q=80',
+    stats: {
+      medianHomePrice: '$250,000',
+      colIndex: 101,
+      incomeTax: '6.99% (Flat + City)'
+    },
+    localChallenges: [
+      { title: 'City Wage Tax', description: 'Philadelphia imposes a 3.75% wage tax on residents.' },
+      { title: 'Property Taxes', description: 'City property taxes are significant, though assessments vary.' }
+    ],
+    keyTakeaways: [
+      'Pennsylvania does not tax retirement income',
+      'City wage tax adds to state income tax burden',
+      'More affordable than NYC or Boston'
+    ],
+    faqs: [
+      { question: 'Is Philadelphia good for retirees?', answer: 'Yes, Pennsylvania exempts all retirement income from state tax, and Philadelphia is much more affordable than other Northeast metros.' }
+    ]
+  },
+  {
+    id: 'san-diego',
+    name: 'San Diego',
+    slug: 'san-diego',
+    tier: 2,
+    state: 'California',
+    description: 'Coastal California living with high state taxes but exceptional climate.',
+    image: 'https://images.unsplash.com/photo-1538964173425-93dc8f5c0d5b?w=800&q=80',
+    stats: {
+      medianHomePrice: '$900,000',
+      colIndex: 161,
+      incomeTax: '13.3% (State)'
+    },
+    localChallenges: [
+      { title: 'High State Taxes', description: 'California\'s 13.3% top rate applies to all San Diego residents.' },
+      { title: 'Housing Costs', description: 'Coastal location drives premium pricing.' }
+    ],
+    keyTakeaways: [
+      'Same state tax considerations as LA and SF',
+      'Strong military and biotech presence',
+      'Prop 13 benefits long-term residents'
+    ],
+    faqs: [
+      { question: 'How does San Diego compare to other California cities?', answer: 'San Diego offers similar tax treatment to LA and SF but with lower housing costs and a more relaxed lifestyle.' }
+    ]
+  },
+  {
+    id: 'san-jose',
+    name: 'San Jose',
+    slug: 'san-jose',
+    tier: 2,
+    state: 'California',
+    description: 'Heart of Silicon Valley with exceptional tech wealth but high taxes.',
+    image: 'https://images.unsplash.com/photo-1535581652167-3a26c90788fc?w=800&q=80',
+    stats: {
+      medianHomePrice: '$1,400,000',
+      colIndex: 182,
+      incomeTax: '13.3% (State)'
+    },
+    localChallenges: [
+      { title: 'Extreme Housing Costs', description: 'Median home prices exceed $1.4 million.' },
+      { title: 'Equity Compensation Complexity', description: 'RSUs, options, and IPOs require sophisticated tax planning.' }
+    ],
+    keyTakeaways: [
+      'Tech equity requires multi-year tax planning',
+      'Highest housing costs in the nation',
+      'Consider 83(b) elections for early-stage equity'
+    ],
+    faqs: [
+      { question: 'How do I plan for an IPO or acquisition?', answer: 'Start planning 1-2 years before anticipated liquidity. Consider RSU timing, QSBS exclusions, and installment sales where applicable.' }
+    ]
   }
 ];
 

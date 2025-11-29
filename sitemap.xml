@@ -228,6 +228,16 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.wealthauthority.org/article/estate-planning-austin</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.wealthauthority.org/article/estate-planning-boston</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.wealthauthority.org/article/estate-planning-chicago</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -263,12 +273,27 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.wealthauthority.org/article/estate-planning-philadelphia</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.wealthauthority.org/article/estate-planning-phoenix</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.wealthauthority.org/article/estate-planning-san-diego</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.wealthauthority.org/article/estate-planning-san-francisco</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.wealthauthority.org/article/estate-planning-san-jose</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -353,6 +378,16 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.wealthauthority.org/article/high-net-worth-austin</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.wealthauthority.org/article/high-net-worth-boston</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.wealthauthority.org/article/high-net-worth-chicago</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -388,12 +423,27 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.wealthauthority.org/article/high-net-worth-philadelphia</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.wealthauthority.org/article/high-net-worth-phoenix</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.wealthauthority.org/article/high-net-worth-san-diego</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.wealthauthority.org/article/high-net-worth-san-francisco</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.wealthauthority.org/article/high-net-worth-san-jose</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -438,6 +488,16 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.wealthauthority.org/article/investment-strategies-austin</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.wealthauthority.org/article/investment-strategies-boston</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.wealthauthority.org/article/investment-strategies-chicago</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -473,12 +533,27 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.wealthauthority.org/article/investment-strategies-philadelphia</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.wealthauthority.org/article/investment-strategies-phoenix</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.wealthauthority.org/article/investment-strategies-san-diego</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.wealthauthority.org/article/investment-strategies-san-francisco</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.wealthauthority.org/article/investment-strategies-san-jose</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -583,6 +658,16 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.wealthauthority.org/article/retirement-planning-austin</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.wealthauthority.org/article/retirement-planning-boston</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.wealthauthority.org/article/retirement-planning-chicago</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -618,12 +703,27 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.wealthauthority.org/article/retirement-planning-philadelphia</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.wealthauthority.org/article/retirement-planning-phoenix</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.wealthauthority.org/article/retirement-planning-san-diego</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.wealthauthority.org/article/retirement-planning-san-francisco</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.wealthauthority.org/article/retirement-planning-san-jose</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -693,6 +793,16 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.wealthauthority.org/article/tax-planning-austin</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.wealthauthority.org/article/tax-planning-boston</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.wealthauthority.org/article/tax-planning-chicago</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -728,12 +838,27 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.wealthauthority.org/article/tax-planning-philadelphia</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.wealthauthority.org/article/tax-planning-phoenix</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.wealthauthority.org/article/tax-planning-san-diego</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.wealthauthority.org/article/tax-planning-san-francisco</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.wealthauthority.org/article/tax-planning-san-jose</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

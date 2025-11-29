@@ -2,6 +2,3176 @@ import { Article } from '../types';
 
 export const CITY_ARTICLES: Article[] = [
   {
+    id: 'city-austin-003',
+    title: 'Estate Planning in Austin: Texas Trust and Probate Strategies',
+    slug: 'estate-planning-austin',
+    hubId: 'austin',
+    type: 'city-spoke',
+    excerpt: 'Comprehensive estate planning strategies for Austin residents including Texas\'s no-estate-tax advantage, community property rules, and probate procedures.',
+    readTime: '8 min read',
+    publishDate: '2025-11-29',
+    author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
+    primaryKeyword: 'estate planning Austin',
+    metaDescription: 'Comprehensive estate planning strategies for Austin residents including Texas\'s no-estate-tax advantage, community property rules, and probate procedures.',
+    keyTakeaways: [
+      'Texas has no estate tax or inheritance tax',
+      'Community property provides step-up in basis on both halves',
+      'Independent administration simplifies Texas probate',
+      'Homestead protection is among the strongest in the nation',
+      'Tech equity requires specific estate planning attention',
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'Texas Estate Tax Advantages',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">No State Death Taxes</h3>
+          
+          <p>Texas has neither:
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>No state estate tax</li>
+          <li>No inheritance tax</li>
+          <li>Only federal estate tax applies</li>
+          </ul>
+          <strong>Federal thresholds (2024):</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>$13.61 million individual exemption</li>
+          <li>$27.22 million for married couples with portability</li>
+          <li>40% rate on amounts above exemption</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Comparison with Other States</h3></p>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">State</th><th class="py-3 px-4 font-bold">Estate Tax Threshold</th><th class="py-3 px-4 font-bold">Top Rate</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">Texas</td><td class="py-3 px-4">None</td><td class="py-3 px-4">0%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Massachusetts</td><td class="py-3 px-4">$2 million</td><td class="py-3 px-4">16%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Oregon</td><td class="py-3 px-4">$1 million</td><td class="py-3 px-4">16%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">New York</td><td class="py-3 px-4">$6.94 million</td><td class="py-3 px-4">16%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Washington</td><td class="py-3 px-4">$2.193 million</td><td class="py-3 px-4">20%</td></tr></tbody></table></div>
+          <strong>Planning implication:</strong> No complex state estate tax planning needed. Focus entirely on federal strategies for large estates.
+        `
+      },
+      {
+        type: 'text',
+        title: 'Community Property Benefits',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Understanding Community Property</h3>
+          
+          <strong>Texas is a community property state:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Property acquired during marriage is community property</li>
+          <li>Each spouse owns 50% regardless of title</li>
+          <li>Separate property remains separate (inherited, pre-marriage)</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Double Step-Up in Basis</h3>
+          
+          <strong>Major advantage for surviving spouses:</strong>
+          
+          <p>At death of first spouse:
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Surviving spouse gets step-up on BOTH halves</li>
+          <li>100% of community property gets new basis</li>
+          <li>Significant capital gains savings</li>
+          </ul>
+          <strong>Example:</strong></p>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Scenario</th><th class="py-3 px-4 font-bold">Original Basis</th><th class="py-3 px-4 font-bold">Value at Death</th><th class="py-3 px-4 font-bold">New Basis</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">Community Property</td><td class="py-3 px-4">$200,000</td><td class="py-3 px-4">$1,000,000</td><td class="py-3 px-4">$1,000,000</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Separate Property (non-CP state)</td><td class="py-3 px-4">$200,000</td><td class="py-3 px-4">$1,000,000</td><td class="py-3 px-4">$600,000</td></tr></tbody></table></div>
+          <strong>Tax savings:</strong> Avoided $400,000 in taxable gains on sale
+          
+          <h3 class="text-xl font-bold mt-8 mb-4">Community Property Trusts</h3>
+          
+          <strong>For those moving to Texas:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Can convert separate property to community property</li>
+          <li>Requires proper trust and agreement</li>
+          <li>Must understand irrevocability</li>
+          <li>Consult attorney before converting</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Texas Probate Process',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Independent Administration</h3>
+          
+          <strong>Texas's efficient probate:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Minimal court supervision</li>
+          <li>Executor acts independently</li>
+          <li>No court approval needed for most actions</li>
+          <li>Faster and less expensive than many states</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Types of Probate</h3>
+          
+          <strong>Probate of will as muniment of title:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Simplest form</li>
+          <li>No administration needed</li>
+          <li>Just records transfer of property</li>
+          <li>Must have no debts (other than secured)</li>
+          </ul>
+          <strong>Independent administration:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Most common for estates with debts</li>
+          <li>Executor has broad powers</li>
+          <li>Minimal court oversight</li>
+          <li>Typically 6-12 months</li>
+          </ul>
+          <strong>Dependent administration:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Rare, requires court approval for most actions</li>
+          <li>Used when required by will or court order</li>
+          <li>More expensive and time-consuming</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Small Estate Alternatives</h3>
+          
+          <strong>Affidavit of heirship:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>For real property only</li>
+          <li>No will required</li>
+          <li>Must wait 30 days</li>
+          <li>Signed by disinterested witnesses</li>
+          </ul>
+          <strong>Small estate affidavit:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Personal property under $75,000</li>
+          <li>No real estate (except homestead)</li>
+          <li>30-day waiting period</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Trust Planning in Texas',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Revocable Living Trusts</h3>
+          
+          <strong>Benefits in Texas:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Avoid probate (though Texas probate is efficient)</li>
+          <li>Privacy (probate is public)</li>
+          <li>Multi-state property management</li>
+          <li>Incapacity planning</li>
+          <li>Immediate asset access</li>
+          </ul>
+          <strong>Texas-specific considerations:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Probate is already efficient, so trust less critical than other states</li>
+          <li>Still valuable for privacy and multi-state property</li>
+          <li>Community property can be held in trust</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Community Property Trusts</h3>
+          
+          <strong>Advantages:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Maintains community property character</li>
+          <li>Preserves double step-up</li>
+          <li>Can include survivorship provisions</li>
+          <li>Allows for disclaimer planning</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Irrevocable Trusts</h3>
+          
+          <strong>Common uses:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Estate tax planning (for large estates)</li>
+          <li>Asset protection (after transfer period)</li>
+          <li>Life insurance trusts (ILIT)</li>
+          <li>Special needs planning</li>
+          <li>Charitable planning</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Asset Protection in Texas',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Homestead Protection</h3>
+          
+          <strong>Texas homestead is extraordinarily protected:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Unlimited value protection</li>
+          <li>Up to 10 acres urban, 200 acres rural</li>
+          <li>Protected from most creditors</li>
+          </ul>
+          <strong>Protected from:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>General creditors</li>
+          <li>Judgments</li>
+          <li>Bankruptcy (with federal/state choice)</li>
+          </ul>
+          <strong>NOT protected from:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Mortgage lenders</li>
+          <li>Property taxes</li>
+          <li>Home improvement liens</li>
+          <li>Federal tax liens</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Other Protected Assets</h3>
+          
+          <strong>Exempt from creditors:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Retirement accounts (unlimited)</li>
+          <li>Life insurance cash value</li>
+          <li>Annuities</li>
+          <li>Personal property (with limits)</li>
+          <li>Wages (25% garnishment max, federal law)</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Tenancy by Entireties</h3>
+          
+          <strong>Texas does not recognize tenancy by entireties:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Use joint tenancy with right of survivorship instead</li>
+          <li>Or community property with right of survivorship</li>
+          <li>Trusts provide additional protection</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Tech Equity Estate Planning',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">RSU and Stock Option Planning</h3>
+          
+          <strong>For Austin tech workers:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Unvested RSUs generally not transferable</li>
+          <li>Vested stock can be gifted or held in trust</li>
+          <li>ISOs have specific transfer restrictions</li>
+          <li>Consider timing of estate planning around vesting</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Concentrated Stock Positions</h3>
+          
+          <strong>Estate planning strategies:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Gift highly appreciated shares</li>
+          <li>Charitable remainder trusts</li>
+          <li>Donor-advised funds</li>
+          <li>Family limited partnerships</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Pre-IPO Planning</h3>
+          
+          <strong>Before liquidity events:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Gift shares at low valuation</li>
+          <li>GRAT strategies</li>
+          <li>Family LLC transfers</li>
+          <li>Charitable giving</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Essential Estate Documents',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Texas-Specific Documents</h3>
+          
+          <strong>1. Last Will and Testament</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Texas requirements: Written, signed, two witnesses</li>
+          <li>Can include independent administration provision</li>
+          <li>Self-proving affidavit recommended</li>
+          </ul>
+          <strong>2. Revocable Living Trust</strong> (optional but recommended)
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Avoids probate</li>
+          <li>Privacy protection</li>
+          <li>Incapacity planning</li>
+          </ul>
+          <strong>3. Statutory Durable Power of Attorney</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Texas statutory form available</li>
+          <li>Survives incapacity</li>
+          <li>Can be springing or immediate</li>
+          </ul>
+          <strong>4. Medical Power of Attorney</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Healthcare decision-making</li>
+          <li>HIPAA authorization</li>
+          <li>Texas-specific form</li>
+          </ul>
+          <strong>5. Directive to Physicians (Living Will)</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>End-of-life treatment preferences</li>
+          <li>Must be witnessed</li>
+          <li>Can specify artificial nutrition/hydration</li>
+          </ul>
+          <strong>6. Declaration of Guardian</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Names preferred guardian if needed</li>
+          <li>For both person and estate</li>
+          <li>Guidance for court if incapacity occurs</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Beneficiary Designations</h3>
+          
+          <strong>Review and update:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Retirement accounts (401k, IRA)</li>
+          <li>Life insurance policies</li>
+          <li>Bank accounts (POD)</li>
+          <li>Investment accounts (TOD)</li>
+          <li>Must coordinate with overall plan</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Common Estate Planning Mistakes',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 1: Using Old State Documents</h3>
+          
+          <strong>If relocating to Texas:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Prior state documents may be valid but create issues</li>
+          <li>Texas statutory forms preferred</li>
+          <li>Healthcare documents particularly important to update</li>
+          <li>Review with Texas attorney</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 2: Ignoring Community Property Rules</h3>
+          
+          <strong>Potential issues:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Improper titling of assets</li>
+          <li>Missing step-up opportunity</li>
+          <li>Confusion at death</li>
+          <li>Family disputes</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 3: No Independent Administration Provision</h3>
+          
+          <strong>Without it:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Court-supervised administration required</li>
+          <li>More expensive and slower</li>
+          <li>Less executor flexibility</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 4: Overlooking Digital Assets</h3>
+          
+          <strong>Modern estate planning includes:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Online account access</li>
+          <li>Cryptocurrency</li>
+          <li>Digital photos and files</li>
+          <li>Social media accounts</li></ul>
+        `
+      },
+    ],
+    faqs: [
+      {
+        question: 'Does Texas have an estate tax?',
+        answer: 'No. Texas has no estate tax and no inheritance tax. Only federal estate tax applies (for estates over $13.61 million in 2024).'
+      },
+      {
+        question: 'Do I need a trust in Texas?',
+        answer: 'Not required—Texas probate is efficient with independent administration. However, trusts provide privacy, avoid probate delays, and help with multi-state property or incapacity planning.'
+      },
+      {
+        question: 'What is community property and why does it matter?',
+        answer: 'Property acquired during marriage in Texas is community property, owned 50/50 by each spouse. The major benefit: at death, the surviving spouse gets a stepped-up basis on the entire property, not just half.'
+      },
+      {
+        question: 'How long does Texas probate take?',
+        answer: 'With independent administration, 6-12 months typically. Simple estates using muniment of title can be faster. Dependent administration takes longer.'
+      },
+      {
+        question: 'Can I avoid probate in Texas?',
+        answer: 'Yes, through: revocable living trusts, joint tenancy with right of survivorship, community property with right of survivorship, or beneficiary designations on accounts.'
+      },
+      {
+        question: 'Do I need to update my estate plan if I move to Texas?',
+        answer: 'Yes, strongly recommended. Review all documents with a Texas attorney, update healthcare directives to Texas forms, and ensure your plan addresses community property properly.'
+      },
+    ],
+    bottomLine: 'Texas provides an excellent estate planning environment: no state death taxes, efficient probate through independent administration, strong asset protection, and valuable community property benefits. For Austin residents—particularly tech workers with equity compensation or those relocating from other states—proper Texas estate planning ensures wealth transfers efficiently while taking advantage of Texas\'s unique benefits.'
+  },
+  {
+    id: 'city-austin-005',
+    title: 'High Net Worth Wealth Management in Austin: Texas Tax Strategies',
+    slug: 'high-net-worth-austin',
+    hubId: 'austin',
+    type: 'city-spoke',
+    excerpt: 'Specialized wealth management strategies for high net worth Austin residents including tech equity optimization, tax planning, and family office services.',
+    readTime: '8 min read',
+    publishDate: '2025-11-29',
+    author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
+    primaryKeyword: 'high net worth Austin',
+    metaDescription: 'Specialized wealth management strategies for high net worth Austin residents including tech equity optimization, tax planning, and family office services.',
+    keyTakeaways: [
+      'Texas\'s no income tax saves HNW individuals $100,000+ annually vs. coastal states',
+      'Austin\'s tech ecosystem creates significant equity wealth opportunities',
+      'No state estate or inheritance tax simplifies wealth transfer',
+      'Growing wealth management infrastructure serves HNW needs',
+      'Property taxes require active management despite income tax savings',
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'Why High Net Worth Individuals Choose Austin',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Tax Savings Analysis</h3>
+          
+          <strong>Annual income tax savings:</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Income Level</th><th class="py-3 px-4 font-bold">California Tax</th><th class="py-3 px-4 font-bold">New York Tax</th><th class="py-3 px-4 font-bold">Texas Savings</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">$1 million</td><td class="py-3 px-4">$118,000</td><td class="py-3 px-4">$95,000</td><td class="py-3 px-4">$95,000-$118,000</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$2 million</td><td class="py-3 px-4">$243,000</td><td class="py-3 px-4">$195,000</td><td class="py-3 px-4">$195,000-$243,000</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$5 million</td><td class="py-3 px-4">$618,000</td><td class="py-3 px-4">$498,000</td><td class="py-3 px-4">$498,000-$618,000</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$10 million</td><td class="py-3 px-4">$1,243,000</td><td class="py-3 px-4">$998,000</td><td class="py-3 px-4">$998,000-$1,243,000</td></tr></tbody></table></div>
+          <strong>Decade of savings:</strong> $10-$12 million+ for highest earners
+          
+          <h3 class="text-xl font-bold mt-8 mb-4">Tech Ecosystem Advantages</h3>
+          
+          <strong>Austin tech growth drivers:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Major tech company expansions (Tesla, Oracle, Apple, Google, Meta)</li>
+          <li>Startup ecosystem growth</li>
+          <li>Venture capital presence increasing</li>
+          <li>Talent migration from coastal markets</li>
+          </ul>
+          <strong>Equity compensation benefits:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>No state tax on RSU vesting</li>
+          <li>No state tax on option exercise</li>
+          <li>No state tax on capital gains from equity sales</li>
+          <li>Significant savings on liquidity events</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Quality of Life Factors</h3>
+          
+          <strong>Attracting HNW residents:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>No state income tax</li>
+          <li>Lower cost of living than coastal metros</li>
+          <li>Live music and cultural scene</li>
+          <li>Outdoor activities (Lake Travis, Hill Country)</li>
+          <li>Growing restaurant and culinary scene</li>
+          <li>Less traffic than larger metros (though growing)</li>
+          <li>Central U.S. time zone (convenient for both coasts)</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Wealth Management Infrastructure',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Private Banking Options</h3>
+          
+          <strong>Major private banks serving Austin:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>J.P. Morgan Private Bank</li>
+          <li>Goldman Sachs Private Wealth</li>
+          <li>Morgan Stanley Private Wealth</li>
+          <li>UBS Private Wealth</li>
+          <li>Northern Trust</li>
+          <li>Bank of America Private Bank</li>
+          <li>Charles Schwab Private Client</li>
+          </ul>
+          <strong>Regional presence:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Most major banks have Austin/Dallas representation</li>
+          <li>Some serve from Houston offices</li>
+          <li>Virtual and hybrid service models common</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Family Office Ecosystem</h3>
+          
+          <strong>Multi-family offices:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Growing presence in Austin</li>
+          <li>Many serve from Dallas/Houston</li>
+          <li>National MFOs expanding to Austin</li>
+          <li>Virtual models common for smaller families</li>
+          </ul>
+          <strong>Single-family office considerations:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Typically $100 million+ in assets</li>
+          <li>Austin talent pool growing</li>
+          <li>Lower operating costs than coastal cities</li>
+          <li>Many use hybrid models (some staff remote)</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Professional Services</h3>
+          
+          <strong>Sophisticated service providers:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Estate planning attorneys (many relocated from California)</li>
+          <li>Tax advisors with tech equity expertise</li>
+          <li>Investment consultants</li>
+          <li>Business attorneys</li>
+          <li>Insurance specialists</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'HNW Tax Strategies for Austin',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Residency Establishment</h3>
+          
+          <strong>For those relocating to Texas:</strong>
+          
+          <strong>Immediate actions:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Texas driver's license</li>
+          <li>Voter registration</li>
+          <li>Vehicle registration</li>
+          <li>File Declaration of Domicile with county</li>
+          </ul>
+          <strong>Ongoing documentation:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Track days in Texas (183+ recommended)</li>
+          <li>Establish social and professional ties</li>
+          <li>Healthcare providers in Texas</li>
+          <li>Professional licenses in Texas</li>
+          <li>Close ties to former state carefully</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Pre-Liquidity Planning</h3>
+          
+          <strong>Before equity events:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Establish residency well before IPO/acquisition</li>
+          <li>Document Texas presence thoroughly</li>
+          <li>Gift shares before valuation increase</li>
+          <li>Consider QSBS election eligibility</li>
+          <li>Charitable planning opportunities</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Post-Liquidity Strategies</h3>
+          
+          <strong>After wealth creation:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Diversification without state tax penalty</li>
+          <li>Donor-advised fund contributions</li>
+          <li>Family limited partnership structures</li>
+          <li>Dynasty trust planning</li>
+          <li>Charitable remainder trusts</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Tech Equity Optimization',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">RSU Strategies for HNW</h3>
+          
+          <strong>Large RSU holders:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Sell-to-cover simpler (no state withholding)</li>
+          <li>Diversification less urgent (no state tax on sale)</li>
+          <li>Consider charitable giving for federal benefits</li>
+          <li>10b5-1 plans for systematic selling</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Pre-IPO Planning</h3>
+          
+          <strong>Before liquidity:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>83(b) elections (federal benefits)</li>
+          <li>QSBS potential ($10 million or 10x basis exclusion)</li>
+          <li>Gift to family members or trusts</li>
+          <li>Charitable planning with appreciated shares</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Concentrated Stock Management</h3>
+          
+          <strong>For large single-stock positions:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>No state tax penalty for selling</li>
+          <li>Exchange funds available (less urgency)</li>
+          <li>Prepaid forward contracts</li>
+          <li>Charitable remainder trusts</li>
+          <li>Donor-advised funds for immediate deduction</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Asset Protection',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Texas Homestead Protection</h3>
+          
+          <strong>Extraordinarily strong:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Unlimited dollar amount</li>
+          <li>Up to 10 acres in city, 200 acres rural</li>
+          <li>Protected from most creditors</li>
+          </ul>
+          <strong>Planning considerations:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Primary residence only</li>
+          <li>Must be claimed and maintained</li>
+          <li>Survives bankruptcy</li>
+          <li>Consider home value in overall plan</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Other Protected Assets</h3>
+          
+          <strong>Texas exemptions:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Retirement accounts (unlimited)</li>
+          <li>Life insurance cash value</li>
+          <li>Annuities</li>
+          <li>Personal property (with limits)</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Trust-Based Protection</h3>
+          
+          <strong>For additional protection:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Domestic Asset Protection Trusts (Nevada, South Dakota)</li>
+          <li>Properly structured family LLCs</li>
+          <li>Offshore trusts (where appropriate)</li>
+          <li>Adequate insurance coverage</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Estate Planning for HNW',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">No State Estate Tax</h3>
+          
+          <strong>Texas advantages:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>No estate tax (any size)</li>
+          <li>No inheritance tax</li>
+          <li>Only federal applies ($13.61 million exemption)</li>
+          <li>Simpler planning than estate tax states</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Community Property Benefits</h3>
+          
+          <strong>Double step-up opportunity:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Both halves get new basis at first death</li>
+          <li>Significant capital gains savings</li>
+          <li>Must maintain community property character</li>
+          <li>Consider community property trust</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Dynasty Trust Planning</h3>
+          
+          <strong>Texas allows:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>300-year rule against perpetuities</li>
+          <li>No state income tax on trust income</li>
+          <li>Multigenerational wealth transfer</li>
+          <li>Combined with Nevada/South Dakota for asset protection</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Charitable Planning</h3>
+          
+          <strong>HNW strategies:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Donor-advised funds</li>
+          <li>Private foundations</li>
+          <li>Charitable remainder trusts</li>
+          <li>Charitable lead trusts</li>
+          <li>Direct gifts of appreciated stock</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Real Estate Holdings',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Austin Luxury Market</h3>
+          
+          <strong>High-end areas:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Westlake Hills</li>
+          <li>Tarrytown</li>
+          <li>Barton Creek</li>
+          <li>Lake Austin waterfront</li>
+          <li>Lake Travis</li>
+          </ul>
+          <strong>Price ranges:</strong> $2 million - $20 million+
+          
+          <h3 class="text-xl font-bold mt-8 mb-4">Property Tax Management</h3>
+          
+          <strong>For luxury properties:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Annual assessment protests essential</li>
+          <li>Can save significant amounts</li>
+          <li>Professional representation often worthwhile</li>
+          <li>Exemptions reduce taxable value</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Investment Property Considerations</h3>
+          
+          <strong>Texas advantages:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>No state tax on rental income</li>
+          <li>No state tax on sale gains</li>
+          <li>1031 exchanges available</li>
+          <li>Community property step-up</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Common HNW Mistakes',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 1: Incomplete Residency Change</h3>
+          
+          <strong>Common failures:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Maintaining California or New York property</li>
+          <li>Business activities in former state</li>
+          <li>Not documenting Texas presence</li>
+          <li>Family remaining in former state</li>
+          </ul>
+          <strong>Consequence:</strong> Continued taxation by former state
+          
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 2: Ignoring Property Taxes</h3>
+          
+          <strong>Texas reality:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>2-2.5% annual property tax</li>
+          <li>On $5 million home: $100,000+ annually</li>
+          <li>Must budget appropriately</li>
+          <li>Protest assessments every year</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 3: Not Planning Pre-Liquidity</h3>
+          
+          <strong>Missed opportunities:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Should establish residency before equity events</li>
+          <li>Gift shares at low valuations</li>
+          <li>QSBS elections have timing requirements</li>
+          <li>Charitable planning most effective pre-liquidity</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 4: Over-Concentrating in Austin</h3>
+          
+          <strong>Diversification needed:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Already have career risk in Austin/tech</li>
+          <li>Don't over-allocate to local real estate</li>
+          <li>Maintain geographic diversification</li>
+          <li>Consider employer stock concentration</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Lifestyle Considerations',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Private Aviation</h3>
+          
+          <strong>Austin options:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Austin-Bergstrom (AUS) - limited FBO options</li>
+          <li>Austin Executive Airport (EDC) - private aviation focus</li>
+          <li>San Antonio International (SAT) - additional option</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Country Clubs and Golf</h3>
+          
+          <strong>Premier options:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Barton Creek Country Club</li>
+          <li>Austin Country Club</li>
+          <li>UT Golf Club</li>
+          <li>Spanish Oaks Golf Club</li>
+          <li>Horseshoe Bay Resort</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Healthcare</h3>
+          
+          <strong>Quality facilities:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Dell Medical School / Dell Seton</li>
+          <li>St. David's Medical Center</li>
+          <li>Ascension Seton</li>
+          <li>Growing concierge medicine options</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Education</h3>
+          
+          <strong>Private school options:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>St. Stephen's Episcopal School</li>
+          <li>Austin Preparatory School</li>
+          <li>St. Andrew's Episcopal School</li>
+          <li>Westlake High School (public, highly rated)</li></ul>
+        `
+      },
+    ],
+    faqs: [
+      {
+        question: 'How much can I save by moving to Austin from California?',
+        answer: 'On $2 million income, approximately $243,000 annually in state income tax. Over 10 years, that\'s $2.4 million+ not counting investment growth. Property taxes will offset some savings but usually remain net positive.'
+      },
+      {
+        question: 'Is Austin\'s wealth management infrastructure adequate for HNW?',
+        answer: 'Growing rapidly. Major private banks have Austin presence, and sophisticated advisors are relocating from coastal markets. Some ultra-high-net-worth families maintain relationships in multiple cities.'
+      },
+      {
+        question: 'When should I move to capture tax benefits from a liquidity event?',
+        answer: 'Establish Texas residency at least one year before anticipated liquidity. Document presence thoroughly. California in particular may audit and challenge residency changes near liquidity events.'
+      },
+      {
+        question: 'What property taxes should I expect on a $3 million home?',
+        answer: 'Approximately $60,000-$75,000 annually (2-2.5%). Various exemptions can reduce this. Protest your assessment every year—it can result in significant savings.'
+      },
+      {
+        question: 'Do I need a family office?',
+        answer: 'Single-family offices typically make sense at $100 million+. For $10-50 million, multi-family offices or sophisticated RIAs often provide similar services at lower cost. Many Austin HNW individuals use virtual or hybrid arrangements.'
+      },
+    ],
+    bottomLine: 'Austin offers exceptional advantages for high-net-worth individuals: no state income tax, a booming tech ecosystem, and improving quality of life. For those with significant equity compensation or considering relocation from high-tax states, the savings are substantial. Success requires proper residency establishment, active property tax management, and maintaining the diversification discipline that protects long-term wealth.'
+  },
+  {
+    id: 'city-austin-004',
+    title: 'Investment Strategies in Austin: Texas Tax-Free Portfolio Management',
+    slug: 'investment-strategies-austin',
+    hubId: 'austin',
+    type: 'city-spoke',
+    excerpt: 'Investment strategies tailored for Austin residents including tax-free investing, tech equity management, and Texas-specific portfolio optimization.',
+    readTime: '7 min read',
+    publishDate: '2025-11-29',
+    author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
+    primaryKeyword: 'investment strategies Austin',
+    metaDescription: 'Investment strategies tailored for Austin residents including tax-free investing, tech equity management, and Texas-specific portfolio optimization.',
+    keyTakeaways: [
+      'No state tax on investment income simplifies portfolio management',
+      'Municipal bonds lose their state tax advantage in Texas',
+      'Tech equity strategies can be more aggressive without state tax drag',
+      'Asset location decisions focus purely on federal optimization',
+      'Real estate investing benefits from no state income tax on rents',
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'Tax-Free Investing in Texas',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Complete Investment Tax Freedom</h3>
+          
+          <strong>All investment income state-tax-free:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Short-term capital gains: 0% state tax</li>
+          <li>Long-term capital gains: 0% state tax</li>
+          <li>Qualified dividends: 0% state tax</li>
+          <li>Ordinary dividends: 0% state tax</li>
+          <li>Interest income: 0% state tax</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">What This Means for Investors</h3>
+          
+          <strong>Simplified decisions:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>No state tax arbitrage needed</li>
+          <li>All investments treated equally at state level</li>
+          <li>Focus purely on federal tax optimization</li>
+          <li>Greater portfolio flexibility</li>
+          </ul>
+          <strong>Comparison - $100,000 investment gain:</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">State</th><th class="py-3 px-4 font-bold">Federal Tax (15% LTCG)</th><th class="py-3 px-4 font-bold">State Tax</th><th class="py-3 px-4 font-bold">Total Tax</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">Texas</td><td class="py-3 px-4">$15,000</td><td class="py-3 px-4">$0</td><td class="py-3 px-4">$15,000</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">California</td><td class="py-3 px-4">$15,000</td><td class="py-3 px-4">$13,300</td><td class="py-3 px-4">$28,300</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">New York</td><td class="py-3 px-4">$15,000</td><td class="py-3 px-4">$10,900</td><td class="py-3 px-4">$25,900</td></tr></tbody></table></div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Municipal Bond Considerations</h3>
+          
+          <strong>Without state tax benefit:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Municipal bonds provide no special Texas advantage</li>
+          <li>Compare yields directly with taxable alternatives</li>
+          <li>Still federally tax-exempt</li>
+          <li>May make sense for federal tax bracket management</li>
+          </ul>
+          <strong>Yield comparison:</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Bond Type</th><th class="py-3 px-4 font-bold">Yield</th><th class="py-3 px-4 font-bold">Federal Tax (24%)</th><th class="py-3 px-4 font-bold">After-Tax Yield</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">Texas Muni</td><td class="py-3 px-4">3.5%</td><td class="py-3 px-4">0%</td><td class="py-3 px-4">3.5%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Corporate Bond</td><td class="py-3 px-4">5.2%</td><td class="py-3 px-4">24%</td><td class="py-3 px-4">3.95%</td></tr></tbody></table></div>
+          <strong>Conclusion:</strong> Corporate bonds may offer better after-tax returns for Texas investors depending on federal bracket.
+        `
+      },
+      {
+        type: 'text',
+        title: 'Asset Location Strategy',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Simplified Texas Approach</h3>
+          
+          <strong>Traditional high-tax state guidance:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Bonds in tax-advantaged accounts</li>
+          <li>Stocks in taxable accounts</li>
+          <li>Complex optimization required</li>
+          </ul>
+          <strong>Texas simplification:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>No state tax arbitrage</li>
+          <li>Focus on federal optimization only</li>
+          <li>Less penalty for "wrong" asset location</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Recommended Location</h3>
+          
+          <strong>Tax-advantaged accounts (401k, IRA):</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>REITs (non-qualified dividends)</li>
+          <li>High-yield bonds</li>
+          <li>Active funds with high turnover</li>
+          <li>Commodities</li>
+          </ul>
+          <strong>Taxable accounts:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Index ETFs (tax-efficient)</li>
+          <li>Individual stocks (buy and hold)</li>
+          <li>Qualified dividend stocks</li>
+          <li>Growth stocks (defer gains)</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Tech Equity Investment Strategies',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">RSU Management</h3>
+          
+          <strong>Vesting strategies:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>No state tax on vest</li>
+          <li>Sell-to-cover for federal withholding only</li>
+          <li>Hold vs. sell decision simpler</li>
+          <li>Diversification less urgent without state tax penalty</li>
+          </ul>
+          <strong>Post-vest options:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Hold: No state tax on future gains</li>
+          <li>Sell immediately: Only federal tax, simpler</li>
+          <li>Partial diversification: Flexible timing</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Stock Option Strategies</h3>
+          
+          <strong>ISOs:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>No state tax on exercise</li>
+          <li>No state AMT (federal only)</li>
+          <li>1-year holding for LTCG (federal)</li>
+          <li>No state tax on qualifying sale</li>
+          </ul>
+          <strong>NSOs:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>No state tax on spread at exercise</li>
+          <li>Ordinary income (federal only)</li>
+          <li>No state tax on subsequent gains</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Concentrated Position Management</h3>
+          
+          <strong>Without state tax drag:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Less urgency to diversify</li>
+          <li>Can be more patient with positions</li>
+          <li>Tax-loss harvesting simpler</li>
+          <li>Exchange funds less critical</li>
+          </ul>
+          <strong>Strategies for large positions:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Covered calls (no state tax on premium)</li>
+          <li>Collars for downside protection</li>
+          <li>Charitable giving (federal deduction)</li>
+          <li>Staged diversification</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Portfolio Construction',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Sample Allocation (Moderate Risk, $1 Million)</h3>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Asset Class</th><th class="py-3 px-4 font-bold">Allocation</th><th class="py-3 px-4 font-bold">Vehicles</th><th class="py-3 px-4 font-bold">Notes</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">U.S. Large Cap</td><td class="py-3 px-4">30%</td><td class="py-3 px-4">VTI, VOO, SPY</td><td class="py-3 px-4">Core equity</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">U.S. Small/Mid</td><td class="py-3 px-4">10%</td><td class="py-3 px-4">VXF, IJR</td><td class="py-3 px-4">Growth tilt</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">International Developed</td><td class="py-3 px-4">15%</td><td class="py-3 px-4">VXUS, EFA</td><td class="py-3 px-4">Global diversification</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Emerging Markets</td><td class="py-3 px-4">10%</td><td class="py-3 px-4">VWO, IEMG</td><td class="py-3 px-4">Growth exposure</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">U.S. Bonds</td><td class="py-3 px-4">15%</td><td class="py-3 px-4">BND, AGG</td><td class="py-3 px-4">Core fixed income</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Real Estate</td><td class="py-3 px-4">10%</td><td class="py-3 px-4">VNQ + Direct</td><td class="py-3 px-4">REITs or local property</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Alternatives</td><td class="py-3 px-4">5%</td><td class="py-3 px-4">Various</td><td class="py-3 px-4">Private credit, alternatives</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Cash</td><td class="py-3 px-4">5%</td><td class="py-3 px-4">HYSA</td><td class="py-3 px-4">Liquidity</td></tr></tbody></table></div>
+          <h3 class="text-xl font-bold mt-8 mb-4">For Tech Workers with Equity</h3>
+          
+          <strong>Modified allocation:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Reduce tech sector in portfolio (already exposed via employer)</li>
+          <li>Consider ex-tech index funds</li>
+          <li>Balance concentration risk</li>
+          <li>Maintain diversification discipline</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Real Estate Investment',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Texas Real Estate Advantages</h3>
+          
+          <strong>Tax benefits:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>No state tax on rental income</li>
+          <li>No state tax on property sale gains</li>
+          <li>Community property step-up</li>
+          <li>Homestead protection</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Austin Real Estate Considerations</h3>
+          
+          <strong>Market dynamics:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Strong appreciation history</li>
+          <li>Population growth driver</li>
+          <li>Tech industry concentration</li>
+          <li>Rising property taxes</li>
+          </ul>
+          <strong>Investment areas:</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Area</th><th class="py-3 px-4 font-bold">Investment Profile</th><th class="py-3 px-4 font-bold">Considerations</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">East Austin</td><td class="py-3 px-4">Appreciation play</td><td class="py-3 px-4">Gentrification ongoing</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Cedar Park</td><td class="py-3 px-4">Family rentals</td><td class="py-3 px-4">Strong schools</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Round Rock</td><td class="py-3 px-4">Steady demand</td><td class="py-3 px-4">Corporate presence</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">San Marcos</td><td class="py-3 px-4">Student housing</td><td class="py-3 px-4">Texas State University</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Kyle/Buda</td><td class="py-3 px-4">Growth corridor</td><td class="py-3 px-4">Lower entry prices</td></tr></tbody></table></div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Property Tax Impact</h3>
+          
+          <strong>Factor into analysis:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>2-2.5% annual property tax</li>
+          <li>Reduces cash flow significantly</li>
+          <li>Rising assessments</li>
+          <li>Protest annually</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Retirement Account Strategies',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Maximizing Tax-Advantaged Space</h3>
+          
+          <strong>Priority order:</strong>
+          <ol class="list-decimal pl-6 space-y-2 my-4"><li>401(k) to employer match</li>
+          <li>HSA (if available)</li>
+          <li>Roth IRA (if eligible)</li>
+          <li>Additional 401(k)</li>
+          <li>Mega backdoor Roth (if available)</li>
+          <li>After-tax investments</li>
+          </ol>
+          <h3 class="text-xl font-bold mt-8 mb-4">Roth vs. Traditional in Texas</h3>
+          
+          <strong>Roth advantages magnified:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Conversion only taxed federally</li>
+          <li>No state tax on conversion amount</li>
+          <li>Tax-free withdrawals forever</li>
+          <li>No state tax ever paid on Roth growth</li>
+          </ul>
+          <strong>Conversion strategy:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>More aggressive conversions affordable</li>
+          <li>Fill up lower federal brackets</li>
+          <li>No state tax penalty</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Tax-Gain Harvesting</h3>
+          
+          <strong>Unique Texas opportunity:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Realize gains in 0% federal bracket</li>
+          <li>Reset cost basis higher</li>
+          <li>Zero state tax</li>
+          <li>Particularly valuable for early retirees</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Common Investment Mistakes',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 1: Over-Allocating to Texas</h3>
+          
+          <strong>Concentration risk:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Already live/work in Texas</li>
+          <li>Don't over-invest in Texas real estate</li>
+          <li>Don't over-weight Texas companies</li>
+          <li>Diversify geographically</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 2: Buying Municipal Bonds for "Tax Benefits"</h3>
+          
+          <strong>Reality in Texas:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>No state tax benefit</li>
+          <li>Often lower yields than alternatives</li>
+          <li>May still make sense federally</li>
+          <li>Compare yields directly</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 3: Ignoring Federal Tax Efficiency</h3>
+          
+          <strong>Federal taxes still matter:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>0-20% capital gains rates</li>
+          <li>3.8% Net Investment Income Tax</li>
+          <li>Ordinary income up to 37%</li>
+          <li>Tax-efficient investing still valuable</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 4: Not Rebalancing Equity Positions</h3>
+          
+          <strong>With no state tax penalty:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Should rebalance more freely</li>
+          <li>Don't let tech positions grow unchecked</li>
+          <li>Tax-loss harvest opportunistically</li>
+          <li>Maintain target allocation</li></ul>
+        `
+      },
+    ],
+    faqs: [
+      {
+        question: 'Should I invest differently because I live in Texas?',
+        answer: 'Somewhat. With no state tax, municipal bonds are less attractive, asset location is simpler, and you have more flexibility. However, fundamental principles of diversification and appropriate risk remain the same.'
+      },
+      {
+        question: 'Are municipal bonds ever worth it in Texas?',
+        answer: 'Only for federal tax benefits. If you\'re in a high federal bracket (32%+), munis may still make sense. Compare after-tax yields directly without considering state tax benefits.'
+      },
+      {
+        question: 'How should I handle RSUs and stock options in Texas?',
+        answer: 'The tax treatment is simpler—no state tax on vesting, exercise, or sale. Focus on federal optimization and diversification. Consider your overall risk exposure to your employer.'
+      },
+      {
+        question: 'Is real estate a good investment in Austin?',
+        answer: 'Can be, but factor in high property taxes (2%+), rising insurance costs, and concentration risk if you already own a home here. Rental income is state-tax-free, which is advantageous.'
+      },
+      {
+        question: 'How does no state income tax affect retirement accounts?',
+        answer: 'Roth contributions and conversions are more attractive since you only pay federal tax. Traditional accounts also benefit—no state tax on distributions ever, regardless of where you retire.'
+      },
+    ],
+    bottomLine: 'Austin investors benefit from Texas\'s complete income tax freedom, simplifying portfolio management and providing maximum flexibility. Without state tax considerations, focus shifts entirely to federal tax optimization. For tech workers with equity compensation, the absence of state tax makes equity events less painful and diversification timing more flexible. Success requires maintaining diversification discipline despite the tax advantages and not over-concentrating in Texas-based investments.'
+  },
+  {
+    id: 'city-austin-001',
+    title: 'Retirement Planning in Austin: Texas Tax-Free Retirement Strategies',
+    slug: 'retirement-planning-austin',
+    hubId: 'austin',
+    type: 'city-spoke',
+    excerpt: 'Expert retirement planning strategies for Austin residents including Texas\'s no-income-tax advantage, cost of living considerations, and tech wealth optimization.',
+    readTime: '8 min read',
+    publishDate: '2025-11-29',
+    author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
+    primaryKeyword: 'retirement planning Austin',
+    metaDescription: 'Expert retirement planning strategies for Austin residents including Texas\'s no-income-tax advantage, cost of living considerations, and tech wealth optimization.',
+    keyTakeaways: [
+      'Texas has no state income tax on any income type',
+      'All retirement income is tax-free at state level',
+      'Property taxes are high (offsetting no income tax)',
+      'Austin\'s cost of living has risen significantly',
+      'Tech equity requires careful retirement planning',
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'Texas Tax Advantages for Retirement',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">No State Income Tax</h3>
+          
+          <p>Texas offers complete income tax freedom:</p>
+          
+          <strong>Tax-free income types:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Wages and salaries</li>
+          <li>Retirement distributions (401k, IRA, pension)</li>
+          <li>Social Security benefits</li>
+          <li>Investment income (dividends, capital gains)</li>
+          <li>Rental income</li>
+          <li>Business income</li>
+          </ul>
+          <strong>Annual savings comparison:</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Income Level</th><th class="py-3 px-4 font-bold">California Tax</th><th class="py-3 px-4 font-bold">New York Tax</th><th class="py-3 px-4 font-bold">Texas Savings</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">$100,000</td><td class="py-3 px-4">$6,000</td><td class="py-3 px-4">$5,800</td><td class="py-3 px-4">$5,800-$6,000</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$250,000</td><td class="py-3 px-4">$21,000</td><td class="py-3 px-4">$18,000</td><td class="py-3 px-4">$18,000-$21,000</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$500,000</td><td class="py-3 px-4">$52,000</td><td class="py-3 px-4">$43,000</td><td class="py-3 px-4">$43,000-$52,000</td></tr></tbody></table></div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Retirement Income Benefits</h3>
+          
+          <strong>All retirement income tax-free:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>401(k) distributions: 0% state tax</li>
+          <li>Traditional IRA withdrawals: 0% state tax</li>
+          <li>Pension payments: 0% state tax</li>
+          <li>Social Security: 0% state tax</li>
+          <li>Roth distributions: 0% state tax (already tax-free)</li>
+          </ul>
+          <strong>Example: $80,000 retirement income</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">State</th><th class="py-3 px-4 font-bold">State Tax</th><th class="py-3 px-4 font-bold">Annual Savings vs. Texas</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">Texas</td><td class="py-3 px-4">$0</td><td class="py-3 px-4">—</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">California</td><td class="py-3 px-4">$4,800</td><td class="py-3 px-4">$4,800</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">New York</td><td class="py-3 px-4">$4,600</td><td class="py-3 px-4">$4,600</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Illinois</td><td class="py-3 px-4">$4,000</td><td class="py-3 px-4">$4,000</td></tr></tbody></table></div>
+          <h3 class="text-xl font-bold mt-8 mb-4">No Estate or Inheritance Tax</h3>
+          
+          <p>Texas has neither:
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>No state estate tax</li>
+          <li>No inheritance tax</li>
+          <li>Only federal estate tax applies ($13.61 million exemption)</li></ul></p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Austin Cost of Living Reality',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Rising Costs</h3>
+          
+          <p>Austin's growth has increased living costs:</p>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Category</th><th class="py-3 px-4 font-bold">Austin</th><th class="py-3 px-4 font-bold">National Average</th><th class="py-3 px-4 font-bold">Notes</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">Overall</td><td class="py-3 px-4">112</td><td class="py-3 px-4">100</td><td class="py-3 px-4">12% above average</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Housing</td><td class="py-3 px-4">145</td><td class="py-3 px-4">100</td><td class="py-3 px-4">Significant increase</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Healthcare</td><td class="py-3 px-4">98</td><td class="py-3 px-4">100</td><td class="py-3 px-4">Slightly below</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Groceries</td><td class="py-3 px-4">96</td><td class="py-3 px-4">100</td><td class="py-3 px-4">Below average</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Utilities</td><td class="py-3 px-4">103</td><td class="py-3 px-4">100</td><td class="py-3 px-4">Near average</td></tr></tbody></table></div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Property Tax Offset</h3>
+          
+          <strong>Texas property taxes are high:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Average effective rate: 1.8-2.2%</li>
+          <li>Austin area: 2.0-2.5% in some districts</li>
+          <li>Partially offsets income tax savings</li>
+          </ul>
+          <strong>Example calculation:</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Home Value</th><th class="py-3 px-4 font-bold">Annual Property Tax (2.2%)</th><th class="py-3 px-4 font-bold">Monthly Impact</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">$400,000</td><td class="py-3 px-4">$8,800</td><td class="py-3 px-4">$733</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$600,000</td><td class="py-3 px-4">$13,200</td><td class="py-3 px-4">$1,100</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$800,000</td><td class="py-3 px-4">$17,600</td><td class="py-3 px-4">$1,467</td></tr></tbody></table></div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Retirement Budget Planning</h3>
+          
+          <strong>Comfortable Austin retirement (couple):</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Category</th><th class="py-3 px-4 font-bold">Monthly</th><th class="py-3 px-4 font-bold">Annual</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">Housing (owned, taxes + insurance)</td><td class="py-3 px-4">$1,400</td><td class="py-3 px-4">$16,800</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Healthcare (Medicare + supplemental)</td><td class="py-3 px-4">$650</td><td class="py-3 px-4">$7,800</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Utilities</td><td class="py-3 px-4">$250</td><td class="py-3 px-4">$3,000</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Food and groceries</td><td class="py-3 px-4">$700</td><td class="py-3 px-4">$8,400</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Transportation</td><td class="py-3 px-4">$450</td><td class="py-3 px-4">$5,400</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Entertainment</td><td class="py-3 px-4">$500</td><td class="py-3 px-4">$6,000</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Travel</td><td class="py-3 px-4">$400</td><td class="py-3 px-4">$4,800</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Miscellaneous</td><td class="py-3 px-4">$350</td><td class="py-3 px-4">$4,200</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4"><strong>Total</strong></td><td class="py-3 px-4"><strong>$4,700</strong></td><td class="py-3 px-4"><strong>$56,400</strong></td></tr></tbody></table></div>
+          <strong>Savings target (4% rule):</strong> $1.4 million for comfortable Austin retirement
+        `
+      },
+      {
+        type: 'text',
+        title: 'Tech Wealth Retirement Planning',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Equity Compensation Strategies</h3>
+          
+          <strong>For Austin's tech workers:</strong>
+          
+          <strong>RSU planning:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>No state tax on vesting (federal only)</li>
+          <li>Sell-to-cover strategies simpler</li>
+          <li>No AMT concerns at state level</li>
+          <li>Focus on federal tax optimization</li>
+          </ul>
+          <strong>Stock option considerations:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>ISOs: No state tax on exercise or sale</li>
+          <li>NSOs: No state tax on spread at exercise</li>
+          <li>AMT: Federal issue only</li>
+          <li>Diversification timing: Less tax pressure</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mega Backdoor Roth</h3>
+          
+          <strong>Texas makes this particularly attractive:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>After-tax 401(k) contributions</li>
+          <li>Convert to Roth 401(k) or Roth IRA</li>
+          <li>No state tax on conversion (vs. 13.3% in California)</li>
+          <li>Tax-free growth and withdrawals</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Concentrated Stock Planning</h3>
+          
+          <strong>For tech employees with significant equity:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>No state tax on capital gains</li>
+          <li>83(b) elections simpler (no state impact)</li>
+          <li>Exchange funds: Less urgency without state tax</li>
+          <li>Charitable giving: Focus on federal benefits</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Retirement Strategies for Austin',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 1: Maximize Tax-Free Accumulation</h3>
+          
+          <strong>Priority order:</strong>
+          <ol class="list-decimal pl-6 space-y-2 my-4"><li>401(k) to employer match</li>
+          <li>HSA (if available) - triple tax advantage</li>
+          <li>Roth IRA or backdoor Roth</li>
+          <li>Additional 401(k)</li>
+          <li>Mega backdoor Roth (if available)</li>
+          <li>Taxable investing</li>
+          </ol>
+          <strong>Texas advantage:</strong> Roth conversions only taxed federally, making large conversions more affordable.
+          
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 2: Roth Conversion Optimization</h3>
+          
+          <strong>With no state income tax:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Convert traditional to Roth at federal rates only</li>
+          <li>No state tax on conversion amount</li>
+          <li>Particularly valuable for high earners</li>
+          </ul>
+          <strong>Comparison:</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Conversion</th><th class="py-3 px-4 font-bold">Federal Tax (24%)</th><th class="py-3 px-4 font-bold">California (9.3%)</th><th class="py-3 px-4 font-bold">Texas Savings</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">$100,000</td><td class="py-3 px-4">$24,000</td><td class="py-3 px-4">$0</td><td class="py-3 px-4">$9,300</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$200,000</td><td class="py-3 px-4">$48,000</td><td class="py-3 px-4">$0</td><td class="py-3 px-4">$18,600</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$500,000</td><td class="py-3 px-4">$120,000</td><td class="py-3 px-4">$0</td><td class="py-3 px-4">$46,500</td></tr></tbody></table></div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 3: Social Security Timing</h3>
+          
+          <strong>No state tax changes the math:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Can claim earlier without state tax penalty</li>
+          <li>Focus purely on federal taxation and longevity</li>
+          <li>No state tax on up to 85% taxable portion</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 4: Property Tax Management</h3>
+          
+          <strong>Strategies for retirees:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Homestead exemption (reduces taxable value)</li>
+          <li>Over-65 exemption (additional reduction)</li>
+          <li>Tax ceiling freeze (locks school taxes at 65)</li>
+          <li>Protest assessments annually</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Austin Housing for Retirement',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Popular Retirement Areas</h3>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Area</th><th class="py-3 px-4 font-bold">Characteristics</th><th class="py-3 px-4 font-bold">Median Price</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">Lakeway</td><td class="py-3 px-4">Lake Travis, golf, 55+ communities</td><td class="py-3 px-4">$550,000-$900,000</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Georgetown</td><td class="py-3 px-4">Historic downtown, Sun City</td><td class="py-3 px-4">$350,000-$600,000</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Round Rock</td><td class="py-3 px-4">Growing suburbs, family-friendly</td><td class="py-3 px-4">$400,000-$600,000</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Dripping Springs</td><td class="py-3 px-4">Hill Country, wine trails</td><td class="py-3 px-4">$500,000-$800,000</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Pflugerville</td><td class="py-3 px-4">Affordable, good amenities</td><td class="py-3 px-4">$350,000-$500,000</td></tr></tbody></table></div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Active Adult Communities</h3>
+          
+          <strong>55+ options near Austin:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Sun City Texas (Georgetown) - largest in Texas</li>
+          <li>Kissing Tree (San Marcos)</li>
+          <li>Trilogy at Lake Travis</li>
+          <li>Belterra (Dripping Springs area)</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Rent vs. Buy Analysis</h3>
+          
+          <strong>Consider renting if:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Testing Austin lifestyle</li>
+          <li>Uncertain about long-term location</li>
+          <li>Want flexibility</li>
+          <li>Concerned about property taxes</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Healthcare Considerations',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Austin Medical Facilities</h3>
+          
+          <strong>Major healthcare systems:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Ascension Seton (multiple locations)</li>
+          <li>St. David's Healthcare</li>
+          <li>Baylor Scott & White</li>
+          <li>Dell Medical School/Dell Seton</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Medicare in Austin</h3>
+          
+          <strong>Strong Medicare Advantage options:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Multiple $0 premium plans</li>
+          <li>Good provider networks</li>
+          <li>Additional benefits available</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Climate Health Factors</h3>
+          
+          <strong>Austin considerations:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Extreme summer heat (100°F+ common)</li>
+          <li>Allergy season significant</li>
+          <li>Generally good air quality</li>
+          <li>Active outdoor culture supports fitness</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Common Retirement Mistakes in Austin',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 1: Underestimating Property Taxes</h3>
+          
+          <strong>Reality check:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>2%+ property tax rates common</li>
+          <li>Can equal significant monthly cost</li>
+          <li>Rises with home values and assessments</li>
+          <li>Budget conservatively</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 2: Not Using Tax Exemptions</h3>
+          
+          <strong>Available exemptions:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>General homestead exemption</li>
+          <li>Over-65 exemption</li>
+          <li>Disabled veteran exemption</li>
+          <li>School tax ceiling (age 65+)</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 3: Ignoring Rising Costs</h3>
+          
+          <strong>Austin is no longer cheap:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Housing has appreciated significantly</li>
+          <li>Services and dining costs rising</li>
+          <li>Traffic and commute considerations</li>
+          <li>Consider outer suburbs for value</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 4: Overlooking Federal Taxes</h3>
+          
+          <strong>Remember federal still applies:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Income tax 10-37%</li>
+          <li>Capital gains 0-20% + 3.8% NIIT</li>
+          <li>Estate tax above $13.61 million</li>
+          <li>Medicare premiums based on income (IRMAA)</li></ul>
+        `
+      },
+    ],
+    faqs: [
+      {
+        question: 'Is Austin good for retirement?',
+        answer: 'Austin offers tax-free income, a vibrant culture, and excellent healthcare. Drawbacks include high property taxes, summer heat, and rising costs. Best for those who value an active, cultural lifestyle and can manage property tax burden.'
+      },
+      {
+        question: 'How much do I need to retire in Austin?',
+        answer: 'A comfortable retirement for a couple typically requires $55,000-$70,000 annually, translating to $1.4-$1.75 million using the 4% rule. Higher if planning extensive travel or luxury living.'
+      },
+      {
+        question: 'Does Texas tax Social Security?',
+        answer: 'No. Texas has no state income tax, so Social Security and all other income types are completely tax-free at the state level.'
+      },
+      {
+        question: 'What are property taxes like in Austin?',
+        answer: 'Expect 2-2.5% of assessed home value annually. On a $500,000 home, that\'s $10,000-$12,500 per year. Various exemptions can reduce this, especially for those 65+.'
+      },
+      {
+        question: 'Should I buy in Austin or the suburbs?',
+        answer: 'Suburbs like Georgetown, Round Rock, and Pflugerville offer lower housing costs and property taxes. Austin proper offers more walkability and culture. Many retirees choose suburban locations for value.'
+      },
+    ],
+    bottomLine: 'Austin offers the significant advantage of Texas\'s no-income-tax environment, making all retirement income completely tax-free at the state level. However, high property taxes, rising costs, and summer heat require careful planning. For tech workers with equity compensation, Austin\'s tax environment is particularly attractive for building and preserving wealth. Success requires balancing tax advantages against realistic cost expectations and taking full advantage of available property tax exemptions.'
+  },
+  {
+    id: 'city-austin-002',
+    title: 'Tax Planning in Austin: Texas No-Income-Tax Strategies',
+    slug: 'tax-planning-austin',
+    hubId: 'austin',
+    type: 'city-spoke',
+    excerpt: 'Comprehensive tax planning strategies for Austin residents including Texas\'s zero income tax, property tax management, and tech equity optimization.',
+    readTime: '8 min read',
+    publishDate: '2025-11-29',
+    author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
+    primaryKeyword: 'tax planning Austin',
+    metaDescription: 'Comprehensive tax planning strategies for Austin residents including Texas\'s zero income tax, property tax management, and tech equity optimization.',
+    keyTakeaways: [
+      'Texas has zero state income tax on all income types',
+      'No estate or inheritance tax',
+      'Property taxes are high (1.8-2.5% of home value)',
+      'No state capital gains tax',
+      'Tech equity is particularly advantaged in Texas',
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'Texas Tax Structure',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Zero Income Tax</h3>
+          
+          <p>Texas imposes no state income tax:</p>
+          
+          <strong>What's NOT taxed:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Wages and salaries</li>
+          <li>Bonuses and commissions</li>
+          <li>Business income (S-Corp, LLC, partnership)</li>
+          <li>Investment income (dividends, interest)</li>
+          <li>Capital gains (short-term and long-term)</li>
+          <li>Retirement income (all types)</li>
+          <li>Social Security benefits</li>
+          <li>Rental income</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Comparison with Other States</h3>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Income Type</th><th class="py-3 px-4 font-bold">Texas</th><th class="py-3 px-4 font-bold">California</th><th class="py-3 px-4 font-bold">New York</th><th class="py-3 px-4 font-bold">Illinois</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">Ordinary Income</td><td class="py-3 px-4">0%</td><td class="py-3 px-4">13.3%</td><td class="py-3 px-4">10.9%</td><td class="py-3 px-4">4.95%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Capital Gains</td><td class="py-3 px-4">0%</td><td class="py-3 px-4">13.3%</td><td class="py-3 px-4">10.9%</td><td class="py-3 px-4">4.95%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Retirement Income</td><td class="py-3 px-4">0%</td><td class="py-3 px-4">13.3%</td><td class="py-3 px-4">5.0-10.9%</td><td class="py-3 px-4">0%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Social Security</td><td class="py-3 px-4">0%</td><td class="py-3 px-4">0%</td><td class="py-3 px-4">0%</td><td class="py-3 px-4">0%</td></tr></tbody></table></div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Texas Franchise Tax</h3>
+          
+          <strong>For businesses:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Applies to entities with revenue over $2.47 million</li>
+          <li>0.375% for retail/wholesale</li>
+          <li>0.75% for other businesses</li>
+          <li>Not an income tax, but affects business planning</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Property Tax Reality',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Understanding Texas Property Taxes</h3>
+          
+          <strong>Why property taxes are high:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>No income tax requires alternative revenue</li>
+          <li>Local governments rely heavily on property tax</li>
+          <li>Funds schools, cities, counties, special districts</li>
+          </ul>
+          <strong>Typical Austin-area rates:</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Jurisdiction</th><th class="py-3 px-4 font-bold">Approximate Rate</th><th class="py-3 px-4 font-bold">Notes</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">City of Austin</td><td class="py-3 px-4">0.45%</td><td class="py-3 px-4">Varies by year</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Travis County</td><td class="py-3 px-4">0.35%</td><td class="py-3 px-4">County services</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">School District</td><td class="py-3 px-4">1.0-1.3%</td><td class="py-3 px-4">Largest component</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Special Districts</td><td class="py-3 px-4">0.2-0.4%</td><td class="py-3 px-4">MUDs, healthcare, etc.</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4"><strong>Total</strong></td><td class="py-3 px-4"><strong>2.0-2.5%</strong></td><td class="py-3 px-4">Varies by location</td></tr></tbody></table></div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Property Tax Exemptions</h3>
+          
+          <strong>Available exemptions:</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Exemption</th><th class="py-3 px-4 font-bold">Reduction</th><th class="py-3 px-4 font-bold">Eligibility</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">Homestead</td><td class="py-3 px-4">$100,000+</td><td class="py-3 px-4">Primary residence</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Over-65</td><td class="py-3 px-4">Additional $10,000+</td><td class="py-3 px-4">Age 65 or older</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Disabled</td><td class="py-3 px-4">Additional $10,000+</td><td class="py-3 px-4">Qualifying disability</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Disabled Veteran</td><td class="py-3 px-4">Up to 100%</td><td class="py-3 px-4">Service-connected disability</td></tr></tbody></table></div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Tax Ceiling for Seniors</h3>
+          
+          <strong>Age 65+ benefits:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>School district taxes frozen at current level</li>
+          <li>Cannot increase regardless of value appreciation</li>
+          <li>Transfers to surviving spouse if 55+</li>
+          <li>Does not apply to other taxing entities</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Tax Planning Strategies for Austin',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 1: Maximize Equity Compensation</h3>
+          
+          <strong>RSUs in Texas:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>No state tax on vesting</li>
+          <li>Ordinary income treatment (federal only)</li>
+          <li>Sell-to-cover simpler without state withholding</li>
+          <li>Focus on federal tax timing</li>
+          </ul>
+          <strong>Stock options:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>ISOs: No state tax on exercise (federal AMT may apply)</li>
+          <li>NSOs: No state tax on spread</li>
+          <li>Disqualifying dispositions: Federal tax only</li>
+          </ul>
+          <strong>Comparison - $200,000 RSU vest:</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">State</th><th class="py-3 px-4 font-bold">Federal Tax (32%)</th><th class="py-3 px-4 font-bold">State Tax</th><th class="py-3 px-4 font-bold">Total</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">Texas</td><td class="py-3 px-4">$64,000</td><td class="py-3 px-4">$0</td><td class="py-3 px-4">$64,000</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">California</td><td class="py-3 px-4">$64,000</td><td class="py-3 px-4">$26,600</td><td class="py-3 px-4">$90,600</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">New York</td><td class="py-3 px-4">$64,000</td><td class="py-3 px-4">$21,800</td><td class="py-3 px-4">$85,800</td></tr></tbody></table></div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 2: Roth Conversions</h3>
+          
+          <strong>Why Texas is ideal for Roth conversions:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>No state tax on conversion</li>
+          <li>Pay federal tax only (10-37%)</li>
+          <li>Build tax-free income for retirement</li>
+          <li>Hedge against future federal tax increases</li>
+          </ul>
+          <strong>Strategy:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Convert in low-income years</li>
+          <li>Fill up lower federal brackets</li>
+          <li>No state tax penalty for large conversions</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 3: Capital Gains Harvesting</h3>
+          
+          <strong>Texas allows:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Realizing gains without state tax</li>
+          <li>Rebalancing without state tax drag</li>
+          <li>Step-up in basis strategies</li>
+          <li>Tax-gain harvesting in low income years</li>
+          </ul>
+          <strong>Tax-gain harvesting:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Realize gains while in 0% federal bracket</li>
+          <li>Reset cost basis higher</li>
+          <li>Pay no federal or state tax</li>
+          <li>Effective for early retirees</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 4: Business Structure Optimization</h3>
+          
+          <strong>Pass-through advantages:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>S-Corp income: 0% state tax</li>
+          <li>LLC income: 0% state tax</li>
+          <li>Partnership income: 0% state tax</li>
+          <li>QBI deduction applies federally (20%)</li>
+          </ul>
+          <strong>Considerations:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Franchise tax for larger businesses</li>
+          <li>Nexus in other states may trigger tax there</li>
+          <li>Self-employment tax still applies federally</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Tech Industry Tax Strategies',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Pre-IPO Planning</h3>
+          
+          <strong>Before liquidity events:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>No state tax on eventual gains</li>
+          <li>83(b) elections: Federal implications only</li>
+          <li>QSBS potential (federal exclusion)</li>
+          <li>Gift highly appreciated shares before IPO</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">IPO and Acquisition Planning</h3>
+          
+          <strong>Post-liquidity strategies:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>No state tax on capital gains</li>
+          <li>Installment sales: Federal timing only</li>
+          <li>Charitable remainder trusts</li>
+          <li>Donor-advised funds</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Concentrated Stock Positions</h3>
+          
+          <strong>Diversification options:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>No state tax penalty for selling</li>
+          <li>Exchange funds: Less urgency</li>
+          <li>Prepaid forward contracts</li>
+          <li>Direct indexing around position</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Estate and Gift Tax Planning',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">No State Death Taxes</h3>
+          
+          <strong>Texas advantages:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>No estate tax (any size estate)</li>
+          <li>No inheritance tax</li>
+          <li>Only federal applies ($13.61M exemption)</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Gift Tax Strategies</h3>
+          
+          <strong>Annual gifting:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>$18,000 per recipient (2024)</li>
+          <li>No state gift tax</li>
+          <li>Reduces federal estate if over exemption</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Trust Planning</h3>
+          
+          <strong>Texas trust considerations:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>No state income tax on trust income</li>
+          <li>Dynasty trusts available</li>
+          <li>Strong asset protection laws</li>
+          <li>Community property advantages</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Residency Considerations',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Establishing Texas Residency</h3>
+          
+          <strong>For those relocating to Austin:</strong>
+          
+          <strong>Immediate steps:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Texas driver's license</li>
+          <li>Register to vote in Texas</li>
+          <li>Update vehicle registration</li>
+          <li>File homestead exemption</li>
+          </ul>
+          <strong>Ongoing documentation:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Track days in Texas</li>
+          <li>Establish professional ties</li>
+          <li>Healthcare providers in Texas</li>
+          <li>Social connections in Texas</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Former State Audit Risks</h3>
+          
+          <strong>High-risk departure states:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>California: Very aggressive audits</li>
+          <li>New York: Aggressive audits</li>
+          <li>New Jersey</li>
+          <li>Connecticut</li>
+          </ul>
+          <strong>Audit triggers:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>High income in final year</li>
+          <li>Maintaining former state property</li>
+          <li>Business activities in former state</li>
+          <li>Family remaining in former state</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Sales Tax Considerations',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Texas Sales Tax</h3>
+          
+          <strong>State and local combined:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>State rate: 6.25%</li>
+          <li>Local additions: Up to 2%</li>
+          <li>Austin total: 8.25%</li>
+          <li>Applies to most goods, some services</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">What's Exempt</h3>
+          
+          <strong>No sales tax on:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Groceries (most food items)</li>
+          <li>Prescription medications</li>
+          <li>Some professional services</li>
+          <li>Some manufacturing equipment</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Common Tax Mistakes in Austin',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 1: Ignoring Property Taxes in Budget</h3>
+          
+          <strong>Reality:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Can equal $15,000-$25,000+ annually</li>
+          <li>Rises with home values</li>
+          <li>Requires active management (protests)</li>
+          <li>Don't assume income tax savings cover it entirely</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 2: Not Protesting Assessments</h3>
+          
+          <strong>Annual opportunity:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Property values are assessed yearly</li>
+          <li>Protest deadline typically May 15</li>
+          <li>Can reduce assessed value significantly</li>
+          <li>Worth the effort for most homeowners</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 3: Missing Senior Exemptions</h3>
+          
+          <strong>For those 65+:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Additional homestead exemption</li>
+          <li>School tax ceiling (frozen)</li>
+          <li>Must apply proactively</li>
+          <li>Significant ongoing savings</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 4: Forgetting Federal Taxes</h3>
+          
+          <strong>Federal still applies:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Income tax: 10-37%</li>
+          <li>Capital gains: 0-20% + 3.8% NIIT</li>
+          <li>Self-employment: 15.3%</li>
+          <li>Medicare IRMAA at high incomes</li></ul>
+        `
+      },
+    ],
+    faqs: [
+      {
+        question: 'Does Texas have any income tax?',
+        answer: 'No. Texas has zero state income tax on any income type—wages, investment income, retirement distributions, or business income. Only federal income tax applies.'
+      },
+      {
+        question: 'How do property taxes compare to income taxes I\'d pay elsewhere?',
+        answer: 'It depends on income level and home value. For a $500,000 home, expect $10,000-$12,500 in property tax. High earners often still save significantly versus high-tax states even after property taxes.'
+      },
+      {
+        question: 'Is Austin good for tech workers with equity?',
+        answer: 'Yes, particularly advantageous. RSUs, stock options, and capital gains are all state-tax-free. A $500,000 equity vest that would cost $50,000+ in California state tax costs $0 in Texas.'
+      },
+      {
+        question: 'Do I need to file a Texas state tax return?',
+        answer: 'No. Texas has no income tax and no state tax return requirement. You only file federal returns.'
+      },
+      {
+        question: 'What about the Texas franchise tax?',
+        answer: 'The franchise tax applies to businesses with revenue over $2.47 million. Rates are 0.375% (retail/wholesale) or 0.75% (other). Most small businesses and all individuals are exempt.'
+      },
+    ],
+    bottomLine: 'Austin offers one of the most tax-advantaged environments in America for high earners and tech workers. The complete absence of state income tax means wages, equity compensation, investment income, and retirement distributions are all tax-free at the state level. While property taxes are high, the overall tax burden remains favorable compared to coastal states for most income levels. Success requires active property tax management and taking full advantage of available exemptions while focusing tax planning efforts on federal optimization.'
+  },
+  {
+    id: 'city-boston-003',
+    title: 'Estate Planning in Boston: Massachusetts Trust and Probate Strategies',
+    slug: 'estate-planning-boston',
+    hubId: 'boston',
+    type: 'city-spoke',
+    excerpt: 'Comprehensive estate planning strategies for Boston residents including Massachusetts estate tax planning, trust strategies, and probate procedures.',
+    readTime: '8 min read',
+    publishDate: '2025-11-29',
+    author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
+    primaryKeyword: 'estate planning Boston',
+    metaDescription: 'Comprehensive estate planning strategies for Boston residents including Massachusetts estate tax planning, trust strategies, and probate procedures.',
+    keyTakeaways: [
+      'Massachusetts estate tax starts at just $2 million',
+      '"Cliff" structure means entire estate is taxable if over threshold',
+      'No portability of exemption between spouses',
+      'Probate can be streamlined with proper planning',
+      'Trust planning essential for moderate wealth levels',
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'Massachusetts Estate Tax',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Understanding the $2 Million Threshold</h3>
+          
+          <strong>Key characteristics:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Threshold: $2 million (indexed for inflation)</li>
+          <li>Applies to entire estate if exceeded (cliff)</li>
+          <li>No portability between spouses</li>
+          <li>Rates range from 0.8% to 16%</li>
+          </ul>
+          <strong>The "cliff" problem:</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Estate Value</th><th class="py-3 px-4 font-bold">Below Threshold Tax</th><th class="py-3 px-4 font-bold">At Threshold Tax</th><th class="py-3 px-4 font-bold">Just Over Tax</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">$1,999,999</td><td class="py-3 px-4">$0</td><td class="py-3 px-4">—</td><td class="py-3 px-4">—</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$2,000,000</td><td class="py-3 px-4">—</td><td class="py-3 px-4">$0</td><td class="py-3 px-4">—</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$2,000,001</td><td class="py-3 px-4">—</td><td class="py-3 px-4">—</td><td class="py-3 px-4">$99,600</td></tr></tbody></table></div>
+          <strong>Critical implication:</strong> Even $1 over the threshold triggers tax on the entire excess above $1 million
+          
+          <h3 class="text-xl font-bold mt-8 mb-4">Estate Tax Rate Schedule</h3>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Taxable Estate</th><th class="py-3 px-4 font-bold">Massachusetts Tax</th><th class="py-3 px-4 font-bold">Effective Rate</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">$2,500,000</td><td class="py-3 px-4">$115,200</td><td class="py-3 px-4">4.6%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$3,000,000</td><td class="py-3 px-4">$179,200</td><td class="py-3 px-4">6.0%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$4,000,000</td><td class="py-3 px-4">$279,200</td><td class="py-3 px-4">7.0%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$5,000,000</td><td class="py-3 px-4">$391,600</td><td class="py-3 px-4">7.8%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$7,500,000</td><td class="py-3 px-4">$575,200</td><td class="py-3 px-4">7.7%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$10,000,000</td><td class="py-3 px-4">$875,200</td><td class="py-3 px-4">8.8%</td></tr></tbody></table></div>
+          <h3 class="text-xl font-bold mt-8 mb-4">No Portability</h3>
+          
+          <strong>Unlike federal estate tax:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Unused exemption does NOT transfer to surviving spouse</li>
+          <li>Each spouse must use their own exemption</li>
+          <li>Requires planning for married couples</li>
+          <li>Credit shelter trusts still necessary</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Massachusetts Probate Process',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Overview</h3>
+          
+          <strong>Massachusetts probate courts:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Each county has probate court</li>
+          <li>Supervises estate administration</li>
+          <li>Handles will contests and disputes</li>
+          <li>Appoints personal representatives</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Types of Probate</h3>
+          
+          <strong>Informal probate:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Most common for uncontested estates</li>
+          <li>Minimal court involvement</li>
+          <li>Personal representative acts independently</li>
+          <li>Periodic accountings required</li>
+          </ul>
+          <strong>Formal probate:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Court supervision throughout</li>
+          <li>Required for contested matters</li>
+          <li>More expensive and time-consuming</li>
+          <li>Court approval for major actions</li>
+          </ul>
+          <strong>Voluntary administration:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Estates under $25,000 personal property</li>
+          <li>Simplified procedure</li>
+          <li>No real estate</li>
+          <li>30-day waiting period</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Probate Timeline</h3>
+          
+          <strong>Typical Massachusetts probate:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Simple estates: 9-12 months</li>
+          <li>Moderate complexity: 12-18 months</li>
+          <li>Complex or contested: 18-36+ months</li>
+          </ul>
+          <strong>Required steps:</strong>
+          <ol class="list-decimal pl-6 space-y-2 my-4"><li>File with appropriate probate court</li>
+          <li>Appoint personal representative</li>
+          <li>Inventory assets</li>
+          <li>Notice to creditors</li>
+          <li>Pay debts and taxes</li>
+          <li>Distribute assets</li>
+          <li>Final accounting and closing</li></ol>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Trust Planning in Massachusetts',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Credit Shelter Trust (Bypass Trust)</h3>
+          
+          <strong>Essential for married couples:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Preserves both spouses' exemptions</li>
+          <li>First spouse to die funds trust</li>
+          <li>Up to $2 million sheltered</li>
+          <li>Survivor can benefit from trust</li>
+          <li>Passes to heirs estate-tax-free</li>
+          </ul>
+          <strong>Without trust:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>All assets to surviving spouse (marital deduction)</li>
+          <li>Only one $2 million exemption used</li>
+          <li>Second death: potentially significant tax</li>
+          </ul>
+          <strong>With credit shelter trust:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>$2 million to bypass trust at first death</li>
+          <li>Remaining assets to spouse (marital)</li>
+          <li>$4 million total sheltered from state tax</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Revocable Living Trust</h3>
+          
+          <strong>Benefits for Boston residents:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Avoids probate</li>
+          <li>Privacy (probate is public)</li>
+          <li>Incapacity planning</li>
+          <li>Multi-state property management</li>
+          <li>Can incorporate credit shelter provisions</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Irrevocable Life Insurance Trust (ILIT)</h3>
+          
+          <strong>Critical for many Massachusetts estates:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Life insurance excluded from estate</li>
+          <li>Provides liquidity for estate tax</li>
+          <li>Must be properly structured</li>
+          <li>Three-year lookback for transfers</li>
+          </ul>
+          <strong>Example:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>$3 million estate + $1 million life insurance</li>
+          <li>Without ILIT: $4 million taxable estate ($279,200 tax)</li>
+          <li>With ILIT: $3 million taxable estate ($179,200 tax)</li>
+          <li>Savings: $100,000</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Qualified Personal Residence Trust (QPRT)</h3>
+          
+          <strong>For valuable homes:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Transfer home to trust</li>
+          <li>Retain right to live there for term</li>
+          <li>Reduced gift tax value</li>
+          <li>Passes to heirs at term end</li>
+          <li>Effective for Boston's expensive homes</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Estate Tax Reduction Strategies',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 1: Lifetime Gifting</h3>
+          
+          <strong>Annual exclusion gifts:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>$18,000 per recipient (2024)</li>
+          <li>$36,000 for married couples splitting</li>
+          <li>Removes assets and future growth</li>
+          <li>No gift tax return required</li>
+          </ul>
+          <strong>Beyond annual exclusion:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Uses lifetime gift exemption</li>
+          <li>May still make sense to reduce estate</li>
+          <li>Document carefully</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 2: Charitable Giving</h3>
+          
+          <strong>Charitable remainder trust (CRT):</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Income stream to donor</li>
+          <li>Remainder to charity</li>
+          <li>Removes asset from estate</li>
+          <li>Upfront charitable deduction</li>
+          </ul>
+          <strong>Charitable lead trust (CLT):</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Income to charity for term</li>
+          <li>Remainder to heirs</li>
+          <li>Reduced gift/estate tax</li>
+          </ul>
+          <strong>Direct charitable bequests:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Reduce taxable estate</li>
+          <li>No estate tax on charitable portion</li>
+          <li>Popular with Boston's philanthropic culture</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 3: Family Limited Partnership</h3>
+          
+          <strong>For business owners and investors:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Consolidate family assets</li>
+          <li>Apply valuation discounts</li>
+          <li>Maintain control</li>
+          <li>Transfer limited partnership interests</li>
+          <li>Must have legitimate business purpose</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 4: Spousal Lifetime Access Trust (SLAT)</h3>
+          
+          <strong>Advanced technique:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Irrevocable trust for spouse's benefit</li>
+          <li>Removes assets from donor's estate</li>
+          <li>Spouse can access trust</li>
+          <li>Grantor trust for income tax purposes</li>
+          <li>Uses gift exemption</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Asset Protection Planning',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Massachusetts Protections</h3>
+          
+          <strong>Exempt from creditors:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Retirement accounts (ERISA protected)</li>
+          <li>$500,000 homestead exemption</li>
+          <li>Life insurance (with proper beneficiary)</li>
+          <li>Certain personal property</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Homestead Declaration</h3>
+          
+          <strong>Massachusetts homestead:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Up to $500,000 equity protected</li>
+          <li>Must file declaration with registry</li>
+          <li>Automatic $125,000 without filing</li>
+          <li>Protects against most creditors</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Trust-Based Protection</h3>
+          
+          <strong>Considerations:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Massachusetts allows self-settled trusts (limited)</li>
+          <li>Domestic Asset Protection Trusts in other states</li>
+          <li>Proper timing essential</li>
+          <li>Cannot defraud creditors</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Essential Estate Documents',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Massachusetts-Specific Requirements</h3>
+          
+          <strong>1. Last Will and Testament</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Two witnesses required</li>
+          <li>Self-proving affidavit recommended</li>
+          <li>Pour-over will if using trust</li>
+          <li>Specific Massachusetts formalities</li>
+          </ul>
+          <strong>2. Revocable Living Trust</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Avoid probate</li>
+          <li>Credit shelter provisions for married couples</li>
+          <li>Successor trustee named</li>
+          <li>Must be properly funded</li>
+          </ul>
+          <strong>3. Durable Power of Attorney</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Financial decision-making</li>
+          <li>Can be springing or immediate</li>
+          <li>Consider HIPAA authorization</li>
+          <li>Massachusetts statutory form available</li>
+          </ul>
+          <strong>4. Health Care Proxy</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Massachusetts-specific form</li>
+          <li>Healthcare decision-making</li>
+          <li>HIPAA authorization included</li>
+          <li>Very important to complete</li>
+          </ul>
+          <strong>5. HIPAA Authorization</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Access to medical records</li>
+          <li>Often included in health care proxy</li>
+          <li>Can be separate document</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Common Estate Planning Mistakes',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 1: Underestimating Estate Size</h3>
+          
+          <strong>Common assets overlooked:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Life insurance (face value included)</li>
+          <li>Retirement accounts (full balance)</li>
+          <li>Boston home appreciation</li>
+          <li>Business interests</li>
+          </ul>
+          <strong>Reality check:</strong> Many moderate earners exceed $2 million
+          
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 2: Not Using Credit Shelter Trust</h3>
+          
+          <strong>For married couples:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Without planning, only one exemption used</li>
+          <li>Could mean $100,000+ unnecessary tax</li>
+          <li>Must be set up before first death</li>
+          <li>Update existing plans</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 3: Ignoring Life Insurance</h3>
+          
+          <strong>Common issues:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Insurance in estate triggers tax</li>
+          <li>Should be in ILIT</li>
+          <li>Three-year lookback applies</li>
+          <li>Plan early</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 4: Failing to Update Documents</h3>
+          
+          <strong>After major life events:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Marriage/divorce</li>
+          <li>Children/grandchildren</li>
+          <li>Moving to Massachusetts</li>
+          <li>Asset changes</li>
+          <li>Beneficiary designation updates</li></ul>
+        `
+      },
+    ],
+    faqs: [
+      {
+        question: 'What is the Massachusetts estate tax threshold?',
+        answer: '$2 million (indexed for inflation). Unlike the federal exemption of $13.61 million, Massachusetts taxes estates above this relatively low threshold.'
+      },
+      {
+        question: 'How does the "cliff" work?',
+        answer: 'If your estate is $2,000,001, the entire excess over $1 million is taxable—not just the $1 over the threshold. This can result in substantial tax even slightly over the threshold.'
+      },
+      {
+        question: 'Do I need a credit shelter trust?',
+        answer: 'If you\'re married and your combined estate may exceed $2 million, yes. Without one, you effectively waste one spouse\'s $2 million exemption.'
+      },
+      {
+        question: 'Is Massachusetts probate expensive?',
+        answer: 'More complex than some states but manageable with proper planning. Probate can be avoided with trusts, joint ownership, and beneficiary designations.'
+      },
+      {
+        question: 'Should I move to avoid Massachusetts estate tax?',
+        answer: 'For very large estates, domicile change can save significant taxes. However, you must genuinely change residence. Massachusetts can audit former residents.'
+      },
+      {
+        question: 'How do I protect my home from estate tax?',
+        answer: 'Options include QPRT (for larger homes), life insurance to pay tax, or lifetime gifting strategies. Homestead declaration protects from creditors but not estate tax.'
+      },
+    ],
+    bottomLine: 'Massachusetts\'s $2 million estate tax threshold requires Boston residents to begin estate planning at moderate wealth levels—far earlier than the federal exemption would suggest. Credit shelter trusts for married couples, life insurance trusts, and careful lifetime gifting can significantly reduce estate tax burden. Given Boston\'s high home values, many families exceed the threshold without realizing it. Proactive planning is essential.'
+  },
+  {
+    id: 'city-boston-005',
+    title: 'High Net Worth Wealth Management in Boston: Massachusetts Strategies',
+    slug: 'high-net-worth-boston',
+    hubId: 'boston',
+    type: 'city-spoke',
+    excerpt: 'Specialized wealth management strategies for high net worth Boston residents including millionaire surtax planning, estate tax mitigation, and family office services.',
+    readTime: '8 min read',
+    publishDate: '2025-11-29',
+    author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
+    primaryKeyword: 'high net worth Boston',
+    metaDescription: 'Specialized wealth management strategies for high net worth Boston residents including millionaire surtax planning, estate tax mitigation, and family office services.',
+    keyTakeaways: [
+      'Millionaire surtax adds 4% to income over $1 million (9% total rate)',
+      'Estate tax starts at just $2 million with cliff structure',
+      'Strong local wealth management and family office infrastructure',
+      'Biotech and healthcare create significant equity wealth',
+      'World-class philanthropic and cultural institutions',
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'Massachusetts Tax Challenges for HNW',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Millionaire Surtax Impact</h3>
+          
+          <strong>4% additional tax on income over $1 million:</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Total Income</th><th class="py-3 px-4 font-bold">Base Tax (5%)</th><th class="py-3 px-4 font-bold">Surtax (4%)</th><th class="py-3 px-4 font-bold">Total</th><th class="py-3 px-4 font-bold">Effective Rate</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">$1,000,000</td><td class="py-3 px-4">$50,000</td><td class="py-3 px-4">$0</td><td class="py-3 px-4">$50,000</td><td class="py-3 px-4">5.0%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$2,000,000</td><td class="py-3 px-4">$50,000</td><td class="py-3 px-4">$40,000</td><td class="py-3 px-4">$90,000</td><td class="py-3 px-4">4.5%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$5,000,000</td><td class="py-3 px-4">$50,000</td><td class="py-3 px-4">$160,000</td><td class="py-3 px-4">$210,000</td><td class="py-3 px-4">4.2%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$10,000,000</td><td class="py-3 px-4">$50,000</td><td class="py-3 px-4">$360,000</td><td class="py-3 px-4">$410,000</td><td class="py-3 px-4">4.1%</td></tr></tbody></table></div>
+          <strong>Annual cost comparison:</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Income</th><th class="py-3 px-4 font-bold">Massachusetts Tax</th><th class="py-3 px-4 font-bold">Florida Tax</th><th class="py-3 px-4 font-bold">Annual Difference</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">$2 million</td><td class="py-3 px-4">$90,000</td><td class="py-3 px-4">$0</td><td class="py-3 px-4">$90,000</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$5 million</td><td class="py-3 px-4">$210,000</td><td class="py-3 px-4">$0</td><td class="py-3 px-4">$210,000</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$10 million</td><td class="py-3 px-4">$410,000</td><td class="py-3 px-4">$0</td><td class="py-3 px-4">$410,000</td></tr></tbody></table></div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Estate Tax Burden</h3>
+          
+          <strong>$2 million threshold with cliff:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Entire estate taxable if over threshold</li>
+          <li>No portability between spouses</li>
+          <li>Rates up to 16%</li>
+          </ul>
+          <strong>Example:</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Estate</th><th class="py-3 px-4 font-bold">Massachusetts Tax</th><th class="py-3 px-4 font-bold">Florida Tax</th><th class="py-3 px-4 font-bold">Savings</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">$3 million</td><td class="py-3 px-4">$179,200</td><td class="py-3 px-4">$0</td><td class="py-3 px-4">$179,200</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$5 million</td><td class="py-3 px-4">$391,600</td><td class="py-3 px-4">$0</td><td class="py-3 px-4">$391,600</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$10 million</td><td class="py-3 px-4">$875,200</td><td class="py-3 px-4">$0</td><td class="py-3 px-4">$875,200</td></tr></tbody></table></div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Combined Tax Impact</h3>
+          
+          <strong>10-year cost for $5 million income, $10 million estate:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Income tax: $2.1 million (vs. $0 in Florida)</li>
+          <li>Estate tax: $875,200</li>
+          <li>Total: ~$3 million in state taxes</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Wealth Management Infrastructure',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Private Banking in Boston</h3>
+          
+          <strong>Major private banks:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>J.P. Morgan Private Bank</li>
+          <li>Goldman Sachs Private Wealth</li>
+          <li>Morgan Stanley Private Wealth</li>
+          <li>UBS Private Wealth</li>
+          <li>Northern Trust</li>
+          <li>Bank of America Private Bank</li>
+          <li>State Street (institutional focus)</li>
+          </ul>
+          <strong>Boston-based firms:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Fidelity Private Wealth</li>
+          <li>Wellington Management (institutional)</li>
+          <li>Strong regional wealth managers</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Family Office Ecosystem</h3>
+          
+          <strong>Multi-family offices:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Several national MFOs with Boston offices</li>
+          <li>Regional MFOs serving New England</li>
+          <li>Strong fiduciary culture</li>
+          </ul>
+          <strong>Single-family office considerations:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Typically $100 million+ in assets</li>
+          <li>Boston has deep talent pool</li>
+          <li>Financial services expertise readily available</li>
+          <li>Consider tax domicile if establishing SFO</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Professional Services</h3>
+          
+          <strong>Boston's sophisticated network:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Estate planning attorneys (many specialists)</li>
+          <li>Tax advisors with biotech/healthcare expertise</li>
+          <li>Investment consultants</li>
+          <li>Philanthropic advisors</li>
+          <li>Art and collection specialists</li>
+          <li>Trust companies (local and national)</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'HNW Tax Strategies',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Income Tax Mitigation</h3>
+          
+          <strong>Strategy 1: Income smoothing</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Spread large transactions across years</li>
+          <li>Avoid triggering surtax when possible</li>
+          <li>Defer compensation when available</li>
+          <li>Time option exercises and stock sales</li>
+          </ul>
+          <strong>Strategy 2: Charitable giving</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Reduce income below $1 million threshold</li>
+          <li>Donor-advised funds for flexibility</li>
+          <li>Charitable remainder trusts</li>
+          <li>Private foundation (for ongoing giving)</li>
+          </ul>
+          <strong>Strategy 3: Business structure</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Consider entity structure implications</li>
+          <li>C-Corp may defer pass-through income</li>
+          <li>Reasonable compensation planning</li>
+          <li>Timing of distributions</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Estate Tax Planning</h3>
+          
+          <strong>Critical given $2 million threshold:</strong>
+          
+          <strong>Lifetime gifting:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Use annual exclusions ($18,000 per recipient)</li>
+          <li>Consider larger gifts using lifetime exemption</li>
+          <li>Remove growth from estate</li>
+          <li>GRATs for appreciation transfer</li>
+          </ul>
+          <strong>Trust strategies:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Credit shelter trusts (essential for married couples)</li>
+          <li>Irrevocable Life Insurance Trust</li>
+          <li>Dynasty trusts (in favorable jurisdictions)</li>
+          <li>SLATs for married couples</li>
+          </ul>
+          <strong>Valuation discounts:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Family limited partnerships</li>
+          <li>LLCs for investment assets</li>
+          <li>Minority and marketability discounts</li>
+          <li>Must have legitimate business purpose</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Domicile Considerations</h3>
+          
+          <strong>For very high net worth:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Massachusetts taxes can be substantial</li>
+          <li>Florida, Texas, Nevada have no income tax</li>
+          <li>No estate tax in many states</li>
+          <li>Must genuinely change residence</li>
+          <li>Massachusetts will audit departures</li>
+          </ul>
+          <strong>Planning considerations:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Establish new domicile fully</li>
+          <li>Cut Massachusetts ties systematically</li>
+          <li>Document presence in new state</li>
+          <li>Anticipate Massachusetts audit</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Biotech and Healthcare Wealth',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Equity Compensation Planning</h3>
+          
+          <strong>Common in Boston's industries:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Stock options (ISOs and NSOs)</li>
+          <li>RSUs</li>
+          <li>Phantom stock</li>
+          <li>Carried interest</li>
+          </ul>
+          <strong>Strategies:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>83(b) elections for early stage</li>
+          <li>QSBS planning ($10 million federal exclusion)</li>
+          <li>Charitable giving of appreciated stock</li>
+          <li>Diversification planning</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Pre-Liquidity Planning</h3>
+          
+          <strong>Before IPO or acquisition:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Establish estate plan</li>
+          <li>Consider gifts to family</li>
+          <li>Charitable planning</li>
+          <li>Trust structures for proceeds</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Post-Liquidity Wealth</h3>
+          
+          <strong>After significant exit:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Diversification (no state tax penalty for selling)</li>
+          <li>Philanthropic planning</li>
+          <li>Family governance</li>
+          <li>Lifestyle and risk management</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Philanthropic Planning',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Boston's Philanthropic Culture</h3>
+          
+          <strong>Strong tradition of giving:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Universities (Harvard, MIT, Boston University, etc.)</li>
+          <li>Hospitals and medical research</li>
+          <li>Arts and culture</li>
+          <li>Education and community</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Giving Vehicles</h3>
+          
+          <strong>Donor-advised funds:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Immediate tax deduction</li>
+          <li>Flexibility in grant timing</li>
+          <li>Several Boston-based sponsors</li>
+          <li>Good for irregular income</li>
+          </ul>
+          <strong>Private foundations:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Maximum control</li>
+          <li>Family involvement</li>
+          <li>5% annual distribution required</li>
+          <li>Higher administrative requirements</li>
+          </ul>
+          <strong>Supporting organizations:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Connected to specific charities</li>
+          <li>More flexibility than foundations</li>
+          <li>Can involve family</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategic Philanthropy</h3>
+          
+          <strong>For Boston HNW:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Naming opportunities at institutions</li>
+          <li>Board involvement</li>
+          <li>Impact investing alignment</li>
+          <li>Legacy planning</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Asset Protection',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Massachusetts Protections</h3>
+          
+          <strong>Exempt assets:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>$500,000 homestead (with declaration)</li>
+          <li>Retirement accounts (ERISA protected)</li>
+          <li>Life insurance cash value</li>
+          <li>Certain personal property</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Enhanced Protection Strategies</h3>
+          
+          <strong>Beyond Massachusetts protections:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Domestic Asset Protection Trusts (other states)</li>
+          <li>Proper entity structuring</li>
+          <li>Umbrella insurance</li>
+          <li>Offshore structures (where appropriate)</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Trust Planning</h3>
+          
+          <strong>Considerations:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Massachusetts allows self-settled trusts (limited)</li>
+          <li>Nevada, South Dakota for DAPTs</li>
+          <li>Timing of transfers critical</li>
+          <li>Cannot defraud existing creditors</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Real Estate Holdings',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Boston Luxury Market</h3>
+          
+          <strong>High-end areas:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Back Bay</li>
+          <li>Beacon Hill</li>
+          <li>South End</li>
+          <li>Cambridge (Harvard Square, Brattle Street)</li>
+          <li>Brookline</li>
+          </ul>
+          <strong>Price ranges:</strong> $3 million - $20 million+
+          
+          <h3 class="text-xl font-bold mt-8 mb-4">Second Homes</h3>
+          
+          <strong>Common choices:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Cape Cod (Chatham, Osterville)</li>
+          <li>Nantucket</li>
+          <li>Martha's Vineyard</li>
+          <li>New Hampshire (no income tax)</li>
+          <li>Florida (tax migration)</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Property Tax Management</h3>
+          
+          <strong>Massachusetts property taxes:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Vary by community</li>
+          <li>Some high-value exemptions available</li>
+          <li>Can be significant on expensive homes</li>
+          <li>Factor into total cost analysis</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Lifestyle Considerations',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Healthcare Access</h3>
+          
+          <strong>Boston's greatest advantage:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Massachusetts General Hospital</li>
+          <li>Brigham and Women's Hospital</li>
+          <li>Dana-Farber Cancer Institute</li>
+          <li>Beth Israel Deaconess</li>
+          <li>Boston Children's Hospital</li>
+          <li>Concierge medicine options</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Education</h3>
+          
+          <strong>Private school options:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Nobles and Greenough</li>
+          <li>Milton Academy</li>
+          <li>Buckingham Browne & Nichols</li>
+          <li>Roxbury Latin</li>
+          <li>Winsor School</li>
+          </ul>
+          <strong>Universities:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Harvard</li>
+          <li>MIT</li>
+          <li>Boston University</li>
+          <li>Boston College</li>
+          <li>Tufts</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Cultural Institutions</h3>
+          
+          <strong>Arts and culture:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Museum of Fine Arts</li>
+          <li>Boston Symphony Orchestra</li>
+          <li>Isabella Stewart Gardner Museum</li>
+          <li>Boston Ballet</li>
+          <li>American Repertory Theater</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Common HNW Mistakes',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 1: Ignoring Estate Tax Threshold</h3>
+          
+          <strong>$2 million is easily exceeded:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Boston home values high</li>
+          <li>Life insurance adds to estate</li>
+          <li>Retirement accounts count</li>
+          <li>Plan at moderate wealth levels</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 2: Poor Surtax Planning</h3>
+          
+          <strong>Avoidable with planning:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Spreading income across years</li>
+          <li>Charitable timing</li>
+          <li>Entity structure consideration</li>
+          <li>Income deferral options</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 3: Incomplete Exit Planning</h3>
+          
+          <strong>When leaving Massachusetts:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Must genuinely change residence</li>
+          <li>Cut ties systematically</li>
+          <li>Document new domicile thoroughly</li>
+          <li>Expect audit scrutiny</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 4: Concentrated Positions</h3>
+          
+          <strong>Common in biotech/healthcare:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Single stock dominates portfolio</li>
+          <li>Career and wealth tied to one company</li>
+          <li>Need disciplined diversification</li>
+          <li>Plan around lockups and windows</li></ul>
+        `
+      },
+    ],
+    faqs: [
+      {
+        question: 'Is it worth staying in Massachusetts for high earners?',
+        answer: 'Depends on priorities. Boston offers world-class healthcare, education, and culture. For those valuing these highly, the tax premium may be acceptable. For pure economics, lower-tax states save significantly.'
+      },
+      {
+        question: 'How much can I save by moving to Florida?',
+        answer: 'On $5 million income: approximately $210,000 annually in state tax. Plus no estate tax (savings of $300,000+ on $10 million estate). Must genuinely change residence.'
+      },
+      {
+        question: 'At what net worth should I consider a family office?',
+        answer: 'Single-family offices typically make sense at $100 million+. Multi-family offices often serve $10-50 million. Below that, sophisticated RIAs provide similar services.'
+      },
+      {
+        question: 'How aggressive is Massachusetts on departure audits?',
+        answer: 'Very aggressive for high earners. Expect scrutiny if you have significant income in the year before or after departure. Document new residence thoroughly.'
+      },
+      {
+        question: 'Should I use a Massachusetts trust company?',
+        answer: 'Consider it for local relationships and expertise. However, for dynasty trusts or asset protection, Nevada, South Dakota, or Delaware may offer better laws.'
+      },
+    ],
+    bottomLine: 'Boston\'s wealth management environment is sophisticated but tax-challenging. The combination of the millionaire surtax, low estate tax threshold, and high short-term capital gains rate requires careful planning. For those who value Boston\'s exceptional healthcare, education, and cultural institutions, the tax premium is often worth paying. For others, particularly those with very high income or large estates, domicile migration can save millions over a lifetime.'
+  },
+  {
+    id: 'city-boston-004',
+    title: 'Investment Strategies in Boston: Massachusetts Tax-Optimized Portfolios',
+    slug: 'investment-strategies-boston',
+    hubId: 'boston',
+    type: 'city-spoke',
+    excerpt: 'Investment strategies tailored for Boston residents including short-term capital gains avoidance, municipal bond allocation, and millionaire surtax planning.',
+    readTime: '7 min read',
+    publishDate: '2025-11-29',
+    author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
+    primaryKeyword: 'investment strategies Boston',
+    metaDescription: 'Investment strategies tailored for Boston residents including short-term capital gains avoidance, municipal bond allocation, and millionaire surtax planning.',
+    keyTakeaways: [
+      'Short-term capital gains taxed at 12% (vs. 5% long-term)',
+      'Millionaire surtax adds 4% to gains when income exceeds $1 million',
+      'Massachusetts municipal bonds offer genuine tax advantages',
+      'Holding period discipline is highly rewarded',
+      'Asset location should consider state tax implications',
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'Understanding Massachusetts Investment Taxation',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Capital Gains Structure</h3>
+          
+          <strong>Unique Massachusetts treatment:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Short-term gains (< 1 year): 12%</li>
+          <li>Long-term gains (≥ 1 year): 5% (9% if income over $1M)</li>
+          <li>7% difference incentivizes holding</li>
+          </ul>
+          <strong>Comparison with ordinary income:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Ordinary income: 5% (9% over $1M)</li>
+          <li>Short-term gains: 12% (always, regardless of income)</li>
+          <li>Long-term gains: 5% (9% over $1M)</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Combined Federal and State Rates</h3>
+          
+          <strong>Short-term gains (federal 32% bracket):</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Federal: 32%</li>
+          <li>Massachusetts: 12%</li>
+          <li>Total: 44%</li>
+          </ul>
+          <strong>Long-term gains (federal 15% rate):</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Federal: 15%</li>
+          <li>Massachusetts: 5% (9% over $1M)</li>
+          <li>Total: 20% (24% over $1M)</li>
+          </ul>
+          <strong>Differential:</strong> 24% rate difference—massive incentive for long-term holding
+        `
+      },
+      {
+        type: 'text',
+        title: 'Tax-Efficient Investment Strategies',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 1: Holding Period Discipline</h3>
+          
+          <strong>Always wait for long-term treatment:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>12% → 5% saves 7% on gains</li>
+          <li>On $100,000 gain: $7,000 savings</li>
+          <li>Track purchase dates carefully</li>
+          <li>Use specific identification for tax lots</li>
+          </ul>
+          <strong>Exception considerations:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Position has significant loss risk</li>
+          <li>Need to rebalance urgently</li>
+          <li>Wash sale opportunities</li>
+          <li>Year-end planning</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 2: Municipal Bond Allocation</h3>
+          
+          <strong>Massachusetts munis are attractive:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Federal tax-free</li>
+          <li>State tax-free</li>
+          <li>Double tax exemption</li>
+          </ul>
+          <strong>Yield analysis:</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Bond Type</th><th class="py-3 px-4 font-bold">Yield</th><th class="py-3 px-4 font-bold">After Fed (24%)</th><th class="py-3 px-4 font-bold">After State (5%)</th><th class="py-3 px-4 font-bold">Net</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">Mass Muni</td><td class="py-3 px-4">3.3%</td><td class="py-3 px-4">3.3%</td><td class="py-3 px-4">3.3%</td><td class="py-3 px-4">3.3%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Taxable Bond</td><td class="py-3 px-4">5.0%</td><td class="py-3 px-4">3.8%</td><td class="py-3 px-4">3.6%</td><td class="py-3 px-4">3.6%</td></tr></tbody></table></div>
+          <strong>For higher earners (9% state):</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Mass munis become even more attractive</li>
+          <li>Out-of-state munis less valuable (state tax applies)</li>
+          <li>Consider muni allocation carefully</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 3: Tax-Loss Harvesting</h3>
+          
+          <strong>Massachusetts benefits:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Losses offset both short and long-term gains</li>
+          <li>Harvesting short-term losses particularly valuable (saves 12%)</li>
+          <li>$3,000 annual ordinary income offset</li>
+          <li>Carry forward unused losses</li>
+          </ul>
+          <strong>Wash sale compliance:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>30-day rule applies</li>
+          <li>Replace with similar (not identical) security</li>
+          <li>Use ETF alternatives</li>
+          <li>Track across all accounts</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 4: Asset Location Optimization</h3>
+          
+          <strong>Tax-advantaged accounts:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>REITs (ordinary dividend rates)</li>
+          <li>High-yield bonds</li>
+          <li>Active funds with turnover</li>
+          <li>Commodities</li>
+          </ul>
+          <strong>Taxable accounts:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Index ETFs (tax-efficient)</li>
+          <li>Growth stocks (buy and hold)</li>
+          <li>Qualified dividend stocks</li>
+          <li>Massachusetts municipal bonds</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Investment Account Strategies',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Retirement Account Priorities</h3>
+          
+          <strong>Massachusetts context:</strong>
+          <ol class="list-decimal pl-6 space-y-2 my-4"><li>401(k) to employer match</li>
+          <li>HSA (triple tax advantage)</li>
+          <li>Roth IRA (tax-free growth and withdrawals)</li>
+          <li>Additional 401(k)/403(b)</li>
+          <li>Backdoor Roth (if income too high)</li>
+          <li>After-tax 401(k) and mega backdoor Roth</li>
+          <li>Taxable investing</li>
+          </ol>
+          <h3 class="text-xl font-bold mt-8 mb-4">Roth vs. Traditional Analysis</h3>
+          
+          <strong>Massachusetts factors:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Current rate: 5% (9% over $1M)</li>
+          <li>Future rate: Unknown but likely similar</li>
+          <li>Roth: Pay state tax now, never again</li>
+          <li>Traditional: Defer, pay later (possibly in different state)</li>
+          </ul>
+          <strong>Roth advantages in Massachusetts:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Avoid potential future rate increases</li>
+          <li>Escape millionaire surtax on distributions</li>
+          <li>Flexibility in retirement</li>
+          <li>No RMDs (Roth IRA)</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Taxable Account Management</h3>
+          
+          <strong>Optimize for Massachusetts:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Hold long-term (avoid 12% short-term rate)</li>
+          <li>Use tax-efficient index funds</li>
+          <li>Consider Massachusetts munis for fixed income</li>
+          <li>Harvest losses opportunistically</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Portfolio Construction',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Sample Allocation (Moderate Risk, $1 Million)</h3>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Asset Class</th><th class="py-3 px-4 font-bold">Allocation</th><th class="py-3 px-4 font-bold">Vehicles</th><th class="py-3 px-4 font-bold">Location</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">U.S. Large Cap</td><td class="py-3 px-4">30%</td><td class="py-3 px-4">VTI, VOO</td><td class="py-3 px-4">Taxable</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">U.S. Small/Mid</td><td class="py-3 px-4">10%</td><td class="py-3 px-4">VXF</td><td class="py-3 px-4">Taxable or Tax-Adv</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">International Developed</td><td class="py-3 px-4">15%</td><td class="py-3 px-4">VXUS</td><td class="py-3 px-4">Tax-Adv (foreign tax)</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Emerging Markets</td><td class="py-3 px-4">10%</td><td class="py-3 px-4">VWO</td><td class="py-3 px-4">Tax-Adv</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Investment Grade Bonds</td><td class="py-3 px-4">10%</td><td class="py-3 px-4">Mass Munis</td><td class="py-3 px-4">Taxable</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">High Yield/Corp Bonds</td><td class="py-3 px-4">5%</td><td class="py-3 px-4">HYG, LQD</td><td class="py-3 px-4">Tax-Adv</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Real Estate</td><td class="py-3 px-4">10%</td><td class="py-3 px-4">VNQ</td><td class="py-3 px-4">Tax-Adv</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Alternatives</td><td class="py-3 px-4">5%</td><td class="py-3 px-4">Various</td><td class="py-3 px-4">Tax-Adv</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Cash</td><td class="py-3 px-4">5%</td><td class="py-3 px-4">HYSA/Munis</td><td class="py-3 px-4">Taxable</td></tr></tbody></table></div>
+          <h3 class="text-xl font-bold mt-8 mb-4">For High Earners (Over $1M Income)</h3>
+          
+          <strong>Additional considerations:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Municipal bonds even more valuable (9% state rate)</li>
+          <li>Consider more aggressive muni allocation</li>
+          <li>Be careful about triggering surtax on gains</li>
+          <li>Spread realization across years when possible</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Biotech and Healthcare Industry Considerations',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Stock Compensation in Boston's Industries</h3>
+          
+          <strong>Boston's biotech/pharma employees:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>RSUs vest as ordinary income (5% or 9%)</li>
+          <li>Stock options timing matters</li>
+          <li>Concentrated positions common</li>
+          <li>Need diversification discipline</li>
+          </ul>
+          <strong>Strategies:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Sell immediately on vest (if no restrictions)</li>
+          <li>Diversify systematically over time</li>
+          <li>Use 10b5-1 plans for regular selling</li>
+          <li>Don't let position dominate portfolio</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Pre-IPO and Startup Equity</h3>
+          
+          <strong>Common in Boston's startup scene:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>83(b) elections for early exercise</li>
+          <li>QSBS potential ($10M federal exclusion)</li>
+          <li>Hold for long-term treatment</li>
+          <li>Plan for liquidity events</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Real Estate Investment',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Boston Real Estate Considerations</h3>
+          
+          <strong>Market characteristics:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>High entry prices</li>
+          <li>Strong rental demand</li>
+          <li>Older housing stock</li>
+          <li>Significant appreciation historically</li>
+          </ul>
+          <strong>Tax treatment:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Rental income: 5% (9% over $1M)</li>
+          <li>Depreciation deductions valuable</li>
+          <li>1031 exchanges available</li>
+          <li>Sale may trigger millionaire surtax</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">REITs vs. Direct Investment</h3>
+          
+          <strong>REITs advantages:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Diversification</li>
+          <li>Liquidity</li>
+          <li>Professional management</li>
+          <li>Hold in tax-advantaged accounts</li>
+          </ul>
+          <strong>Direct investment advantages:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Leverage</li>
+          <li>Depreciation deductions</li>
+          <li>1031 exchange potential</li>
+          <li>Control over property</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Common Investment Mistakes',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 1: Ignoring Holding Period</h3>
+          
+          <strong>12% short-term rate is very high:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Always check before selling</li>
+          <li>Use tax lots strategically</li>
+          <li>Wait days if near 1-year mark</li>
+          <li>Plan sales in advance</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 2: Wrong Bond Allocation</h3>
+          
+          <strong>Common errors:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Buying out-of-state munis (state taxable)</li>
+          <li>Ignoring Massachusetts munis</li>
+          <li>Putting munis in tax-advantaged accounts</li>
+          <li>Not comparing after-tax yields</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 3: Triggering Millionaire Surtax</h3>
+          
+          <strong>Poor timing:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Selling large position in single year</li>
+          <li>Not spreading capital gains</li>
+          <li>Ignoring income timing</li>
+          <li>Missing deferral opportunities</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 4: Over-Concentrating in Local Stocks</h3>
+          
+          <strong>Boston industry risk:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Already work in biotech/healthcare</li>
+          <li>Don't over-invest in sector</li>
+          <li>Diversify away from employer</li>
+          <li>Consider geographic diversification</li></ul>
+        `
+      },
+    ],
+    faqs: [
+      {
+        question: 'Why is the short-term capital gains rate so high?',
+        answer: 'Massachusetts taxes short-term gains at 12%, separate from its 5% income tax, as a policy choice to encourage long-term investing. This creates one of the highest short-term rates nationally.'
+      },
+      {
+        question: 'Should I always wait for long-term treatment?',
+        answer: 'Usually, but not always. If a position has significant downside risk or you need to rebalance, the 7% savings may not justify the risk. Evaluate each situation.'
+      },
+      {
+        question: 'Are Massachusetts municipal bonds worth it?',
+        answer: 'Yes, particularly for Boston residents. The double tax exemption (federal and state) makes them competitive with taxable bonds, especially for those in the 9% bracket.'
+      },
+      {
+        question: 'How does the millionaire surtax affect investment gains?',
+        answer: 'If your total income including realized gains exceeds $1 million, the portion above $1 million is taxed at 9% instead of 5%. This adds 4% to long-term gains above the threshold.'
+      },
+      {
+        question: 'Should I hold investments in taxable or tax-advantaged accounts?',
+        answer: 'For Massachusetts residents: Put REITs, high-yield bonds, and active funds in tax-advantaged accounts. Hold index ETFs, growth stocks, and Massachusetts munis in taxable accounts.'
+      },
+    ],
+    bottomLine: 'Boston investors must navigate a complex tax environment with a punishing 12% short-term capital gains rate, meaningful municipal bond benefits, and the millionaire surtax for high earners. Success requires strict holding period discipline, thoughtful asset location, and strategic use of Massachusetts municipal bonds. The 7% differential between short and long-term rates makes patience one of the most valuable investment traits for Massachusetts residents.'
+  },
+  {
+    id: 'city-boston-001',
+    title: 'Retirement Planning in Boston: Massachusetts Retirement Strategies',
+    slug: 'retirement-planning-boston',
+    hubId: 'boston',
+    type: 'city-spoke',
+    excerpt: 'Expert retirement planning strategies for Boston residents including Massachusetts tax considerations, millionaire surtax planning, and healthcare advantages.',
+    readTime: '8 min read',
+    publishDate: '2025-11-29',
+    author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
+    primaryKeyword: 'retirement planning Boston',
+    metaDescription: 'Expert retirement planning strategies for Boston residents including Massachusetts tax considerations, millionaire surtax planning, and healthcare advantages.',
+    keyTakeaways: [
+      'Massachusetts taxes most retirement income at 5% (9% for millionaires)',
+      'New 4% surtax applies to income over $1 million',
+      'Estate tax begins at $2 million (among lowest thresholds nationally)',
+      'Social Security is exempt from Massachusetts tax',
+      'World-class healthcare is a major Boston retirement advantage',
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'Massachusetts Tax Environment',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Income Tax Rates</h3>
+          
+          <strong>Current Massachusetts tax structure:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Flat 5% on most income</li>
+          <li>Additional 4% surtax on income over $1 million (effective 2023)</li>
+          <li>Top effective rate: 9% for high earners</li>
+          </ul>
+          <strong>What's taxed:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Wages and salaries</li>
+          <li>Business income</li>
+          <li>Investment income (capital gains, dividends)</li>
+          <li>Most retirement income</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Millionaire Surtax Impact</h3>
+          
+          <strong>4% surtax on income over $1 million:</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Total Income</th><th class="py-3 px-4 font-bold">Base Tax (5%)</th><th class="py-3 px-4 font-bold">Surtax (4%)</th><th class="py-3 px-4 font-bold">Total Tax</th><th class="py-3 px-4 font-bold">Effective Rate</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">$500,000</td><td class="py-3 px-4">$25,000</td><td class="py-3 px-4">$0</td><td class="py-3 px-4">$25,000</td><td class="py-3 px-4">5.0%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$1,500,000</td><td class="py-3 px-4">$75,000</td><td class="py-3 px-4">$20,000</td><td class="py-3 px-4">$95,000</td><td class="py-3 px-4">6.3%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$3,000,000</td><td class="py-3 px-4">$150,000</td><td class="py-3 px-4">$80,000</td><td class="py-3 px-4">$230,000</td><td class="py-3 px-4">7.7%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$5,000,000</td><td class="py-3 px-4">$250,000</td><td class="py-3 px-4">$160,000</td><td class="py-3 px-4">$410,000</td><td class="py-3 px-4">8.2%</td></tr></tbody></table></div>
+          <strong>Planning implication:</strong> Large one-time income events (stock sales, business sales) can trigger significant surtax.
+          
+          <h3 class="text-xl font-bold mt-8 mb-4">Retirement Income Treatment</h3>
+          
+          <strong>What Massachusetts taxes:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>401(k) and IRA distributions: Taxable at 5% (9% if over $1M)</li>
+          <li>Pension income: Mostly taxable</li>
+          <li>Annuity income: Taxable</li>
+          </ul>
+          <strong>What Massachusetts exempts:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Social Security: Fully exempt</li>
+          <li>Massachusetts public pension: Exempt</li>
+          <li>Federal government pension (in part)</li>
+          <li>Military retirement: Exempt</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Cost of Living Considerations',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Boston Living Costs</h3>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Category</th><th class="py-3 px-4 font-bold">Boston</th><th class="py-3 px-4 font-bold">National Average</th><th class="py-3 px-4 font-bold">Notes</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">Overall</td><td class="py-3 px-4">152</td><td class="py-3 px-4">100</td><td class="py-3 px-4">52% above average</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Housing</td><td class="py-3 px-4">227</td><td class="py-3 px-4">100</td><td class="py-3 px-4">Major cost driver</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Healthcare</td><td class="py-3 px-4">115</td><td class="py-3 px-4">100</td><td class="py-3 px-4">High but excellent quality</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Groceries</td><td class="py-3 px-4">108</td><td class="py-3 px-4">100</td><td class="py-3 px-4">Moderately above</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Utilities</td><td class="py-3 px-4">125</td><td class="py-3 px-4">100</td><td class="py-3 px-4">Heating costs significant</td></tr></tbody></table></div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Retirement Budget Planning</h3>
+          
+          <strong>Comfortable Boston retirement (couple):</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Category</th><th class="py-3 px-4 font-bold">Monthly</th><th class="py-3 px-4 font-bold">Annual</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">Housing (owned, taxes + insurance)</td><td class="py-3 px-4">$1,800</td><td class="py-3 px-4">$21,600</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Healthcare (Medicare + supplemental)</td><td class="py-3 px-4">$750</td><td class="py-3 px-4">$9,000</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Utilities</td><td class="py-3 px-4">$350</td><td class="py-3 px-4">$4,200</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Food and groceries</td><td class="py-3 px-4">$800</td><td class="py-3 px-4">$9,600</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Transportation</td><td class="py-3 px-4">$400</td><td class="py-3 px-4">$4,800</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Entertainment</td><td class="py-3 px-4">$600</td><td class="py-3 px-4">$7,200</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Travel</td><td class="py-3 px-4">$500</td><td class="py-3 px-4">$6,000</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Miscellaneous</td><td class="py-3 px-4">$400</td><td class="py-3 px-4">$4,800</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4"><strong>Total</strong></td><td class="py-3 px-4"><strong>$5,600</strong></td><td class="py-3 px-4"><strong>$67,200</strong></td></tr></tbody></table></div>
+          <strong>Savings target (4% rule):</strong> $1.7 million for comfortable Boston retirement
+        `
+      },
+      {
+        type: 'text',
+        title: 'Healthcare Advantages',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">World-Class Medical Facilities</h3>
+          
+          <strong>Boston's healthcare ecosystem:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Massachusetts General Hospital (consistently top-ranked)</li>
+          <li>Brigham and Women's Hospital</li>
+          <li>Beth Israel Deaconess Medical Center</li>
+          <li>Dana-Farber Cancer Institute</li>
+          <li>Boston Children's Hospital</li>
+          <li>Tufts Medical Center</li>
+          </ul>
+          <strong>Healthcare advantages:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Research hospital access</li>
+          <li>Cutting-edge treatments available</li>
+          <li>Strong specialist networks</li>
+          <li>Medical tourism destination (draws patients globally)</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Medicare in Massachusetts</h3>
+          
+          <strong>Strong Medicare options:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Competitive Medicare Advantage market</li>
+          <li>Good Medigap availability</li>
+          <li>MassHealth for low-income</li>
+          <li>Prescription Advantage program</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Massachusetts Health Connector</h3>
+          
+          <strong>For early retirees (pre-65):</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>State exchange with good options</li>
+          <li>Subsidies available for eligible</li>
+          <li>Strong coverage requirements</li>
+          <li>No gaps in health coverage access</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Retirement Strategies for Boston',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 1: Manage Millionaire Surtax</h3>
+          
+          <strong>Avoid large single-year income:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Spread Roth conversions across years</li>
+          <li>Stagger capital gains realization</li>
+          <li>Plan business sale proceeds</li>
+          <li>Consider installment sales</li>
+          </ul>
+          <strong>Example - $2 million Roth conversion:</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Approach</th><th class="py-3 px-4 font-bold">Year 1 Tax</th><th class="py-3 px-4 font-bold">Year 2 Tax</th><th class="py-3 px-4 font-bold">Total</th><th class="py-3 px-4 font-bold">Surtax Paid</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">All at once</td><td class="py-3 px-4">$140,000</td><td class="py-3 px-4">$0</td><td class="py-3 px-4">$140,000</td><td class="py-3 px-4">$40,000</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$1M each year</td><td class="py-3 px-4">$50,000</td><td class="py-3 px-4">$50,000</td><td class="py-3 px-4">$100,000</td><td class="py-3 px-4">$0</td></tr></tbody></table></div>
+          <strong>Savings:</strong> $40,000 by spreading conversion
+          
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 2: Maximize Tax-Exempt Income</h3>
+          
+          <strong>Social Security optimization:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Exempt from Massachusetts tax</li>
+          <li>Consider delaying for larger benefit</li>
+          <li>Coordinate with other income sources</li>
+          </ul>
+          <strong>Municipal bond income:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Massachusetts munis: Double tax-free</li>
+          <li>Out-of-state munis: Federal-free, state-taxable</li>
+          <li>Meaningful benefit at 5-9% state rate</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 3: Roth Conversion Timing</h3>
+          
+          <strong>With 5% (or 9%) state rate:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Convert in years under $1 million income</li>
+          <li>Avoid surtax on conversion</li>
+          <li>Build tax-free income for future</li>
+          <li>May save both state and federal tax</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 4: Early Estate Tax Planning</h3>
+          
+          <strong>Massachusetts estate tax starts at $2 million:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Plan early (threshold is low)</li>
+          <li>Life insurance for liquidity</li>
+          <li>Gifting strategies</li>
+          <li>Trust planning</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Housing Considerations',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Boston Area Options</h3>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Area</th><th class="py-3 px-4 font-bold">Characteristics</th><th class="py-3 px-4 font-bold">Median Price</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">Brookline</td><td class="py-3 px-4">Urban, walkable, excellent schools</td><td class="py-3 px-4">$1.2 million+</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Cambridge</td><td class="py-3 px-4">Academic, cultural, restaurants</td><td class="py-3 px-4">$1.0 million+</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Newton</td><td class="py-3 px-4">Suburban, family-oriented</td><td class="py-3 px-4">$1.1 million+</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Wellesley</td><td class="py-3 px-4">Affluent suburb, good schools</td><td class="py-3 px-4">$1.2 million+</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Cape Cod</td><td class="py-3 px-4">Seasonal, beach communities</td><td class="py-3 px-4">$500K-$1.5M</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">South Shore</td><td class="py-3 px-4">More affordable, commuter access</td><td class="py-3 px-4">$500K-$800K</td></tr></tbody></table></div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Downsizing Options</h3>
+          
+          <strong>For Boston retirees:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Condo in city (eliminate maintenance)</li>
+          <li>55+ communities in suburbs</li>
+          <li>Cape Cod (seasonal or year-round)</li>
+          <li>Southern migration (many go to Florida)</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Property Tax Considerations</h3>
+          
+          <strong>Massachusetts property taxes:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Average effective rate: 1.2% (varies by town)</li>
+          <li>Boston proper: ~1.0%</li>
+          <li>Some suburbs higher: 1.5%+</li>
+          <li>Elderly exemptions available in many towns</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Estate Tax Planning',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Massachusetts Estate Tax</h3>
+          
+          <strong>Key facts:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>$2 million threshold (indexed)</li>
+          <li>Applies to entire estate if over threshold (cliff)</li>
+          <li>Rates: 0.8% to 16%</li>
+          <li>No portability between spouses</li>
+          </ul>
+          <strong>Example estate tax:</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Estate Size</th><th class="py-3 px-4 font-bold">Mass. Estate Tax</th><th class="py-3 px-4 font-bold">Federal Tax</th><th class="py-3 px-4 font-bold">Total</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">$2 million</td><td class="py-3 px-4">$0</td><td class="py-3 px-4">$0</td><td class="py-3 px-4">$0</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$3 million</td><td class="py-3 px-4">$99,600</td><td class="py-3 px-4">$0</td><td class="py-3 px-4">$99,600</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$5 million</td><td class="py-3 px-4">$279,600</td><td class="py-3 px-4">$0</td><td class="py-3 px-4">$279,600</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$10 million</td><td class="py-3 px-4">$675,200</td><td class="py-3 px-4">$0</td><td class="py-3 px-4">$675,200</td></tr></tbody></table></div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Planning Strategies</h3>
+          
+          <strong>Reduce taxable estate:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Annual gifting ($18,000 per recipient)</li>
+          <li>Irrevocable life insurance trust (ILIT)</li>
+          <li>Charitable giving</li>
+          <li>Dynasty trusts</li>
+          <li>Consider domicile change for large estates</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Common Retirement Mistakes',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 1: Ignoring Estate Tax Threshold</h3>
+          
+          <strong>Massachusetts's $2 million cliff:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Even modest homes can push estates over</li>
+          <li>Need planning earlier than federal threshold</li>
+          <li>Life insurance not automatically excluded</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 2: Not Planning Around Surtax</h3>
+          
+          <strong>Large income events trigger 4% surtax:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Stock option exercises</li>
+          <li>Business sales</li>
+          <li>Large Roth conversions</li>
+          <li>Capital gains realization</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 3: Underestimating Living Costs</h3>
+          
+          <strong>Boston is expensive:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Housing costs major factor</li>
+          <li>Services and dining premium</li>
+          <li>Heating costs in winter</li>
+          <li>Budget conservatively</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 4: Missing Exemption Opportunities</h3>
+          
+          <strong>Available exemptions:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Social Security (fully exempt)</li>
+          <li>Massachusetts pension (exempt)</li>
+          <li>Property tax exemptions for seniors</li>
+          <li>Various deductions and credits</li></ul>
+        `
+      },
+    ],
+    faqs: [
+      {
+        question: 'Does Massachusetts tax Social Security?',
+        answer: 'No. Social Security benefits are completely exempt from Massachusetts income tax.'
+      },
+      {
+        question: 'How does the millionaire surtax work?',
+        answer: 'A 4% surtax applies to income over $1 million, on top of the 5% base rate. So income above $1 million is taxed at 9%. Income below $1 million is taxed at 5%.'
+      },
+      {
+        question: 'What is the Massachusetts estate tax threshold?',
+        answer: '$2 million. Unlike the federal exemption ($13.61 million), Massachusetts taxes estates above $2 million, and it\'s a cliff—the entire estate becomes taxable, not just the excess.'
+      },
+      {
+        question: 'Is Boston a good place to retire?',
+        answer: 'For those who value world-class healthcare, culture, and seasons, yes. Drawbacks include high cost of living, cold winters, and significant state taxes. Many retirees split time with warmer locations.'
+      },
+      {
+        question: 'How much do I need to retire in Boston?',
+        answer: 'A comfortable retirement for a couple typically requires $65,000-$85,000 annually, translating to $1.6-$2.1 million using the 4% rule. Higher for luxury living or extensive travel.'
+      },
+    ],
+    bottomLine: 'Boston offers exceptional retirement resources—unmatched healthcare, cultural institutions, and a strong financial services community. However, the combination of high living costs, the new millionaire surtax, and a low estate tax threshold requires careful planning. For those who value Boston\'s advantages, strategic tax planning can minimize the financial impact while enjoying all the city offers.'
+  },
+  {
+    id: 'city-boston-002',
+    title: 'Tax Planning in Boston: Massachusetts Millionaire Tax Strategies',
+    slug: 'tax-planning-boston',
+    hubId: 'boston',
+    type: 'city-spoke',
+    excerpt: 'Comprehensive tax planning strategies for Boston residents including millionaire surtax planning, estate tax mitigation, and investment tax optimization.',
+    readTime: '7 min read',
+    publishDate: '2025-11-29',
+    author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
+    primaryKeyword: 'tax planning Boston',
+    metaDescription: 'Comprehensive tax planning strategies for Boston residents including millionaire surtax planning, estate tax mitigation, and investment tax optimization.',
+    keyTakeaways: [
+      'Massachusetts has a 5% flat tax plus 4% surtax on income over $1 million',
+      'Short-term capital gains taxed at 12% (higher than ordinary income)',
+      'Estate tax begins at just $2 million',
+      'Social Security exempt from Massachusetts tax',
+      'Municipal bonds offer meaningful state tax benefits',
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'Massachusetts Tax Structure',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Income Tax Rates</h3>
+          
+          <strong>Current rates (2024):</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Base rate: 5% flat tax</li>
+          <li>Millionaire surtax: Additional 4% on income over $1 million</li>
+          <li>Short-term capital gains: 12%</li>
+          <li>Long-term capital gains: 5% (9% if over $1 million)</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Millionaire Surtax Details</h3>
+          
+          <strong>How it works:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Applies to income over $1 million</li>
+          <li>Threshold indexed to inflation</li>
+          <li>All income types count toward threshold</li>
+          <li>4% on excess above $1 million</li>
+          </ul>
+          <strong>Example calculations:</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Taxable Income</th><th class="py-3 px-4 font-bold">Tax on First $1M</th><th class="py-3 px-4 font-bold">Surtax</th><th class="py-3 px-4 font-bold">Total State Tax</th><th class="py-3 px-4 font-bold">Effective Rate</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">$800,000</td><td class="py-3 px-4">$40,000</td><td class="py-3 px-4">$0</td><td class="py-3 px-4">$40,000</td><td class="py-3 px-4">5.0%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$1,200,000</td><td class="py-3 px-4">$50,000</td><td class="py-3 px-4">$8,000</td><td class="py-3 px-4">$58,000</td><td class="py-3 px-4">4.8%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$2,000,000</td><td class="py-3 px-4">$50,000</td><td class="py-3 px-4">$40,000</td><td class="py-3 px-4">$90,000</td><td class="py-3 px-4">4.5%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$5,000,000</td><td class="py-3 px-4">$50,000</td><td class="py-3 px-4">$160,000</td><td class="py-3 px-4">$210,000</td><td class="py-3 px-4">4.2%</td></tr></tbody></table></div>
+          <strong>Note:</strong> Average rate decreases but marginal rate is 9% above $1 million
+          
+          <h3 class="text-xl font-bold mt-8 mb-4">Short-Term Capital Gains</h3>
+          
+          <strong>Unique Massachusetts treatment:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Short-term gains taxed at 12%</li>
+          <li>Higher than ordinary income (5%)</li>
+          <li>Strong incentive for long-term holding</li>
+          <li>Applies to assets held less than 1 year</li>
+          </ul>
+          <strong>Comparison:</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Holding Period</th><th class="py-3 px-4 font-bold">Massachusetts Rate</th><th class="py-3 px-4 font-bold">Federal Rate (32% bracket)</th><th class="py-3 px-4 font-bold">Combined</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">Short-term</td><td class="py-3 px-4">12%</td><td class="py-3 px-4">32%</td><td class="py-3 px-4">44%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Long-term</td><td class="py-3 px-4">5%</td><td class="py-3 px-4">15%</td><td class="py-3 px-4">20%</td></tr></tbody></table></div>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Tax Planning Strategies',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 1: Income Spreading</h3>
+          
+          <strong>Avoid crossing $1 million threshold unnecessarily:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Defer income when possible</li>
+          <li>Spread Roth conversions across years</li>
+          <li>Time stock option exercises</li>
+          <li>Stagger capital gains realization</li>
+          </ul>
+          <strong>Example - $500K annual income + $1M stock sale:</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Approach</th><th class="py-3 px-4 font-bold">Year 1 Income</th><th class="py-3 px-4 font-bold">Year 2 Income</th><th class="py-3 px-4 font-bold">Total Surtax</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">All Year 1</td><td class="py-3 px-4">$1,500,000</td><td class="py-3 px-4">$500,000</td><td class="py-3 px-4">$20,000</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Split</td><td class="py-3 px-4">$1,000,000</td><td class="py-3 px-4">$1,000,000</td><td class="py-3 px-4">$0</td></tr></tbody></table></div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 2: Long-Term Holding</h3>
+          
+          <strong>Given 12% short-term rate:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Hold investments at least 1 year</li>
+          <li>12% → 5% rate reduction</li>
+          <li>7% savings on gains</li>
+          <li>Significant for large positions</li>
+          </ul>
+          <strong>Tax savings on $500,000 gain:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Short-term: $60,000 state tax</li>
+          <li>Long-term: $25,000 state tax</li>
+          <li>Savings: $35,000</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 3: Municipal Bond Allocation</h3>
+          
+          <strong>Massachusetts munis:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Exempt from federal tax</li>
+          <li>Exempt from Massachusetts tax</li>
+          <li>Double tax-free</li>
+          </ul>
+          <strong>Analysis at 5% (9%) state rate:</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Bond Type</th><th class="py-3 px-4 font-bold">Yield</th><th class="py-3 px-4 font-bold">After Fed (32%)</th><th class="py-3 px-4 font-bold">After State</th><th class="py-3 px-4 font-bold">Net Yield</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">Mass Muni</td><td class="py-3 px-4">3.5%</td><td class="py-3 px-4">3.5%</td><td class="py-3 px-4">3.5%</td><td class="py-3 px-4">3.5%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Corp Bond</td><td class="py-3 px-4">5.5%</td><td class="py-3 px-4">3.74%</td><td class="py-3 px-4">3.55%/3.40%</td><td class="py-3 px-4">3.55%/3.40%</td></tr></tbody></table></div>
+          <strong>Conclusion:</strong> Massachusetts munis competitive for high earners
+          
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 4: Charitable Giving</h3>
+          
+          <strong>Massachusetts considerations:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Deductions reduce taxable income</li>
+          <li>Can reduce millionaire surtax exposure</li>
+          <li>Donor-advised funds for timing</li>
+          <li>Bunching donations effective</li>
+          </ul>
+          <strong>Bunching example:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Instead of $50K/year charitable giving</li>
+          <li>Give $150K every 3 years via DAF</li>
+          <li>May stay under $1M threshold in some years</li>
+          <li>Grants distributed annually from DAF</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Estate Tax Planning',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Massachusetts Estate Tax</h3>
+          
+          <strong>Key characteristics:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>$2 million threshold (among lowest nationally)</li>
+          <li>"Cliff" structure—entire estate taxed if over threshold</li>
+          <li>Rates: 0.8% to 16%</li>
+          <li>No portability between spouses</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Estate Tax Rates</h3>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Taxable Estate</th><th class="py-3 px-4 font-bold">Tax Owed</th><th class="py-3 px-4 font-bold">Effective Rate</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">$2,000,000</td><td class="py-3 px-4">$0</td><td class="py-3 px-4">0%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$2,500,000</td><td class="py-3 px-4">$115,200</td><td class="py-3 px-4">4.6%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$3,000,000</td><td class="py-3 px-4">$179,200</td><td class="py-3 px-4">6.0%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$4,000,000</td><td class="py-3 px-4">$279,200</td><td class="py-3 px-4">7.0%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$5,000,000</td><td class="py-3 px-4">$391,600</td><td class="py-3 px-4">7.8%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$10,000,000</td><td class="py-3 px-4">$875,200</td><td class="py-3 px-4">8.8%</td></tr></tbody></table></div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Estate Tax Mitigation Strategies</h3>
+          
+          <strong>Reduce taxable estate:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Annual gifting ($18,000 per recipient)</li>
+          <li>Pay medical/education expenses directly</li>
+          <li>Irrevocable Life Insurance Trust (ILIT)</li>
+          <li>Spousal Lifetime Access Trust (SLAT)</li>
+          <li>Charitable giving</li>
+          </ul>
+          <strong>Consider domicile change:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>For very large estates</li>
+          <li>No estate tax in Florida, Texas, etc.</li>
+          <li>Must genuinely change residence</li>
+          <li>Document carefully</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Investment Income Optimization',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Capital Gains Strategies</h3>
+          
+          <strong>Maximize long-term treatment:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Hold at least 1 year</li>
+          <li>Avoid short-term gains where possible</li>
+          <li>Tax-loss harvesting</li>
+          <li>Consider installment sales</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Dividend Income</h3>
+          
+          <strong>Massachusetts treatment:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Qualified dividends: 5% (9% if over $1M)</li>
+          <li>Ordinary dividends: 5% (9% if over $1M)</li>
+          <li>Same as other income</li>
+          <li>No special preferential rate</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Real Estate Income</h3>
+          
+          <strong>Rental property considerations:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Rental income taxed at 5%</li>
+          <li>Depreciation deductions valuable</li>
+          <li>1031 exchanges defer gains</li>
+          <li>Sale may trigger surtax</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Business Owner Tax Planning',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Entity Structure</h3>
+          
+          <strong>Massachusetts considerations:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>S-Corp income flows to personal return</li>
+          <li>May trigger millionaire surtax</li>
+          <li>Consider C-Corp in some situations</li>
+          <li>Qualified Small Business Stock (QSBS)</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Business Sale Planning</h3>
+          
+          <strong>Large exits require planning:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Installment sales to spread income</li>
+          <li>Opportunity Zone deferrals</li>
+          <li>Charitable remainder trusts</li>
+          <li>QSBS exclusion ($10M federal)</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Stock Option Planning</h3>
+          
+          <strong>Timing matters:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Exercise in lower-income years</li>
+          <li>Spread exercises across years</li>
+          <li>Consider early exercise with 83(b)</li>
+          <li>Watch short-term vs. long-term</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Retirement Income Strategies',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Tax-Advantaged Accounts</h3>
+          
+          <strong>Priority in Massachusetts:</strong>
+          <ol class="list-decimal pl-6 space-y-2 my-4"><li>Employer 401(k) match</li>
+          <li>HSA (if available)</li>
+          <li>Roth IRA (tax-free withdrawals)</li>
+          <li>Additional 401(k)</li>
+          <li>Taxable investments</li>
+          </ol>
+          <h3 class="text-xl font-bold mt-8 mb-4">Roth Conversion Strategy</h3>
+          
+          <strong>With 5% base rate:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Convert in years under $1 million</li>
+          <li>Avoid 9% rate on conversions</li>
+          <li>Build tax-free income</li>
+          <li>Spread conversions over time</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Social Security Planning</h3>
+          
+          <strong>Massachusetts exempts Social Security:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>No state tax on benefits</li>
+          <li>Consider claiming strategy</li>
+          <li>Delay may still make sense</li>
+          <li>No state tax penalty for waiting</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Common Tax Mistakes',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 1: Ignoring Short-Term Rate</h3>
+          
+          <strong>12% is very high:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Higher than federal short-term</li>
+          <li>Creates major holding incentive</li>
+          <li>Plan trades around 1-year mark</li>
+          <li>Use tax lots strategically</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 2: Triggering Surtax Unnecessarily</h3>
+          
+          <strong>Poor timing can cost 4%:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Lumping income in single year</li>
+          <li>Not planning equity compensation</li>
+          <li>Ignoring conversion timing</li>
+          <li>Missing deferral opportunities</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 3: Overlooking Estate Tax</h3>
+          
+          <strong>$2 million is relatively low:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Many homes exceed this alone</li>
+          <li>Life insurance adds to estate</li>
+          <li>Need planning at moderate wealth levels</li>
+          <li>Don't wait until retirement</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 4: Missing Deduction Opportunities</h3>
+          
+          <strong>Available deductions:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Charitable contributions</li>
+          <li>Student loan interest</li>
+          <li>Certain business expenses</li>
+          <li>Commuter benefits</li></ul>
+        `
+      },
+    ],
+    faqs: [
+      {
+        question: 'How does the Massachusetts millionaire surtax work?',
+        answer: 'Income over $1 million is taxed at an additional 4% (total 9%), while income below $1 million is taxed at the standard 5%. The threshold is indexed to inflation annually.'
+      },
+      {
+        question: 'Why are short-term capital gains taxed at 12%?',
+        answer: 'Massachusetts treats short-term gains separately from other income, applying a 12% rate. This creates a strong incentive to hold investments at least one year for the 5% long-term rate.'
+      },
+      {
+        question: 'What triggers Massachusetts estate tax?',
+        answer: 'Estates over $2 million (indexed). Unlike federal, it\'s a "cliff"—if you\'re at $2.1 million, the entire estate is subject to tax, not just the excess over $2 million.'
+      },
+      {
+        question: 'Should I move to avoid Massachusetts taxes?',
+        answer: 'Depends on your situation. For very high earners or large estates, the savings can be substantial. But you must genuinely change residence—Massachusetts can audit former residents.'
+      },
+      {
+        question: 'How can I reduce my millionaire surtax exposure?',
+        answer: 'Spread income across years, maximize deductions, use charitable giving strategically, time capital gains carefully, and consider tax-advantaged accounts.'
+      },
+    ],
+    bottomLine: 'Massachusetts\'s tax environment has become more complex with the millionaire surtax, but strategic planning can significantly reduce the impact. Focus on income spreading to avoid the 9% rate, hold investments long-term to avoid 12% short-term gains, and start estate planning early given the $2 million threshold. Boston\'s advantages—healthcare, culture, career opportunities—may justify the tax burden for many, but planning is essential.'
+  },
+  {
     id: 'city-chicago-003',
     title: 'Estate Planning in Illinois: Chicago Resident\'s Complete Guide',
     slug: 'estate-planning-chicago',
@@ -12270,6 +15440,1494 @@ export const CITY_ARTICLES: Article[] = [
     bottomLine: 'New York City\'s tax burden is substantial, but it\'s not insurmountable. Strategic tax planning—maximizing deductions, timing income, using tax-advantaged accounts, and deploying sophisticated strategies—can save hundreds of thousands over a career. The key is proactive planning with professionals who understand NYC\'s unique tax environment. Don\'t let taxes accumulate unnecessarily; invest in proper planning to keep more of what you earn while enjoying what the city has to offer.'
   },
   {
+    id: 'city-philadelphia-003',
+    title: 'Estate Planning in Philadelphia: Pennsylvania Inheritance Tax Strategies',
+    slug: 'estate-planning-philadelphia',
+    hubId: 'philadelphia',
+    type: 'city-spoke',
+    excerpt: 'Comprehensive estate planning strategies for Philadelphia residents including Pennsylvania\'s unique inheritance tax, trust planning, and probate procedures.',
+    readTime: '7 min read',
+    publishDate: '2025-11-29',
+    author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
+    primaryKeyword: 'estate planning Philadelphia',
+    metaDescription: 'Comprehensive estate planning strategies for Philadelphia residents including Pennsylvania\'s unique inheritance tax, trust planning, and probate procedures.',
+    keyTakeaways: [
+      'Pennsylvania has inheritance tax, not estate tax',
+      'Tax rate depends on heir\'s relationship (0% to 15%)',
+      'No threshold—all transfers are potentially taxable',
+      'Life insurance proceeds are generally exempt',
+      'Trusts can provide benefits but don\'t eliminate inheritance tax',
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'Pennsylvania Inheritance Tax',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Understanding the Structure</h3>
+          
+          <strong>Key differences from estate tax:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Tax on the recipient, not the estate</li>
+          <li>Rate varies by relationship</li>
+          <li>No exemption amount (all transfers taxable)</li>
+          <li>Federal estate tax is separate</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Inheritance Tax Rates</h3>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Recipient</th><th class="py-3 px-4 font-bold">Tax Rate</th><th class="py-3 px-4 font-bold">Example on $500,000</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">Spouse</td><td class="py-3 px-4">0%</td><td class="py-3 px-4">$0</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Children</td><td class="py-3 px-4">4.5%</td><td class="py-3 px-4">$22,500</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Parents</td><td class="py-3 px-4">4.5%</td><td class="py-3 px-4">$22,500</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Grandchildren</td><td class="py-3 px-4">4.5%</td><td class="py-3 px-4">$22,500</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Siblings</td><td class="py-3 px-4">12%</td><td class="py-3 px-4">$60,000</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Other heirs</td><td class="py-3 px-4">15%</td><td class="py-3 px-4">$75,000</td></tr></tbody></table></div>
+          <h3 class="text-xl font-bold mt-8 mb-4">What's Subject to Inheritance Tax</h3>
+          
+          <strong>Taxable assets:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Real estate</li>
+          <li>Bank accounts</li>
+          <li>Investment accounts</li>
+          <li>Personal property</li>
+          <li>Retirement accounts (to non-spouse)</li>
+          <li>Business interests</li>
+          </ul>
+          <strong>Exempt assets:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Transfers to spouse</li>
+          <li>Life insurance proceeds</li>
+          <li>Charitable bequests</li>
+          <li>Some agricultural property</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Inheritance Tax Planning Strategies',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 1: Life Insurance</h3>
+          
+          <strong>Key benefit:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Life insurance death benefits exempt from PA inheritance tax</li>
+          <li>Provides liquidity for tax payment</li>
+          <li>Can fund inheritance tax for other assets</li>
+          <li>Consider Irrevocable Life Insurance Trust (ILIT)</li>
+          </ul>
+          <strong>Example:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>$1 million estate to two children</li>
+          <li>Inheritance tax: $45,000 (4.5% × $1M)</li>
+          <li>$50,000 life insurance policy covers tax plus costs</li>
+          <li>Children receive full inheritance</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 2: Spousal Planning</h3>
+          
+          <strong>Transfers to spouse are tax-free:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Unlimited marital exemption</li>
+          <li>Delay tax until second death</li>
+          <li>Consider credit shelter trusts</li>
+          <li>Plan for blended families carefully</li>
+          </ul>
+          <strong>Second-to-die considerations:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Children will owe 4.5%</li>
+          <li>Plan for liquidity</li>
+          <li>Life insurance on second-to-die</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 3: Charitable Giving</h3>
+          
+          <strong>Charitable bequests exempt:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>No inheritance tax on charitable transfers</li>
+          <li>Reduce taxable estate</li>
+          <li>Charitable remainder trusts</li>
+          <li>Charitable lead trusts</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 4: Lifetime Gifting</h3>
+          
+          <strong>Pennsylvania has no gift tax:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Gifts during lifetime not taxed</li>
+          <li>Federal gift tax may apply ($18,000 annual exclusion)</li>
+          <li>Removes assets from inheritance base</li>
+          <li>Consider 529 plans for grandchildren</li>
+          </ul>
+          <strong>One-year lookback:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Gifts within one year of death may be included</li>
+          <li>Document timing carefully</li>
+          <li>Bona fide gifts not pulled back</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Trust Planning in Pennsylvania',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Revocable Living Trusts</h3>
+          
+          <strong>Benefits:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Avoid probate</li>
+          <li>Privacy (probate is public)</li>
+          <li>Incapacity planning</li>
+          <li>Multi-state property management</li>
+          </ul>
+          <strong>Important limitation:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Does NOT avoid Pennsylvania inheritance tax</li>
+          <li>Trust assets still taxable</li>
+          <li>Rate still depends on beneficiary relationship</li>
+          <li>But provides other significant benefits</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Credit Shelter Trusts</h3>
+          
+          <strong>For married couples:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Preserve both spouses' federal exemptions</li>
+          <li>Can still be subject to PA inheritance tax</li>
+          <li>But spouse's share is exempt (0%)</li>
+          <li>Children's share taxed at 4.5%</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Irrevocable Life Insurance Trust (ILIT)</h3>
+          
+          <strong>Key estate planning tool:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Life insurance outside of estate</li>
+          <li>Proceeds avoid federal estate tax</li>
+          <li>PA inheritance tax exempt (life insurance exemption)</li>
+          <li>Must be properly structured</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Dynasty Trusts</h3>
+          
+          <strong>Multigenerational planning:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Pennsylvania allows perpetual trusts (2007+)</li>
+          <li>Can minimize repeated taxation</li>
+          <li>Consider trust situs carefully</li>
+          <li>Delaware or Nevada may offer advantages</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Probate in Pennsylvania',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Overview</h3>
+          
+          <strong>Pennsylvania probate process:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Register of Wills handles probate</li>
+          <li>Each county has own Register</li>
+          <li>Relatively straightforward process</li>
+          <li>Can be avoided with proper planning</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Types of Probate</h3>
+          
+          <strong>Formal probate:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Most common for larger estates</li>
+          <li>Court supervision</li>
+          <li>Personal representative appointed</li>
+          <li>Accounting required</li>
+          </ul>
+          <strong>Small estate procedures:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Estates under $50,000 (with no real estate)</li>
+          <li>Simplified process</li>
+          <li>Family settlement agreements possible</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Probate Timeline</h3>
+          
+          <strong>Typical Pennsylvania probate:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Simple estates: 6-12 months</li>
+          <li>Moderate complexity: 12-18 months</li>
+          <li>Complex estates: 18+ months</li>
+          </ul>
+          <strong>Inheritance tax due:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Within 9 months of death</li>
+          <li>5% discount for payment within 3 months</li>
+          <li>Interest accrues after 9 months</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Estate Documents for Pennsylvania',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Essential Documents</h3>
+          
+          <strong>1. Last Will and Testament</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Two witnesses required</li>
+          <li>Self-proving affidavit recommended</li>
+          <li>Nominates executor</li>
+          <li>Directs asset distribution</li>
+          </ul>
+          <strong>2. Revocable Living Trust</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Avoids probate</li>
+          <li>Incapacity planning</li>
+          <li>Must be funded to be effective</li>
+          <li>Consider pour-over will as backup</li>
+          </ul>
+          <strong>3. Durable Power of Attorney</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Pennsylvania-specific form recommended</li>
+          <li>Survives incapacity</li>
+          <li>Can be springing or immediate</li>
+          <li>Important for financial decisions</li>
+          </ul>
+          <strong>4. Healthcare Power of Attorney</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Healthcare decision-making</li>
+          <li>HIPAA authorization included</li>
+          <li>Pennsylvania-specific form</li>
+          <li>Living will separate in PA</li>
+          </ul>
+          <strong>5. Living Will</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>End-of-life treatment preferences</li>
+          <li>Separate from healthcare POA</li>
+          <li>Pennsylvania-specific requirements</li>
+          <li>Consider with healthcare proxy</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Beneficiary Designations</h3>
+          
+          <strong>Review and update:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Retirement accounts (direct transfer, avoids probate)</li>
+          <li>Life insurance (exempt from inheritance tax)</li>
+          <li>Bank accounts (POD designations)</li>
+          <li>Investment accounts (TOD designations)</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Asset Protection in Pennsylvania',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Homestead Protection</h3>
+          
+          <strong>Limited protection:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Pennsylvania has NO homestead protection</li>
+          <li>Home is available to creditors</li>
+          <li>Must use other strategies</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Protected Assets</h3>
+          
+          <strong>Exempt from creditors:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Retirement accounts (ERISA protected)</li>
+          <li>Life insurance (with proper beneficiary)</li>
+          <li>Annuities (limited protection)</li>
+          <li>$300 personal property exemption</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Trust-Based Protection</h3>
+          
+          <strong>Options for Pennsylvania residents:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Domestic Asset Protection Trusts (other states)</li>
+          <li>Properly structured irrevocable trusts</li>
+          <li>LLCs and other entities</li>
+          <li>Timing is critical (no fraudulent transfers)</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Common Estate Planning Mistakes',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 1: Not Planning for Inheritance Tax</h3>
+          
+          <strong>4.5% adds up:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>$1 million to children: $45,000 tax</li>
+          <li>Life insurance can cover this</li>
+          <li>Plan for liquidity needs</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 2: Assuming Trust Avoids Inheritance Tax</h3>
+          
+          <strong>Common misconception:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Revocable trusts don't avoid PA inheritance tax</li>
+          <li>Assets still taxed based on beneficiary relationship</li>
+          <li>Trusts provide other benefits (probate, privacy)</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 3: Ignoring Federal Estate Tax</h3>
+          
+          <strong>Pennsylvania inheritance tax is separate:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Federal estate tax applies over $13.61 million</li>
+          <li>Different planning strategies needed</li>
+          <li>Coordinate both levels of planning</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 4: Not Updating Beneficiaries</h3>
+          
+          <strong>After major life events:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Beneficiary designations override wills</li>
+          <li>Update after marriage/divorce</li>
+          <li>Check retirement accounts and insurance</li>
+          <li>Coordinate with overall plan</li></ul>
+        `
+      },
+    ],
+    faqs: [
+      {
+        question: 'What is the Pennsylvania inheritance tax?',
+        answer: 'Pennsylvania imposes an inheritance tax on transfers at death. Unlike estate tax, the rate depends on the recipient\'s relationship: 0% for spouse, 4.5% for children/parents, 12% for siblings, and 15% for others.'
+      },
+      {
+        question: 'Is there a threshold for inheritance tax?',
+        answer: 'No. Pennsylvania inheritance tax applies to all transfers, regardless of amount. There\'s no exemption like the federal estate tax\'s $13.61 million threshold.'
+      },
+      {
+        question: 'Does a trust avoid Pennsylvania inheritance tax?',
+        answer: 'A revocable living trust does NOT avoid Pennsylvania inheritance tax. The trust assets are still taxable based on the beneficiary\'s relationship to the deceased. Trusts provide other benefits like probate avoidance.'
+      },
+      {
+        question: 'Is life insurance subject to inheritance tax?',
+        answer: 'No. Life insurance proceeds are generally exempt from Pennsylvania inheritance tax, making life insurance a valuable estate planning tool.'
+      },
+      {
+        question: 'How do I reduce inheritance tax?',
+        answer: 'Strategies include: life insurance (exempt from inheritance tax), charitable bequests (exempt), lifetime gifting (no PA gift tax), and ensuring assets pass to spouse (0% rate) when possible.'
+      },
+    ],
+    bottomLine: 'Pennsylvania\'s inheritance tax system requires different planning than states with estate taxes. The relationship-based rates mean planning must consider who receives assets, not just how much. Life insurance is particularly valuable as it\'s exempt from inheritance tax and provides liquidity. While revocable trusts don\'t avoid the tax, they provide important probate and incapacity benefits that justify their use.'
+  },
+  {
+    id: 'city-philadelphia-005',
+    title: 'High Net Worth Wealth Management in Philadelphia: Pennsylvania Strategies',
+    slug: 'high-net-worth-philadelphia',
+    hubId: 'philadelphia',
+    type: 'city-spoke',
+    excerpt: 'Specialized wealth management strategies for high net worth Philadelphia residents including inheritance tax planning, wealth transfer strategies, and philanthropic opportunities.',
+    readTime: '8 min read',
+    publishDate: '2025-11-29',
+    author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
+    primaryKeyword: 'high net worth Philadelphia',
+    metaDescription: 'Specialized wealth management strategies for high net worth Philadelphia residents including inheritance tax planning, wealth transfer strategies, and philanthropic opportunities.',
+    keyTakeaways: [
+      'Pennsylvania\'s 3.07% flat tax is favorable for high earners',
+      'Inheritance tax (not estate tax) applies to all transfers',
+      'No state estate tax threshold (unlike federal $13.61M)',
+      'Strong local wealth management and philanthropic infrastructure',
+      'Philadelphia wage tax (3.75%) applies during working years',
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'Pennsylvania Tax Environment for HNW',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Income Tax Advantages</h3>
+          
+          <strong>Compared to neighboring states:</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Income</th><th class="py-3 px-4 font-bold">Pennsylvania</th><th class="py-3 px-4 font-bold">New York</th><th class="py-3 px-4 font-bold">New Jersey</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">$500,000</td><td class="py-3 px-4">$15,350</td><td class="py-3 px-4">$36,000</td><td class="py-3 px-4">$36,000</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$1 million</td><td class="py-3 px-4">$30,700</td><td class="py-3 px-4">$85,000</td><td class="py-3 px-4">$90,000</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$2 million</td><td class="py-3 px-4">$61,400</td><td class="py-3 px-4">$178,000</td><td class="py-3 px-4">$188,000</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$5 million</td><td class="py-3 px-4">$153,500</td><td class="py-3 px-4">$478,000</td><td class="py-3 px-4">$503,000</td></tr></tbody></table></div>
+          <strong>Annual savings vs. NYC:</strong> $50,000-$320,000+ depending on income
+          
+          <h3 class="text-xl font-bold mt-8 mb-4">Philadelphia Wage Tax</h3>
+          
+          <strong>During working years:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>3.75% on earned income (residents)</li>
+          <li>Combined rate: 6.82% (state + city)</li>
+          <li>Still lower than NYC (12.7% state + city)</li>
+          </ul>
+          <strong>Retirement advantage:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Wage tax ends when earned income stops</li>
+          <li>All retirement income state-tax-free</li>
+          <li>Significant reduction in overall tax burden</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Inheritance Tax Planning</h3>
+          
+          <strong>Pennsylvania's unique challenge:</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Recipient</th><th class="py-3 px-4 font-bold">Rate</th><th class="py-3 px-4 font-bold">On $5 Million</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">Spouse</td><td class="py-3 px-4">0%</td><td class="py-3 px-4">$0</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Children</td><td class="py-3 px-4">4.5%</td><td class="py-3 px-4">$225,000</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Siblings</td><td class="py-3 px-4">12%</td><td class="py-3 px-4">$600,000</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Others</td><td class="py-3 px-4">15%</td><td class="py-3 px-4">$750,000</td></tr></tbody></table></div>
+          <strong>No threshold:</strong> All transfers taxed regardless of amount
+        `
+      },
+      {
+        type: 'text',
+        title: 'Wealth Management Infrastructure',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Private Banking</h3>
+          
+          <strong>Major presence in Philadelphia:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>J.P. Morgan Private Bank</li>
+          <li>Goldman Sachs</li>
+          <li>Morgan Stanley Private Wealth</li>
+          <li>UBS Private Wealth</li>
+          <li>Vanguard Personal Advisor Services</li>
+          <li>Local trust companies</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Family Office Options</h3>
+          
+          <strong>Multi-family offices:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Regional MFOs serving Mid-Atlantic</li>
+          <li>National firms with Philadelphia presence</li>
+          <li>Often serve from NYC or locally</li>
+          </ul>
+          <strong>Single-family office considerations:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Typically $100 million+ in assets</li>
+          <li>Philadelphia talent available</li>
+          <li>Lower costs than NYC</li>
+          <li>Can serve from suburbs</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Professional Services</h3>
+          
+          <strong>Sophisticated service network:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Estate planning attorneys (strong local bar)</li>
+          <li>Tax advisors</li>
+          <li>Investment consultants</li>
+          <li>Philanthropic advisors</li>
+          <li>Trust companies (local and national)</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'HNW Tax Strategies',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 1: Minimize Inheritance Tax</h3>
+          
+          <strong>Life insurance:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Proceeds exempt from PA inheritance tax</li>
+          <li>Use ILIT to also avoid federal estate tax</li>
+          <li>Provides liquidity for tax payment</li>
+          <li>Essential tool for Pennsylvania</li>
+          </ul>
+          <strong>Charitable giving:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Charitable bequests exempt</li>
+          <li>Charitable remainder trusts</li>
+          <li>Private foundations</li>
+          <li>Reduce taxable transfers</li>
+          </ul>
+          <strong>Lifetime gifting:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>No Pennsylvania gift tax</li>
+          <li>Federal annual exclusion: $18,000</li>
+          <li>Remove assets from estate</li>
+          <li>One-year lookback rule</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 2: Retirement Account Maximization</h3>
+          
+          <strong>Pennsylvania exempts all retirement income:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Maximize 401(k) contributions</li>
+          <li>Mega backdoor Roth if available</li>
+          <li>Build tax-free income base</li>
+          <li>Significant advantage vs. other states</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 3: Income Smoothing</h3>
+          
+          <strong>While working in Philadelphia:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>6.82% combined rate on earned income</li>
+          <li>Maximize pre-tax contributions</li>
+          <li>Consider deferred compensation</li>
+          <li>Timing of bonuses and equity</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 4: Business Structure Optimization</h3>
+          
+          <strong>For business owners:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>S-Corp for self-employment savings</li>
+          <li>Reasonable compensation planning</li>
+          <li>Consider BIRT implications (Philadelphia)</li>
+          <li>Location of business matters</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Estate Planning for HNW',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Inheritance Tax Mitigation</h3>
+          
+          <strong>Primary strategies:</strong>
+          
+          <strong>1. Maximize spousal transfers:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>0% rate to spouse</li>
+          <li>Delay tax until second death</li>
+          <li>But children still face 4.5%</li>
+          </ul>
+          <strong>2. Life insurance planning:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Proceeds exempt from inheritance tax</li>
+          <li>Calculate coverage needed</li>
+          <li>Consider second-to-die policies</li>
+          <li>ILIT for federal estate tax too</li>
+          </ul>
+          <strong>3. Charitable planning:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Exempt from inheritance tax</li>
+          <li>Donor-advised funds</li>
+          <li>Private foundations</li>
+          <li>Charitable lead trusts</li>
+          </ul>
+          <strong>4. Lifetime gifting:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Annual exclusion gifts ($18,000)</li>
+          <li>Educational and medical gifts (direct)</li>
+          <li>No PA gift tax</li>
+          <li>Watch one-year lookback</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Trust Strategies</h3>
+          
+          <strong>Credit shelter trusts:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Preserve federal exemption</li>
+          <li>PA inheritance tax still applies</li>
+          <li>Plan for liquidity</li>
+          </ul>
+          <strong>Dynasty trusts:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Pennsylvania allows perpetual trusts</li>
+          <li>Consider trust situs (Delaware, Nevada)</li>
+          <li>Minimize repeated taxation</li>
+          </ul>
+          <strong>ILIT:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Life insurance outside estate</li>
+          <li>Federal and state benefits</li>
+          <li>Must be properly structured</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Comparison with Neighbors</h3>
+          
+          <strong>For very large estates:</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Estate</th><th class="py-3 px-4 font-bold">PA Inheritance Tax</th><th class="py-3 px-4 font-bold">NY Estate Tax</th><th class="py-3 px-4 font-bold">NJ Inheritance Tax</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">$5M to children</td><td class="py-3 px-4">$225,000</td><td class="py-3 px-4">$227,800</td><td class="py-3 px-4">$0 (Class A exempt)</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$10M to children</td><td class="py-3 px-4">$450,000</td><td class="py-3 px-4">$880,000</td><td class="py-3 px-4">$0 (Class A exempt)</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$20M to children</td><td class="py-3 px-4">$900,000</td><td class="py-3 px-4">$1,880,000</td><td class="py-3 px-4">$0 (Class A exempt)</td></tr></tbody></table></div>
+          <strong>Note:</strong> New Jersey eliminated inheritance tax for direct descendants in 2018
+        `
+      },
+      {
+        type: 'text',
+        title: 'Asset Protection',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Pennsylvania Limitations</h3>
+          
+          <strong>Limited protections:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>No homestead exemption</li>
+          <li>Home is available to creditors</li>
+          <li>Need alternative strategies</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Protected Assets</h3>
+          
+          <strong>Exempt from creditors:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>ERISA retirement accounts</li>
+          <li>Life insurance (proper beneficiary)</li>
+          <li>Annuities (limited)</li>
+          <li>$300 personal property</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Protection Strategies</h3>
+          
+          <strong>For Pennsylvania HNW:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Domestic Asset Protection Trusts (Nevada, Delaware)</li>
+          <li>Adequate liability insurance</li>
+          <li>Proper entity structuring</li>
+          <li>Timing of planning critical</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Philanthropic Opportunities',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Philadelphia's Strong Philanthropic Culture</h3>
+          
+          <strong>Major institutions:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Philadelphia Museum of Art</li>
+          <li>Philadelphia Orchestra</li>
+          <li>University of Pennsylvania</li>
+          <li>Children's Hospital of Philadelphia</li>
+          <li>Local community foundations</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Giving Strategies</h3>
+          
+          <strong>Donor-advised funds:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Immediate tax deduction</li>
+          <li>Flexible timing of grants</li>
+          <li>Good for irregular income</li>
+          <li>Several local sponsors</li>
+          </ul>
+          <strong>Private foundations:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Maximum control</li>
+          <li>Family involvement</li>
+          <li>5% annual distribution</li>
+          <li>Higher administration</li>
+          </ul>
+          <strong>Charitable trusts:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Income stream (CRT)</li>
+          <li>Or charity-first (CLT)</li>
+          <li>Reduce inheritance tax exposure</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Real Estate Considerations',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Philadelphia Luxury Market</h3>
+          
+          <strong>High-end areas:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Rittenhouse Square</li>
+          <li>Society Hill</li>
+          <li>Chestnut Hill</li>
+          <li>Main Line suburbs</li>
+          <li>Gladwyne/Villanova</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Property Tax Planning</h3>
+          
+          <strong>Pennsylvania property taxes:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Vary by municipality</li>
+          <li>Philadelphia ~1.4%</li>
+          <li>Some suburbs higher</li>
+          <li>Senior exemptions available</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Estate Planning for Real Estate</h3>
+          
+          <strong>For valuable properties:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Consider LLC ownership</li>
+          <li>QPRT for estate reduction</li>
+          <li>Charitable remainder trust</li>
+          <li>Beware inheritance tax on real estate</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Common HNW Mistakes',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 1: Underestimating Inheritance Tax</h3>
+          
+          <strong>4.5% to children adds up:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>$10 million estate: $450,000 tax</li>
+          <li>Need life insurance for liquidity</li>
+          <li>Plan early</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 2: Not Maximizing Retirement Accounts</h3>
+          
+          <strong>Pennsylvania's exemption is valuable:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>All retirement income tax-free</li>
+          <li>Should prioritize contributions</li>
+          <li>Often under-utilized</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 3: Ignoring Life Insurance Planning</h3>
+          
+          <strong>Critical in Pennsylvania:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Proceeds exempt from inheritance tax</li>
+          <li>Provides liquidity for other taxes</li>
+          <li>ILIT for federal estate tax</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 4: Overlooking Philanthropic Benefits</h3>
+          
+          <strong>Charitable bequests:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>100% exempt from inheritance tax</li>
+          <li>Strong local institutions</li>
+          <li>Consider charitable planning</li></ul>
+        `
+      },
+    ],
+    faqs: [
+      {
+        question: 'How does Pennsylvania compare to Florida or Texas for HNW?',
+        answer: 'Pennsylvania\'s 3.07% rate is higher than Florida or Texas (0%), but lower than most Northeast states. The inheritance tax is a consideration, but life insurance can mitigate it. Many prefer Philadelphia\'s culture and proximity to NYC/DC.'
+      },
+      {
+        question: 'At what wealth level should I consider a family office?',
+        answer: 'Single-family offices typically make sense at $100 million+. Multi-family offices serve $10-50 million. Below that, sophisticated RIAs provide similar services at lower cost.'
+      },
+      {
+        question: 'How can I reduce Pennsylvania inheritance tax?',
+        answer: 'Primary strategies: life insurance (exempt from inheritance tax), charitable bequests (exempt), lifetime gifting (no PA gift tax), and maximizing transfers to spouse (0% rate).'
+      },
+      {
+        question: 'Is it worth moving to avoid Pennsylvania taxes?',
+        answer: 'For very high net worth, Florida or Texas save significant income and inheritance taxes. However, Pennsylvania\'s rates are moderate, and quality of life factors (healthcare, culture, family proximity) often outweigh tax savings.'
+      },
+      {
+        question: 'Should I move my business to the suburbs?',
+        answer: 'Potentially. Suburban locations avoid Philadelphia\'s BIRT and business net profits taxes. However, consider talent, client access, and lifestyle factors alongside taxes.'
+      },
+    ],
+    bottomLine: 'Philadelphia offers HNW individuals a favorable tax environment compared to neighboring states, with moderate income taxes and complete exemption of retirement income. The primary planning challenge is Pennsylvania\'s inheritance tax, which applies to all transfers regardless of size. Life insurance is essential for liquidity and is exempt from inheritance tax. A sophisticated philanthropic culture and strong wealth management infrastructure make Philadelphia an attractive option for those who value Northeast location and lifestyle.'
+  },
+  {
+    id: 'city-philadelphia-004',
+    title: 'Investment Strategies in Philadelphia: Pennsylvania Tax-Efficient Portfolios',
+    slug: 'investment-strategies-philadelphia',
+    hubId: 'philadelphia',
+    type: 'city-spoke',
+    excerpt: 'Investment strategies tailored for Philadelphia residents including Pennsylvania\'s low tax rate, retirement account optimization, and regional investment opportunities.',
+    readTime: '7 min read',
+    publishDate: '2025-11-29',
+    author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
+    primaryKeyword: 'investment strategies Philadelphia',
+    metaDescription: 'Investment strategies tailored for Philadelphia residents including Pennsylvania\'s low tax rate, retirement account optimization, and regional investment opportunities.',
+    keyTakeaways: [
+      'Pennsylvania\'s 3.07% flat tax is among the lowest state rates',
+      'All retirement income is state-tax-free',
+      'Philadelphia wage tax doesn\'t apply to investment income',
+      'Municipal bonds offer modest state tax benefits',
+      'Low state tax allows more investment flexibility',
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'Tax-Efficient Investing in Pennsylvania',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Low State Tax Advantage</h3>
+          
+          <strong>Pennsylvania's 3.07% rate:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Among lowest state income tax rates</li>
+          <li>Applies to all income types (except retirement)</li>
+          <li>Simple, predictable tax burden</li>
+          <li>No progressice brackets</li>
+          </ul>
+          <strong>Comparison:</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">State</th><th class="py-3 px-4 font-bold">Top Rate</th><th class="py-3 px-4 font-bold">Structure</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">Pennsylvania</td><td class="py-3 px-4">3.07%</td><td class="py-3 px-4">Flat</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">New York</td><td class="py-3 px-4">10.9%</td><td class="py-3 px-4">Progressive</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">New Jersey</td><td class="py-3 px-4">10.75%</td><td class="py-3 px-4">Progressive</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Massachusetts</td><td class="py-3 px-4">9% (5% + 4% surtax)</td><td class="py-3 px-4">Flat + surtax</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">California</td><td class="py-3 px-4">13.3%</td><td class="py-3 px-4">Progressive</td></tr></tbody></table></div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Impact on Investment Income</h3>
+          
+          <strong>All investment income taxed at 3.07%:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Short-term capital gains: 3.07%</li>
+          <li>Long-term capital gains: 3.07%</li>
+          <li>Dividends: 3.07%</li>
+          <li>Interest: 3.07%</li>
+          </ul>
+          <strong>Key insight:</strong> No differential between short and long-term gains at state level (unlike Massachusetts at 12%/5%)
+          
+          <h3 class="text-xl font-bold mt-8 mb-4">Municipal Bond Analysis</h3>
+          
+          <strong>Pennsylvania muni bonds:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Federal tax-free</li>
+          <li>State tax-free (3.07% savings)</li>
+          <li>Modest but real benefit</li>
+          </ul>
+          <strong>Yield comparison:</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Bond Type</th><th class="py-3 px-4 font-bold">Yield</th><th class="py-3 px-4 font-bold">After Fed (24%)</th><th class="py-3 px-4 font-bold">After State</th><th class="py-3 px-4 font-bold">Net</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">PA Muni</td><td class="py-3 px-4">3.5%</td><td class="py-3 px-4">3.5%</td><td class="py-3 px-4">3.5%</td><td class="py-3 px-4">3.5%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Corp Bond</td><td class="py-3 px-4">5.0%</td><td class="py-3 px-4">3.8%</td><td class="py-3 px-4">3.68%</td><td class="py-3 px-4">3.68%</td></tr></tbody></table></div>
+          <strong>Conclusion:</strong> At 3.07%, the muni advantage is modest. Corporate bonds may win depending on yields and federal bracket.
+        `
+      },
+      {
+        type: 'text',
+        title: 'Retirement Account Strategies',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Maximize Retirement Accounts</h3>
+          
+          <strong>Pennsylvania makes retirement accounts extra valuable:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>All distributions state-tax-free</li>
+          <li>Build large retirement nest egg</li>
+          <li>Convert to Roth for federal benefits too</li>
+          </ul>
+          <strong>Priority order:</strong>
+          <ol class="list-decimal pl-6 space-y-2 my-4"><li>401(k) to employer match</li>
+          <li>HSA (if available)</li>
+          <li>Additional 401(k)/403(b)</li>
+          <li>Roth IRA (if eligible)</li>
+          <li>Backdoor Roth</li>
+          <li>After-tax 401(k) / Mega backdoor Roth</li>
+          <li>Taxable investing</li>
+          </ol>
+          <h3 class="text-xl font-bold mt-8 mb-4">Roth Considerations</h3>
+          
+          <strong>Pennsylvania nuance:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Traditional: Pay 3.07% now, $0 in retirement</li>
+          <li>Roth: Pay 3.07% now, $0 in retirement (same!)</li>
+          </ul>
+          <strong>Decision driver:</strong> Federal taxes, not state
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Roth: Pay federal now at current rate</li>
+          <li>Traditional: Pay federal in retirement</li>
+          </ul>
+          <strong>Insight:</strong> Pennsylvania's retirement income exemption makes Roth vs. Traditional mainly a federal decision
+          
+          <h3 class="text-xl font-bold mt-8 mb-4">Conversion Strategy</h3>
+          
+          <strong>Roth conversions in Pennsylvania:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Pay 3.07% state tax on conversion</li>
+          <li>But retirement income is exempt anyway</li>
+          <li>Main benefit is federal tax planning</li>
+          <li>Less urgent than high-tax states</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Asset Location Optimization',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Pennsylvania-Specific Approach</h3>
+          
+          <strong>Tax-advantaged accounts:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>REITs (ordinary income federally)</li>
+          <li>High-yield bonds</li>
+          <li>Active funds with turnover</li>
+          <li>Commodities</li>
+          </ul>
+          <strong>Taxable accounts:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Index ETFs</li>
+          <li>Buy-and-hold stocks</li>
+          <li>Qualified dividend stocks</li>
+          <li>Pennsylvania municipal bonds</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Investment Income in Retirement</h3>
+          
+          <strong>Planning for retirement:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Retirement account distributions: 0% PA tax</li>
+          <li>Taxable investment income: 3.07%</li>
+          <li>Strategy: Draw retirement accounts first</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Portfolio Construction',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Sample Allocation (Moderate Risk, $1 Million)</h3>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Asset Class</th><th class="py-3 px-4 font-bold">Allocation</th><th class="py-3 px-4 font-bold">Vehicles</th><th class="py-3 px-4 font-bold">Notes</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">U.S. Large Cap</td><td class="py-3 px-4">30%</td><td class="py-3 px-4">VTI, VOO</td><td class="py-3 px-4">Core equity</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">U.S. Small/Mid</td><td class="py-3 px-4">10%</td><td class="py-3 px-4">VXF, IJH</td><td class="py-3 px-4">Growth tilt</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">International Developed</td><td class="py-3 px-4">15%</td><td class="py-3 px-4">VXUS</td><td class="py-3 px-4">Global diversification</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Emerging Markets</td><td class="py-3 px-4">10%</td><td class="py-3 px-4">VWO</td><td class="py-3 px-4">Growth exposure</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Investment Grade Bonds</td><td class="py-3 px-4">15%</td><td class="py-3 px-4">BND or PA Munis</td><td class="py-3 px-4">Fixed income</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">High Yield</td><td class="py-3 px-4">5%</td><td class="py-3 px-4">HYG</td><td class="py-3 px-4">Higher income</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Real Estate</td><td class="py-3 px-4">10%</td><td class="py-3 px-4">VNQ or Direct</td><td class="py-3 px-4">REITs or local</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Cash</td><td class="py-3 px-4">5%</td><td class="py-3 px-4">HYSA</td><td class="py-3 px-4">Liquidity</td></tr></tbody></table></div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Regional Investment Opportunities</h3>
+          
+          <strong>Philadelphia area strengths:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Healthcare and pharmaceuticals</li>
+          <li>Financial services</li>
+          <li>Education sector</li>
+          <li>Technology (growing)</li>
+          </ul>
+          <strong>Local considerations:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Already exposed via employment</li>
+          <li>Diversify beyond local economy</li>
+          <li>Don't over-concentrate</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Real Estate Investment',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Philadelphia Market</h3>
+          
+          <strong>Market characteristics:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>More affordable than NYC/Boston</li>
+          <li>Strong rental demand</li>
+          <li>Historic properties common</li>
+          <li>Neighborhood variation significant</li>
+          </ul>
+          <strong>Tax treatment:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Rental income: 3.07% state tax (not city wage tax)</li>
+          <li>Depreciation deductions apply</li>
+          <li>1031 exchanges available</li>
+          <li>Property taxes vary by neighborhood</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Investment Opportunities</h3>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Area</th><th class="py-3 px-4 font-bold">Profile</th><th class="py-3 px-4 font-bold">Entry Point</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">University City</td><td class="py-3 px-4">Student housing, stable</td><td class="py-3 px-4">$250K-$500K</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Fishtown</td><td class="py-3 px-4">Appreciation play</td><td class="py-3 px-4">$300K-$500K</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Graduate Hospital</td><td class="py-3 px-4">Young professional rentals</td><td class="py-3 px-4">$350K-$600K</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Northeast Philly</td><td class="py-3 px-4">Value, working class</td><td class="py-3 px-4">$150K-$300K</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Main Line suburbs</td><td class="py-3 px-4">Higher-end rentals</td><td class="py-3 px-4">$400K-$800K</td></tr></tbody></table></div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Property Tax Considerations</h3>
+          
+          <strong>Philadelphia:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Effective rate ~1.4%</li>
+          <li>Assessments rising</li>
+          <li>Factor into rental analysis</li>
+          </ul>
+          <strong>Suburbs:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Rates vary (1-2.5%)</li>
+          <li>School district drives taxes</li>
+          <li>Research specific municipality</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Tax-Loss Harvesting',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Pennsylvania Context</h3>
+          
+          <strong>At 3.07%:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Less urgent than high-tax states</li>
+          <li>Federal benefits still valuable</li>
+          <li>Wash sale rules apply</li>
+          <li>Harvest opportunistically</li>
+          </ul>
+          <strong>Strategy:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Focus on federal tax savings</li>
+          <li>State savings modest but real</li>
+          <li>Don't over-complicate for state alone</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Common Investment Mistakes',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 1: Over-Valuing Muni Bonds</h3>
+          
+          <strong>At 3.07% state rate:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Benefit is modest</li>
+          <li>Compare yields carefully</li>
+          <li>May not justify lower yields</li>
+          <li>Still federally tax-free</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 2: Not Maximizing Retirement Accounts</h3>
+          
+          <strong>Pennsylvania's exemption is valuable:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>All retirement income tax-free</li>
+          <li>Should prioritize contributions</li>
+          <li>Future distributions completely exempt</li>
+          <li>Better than most states</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 3: Ignoring Wage Tax on Working Income</h3>
+          
+          <strong>3.75% city tax during working years:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Maximize pre-tax contributions</li>
+          <li>Consider employer location</li>
+          <li>Plan for career transitions</li>
+          <li>Ends at retirement</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 4: Over-Concentrating Locally</h3>
+          
+          <strong>Philadelphia industry exposure:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Healthcare is major employer</li>
+          <li>Don't double-down in portfolio</li>
+          <li>Diversify geographically and by sector</li>
+          <li>Manage career-related concentration</li></ul>
+        `
+      },
+    ],
+    faqs: [
+      {
+        question: 'Should I prioritize PA municipal bonds?',
+        answer: 'At 3.07% state tax, the benefit is modest. Compare after-tax yields directly with taxable alternatives. For federal tax savings, munis may still make sense depending on your bracket.'
+      },
+      {
+        question: 'How does the low state tax affect my investment strategy?',
+        answer: 'Pennsylvania\'s low rate provides flexibility. There\'s less penalty for "wrong" asset location, less urgency for tax-loss harvesting at state level, and more freedom in investment choices.'
+      },
+      {
+        question: 'Are retirement accounts especially valuable in Pennsylvania?',
+        answer: 'Yes. Since Pennsylvania exempts all retirement income from state tax, every dollar in retirement accounts avoids 3.07% tax forever. This makes maximizing contributions particularly attractive.'
+      },
+      {
+        question: 'Does the Philadelphia wage tax affect my investments?',
+        answer: 'No. The wage tax applies only to earned income (wages, salaries). Investment income including dividends, interest, and capital gains are not subject to Philadelphia wage tax.'
+      },
+      {
+        question: 'How should I plan for retirement income in Pennsylvania?',
+        answer: 'Since retirement account distributions are state-tax-free but taxable account investment income is taxed at 3.07%, consider drawing from retirement accounts first in retirement. However, coordinate with federal tax considerations.'
+      },
+    ],
+    bottomLine: 'Philadelphia investors benefit from Pennsylvania\'s low 3.07% flat tax and complete exemption of retirement income. This creates a favorable environment for wealth building with less tax complexity than neighboring states. Focus on maximizing retirement contributions (tax-free in PA), maintain diversification beyond local industries, and don\'t over-value municipal bonds given the modest state tax rate.'
+  },
+  {
+    id: 'city-philadelphia-001',
+    title: 'Retirement Planning in Philadelphia: Pennsylvania Tax-Free Retirement Income',
+    slug: 'retirement-planning-philadelphia',
+    hubId: 'philadelphia',
+    type: 'city-spoke',
+    excerpt: 'Expert retirement planning strategies for Philadelphia residents including Pennsylvania\'s tax-free retirement income, city wage tax considerations, and healthcare options.',
+    readTime: '8 min read',
+    publishDate: '2025-11-29',
+    author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
+    primaryKeyword: 'retirement planning Philadelphia',
+    metaDescription: 'Expert retirement planning strategies for Philadelphia residents including Pennsylvania\'s tax-free retirement income, city wage tax considerations, and healthcare options.',
+    keyTakeaways: [
+      'Pennsylvania exempts all retirement income from state tax',
+      'Social Security, pensions, 401(k)s, and IRAs are tax-free at state level',
+      'Philadelphia wage tax (3.75%) applies only to earned income',
+      'Affordable compared to other Northeast metros',
+      'Strong healthcare with multiple major hospital systems',
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'Pennsylvania\'s Retirement Tax Advantage',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Tax-Free Retirement Income</h3>
+          
+          <strong>Pennsylvania exempts all retirement income:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Social Security benefits: 100% exempt</li>
+          <li>Pension income: 100% exempt</li>
+          <li>401(k) distributions: 100% exempt</li>
+          <li>IRA distributions: 100% exempt</li>
+          <li>403(b) distributions: 100% exempt</li>
+          <li>Annuity income: 100% exempt</li>
+          </ul>
+          <strong>Annual savings examples:</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Retirement Income</th><th class="py-3 px-4 font-bold">Pennsylvania Tax</th><th class="py-3 px-4 font-bold">New York Tax</th><th class="py-3 px-4 font-bold">Annual Savings</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">$50,000</td><td class="py-3 px-4">$0</td><td class="py-3 px-4">$2,500</td><td class="py-3 px-4">$2,500</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$75,000</td><td class="py-3 px-4">$0</td><td class="py-3 px-4">$4,200</td><td class="py-3 px-4">$4,200</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$100,000</td><td class="py-3 px-4">$0</td><td class="py-3 px-4">$5,800</td><td class="py-3 px-4">$5,800</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$150,000</td><td class="py-3 px-4">$0</td><td class="py-3 px-4">$9,500</td><td class="py-3 px-4">$9,500</td></tr></tbody></table></div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Philadelphia Wage Tax</h3>
+          
+          <strong>During working years:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Philadelphia residents: 3.75% wage tax</li>
+          <li>Non-residents working in Philly: 3.44%</li>
+          <li>Applies to wages, salaries, commissions</li>
+          <li>Does NOT apply to retirement income</li>
+          </ul>
+          <strong>Retirement benefit:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Wage tax ends when you stop working</li>
+          <li>Investment income not taxed by city</li>
+          <li>Retirement distributions not taxed by city</li>
+          <li>Only state's 3.07% flat tax applies to non-retirement income</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Comparison with Other States</h3>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">State</th><th class="py-3 px-4 font-bold">Retirement Income Tax</th><th class="py-3 px-4 font-bold">Other Income Tax</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">Pennsylvania</td><td class="py-3 px-4">0%</td><td class="py-3 px-4">3.07% (flat)</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">New York</td><td class="py-3 px-4">5-10.9%</td><td class="py-3 px-4">5-10.9%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">New Jersey</td><td class="py-3 px-4">1.4-10.75%</td><td class="py-3 px-4">1.4-10.75%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Florida</td><td class="py-3 px-4">0%</td><td class="py-3 px-4">0%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Massachusetts</td><td class="py-3 px-4">5% (9% over $1M)</td><td class="py-3 px-4">5% (9% over $1M)</td></tr></tbody></table></div>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Philadelphia Cost of Living',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Affordable Northeast Metro</h3>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Category</th><th class="py-3 px-4 font-bold">Philadelphia</th><th class="py-3 px-4 font-bold">NYC</th><th class="py-3 px-4 font-bold">Boston</th><th class="py-3 px-4 font-bold">National</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">Overall</td><td class="py-3 px-4">101</td><td class="py-3 px-4">187</td><td class="py-3 px-4">152</td><td class="py-3 px-4">100</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Housing</td><td class="py-3 px-4">95</td><td class="py-3 px-4">227</td><td class="py-3 px-4">227</td><td class="py-3 px-4">100</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Healthcare</td><td class="py-3 px-4">98</td><td class="py-3 px-4">115</td><td class="py-3 px-4">115</td><td class="py-3 px-4">100</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Groceries</td><td class="py-3 px-4">102</td><td class="py-3 px-4">116</td><td class="py-3 px-4">108</td><td class="py-3 px-4">100</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Utilities</td><td class="py-3 px-4">107</td><td class="py-3 px-4">125</td><td class="py-3 px-4">125</td><td class="py-3 px-4">100</td></tr></tbody></table></div>
+          <strong>Key advantage:</strong> Philadelphia offers Northeast metro amenities at near-national-average costs
+          
+          <h3 class="text-xl font-bold mt-8 mb-4">Retirement Budget Planning</h3>
+          
+          <strong>Comfortable Philadelphia retirement (couple):</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Category</th><th class="py-3 px-4 font-bold">Monthly</th><th class="py-3 px-4 font-bold">Annual</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">Housing (owned, taxes + insurance)</td><td class="py-3 px-4">$1,000</td><td class="py-3 px-4">$12,000</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Healthcare (Medicare + supplemental)</td><td class="py-3 px-4">$650</td><td class="py-3 px-4">$7,800</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Utilities</td><td class="py-3 px-4">$250</td><td class="py-3 px-4">$3,000</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Food and groceries</td><td class="py-3 px-4">$650</td><td class="py-3 px-4">$7,800</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Transportation</td><td class="py-3 px-4">$350</td><td class="py-3 px-4">$4,200</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Entertainment</td><td class="py-3 px-4">$400</td><td class="py-3 px-4">$4,800</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Travel</td><td class="py-3 px-4">$400</td><td class="py-3 px-4">$4,800</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Miscellaneous</td><td class="py-3 px-4">$300</td><td class="py-3 px-4">$3,600</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4"><strong>Total</strong></td><td class="py-3 px-4"><strong>$4,000</strong></td><td class="py-3 px-4"><strong>$48,000</strong></td></tr></tbody></table></div>
+          <strong>Savings target (4% rule):</strong> $1.2 million for comfortable Philadelphia retirement
+        `
+      },
+      {
+        type: 'text',
+        title: 'Retirement Strategies for Philadelphia',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 1: Maximize Tax-Free Retirement Income</h3>
+          
+          <strong>Structure income for Pennsylvania:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Prioritize retirement account distributions</li>
+          <li>All retirement income is state-tax-free</li>
+          <li>Non-retirement income taxed at 3.07%</li>
+          <li>Plan distribution sources strategically</li>
+          </ul>
+          <strong>Example - $80,000 annual need:</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Source</th><th class="py-3 px-4 font-bold">Amount</th><th class="py-3 px-4 font-bold">PA Tax</th><th class="py-3 px-4 font-bold">Net</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">IRA Distribution</td><td class="py-3 px-4">$60,000</td><td class="py-3 px-4">$0</td><td class="py-3 px-4">$60,000</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Taxable Dividends</td><td class="py-3 px-4">$20,000</td><td class="py-3 px-4">$614</td><td class="py-3 px-4">$19,386</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4"><strong>Total</strong></td><td class="py-3 px-4"><strong>$80,000</strong></td><td class="py-3 px-4"><strong>$614</strong></td><td class="py-3 px-4"><strong>$79,386</strong></td></tr></tbody></table></div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 2: Roth Conversion Strategy</h3>
+          
+          <strong>Before Pennsylvania retirement:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Convert traditional to Roth</li>
+          <li>Pay taxes at current rates</li>
+          <li>Roth withdrawals tax-free (federal and state)</li>
+          <li>More flexibility in retirement</li>
+          </ul>
+          <strong>But consider:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Pennsylvania already exempts retirement income</li>
+          <li>Conversion mainly for federal benefits</li>
+          <li>May not be as urgent as in taxing states</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 3: Social Security Optimization</h3>
+          
+          <strong>No state tax penalty for delay:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Social Security always PA tax-free</li>
+          <li>Focus on federal taxation and longevity</li>
+          <li>Delay to age 70 if financially feasible</li>
+          <li>Coordinate with other income sources</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 4: Part-Time Work Planning</h3>
+          
+          <strong>If working in retirement:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Earned income subject to 3.07% state tax</li>
+          <li>Philadelphia wage tax (3.75%) if working in city</li>
+          <li>Consider locations outside Philadelphia</li>
+          <li>Consult vs. employment for flexibility</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Healthcare Options',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Major Hospital Systems</h3>
+          
+          <strong>Philadelphia's healthcare strength:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Penn Medicine (Hospital of the University of Pennsylvania)</li>
+          <li>Jefferson Health</li>
+          <li>Temple University Hospital</li>
+          <li>Einstein Medical Center</li>
+          <li>Children's Hospital of Philadelphia</li>
+          <li>Fox Chase Cancer Center</li>
+          </ul>
+          <strong>Healthcare advantages:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Multiple world-class systems</li>
+          <li>Research hospital access</li>
+          <li>Strong specialist networks</li>
+          <li>Competitive pricing vs. NYC/Boston</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Medicare in Philadelphia</h3>
+          
+          <strong>Good Medicare environment:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Multiple Medicare Advantage plans</li>
+          <li>Strong Medigap availability</li>
+          <li>Competitive premiums</li>
+          <li>Good provider networks</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Long-Term Care Considerations</h3>
+          
+          <strong>Pennsylvania options:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Partnership long-term care policies</li>
+          <li>Medicaid planning if needed</li>
+          <li>Continuing care retirement communities</li>
+          <li>Quality nursing facilities</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Housing Options',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Philadelphia Neighborhoods</h3>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Area</th><th class="py-3 px-4 font-bold">Characteristics</th><th class="py-3 px-4 font-bold">Median Price</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">Center City</td><td class="py-3 px-4">Urban, walkable</td><td class="py-3 px-4">$400K-$800K</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Rittenhouse</td><td class="py-3 px-4">Upscale, cultural</td><td class="py-3 px-4">$500K-$1.2M</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Old City</td><td class="py-3 px-4">Historic, restaurants</td><td class="py-3 px-4">$350K-$600K</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Chestnut Hill</td><td class="py-3 px-4">Suburban feel, shops</td><td class="py-3 px-4">$400K-$700K</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Society Hill</td><td class="py-3 px-4">Historic, quiet</td><td class="py-3 px-4">$500K-$1M</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Manayunk</td><td class="py-3 px-4">Active, younger</td><td class="py-3 px-4">$250K-$450K</td></tr></tbody></table></div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Suburban Options</h3>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Suburb</th><th class="py-3 px-4 font-bold">County</th><th class="py-3 px-4 font-bold">Median Price</th><th class="py-3 px-4 font-bold">Notes</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">Main Line</td><td class="py-3 px-4">Montgomery/Delaware</td><td class="py-3 px-4">$500K-$1M+</td><td class="py-3 px-4">Affluent, schools</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Media</td><td class="py-3 px-4">Delaware</td><td class="py-3 px-4">$350K-$500K</td><td class="py-3 px-4">Walkable downtown</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Doylestown</td><td class="py-3 px-4">Bucks</td><td class="py-3 px-4">$400K-$600K</td><td class="py-3 px-4">Charming, arts</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Exton/West Chester</td><td class="py-3 px-4">Chester</td><td class="py-3 px-4">$350K-$550K</td><td class="py-3 px-4">Growing area</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Haddonfield, NJ</td><td class="py-3 px-4">Camden (NJ)</td><td class="py-3 px-4">$400K-$600K</td><td class="py-3 px-4">Across river</td></tr></tbody></table></div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Property Tax Considerations</h3>
+          
+          <strong>Pennsylvania property taxes:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Vary significantly by municipality</li>
+          <li>Philadelphia: ~1.4% effective rate</li>
+          <li>Some suburbs higher (2%+)</li>
+          <li>Senior exemptions available</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Estate Planning Considerations',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Pennsylvania Inheritance Tax</h3>
+          
+          <strong>Pennsylvania has inheritance tax (not estate tax):</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Spouse: 0%</li>
+          <li>Lineal heirs (children, parents): 4.5%</li>
+          <li>Siblings: 12%</li>
+          <li>Other heirs: 15%</li>
+          </ul>
+          <strong>Example:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>$500,000 to child: $22,500 tax</li>
+          <li>$500,000 to sibling: $60,000 tax</li>
+          <li>$500,000 to spouse: $0</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Planning Strategies</h3>
+          
+          <strong>Minimize inheritance tax:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Life insurance (exempt from inheritance tax)</li>
+          <li>Charitable bequests (no tax)</li>
+          <li>Gifts during lifetime</li>
+          <li>Proper beneficiary designations</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Common Retirement Mistakes',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 1: Not Knowing PA Exempts Retirement Income</h3>
+          
+          <strong>Many don't realize:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>All retirement income is tax-free</li>
+          <li>Better than most states</li>
+          <li>Plan around this advantage</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 2: Working in Philadelphia Post-Retirement</h3>
+          
+          <strong>Wage tax applies to earned income:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>3.75% on wages if living in Philadelphia</li>
+          <li>Consider working outside city limits</li>
+          <li>Or structure as consulting/self-employment</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 3: Ignoring Inheritance Tax</h3>
+          
+          <strong>Pennsylvania is unique:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Inheritance tax, not estate tax</li>
+          <li>Rate depends on relationship</li>
+          <li>Plan for non-spouse heirs</li>
+          <li>Life insurance can help</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 4: Missing Property Tax Relief</h3>
+          
+          <strong>Available programs:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Property Tax/Rent Rebate Program</li>
+          <li>Senior citizen exemptions (vary by municipality)</li>
+          <li>Disability exemptions</li>
+          <li>Homestead exclusions</li></ul>
+        `
+      },
+    ],
+    faqs: [
+      {
+        question: 'Does Pennsylvania tax retirement income?',
+        answer: 'No. Pennsylvania exempts all retirement income from state tax, including Social Security, pensions, 401(k)s, IRAs, and annuities. This is one of the most generous retirement tax policies nationally.'
+      },
+      {
+        question: 'What about the Philadelphia wage tax?',
+        answer: 'The Philadelphia wage tax (3.75%) applies only to earned income (wages, salaries). It does NOT apply to retirement income, investment income, or Social Security. Retirees not working pay no Philadelphia wage tax.'
+      },
+      {
+        question: 'How does Pennsylvania compare to Florida for retirement?',
+        answer: 'Florida has no income tax at all, while Pennsylvania has a 3.07% flat tax on non-retirement income. However, Pennsylvania exempts all retirement income, so if your income is primarily from retirement accounts, the practical difference is minimal.'
+      },
+      {
+        question: 'Is Philadelphia affordable for retirement?',
+        answer: 'Yes. Philadelphia is significantly more affordable than NYC or Boston while offering similar urban amenities. Housing costs are particularly favorable.'
+      },
+      {
+        question: 'Does Pennsylvania have an estate tax?',
+        answer: 'No, but it has an inheritance tax. Transfers to spouses are exempt. Transfers to children are taxed at 4.5%. Transfers to siblings are 12%. Other heirs face 15%.'
+      },
+    ],
+    bottomLine: 'Philadelphia offers an attractive retirement combination: affordable Northeast living, world-class healthcare, and Pennsylvania\'s complete exemption of retirement income from state tax. While the city wage tax applies during working years, it ends when earned income stops. For retirees, Philadelphia provides big-city amenities at a fraction of NYC or Boston costs, with a highly favorable tax treatment.'
+  },
+  {
+    id: 'city-philadelphia-002',
+    title: 'Tax Planning in Philadelphia: Pennsylvania Tax Strategies',
+    slug: 'tax-planning-philadelphia',
+    hubId: 'philadelphia',
+    type: 'city-spoke',
+    excerpt: 'Comprehensive tax planning strategies for Philadelphia residents including Pennsylvania\'s flat tax, retirement income exemption, and city wage tax optimization.',
+    readTime: '7 min read',
+    publishDate: '2025-11-29',
+    author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
+    primaryKeyword: 'tax planning Philadelphia',
+    metaDescription: 'Comprehensive tax planning strategies for Philadelphia residents including Pennsylvania\'s flat tax, retirement income exemption, and city wage tax optimization.',
+    keyTakeaways: [
+      'Pennsylvania flat tax is just 3.07%',
+      'All retirement income is exempt from state tax',
+      'Philadelphia wage tax (3.75%) applies to earned income only',
+      'No state tax on Social Security',
+      'Inheritance tax applies instead of estate tax',
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'Pennsylvania Tax Structure',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Flat Income Tax</h3>
+          
+          <strong>Pennsylvania's simple structure:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Flat rate: 3.07%</li>
+          <li>Applies to most income types</li>
+          <li>No progressive brackets</li>
+          <li>Lower than most states</li>
+          </ul>
+          <strong>What's taxed at 3.07%:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Wages and salaries (state level)</li>
+          <li>Business income</li>
+          <li>Interest income</li>
+          <li>Dividend income</li>
+          <li>Capital gains</li>
+          <li>Rental income</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Retirement Income Exemption</h3>
+          
+          <strong>Completely exempt from PA tax:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Social Security benefits</li>
+          <li>Pension income</li>
+          <li>401(k) and 403(b) distributions</li>
+          <li>IRA distributions</li>
+          <li>Annuity income</li>
+          <li>Railroad retirement</li>
+          </ul>
+          <strong>Planning implication:</strong> In retirement, most income may be entirely state-tax-free
+          
+          <h3 class="text-xl font-bold mt-8 mb-4">Philadelphia Wage Tax</h3>
+          
+          <strong>City-level tax on earned income:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Philadelphia residents: 3.75%</li>
+          <li>Non-residents working in Philly: 3.44%</li>
+          <li>Applies to wages, salaries, commissions</li>
+          </ul>
+          <strong>What it does NOT apply to:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Investment income</li>
+          <li>Retirement income</li>
+          <li>Rental income</li>
+          <li>Interest and dividends</li>
+          <li>Capital gains</li>
+          </ul>
+          <strong>Combined working-years rate:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>State: 3.07%</li>
+          <li>City: 3.75%</li>
+          <li>Total: 6.82% on earned income</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Philadelphia Tax Planning Strategies',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 1: Optimize Working Years</h3>
+          
+          <strong>Minimize wage tax impact:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Live in suburbs (only 3.44% non-resident rate if working in Philly)</li>
+          <li>Work remotely if possible</li>
+          <li>Consider business structure for self-employment income</li>
+          <li>Maximize pre-tax retirement contributions</li>
+          </ul>
+          <strong>Comparison:</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Residence</th><th class="py-3 px-4 font-bold">Working in Philly</th><th class="py-3 px-4 font-bold">Rate</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">Philadelphia</td><td class="py-3 px-4">Yes</td><td class="py-3 px-4">3.75%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Suburbs</td><td class="py-3 px-4">Yes</td><td class="py-3 px-4">3.44%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Suburbs</td><td class="py-3 px-4">No (remote)</td><td class="py-3 px-4">0%</td></tr></tbody></table></div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 2: Maximize Retirement Contributions</h3>
+          
+          <strong>Double benefit in Pennsylvania:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Reduce current taxable income</li>
+          <li>All retirement income tax-free in PA</li>
+          <li>Federal tax deferral</li>
+          <li>Particularly valuable given city wage tax</li>
+          </ul>
+          <strong>Priority order:</strong>
+          <ol class="list-decimal pl-6 space-y-2 my-4"><li>401(k) to employer match</li>
+          <li>HSA (if available)</li>
+          <li>Additional 401(k)</li>
+          <li>Roth IRA (for federal tax diversification)</li>
+          <li>Taxable investing</li>
+          </ol>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 3: Strategic Retirement Timing</h3>
+          
+          <strong>Transition planning:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Wage tax ends when earned income stops</li>
+          <li>Investment income not city-taxed</li>
+          <li>Retirement income not state-taxed</li>
+          <li>Can significantly reduce tax burden</li>
+          </ul>
+          <strong>Example - $100,000 income:</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Phase</th><th class="py-3 px-4 font-bold">Source</th><th class="py-3 px-4 font-bold">State Tax</th><th class="py-3 px-4 font-bold">City Tax</th><th class="py-3 px-4 font-bold">Total</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">Working</td><td class="py-3 px-4">Salary</td><td class="py-3 px-4">$3,070</td><td class="py-3 px-4">$3,750</td><td class="py-3 px-4">$6,820</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Retired</td><td class="py-3 px-4">IRA</td><td class="py-3 px-4">$0</td><td class="py-3 px-4">$0</td><td class="py-3 px-4">$0</td></tr></tbody></table></div>
+          <strong>Savings in retirement: $6,820/year</strong>
+          
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 4: Investment Income Optimization</h3>
+          
+          <strong>PA taxes investment income at 3.07%:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Capital gains (no preferential rate)</li>
+          <li>Dividends (no preferential rate)</li>
+          <li>Interest income</li>
+          </ul>
+          <strong>But no city wage tax:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Philadelphia doesn't tax investment income</li>
+          <li>Retirees living on investments pay only 3.07%</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Capital Gains Planning',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Pennsylvania Treatment</h3>
+          
+          <strong>No preferential rate:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Short-term gains: 3.07%</li>
+          <li>Long-term gains: 3.07%</li>
+          <li>Same as ordinary income</li>
+          </ul>
+          <strong>Federal rates still vary:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Short-term: Ordinary income rates (up to 37%)</li>
+          <li>Long-term: 0%, 15%, or 20%</li>
+          <li>NIIT: Additional 3.8% for high earners</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Tax-Efficient Strategies</h3>
+          
+          <strong>Given low state rate:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Less urgency for loss harvesting (state level)</li>
+          <li>Focus on federal tax efficiency</li>
+          <li>Long-term holding for federal benefits</li>
+          <li>Can realize gains more freely than high-tax states</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Business Income Planning',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Self-Employment in Philadelphia</h3>
+          
+          <strong>Complex treatment:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Net profits taxed at PA 3.07%</li>
+          <li>Philadelphia Business Income and Receipts Tax (BIRT)</li>
+          <li>Net profits tax (3.75% for residents)</li>
+          </ul>
+          <strong>BIRT details:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>0.1415% on gross receipts</li>
+          <li>5.99% on net income</li>
+          <li>Complex for small businesses</li>
+          <li>Consider entity structure</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Entity Structure Considerations</h3>
+          
+          <strong>For Philadelphia business owners:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>S-Corp may reduce self-employment tax</li>
+          <li>Can split income between salary and distributions</li>
+          <li>Professional advice essential</li>
+          <li>Consider suburban location for business</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Real Estate Tax Planning',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Rental Property</h3>
+          
+          <strong>Pennsylvania treatment:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Rental income: 3.07% state tax</li>
+          <li>Not subject to Philadelphia wage tax</li>
+          <li>Depreciation deductions apply</li>
+          <li>1031 exchanges available</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Property Taxes</h3>
+          
+          <strong>Pennsylvania property taxes:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Vary by municipality</li>
+          <li>Philadelphia: ~1.4% effective rate</li>
+          <li>Some suburbs: 2%+</li>
+          <li>Senior exemptions available</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Homestead Exclusion</h3>
+          
+          <strong>Available exemptions:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Reduces assessed value</li>
+          <li>Must apply annually</li>
+          <li>Significant savings possible</li>
+          <li>Check with local tax office</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Inheritance Tax Planning',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Pennsylvania's Unique System</h3>
+          
+          <strong>Inheritance tax (not estate tax):</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Tax on recipients, not estate</li>
+          <li>Rate depends on relationship</li>
+          <li>No threshold—applies to all amounts</li>
+          </ul>
+          <strong>Rates:</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Recipient</th><th class="py-3 px-4 font-bold">Tax Rate</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">Spouse</td><td class="py-3 px-4">0%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Children/Parents</td><td class="py-3 px-4">4.5%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Siblings</td><td class="py-3 px-4">12%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Other heirs</td><td class="py-3 px-4">15%</td></tr></tbody></table></div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Planning Strategies</h3>
+          
+          <strong>Minimize inheritance tax:</strong>
+          
+          <strong>Life insurance:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Proceeds exempt from inheritance tax</li>
+          <li>Provide liquidity for tax payment</li>
+          <li>Consider irrevocable trust for estate tax too</li>
+          </ul>
+          <strong>Charitable giving:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Charitable bequests: 0% tax</li>
+          <li>Reduce taxable estate</li>
+          <li>Consider charitable remainder trusts</li>
+          </ul>
+          <strong>Spousal planning:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Transfers to spouse: 0%</li>
+          <li>Consider trust structures</li>
+          <li>Plan for second-to-die</li>
+          </ul>
+          <strong>Lifetime gifts:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Remove assets from inheritance</li>
+          <li>May still have federal gift implications</li>
+          <li>Pennsylvania has no gift tax</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Common Tax Mistakes',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 1: Not Knowing Retirement Income Is Exempt</h3>
+          
+          <strong>Pennsylvania's advantage:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>All retirement income tax-free</li>
+          <li>Many don't realize this</li>
+          <li>Plan withdrawals accordingly</li>
+          <li>Better than most states</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 2: Ignoring City Wage Tax Location Planning</h3>
+          
+          <strong>3.75% is significant:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Consider suburban residence</li>
+          <li>Remote work eliminates city tax</li>
+          <li>Plan for career transitions</li>
+          <li>Factor into job decisions</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 3: Overlooking Inheritance Tax</h3>
+          
+          <strong>Unlike estate tax:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>No threshold—all transfers taxed</li>
+          <li>Rate varies by recipient</li>
+          <li>Life insurance provides solution</li>
+          <li>Plan for non-spouse heirs</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 4: BIRT Surprises</h3>
+          
+          <strong>For business owners:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Gross receipts tax applies regardless of profit</li>
+          <li>Complex calculations</li>
+          <li>Consider business location</li>
+          <li>Professional help essential</li></ul>
+        `
+      },
+    ],
+    faqs: [
+      {
+        question: 'What is Pennsylvania\'s income tax rate?',
+        answer: 'Pennsylvania has a flat 3.07% income tax rate. However, the city of Philadelphia adds a 3.75% wage tax on earned income, bringing the total to 6.82% for Philadelphia residents with jobs.'
+      },
+      {
+        question: 'Is retirement income taxed in Pennsylvania?',
+        answer: 'No. Pennsylvania completely exempts retirement income including Social Security, pensions, 401(k)s, IRAs, and annuities. This is one of the most generous retirement tax policies nationally.'
+      },
+      {
+        question: 'How does the Philadelphia wage tax work?',
+        answer: 'The wage tax is 3.75% for Philadelphia residents and 3.44% for non-residents working in Philadelphia. It applies only to earned income (wages, salaries, commissions)—not retirement or investment income.'
+      },
+      {
+        question: 'Does Pennsylvania have an estate tax?',
+        answer: 'No, but Pennsylvania has an inheritance tax. Transfers to spouses are tax-free. Transfers to children are taxed at 4.5%. Siblings pay 12%, and other heirs pay 15%.'
+      },
+      {
+        question: 'Should I live in Philadelphia or the suburbs?',
+        answer: 'From a tax perspective: If you work in Philadelphia, living in suburbs only saves 0.31% in wage tax (3.44% vs. 3.75%). But if you work remotely or outside the city, you avoid the wage tax entirely.'
+      },
+    ],
+    bottomLine: 'Philadelphia offers a unique tax situation: moderate combined rates during working years (6.82%) but excellent tax treatment in retirement when all retirement income becomes state-tax-free and there\'s no city wage tax. Strategic planning around the transition from work to retirement can significantly reduce lifetime taxes. Understanding the interplay between state tax, city wage tax, and inheritance tax enables optimal planning.'
+  },
+  {
     id: 'city-phoenix-003',
     title: 'Estate Planning in Phoenix: Arizona Trust and Estate Strategies',
     slug: 'estate-planning-phoenix',
@@ -13554,6 +18212,1393 @@ export const CITY_ARTICLES: Article[] = [
       },
     ],
     bottomLine: 'Arizona\'s transformation into a low-tax state creates substantial planning opportunities, particularly for those relocating from high-tax states or executing major financial transactions. The combination of a 2.5% flat income tax, no estate tax, and generous charitable credits makes Phoenix an attractive destination for tax-conscious wealth management. Work with an advisor who understands both Arizona\'s advantages and the complexities of multi-state taxation to optimize your situation.'
+  },
+  {
+    id: 'city-sandiego-003',
+    title: 'Estate Planning in San Diego: California Trust and Probate Strategies',
+    slug: 'estate-planning-san-diego',
+    hubId: 'san-diego',
+    type: 'city-spoke',
+    excerpt: 'Comprehensive estate planning strategies for San Diego residents including California\'s community property rules, trust planning, and probate avoidance.',
+    readTime: '7 min read',
+    publishDate: '2025-11-29',
+    author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
+    primaryKeyword: 'estate planning San Diego',
+    metaDescription: 'Comprehensive estate planning strategies for San Diego residents including California\'s community property rules, trust planning, and probate avoidance.',
+    keyTakeaways: [
+      'California has no state estate or inheritance tax',
+      'Community property provides double step-up in basis',
+      'California probate is expensive (statutory fees)',
+      'Living trusts are essential for probate avoidance',
+      'Prop 19 changed inherited property rules',
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'California Estate Tax Advantage',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">No State Death Taxes</h3>
+          
+          <strong>California has neither:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>No estate tax (repealed 1982)</li>
+          <li>No inheritance tax</li>
+          <li>Only federal estate tax applies</li>
+          </ul>
+          <strong>Federal thresholds (2024):</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>$13.61 million individual exemption</li>
+          <li>$27.22 million for married couples</li>
+          <li>40% rate on excess</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Comparison with Other States</h3>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">State</th><th class="py-3 px-4 font-bold">Estate Tax Threshold</th><th class="py-3 px-4 font-bold">Top Rate</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">California</td><td class="py-3 px-4">None</td><td class="py-3 px-4">0%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Washington</td><td class="py-3 px-4">$2.193 million</td><td class="py-3 px-4">20%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Oregon</td><td class="py-3 px-4">$1 million</td><td class="py-3 px-4">16%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Hawaii</td><td class="py-3 px-4">$5.49 million</td><td class="py-3 px-4">20%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">New York</td><td class="py-3 px-4">$6.94 million</td><td class="py-3 px-4">16%</td></tr></tbody></table></div>
+          <strong>Planning implication:</strong> Simpler estate planning without state estate tax considerations
+        `
+      },
+      {
+        type: 'text',
+        title: 'Community Property Benefits',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Understanding Community Property</h3>
+          
+          <strong>California is a community property state:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Property acquired during marriage is community</li>
+          <li>Each spouse owns 50%</li>
+          <li>Separate property remains separate</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Double Step-Up in Basis</h3>
+          
+          <strong>Major advantage:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>At first spouse's death</li>
+          <li>Both halves of community property get new basis</li>
+          <li>Significant capital gains savings</li>
+          </ul>
+          <strong>Example:</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Asset</th><th class="py-3 px-4 font-bold">Original Basis</th><th class="py-3 px-4 font-bold">Value at Death</th><th class="py-3 px-4 font-bold">New Basis</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">Community Property Home</td><td class="py-3 px-4">$200,000</td><td class="py-3 px-4">$1,500,000</td><td class="py-3 px-4">$1,500,000</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Separate Property Home</td><td class="py-3 px-4">$200,000</td><td class="py-3 px-4">$1,500,000</td><td class="py-3 px-4">$850,000</td></tr></tbody></table></div>
+          <strong>Tax savings:</strong> Avoided $650,000 in taxable gains
+          
+          <h3 class="text-xl font-bold mt-8 mb-4">Maintaining Community Property Character</h3>
+          
+          <strong>For maximum benefit:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Keep community property titled correctly</li>
+          <li>Document separate property carefully</li>
+          <li>Consider community property agreements</li>
+          <li>Transmutation agreements when needed</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'California Probate Process',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Why Avoid California Probate</h3>
+          
+          <strong>Expensive statutory fees:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Based on gross estate value</li>
+          <li>Attorney and executor each entitled to fee</li>
+          <li>Does not consider debt</li>
+          </ul>
+          <strong>Statutory fee schedule:</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Gross Estate</th><th class="py-3 px-4 font-bold">Attorney Fee</th><th class="py-3 px-4 font-bold">Executor Fee</th><th class="py-3 px-4 font-bold">Combined</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">$500,000</td><td class="py-3 px-4">$13,000</td><td class="py-3 px-4">$13,000</td><td class="py-3 px-4">$26,000</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$1,000,000</td><td class="py-3 px-4">$23,000</td><td class="py-3 px-4">$23,000</td><td class="py-3 px-4">$46,000</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$2,000,000</td><td class="py-3 px-4">$33,000</td><td class="py-3 px-4">$33,000</td><td class="py-3 px-4">$66,000</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$5,000,000</td><td class="py-3 px-4">$63,000</td><td class="py-3 px-4">$63,000</td><td class="py-3 px-4">$126,000</td></tr></tbody></table></div>
+          <strong>Additional issues:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Public process (privacy concerns)</li>
+          <li>Time-consuming (1-2+ years)</li>
+          <li>Court supervision required</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Small Estate Procedures</h3>
+          
+          <strong>For smaller estates:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Real property under $184,500: Affidavit procedure</li>
+          <li>Personal property under $184,500: Simplified process</li>
+          <li>40-day waiting period</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Trust Planning in California',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Revocable Living Trusts</h3>
+          
+          <strong>Essential for San Diego residents:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Avoid expensive probate</li>
+          <li>Maintain privacy</li>
+          <li>Enable incapacity planning</li>
+          <li>Simplify multi-state property</li>
+          </ul>
+          <strong>Cost-benefit analysis:</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Trust Cost</th><th class="py-3 px-4 font-bold">Probate Fees Avoided ($1M estate)</th><th class="py-3 px-4 font-bold">Net Savings</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">$3,000-$7,000</td><td class="py-3 px-4">$46,000</td><td class="py-3 px-4">$39,000-$43,000</td></tr></tbody></table></div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Trust Funding</h3>
+          
+          <strong>Critical for trust to work:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Retitle real estate to trust</li>
+          <li>Update beneficiary designations</li>
+          <li>Transfer bank and investment accounts</li>
+          <li>Pour-over will as backup</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Trust Administration</h3>
+          
+          <strong>At death:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>No court probate required</li>
+          <li>Successor trustee manages</li>
+          <li>Still requires trust administration</li>
+          <li>But simpler and private</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Prop 19 Changes',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Parent-Child Property Transfers</h3>
+          
+          <strong>Before Prop 19 (Nov 2020):</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Children inherited parent's property tax base</li>
+          <li>Unlimited exclusion for primary residence</li>
+          <li>$1 million for other property</li>
+          </ul>
+          <strong>After Prop 19:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Must use as primary residence</li>
+          <li>Reassessment to market value if not</li>
+          <li>Only primary residence to primary residence</li>
+          <li>$1 million adjustment (if using as residence)</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Planning Around Prop 19</h3>
+          
+          <strong>Strategies:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Gift property before death (but lose step-up)</li>
+          <li>Child must use as primary residence</li>
+          <li>Consider property tax vs. income tax tradeoff</li>
+          <li>May prefer selling and giving cash</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">55+ Benefits Under Prop 19</h3>
+          
+          <strong>For seniors:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Transfer property tax base anywhere in CA</li>
+          <li>Up to 3 times</li>
+          <li>Regardless of value (adjustment if higher)</li>
+          <li>Can downsize while keeping low base</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Asset Protection in California',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Homestead Protection</h3>
+          
+          <strong>California homestead exemption:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Automatic: $300,000 - $600,000 (based on county)</li>
+          <li>San Diego: $600,000 (higher cost county)</li>
+          <li>Declaration of homestead optional</li>
+          <li>Protects against judgment creditors</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Retirement Account Protection</h3>
+          
+          <strong>ERISA accounts:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Fully protected from creditors</li>
+          <li>Unlimited protection</li>
+          <li>IRAs protected up to ~$1.5 million</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Trust-Based Protection</h3>
+          
+          <strong>Considerations:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>California doesn't allow self-settled DAPTs</li>
+          <li>Irrevocable trusts can protect assets</li>
+          <li>Must complete transfer (no retained control)</li>
+          <li>Consider Nevada or other states for DAPTs</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Essential Estate Documents',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">California-Specific Requirements</h3>
+          
+          <strong>1. Revocable Living Trust</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Essential for probate avoidance</li>
+          <li>Community property trust provisions</li>
+          <li>Pour-over will as backup</li>
+          </ul>
+          <strong>2. Pour-Over Will</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Catches assets not in trust</li>
+          <li>Nominates guardian for minors</li>
+          <li>Goes through probate (hopefully minimal)</li>
+          </ul>
+          <strong>3. Durable Power of Attorney</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Financial decision-making</li>
+          <li>California statutory form available</li>
+          <li>Must be notarized</li>
+          <li>Consider springing vs. immediate</li>
+          </ul>
+          <strong>4. Advance Health Care Directive</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Healthcare power of attorney + living will</li>
+          <li>California-specific form</li>
+          <li>HIPAA authorization included</li>
+          <li>Very important to complete</li>
+          </ul>
+          <strong>5. HIPAA Authorization</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Access to medical records</li>
+          <li>Often included in healthcare directive</li>
+          <li>Can be separate</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Common Estate Planning Mistakes',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 1: No Living Trust</h3>
+          
+          <strong>In California:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Probate is expensive</li>
+          <li>Trust saves significant money</li>
+          <li>Essential for most homeowners</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 2: Unfunded Trust</h3>
+          
+          <strong>Trust exists but:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Assets never transferred</li>
+          <li>Real estate still in personal name</li>
+          <li>Must go through probate anyway</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 3: Ignoring Prop 19</h3>
+          
+          <strong>For inherited property:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Old rules no longer apply</li>
+          <li>Plan for reassessment</li>
+          <li>Consider whether to keep or sell</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 4: Missing Community Property Benefits</h3>
+          
+          <strong>Potential issues:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Commingling separate property</li>
+          <li>Improper titling</li>
+          <li>Missing double step-up opportunity</li></ul>
+        `
+      },
+    ],
+    faqs: [
+      {
+        question: 'Does California have an estate tax?',
+        answer: 'No. California has no estate tax and no inheritance tax. Only federal estate tax applies (for estates over $13.61 million).'
+      },
+      {
+        question: 'Why is a living trust so important in California?',
+        answer: 'California probate is expensive, with statutory fees of 4% or more on larger estates. A living trust avoids probate entirely, saving significant costs and time while maintaining privacy.'
+      },
+      {
+        question: 'What is the community property double step-up?',
+        answer: 'When one spouse dies, both halves of community property receive a stepped-up basis to current value—not just the deceased spouse\'s half. This can eliminate significant capital gains taxes.'
+      },
+      {
+        question: 'How did Prop 19 change things?',
+        answer: 'Prop 19 (2020) eliminated the parent-child exclusion from property tax reassessment unless the child uses the property as their primary residence. This significantly affects inherited property planning.'
+      },
+      {
+        question: 'Do I need a trust even for a modest estate?',
+        answer: 'Usually yes. Even modest homes in San Diego are worth $500,000+, meaning probate fees of $13,000+ each for attorney and executor. Trust costs are typically $3,000-$7,000.'
+      },
+    ],
+    bottomLine: 'California\'s lack of estate tax is advantageous, but the expensive probate system makes living trusts essential for San Diego residents. Community property rules provide valuable double step-up benefits, but Prop 19 changed inherited property tax rules significantly. Proper planning—including a funded living trust, current estate documents, and understanding of community property—is crucial for effective wealth transfer.'
+  },
+  {
+    id: 'city-sandiego-005',
+    title: 'High Net Worth Wealth Management in San Diego: California Strategies',
+    slug: 'high-net-worth-san-diego',
+    hubId: 'san-diego',
+    type: 'city-spoke',
+    excerpt: 'Specialized wealth management strategies for high net worth San Diego residents including California tax optimization, real estate planning, and lifestyle considerations.',
+    readTime: '7 min read',
+    publishDate: '2025-11-29',
+    author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
+    primaryKeyword: 'high net worth San Diego',
+    metaDescription: 'Specialized wealth management strategies for high net worth San Diego residents including California tax optimization, real estate planning, and lifestyle considerations.',
+    keyTakeaways: [
+      'California\'s 13.3% top rate is the highest in the nation',
+      'No state estate tax (only federal applies)',
+      'San Diego offers lower costs than LA or SF',
+      'Strong local wealth management infrastructure',
+      'Community property provides significant step-up benefits',
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'California Tax Reality for HNW',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Income Tax Burden</h3>
+          
+          <strong>Annual state income tax:</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Income</th><th class="py-3 px-4 font-bold">California Tax</th><th class="py-3 px-4 font-bold">Florida Tax</th><th class="py-3 px-4 font-bold">Annual Difference</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">$1 million</td><td class="py-3 px-4">$118,000</td><td class="py-3 px-4">$0</td><td class="py-3 px-4">$118,000</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$2 million</td><td class="py-3 px-4">$243,000</td><td class="py-3 px-4">$0</td><td class="py-3 px-4">$243,000</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$5 million</td><td class="py-3 px-4">$618,000</td><td class="py-3 px-4">$0</td><td class="py-3 px-4">$618,000</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$10 million</td><td class="py-3 px-4">$1,243,000</td><td class="py-3 px-4">$0</td><td class="py-3 px-4">$1,243,000</td></tr></tbody></table></div>
+          <strong>Decade of staying:</strong> $1-$12 million+ in state taxes
+          
+          <h3 class="text-xl font-bold mt-8 mb-4">Capital Gains Impact</h3>
+          
+          <strong>On large transactions:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>No preferential state rate</li>
+          <li>13.3% on all gains</li>
+          <li>Significant on liquidity events</li>
+          </ul>
+          <strong>Example - $10 million stock sale:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Federal tax (23.8%): $2,380,000</li>
+          <li>California tax (13.3%): $1,330,000</li>
+          <li>Total: $3,710,000 (37.1%)</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">No Estate Tax Offset</h3>
+          
+          <strong>California advantage:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>No state estate tax</li>
+          <li>Only federal applies</li>
+          <li>But income tax during life is extreme</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Wealth Management Infrastructure',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Private Banking in San Diego</h3>
+          
+          <strong>Major presence:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>J.P. Morgan Private Bank</li>
+          <li>Goldman Sachs Private Wealth</li>
+          <li>Morgan Stanley Private Wealth</li>
+          <li>UBS Private Wealth</li>
+          <li>Northern Trust</li>
+          <li>U.S. Bank Private Wealth</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Family Office Services</h3>
+          
+          <strong>Multi-family offices:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>National MFOs with San Diego/LA presence</li>
+          <li>Regional offices serving Southern California</li>
+          <li>Many serve from LA</li>
+          </ul>
+          <strong>Single-family office:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Typically $100 million+ in assets</li>
+          <li>San Diego talent available</li>
+          <li>Lower costs than LA or SF</li>
+          <li>Can operate from coastal location</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Professional Services</h3>
+          
+          <strong>Local expertise:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Estate planning attorneys</li>
+          <li>Tax advisors (California specialists)</li>
+          <li>Investment consultants</li>
+          <li>Real estate specialists</li>
+          <li>Insurance advisors</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'HNW Tax Strategies',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 1: Income Smoothing</h3>
+          
+          <strong>Avoid 13.3% on spikes:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Spread large transactions</li>
+          <li>Defer income when possible</li>
+          <li>Installment sales for business exits</li>
+          <li>Charitable remainder trusts</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 2: Charitable Planning</h3>
+          
+          <strong>Reduce California taxable income:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Donor-advised funds (bunch donations)</li>
+          <li>Charitable remainder trusts</li>
+          <li>Private foundations</li>
+          <li>Charitable lead trusts</li>
+          </ul>
+          <strong>Example - DAF contribution:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>$1 million contribution</li>
+          <li>California deduction at 13.3%: $133,000 savings</li>
+          <li>Federal deduction (37%): $370,000 savings</li>
+          <li>Total tax benefit: $503,000</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 3: Municipal Bond Allocation</h3>
+          
+          <strong>At 13.3% state rate:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>California munis extremely attractive</li>
+          <li>Federal + state savings significant</li>
+          <li>Core portfolio holding for income</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 4: Domicile Planning</h3>
+          
+          <strong>For those considering relocation:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Establish Nevada or Texas residence</li>
+          <li>No state income tax</li>
+          <li>Must genuinely move</li>
+          <li>California audits aggressively</li>
+          </ul>
+          <strong>Planning timeline:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Move before major liquidity event</li>
+          <li>18+ months before ideally</li>
+          <li>Document new domicile thoroughly</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Estate Planning for HNW',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Community Property Benefits</h3>
+          
+          <strong>Double step-up advantage:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Both halves get new basis at first death</li>
+          <li>Significant capital gains savings</li>
+          <li>Maintain community property character</li>
+          </ul>
+          <strong>Example:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>$5 million home (basis $500,000)</li>
+          <li>First spouse dies</li>
+          <li>Full $5 million becomes new basis</li>
+          <li>$4.5 million in gains eliminated</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Trust Strategies</h3>
+          
+          <strong>Revocable living trusts:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Essential in California (probate expensive)</li>
+          <li>Maintain control during life</li>
+          <li>Community property provisions</li>
+          </ul>
+          <strong>Irrevocable trusts:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Remove assets from estate</li>
+          <li>Asset protection (after transfer period)</li>
+          <li>Life insurance trusts (ILIT)</li>
+          <li>Dynasty trusts (consider out-of-state situs)</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Gifting Strategies</h3>
+          
+          <strong>Lifetime transfers:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Annual exclusion ($18,000)</li>
+          <li>Direct educational/medical payments</li>
+          <li>Remove future appreciation</li>
+          <li>But Prop 19 affects real estate gifts</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Real Estate Holdings',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">San Diego Luxury Market</h3>
+          
+          <strong>High-end areas:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>La Jolla (oceanfront, village)</li>
+          <li>Rancho Santa Fe (equestrian, estates)</li>
+          <li>Coronado (beach, military)</li>
+          <li>Del Mar (racing, beach)</li>
+          <li>Point Loma (waterfront, established)</li>
+          </ul>
+          <strong>Price ranges:</strong> $3 million - $30 million+
+          
+          <h3 class="text-xl font-bold mt-8 mb-4">Prop 13 Planning</h3>
+          
+          <strong>For long-term owners:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Locked property tax base</li>
+          <li>Significant savings vs. buying new</li>
+          <li>Prop 19 allows portability at 55+</li>
+          </ul>
+          <strong>Investment property considerations:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Prop 13 applies</li>
+          <li>Prop 19 didn't add benefits for investment</li>
+          <li>Plan for Prop 15-type risks</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Out-of-State Properties</h3>
+          
+          <strong>Portfolio diversification:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Consider no-income-tax state properties</li>
+          <li>Arizona, Nevada nearby</li>
+          <li>Rental income from other states</li>
+          <li>May establish alternative domicile</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Asset Protection',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">California Homestead</h3>
+          
+          <strong>Protection levels:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>San Diego County: $600,000 exemption</li>
+          <li>Primary residence only</li>
+          <li>Automatic in some cases</li>
+          <li>Declaration recommended</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Additional Protection</h3>
+          
+          <strong>Strategies for California HNW:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Retirement accounts (unlimited ERISA)</li>
+          <li>Life insurance (properly structured)</li>
+          <li>LLCs for liability (not tax) purposes</li>
+          <li>Irrevocable trusts (proper timing)</li>
+          <li>DAPTs in Nevada or other states</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Offshore Considerations</h3>
+          
+          <strong>For international families:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Offshore trusts (reporting required)</li>
+          <li>FBAR compliance</li>
+          <li>FATCA considerations</li>
+          <li>Professional guidance essential</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Lifestyle Considerations',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">San Diego vs. LA/SF</h3>
+          
+          <strong>Advantages:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Lower housing costs</li>
+          <li>Less traffic/congestion</li>
+          <li>Beach lifestyle</li>
+          <li>Strong schools in suburbs</li>
+          <li>Active outdoor culture</li>
+          </ul>
+          <strong>Considerations:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Fewer world-class restaurants</li>
+          <li>Smaller professional networks</li>
+          <li>Less corporate headquarters</li>
+          <li>May need LA connections</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Private Aviation</h3>
+          
+          <strong>San Diego options:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Montgomery-Gibbs Executive Airport</li>
+          <li>Carlsbad Palomar Airport</li>
+          <li>San Diego International (FBO services)</li>
+          <li>Good access to LA airports</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Golf and Country Clubs</h3>
+          
+          <strong>Premier options:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>The Farms Golf Club</li>
+          <li>Rancho Santa Fe Golf Club</li>
+          <li>Fairbanks Ranch Country Club</li>
+          <li>La Jolla Country Club</li>
+          <li>Santaluz Club</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Healthcare</h3>
+          
+          <strong>Quality facilities:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>UC San Diego Health</li>
+          <li>Scripps Health (multiple locations)</li>
+          <li>Sharp Healthcare</li>
+          <li>Rady Children's Hospital</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Common HNW Mistakes',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 1: Staying Without Tax Planning</h3>
+          
+          <strong>13.3% adds up:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>$2 million income = $243,000/year in state tax</li>
+          <li>10 years = $2.4 million</li>
+          <li>Need compelling reason to stay</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 2: Incomplete Departure</h3>
+          
+          <strong>California audits:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Must genuinely move</li>
+          <li>Cut California ties</li>
+          <li>Spend 183+ days in new state</li>
+          <li>Document thoroughly</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 3: Ignoring Community Property</h3>
+          
+          <strong>For married couples:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Double step-up is valuable</li>
+          <li>Maintain community character</li>
+          <li>Consider community property trust</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 4: Over-Concentrating in California Real Estate</h3>
+          
+          <strong>Diversification needed:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Already live/work in California</li>
+          <li>Consider out-of-state properties</li>
+          <li>Geographic diversification</li></ul>
+        `
+      },
+    ],
+    faqs: [
+      {
+        question: 'Is San Diego worth the California taxes?',
+        answer: 'Depends on lifestyle priorities. San Diego offers exceptional weather, beach lifestyle, and more relaxed pace than LA/SF. Those who value these highly may find the tax premium worth paying. Others may prefer Nevada, Arizona, or Texas for similar weather with no income tax.'
+      },
+      {
+        question: 'How much can I save by leaving California?',
+        answer: 'On $2 million income: approximately $243,000 annually. Over 10 years, that\'s $2.4 million+ not counting investment growth. Estate tax savings at federal level are separate.'
+      },
+      {
+        question: 'Should I move before selling my business?',
+        answer: 'Yes, if possible. Establish new domicile 18+ months before liquidity event. California will audit and attempt to capture tax on the sale if residency change appears tax-motivated.'
+      },
+      {
+        question: 'What\'s the best structure for California real estate?',
+        answer: 'LLCs provide liability protection but not California tax benefits. For estate planning, trusts (revocable and irrevocable) are important. Series LLCs for multiple properties.'
+      },
+      {
+        question: 'Is a family office worth it in San Diego?',
+        answer: 'Single-family offices typically make sense at $100 million+. San Diego offers lower operating costs than LA or SF. Many families use multi-family offices or sophisticated RIAs below that level.'
+      },
+    ],
+    bottomLine: 'San Diego offers HNW individuals an exceptional lifestyle—arguably the best weather in America, beach access, and a more relaxed pace than other major California cities. The tradeoff is California\'s 13.3% income tax rate. For those who value what San Diego offers, strategic planning can minimize the tax impact. For others, nearby Nevada or Arizona offer similar weather with no income tax. The decision often comes down to lifestyle priorities versus tax optimization.'
+  },
+  {
+    id: 'city-sandiego-004',
+    title: 'Investment Strategies in San Diego: California Tax-Efficient Portfolios',
+    slug: 'investment-strategies-san-diego',
+    hubId: 'san-diego',
+    type: 'city-spoke',
+    excerpt: 'Investment strategies tailored for San Diego residents including high state tax considerations, municipal bond allocation, and military TSP optimization.',
+    readTime: '6 min read',
+    publishDate: '2025-11-29',
+    author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
+    primaryKeyword: 'investment strategies San Diego',
+    metaDescription: 'Investment strategies tailored for San Diego residents including high state tax considerations, municipal bond allocation, and military TSP optimization.',
+    keyTakeaways: [
+      'California taxes investment income up to 13.3%',
+      'No preferential rate for capital gains at state level',
+      'California municipal bonds offer significant tax advantages',
+      'Tax-loss harvesting is particularly valuable',
+      'Military TSP requires California-aware planning',
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'Tax-Efficient Investing in California',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Capital Gains Reality</h3>
+          
+          <strong>California taxes all gains as ordinary income:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Short-term gains: Up to 13.3%</li>
+          <li>Long-term gains: Up to 13.3%</li>
+          <li>No preferential state rate</li>
+          </ul>
+          <strong>Combined federal and state rates:</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Gain Type</th><th class="py-3 px-4 font-bold">Federal</th><th class="py-3 px-4 font-bold">California</th><th class="py-3 px-4 font-bold">Total</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">Short-term (high bracket)</td><td class="py-3 px-4">37%</td><td class="py-3 px-4">13.3%</td><td class="py-3 px-4">50.3%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Long-term (high bracket)</td><td class="py-3 px-4">23.8%</td><td class="py-3 px-4">13.3%</td><td class="py-3 px-4">37.1%</td></tr></tbody></table></div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Tax-Loss Harvesting Value</h3>
+          
+          <strong>At 13.3% state rate:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Losses are more valuable</li>
+          <li>Offset gains dollar-for-dollar</li>
+          <li>$3,000 against ordinary income</li>
+          <li>Carry forward indefinitely</li>
+          </ul>
+          <strong>Example - $50,000 loss:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Federal savings (23.8%): $11,900</li>
+          <li>California savings (9.3%): $4,650</li>
+          <li>Total: $16,550</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">California Municipal Bonds</h3>
+          
+          <strong>Significant advantage:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Federal tax-free</li>
+          <li>California tax-free</li>
+          <li>Combined benefit at high brackets</li>
+          </ul>
+          <strong>Yield analysis (9.3% CA bracket, 24% federal):</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Bond Type</th><th class="py-3 px-4 font-bold">Yield</th><th class="py-3 px-4 font-bold">After-Tax Yield</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">California Muni</td><td class="py-3 px-4">3.5%</td><td class="py-3 px-4">3.5%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Taxable Bond</td><td class="py-3 px-4">5.5%</td><td class="py-3 px-4">3.67%</td></tr></tbody></table></div>
+          <strong>At 13.3% CA bracket:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>California munis become even more attractive</li>
+          <li>Out-of-state munis lose some benefit</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Asset Location Strategy',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">California-Optimized Placement</h3>
+          
+          <strong>Tax-advantaged accounts (IRA, 401k):</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>REITs (ordinary income)</li>
+          <li>High-yield bonds</li>
+          <li>Active funds with turnover</li>
+          <li>Commodities</li>
+          <li>Short-term trading if any</li>
+          </ul>
+          <strong>Taxable accounts:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>California municipal bonds</li>
+          <li>Index ETFs (tax-efficient)</li>
+          <li>Buy-and-hold stocks</li>
+          <li>Qualified dividend stocks</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Roth vs. Traditional</h3>
+          
+          <strong>In California:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Traditional: Deduct at high rate, pay later (maybe in lower rate)</li>
+          <li>Roth: Pay now at high rate, never again</li>
+          </ul>
+          <strong>Considerations:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>If staying in California: Roth may cost more upfront but avoids future CA tax</li>
+          <li>If leaving California: Traditional may win (deduct at high rate, withdraw in low/no tax state)</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Portfolio Construction',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Sample Allocation (Moderate Risk, $1 Million)</h3>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Asset Class</th><th class="py-3 px-4 font-bold">Allocation</th><th class="py-3 px-4 font-bold">Vehicles</th><th class="py-3 px-4 font-bold">Location</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">U.S. Large Cap</td><td class="py-3 px-4">28%</td><td class="py-3 px-4">VTI, VOO</td><td class="py-3 px-4">Taxable</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">U.S. Small/Mid</td><td class="py-3 px-4">7%</td><td class="py-3 px-4">VXF</td><td class="py-3 px-4">Tax-Advantaged</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">International</td><td class="py-3 px-4">15%</td><td class="py-3 px-4">VXUS</td><td class="py-3 px-4">Tax-Advantaged</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Emerging Markets</td><td class="py-3 px-4">10%</td><td class="py-3 px-4">VWO</td><td class="py-3 px-4">Tax-Advantaged</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">California Munis</td><td class="py-3 px-4">15%</td><td class="py-3 px-4">VTEB, CMF</td><td class="py-3 px-4">Taxable</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Investment Grade</td><td class="py-3 px-4">5%</td><td class="py-3 px-4">BND</td><td class="py-3 px-4">Tax-Advantaged</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Real Estate</td><td class="py-3 px-4">10%</td><td class="py-3 px-4">VNQ</td><td class="py-3 px-4">Tax-Advantaged</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Alternatives</td><td class="py-3 px-4">5%</td><td class="py-3 px-4">Various</td><td class="py-3 px-4">Tax-Advantaged</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Cash</td><td class="py-3 px-4">5%</td><td class="py-3 px-4">HYSA</td><td class="py-3 px-4">Taxable</td></tr></tbody></table></div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Tilting for California</h3>
+          
+          <strong>Compared to low-tax state:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Higher muni allocation</li>
+          <li>More in tax-advantaged accounts</li>
+          <li>More aggressive loss harvesting</li>
+          <li>Longer holding periods</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Military Investment Strategies',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">TSP Considerations</h3>
+          
+          <strong>For San Diego's military community:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>TSP contributions reduce CA taxable income</li>
+          <li>Traditional TSP: Deduct now at CA rates</li>
+          <li>Roth TSP: Pay CA tax now, tax-free forever</li>
+          <li>BRS matching valuable</li>
+          </ul>
+          <strong>California-specific TSP planning:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>If retiring in California: Traditional may defer to lower bracket</li>
+          <li>If retiring elsewhere: Traditional wins (deduct at CA rates, withdraw at lower state)</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Military Retirement Planning</h3>
+          
+          <strong>California taxes military retirement:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Unlike Texas, Florida, Nevada</li>
+          <li>Consider eventual domicile</li>
+          <li>TSP rollover options</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Investment Planning During Service</h3>
+          
+          <strong>While stationed in San Diego:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Maximize TSP contributions</li>
+          <li>Consider Roth if expecting lower future income</li>
+          <li>Build taxable accounts with tax-efficient funds</li>
+          <li>Plan for potential moves</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Real Estate Investment',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">San Diego Market</h3>
+          
+          <strong>Investment characteristics:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>High property values</li>
+          <li>Strong rental demand</li>
+          <li>Military tenant base</li>
+          <li>Appreciation historically strong</li>
+          </ul>
+          <strong>Tax treatment:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Rental income: Up to 13.3% state tax</li>
+          <li>Depreciation deductions valuable</li>
+          <li>1031 exchanges available</li>
+          <li>California taxes gains on CA property (even for non-residents)</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Investment Analysis</h3>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Area</th><th class="py-3 px-4 font-bold">Profile</th><th class="py-3 px-4 font-bold">Cap Rate</th><th class="py-3 px-4 font-bold">Entry Point</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">Mission Valley</td><td class="py-3 px-4">Multifamily, convenient</td><td class="py-3 px-4">4-5%</td><td class="py-3 px-4">$500K+</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Normal Heights</td><td class="py-3 px-4">Appreciation play</td><td class="py-3 px-4">4%</td><td class="py-3 px-4">$600K+</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Chula Vista</td><td class="py-3 px-4">Value, growing</td><td class="py-3 px-4">5-6%</td><td class="py-3 px-4">$400K+</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">La Mesa</td><td class="py-3 px-4">Suburban, families</td><td class="py-3 px-4">5%</td><td class="py-3 px-4">$500K+</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Oceanside</td><td class="py-3 px-4">Military adjacent</td><td class="py-3 px-4">5%</td><td class="py-3 px-4">$500K+</td></tr></tbody></table></div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Prop 13 for Investment Property</h3>
+          
+          <strong>Benefits:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Locked assessment at purchase</li>
+          <li>2% maximum annual increase</li>
+          <li>Important for long-term holds</li>
+          </ul>
+          <strong>Considerations:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Prop 15 risk (commercial reassessment proposals)</li>
+          <li>No Prop 19 benefits for investment property</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Common Investment Mistakes',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 1: Ignoring Muni Bond Allocation</h3>
+          
+          <strong>At California rates:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Munis provide real after-tax advantage</li>
+          <li>Often underweighted</li>
+          <li>Particularly valuable for high earners</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 2: Short-Term Trading</h3>
+          
+          <strong>13.3% state rate:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Heavy penalty for short-term gains</li>
+          <li>Hold for long-term when possible</li>
+          <li>Even though CA rate same, federal rate lower</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 3: Wrong Asset Location</h3>
+          
+          <strong>Tax-inefficient in taxable:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>REITs should be in retirement accounts</li>
+          <li>High-yield bonds in retirement</li>
+          <li>Index funds are tax-efficient for taxable</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 4: Not Maximizing Tax-Advantaged Space</h3>
+          
+          <strong>Given high CA rates:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Every dollar in 401k/IRA avoids 9.3-13.3%</li>
+          <li>Prioritize retirement contributions</li>
+          <li>Backdoor Roth if income too high</li></ul>
+        `
+      },
+    ],
+    faqs: [
+      {
+        question: 'Should I invest differently because I\'m in California?',
+        answer: 'Yes. Higher municipal bond allocation, more aggressive tax-loss harvesting, and careful asset location are all more important at California tax rates. Maximize retirement account contributions.'
+      },
+      {
+        question: 'Are California municipal bonds worth it?',
+        answer: 'Yes, especially for high earners. At a 9.3% or higher state bracket plus federal tax, California munis often outperform taxable bonds on an after-tax basis.'
+      },
+      {
+        question: 'How should military members invest in San Diego?',
+        answer: 'Maximize TSP contributions (reduces CA taxable income). Consider Roth TSP if planning to retire in California, Traditional TSP if likely moving to a no-tax state. Build tax-efficient taxable portfolio for flexibility.'
+      },
+      {
+        question: 'Does California\'s tax rate affect Roth vs. Traditional IRA?',
+        answer: 'Yes. If you\'ll stay in California, Roth means paying high tax now but never again. If you\'ll leave, Traditional lets you deduct at high CA rates and withdraw in a lower-tax state.'
+      },
+      {
+        question: 'Should I invest in San Diego real estate?',
+        answer: 'Consider carefully. High entry prices mean lower cap rates. Rental income taxed at high CA rates. But strong appreciation potential and military demand support the market. Don\'t over-concentrate locally.'
+      },
+    ],
+    bottomLine: 'San Diego investors face California\'s challenging tax environment but can optimize through strategic planning. Municipal bonds become particularly valuable at high state tax rates, and tax-loss harvesting provides meaningful savings. For the military community, TSP planning should consider eventual domicile. Asset location and maximizing tax-advantaged space matter more in California than almost any other state.'
+  },
+  {
+    id: 'city-sandiego-001',
+    title: 'Retirement Planning in San Diego: California Retirement Strategies',
+    slug: 'retirement-planning-san-diego',
+    hubId: 'san-diego',
+    type: 'city-spoke',
+    excerpt: 'Expert retirement planning strategies for San Diego residents including California tax considerations, military retirement benefits, and coastal lifestyle planning.',
+    readTime: '7 min read',
+    publishDate: '2025-11-29',
+    author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
+    primaryKeyword: 'retirement planning San Diego',
+    metaDescription: 'Expert retirement planning strategies for San Diego residents including California tax considerations, military retirement benefits, and coastal lifestyle planning.',
+    keyTakeaways: [
+      'California taxes retirement income up to 13.3% (same as ordinary income)',
+      'No special exemption for retirement income',
+      'San Diego offers lower housing costs than LA or SF',
+      'Strong military community and VA healthcare access',
+      'Year-round outdoor lifestyle supports active aging',
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'California Tax Environment for Retirees',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Retirement Income Taxation</h3>
+          
+          <strong>California taxes all retirement income:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>401(k) distributions: Taxable (1-13.3%)</li>
+          <li>IRA distributions: Taxable (1-13.3%)</li>
+          <li>Pension income: Taxable (1-13.3%)</li>
+          <li>Social Security: Exempt from state tax</li>
+          </ul>
+          <strong>Progressive tax brackets (2024):</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Income (Single)</th><th class="py-3 px-4 font-bold">Rate</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">$0 - $10,412</td><td class="py-3 px-4">1%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$10,413 - $24,684</td><td class="py-3 px-4">2%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$24,685 - $38,959</td><td class="py-3 px-4">4%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$38,960 - $54,081</td><td class="py-3 px-4">6%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$54,082 - $68,350</td><td class="py-3 px-4">8%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$68,351 - $349,137</td><td class="py-3 px-4">9.3%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$349,138 - $418,961</td><td class="py-3 px-4">10.3%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$418,962 - $698,271</td><td class="py-3 px-4">11.3%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$698,272 - $1,000,000</td><td class="py-3 px-4">12.3%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$1,000,000+</td><td class="py-3 px-4">13.3%</td></tr></tbody></table></div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Social Security Exemption</h3>
+          
+          <strong>California does not tax Social Security:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>100% exempt from state tax</li>
+          <li>Federal taxation still applies</li>
+          <li>Up to 85% taxable federally</li>
+          <li>Major retirement planning benefit</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Tax Comparison</h3>
+          
+          <strong>$75,000 retirement income (excluding Social Security):</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">State</th><th class="py-3 px-4 font-bold">Tax</th><th class="py-3 px-4 font-bold">Notes</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">California</td><td class="py-3 px-4">$4,500</td><td class="py-3 px-4">Progressive rates</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Arizona</td><td class="py-3 px-4">$1,875</td><td class="py-3 px-4">2.5% flat</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Nevada</td><td class="py-3 px-4">$0</td><td class="py-3 px-4">No income tax</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Texas</td><td class="py-3 px-4">$0</td><td class="py-3 px-4">No income tax</td></tr></tbody></table></div>
+        `
+      },
+      {
+        type: 'text',
+        title: 'San Diego Cost of Living',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Moderate by California Standards</h3>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Category</th><th class="py-3 px-4 font-bold">San Diego</th><th class="py-3 px-4 font-bold">Los Angeles</th><th class="py-3 px-4 font-bold">San Francisco</th><th class="py-3 px-4 font-bold">National</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">Overall</td><td class="py-3 px-4">161</td><td class="py-3 px-4">166</td><td class="py-3 px-4">179</td><td class="py-3 px-4">100</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Housing</td><td class="py-3 px-4">277</td><td class="py-3 px-4">285</td><td class="py-3 px-4">330</td><td class="py-3 px-4">100</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Healthcare</td><td class="py-3 px-4">105</td><td class="py-3 px-4">108</td><td class="py-3 px-4">112</td><td class="py-3 px-4">100</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Groceries</td><td class="py-3 px-4">105</td><td class="py-3 px-4">106</td><td class="py-3 px-4">110</td><td class="py-3 px-4">100</td></tr></tbody></table></div>
+          <strong>Key insight:</strong> San Diego is expensive but more affordable than LA or SF
+          
+          <h3 class="text-xl font-bold mt-8 mb-4">Retirement Budget Planning</h3>
+          
+          <strong>Comfortable San Diego retirement (couple):</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Category</th><th class="py-3 px-4 font-bold">Monthly</th><th class="py-3 px-4 font-bold">Annual</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">Housing (owned, taxes + insurance)</td><td class="py-3 px-4">$1,500</td><td class="py-3 px-4">$18,000</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Healthcare (Medicare + supplemental)</td><td class="py-3 px-4">$700</td><td class="py-3 px-4">$8,400</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Utilities</td><td class="py-3 px-4">$250</td><td class="py-3 px-4">$3,000</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Food and groceries</td><td class="py-3 px-4">$800</td><td class="py-3 px-4">$9,600</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Transportation</td><td class="py-3 px-4">$450</td><td class="py-3 px-4">$5,400</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Entertainment</td><td class="py-3 px-4">$600</td><td class="py-3 px-4">$7,200</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Travel</td><td class="py-3 px-4">$500</td><td class="py-3 px-4">$6,000</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Miscellaneous</td><td class="py-3 px-4">$400</td><td class="py-3 px-4">$4,800</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4"><strong>Total</strong></td><td class="py-3 px-4"><strong>$5,200</strong></td><td class="py-3 px-4"><strong>$62,400</strong></td></tr></tbody></table></div>
+          <strong>Savings target (4% rule):</strong> $1.5-$1.6 million for comfortable San Diego retirement
+        `
+      },
+      {
+        type: 'text',
+        title: 'Retirement Strategies for San Diego',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 1: Social Security Maximization</h3>
+          
+          <strong>Since Social Security is state-tax-free:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Consider delaying to age 70</li>
+          <li>Larger benefit is tax-exempt</li>
+          <li>Reduces taxable retirement income</li>
+          <li>Spousal coordination important</li>
+          </ul>
+          <strong>Example:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Claim at 62: $2,000/month (CA tax-free)</li>
+          <li>Claim at 70: $3,500/month (CA tax-free)</li>
+          <li>Extra $18,000/year, no state tax</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 2: Roth Conversion Before Retirement</h3>
+          
+          <strong>Convert while still working:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Pay California tax once</li>
+          <li>Future withdrawals tax-free</li>
+          <li>Particularly valuable if planning to stay in CA</li>
+          <li>Spread conversions to manage brackets</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 3: Tax-Efficient Withdrawal Sequencing</h3>
+          
+          <strong>Optimal order:</strong>
+          <ol class="list-decimal pl-6 space-y-2 my-4"><li>Taxable accounts (stepped-up basis assets first)</li>
+          <li>Tax-deferred accounts (manage brackets)</li>
+          <li>Roth accounts (preserve for later/legacy)</li>
+          <li>Social Security (exempt from CA tax)</li>
+          </ol>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 4: Consider Part-Time Relocation</h3>
+          
+          <strong>"Snowbird lite" strategy:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Establish Nevada or Arizona residence</li>
+          <li>Spend 183+ days there</li>
+          <li>Access San Diego lifestyle part-year</li>
+          <li>Reduce California tax burden</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'San Diego Housing Options',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Popular Retirement Areas</h3>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Area</th><th class="py-3 px-4 font-bold">Characteristics</th><th class="py-3 px-4 font-bold">Median Price</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">Coronado</td><td class="py-3 px-4">Beach, upscale, military</td><td class="py-3 px-4">$2M+</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">La Jolla</td><td class="py-3 px-4">Coastal, cultural</td><td class="py-3 px-4">$1.5M-$3M</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Del Mar</td><td class="py-3 px-4">Beach, racing, upscale</td><td class="py-3 px-4">$1.5M-$3M</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Point Loma</td><td class="py-3 px-4">Established, waterfront</td><td class="py-3 px-4">$1M-$2M</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Rancho Bernardo</td><td class="py-3 px-4">55+ communities</td><td class="py-3 px-4">$600K-$1M</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Fallbrook</td><td class="py-3 px-4">Rural, avocados, value</td><td class="py-3 px-4">$600K-$900K</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Temecula</td><td class="py-3 px-4">Wine country, affordable</td><td class="py-3 px-4">$500K-$800K</td></tr></tbody></table></div>
+          <h3 class="text-xl font-bold mt-8 mb-4">55+ Communities</h3>
+          
+          <strong>Active adult options:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Rancho Bernardo (multiple communities)</li>
+          <li>Sun City (Menifee - Inland Empire)</li>
+          <li>Ocean Hills Country Club</li>
+          <li>Oasis Country Club</li>
+          <li>Trilogy at Glen Ivy</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Prop 13 Benefits</h3>
+          
+          <strong>For long-term California residents:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Property tax base locked at purchase price</li>
+          <li>Increases limited to 2% annually</li>
+          <li>Significant savings over time</li>
+          <li>Prop 19 allows transfer to new home</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Military Retirement Advantages',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">San Diego's Military Community</h3>
+          
+          <strong>Major military presence:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Naval Base San Diego</li>
+          <li>Marine Corps Air Station Miramar</li>
+          <li>Marine Corps Base Camp Pendleton</li>
+          <li>Naval Medical Center San Diego</li>
+          <li>Coast Guard facilities</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">VA Healthcare Access</h3>
+          
+          <strong>San Diego VA resources:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>VA San Diego Healthcare System</li>
+          <li>Multiple outpatient clinics</li>
+          <li>Strong specialist network</li>
+          <li>Convenient for military retirees</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Military Retirement Income</h3>
+          
+          <strong>California taxes military retirement:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>No exemption for military pensions</li>
+          <li>Unlike some states (full exemption in others)</li>
+          <li>Consider domicile options</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Healthcare Considerations',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Quality Medical Facilities</h3>
+          
+          <strong>San Diego healthcare:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>UC San Diego Health</li>
+          <li>Scripps Health (multiple locations)</li>
+          <li>Sharp Healthcare</li>
+          <li>Naval Medical Center (military)</li>
+          <li>Rady Children's Hospital</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Medicare in San Diego</h3>
+          
+          <strong>Strong Medicare environment:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Multiple Advantage plan options</li>
+          <li>Good provider networks</li>
+          <li>Kaiser Permanente presence</li>
+          <li>Competitive premiums</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Climate Health Benefits</h3>
+          
+          <strong>San Diego advantages:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Mild year-round temperatures</li>
+          <li>Low humidity</li>
+          <li>Excellent air quality (most areas)</li>
+          <li>Outdoor activity support</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Common Retirement Mistakes',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 1: Underestimating California Taxes</h3>
+          
+          <strong>Retirement income is taxable:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Plan for 6-9%+ state tax on distributions</li>
+          <li>Social Security exempt (benefit)</li>
+          <li>Factor into retirement budget</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 2: Not Leveraging Prop 13</h3>
+          
+          <strong>Long-term residents:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Prop 13 protects property tax</li>
+          <li>Prop 19 allows portability</li>
+          <li>Major benefit vs. buying new</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 3: Ignoring Part-Year Options</h3>
+          
+          <strong>California taxes residents on worldwide income:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Part-year residency can reduce taxes</li>
+          <li>Must genuinely change domicile</li>
+          <li>California audits departures</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 4: Military Retirees Not Comparing States</h3>
+          
+          <strong>Other options:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Texas: No income tax</li>
+          <li>Florida: No income tax</li>
+          <li>Nevada: No income tax</li>
+          <li>Consider before committing to CA</li></ul>
+        `
+      },
+    ],
+    faqs: [
+      {
+        question: 'Does California tax retirement income?',
+        answer: 'Yes. California taxes 401(k)s, IRAs, and pensions at regular income tax rates (up to 13.3%). Social Security is the exception—it\'s exempt from California state tax.'
+      },
+      {
+        question: 'Is San Diego affordable for retirement?',
+        answer: 'Challenging but manageable. It\'s more affordable than LA or SF but expensive nationally. A comfortable retirement requires $1.5 million+ in savings for most couples.'
+      },
+      {
+        question: 'What are the benefits of retiring in San Diego?',
+        answer: 'Year-round perfect weather, beach access, outdoor lifestyle, excellent healthcare, strong military community, cultural amenities, and no state tax on Social Security.'
+      },
+      {
+        question: 'How does Prop 13 affect retirees?',
+        answer: 'Prop 13 limits property tax increases to 2% annually, benefiting long-term residents significantly. Prop 19 (2020) allows those 55+ to transfer their property tax base to a new home anywhere in California.'
+      },
+      {
+        question: 'Should military retirees choose San Diego?',
+        answer: 'Depends on priorities. San Diego offers excellent VA healthcare, strong military community, and perfect weather. However, California taxes military pensions—unlike Texas, Florida, or Nevada.'
+      },
+    ],
+    bottomLine: 'San Diego offers one of America\'s most attractive retirement lifestyles: exceptional weather, beach access, and a vibrant community. The tradeoff is California\'s high income tax on retirement income (though Social Security is exempt). Proper planning—including Roth conversions, tax-efficient withdrawals, and potential part-year residency—can help minimize the tax impact while enjoying all San Diego offers.'
+  },
+  {
+    id: 'city-sandiego-002',
+    title: 'Tax Planning in San Diego: California Tax Strategies',
+    slug: 'tax-planning-san-diego',
+    hubId: 'san-diego',
+    type: 'city-spoke',
+    excerpt: 'Comprehensive tax planning strategies for San Diego residents including California\'s high taxes, Prop 13 benefits, and cross-border considerations.',
+    readTime: '7 min read',
+    publishDate: '2025-11-29',
+    author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
+    primaryKeyword: 'tax planning San Diego',
+    metaDescription: 'Comprehensive tax planning strategies for San Diego residents including California\'s high taxes, Prop 13 benefits, and cross-border considerations.',
+    keyTakeaways: [
+      'California\'s top rate is 13.3% (highest in the nation)',
+      'Capital gains taxed as ordinary income (no preferential rate)',
+      'Social Security exempt from state tax',
+      'Prop 13 limits property tax increases',
+      'No state estate tax (only federal applies)',
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'California Tax Structure',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Income Tax Rates</h3>
+          
+          <strong>California's progressive structure (2024):</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Taxable Income (Single)</th><th class="py-3 px-4 font-bold">Marginal Rate</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">$0 - $10,412</td><td class="py-3 px-4">1%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$10,413 - $24,684</td><td class="py-3 px-4">2%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$24,685 - $38,959</td><td class="py-3 px-4">4%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$38,960 - $54,081</td><td class="py-3 px-4">6%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$54,082 - $68,350</td><td class="py-3 px-4">8%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$68,351 - $349,137</td><td class="py-3 px-4">9.3%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$349,138 - $418,961</td><td class="py-3 px-4">10.3%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$418,962 - $698,271</td><td class="py-3 px-4">11.3%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$698,272 - $1,000,000</td><td class="py-3 px-4">12.3%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$1,000,000+</td><td class="py-3 px-4">13.3%</td></tr></tbody></table></div>
+          <strong>Mental Health Services Tax:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Additional 1% on income over $1 million</li>
+          <li>Included in 13.3% top rate</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Capital Gains Treatment</h3>
+          
+          <strong>California taxes capital gains as ordinary income:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>No preferential long-term rate</li>
+          <li>Short-term: Up to 13.3%</li>
+          <li>Long-term: Up to 13.3%</li>
+          </ul>
+          <strong>Combined rates:</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Gain Type</th><th class="py-3 px-4 font-bold">Federal</th><th class="py-3 px-4 font-bold">California</th><th class="py-3 px-4 font-bold">Combined</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">Short-term</td><td class="py-3 px-4">37%</td><td class="py-3 px-4">13.3%</td><td class="py-3 px-4">50.3%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Long-term</td><td class="py-3 px-4">20% + 3.8% NIIT</td><td class="py-3 px-4">13.3%</td><td class="py-3 px-4">37.1%</td></tr></tbody></table></div>
+          <h3 class="text-xl font-bold mt-8 mb-4">What's Exempt</h3>
+          
+          <strong>California exempts:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Social Security benefits</li>
+          <li>Railroad retirement benefits</li>
+          <li>California municipal bond interest</li>
+          <li>Some government pensions</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'San Diego Tax Planning Strategies',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 1: Income Smoothing</h3>
+          
+          <strong>Avoid high bracket years:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>California's progressive rates penalize income spikes</li>
+          <li>Spread large transactions across years</li>
+          <li>Defer income when possible</li>
+          <li>Accelerate deductions</li>
+          </ul>
+          <strong>Example - $1.5 million income vs. $500K over 3 years:</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Approach</th><th class="py-3 px-4 font-bold">Total CA Tax</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">$1.5M in Year 1</td><td class="py-3 px-4">~$180,000</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$500K × 3 years</td><td class="py-3 px-4">~$135,000</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4"><strong>Savings</strong></td><td class="py-3 px-4"><strong>$45,000</strong></td></tr></tbody></table></div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 2: Maximize Deductions</h3>
+          
+          <strong>California allows many federal deductions:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Mortgage interest (on up to $1M debt)</li>
+          <li>State and local taxes (limited federally, deductible for CA)</li>
+          <li>Charitable contributions</li>
+          <li>Business expenses</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 3: Municipal Bonds</h3>
+          
+          <strong>California municipal bonds:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Federal tax-free</li>
+          <li>California tax-free</li>
+          <li>Valuable at 9.3-13.3% state rates</li>
+          </ul>
+          <strong>Yield analysis:</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Bond Type</th><th class="py-3 px-4 font-bold">Yield</th><th class="py-3 px-4 font-bold">After Fed (32%)</th><th class="py-3 px-4 font-bold">After CA (9.3%)</th><th class="py-3 px-4 font-bold">Net</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">CA Muni</td><td class="py-3 px-4">3.5%</td><td class="py-3 px-4">3.5%</td><td class="py-3 px-4">3.5%</td><td class="py-3 px-4">3.5%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Taxable Bond</td><td class="py-3 px-4">5.5%</td><td class="py-3 px-4">3.74%</td><td class="py-3 px-4">3.39%</td><td class="py-3 px-4">3.39%</td></tr></tbody></table></div>
+          <strong>Conclusion:</strong> California munis often win for high-bracket residents
+          
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 4: Roth Conversion Timing</h3>
+          
+          <strong>Strategic conversions:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Convert in lower-income years</li>
+          <li>Pay California tax once at lower rate</li>
+          <li>Future withdrawals California-tax-free</li>
+          <li>Particularly valuable if staying in CA</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 5: Domicile Planning</h3>
+          
+          <strong>For those with flexibility:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Establish Nevada or Arizona residence</li>
+          <li>No income tax in NV</li>
+          <li>2.5% in AZ</li>
+          <li>Must genuinely move (California audits)</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Property Tax Strategy',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Prop 13 Benefits</h3>
+          
+          <strong>California's famous property tax limits:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Assessed value set at purchase price</li>
+          <li>Maximum 2% annual increase</li>
+          <li>Regardless of market appreciation</li>
+          <li>Significant long-term savings</li>
+          </ul>
+          <strong>Example:</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Scenario</th><th class="py-3 px-4 font-bold">Current Market</th><th class="py-3 px-4 font-bold">Assessed Value</th><th class="py-3 px-4 font-bold">Property Tax</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">Bought 2000</td><td class="py-3 px-4">$1,000,000</td><td class="py-3 px-4">$350,000</td><td class="py-3 px-4">~$3,500</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Bought 2024</td><td class="py-3 px-4">$1,000,000</td><td class="py-3 px-4">$1,000,000</td><td class="py-3 px-4">~$10,000</td></tr></tbody></table></div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Prop 19 Portability</h3>
+          
+          <strong>For those 55+ (since 2021):</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Transfer property tax base to new home</li>
+          <li>Anywhere in California</li>
+          <li>Up to three times</li>
+          <li>Must be primary residence</li>
+          </ul>
+          <strong>Planning opportunity:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Downsize while keeping low tax base</li>
+          <li>Move to different area of San Diego</li>
+          <li>Move within California</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Split Roll Concerns</h3>
+          
+          <strong>For business owners:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Prop 15 failed in 2020</li>
+          <li>Would have reassessed commercial property</li>
+          <li>May return in future elections</li>
+          <li>Plan accordingly</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Estate Tax Planning',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">No California Estate Tax</h3>
+          
+          <strong>California repealed estate tax in 1982:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Only federal estate tax applies</li>
+          <li>$13.61 million exemption (2024)</li>
+          <li>No state-level complexity</li>
+          </ul>
+          <strong>Comparison:</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">State</th><th class="py-3 px-4 font-bold">Estate Tax Threshold</th><th class="py-3 px-4 font-bold">Top Rate</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">California</td><td class="py-3 px-4">None</td><td class="py-3 px-4">0%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Washington</td><td class="py-3 px-4">$2.193 million</td><td class="py-3 px-4">20%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Oregon</td><td class="py-3 px-4">$1 million</td><td class="py-3 px-4">16%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">New York</td><td class="py-3 px-4">$6.94 million</td><td class="py-3 px-4">16%</td></tr></tbody></table></div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Federal Estate Planning</h3>
+          
+          <strong>Still important for large estates:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>$13.61 million exemption sunsets in 2026</li>
+          <li>May drop to ~$7 million</li>
+          <li>Plan now while exemption is high</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Business Tax Planning',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Entity Selection</h3>
+          
+          <strong>California considerations:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>S-Corps: Pass-through at personal rates + $800 min franchise tax</li>
+          <li>LLCs: Pass-through + $800 min + gross receipts fee</li>
+          <li>C-Corps: 8.84% corporate rate + personal tax on dividends</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Franchise Tax</h3>
+          
+          <strong>Minimum California franchise tax:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>$800 annually for LLCs and corporations</li>
+          <li>Applies even if no income</li>
+          <li>First-year exemption for new LLCs</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Remote Work Considerations</h3>
+          
+          <strong>Source rules:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>California taxes income from California sources</li>
+          <li>Even for non-residents</li>
+          <li>Remote work for CA employers can create nexus</li>
+          <li>Careful planning needed</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Cross-Border Considerations',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Mexico Connections</h3>
+          
+          <strong>San Diego's border location creates unique issues:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>U.S. citizens taxed on worldwide income</li>
+          <li>Mexico tax treaties</li>
+          <li>Foreign asset reporting (FBAR, FATCA)</li>
+          <li>Careful planning for cross-border families</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Snowbird Planning</h3>
+          
+          <strong>Part-year residency:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>183-day rule for other states</li>
+          <li>California is aggressive on residency</li>
+          <li>Must genuinely change domicile</li>
+          <li>Document carefully</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Common Tax Mistakes',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 1: Ignoring Capital Gains Planning</h3>
+          
+          <strong>At 13.3%:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Massive difference from federal 0-20%</li>
+          <li>Hold for long-term federally</li>
+          <li>But same CA rate either way</li>
+          <li>Consider installment sales, CRTs</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 2: Not Maximizing Prop 13</h3>
+          
+          <strong>Long-term residents:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Undervalue this benefit</li>
+          <li>Don't unnecessarily trigger reassessment</li>
+          <li>Plan renovations carefully</li>
+          <li>Use Prop 19 strategically</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 3: Incomplete Residency Change</h3>
+          
+          <strong>California audits:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Aggressive on high-earner departures</li>
+          <li>Must genuinely move</li>
+          <li>Cut California ties</li>
+          <li>Document new domicile thoroughly</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 4: Missing Municipal Bond Opportunity</h3>
+          
+          <strong>At 9.3-13.3%:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>California munis provide real benefit</li>
+          <li>Often overlooked</li>
+          <li>Compare after-tax yields</li>
+          <li>Particularly valuable for high earners</li></ul>
+        `
+      },
+    ],
+    faqs: [
+      {
+        question: 'Why is California tax so high?',
+        answer: 'California relies heavily on income tax revenue, particularly from high earners. The 13.3% top rate includes a 1% Mental Health Services Tax. No estate or inheritance tax partially offsets this.'
+      },
+      {
+        question: 'Does California tax capital gains differently?',
+        answer: 'No. California taxes capital gains as ordinary income—up to 13.3% regardless of holding period. This contrasts with federal tax, which taxes long-term gains at 0-20%.'
+      },
+      {
+        question: 'How does Prop 13 work?',
+        answer: 'Prop 13 limits property tax to 1% of the assessed value at purchase, with a maximum 2% annual increase. This protects long-term owners from rising property taxes as home values increase.'
+      },
+      {
+        question: 'Can I reduce taxes by moving to Nevada?',
+        answer: 'Yes, but only if you genuinely change domicile. California aggressively audits departures and will tax you on California-source income even as a non-resident. Document your move thoroughly.'
+      },
+      {
+        question: 'Is Social Security taxed in California?',
+        answer: 'No. California completely exempts Social Security benefits from state income tax, regardless of other income.'
+      },
+    ],
+    bottomLine: 'San Diego residents face California\'s highest-in-the-nation income tax rates, but strategic planning can minimize the impact. Focus on income smoothing, municipal bond allocation, Prop 13/19 optimization, and careful residency planning. For those committed to staying, Roth conversions and long-term tax planning become particularly valuable given the high state rates.'
   },
   {
     id: 'city-sf-003',
@@ -15441,6 +21486,1540 @@ export const CITY_ARTICLES: Article[] = [
       },
     ],
     bottomLine: 'Bay Area residents face among the highest tax burdens in the nation, but strategic planning can significantly reduce the impact. Maximize tax-advantaged accounts, harvest losses systematically, time equity events thoughtfully, and consider charitable strategies. For business owners, the PTET election offers SALT cap relief. Those considering leaving should plan carefully—California actively pursues former residents. Work with professionals who understand both California tax law and the unique dynamics of tech compensation. The complexity rewards expertise, and the stakes are too high for a passive approach.'
+  },
+  {
+    id: 'city-sanjose-003',
+    title: 'Estate Planning in San Jose: Silicon Valley Trust and Equity Strategies',
+    slug: 'estate-planning-san-jose',
+    hubId: 'san-jose',
+    type: 'city-spoke',
+    excerpt: 'Comprehensive estate planning strategies for San Jose and Silicon Valley residents including tech equity planning, trust strategies, and California probate avoidance.',
+    readTime: '7 min read',
+    publishDate: '2025-11-29',
+    author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
+    primaryKeyword: 'estate planning San Jose',
+    metaDescription: 'Comprehensive estate planning strategies for San Jose and Silicon Valley residents including tech equity planning, trust strategies, and California probate avoidance.',
+    keyTakeaways: [
+      'California has no state estate tax',
+      'Tech equity requires specific estate planning attention',
+      'California probate is expensive (statutory fees)',
+      'Living trusts are essential in Silicon Valley',
+      'Community property provides valuable step-up benefits',
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'Tech Equity Estate Planning',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Unvested Equity Considerations</h3>
+          
+          <strong>RSUs and estate planning:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Unvested RSUs generally don't transfer</li>
+          <li>Death typically triggers accelerated vesting</li>
+          <li>May become income to estate</li>
+          <li>Review company plan documents</li>
+          </ul>
+          <strong>Stock options:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>ISOs often expire at death (or shortly after)</li>
+          <li>NSOs may have longer exercise windows</li>
+          <li>Exercise timing affects estate value</li>
+          <li>Consider early exercise for estate planning</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Concentrated Stock Positions</h3>
+          
+          <strong>Estate planning strategies:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Gift appreciated shares (use annual exclusion)</li>
+          <li>Charitable remainder trusts</li>
+          <li>Family limited partnerships</li>
+          <li>GRATs (Grantor Retained Annuity Trusts)</li>
+          </ul>
+          <strong>Valuation discounts:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Minority interest discounts</li>
+          <li>Lack of marketability discounts</li>
+          <li>Must be properly documented</li>
+          <li>IRS scrutinizes large discounts</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Pre-IPO Estate Planning</h3>
+          
+          <strong>Critical window:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Gift shares at low valuations</li>
+          <li>Lock in low value for gift tax</li>
+          <li>Remove future appreciation from estate</li>
+          <li>Use annual exclusions and lifetime exemption</li>
+          </ul>
+          <strong>Example:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>100,000 shares at $1 pre-IPO: $100,000 gift</li>
+          <li>Post-IPO at $50: Worth $5 million</li>
+          <li>$4.9 million transferred gift-tax-free</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'California Estate Tax Advantage',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">No State Death Taxes</h3>
+          
+          <strong>California has:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>No estate tax</li>
+          <li>No inheritance tax</li>
+          <li>Only federal estate tax applies</li>
+          </ul>
+          <strong>Federal thresholds (2024):</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>$13.61 million individual exemption</li>
+          <li>$27.22 million for married couples</li>
+          <li>40% rate on amounts above</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Comparison with Other States</h3>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">State</th><th class="py-3 px-4 font-bold">Estate Tax Threshold</th><th class="py-3 px-4 font-bold">Top Rate</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">California</td><td class="py-3 px-4">None</td><td class="py-3 px-4">0%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Washington</td><td class="py-3 px-4">$2.193 million</td><td class="py-3 px-4">20%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Oregon</td><td class="py-3 px-4">$1 million</td><td class="py-3 px-4">16%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Massachusetts</td><td class="py-3 px-4">$2 million</td><td class="py-3 px-4">16%</td></tr></tbody></table></div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Sunset Concerns</h3>
+          
+          <strong>2026 exemption reduction:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Exemption may drop to ~$7 million</li>
+          <li>Plan now while exemption is high</li>
+          <li>Use exemption before reduction</li>
+          <li>Irrevocable planning may be appropriate</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Trust Planning for Silicon Valley',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Revocable Living Trust</h3>
+          
+          <strong>Essential for California:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Avoids expensive probate</li>
+          <li>Maintains privacy</li>
+          <li>Enables incapacity planning</li>
+          <li>Should hold all major assets</li>
+          </ul>
+          <strong>Cost-benefit:</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Trust Cost</th><th class="py-3 px-4 font-bold">Probate Fees Avoided ($3M estate)</th><th class="py-3 px-4 font-bold">Net Savings</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">$5,000-$10,000</td><td class="py-3 px-4">$104,000</td><td class="py-3 px-4">$94,000+</td></tr></tbody></table></div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Tech Worker Trust Provisions</h3>
+          
+          <strong>Include provisions for:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>RSU and option handling</li>
+          <li>Business interests</li>
+          <li>Digital assets</li>
+          <li>Cryptocurrency</li>
+          <li>Multiple beneficiaries</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Irrevocable Trusts</h3>
+          
+          <strong>Uses for tech wealth:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Estate tax planning (large estates)</li>
+          <li>Asset protection</li>
+          <li>ILIT for life insurance</li>
+          <li>GRATs for appreciation transfer</li>
+          <li>Dynasty trusts (consider non-CA situs)</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Community Property Benefits',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Double Step-Up</h3>
+          
+          <strong>Major advantage:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>At first spouse's death</li>
+          <li>Both halves get new basis</li>
+          <li>Not just deceased spouse's share</li>
+          </ul>
+          <strong>Example:</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Asset</th><th class="py-3 px-4 font-bold">Original Basis</th><th class="py-3 px-4 font-bold">Value at Death</th><th class="py-3 px-4 font-bold">New Basis</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">Tech stock</td><td class="py-3 px-4">$100,000</td><td class="py-3 px-4">$5,000,000</td><td class="py-3 px-4">$5,000,000</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Savings</td><td class="py-3 px-4">$4.9 million in capital gains avoided</td></tr></tbody></table></div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Maintaining Character</h3>
+          
+          <strong>For maximum benefit:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Keep community property titled correctly</li>
+          <li>Document separate property</li>
+          <li>Consider community property trust</li>
+          <li>Pre-marital equity may be separate</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'California Probate',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Why Avoid Probate</h3>
+          
+          <strong>Expensive statutory fees:</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Estate Value</th><th class="py-3 px-4 font-bold">Attorney + Executor Fees</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">$1 million</td><td class="py-3 px-4">$46,000</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$3 million</td><td class="py-3 px-4">$104,000</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$5 million</td><td class="py-3 px-4">$126,000</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$10 million</td><td class="py-3 px-4">$181,000</td></tr></tbody></table></div>
+          <strong>Additional issues:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Public record</li>
+          <li>12-24 months typical</li>
+          <li>Court supervision required</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Avoiding Probate</h3>
+          
+          <strong>Strategies:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Revocable living trust (primary)</li>
+          <li>Joint tenancy with right of survivorship</li>
+          <li>Beneficiary designations (retirement, insurance)</li>
+          <li>Transfer on death (TOD) for securities</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Digital and Crypto Assets',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Digital Estate Planning</h3>
+          
+          <strong>Include in your plan:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Password management access</li>
+          <li>Cryptocurrency wallet keys</li>
+          <li>Online business accounts</li>
+          <li>Social media accounts</li>
+          <li>Email accounts</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Cryptocurrency Planning</h3>
+          
+          <strong>Special considerations:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Secure key storage</li>
+          <li>Instructions for access</li>
+          <li>Consider multi-signature wallets</li>
+          <li>Hardware wallet location</li>
+          <li>Exchange account beneficiaries</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Family Dynamics',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Blended Families</h3>
+          
+          <strong>Common in Silicon Valley:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Multiple marriages</li>
+          <li>Children from different relationships</li>
+          <li>Current spouse vs. prior children</li>
+          <li>Prenuptial agreements</li>
+          </ul>
+          <strong>Planning approaches:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>QTIP trusts</li>
+          <li>Separate trusts for different children</li>
+          <li>Life insurance equalization</li>
+          <li>Clear communication with family</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Next Generation Planning</h3>
+          
+          <strong>For tech wealth:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Trust structures for young beneficiaries</li>
+          <li>Incentive trusts</li>
+          <li>Education provisions</li>
+          <li>Protection from creditors/divorce</li>
+          <li>Financial education requirements</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Essential Documents',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">California-Specific Requirements</h3>
+          
+          <strong>1. Revocable Living Trust</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Essential for all significant assets</li>
+          <li>Community property provisions</li>
+          <li>Pour-over will as backup</li>
+          </ul>
+          <strong>2. Last Will and Testament</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Nominates guardian for minors</li>
+          <li>Catches assets outside trust</li>
+          <li>California formalities required</li>
+          </ul>
+          <strong>3. Durable Power of Attorney</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>California statutory form</li>
+          <li>Financial decision-making</li>
+          <li>Include digital asset powers</li>
+          </ul>
+          <strong>4. Advance Health Care Directive</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Healthcare decisions</li>
+          <li>End-of-life preferences</li>
+          <li>HIPAA authorization</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Common Mistakes',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 1: No Living Trust</h3>
+          
+          <strong>In California:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Probate is extremely expensive</li>
+          <li>Privacy concerns real</li>
+          <li>Incapacity planning needed</li>
+          <li>Trust pays for itself on first home</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 2: Ignoring Pre-IPO Planning</h3>
+          
+          <strong>Missing the opportunity:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Gift shares at low value</li>
+          <li>Use annual exclusions early</li>
+          <li>GRATs before appreciation</li>
+          <li>Dynasty trust contributions</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 3: Unfunded Trust</h3>
+          
+          <strong>Trust exists but:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Real estate not retitled</li>
+          <li>Accounts not transferred</li>
+          <li>Assets pass through probate</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 4: Outdated Documents</h3>
+          
+          <strong>Common triggers for update:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Marriage/divorce</li>
+          <li>Children</li>
+          <li>Significant wealth change</li>
+          <li>Moving to/from California</li>
+          <li>Company IPO</li></ul>
+        `
+      },
+    ],
+    faqs: [
+      {
+        question: 'How do unvested RSUs affect my estate?',
+        answer: 'Unvested RSUs generally don\'t transfer at death—instead, they typically vest immediately and become income to your estate. Review your plan documents and work with advisors to understand the specific treatment.'
+      },
+      {
+        question: 'Should I gift pre-IPO shares?',
+        answer: 'Often yes, especially if you expect significant appreciation. Gifting at low valuations uses less of your gift tax exemption and removes future appreciation from your estate.'
+      },
+      {
+        question: 'Is a trust really necessary in California?',
+        answer: 'Yes. California probate fees are statutory and expensive (4% or more on estates over $100,000). A trust typically costs $5,000-$10,000 but saves many times that in probate fees.'
+      },
+      {
+        question: 'How does cryptocurrency fit into estate planning?',
+        answer: 'Document how to access your cryptocurrency (keys, wallets, exchanges) and include specific provisions in your trust. Consider a "digital asset" section and ensure someone knows how to locate and access your holdings.'
+      },
+      {
+        question: 'Do I need to update my estate plan after an IPO?',
+        answer: 'Yes. An IPO often dramatically changes your net worth, creates new liquidity and diversification options, and may affect your estate tax exposure. Review and update your plan promptly.'
+      },
+    ],
+    bottomLine: 'Silicon Valley\'s tech wealth creates unique estate planning needs. Concentrated positions, unvested equity, and high asset values require sophisticated strategies. California\'s lack of estate tax is advantageous, but expensive probate makes living trusts essential. Pre-IPO planning, proper trust funding, and attention to digital assets are critical for effective wealth transfer.'
+  },
+  {
+    id: 'city-sanjose-005',
+    title: 'High Net Worth Wealth Management in San Jose: Silicon Valley Strategies',
+    slug: 'high-net-worth-san-jose',
+    hubId: 'san-jose',
+    type: 'city-spoke',
+    excerpt: 'Specialized wealth management strategies for high net worth Silicon Valley residents including tech equity optimization, IPO planning, and family office services.',
+    readTime: '7 min read',
+    publishDate: '2025-11-29',
+    author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
+    primaryKeyword: 'high net worth San Jose',
+    metaDescription: 'Specialized wealth management strategies for high net worth Silicon Valley residents including tech equity optimization, IPO planning, and family office services.',
+    keyTakeaways: [
+      'California\'s 13.3% rate is the highest state income tax',
+      'Tech equity creates sudden wealth requiring sophisticated planning',
+      'IPO and acquisition timing drives major tax decisions',
+      'Strong local wealth management infrastructure',
+      'Exit planning should begin years before liquidity events',
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'Silicon Valley Wealth Creation',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">How HNW Emerges</h3>
+          
+          <strong>Common paths:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Founder equity (highest potential)</li>
+          <li>Early employee stock options</li>
+          <li>Executive RSU packages</li>
+          <li>Serial startup exits</li>
+          <li>Acquisition payouts</li>
+          </ul>
+          <strong>Scale of wealth:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Early Google/Facebook employees: $10M-$100M+</li>
+          <li>Unicorn founders: $100M-$1B+</li>
+          <li>Executive packages: $5M-$50M annually</li>
+          <li>Even "regular" tech workers: $2M-$10M in career</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Tax Impact</h3>
+          
+          <strong>California takes a significant share:</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Liquidity Event</th><th class="py-3 px-4 font-bold">Federal Tax</th><th class="py-3 px-4 font-bold">California Tax</th><th class="py-3 px-4 font-bold">Net to You</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">$10 million</td><td class="py-3 px-4">$2,380,000</td><td class="py-3 px-4">$1,330,000</td><td class="py-3 px-4">$6,290,000</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$50 million</td><td class="py-3 px-4">$11,900,000</td><td class="py-3 px-4">$6,650,000</td><td class="py-3 px-4">$31,450,000</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$100 million</td><td class="py-3 px-4">$23,800,000</td><td class="py-3 px-4">$13,300,000</td><td class="py-3 px-4">$62,900,000</td></tr></tbody></table></div>
+          <strong>37% combined rate</strong> on long-term gains (less if qualified)
+        `
+      },
+      {
+        type: 'text',
+        title: 'Wealth Management Infrastructure',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Private Banking</h3>
+          
+          <strong>Major presence in Silicon Valley:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Goldman Sachs Private Wealth</li>
+          <li>J.P. Morgan Private Bank</li>
+          <li>Morgan Stanley Private Wealth</li>
+          <li>UBS Private Wealth</li>
+          <li>First Republic (acquired by JPM)</li>
+          <li>Silicon Valley Bank (acquired by First Citizens)</li>
+          </ul>
+          <strong>Tech-specialized services:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Stock plan administration</li>
+          <li>Liquidity planning</li>
+          <li>IPO preparation</li>
+          <li>Founder-specific solutions</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Family Office Ecosystem</h3>
+          
+          <strong>Multi-family offices:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Numerous MFOs serving tech founders</li>
+          <li>Virtual/hybrid models common</li>
+          <li>Often serve multiple founders from same company</li>
+          </ul>
+          <strong>Single-family office:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Typically $100M+ liquid assets</li>
+          <li>San Francisco/Palo Alto hubs</li>
+          <li>Access to top talent</li>
+          <li>Coordination of complex affairs</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Professional Services</h3>
+          
+          <strong>Tech-specialized:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Big Four accounting firms (tech practices)</li>
+          <li>Wilson Sonsini, Gunderson (law)</li>
+          <li>Tech-focused RIAs</li>
+          <li>Executive compensation consultants</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Pre-IPO Planning',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Critical Window</h3>
+          
+          <strong>12-18 months before IPO:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Establish domicile if relocating</li>
+          <li>Exercise stock options strategically</li>
+          <li>Gift shares at low valuations</li>
+          <li>Implement trust structures</li>
+          <li>QSBS planning</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Option Exercise Strategy</h3>
+          
+          <strong>Considerations:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>AMT exposure on ISOs</li>
+          <li>83(b) elections for early exercise</li>
+          <li>Cash vs. cashless exercise</li>
+          <li>Timing around blackout periods</li>
+          </ul>
+          <strong>Example strategy:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Exercise ISOs in stages</li>
+          <li>Manage AMT across years</li>
+          <li>Start holding period early</li>
+          <li>Build long-term gains treatment</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Gifting Strategies</h3>
+          
+          <strong>Before valuation increases:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Annual exclusion gifts ($18,000)</li>
+          <li>Larger gifts using lifetime exemption</li>
+          <li>GRATs for future appreciation</li>
+          <li>Dynasty trusts for multigenerational</li>
+          </ul>
+          <strong>Example:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Gift 100,000 shares at $1 (409A value)</li>
+          <li>Post-IPO value: $50/share</li>
+          <li>$4.9 million transferred for $100K gift</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Post-IPO Wealth Management',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Liquidity Event Coordination</h3>
+          
+          <strong>At lockup expiration:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>10b5-1 plans for systematic selling</li>
+          <li>Staged diversification</li>
+          <li>Tax-loss harvesting opportunities</li>
+          <li>Charitable giving with appreciated stock</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Diversification Discipline</h3>
+          
+          <strong>Target reduction:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>50%+ concentrated → 15-20% within 3 years</li>
+          <li>Systematic selling schedule</li>
+          <li>Tax-efficient approaches</li>
+          <li>Hedging for remaining position</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Sudden Wealth Considerations</h3>
+          
+          <strong>Lifestyle inflation:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Resist immediate major purchases</li>
+          <li>Live on prior income for 1-2 years</li>
+          <li>Develop long-term spending plan</li>
+          <li>Consider charitable giving early</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Tax Optimization Strategies',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Income Tax Planning</h3>
+          
+          <strong>Spread income when possible:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Stagger option exercises</li>
+          <li>Time RSU vests (limited control)</li>
+          <li>Installment sales for acquisitions</li>
+          <li>Deferred compensation arrangements</li>
+          </ul>
+          <strong>Reduce taxable income:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Maximize retirement contributions</li>
+          <li>Charitable giving (DAF in high-income years)</li>
+          <li>Opportunity Zone investments</li>
+          <li>Tax-loss harvesting</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Exit Tax Planning</h3>
+          
+          <strong>Leaving California:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Move 12-18 months before event</li>
+          <li>Genuinely change domicile</li>
+          <li>California aggressively audits</li>
+          <li>Document new residency thoroughly</li>
+          </ul>
+          <strong>Popular destinations:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Nevada (Reno, Lake Tahoe)</li>
+          <li>Texas (Austin tech hub)</li>
+          <li>Washington (Seattle, but capital gains tax)</li>
+          <li>Florida (Miami tech growth)</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">QSBS Optimization</h3>
+          
+          <strong>Section 1202 exclusion:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Up to $10M or 10x basis excluded</li>
+          <li>Must hold 5+ years</li>
+          <li>C-corporation, qualified trade</li>
+          <li>California doesn't conform (still taxes)</li>
+          </ul>
+          <strong>Strategies:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Gift to family members (each gets exclusion)</li>
+          <li>Trust structures</li>
+          <li>Stack across entities</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Estate Planning for Tech Wealth',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Pre-Event Estate Planning</h3>
+          
+          <strong>Before liquidity:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Gift shares at low valuations</li>
+          <li>Implement dynasty trusts</li>
+          <li>GRAT strategies</li>
+          <li>Life insurance for taxes</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Trust Structures</h3>
+          
+          <strong>Common for tech HNW:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Revocable living trust (probate avoidance)</li>
+          <li>ILIT for life insurance</li>
+          <li>Dynasty trusts (non-CA situs)</li>
+          <li>Charitable remainder trusts</li>
+          <li>SLATs for married couples</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Federal Estate Tax</h3>
+          
+          <strong>Current exemption:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>$13.61 million individual</li>
+          <li>$27.22 million married</li>
+          <li>Sunsets to ~$7M in 2026</li>
+          </ul>
+          <strong>Planning now:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Use exemption while high</li>
+          <li>Irrevocable gifts</li>
+          <li>Consider completed gifts</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Family Office Services',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">When to Establish</h3>
+          
+          <strong>Single-family office makes sense:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>$100M+ liquid assets</li>
+          <li>Complex affairs (business, real estate, philanthropy)</li>
+          <li>Desire for coordination and control</li>
+          <li>Family governance needs</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">SFO Functions</h3>
+          
+          <strong>Core services:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Investment management oversight</li>
+          <li>Tax planning and compliance</li>
+          <li>Estate planning coordination</li>
+          <li>Risk management</li>
+          <li>Bill pay and administration</li>
+          <li>Family governance</li>
+          <li>Philanthropy coordination</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Virtual/Hybrid Models</h3>
+          
+          <strong>Common in Silicon Valley:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Core staff (2-3 people)</li>
+          <li>Outsourced specialized functions</li>
+          <li>Technology-enabled coordination</li>
+          <li>More cost-effective than full SFO</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Lifestyle Considerations',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Housing Decisions</h3>
+          
+          <strong>Options:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Stay in Silicon Valley (Palo Alto, Los Altos Hills)</li>
+          <li>Move within Bay Area (Hillsborough, Atherton)</li>
+          <li>Second homes (Lake Tahoe, Napa)</li>
+          <li>Relocate entirely</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Private Aviation</h3>
+          
+          <strong>Bay Area options:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>San Jose (SJC) - commercial + FBO</li>
+          <li>Palo Alto Airport (PAO) - convenient</li>
+          <li>San Carlos (SQL) - private aviation focus</li>
+          <li>Oakland (OAK) - FBO services</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Philanthropy</h3>
+          
+          <strong>Silicon Valley culture:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Strong giving tradition</li>
+          <li>Education focus common</li>
+          <li>Technology-leveraged approaches</li>
+          <li>Family foundation considerations</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Common HNW Mistakes',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 1: Poor Exit Timing</h3>
+          
+          <strong>Leaving after IPO announcement:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>California will pursue tax</li>
+          <li>Move 12-18 months before</li>
+          <li>Document new domicile</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 2: Concentrated Position Denial</h3>
+          
+          <strong>"It's done well":</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Past returns don't predict future</li>
+          <li>Career and wealth shouldn't be coupled</li>
+          <li>Systematic diversification essential</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 3: Pre-IPO Planning Failure</h3>
+          
+          <strong>Missed opportunities:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Gift at low valuations</li>
+          <li>QSBS elections</li>
+          <li>Trust funding</li>
+          <li>Option exercises</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 4: Lifestyle Inflation</h3>
+          
+          <strong>Sudden wealth:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Major purchases immediately</li>
+          <li>Commitments that lock in high spending</li>
+          <li>Not planning for tax payments</li>
+          <li>Forgetting this may be one-time event</li></ul>
+        `
+      },
+    ],
+    faqs: [
+      {
+        question: 'When should I start exit planning?',
+        answer: '12-18 months before anticipated liquidity event. If you\'re at a pre-IPO company that might go public, start now. California is aggressive about taxing residents who leave near major financial events.'
+      },
+      {
+        question: 'How much should I diversify after IPO?',
+        answer: 'Reduce to 15-20% of net worth within 3 years. The 10b5-1 plan (for insiders) or systematic selling schedule helps remove emotion from the process.'
+      },
+      {
+        question: 'Should I establish a family office?',
+        answer: 'Generally at $100M+ in liquid assets, or if you have complex needs (multiple entities, real estate, active philanthropy). Below that, multi-family offices or sophisticated RIAs provide similar services at lower cost.'
+      },
+      {
+        question: 'What\'s the biggest tax mistake tech founders make?',
+        answer: 'Not planning exit timing. Moving after an acquisition announcement or IPO filing is too late—California will pursue the tax. Genuine domicile change needs to happen well before the event.'
+      },
+      {
+        question: 'How does California treat QSBS?',
+        answer: 'California does NOT conform to the federal QSBS exclusion. Even if you qualify for the $10 million federal exclusion, California will tax the entire gain at 13.3%. Consider this in exit planning.'
+      },
+    ],
+    bottomLine: 'Silicon Valley creates extraordinary wealth, but California\'s tax environment takes a substantial share. Successful HNW planning requires pre-event preparation (option exercises, gifting, domicile), disciplined post-event execution (diversification, tax optimization), and long-term wealth preservation (estate planning, family governance). The founders and executives who thrive are those who treat wealth management as seriously as they treat their companies.'
+  },
+  {
+    id: 'city-sanjose-004',
+    title: 'Investment Strategies in San Jose: Silicon Valley Portfolio Management',
+    slug: 'investment-strategies-san-jose',
+    hubId: 'san-jose',
+    type: 'city-spoke',
+    excerpt: 'Investment strategies for San Jose and Silicon Valley residents including concentrated stock management, tech equity diversification, and California tax optimization.',
+    readTime: '6 min read',
+    publishDate: '2025-11-29',
+    author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
+    primaryKeyword: 'investment strategies San Jose',
+    metaDescription: 'Investment strategies for San Jose and Silicon Valley residents including concentrated stock management, tech equity diversification, and California tax optimization.',
+    keyTakeaways: [
+      'Concentrated stock positions are the #1 risk for tech workers',
+      'California taxes investment gains up to 13.3%',
+      'Diversification is essential but tax-costly in California',
+      'Municipal bonds provide meaningful tax benefits',
+      'Tech sector exposure often excessive through employment',
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'Concentrated Stock Management',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">The Concentration Problem</h3>
+          
+          <strong>Silicon Valley reality:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>50%+ of net worth in employer stock (common)</li>
+          <li>Career and wealth tied to same company</li>
+          <li>Tech stocks are volatile</li>
+          <li>Single company failures can be devastating</li>
+          </ul>
+          <strong>Historical examples:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Yahoo: $120 → $4 (97% decline)</li>
+          <li>Sun Microsystems: Acquired at 97% below peak</li>
+          <li>Cisco: $80 → $20 (never recovered)</li>
+          <li>Many unicorns never reached IPO prices again</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Diversification Guidelines</h3>
+          
+          <strong>Target allocations:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Maximum single stock: 10-20% of net worth</li>
+          <li>Maximum sector: 25-30%</li>
+          <li>At RSU vest: Sell at least taxes owed</li>
+          <li>Systematic reduction over 1-3 years</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Diversification Strategies</h3>
+          
+          <strong>1. Systematic selling:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Sell fixed percentage quarterly</li>
+          <li>10b5-1 plans for insiders</li>
+          <li>Removes emotional decision-making</li>
+          <li>Automatic discipline</li>
+          </ul>
+          <strong>2. Exchange funds:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Pool concentrated positions</li>
+          <li>Receive diversified portfolio</li>
+          <li>Defer capital gains</li>
+          <li>7-year commitment</li>
+          <li>Requires accredited investor status</li>
+          </ul>
+          <strong>3. Charitable giving:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Donate appreciated shares</li>
+          <li>Fair market value deduction</li>
+          <li>Avoid capital gains</li>
+          <li>Immediate diversification of remaining assets</li>
+          </ul>
+          <strong>4. Hedging strategies:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Protective puts</li>
+          <li>Collars (puts + covered calls)</li>
+          <li>Prepaid variable forwards</li>
+          <li>Complex but preserve upside participation</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Tax-Efficient Investing',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">California Capital Gains</h3>
+          
+          <strong>No preferential rate:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Short-term: Up to 13.3%</li>
+          <li>Long-term: Up to 13.3%</li>
+          <li>Same as ordinary income</li>
+          </ul>
+          <strong>Combined rates:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Short-term: 50.3% (top brackets)</li>
+          <li>Long-term: 37.1% (top brackets)</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Tax-Loss Harvesting</h3>
+          
+          <strong>Particularly valuable in California:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Offset gains dollar-for-dollar</li>
+          <li>$3,000 annual income offset</li>
+          <li>Carry forward indefinitely</li>
+          <li>California rate makes losses more valuable</li>
+          </ul>
+          <strong>Systematic approach:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Review quarterly</li>
+          <li>Replace with similar (not identical) security</li>
+          <li>Track wash sale rules</li>
+          <li>Coordinate across accounts</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">California Municipal Bonds</h3>
+          
+          <strong>Strong case at 13.3%:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Federal + state tax-free</li>
+          <li>Significant after-tax advantage</li>
+          <li>Core holding for income needs</li>
+          </ul>
+          <strong>Yield comparison:</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Bond Type</th><th class="py-3 px-4 font-bold">Yield</th><th class="py-3 px-4 font-bold">After-Tax (37% fed, 13.3% state)</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">CA Muni</td><td class="py-3 px-4">3.5%</td><td class="py-3 px-4">3.50%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Taxable</td><td class="py-3 px-4">5.5%</td><td class="py-3 px-4">2.72%</td></tr></tbody></table></div>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Asset Allocation for Tech Workers',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Reducing Tech Exposure</h3>
+          
+          <strong>Problem:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Career depends on tech</li>
+          <li>Equity compensation is tech</li>
+          <li>Temptation to over-invest in tech</li>
+          </ul>
+          <strong>Solution - Exclude tech from portfolio:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>S&P 500 ex-Technology funds</li>
+          <li>Value tilts (less tech)</li>
+          <li>Dividend-focused strategies</li>
+          <li>International (less tech concentration)</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Sample Allocation (Tech Worker, $2 Million)</h3>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Asset Class</th><th class="py-3 px-4 font-bold">Allocation</th><th class="py-3 px-4 font-bold">Vehicles</th><th class="py-3 px-4 font-bold">Notes</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">Employer Stock</td><td class="py-3 px-4">15%</td><td class="py-3 px-4">Direct</td><td class="py-3 px-4">Maximum target</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Non-Tech U.S. Equity</td><td class="py-3 px-4">25%</td><td class="py-3 px-4">VTV, FNDX</td><td class="py-3 px-4">Exclude tech</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">International</td><td class="py-3 px-4">20%</td><td class="py-3 px-4">VXUS</td><td class="py-3 px-4">Geographic diversification</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">California Munis</td><td class="py-3 px-4">15%</td><td class="py-3 px-4">CMF</td><td class="py-3 px-4">Tax-efficient income</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Real Estate</td><td class="py-3 px-4">10%</td><td class="py-3 px-4">VNQ</td><td class="py-3 px-4">Non-correlated</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Bonds</td><td class="py-3 px-4">10%</td><td class="py-3 px-4">BND</td><td class="py-3 px-4">Stability</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Cash</td><td class="py-3 px-4">5%</td><td class="py-3 px-4">HYSA</td><td class="py-3 px-4">Liquidity</td></tr></tbody></table></div>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Asset Location Strategy',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">California-Optimized Placement</h3>
+          
+          <strong>Tax-advantaged accounts (401k, IRA):</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>REITs (ordinary income)</li>
+          <li>High-yield bonds</li>
+          <li>Active funds with turnover</li>
+          <li>Employer stock sales</li>
+          </ul>
+          <strong>Taxable accounts:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>California municipal bonds</li>
+          <li>Index ETFs (tax-efficient)</li>
+          <li>Long-term stock holdings</li>
+          <li>Qualified dividend stocks</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Roth vs. Traditional</h3>
+          
+          <strong>California considerations:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Staying in California: Roth may be better (pay tax once)</li>
+          <li>Leaving California: Traditional may be better (deduct at high CA rate, withdraw in lower state)</li>
+          </ul>
+          <strong>Mega backdoor Roth:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Many tech companies offer</li>
+          <li>After-tax 401(k) contributions</li>
+          <li>In-plan Roth conversion</li>
+          <li>Up to $69,000 total annual contributions</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Real Estate Investment',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Silicon Valley Real Estate</h3>
+          
+          <strong>Characteristics:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Extreme prices ($1.4M+ median)</li>
+          <li>Low cap rates</li>
+          <li>Strong appreciation historically</li>
+          <li>Limited supply</li>
+          </ul>
+          <strong>Considerations:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Already have housing exposure if own home</li>
+          <li>Consider out-of-area investments</li>
+          <li>REITs provide liquidity and diversification</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Investment Property</h3>
+          
+          <strong>In Silicon Valley:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Very high entry point</li>
+          <li>Low cash flow (3-4% cap rates)</li>
+          <li>Strong appreciation potential</li>
+          <li>Consider ADU conversions</li>
+          </ul>
+          <strong>Outside Silicon Valley:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Better cash flow opportunities</li>
+          <li>Phoenix, Austin, Atlanta</li>
+          <li>No California income tax on out-of-state rental income</li>
+          <li>1031 exchange into lower-cost markets</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Startup and Private Investments',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Angel Investing</h3>
+          
+          <strong>Silicon Valley opportunities:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Early-stage access</li>
+          <li>Network-based deal flow</li>
+          <li>High risk, high potential return</li>
+          <li>QSBS potential</li>
+          </ul>
+          <strong>Allocation guidelines:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Maximum 5-10% of portfolio</li>
+          <li>Expect most to fail</li>
+          <li>Diversify across 10+ companies</li>
+          <li>Long time horizon (7-10 years)</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Venture Capital Funds</h3>
+          
+          <strong>For accredited investors:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Professional management</li>
+          <li>Diversified exposure</li>
+          <li>High minimums ($250K+)</li>
+          <li>Illiquidity (10+ years)</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Common Investment Mistakes',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 1: Holding Too Much Employer Stock</h3>
+          
+          <strong>Most common Silicon Valley mistake:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>"It's done well, why sell?"</li>
+          <li>Career and wealth shouldn't be coupled</li>
+          <li>Diversify systematically</li>
+          <li>10-20% maximum</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 2: Over-Investing in Tech</h3>
+          
+          <strong>Already exposed through:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Salary depends on tech</li>
+          <li>Equity compensation</li>
+          <li>Network is tech-heavy</li>
+          </ul>
+          <strong>Solution:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Actively reduce tech in portfolio</li>
+          <li>Value and dividend tilts</li>
+          <li>International diversification</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 3: Ignoring Tax Efficiency</h3>
+          
+          <strong>At California rates:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Tax-loss harvesting valuable</li>
+          <li>Asset location matters more</li>
+          <li>Municipal bonds provide real advantage</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 4: Timing Equity Sales Around Price</h3>
+          
+          <strong>Better approach:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Systematic selling (time-based)</li>
+          <li>10b5-1 plans</li>
+          <li>Removes emotional decisions</li>
+          <li>Focus on risk reduction</li></ul>
+        `
+      },
+    ],
+    faqs: [
+      {
+        question: 'How much employer stock should I hold?',
+        answer: 'Generally 10-20% maximum. Your career already depends on your company\'s success—diversifying your savings reduces overall life risk.'
+      },
+      {
+        question: 'Should I sell RSUs immediately at vest?',
+        answer: 'For diversification purposes, often yes. You\'ve already paid taxes on the vest value, so holding adds risk without adding tax efficiency. Consider your overall concentration.'
+      },
+      {
+        question: 'Are California municipal bonds worth it?',
+        answer: 'Yes, especially for high earners. At a 13.3% state rate plus federal tax, California munis often significantly outperform taxable bonds after tax.'
+      },
+      {
+        question: 'How should I think about tech exposure in my portfolio?',
+        answer: 'Reduce it. Your salary, career prospects, and equity compensation already depend on the tech sector. Your investment portfolio should provide diversification, not concentration.'
+      },
+      {
+        question: 'What\'s the best way to diversify a large concentrated position?',
+        answer: 'Depends on your situation: systematic selling (simplest), exchange funds (deferral), charitable giving (if philanthropically inclined), or hedging (preserve upside). Often a combination works best.'
+      },
+    ],
+    bottomLine: 'Silicon Valley offers exceptional wealth-building opportunities through equity compensation, but concentration risk is the primary threat to that wealth. Systematic diversification, tax-efficient investing (including California munis and aggressive loss harvesting), and conscious reduction of tech exposure in the broader portfolio are essential. The goal is converting concentrated tech wealth into diversified, long-term financial security.'
+  },
+  {
+    id: 'city-sanjose-001',
+    title: 'Retirement Planning in San Jose: Silicon Valley Tech Wealth Strategies',
+    slug: 'retirement-planning-san-jose',
+    hubId: 'san-jose',
+    type: 'city-spoke',
+    excerpt: 'Expert retirement planning strategies for San Jose and Silicon Valley residents including tech equity optimization, high cost of living planning, and California tax considerations.',
+    readTime: '7 min read',
+    publishDate: '2025-11-29',
+    author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
+    primaryKeyword: 'retirement planning San Jose',
+    metaDescription: 'Expert retirement planning strategies for San Jose and Silicon Valley residents including tech equity optimization, high cost of living planning, and California tax considerations.',
+    keyTakeaways: [
+      'Silicon Valley offers exceptional wealth-building through equity compensation',
+      'California taxes retirement income up to 13.3% (highest in the nation)',
+      'Concentrated stock positions require careful diversification planning',
+      'Cost of living is among the highest nationally',
+      'Consider exit timing around equity vesting and liquidity events',
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'Tech Equity and Retirement',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Silicon Valley Wealth Creation</h3>
+          
+          <strong>Unique opportunity:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>RSUs and stock options can generate significant wealth</li>
+          <li>IPOs and acquisitions create liquidity events</li>
+          <li>FAANG+ compensation often heavily equity-based</li>
+          <li>Early employee equity can be life-changing</li>
+          </ul>
+          <strong>Median tech compensation (senior levels):</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Base salary: $200,000-$300,000</li>
+          <li>Stock compensation: $100,000-$500,000+ annually</li>
+          <li>Total: $300,000-$800,000+</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Equity Types and Retirement Planning</h3>
+          
+          <strong>RSUs (Restricted Stock Units):</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Vest as ordinary income</li>
+          <li>California taxes at up to 13.3%</li>
+          <li>Plan for tax liability at vesting</li>
+          <li>Consider immediate diversification vs. holding</li>
+          </ul>
+          <strong>Stock Options:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>ISOs: Preferential tax treatment if held</li>
+          <li>NSOs: Ordinary income at exercise</li>
+          <li>AMT considerations for ISOs</li>
+          <li>Timing of exercise matters</li>
+          </ul>
+          <strong>ESPP (Employee Stock Purchase Plan):</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>15% discount typical</li>
+          <li>Two-year holding for preferential treatment</li>
+          <li>Often overlooked retirement savings vehicle</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'California Tax Burden',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Retirement Income Taxation</h3>
+          
+          <strong>California taxes all retirement income:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>401(k) distributions: Up to 13.3%</li>
+          <li>IRA distributions: Up to 13.3%</li>
+          <li>Pension income: Up to 13.3%</li>
+          <li>Social Security: Exempt</li>
+          </ul>
+          <strong>Example - $150,000 retirement income:</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">State</th><th class="py-3 px-4 font-bold">State Tax</th><th class="py-3 px-4 font-bold">Notes</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">California</td><td class="py-3 px-4">~$11,000</td><td class="py-3 px-4">Progressive rates</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Nevada</td><td class="py-3 px-4">$0</td><td class="py-3 px-4">No income tax</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Texas</td><td class="py-3 px-4">$0</td><td class="py-3 px-4">No income tax</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Arizona</td><td class="py-3 px-4">$3,750</td><td class="py-3 px-4">2.5% flat</td></tr></tbody></table></div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Planning for High Tax Burden</h3>
+          
+          <strong>Strategies during working years:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Maximize pre-tax contributions</li>
+          <li>Consider Roth for tax diversification</li>
+          <li>Plan for state tax in retirement budget</li>
+          <li>Evaluate relocation before retirement</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Silicon Valley Cost of Living',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Extreme Housing Costs</h3>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Category</th><th class="py-3 px-4 font-bold">San Jose</th><th class="py-3 px-4 font-bold">National Average</th><th class="py-3 px-4 font-bold">Multiple</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">Median Home</td><td class="py-3 px-4">$1,400,000</td><td class="py-3 px-4">$417,000</td><td class="py-3 px-4">3.4x</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Overall COL</td><td class="py-3 px-4">182</td><td class="py-3 px-4">100</td><td class="py-3 px-4">1.8x</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Healthcare</td><td class="py-3 px-4">112</td><td class="py-3 px-4">100</td><td class="py-3 px-4">1.1x</td></tr></tbody></table></div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Retirement Budget Reality</h3>
+          
+          <strong>Comfortable San Jose retirement (couple):</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Category</th><th class="py-3 px-4 font-bold">Monthly</th><th class="py-3 px-4 font-bold">Annual</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">Housing (owned, taxes + insurance)</td><td class="py-3 px-4">$2,000</td><td class="py-3 px-4">$24,000</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Healthcare (Medicare + supplemental)</td><td class="py-3 px-4">$800</td><td class="py-3 px-4">$9,600</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Utilities</td><td class="py-3 px-4">$350</td><td class="py-3 px-4">$4,200</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Food and groceries</td><td class="py-3 px-4">$1,000</td><td class="py-3 px-4">$12,000</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Transportation</td><td class="py-3 px-4">$600</td><td class="py-3 px-4">$7,200</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Entertainment</td><td class="py-3 px-4">$800</td><td class="py-3 px-4">$9,600</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Travel</td><td class="py-3 px-4">$600</td><td class="py-3 px-4">$7,200</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">Miscellaneous</td><td class="py-3 px-4">$500</td><td class="py-3 px-4">$6,000</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4"><strong>Total</strong></td><td class="py-3 px-4"><strong>$6,650</strong></td><td class="py-3 px-4"><strong>$79,800</strong></td></tr></tbody></table></div>
+          <strong>Savings target (4% rule):</strong> $2.0 million for comfortable San Jose retirement
+          
+          <h3 class="text-xl font-bold mt-8 mb-4">Comparison Options</h3>
+          
+          <strong>For the same lifestyle:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>San Jose: $2.0 million</li>
+          <li>Phoenix: $1.3 million</li>
+          <li>Austin: $1.4 million</li>
+          <li>Denver: $1.5 million</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Retirement Strategies for Tech Workers',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 1: Maximize Tax-Advantaged Accounts</h3>
+          
+          <strong>Aggressive contribution strategy:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>401(k): $23,000 (2024) + catch-up</li>
+          <li>Mega backdoor Roth: Up to $69,000 total</li>
+          <li>HSA: $8,300 (family)</li>
+          <li>Backdoor Roth IRA: $7,000</li>
+          </ul>
+          <strong>Total potential tax-advantaged savings:</strong> $84,300+/year
+          
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 2: Diversify Equity Concentration</h3>
+          
+          <strong>Critical for tech workers:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Rule of thumb: No more than 10-20% in employer stock</li>
+          <li>Systematic selling after vesting</li>
+          <li>10b5-1 plans for insiders</li>
+          <li>Consider hedging strategies for large positions</li>
+          </ul>
+          <strong>Diversification timeline:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>At vest: Sell at least taxes owed</li>
+          <li>Within 1 year: Reduce to 20-30% of net worth</li>
+          <li>Within 3 years: Reduce to 10-15%</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 3: Plan Around Liquidity Events</h3>
+          
+          <strong>Pre-IPO planning:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Exercise options strategically</li>
+          <li>83(b) elections for early exercise</li>
+          <li>Gift shares before IPO</li>
+          <li>Consider QSBS treatment</li>
+          </ul>
+          <strong>Post-IPO planning:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Lockup expiration strategy</li>
+          <li>Staggered selling</li>
+          <li>Charitable giving with appreciated stock</li>
+          <li>Installment sales for founders</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 4: Roth Conversion Strategy</h3>
+          
+          <strong>For future California residents:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Convert at high rates now</li>
+          <li>Pay California tax once</li>
+          <li>Tax-free forever after</li>
+          </ul>
+          <strong>For those planning to leave:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>May prefer Traditional (deduct at CA rates)</li>
+          <li>Convert or withdraw in low/no tax state</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Housing Strategies for Retirement',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Stay in Silicon Valley</h3>
+          
+          <strong>Benefits:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Prop 13 protection (if long-term owner)</li>
+          <li>Network and community</li>
+          <li>Access to tech opportunities</li>
+          <li>Excellent healthcare</li>
+          </ul>
+          <strong>Challenges:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>High ongoing costs</li>
+          <li>Property taxes still significant on expensive homes</li>
+          <li>Services more expensive</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Relocate from Silicon Valley</h3>
+          
+          <strong>Popular destinations:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Nevada (Reno, Lake Tahoe): No income tax</li>
+          <li>Arizona (Scottsdale, Phoenix): Low taxes, warm</li>
+          <li>Austin: Tech hub, no income tax</li>
+          <li>Pacific Northwest: Seattle (no income tax) or Oregon</li>
+          </ul>
+          <strong>Timing considerations:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Before major liquidity event</li>
+          <li>After children finish schools</li>
+          <li>Health considerations</li>
+          <li>Family proximity</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Prop 13 and Prop 19</h3>
+          
+          <strong>Prop 13 benefits:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Locked property tax base</li>
+          <li>2% maximum annual increase</li>
+          <li>Valuable for long-term owners</li>
+          </ul>
+          <strong>Prop 19 (age 55+):</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Transfer tax base anywhere in CA</li>
+          <li>Up to 3 times</li>
+          <li>Can downsize while keeping low base</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Common Retirement Mistakes',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 1: Over-Concentration in Employer Stock</h3>
+          
+          <strong>Risk factors:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Job and savings tied to same company</li>
+          <li>Tech volatility can be extreme</li>
+          <li>50%+ losses not uncommon</li>
+          <li>Diversify systematically</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 2: Underestimating Retirement Costs</h3>
+          
+          <strong>Silicon Valley is expensive:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Even with paid-off home, costs are high</li>
+          <li>Healthcare, services, dining all premium</li>
+          <li>Plan for 60%+ more than national average</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 3: Not Planning Exit Before Events</h3>
+          
+          <strong>Liquidity event tax:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Moving after announcement often too late</li>
+          <li>California will pursue tax</li>
+          <li>Plan 12-18 months ahead</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 4: Ignoring AMT in Option Planning</h3>
+          
+          <strong>ISO exercise can trigger AMT:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Plan exercises across years</li>
+          <li>Consider early exercise with 83(b)</li>
+          <li>AMT credit carry-forward</li></ul>
+        `
+      },
+    ],
+    faqs: [
+      {
+        question: 'How much do I need to retire in San Jose?',
+        answer: 'A comfortable retirement typically requires $75,000-$100,000 annually, translating to $1.9-$2.5 million in savings. This is 50%+ higher than national averages.'
+      },
+      {
+        question: 'Should I stay in Silicon Valley for retirement?',
+        answer: 'Depends on priorities. If you\'re a long-term homeowner with Prop 13 protection and value the community, staying can work. If seeking lower costs or escaping California taxes, relocation may save significant money.'
+      },
+      {
+        question: 'When should I diversify my tech stock?',
+        answer: 'Start immediately at vesting. Most advisors recommend no more than 10-20% of net worth in any single stock, especially your employer. Systematic selling (e.g., 10b5-1 plans) can help.'
+      },
+      {
+        question: 'Does California tax retirement income?',
+        answer: 'Yes. California taxes 401(k)s, IRAs, and pensions at regular rates (up to 13.3%). Social Security is the exception—it\'s exempt from California tax.'
+      },
+      {
+        question: 'Should I move before my company goes public?',
+        answer: 'If considering relocation, move 12-18 months before anticipated IPO. California is aggressive about pursuing taxes on residents who leave near liquidity events.'
+      },
+    ],
+    bottomLine: 'Silicon Valley offers exceptional wealth-building opportunities through tech equity, but converting that wealth to retirement security requires careful planning. High California taxes, extreme housing costs, and concentrated stock positions create unique challenges. Success requires aggressive tax-advantaged savings, systematic diversification, and thoughtful planning around liquidity events and potential relocation.'
+  },
+  {
+    id: 'city-sanjose-002',
+    title: 'Tax Planning in San Jose: Silicon Valley Equity Tax Strategies',
+    slug: 'tax-planning-san-jose',
+    hubId: 'san-jose',
+    type: 'city-spoke',
+    excerpt: 'Comprehensive tax planning strategies for San Jose and Silicon Valley residents including RSU taxation, stock option planning, and California tax optimization.',
+    readTime: '7 min read',
+    publishDate: '2025-11-29',
+    author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
+    primaryKeyword: 'tax planning San Jose',
+    metaDescription: 'Comprehensive tax planning strategies for San Jose and Silicon Valley residents including RSU taxation, stock option planning, and California tax optimization.',
+    keyTakeaways: [
+      'California\'s 13.3% top rate is the highest state income tax',
+      'RSUs taxed as ordinary income at vesting',
+      'Stock options have different treatment (ISO vs. NSO)',
+      'AMT can create unexpected tax liability on ISOs',
+      'QSBS can provide significant exclusion for qualifying startups',
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'California Tax Structure',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Progressive Income Tax Rates</h3>
+          
+          <strong>California rates (2024):</strong>
+          
+          <div class="overflow-x-auto my-6"><table class="w-full text-left border-collapse"><thead><tr class="border-b-2 border-gray-300"><th class="py-3 px-4 font-bold">Income (Single)</th><th class="py-3 px-4 font-bold">Marginal Rate</th></tr></thead><tbody><tr class="border-b border-gray-100"><td class="py-3 px-4">$0 - $10,412</td><td class="py-3 px-4">1%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$10,413 - $24,684</td><td class="py-3 px-4">2%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$24,685 - $38,959</td><td class="py-3 px-4">4%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$38,960 - $54,081</td><td class="py-3 px-4">6%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$54,082 - $68,350</td><td class="py-3 px-4">8%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$68,351 - $349,137</td><td class="py-3 px-4">9.3%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$349,138 - $418,961</td><td class="py-3 px-4">10.3%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$418,962 - $698,271</td><td class="py-3 px-4">11.3%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$698,272 - $1,000,000</td><td class="py-3 px-4">12.3%</td></tr><tr class="border-b border-gray-100"><td class="py-3 px-4">$1,000,000+</td><td class="py-3 px-4">13.3%</td></tr></tbody></table></div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Combined Tax Rates</h3>
+          
+          <strong>For high earners:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Federal: Up to 37% ordinary, 23.8% LTCG</li>
+          <li>California: Up to 13.3%</li>
+          <li>FICA: 1.45% Medicare (uncapped)</li>
+          </ul>
+          <strong>Total marginal rates:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Ordinary income: 51.8% (high bracket)</li>
+          <li>Short-term gains: 51.8%</li>
+          <li>Long-term gains: 37.1%</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'RSU Tax Planning',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">How RSUs Are Taxed</h3>
+          
+          <strong>At vesting:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Fair market value is ordinary income</li>
+          <li>Subject to federal + California tax</li>
+          <li>Employer withholds (often at supplemental rates)</li>
+          </ul>
+          <strong>Withholding shortfall:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Federal supplemental: 22% (may be under-withheld)</li>
+          <li>California supplemental: 10.23%</li>
+          <li>Make estimated payments if needed</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">RSU Tax Strategies</h3>
+          
+          <strong>Strategy 1: Coordinate with other income</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Large vest in high-income year: Already in top bracket</li>
+          <li>Consider timing when possible</li>
+          <li>Year-end vesting timing</li>
+          </ul>
+          <strong>Strategy 2: Charitable giving</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Donate appreciated RSUs after holding</li>
+          <li>Avoid capital gains on appreciation</li>
+          <li>Get fair market value deduction</li>
+          </ul>
+          <strong>Strategy 3: Immediate diversification</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Sell immediately at vest (common)</li>
+          <li>Only pay tax on vest value</li>
+          <li>Avoids additional risk</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Stock Option Planning',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">ISO vs. NSO</h3>
+          
+          <strong>Incentive Stock Options (ISOs):</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>No ordinary income at exercise (regular tax)</li>
+          <li>AMT adjustment on spread</li>
+          <li>If qualified disposition: LTCG on entire gain</li>
+          <li>Must hold 2 years from grant, 1 year from exercise</li>
+          </ul>
+          <strong>Non-Qualified Stock Options (NSOs):</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Ordinary income at exercise (spread)</li>
+          <li>No AMT issues</li>
+          <li>Additional gain after exercise: Capital gain</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">AMT Planning for ISOs</h3>
+          
+          <strong>AMT trap:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>ISO exercise creates AMT preference item</li>
+          <li>Can trigger AMT even if underwater</li>
+          <li>AMT credit may be recoverable</li>
+          </ul>
+          <strong>Strategies:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Model AMT before exercising</li>
+          <li>Spread exercises across years</li>
+          <li>Consider early exercise with 83(b)</li>
+          <li>Same-day sale avoids AMT</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Early Exercise (83(b) Election)</h3>
+          
+          <strong>When available:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Exercise before vesting</li>
+          <li>File 83(b) within 30 days</li>
+          <li>Start holding period early</li>
+          <li>Risk: Forfeit if leave early</li>
+          </ul>
+          <strong>Benefits:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Start capital gains holding period</li>
+          <li>Lock in low value for taxation</li>
+          <li>Convert potential ordinary to capital</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'QSBS Planning',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Qualified Small Business Stock Exclusion</h3>
+          
+          <strong>Federal benefits (Section 1202):</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Exclude up to $10 million gain (or 10x basis)</li>
+          <li>100% exclusion for stock acquired 2010+</li>
+          <li>Must hold 5+ years</li>
+          <li>C-corporation, qualified trade</li>
+          </ul>
+          <strong>California treatment:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Does NOT conform to federal exclusion</li>
+          <li>California taxes QSBS gains fully</li>
+          <li>Consider this in exit planning</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">QSBS Strategies</h3>
+          
+          <strong>Maximize exclusion:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>$10 million per taxpayer</li>
+          <li>Gift to family members (each gets exclusion)</li>
+          <li>Stack exclusions across entities</li>
+          </ul>
+          <strong>California workaround:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Consider moving before sale</li>
+          <li>5+ year holding still required</li>
+          <li>California will pursue if residency questionable</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Pre-IPO Tax Planning',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Before the Liquidity Event</h3>
+          
+          <strong>Exercise timing:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Exercise options when value is low</li>
+          <li>83(b) election on early exercise</li>
+          <li>Start capital gains holding period</li>
+          <li>Manage AMT exposure</li>
+          </ul>
+          <strong>Gifting strategies:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Gift to family at low valuations</li>
+          <li>Irrevocable trusts</li>
+          <li>Grantor trusts for income tax flexibility</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">At IPO/Acquisition</h3>
+          
+          <strong>Lockup period planning:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Prepare for lockup expiration</li>
+          <li>Staged selling strategy</li>
+          <li>10b5-1 plans for insiders</li>
+          <li>Coordinate across all holders</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Post-IPO Strategies</h3>
+          
+          <strong>Diversification:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Systematic selling program</li>
+          <li>Exchange funds</li>
+          <li>Charitable remainder trusts</li>
+          <li>Prepaid forward contracts</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Exit Tax Planning',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Leaving California</h3>
+          
+          <strong>California departure audits:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Aggressive for high earners</li>
+          <li>Must genuinely change domicile</li>
+          <li>Cut California ties thoroughly</li>
+          <li>Document new residence</li>
+          </ul>
+          <strong>Timing considerations:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Before major vesting events</li>
+          <li>Before IPO announcement</li>
+          <li>12-18 months ahead ideally</li>
+          <li>After children finish schools</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Domicile Establishment</h3>
+          
+          <strong>New state residency:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Nevada: Popular, no income tax</li>
+          <li>Texas: No income tax, tech presence</li>
+          <li>Washington: No income tax (but capital gains tax)</li>
+          <li>Arizona: Low tax, close to California</li>
+          </ul>
+          <strong>Documentation needed:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>New driver's license</li>
+          <li>Voter registration</li>
+          <li>Professional licenses</li>
+          <li>Social/professional ties</li>
+          <li>Calendar tracking (183+ days)</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Charitable Tax Planning',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Stock Donations</h3>
+          
+          <strong>Benefits of donating appreciated stock:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Fair market value deduction</li>
+          <li>No capital gains tax</li>
+          <li>Effective for high-bracket donors</li>
+          </ul>
+          <strong>Requirements:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Held more than 1 year</li>
+          <li>Up to 30% of AGI (public charity)</li>
+          <li>Carry forward for 5 years</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Donor-Advised Funds</h3>
+          
+          <strong>For tech workers:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Bunch donations in high-income years</li>
+          <li>Front-load contributions</li>
+          <li>Grant over time</li>
+          <li>Timing flexibility</li>
+          </ul>
+          <strong>Example - IPO year:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Major liquidity event in 2024</li>
+          <li>Contribute $1 million to DAF</li>
+          <li>Deduction against high income</li>
+          <li>Distribute grants over 10+ years</li></ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Common Tax Mistakes',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 1: ISO Exercise Without AMT Planning</h3>
+          
+          <strong>AMT surprise:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Large exercise creates AMT</li>
+          <li>Can exceed regular tax significantly</li>
+          <li>Plan exercises across years</li>
+          <li>Model before exercising</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 2: Selling Before Long-Term</h3>
+          
+          <strong>Capital gains difference:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Short-term: 50%+ total rate</li>
+          <li>Long-term: 37% total rate</li>
+          <li>13%+ savings for patience</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 3: Not Diversifying at Vest</h3>
+          
+          <strong>Holding too long:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>Additional risk without tax benefit</li>
+          <li>Already paid tax at vest</li>
+          <li>Systematic selling often best</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 4: Poor Exit Timing</h3>
+          
+          <strong>Leaving after announcement:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4"><li>California will pursue tax</li>
+          <li>Move before major events</li>
+          <li>Document new residency thoroughly</li></ul>
+        `
+      },
+    ],
+    faqs: [
+      {
+        question: 'How are RSUs taxed in California?',
+        answer: 'RSUs are taxed as ordinary income at vesting—up to 13.3% California plus 37% federal. The fair market value on vesting date is your taxable income, regardless of when you sell.'
+      },
+      {
+        question: 'Should I exercise my ISOs?',
+        answer: 'Depends on multiple factors: current stock price, exercise price, AMT exposure, and your overall tax situation. Model the AMT impact before exercising. Consider spreading exercises across years.'
+      },
+      {
+        question: 'What is QSBS and does California recognize it?',
+        answer: 'QSBS (Section 1202) can exclude up to $10 million in gains federally for qualifying startup stock held 5+ years. However, California does NOT conform—you\'ll pay full California tax on QSBS gains.'
+      },
+      {
+        question: 'When should I move to avoid California taxes?',
+        answer: 'Move 12-18 months before any anticipated liquidity event (IPO, acquisition). California aggressively audits departures and will pursue tax on residents who leave near major financial events.'
+      },
+      {
+        question: 'How much should I withhold for taxes on a large RSU vest?',
+        answer: 'Employers typically withhold at supplemental rates (22% federal, 10.23% California), but your actual rate may be higher. If you\'re in the top brackets, make estimated payments to avoid penalties.'
+      },
+    ],
+    bottomLine: 'Silicon Valley\'s equity compensation creates exceptional wealth, but California\'s 13.3% top rate means roughly half of that wealth can go to taxes. Effective planning—including RSU timing, ISO exercise strategy, QSBS optimization, and potentially domicile planning—can preserve significantly more of your tech wealth. Work with advisors who understand both the equity compensation mechanics and California\'s tax environment.'
   },
   {
     id: 'city-seattle-003',
