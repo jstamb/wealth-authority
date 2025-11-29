@@ -324,4 +324,64 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+
+  <!-- Los Angeles City-Specific Articles -->
+  <url>
+    <loc>https://www.wealthauthority.org/article/tax-planning-los-angeles</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.wealthauthority.org/article/retirement-planning-los-angeles</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Chicago City-Specific Articles -->
+  <url>
+    <loc>https://www.wealthauthority.org/article/tax-planning-chicago</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.wealthauthority.org/article/retirement-planning-chicago</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Houston City-Specific Articles -->
+  <url>
+    <loc>https://www.wealthauthority.org/article/tax-planning-houston</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.wealthauthority.org/article/retirement-planning-houston</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Miami City-Specific Articles -->
+  <url>
+    <loc>https://www.wealthauthority.org/article/tax-planning-miami</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.wealthauthority.org/article/retirement-planning-miami</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Seattle City-Specific Articles -->
+  <url>
+    <loc>https://www.wealthauthority.org/article/tax-planning-seattle</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.wealthauthority.org/article/retirement-planning-seattle</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
