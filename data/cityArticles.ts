@@ -730,5 +730,296 @@ export const CITY_ARTICLES: Article[] = [
       }
     ],
     bottomLine: "Seattle tech workers have unique retirement planning challenges—concentrated positions, high cost of living, and Washington's aggressive estate tax. Start diversifying 5-10 years before retirement, take full advantage of mega backdoor Roth options, and develop a clear strategy for the transition from accumulation to distribution."
+  },
+
+  // Phoenix/Arizona Articles
+  {
+    id: 'phx-tax-1',
+    title: 'Arizona Tax Planning: Phoenix Financial Strategies',
+    slug: 'tax-planning-phoenix',
+    hubId: 'phoenix',
+    type: 'city-spoke',
+    excerpt: 'Arizona offers a flat 2.5% income tax rate—one of the lowest in the nation. Learn how to maximize tax advantages while living in Phoenix.',
+    readTime: '10 min read',
+    publishDate: '2025-11-27',
+    author: { name: 'Wealth Authority Team', role: 'Editorial Staff', credentials: 'CFP, CPA' },
+    keyTakeaways: [
+      "Arizona has a flat 2.5% income tax—among the lowest in the nation",
+      "Social Security benefits are not taxed at the state level",
+      "No estate or inheritance tax in Arizona",
+      "Property taxes average 0.6%—well below national average",
+      "Retirees from high-tax states save significantly by relocating"
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'Arizona Tax Advantages',
+        content: `
+          <p>Arizona recently simplified its tax code to a flat 2.5% rate on all income—one of the most competitive rates in the country. Combined with no estate tax and reasonable property taxes, Phoenix has become a top destination for wealth preservation.</p>
+          <h4 class="text-xl font-bold mt-6 mb-3">Tax Comparison: $300,000 Income</h4>
+          <ul class="list-disc pl-6 space-y-2 mb-6">
+            <li><strong>Arizona:</strong> $7,500 state tax (2.5%)</li>
+            <li><strong>California:</strong> $25,000+ state tax (9.3%+ bracket)</li>
+            <li><strong>New York:</strong> $20,000+ state tax (6.85%+ bracket)</li>
+          </ul>
+          <p>For a high earner relocating from California, the annual savings exceed $17,000—and that compounds year after year.</p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Retirement Income Benefits',
+        content: `
+          <p>Arizona is particularly friendly to retirees:</p>
+          <ul class="list-disc pl-6 space-y-2 mb-6">
+            <li><strong>Social Security:</strong> 100% exempt from state tax</li>
+            <li><strong>Military retirement:</strong> 100% exempt from state tax</li>
+            <li><strong>Public pensions:</strong> Up to $2,500 exempt</li>
+            <li><strong>Private retirement (401k, IRA):</strong> Taxed at flat 2.5% rate</li>
+          </ul>
+          <p>Combined with low property taxes and no estate tax, Arizona allows retirees to preserve significantly more wealth than high-tax alternatives.</p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Establishing Arizona Residency',
+        content: `
+          <p>If you're relocating from a high-tax state, proper domicile establishment is critical:</p>
+          <ol class="list-decimal pl-6 space-y-2 mb-6">
+            <li>Obtain Arizona driver's license</li>
+            <li>Register to vote in Arizona</li>
+            <li>File Arizona state taxes as a full-year resident</li>
+            <li>Update vehicle registrations</li>
+            <li>Establish banking and professional relationships locally</li>
+            <li>Spend more than 183 days in Arizona</li>
+          </ol>
+          <p>California and New York are known for aggressive departure audits. Keep documentation of your move and ongoing Arizona presence.</p>
+        `
+      }
+    ],
+    bottomLine: "Arizona's 2.5% flat tax makes Phoenix one of the most tax-friendly major metros in America. Combined with no estate tax, low property taxes, and excellent treatment of retirement income, it's an ideal destination for wealth accumulation and preservation."
+  },
+  {
+    id: 'phx-ret-1',
+    title: 'Retirement Planning in Phoenix: Sun, Savings, and Strategy',
+    slug: 'retirement-planning-phoenix',
+    hubId: 'phoenix',
+    type: 'city-spoke',
+    excerpt: 'Phoenix offers retirees low taxes, affordable housing, and year-round sunshine. Here is how to plan for a comfortable Arizona retirement.',
+    readTime: '10 min read',
+    publishDate: '2025-11-27',
+    author: { name: 'Wealth Authority Team', role: 'Editorial Staff', credentials: 'CFP' },
+    keyTakeaways: [
+      "Social Security is 100% tax-free in Arizona",
+      "Cost of living is just 3% above national average",
+      "Summer heat means higher utility costs (budget $300-500/month for cooling)",
+      "Excellent healthcare with Mayo Clinic and Banner Health systems",
+      "Active adult communities offer turnkey retirement living"
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'Why Phoenix for Retirement',
+        content: `
+          <p>Phoenix has emerged as one of America's top retirement destinations, offering:</p>
+          <ul class="list-disc pl-6 space-y-2 mb-6">
+            <li><strong>300+ days of sunshine:</strong> Ideal for active outdoor lifestyles</li>
+            <li><strong>Low taxes:</strong> 2.5% flat income tax, no tax on Social Security</li>
+            <li><strong>Affordable housing:</strong> Median home price ~$450,000 (below coastal cities)</li>
+            <li><strong>World-class healthcare:</strong> Mayo Clinic, Banner, HonorHealth</li>
+            <li><strong>No humidity:</strong> Dry heat is easier on joints and respiratory conditions</li>
+          </ul>
+        `
+      },
+      {
+        type: 'table',
+        tableData: {
+          headers: ['Cost Category', 'Phoenix', 'National Avg', 'Notes'],
+          rows: [
+            ['Housing', '$1,800/mo', '$1,700/mo', 'Varies by area; Scottsdale higher'],
+            ['Utilities', '$250/mo', '$150/mo', 'Higher A/C costs in summer'],
+            ['Healthcare', '$11,500/yr', '$12,000/yr', 'Slightly below average'],
+            ['State Income Tax', '2.5%', 'Varies', 'Among lowest in nation'],
+            ['Property Tax', '0.6%', '1.1%', 'Well below average']
+          ]
+        }
+      },
+      {
+        type: 'text',
+        title: 'Managing the Heat',
+        content: `
+          <p>Phoenix summers are intense—regularly exceeding 110°F from June through August. Smart retirees plan accordingly:</p>
+          <ul class="list-disc pl-6 space-y-2 mb-6">
+            <li><strong>Budget for utilities:</strong> Summer electric bills can reach $400-600/month</li>
+            <li><strong>Snowbird in reverse:</strong> Many Phoenix retirees escape to cooler climates July-August</li>
+            <li><strong>Morning activities:</strong> Golf, hiking, and errands before 10am</li>
+            <li><strong>Pool homes:</strong> A pool significantly improves summer quality of life</li>
+          </ul>
+          <p>The trade-off: Phoenix winters are perfect (60s-70s), while northern retirees deal with ice and snow.</p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Active Adult Communities',
+        content: `
+          <p>Phoenix pioneered the active adult retirement community concept. Options include:</p>
+          <ul class="list-disc pl-6 space-y-2 mb-6">
+            <li><strong>Sun City/Sun City West:</strong> The originals—affordable with extensive amenities</li>
+            <li><strong>Robson Ranch:</strong> Higher-end with golf focus</li>
+            <li><strong>PebbleCreek:</strong> Resort-style living in Goodyear</li>
+            <li><strong>Trilogy at Vistancia:</strong> Modern amenities, active lifestyle</li>
+          </ul>
+          <p>These communities offer built-in social networks, maintenance-free living, and resort-style amenities at costs far below coastal alternatives.</p>
+        `
+      }
+    ],
+    bottomLine: "Phoenix offers an exceptional retirement value proposition: low taxes, affordable housing, excellent healthcare, and year-round outdoor activities. The summer heat is manageable with proper planning and is offset by perfect winters. It's no wonder Phoenix consistently ranks among top retirement destinations."
+  },
+
+  // Denver/Colorado Articles
+  {
+    id: 'den-tax-1',
+    title: 'Colorado Tax Planning: Financial Strategies for Denver Residents',
+    slug: 'tax-planning-denver',
+    hubId: 'denver',
+    type: 'city-spoke',
+    excerpt: 'Colorado has a flat 4.4% income tax and unique TABOR protections. Learn tax strategies for Denver residents and what makes Colorado different.',
+    readTime: '11 min read',
+    publishDate: '2025-11-27',
+    author: { name: 'Wealth Authority Team', role: 'Editorial Staff', credentials: 'CPA, CFP' },
+    keyTakeaways: [
+      "Colorado has a flat 4.4% income tax rate",
+      "TABOR (Taxpayer Bill of Rights) can result in tax refunds",
+      "Social Security is taxed, but there's a deduction for seniors",
+      "No inheritance tax, but estate tax applies to estates over $23.4M",
+      "Property taxes are relatively low at 0.5% average"
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'Understanding Colorado Taxes',
+        content: `
+          <p>Colorado's tax system has unique features that impact financial planning:</p>
+          <h4 class="text-xl font-bold mt-6 mb-3">Income Tax</h4>
+          <p>Colorado uses a flat 4.4% rate on all taxable income, calculated from your federal taxable income with Colorado-specific adjustments. This simplicity makes tax planning straightforward.</p>
+          <h4 class="text-xl font-bold mt-6 mb-3">TABOR: The Taxpayer Bill of Rights</h4>
+          <p>Colorado's constitution limits government revenue growth. When revenues exceed limits, the excess must be refunded to taxpayers. Recent refunds have ranged from $400-$800 per taxpayer. This provides a unique "safety valve" against tax increases.</p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Retirement Income Taxation',
+        content: `
+          <p>Unlike some states, Colorado does tax Social Security—but with significant relief for seniors:</p>
+          <ul class="list-disc pl-6 space-y-2 mb-6">
+            <li><strong>Ages 55-64:</strong> Can deduct up to $20,000 of retirement income</li>
+            <li><strong>Ages 65+:</strong> Can deduct up to $24,000 of retirement income</li>
+            <li><strong>Social Security:</strong> Taxed, but deduction applies</li>
+          </ul>
+          <p>For retirees with moderate retirement income, these deductions can significantly reduce or eliminate Colorado tax liability.</p>
+        `
+      },
+      {
+        type: 'table',
+        tableData: {
+          headers: ['Tax Type', 'Colorado Rate', 'National Context', 'Notes'],
+          rows: [
+            ['Income Tax', '4.4% flat', 'Middle of pack', 'Simple calculation'],
+            ['Sales Tax', '2.9% state + local', '8-10% total in Denver', 'Varies by city'],
+            ['Property Tax', '0.5%', 'Below average', 'Assessment ratio limits'],
+            ['Estate Tax', '>$23.4M', 'No state estate tax', 'Federal only applies']
+          ]
+        }
+      },
+      {
+        type: 'text',
+        title: 'Denver-Specific Considerations',
+        content: `
+          <p>Living in Denver specifically adds some local factors:</p>
+          <ul class="list-disc pl-6 space-y-2 mb-6">
+            <li><strong>Occupational Privilege Tax:</strong> $5.75/month for Denver workers</li>
+            <li><strong>Higher sales tax:</strong> Combined rate ~8.8% in Denver</li>
+            <li><strong>Real estate appreciation:</strong> Strong growth creates capital gains planning needs</li>
+          </ul>
+          <p>These local taxes are modest compared to major metros in California or New York.</p>
+        `
+      }
+    ],
+    bottomLine: "Colorado offers a balanced tax environment—not as favorable as Texas or Florida, but far better than California or the Northeast. The flat 4.4% rate, TABOR protections, and generous retirement income deductions make Denver attractive for wealth building, especially for those who value the outdoor lifestyle."
+  },
+  {
+    id: 'den-ret-1',
+    title: 'Retirement Planning in Denver: Mountain Living on Your Terms',
+    slug: 'retirement-planning-denver',
+    hubId: 'denver',
+    type: 'city-spoke',
+    excerpt: 'Denver offers retirees access to world-class outdoor recreation, reasonable taxes, and a vibrant cultural scene. Plan your Colorado retirement strategically.',
+    readTime: '10 min read',
+    publishDate: '2025-11-27',
+    author: { name: 'Wealth Authority Team', role: 'Editorial Staff', credentials: 'CFP' },
+    keyTakeaways: [
+      "Denver cost of living is 28% above national average—driven by housing",
+      "Retirement income deduction reduces state tax burden for seniors",
+      "Altitude considerations: 5,280 feet affects some health conditions",
+      "300 days of sunshine supports active outdoor retirement",
+      "Consider mountain communities for lower costs with Denver access"
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'The Denver Retirement Appeal',
+        content: `
+          <p>Denver attracts retirees seeking an active outdoor lifestyle without extreme climates:</p>
+          <ul class="list-disc pl-6 space-y-2 mb-6">
+            <li><strong>Four seasons:</strong> Real winters, but 300 days of sunshine</li>
+            <li><strong>Outdoor access:</strong> World-class skiing, hiking, cycling within 1-2 hours</li>
+            <li><strong>Cultural scene:</strong> Professional sports, arts, dining, music venues</li>
+            <li><strong>Airport hub:</strong> Denver International offers easy travel nationwide</li>
+            <li><strong>Healthcare:</strong> UCHealth, SCL Health, National Jewish for respiratory</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Cost Considerations',
+        content: `
+          <p>Denver's popularity has driven up costs, particularly housing:</p>
+          <ul class="list-disc pl-6 space-y-2 mb-6">
+            <li><strong>Median home price:</strong> ~$600,000 (up significantly since 2020)</li>
+            <li><strong>Property taxes:</strong> Low rate (~0.5%) offsets high values</li>
+            <li><strong>Healthcare:</strong> Slightly above average costs</li>
+            <li><strong>Utilities:</strong> Moderate—less heating than Midwest, no heavy A/C</li>
+          </ul>
+          <p>Retirees seeking better value often look at suburbs (Aurora, Lakewood, Thornton) or mountain communities (Golden, Evergreen, Castle Rock).</p>
+        `
+      },
+      {
+        type: 'table',
+        tableData: {
+          headers: ['Location', 'Median Home Price', 'Character', 'Trade-offs'],
+          rows: [
+            ['Central Denver', '$650,000', 'Urban, walkable', 'Highest cost'],
+            ['Aurora/Lakewood', '$500,000', 'Suburban, diverse', 'Less character'],
+            ['Golden/Evergreen', '$700,000+', 'Mountain access', 'Weather, commute'],
+            ['Castle Rock', '$550,000', 'Newer development', 'Further from city'],
+            ['Fort Collins', '$525,000', 'College town vibe', '1 hour from Denver']
+          ]
+        }
+      },
+      {
+        type: 'text',
+        title: 'Health Considerations at Altitude',
+        content: `
+          <p>Denver sits at 5,280 feet—the "Mile High City." This affects some retirees:</p>
+          <ul class="list-disc pl-6 space-y-2 mb-6">
+            <li><strong>Respiratory conditions:</strong> Thin air can challenge those with COPD or severe asthma</li>
+            <li><strong>Cardiovascular:</strong> Generally well-tolerated, but consult your doctor</li>
+            <li><strong>Dehydration:</strong> Dry climate requires drinking more water</li>
+            <li><strong>Sun exposure:</strong> Stronger UV at altitude—skin protection essential</li>
+          </ul>
+          <p>Most healthy retirees adapt within weeks. The dry climate actually benefits those with arthritis and joint issues. National Jewish Health in Denver is a world leader in respiratory medicine.</p>
+        `
+      }
+    ],
+    bottomLine: "Denver offers an exceptional quality of life for active retirees willing to pay a premium for mountain access and outdoor recreation. The tax situation is moderate, healthcare is excellent, and the lifestyle is unmatched. Consider suburban or mountain communities for better value while maintaining Denver access."
   }
 ];
