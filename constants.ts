@@ -6,6 +6,8 @@ import { FIND_ADVISOR_ARTICLES } from './data/findAdvisorArticles';
 import { TAX_PLANNING_ARTICLES } from './data/taxPlanningArticles';
 import { ESTATE_PLANNING_ARTICLES } from './data/estatePlanningArticles';
 import { INVESTMENT_ARTICLES } from './data/investmentArticles';
+import { HIGH_NET_WORTH_ARTICLES } from './data/highNetWorthArticles';
+import { RISK_MANAGEMENT_ARTICLES } from './data/riskManagementArticles';
 import { CITY_ARTICLES } from './data/cityArticles';
 
 // Asset ranges for lead form
@@ -413,5 +415,7 @@ export const MOCK_ARTICLES: Article[] = [
   ...TAX_PLANNING_ARTICLES,
   ...ESTATE_PLANNING_ARTICLES,
   ...INVESTMENT_ARTICLES,
+  ...HIGH_NET_WORTH_ARTICLES,
+  ...RISK_MANAGEMENT_ARTICLES,
   ...CITY_ARTICLES
 ];
