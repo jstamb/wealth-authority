@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.wealthauthority.org/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.wealthauthority.org/find-advisor</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.wealthauthority.org/strategies</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.wealthauthority.org/cities</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- City Hubs -->
+  <url><loc>https://www.wealthauthority.org/city/nyc-wealth-management</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.wealthauthority.org/city/los-angeles-wealth-management</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.wealthauthority.org/city/san-francisco-wealth-management</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.wealthauthority.org/city/chicago-wealth-management</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.wealthauthority.org/city/houston-wealth-management</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.wealthauthority.org/city/dallas-wealth-management</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.wealthauthority.org/city/seattle-wealth-management</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.wealthauthority.org/city/san-diego-wealth-management</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.wealthauthority.org/city/miami-wealth-management</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.wealthauthority.org/city/boston-wealth-management</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.wealthauthority.org/city/philadelphia-wealth-management</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.wealthauthority.org/city/atlanta-wealth-management</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.wealthauthority.org/city/phoenix-wealth-management</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.wealthauthority.org/city/denver-wealth-management</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.wealthauthority.org/city/austin-wealth-management</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+
+  <!-- Topic Hubs -->
+  <url><loc>https://www.wealthauthority.org/hub/retirement-planning</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.wealthauthority.org/hub/financial-planning</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.wealthauthority.org/hub/find-wealth-manager</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.wealthauthority.org/hub/investment-strategies</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.wealthauthority.org/hub/tax-planning</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.wealthauthority.org/hub/estate-planning</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.wealthauthority.org/hub/risk-management</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.wealthauthority.org/hub/high-net-worth</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+
+  <!-- Articles (Retirement) -->
+  <url><loc>https://www.wealthauthority.org/article/how-much-do-i-need-to-retire</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.wealthauthority.org/article/401k-vs-ira</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.wealthauthority.org/article/social-security-strategies</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.wealthauthority.org/article/retirement-income-strategies</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.wealthauthority.org/article/early-retirement</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.wealthauthority.org/article/roth-vs-traditional</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.wealthauthority.org/article/catch-up-contributions</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.wealthauthority.org/article/medicare-planning</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.wealthauthority.org/article/required-minimum-distributions</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.wealthauthority.org/article/pension-options</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.wealthauthority.org/article/retirement-tax-planning</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Articles (Financial Planning) -->
+  <url><loc>https://www.wealthauthority.org/article/financial-planning-process</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.wealthauthority.org/article/emergency-fund</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.wealthauthority.org/article/net-worth-calculation</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.wealthauthority.org/article/debt-management</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.wealthauthority.org/article/insurance-planning</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.wealthauthority.org/article/college-savings</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.wealthauthority.org/article/working-with-advisor</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.wealthauthority.org/article/financial-goals</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.wealthauthority.org/article/budgeting</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.wealthauthority.org/article/cash-flow</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.wealthauthority.org/article/major-purchases</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Articles (Find Advisor) -->
+  <url><loc>https://www.wealthauthority.org/article/how-to-choose-financial-advisor</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.wealthauthority.org/article/fiduciary-vs-suitability</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.wealthauthority.org/article/fee-only-vs-commission</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.wealthauthority.org/article/questions-to-ask-financial-advisor</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.wealthauthority.org/article/financial-advisor-credentials</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.wealthauthority.org/article/wealth-management-fees</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.wealthauthority.org/article/financial-advisor-red-flags</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.wealthauthority.org/article/when-do-you-need-wealth-manager</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+</urlset>

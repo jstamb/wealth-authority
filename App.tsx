@@ -1,0 +1,46 @@
+import React from 'react';
+import { HashRouter as Router, Routes, Route, ScrollRestoration, useLocation } from 'react-router-dom';
+import Navigation from './components/Navigation';
+import Footer from './components/Footer';
+import Home from './pages/Home';
+import CityPage from './pages/CityPage';
+import TopicHub from './pages/TopicHub';
+import FindAdvisor from './pages/FindAdvisor';
+import ArticlePage from './pages/ArticlePage';
+import Strategies from './pages/Strategies';
+import CityDirectory from './pages/CityDirectory';
+
+// ScrollToTop component to handle scroll behavior on route change
+const ScrollToTopWrapper = () => {
+  const { pathname } = useLocation();
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+  return null;
+}
+
+function App() {
+  return (
+    <Router>
+      <ScrollToTopWrapper />
+      <div className="flex flex-col min-h-screen bg-white">
+        <Navigation />
+        <main className="flex-grow">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/city/:slug" element={<CityPage />} />
+            <Route path="/hub/:slug" element={<TopicHub />} />
+            <Route path="/article/:slug" element={<ArticlePage />} />
+            <Route path="/find-advisor" element={<FindAdvisor />} />
+            <Route path="/strategies" element={<Strategies />} />
+            <Route path="/cities" element={<CityDirectory />} />
+            <Route path="*" element={<div className="pt-20 text-center pb-20"><h1 className="text-3xl font-serif font-bold">404 - Page Not Found</h1></div>} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </Router>
+  );
+}
+
+export default App;

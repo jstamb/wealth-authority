@@ -1,0 +1,35 @@
+# Git
+.git
+.gitignore
+
+# Dependencies (not needed for this app)
+node_modules
+
+# IDE and editor files
+.idea
+.vscode
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build files
+dist
+build
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+
+# Development config
+vite.config.ts
+tsconfig.json
+
+# Documentation
+*.md
