@@ -33,23 +33,48 @@ const LeadForm: React.FC<LeadFormProps> = ({ cityName = 'your area', isCompact =
     e.preventDefault();
     setIsSubmitting(true);
 
-    const payload = {
-      ...formData,
+    // Create form-urlencoded data (works with no-cors mode)
+    const formBody = new URLSearchParams({
+      firstName: formData.firstName,
+      lastName: formData.lastName,
+      email: formData.email,
+      phone: formData.phone,
+      city: formData.city,
+      assets: formData.assets,
+      timeline: formData.timeline,
       source: 'Wealth Authority Main Lead Form',
       formType: 'advisor-match'
-    };
+    });
 
     try {
-      await fetch(WEBHOOK_URL, {
+      // Try CORS mode first (if webhook supports it)
+      const response = await fetch(WEBHOOK_URL, {
         method: 'POST',
         headers: {
-          'Content-Type': 'application/json',
+          'Content-Type': 'application/x-www-form-urlencoded',
         },
-        mode: 'no-cors',
-        body: JSON.stringify(payload)
+        body: formBody.toString()
       });
+
+      if (response.ok) {
+        console.log('Form submitted successfully');
+      }
     } catch (error) {
-      console.error('Submission error:', error);
+      // If CORS fails, try no-cors mode (fire and forget)
+      console.log('CORS failed, trying no-cors mode');
+      try {
+        await fetch(WEBHOOK_URL, {
+          method: 'POST',
+          mode: 'no-cors',
+          headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+          },
+          body: formBody.toString()
+        });
+        console.log('Form submitted via no-cors');
+      } catch (innerError) {
+        console.error('Submission error:', innerError);
+      }
     } finally {
       setIsSubmitting(false);
       setIsSuccess(true);
