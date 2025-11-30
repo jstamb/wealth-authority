@@ -10,6 +10,17 @@ import { HIGH_NET_WORTH_ARTICLES } from './data/highNetWorthArticles';
 import { RISK_MANAGEMENT_ARTICLES } from './data/riskManagementArticles';
 import { CITY_ARTICLES } from './data/cityArticles';
 
+// Synced data from Obsidian (takes priority over hardcoded)
+import { SYNCED_HUBS } from './data/hubs';
+import { SYNCED_CITIES } from './data/cityHubs';
+
+// Helper to merge arrays by ID, with synced data taking priority
+function mergeById<T extends { id: string }>(hardcoded: T[], synced: T[]): T[] {
+  const syncedIds = new Set(synced.map(item => item.id));
+  const hardcodedFiltered = hardcoded.filter(item => !syncedIds.has(item.id));
+  return [...synced, ...hardcodedFiltered];
+}
+
 // Asset ranges for lead form
 export const ASSET_RANGES = [
   '$100,000 - $250,000',
@@ -29,8 +40,8 @@ export const TIMELINES = [
   'Just researching'
 ];
 
-// Topic Hubs
-export const HUBS: TopicHub[] = [
+// Topic Hubs (hardcoded fallback data)
+const HARDCODED_HUBS: TopicHub[] = [
   {
     id: 'retirement',
     title: 'Retirement Planning',
@@ -195,8 +206,8 @@ export const HUBS: TopicHub[] = [
   }
 ];
 
-// Cities data
-export const CITIES: City[] = [
+// Cities data (hardcoded fallback data)
+const HARDCODED_CITIES: City[] = [
   {
     id: 'nyc',
     name: 'New York City',
@@ -588,6 +599,10 @@ export const CITIES: City[] = [
     ]
   }
 ];
+
+// Merged exports: Obsidian synced data takes priority, hardcoded serves as fallback
+export const HUBS: TopicHub[] = mergeById(HARDCODED_HUBS, SYNCED_HUBS);
+export const CITIES: City[] = mergeById(HARDCODED_CITIES, SYNCED_CITIES);
 
 // Combined articles from all sources
 export const MOCK_ARTICLES: Article[] = [
