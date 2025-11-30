@@ -107,3 +107,19 @@ export interface LeadFormData {
   assets: string;
   timeline: string;
 }
+
+export interface HomepageContent {
+  metaTitle: string;
+  metaDescription: string;
+  primaryKeyword: string;
+  h1: string;
+  heroSubheading: string;
+  keyTakeaways: string[];
+  sections: {
+    id: string;
+    title: string;
+    content: string;
+  }[];
+  faqs: FAQItem[];
+  lastUpdated: string;
+}

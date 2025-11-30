@@ -447,6 +447,65 @@ class ObsidianToTSConverter:
 
         return city
 
+    def convert_homepage(self, filepath: str, frontmatter: Dict, content: str) -> Dict[str, Any]:
+        """Convert homepage markdown to HomepageContent TypeScript format"""
+
+        # Extract H1 from content
+        h1_match = re.search(r'^#\s+(.+)$', content, re.MULTILINE)
+        h1 = h1_match.group(1).strip() if h1_match else frontmatter.get('meta_title', 'Wealth Authority')
+
+        # Extract hero subheading (first paragraph after H1)
+        hero_match = re.search(r'^#[^\n]+\n+([^\n#]+)', content, re.MULTILINE)
+        hero_subheading = hero_match.group(1).strip() if hero_match else ''
+
+        # Extract key takeaways
+        key_takeaways = self.extract_key_takeaways(content)
+
+        # Extract sections (H2 headers and their content)
+        sections = []
+        section_pattern = r'^##\s+([^\n]+)\n(.*?)(?=\n##\s|\Z)'
+        for match in re.finditer(section_pattern, content, re.MULTILINE | re.DOTALL):
+            section_title = match.group(1).strip()
+            section_content = match.group(2).strip()
+
+            # Skip Key Takeaways and FAQ sections (handled separately)
+            if section_title.lower() in ['key takeaways', 'frequently asked questions', 'faq']:
+                continue
+
+            # Generate section ID from title
+            section_id = self.generate_slug(section_title)
+
+            # Convert markdown content to HTML
+            html_content = self.process_section_content(section_content)
+
+            sections.append({
+                'id': section_id,
+                'title': section_title,
+                'content': html_content
+            })
+
+        # Extract FAQs
+        faqs = self.extract_faqs(content)
+
+        # Ensure date is string
+        last_updated = frontmatter.get('last_updated', datetime.now().strftime('%Y-%m-%d'))
+        if not isinstance(last_updated, str):
+            last_updated = last_updated.strftime('%Y-%m-%d') if hasattr(last_updated, 'strftime') else str(last_updated)
+
+        homepage = {
+            'metaTitle': frontmatter.get('meta_title', ''),
+            'metaDescription': frontmatter.get('meta_description', ''),
+            'primaryKeyword': frontmatter.get('primary_keyword', ''),
+            'h1': h1,
+            'heroSubheading': hero_subheading,
+            'keyTakeaways': key_takeaways,
+            'sections': sections,
+            'faqs': faqs,
+            'lastUpdated': last_updated
+        }
+
+        return homepage
+
     def convert_to_typescript(self, articles: List[Dict[str, Any]], import_name: str) -> str:
         """Convert articles to TypeScript format"""
 
@@ -637,9 +696,8 @@ class ObsidianToTSConverter:
                 city = self.convert_city_hub(filepath, frontmatter, body)
                 return ('city-hub', city)
             elif content_level == 'homepage':
-                # Homepage is handled separately - just log it
-                self.log(f"Homepage detected: {filepath}", "INFO")
-                return ('homepage', {'filepath': filepath, 'frontmatter': frontmatter})
+                homepage = self.convert_homepage(filepath, frontmatter, body)
+                return ('homepage', homepage)
             else:
                 self.log(f"Content level '{content_level}' not yet supported", "WARNING")
                 return None
@@ -702,6 +760,10 @@ class ObsidianToTSConverter:
         if cities:
             self.write_cities_file(cities)
 
+        # Generate TypeScript file for homepage
+        if homepage_data:
+            self.write_homepage_file(homepage_data)
+
         # Summary
         self.log("\n" + "="*50)
         self.log("SYNC COMPLETE")
@@ -709,6 +771,7 @@ class ObsidianToTSConverter:
         self.log(f"Articles converted: {sum(len(a) for a in articles_by_hub.values())}")
         self.log(f"Hubs converted: {len(hubs)}")
         self.log(f"Cities converted: {len(cities)}")
+        self.log(f"Homepage: {'Yes' if homepage_data else 'No'}")
         self.log(f"Errors: {len(self.errors)}")
 
         if self.errors:
@@ -1082,6 +1145,56 @@ class ObsidianToTSConverter:
 
         ts_lines.append("  }")
         return '\n'.join(ts_lines)
+
+    def write_homepage_file(self, homepage: Dict[str, Any]):
+        """Write homepage content to TypeScript data file"""
+        output_file = os.path.join(DATA_DIR, "homepage.ts")
+
+        ts_lines = [
+            "import { HomepageContent } from '../types';",
+            "",
+            "export const HOMEPAGE_CONTENT: HomepageContent = {"
+        ]
+
+        ts_lines.append(f"  metaTitle: '{self.escape_string(homepage['metaTitle'])}',")
+        ts_lines.append(f"  metaDescription: '{self.escape_string(homepage['metaDescription'])}',")
+        ts_lines.append(f"  primaryKeyword: '{self.escape_string(homepage['primaryKeyword'])}',")
+        ts_lines.append(f"  h1: '{self.escape_string(homepage['h1'])}',")
+        ts_lines.append(f"  heroSubheading: '{self.escape_string(homepage['heroSubheading'])}',")
+
+        # Key takeaways
+        ts_lines.append("  keyTakeaways: [")
+        for takeaway in homepage.get('keyTakeaways', []):
+            ts_lines.append(f"    '{self.escape_string(takeaway)}',")
+        ts_lines.append("  ],")
+
+        # Sections
+        ts_lines.append("  sections: [")
+        for section in homepage.get('sections', []):
+            ts_lines.append("    {")
+            ts_lines.append(f"      id: '{section['id']}',")
+            ts_lines.append(f"      title: '{self.escape_string(section['title'])}',")
+            ts_lines.append(f"      content: `{self.escape_template_literal(section['content'])}`")
+            ts_lines.append("    },")
+        ts_lines.append("  ],")
+
+        # FAQs
+        ts_lines.append("  faqs: [")
+        for faq in homepage.get('faqs', []):
+            ts_lines.append("    {")
+            ts_lines.append(f"      question: '{self.escape_string(faq['question'])}',")
+            ts_lines.append(f"      answer: '{self.escape_string(faq['answer'])}'")
+            ts_lines.append("    },")
+        ts_lines.append("  ],")
+
+        ts_lines.append(f"  lastUpdated: '{homepage['lastUpdated']}'")
+        ts_lines.append("};")
+        ts_lines.append("")
+
+        with open(output_file, 'w', encoding='utf-8') as f:
+            f.write('\n'.join(ts_lines))
+
+        self.log(f"Created {output_file} with {len(homepage.get('sections', []))} sections")
 
 
 def main():

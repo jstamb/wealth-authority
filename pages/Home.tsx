@@ -2,23 +2,26 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, MapPin, Shield, Star, Award } from 'lucide-react';
 import { HUBS, CITIES } from '../constants';
+import { HOMEPAGE_CONTENT } from '../data/homepage';
 import LeadForm from '../components/LeadForm';
 import GrowthChart from '../components/GrowthChart';
 
 const Home: React.FC = () => {
+  // Clean H1 for display (remove brand suffix if present)
+  const displayH1 = HOMEPAGE_CONTENT.h1.split('|')[0].trim();
+
   return (
     <div className="flex flex-col min-h-screen">
-      
       {/* Hero Section */}
       <section className="relative bg-white pt-16 pb-24 lg:pt-24 lg:pb-32 overflow-hidden border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="lg:grid lg:grid-cols-12 lg:gap-12 items-center">
             <div className="lg:col-span-7 mb-12 lg:mb-0">
-              <h1 className="text-4xl sm:text-5xl lg:text-7xl font-serif font-bold leading-tight mb-6 text-emerald-950">
-                Protect and Grow Your Wealth
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-bold leading-tight mb-6 text-emerald-950">
+                {displayH1}
               </h1>
               <p className="text-lg sm:text-xl text-gray-600 mb-8 max-w-2xl leading-relaxed">
-                Connect with America's top-rated fiduciary wealth managers. Expert guidance for retirement, tax planning, and estate preservation tailored to your life stage.
+                {HOMEPAGE_CONTENT.heroSubheading.substring(0, 200)}...
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link 
