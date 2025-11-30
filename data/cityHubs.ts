@@ -8,7 +8,7 @@ export const SYNCED_CITIES: City[] = [
     tier: 1,
     state: 'Texas',
     description: 'Connect with vetted wealth managers in Dallas-Fort Worth. Expert financial planning for executives, business owners, and professionals in the DFW metroplex.',
-    image: 'https://images.unsplash.com/photo-dallas?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1545194445-dddb8f4487c6?w=800&q=80',
     stats: {
       medianHomePrice: '$380,000',
       colIndex: 102,
@@ -45,7 +45,7 @@ export const SYNCED_CITIES: City[] = [
     tier: 1,
     state: 'Texas',
     description: 'Connect with vetted wealth managers in Houston. Expert financial planning for energy professionals, business owners, and executives in the Houston metro.',
-    image: 'https://images.unsplash.com/photo-houston?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1530089711124-9ca31fb9e863?w=800&q=80',
     stats: {
       medianHomePrice: '$340,000',
       colIndex: 96,
@@ -82,7 +82,7 @@ export const SYNCED_CITIES: City[] = [
     tier: 1,
     state: 'Illinois',
     description: 'Connect with vetted wealth managers in Chicago. Expert financial planning for executives, professionals, and business owners in the Chicagoland area.',
-    image: 'https://images.unsplash.com/photo-chicago?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1494522855154-9297ac14b55f?w=800&q=80',
     stats: {
       medianHomePrice: '$330,000',
       colIndex: 107,
@@ -119,7 +119,7 @@ export const SYNCED_CITIES: City[] = [
     tier: 1,
     state: 'California',
     description: 'Connect with vetted wealth managers in Los Angeles. Expert financial planning for entertainment, tech, and professional clients in LA and Southern California.',
-    image: 'https://images.unsplash.com/photo-la?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80',
     stats: {
       medianHomePrice: '$950,000',
       colIndex: 166,
@@ -156,7 +156,7 @@ export const SYNCED_CITIES: City[] = [
     tier: 1,
     state: 'Colorado',
     description: 'Connect with vetted wealth managers in Denver. Expert financial planning for tech professionals, executives, and entrepreneurs in the Front Range.',
-    image: 'https://images.unsplash.com/photo-denver?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1546156929-a4c0ac411f47?w=800&q=80',
     stats: {
       medianHomePrice: '$600,000',
       colIndex: 128,
@@ -193,7 +193,7 @@ export const SYNCED_CITIES: City[] = [
     tier: 1,
     state: 'California',
     description: 'Connect with vetted wealth managers in San Diego. Expert financial planning for biotech, defense, and professional clients in San Diego County.',
-    image: 'https://images.unsplash.com/photo-sandiego?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80',
     stats: {
       medianHomePrice: '$900,000',
       colIndex: 161,
@@ -230,7 +230,7 @@ export const SYNCED_CITIES: City[] = [
     tier: 1,
     state: 'Arizona',
     description: 'Connect with vetted wealth managers in Phoenix. Expert financial planning for retirees, executives, and professionals in the Valley of the Sun.',
-    image: 'https://images.unsplash.com/photo-phoenix?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80',
     stats: {
       medianHomePrice: '$450,000',
       colIndex: 103,
@@ -267,7 +267,7 @@ export const SYNCED_CITIES: City[] = [
     tier: 1,
     state: 'Pennsylvania',
     description: 'Connect with vetted wealth managers in Philadelphia. Expert financial planning for healthcare professionals, executives, and families in Greater Philadelphia.',
-    image: 'https://images.unsplash.com/photo-philly?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80',
     stats: {
       medianHomePrice: '$260,000',
       colIndex: 101,
@@ -304,7 +304,7 @@ export const SYNCED_CITIES: City[] = [
     tier: 1,
     state: 'California',
     description: 'Connect with vetted wealth managers in San Jose. Expert financial planning for tech professionals, startup founders, and executives in Silicon Valley.',
-    image: 'https://images.unsplash.com/photo-sanjose?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80',
     stats: {
       medianHomePrice: '$1,400,000',
       colIndex: 183,
@@ -341,7 +341,7 @@ export const SYNCED_CITIES: City[] = [
     tier: 1,
     state: 'New York',
     description: 'Connect with vetted wealth managers in New York City. Expert financial planning for Manhattan professionals, executives, and high-net-worth individuals.',
-    image: 'https://images.unsplash.com/photo-nyc?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=800&q=80',
     stats: {
       medianHomePrice: '$750,000',
       colIndex: 187,
@@ -377,7 +377,7 @@ export const SYNCED_CITIES: City[] = [
     tier: 1,
     state: 'Massachusetts',
     description: 'Connect with vetted wealth managers in Boston. Expert financial planning for biotech, healthcare, finance, and academic professionals in Greater Boston.',
-    image: 'https://images.unsplash.com/photo-boston?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1501979376754-2ff867a4f659?w=800&q=80',
     stats: {
       medianHomePrice: '$800,000',
       colIndex: 152,
@@ -414,7 +414,7 @@ export const SYNCED_CITIES: City[] = [
     tier: 1,
     state: 'Florida',
     description: 'Connect with vetted wealth managers in Miami. Expert financial planning for business owners, retirees, and professionals in South Florida.',
-    image: 'https://images.unsplash.com/photo-miami?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1506966953602-c20cc11f75e3?w=800&q=80',
     stats: {
       medianHomePrice: '$580,000',
       colIndex: 127,
@@ -451,7 +451,7 @@ export const SYNCED_CITIES: City[] = [
     tier: 1,
     state: 'Texas',
     description: 'Connect with vetted wealth managers in Austin. Expert financial planning for tech professionals, startup founders, and executives in Central Texas.',
-    image: 'https://images.unsplash.com/photo-austin?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1531218150217-54595bc2b934?w=800&q=80',
     stats: {
       medianHomePrice: '$550,000',
       colIndex: 117,
@@ -488,7 +488,7 @@ export const SYNCED_CITIES: City[] = [
     tier: 1,
     state: 'California',
     description: 'Connect with vetted wealth managers in San Francisco. Expert financial planning for tech professionals, startup founders, and executives in the Bay Area.',
-    image: 'https://images.unsplash.com/photo-sf?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80',
     stats: {
       medianHomePrice: '$1,300,000',
       colIndex: 179,
@@ -525,7 +525,7 @@ export const SYNCED_CITIES: City[] = [
     tier: 1,
     state: 'Washington',
     description: 'Connect with vetted wealth managers in Seattle. Expert financial planning for tech professionals, Amazon and Microsoft employees, and executives in the Puget Sound.',
-    image: 'https://images.unsplash.com/photo-seattle?w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1502175353174-a7a70e73b362?w=800&q=80',
     stats: {
       medianHomePrice: '$850,000',
       colIndex: 156,

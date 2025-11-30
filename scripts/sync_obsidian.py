@@ -424,8 +424,28 @@ class ObsidianToTSConverter:
         if not city_id:
             city_id = city_short.lower().replace(' ', '-')
 
-        # Default image based on city
-        image = f"https://images.unsplash.com/photo-{city_id}?w=800&q=80"
+        # Real Unsplash image URLs for known cities
+        city_images = {
+            'nyc': 'https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=800&q=80',
+            'new-york-city': 'https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=800&q=80',
+            'los-angeles': 'https://images.unsplash.com/photo-1534190760961-74e8c1c5c3da?w=800&q=80',
+            'chicago': 'https://images.unsplash.com/photo-1494522855154-9297ac14b55f?w=800&q=80',
+            'houston': 'https://images.unsplash.com/photo-1530089711124-9ca31fb9e863?w=800&q=80',
+            'phoenix': 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80',
+            'miami': 'https://images.unsplash.com/photo-1506966953602-c20cc11f75e3?w=800&q=80',
+            'seattle': 'https://images.unsplash.com/photo-1502175353174-a7a70e73b362?w=800&q=80',
+            'denver': 'https://images.unsplash.com/photo-1546156929-a4c0ac411f47?w=800&q=80',
+            'san-francisco': 'https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=800&q=80',
+            'dallas': 'https://images.unsplash.com/photo-1545194445-dddb8f4487c6?w=800&q=80',
+            'austin': 'https://images.unsplash.com/photo-1531218150217-54595bc2b934?w=800&q=80',
+            'boston': 'https://images.unsplash.com/photo-1501979376754-2ff867a4f659?w=800&q=80',
+            'philadelphia': 'https://images.unsplash.com/photo-1569761316261-9a8696fa2ca3?w=800&q=80',
+            'san-diego': 'https://images.unsplash.com/photo-1538964173425-93dc8f5c0d5b?w=800&q=80',
+            'san-jose': 'https://images.unsplash.com/photo-1535581652167-3a26c90788fc?w=800&q=80',
+        }
+        # Default image for unknown cities
+        default_image = 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80'
+        image = city_images.get(city_id, default_image)
 
         city = {
             'id': city_id,
