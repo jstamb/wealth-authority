@@ -29,7 +29,7 @@ const TopicHub: React.FC = () => {
       {/* Hub Hero */}
       <div className="bg-gradient-to-br from-emerald-900 to-emerald-950">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-          <Breadcrumb items={breadcrumbItems} />
+          <Breadcrumb items={breadcrumbItems} variant="light" />
           <div className="mt-6">
             <h1 className="text-4xl md:text-5xl font-serif font-bold text-white mb-6">{hub.title}</h1>
             <p className="text-xl text-emerald-100 max-w-3xl leading-relaxed">{hub.description}</p>
