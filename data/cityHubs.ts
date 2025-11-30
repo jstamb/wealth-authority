@@ -555,4 +555,362 @@ export const SYNCED_CITIES: City[] = [
       },
     ]
   },
+  {
+    id: 'charlotte',
+    name: 'Charlotte',
+    slug: 'charlotte',
+    tier: 1,
+    state: 'North Carolina',
+    description: 'Connect with vetted wealth managers in Charlotte. Expert financial planning for banking executives, NASCAR professionals, and Queen City professionals.',
+    image: 'https://images.unsplash.com/photo-1546726747-421c6d69c929?w=800&q=80',
+    stats: {
+      medianHomePrice: '$400,000',
+      colIndex: 99,
+      incomeTax: '4.75%'
+    },
+    localChallenges: [
+      {
+        title: 'Tax Considerations',
+        description: 'Local and state tax implications require careful planning.'
+      },
+      {
+        title: 'Cost of Living',
+        description: 'Housing and living costs impact retirement planning significantly.'
+      },
+    ],
+    keyTakeaways: [
+      'Charlotte is the 2nd largest US banking center with Bank of America and Truist HQs',
+      'North Carolina has a flat 4.75% income tax rate (recently reduced)',
+      'NASCAR and motorsports industry creates unique wealth management needs',
+      'Significant corporate relocations bringing executives from higher-tax states',
+      'Growing fintech and tech sector creating new planning opportunities',
+    ],
+    faqs: [
+      {
+        question: '### How much do Charlotte wealth managers charge?',
+        answer: 'Expect 0.5-1% of assets under management. Charlotte fees are competitive, with many advisors specializing in banking and financial services compensation.'
+      },
+    ]
+  },
+  {
+    id: 'las-vegas',
+    name: 'Las Vegas',
+    slug: 'las-vegas',
+    tier: 1,
+    state: 'Nevada',
+    description: 'Connect with vetted wealth managers in Las Vegas. Expert financial planning for casino executives, entertainers, and professionals relocating to Nevada\'s tax haven.',
+    image: 'https://images.unsplash.com/photo-1605833556294-ea5c7a74f57d?w=800&q=80',
+    stats: {
+      medianHomePrice: '$425,000',
+      colIndex: 103,
+      incomeTax: '0%'
+    },
+    localChallenges: [
+      {
+        title: 'Tax Considerations',
+        description: 'Local and state tax implications require careful planning.'
+      },
+    ],
+    keyTakeaways: [
+      'Nevada has no state income tax on any income type',
+      'No state estate tax or inheritance tax',
+      'Gaming and entertainment create highly variable income patterns',
+      'Significant California relocation requires careful tax planning',
+      'Nevada offers strong asset protection laws including homestead exemption',
+    ],
+    faqs: [
+      {
+        question: '### How much do Las Vegas wealth managers charge?',
+        answer: 'Expect 0.5-1% of assets under management. Las Vegas fees are competitive. Advisors with California relocation expertise may provide significant value through proper tax planning.'
+      },
+    ]
+  },
+  {
+    id: 'detroit',
+    name: 'Detroit',
+    slug: 'detroit',
+    tier: 1,
+    state: 'Michigan',
+    description: 'Connect with vetted wealth managers in Detroit. Expert financial planning for auto industry executives, business owners, and professionals in Metro Detroit.',
+    image: 'https://images.unsplash.com/photo-1564419320461-6870880221ad?w=800&q=80',
+    stats: {
+      medianHomePrice: '$250,000',
+      colIndex: 89,
+      incomeTax: '4.25%'
+    },
+    localChallenges: [
+      {
+        title: 'Tax Considerations',
+        description: 'Local and state tax implications require careful planning.'
+      },
+      {
+        title: 'Cost of Living',
+        description: 'Housing and living costs impact retirement planning significantly.'
+      },
+    ],
+    keyTakeaways: [
+      'Detroit is home to Ford, GM, and Stellantis (Big Three automakers)',
+      'Michigan has a flat 4.25% state income tax with no local income tax (except Detroit city)',
+      'Oakland County suburbs (Bloomfield Hills, Birmingham) have significant concentration of wealth',
+      'No state estate tax—only federal applies',
+      'Cost of living approximately 11% below national average',
+    ],
+    faqs: [
+      {
+        question: '### How much do Detroit wealth managers charge?',
+        answer: 'Expect 0.5-1% of assets under management. Detroit fees are generally below coastal metro averages. Automotive industry specialists offer significant value for complex compensation planning.'
+      },
+    ]
+  },
+  {
+    id: 'portland',
+    name: 'Portland',
+    slug: 'portland',
+    tier: 1,
+    state: 'Oregon',
+    description: 'Connect with vetted wealth managers in Portland. Expert financial planning for tech professionals, Nike executives, and entrepreneurs in the Portland metro area.',
+    image: 'https://images.unsplash.com/photo-1507245351198-628c77ea90c2?w=800&q=80',
+    stats: {
+      medianHomePrice: '$525,000',
+      colIndex: 113,
+      incomeTax: '9.9%'
+    },
+    localChallenges: [
+      {
+        title: 'Tax Considerations',
+        description: 'Local and state tax implications require careful planning.'
+      },
+    ],
+    keyTakeaways: [
+      'Oregon has no sales tax but a top income tax rate of 9.9%',
+      'Nike, Intel, and Columbia Sportswear create significant executive wealth',
+      'Growing tech hub attracting California relocations',
+      'State has its own estate tax with $1 million threshold',
+      'Unique kicker rebate returns surplus state revenue to taxpayers',
+    ],
+    faqs: [
+      {
+        question: '### How much do Portland wealth managers charge?',
+        answer: 'Expect 0.5-1% of assets under management. Portland fees are comparable to other West Coast metros. Tax planning expertise is particularly valuable given Oregon\'s high rates.'
+      },
+    ]
+  },
+  {
+    id: 'atlanta',
+    name: 'Atlanta',
+    slug: 'atlanta',
+    tier: 1,
+    state: 'Georgia',
+    description: 'Connect with vetted wealth managers in Atlanta. Expert financial planning for executives, business owners, and professionals in Metro Atlanta and North Georgia.',
+    image: 'https://images.unsplash.com/photo-1575917649705-5b59aaa12e6b?w=800&q=80',
+    stats: {
+      medianHomePrice: '$420,000',
+      colIndex: 106,
+      incomeTax: '5.49%'
+    },
+    localChallenges: [
+      {
+        title: 'Tax Considerations',
+        description: 'Local and state tax implications require careful planning.'
+      },
+      {
+        title: 'Cost of Living',
+        description: 'Housing and living costs impact retirement planning significantly.'
+      },
+    ],
+    keyTakeaways: [
+      'Atlanta is home to 18 Fortune 500 companies, creating significant executive wealth',
+      'Georgia has a flat 5.49% income tax rate with retirement income exclusions',
+      'Cost of living is 30-40% below NYC and San Francisco',
+      'Strong job market in logistics, technology, healthcare, and entertainment',
+      'Georgia excludes up to $65,000 per person in retirement income from state tax',
+    ],
+    faqs: [
+      {
+        question: '### How much do Atlanta wealth managers charge?',
+        answer: 'Expect 0.5-1% of assets under management for comprehensive wealth management. Atlanta fees are competitive with national averages. All-in costs should stay under 1.25% for most situations.'
+      },
+    ]
+  },
+  {
+    id: 'tampa',
+    name: 'Tampa',
+    slug: 'tampa',
+    tier: 1,
+    state: 'Florida',
+    description: 'Connect with vetted wealth managers in Tampa. Expert financial planning for retirees, business owners, and professionals relocating to Florida\'s tax-free environment.',
+    image: 'https://images.unsplash.com/photo-1605723517503-3cadb5818a0c?w=800&q=80',
+    stats: {
+      medianHomePrice: '$400,000',
+      colIndex: 102,
+      incomeTax: '0%'
+    },
+    localChallenges: [
+      {
+        title: 'Tax Considerations',
+        description: 'Local and state tax implications require careful planning.'
+      },
+      {
+        title: 'Cost of Living',
+        description: 'Housing and living costs impact retirement planning significantly.'
+      },
+    ],
+    keyTakeaways: [
+      'Florida has no state income tax on any income type',
+      'No state estate tax—only federal applies',
+      'Tampa Bay offers lower costs than Miami while maintaining urban amenities',
+      'Significant healthcare, finance, and defense contractor presence',
+      'Popular destination for Northeast and Midwest retirees and relocations',
+    ],
+    faqs: [
+      {
+        question: '### How much do Tampa wealth managers charge?',
+        answer: 'Expect 0.5-1% of assets under management. Tampa fees are competitive with national averages. Advisors with relocation and retirement expertise may offer additional value.'
+      },
+    ]
+  },
+  {
+    id: 'dc',
+    name: 'Washington DC',
+    slug: 'washington-dc',
+    tier: 1,
+    state: 'District of Columbia',
+    description: 'Connect with vetted wealth managers in Washington DC. Expert financial planning for federal employees, contractors, lobbyists, and professionals in the DC Metro area.',
+    image: 'https://images.unsplash.com/photo-1617581629397-a72507c3de9e?w=800&q=80',
+    stats: {
+      medianHomePrice: '$650,000',
+      colIndex: 152,
+      incomeTax: '10.75%'
+    },
+    localChallenges: [
+      {
+        title: 'Tax Considerations',
+        description: 'Local and state tax implications require careful planning.'
+      },
+      {
+        title: 'Cost of Living',
+        description: 'Housing and living costs impact retirement planning significantly.'
+      },
+    ],
+    keyTakeaways: [
+      'DC Metro has the highest median household income in the US at $93,000',
+      'Federal employees have unique benefits including FERS, TSP, and FEHB',
+      'Three-jurisdiction tax complexity (DC, MD, VA) requires specialized planning',
+      'Government contractors face unique income variability and security clearance considerations',
+      'DC has a top income tax rate of 10.75% on income over $1 million',
+    ],
+    faqs: [
+      {
+        question: '### How much do DC area wealth managers charge?',
+        answer: 'Expect 0.75-1.25% of assets under management. DC fees are slightly higher than national averages due to the specialized expertise required. Federal benefits specialists may charge hourly for specific consulting.'
+      },
+    ]
+  },
+  {
+    id: 'minneapolis',
+    name: 'Minneapolis',
+    slug: 'minneapolis',
+    tier: 1,
+    state: 'Minnesota',
+    description: 'Connect with vetted wealth managers in Minneapolis. Expert financial planning for executives, business owners, and professionals in the Twin Cities metro area.',
+    image: 'https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=800&q=80',
+    stats: {
+      medianHomePrice: '$350,000',
+      colIndex: 102,
+      incomeTax: '9.85%'
+    },
+    localChallenges: [
+      {
+        title: 'Tax Considerations',
+        description: 'Local and state tax implications require careful planning.'
+      },
+      {
+        title: 'Cost of Living',
+        description: 'Housing and living costs impact retirement planning significantly.'
+      },
+    ],
+    keyTakeaways: [
+      'Minneapolis has more Fortune 500 companies per capita than any US metro',
+      'Minnesota has one of the highest state income tax rates at 9.85%',
+      'Exceptional concentration in healthcare, retail, and financial services',
+      'Lower cost of living compared to coastal metros offsets high taxes',
+      'Strong charitable giving culture with significant tax planning opportunities',
+    ],
+    faqs: [
+      {
+        question: '### How much do Minneapolis wealth managers charge?',
+        answer: 'Expect 0.5-1% of assets under management. Twin Cities fees are competitive with national averages. Some advisors specialize in Minnesota tax planning and may offer additional value.'
+      },
+    ]
+  },
+  {
+    id: 'nashville',
+    name: 'Nashville',
+    slug: 'nashville',
+    tier: 1,
+    state: 'Tennessee',
+    description: 'Connect with vetted wealth managers in Nashville. Expert financial planning for music industry professionals, healthcare executives, and entrepreneurs in Middle Tennessee.',
+    image: 'https://images.unsplash.com/photo-1545419913-775e3e03a36d?w=800&q=80',
+    stats: {
+      medianHomePrice: '$450,000',
+      colIndex: 101,
+      incomeTax: '0%'
+    },
+    localChallenges: [
+      {
+        title: 'Tax Considerations',
+        description: 'Local and state tax implications require careful planning.'
+      },
+    ],
+    keyTakeaways: [
+      'Tennessee has no state income tax on wages or investment income',
+      'Nashville is the healthcare industry capital (HCA, Envision, LifePoint)',
+      'Music industry creates complex intellectual property and royalty income',
+      'Rapid growth has created significant real estate wealth',
+      'Corporate relocations bringing executive wealth from higher-tax states',
+    ],
+    faqs: [
+      {
+        question: '### How much do Nashville wealth managers charge?',
+        answer: 'Expect 0.5-1% of assets under management. Nashville fees are competitive with national averages. Music industry specialists may offer specialized services for royalty and IP planning.'
+      },
+    ]
+  },
+  {
+    id: 'san-antonio',
+    name: 'San Antonio',
+    slug: 'san-antonio',
+    tier: 1,
+    state: 'Texas',
+    description: 'Connect with vetted wealth managers in San Antonio. Expert financial planning for military families, healthcare professionals, and retirees in the San Antonio area.',
+    image: 'https://images.unsplash.com/photo-1531218150217-54595bc2b934?w=800&q=80',
+    stats: {
+      medianHomePrice: '$285,000',
+      colIndex: 91,
+      incomeTax: '0%'
+    },
+    localChallenges: [
+      {
+        title: 'Tax Considerations',
+        description: 'Local and state tax implications require careful planning.'
+      },
+      {
+        title: 'Cost of Living',
+        description: 'Housing and living costs impact retirement planning significantly.'
+      },
+    ],
+    keyTakeaways: [
+      'Texas has no state income tax, maximizing take-home pay',
+      'San Antonio\'s cost of living is 9% below the national average',
+      'Major military presence creates unique planning needs (JBSA, multiple bases)',
+      'Healthcare sector dominated by Methodist, Baptist, and University Health',
+      'Growing cybersecurity and tech sector creating new wealth',
+    ],
+    faqs: [
+      {
+        question: '### How much do San Antonio wealth managers charge?',
+        answer: 'Expect 0.5-1% of assets under management. San Antonio fees are generally competitive. Military-focused advisors may offer specialized services at similar rates.'
+      },
+    ]
+  }
 ];

@@ -4157,5 +4157,2152 @@ export const RETIREMENT_ARTICLES: Article[] = [
     ],
     bottomLine: 'A 401(k) rollover is one of the most important financial decisions you\'ll make when changing jobs. For most people, a direct rollover to a low-cost IRA offers the best combination of investment flexibility, lower fees, and simplicity. Always choose direct rollover over indirect to avoid tax withholding and strict deadlines. Consider Roth conversion opportunities during low-income years, but understand the immediate tax implications. Avoid the temptation to cash out—preserving your retirement savings through proper rollovers keeps you on track for a secure retirement. If you have a large balance, company stock, or complex tax situation, consult with a financial advisor or tax professional before executing your rollover. The hour spent planning can save you thousands in taxes and fees.',
     wordCount: 2487
+  },
+  {
+    id: 'detroit-retirement-planning',
+    title: 'Retirement Planning in Detroit: Michigan Auto Industry Guide',
+    slug: 'detroit-retirement-planning',
+    hubId: 'retirement-planning',
+    type: 'spoke',
+    excerpt: 'Retirement planning strategies for Metro Detroit residents. Navigate Big Three pensions, Michigan\'s complex retirement tax rules, and auto industry benefits.',
+    readTime: '6 min read',
+    publishDate: '2025-11-29',
+    author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
+    primaryKeyword: 'retirement planning Detroit',
+    metaDescription: 'Retirement planning strategies for Metro Detroit residents. Navigate Big Three pensions, Michigan\'s complex retirement tax rules, and auto industry benefits.',
+    lastUpdated: '2025-11-29',
+    keyTakeaways: [
+      'Michigan\'s retirement income tax treatment depends on your birth year',
+      'Big Three pensions require careful lump sum vs annuity analysis',
+      'No state estate tax in Michigan—only federal applies',
+      'Detroit city has a separate income tax (2.4% for residents)',
+      'Low cost of living makes retirement dollars stretch further',
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'Michigan\'s Retirement Tax Rules',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Birth Year Matters</h3>
+          <p>Michigan's retirement income taxation is uniquely complex:</p>
+          <p>| Birth Year | Retirement Income Treatment | |------------|---------------------------| | Before 1946 | Up to $61,518 single / $123,036 joint exempt | | 1946-1952 | $20,000 single / $40,000 joint exempt at age 67 | | 1953-1966 | $20,000 exempt if certain conditions met at 67 | | After 1966 | No retirement income exemption |</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Social Security</h3>
+          <p>Michigan does NOT tax Social Security benefits:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Fully exempt regardless of birth year</li>
+          <li>No income limits</li>
+          <li>Both worker and spousal benefits exempt</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Public Pensions</h3>
+          <p>Special treatment for public pensions:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Government retirees with service before 1997 may have full exemption</li>
+          <li>Complex transition rules apply</li>
+          <li>Consult a Michigan tax professional</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Big Three Pension Planning',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">General Motors Pension</h3>
+          <p>GM pension considerations:</p>
+          <p><strong>Lump Sum Decisions:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>GM periodically offers lump sum buyouts</li>
+          <li>Interest rates affect lump sum calculations</li>
+          <li>Higher rates = lower lump sum offers</li>
+          <li>Compare to annuity value carefully</li>
+          </ul>
+          <p><strong>Annuity Features:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Joint and survivor options</li>
+          <li>Cost-of-living adjustments (varies)</li>
+          <li>Healthcare coordination</li>
+          <li>Social Security bridge payments (if applicable)</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Ford Motor Company</h3>
+          <p>Ford pension planning:</p>
+          <p><strong>Key Considerations:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Traditional defined benefit for eligible employees</li>
+          <li>Salaried vs hourly plan differences</li>
+          <li>Retiree healthcare benefits</li>
+          <li>Stock ownership program coordination</li>
+          </ul>
+          <p><strong>Decision Points:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Lump sum availability (when offered)</li>
+          <li>Survivor benefit elections</li>
+          <li>Start date optimization</li>
+          <li>Medicare coordination</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Stellantis (Chrysler/FCA)</h3>
+          <p>Legacy Chrysler pension:</p>
+          <p><strong>Current Landscape:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Multiple predecessor plans</li>
+          <li>Merger impacts on benefits</li>
+          <li>UAW pension considerations</li>
+          <li>Healthcare benefit changes</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Detroit City Income Tax',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Impact on Retirees</h3>
+          <p>Detroit residents face additional taxation:</p>
+          <p>| Status | Detroit Tax Rate | |--------|-----------------| | Detroit resident | 2.4% | | Non-resident working in Detroit | 1.2% | | Pension income for residents | 2.4% taxable |</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Planning Considerations</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Location choice affects total tax burden</li>
+          <li>Suburban Oakland County has no city tax</li>
+          <li>Consider total costs including property taxes</li>
+          <li>Detroit renaissance may change calculus</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Retirement Income Strategies',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Pension Lump Sum Analysis</h3>
+          <p>Critical decision factors:</p>
+          <p><strong>Favor Lump Sum:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Poor health/shorter life expectancy</li>
+          <li>Desire for control and flexibility</li>
+          <li>Strong investment knowledge</li>
+          <li>No need for guaranteed income</li>
+          <li>Concern about pension fund solvency</li>
+          </ul>
+          <p><strong>Favor Annuity:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Longer life expectancy</li>
+          <li>Desire for guaranteed income</li>
+          <li>Spouse needs survivor protection</li>
+          <li>Less investment experience</li>
+          <li>Other assets provide flexibility</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Birth Year Planning</h3>
+          <p><strong>Born Before 1946:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Maximize use of generous exemption</li>
+          <li>Up to $123,036 (joint) tax-free</li>
+          <li>Structure withdrawals to stay within limit</li>
+          </ul>
+          <p><strong>Born 1946-1952:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Wait until 67 for $20,000/$40,000 exemption</li>
+          <li>Consider Roth conversions before 67</li>
+          <li>Plan distributions around exemption</li>
+          </ul>
+          <p><strong>Born After 1966:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>No retirement exemption available</li>
+          <li>Focus on Roth conversion strategies</li>
+          <li>Consider Michigan vs other states</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Auto Industry Stock Concentration',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Common Situation</h3>
+          <p>Detroit-area employees often have significant employer stock:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Ford stock from ESPP and equity awards</li>
+          <li>GM shares post-bankruptcy restructuring</li>
+          <li>Legacy Chrysler holdings</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Diversification Strategies</h3>
+          <p><strong>Systematic Selling:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>10b5-1 plans for insiders</li>
+          <li>Regular sales regardless of price</li>
+          <li>Multi-year diversification timeline</li>
+          </ul>
+          <p><strong>Charitable Giving:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Donate appreciated shares</li>
+          <li>Avoid capital gains tax</li>
+          <li>Receive full fair market value deduction</li>
+          </ul>
+          <p><strong>Tax-Loss Harvesting:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Offset gains with other losses</li>
+          <li>Coordinate across entire portfolio</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Healthcare Planning',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Auto Industry Retiree Benefits</h3>
+          <p>Legacy healthcare varies:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Pre-2007 retirees often have coverage</li>
+          <li>Newer retirees may have different benefits</li>
+          <li>VEBA trusts fund some UAW benefits</li>
+          <li>Coordination with Medicare essential</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Medicare Transition</h3>
+          <p>When turning 65:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Enroll in Medicare Part A</li>
+          <li>Evaluate Part B enrollment</li>
+          <li>Company coverage may become secondary</li>
+          <li>Medigap or Medicare Advantage decisions</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Metro Detroit Healthcare</h3>
+          <p>Strong healthcare access:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Henry Ford Health</strong>: Major system</li>
+          <li><strong>Beaumont Health</strong>: Large network</li>
+          <li><strong>DMC (Detroit Medical Center)</strong>: Academic affiliate</li>
+          <li><strong>University of Michigan</strong> (Ann Arbor): Nationally ranked</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Common Detroit Retirement Mistakes',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 1: Taking Lump Sum Without Analysis</h3>
+          <p>GM lump sum offers can be attractive, but analyze your specific situation. Consider life expectancy, other assets, and desire for guaranteed income.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 2: Ignoring Birth Year Rules</h3>
+          <p>Michigan's birth-year-based exemptions are confusing. Many retirees don't optimize around these thresholds.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 3: Too Much Employer Stock</h3>
+          <p>Auto industry employees often have concentrated positions. The 2008-2009 crisis showed the risks of employer concentration.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 4: Not Planning for Detroit City Tax</h3>
+          <p>Detroit's 2.4% city tax adds up. Consider whether suburban living reduces total tax burden.</p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Working with a Detroit Retirement Planner',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">What to Look For</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Big Three pension expertise</li>
+          <li>Michigan tax rule knowledge</li>
+          <li>Auto industry compensation experience</li>
+          <li>Fee transparency</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Questions to Ask</h3>
+          <p>1. How many Big Three employees have you helped? 2. What's your approach to lump sum vs annuity analysis? 3. How do you optimize Michigan's birth-year exemptions? 4. What's your strategy for concentrated stock positions?</p>
+        `
+      },
+    ],
+    faqs: [
+      {
+        question: '### Should I take the GM lump sum or keep my pension?',
+        answer: 'It depends on your life expectancy, other assets, spouse\'s needs, and investment comfort. There\'s no universal answer—analyze your specific situation carefully.'
+      },
+    ],
+    bottomLine: 'Detroit retirement planning centers on Big Three pension decisions, Michigan\'s complex tax rules, and auto industry stock concentration. The low cost of living stretches retirement dollars, but careful planning around pension elections and state taxes is essential for maximizing retirement security. ---'
+  },
+  {
+    id: 'atlanta-retirement-planning',
+    title: 'Retirement Planning in Atlanta: A Guide for Georgia Residents',
+    slug: 'atlanta-retirement-planning',
+    hubId: 'retirement-planning',
+    type: 'spoke',
+    excerpt: 'Learn retirement planning strategies specific to Atlanta residents. Maximize Georgia\'s retirement income exclusion and plan for life in Metro Atlanta.',
+    readTime: '5 min read',
+    publishDate: '2025-11-29',
+    author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
+    primaryKeyword: 'retirement planning Atlanta',
+    metaDescription: 'Learn retirement planning strategies specific to Atlanta residents. Maximize Georgia\'s retirement income exclusion and plan for life in Metro Atlanta.',
+    lastUpdated: '2025-11-29',
+    keyTakeaways: [
+      'Georgia excludes up to $65,000 per person ($130,000 for couples) in retirement income from state tax for those 65+',
+      'Atlanta\'s cost of living is 30-40% below coastal metros',
+      'Excellent healthcare access through Emory, Piedmont, and Grady systems',
+      'Social Security is not taxed at the state level',
+      'Property taxes vary significantly by county within Metro Atlanta',
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'Georgia\'s Retirement Income Exclusion',
+        content: `
+          <p>Georgia offers one of the most generous retirement income exclusions in the Southeast:</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Age-Based Exclusions</h3>
+          <p>| Age | Single Exclusion | Married Exclusion | |-----|-----------------|-------------------| | 62-64 | $35,000 | $70,000 | | 65+ | $65,000 | $130,000 |</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Qualifying Income</h3>
+          <p>The exclusion applies to:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>401(k) and IRA distributions</li>
+          <li>Pension payments</li>
+          <li>Annuity income</li>
+          <li>Interest and dividends (up to $4,000)</li>
+          <li>Capital gains</li>
+          <li>Earned income (for partial exclusion)</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Maximizing the Exclusion</h3>
+          <p><strong>Strategies to consider:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Time large IRA distributions for after age 65</li>
+          <li>Consider Roth conversions before age 62 while in lower brackets</li>
+          <li>Coordinate pension start dates with exclusion availability</li>
+          <li>Spread capital gains realizations across tax years</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Atlanta Retirement Cost Planning',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Housing Costs by Area</h3>
+          <p>Metro Atlanta neighborhoods vary significantly in cost:</p>
+          <p>| Area | Median Home Price | Property Tax Rate | |------|-------------------|-------------------| | Buckhead | $700,000+ | 1.1% | | Midtown | $500,000+ | 1.1% | | Sandy Springs | $450,000 | 1.0% | | Alpharetta | $500,000 | 1.0% | | Decatur | $450,000 | 1.2% | | Marietta | $375,000 | 1.0% |</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Homestead Exemptions</h3>
+          <p>Georgia offers homestead exemptions that reduce property taxes:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Basic homestead: Reduces taxable value by $2,000</li>
+          <li>Senior exemption (65+): Additional reductions available</li>
+          <li>School tax exemption (62+): May exempt from school portion</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Retirement Income Strategies for Atlanta',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Social Security Optimization</h3>
+          <p>Georgia does not tax Social Security benefits at the state level. Strategies include:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Delaying benefits to age 70 for maximum monthly payments</li>
+          <li>Coordinating spousal benefits</li>
+          <li>Understanding the earnings test if working before full retirement age</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">401(k) and IRA Distribution Planning</h3>
+          <p><strong>Before 62:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Consider Roth conversions while in lower brackets</li>
+          <li>Minimize taxable distributions</li>
+          <li>Use taxable accounts first if needed</li>
+          </ul>
+          <p><strong>Ages 62-64:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>$35,000 exclusion becomes available</li>
+          <li>Begin strategic distributions</li>
+          <li>Coordinate with Social Security claiming</li>
+          </ul>
+          <p><strong>Age 65+:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Full $65,000 exclusion available</li>
+          <li>May allow larger distributions tax-efficiently</li>
+          <li>Plan for Required Minimum Distributions</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Pension Coordination</h3>
+          <p>Many Atlanta employers offer traditional pensions:</p>
+          <p><strong>Delta Air Lines:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Defined benefit for pilots</li>
+          <li>Coordinate with Social Security timing</li>
+          <li>Consider survivor benefit elections</li>
+          </ul>
+          <p><strong>Coca-Cola:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Cash balance pension</li>
+          <li>Lump sum vs annuity decision</li>
+          <li>Integration with 401(k) distributions</li>
+          </ul>
+          <p><strong>Home Depot:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>401(k) focused retirement</li>
+          <li>Stock concentration from ESPP</li>
+          <li>Diversification planning</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Healthcare Planning in Atlanta',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Medicare in Georgia</h3>
+          <p>Atlanta offers excellent Medicare options:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Strong Medicare Advantage plan availability</li>
+          <li>Multiple Medigap options from major insurers</li>
+          <li>Part D plans with network pharmacies throughout metro</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Pre-Medicare Coverage (55-64)</h3>
+          <p>Options for early retirees:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>COBRA (expensive but comprehensive)</li>
+          <li>ACA Marketplace plans (income-based subsidies)</li>
+          <li>Spouse's employer coverage if available</li>
+          <li>Health sharing ministries (limited coverage)</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Major Healthcare Systems</h3>
+          <p>Atlanta's healthcare infrastructure is exceptional:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Emory Healthcare</strong>: Academic medical center, research hospital</li>
+          <li><strong>Piedmont Healthcare</strong>: Major regional system</li>
+          <li><strong>Northside Hospital</strong>: Leading maternity and cancer care</li>
+          <li><strong>Grady Memorial</strong>: Safety net hospital with Level I trauma</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Common Atlanta Retirement Mistakes',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 1: Ignoring the Retirement Exclusion</h3>
+          <p>Many retirees fail to optimize distributions around the $65,000 exclusion threshold. Working with a tax professional ensures you're not leaving money on the table.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 2: Underestimating Property Tax Variations</h3>
+          <p>Property taxes vary significantly across Metro Atlanta counties. A home in one county may have substantially different taxes than a similar home nearby.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 3: Not Planning for Heat</h3>
+          <p>Atlanta summers are hot and humid. Budget for significant cooling costs if you're coming from a northern climate.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 4: Overlooking Traffic Considerations</h3>
+          <p>Atlanta traffic can significantly impact quality of life. Consider proximity to healthcare, shopping, and social activities when choosing retirement location.</p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Working with an Atlanta Retirement Planner',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">What to Look For</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>CFP® certification</li>
+          <li>Knowledge of Georgia tax law</li>
+          <li>Experience with Fortune 500 executive benefits</li>
+          <li>Fee-only or fee-based compensation</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Questions to Ask</h3>
+          <p>1. How do you optimize Georgia's retirement income exclusion? 2. What experience do you have with Delta/Coca-Cola/Home Depot benefits? 3. How do you approach Medicare planning? 4. What's your fee structure?</p>
+        `
+      },
+    ],
+    faqs: [
+      {
+        question: '### How much retirement income is tax-free in Georgia?',
+        answer: 'For those 65 and older, Georgia excludes up to $65,000 per person ($130,000 for married couples) of retirement income from state taxation. This includes 401(k) and IRA distributions, pensions, and other qualified retirement income.'
+      },
+    ],
+    bottomLine: 'Atlanta offers an attractive retirement environment with favorable state taxes, moderate costs, and excellent healthcare. The key is understanding and maximizing Georgia\'s retirement income exclusion while choosing a neighborhood that fits your budget and lifestyle needs. ---'
+  },
+  {
+    id: 'minneapolis-retirement-planning',
+    title: 'Retirement Planning in Minneapolis: Minnesota Tax Guide',
+    slug: 'minneapolis-retirement-planning',
+    hubId: 'retirement-planning',
+    type: 'spoke',
+    excerpt: 'Retirement planning strategies for Twin Cities residents. Navigate Minnesota\'s high taxes, maximize Social Security exclusion, and plan for retirement.',
+    readTime: '5 min read',
+    publishDate: '2025-11-29',
+    author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
+    primaryKeyword: 'retirement planning Minneapolis',
+    metaDescription: 'Retirement planning strategies for Twin Cities residents. Navigate Minnesota\'s high taxes, maximize Social Security exclusion, and plan for retirement.',
+    lastUpdated: '2025-11-29',
+    keyTakeaways: [
+      'Minnesota has one of the highest state income taxes (up to 9.85%)',
+      'Social Security is NOT taxed for most Minnesota retirees',
+      'Minnesota has a separate estate tax ($3 million threshold)',
+      'Excellent healthcare through Mayo Clinic influence and local systems',
+      'Strong Fortune 500 presence creates concentrated stock situations',
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'Minnesota\'s Retirement Tax Structure',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Income Tax Rates</h3>
+          <p>Minnesota's progressive tax structure:</p>
+          <p>| Taxable Income (Single) | Rate | |------------------------|------| | $0 - $30,070 | 5.35% | | $30,071 - $98,760 | 6.80% | | $98,761 - $183,340 | 7.85% | | $183,341+ | 9.85% |</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Social Security Treatment</h3>
+          <p>Good news: Most retirees don't pay state tax on Social Security:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Full exemption for couples with AGI under $100,000</li>
+          <li>Full exemption for singles with AGI under $78,000</li>
+          <li>Partial exemption above those thresholds</li>
+          <li>Similar to federal taxation phase-in</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Retirement Account Distributions</h3>
+          <p>Less favorable treatment:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>401(k) and IRA distributions fully taxable</li>
+          <li>No special retirement income exclusion</li>
+          <li>Taxed at progressive rates (potentially 9.85%)</li>
+          <li>Capital gains taxed as ordinary income</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Minnesota Estate Tax</h3>
+          <p>Critical planning consideration:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>State estate tax threshold: $3 million</li>
+          <li>Much lower than federal ($13.61 million)</li>
+          <li>Rates from 13% to 16%</li>
+          <li>Affects many affluent families</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Twin Cities Retirement Cost Planning',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Housing Costs</h3>
+          <p>Minneapolis area housing:</p>
+          <p>| Area | Median Home Price | Character | |------|-------------------|-----------| | Edina | $600,000+ | Upscale suburb | | Wayzata | $750,000+ | Lake Minnetonka | | Eden Prairie | $500,000 | Family-oriented | | Maple Grove | $475,000 | Northwest suburb | | Downtown Minneapolis | $400,000 | Urban condo | | St. Paul | $325,000 | Historic, diverse |</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Property Taxes</h3>
+          <p>Minnesota property taxes are high:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Effective rates: 1.0-1.3%</li>
+          <li>Homestead credit reduces burden</li>
+          <li>Varies significantly by location</li>
+          <li>Some of highest in nation</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Cost of Living</h3>
+          <p>Twin Cities costs are moderate:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Lower than coastal metros</li>
+          <li>Higher than many Midwest cities</li>
+          <li>Winter heating costs significant</li>
+          <li>Cultural amenities excellent</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Retirement Income Strategies',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Managing High State Taxes</h3>
+          <p>Strategies to reduce Minnesota's impact:</p>
+          <p><strong>Roth Conversions:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Consider before high-tax years</li>
+          <li>Pay tax now at known rates</li>
+          <li>Avoid higher brackets in retirement</li>
+          <li>Estate planning benefits</li>
+          </ul>
+          <p><strong>Distribution Timing:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Stay below 9.85% threshold if possible</li>
+          <li>Coordinate with Social Security claiming</li>
+          <li>Multi-year planning essential</li>
+          </ul>
+          <p><strong>Charitable Giving:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Donor-advised funds</li>
+          <li>Qualified Charitable Distributions (QCDs)</li>
+          <li>Charitable remainder trusts</li>
+          <li>Reduce taxable income</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Fortune 500 Stock Positions</h3>
+          <p>Twin Cities executives often have concentrated holdings:</p>
+          <p><strong>Target:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>RSUs and stock options</li>
+          <li>Diversification strategies</li>
+          <li>10b5-1 plans for systematic selling</li>
+          <li>Charitable giving with appreciated shares</li>
+          </ul>
+          <p><strong>3M:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Legacy stock positions</li>
+          <li>Pension coordination</li>
+          <li>Retiree healthcare considerations</li>
+          </ul>
+          <p><strong>UnitedHealth:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Executive compensation complexity</li>
+          <li>Healthcare industry expertise needed</li>
+          <li>Stock concentration risks</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Estate Planning for Minnesota',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">The $3 Million Problem</h3>
+          <p>Minnesota's estate tax catches many families:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Federal exemption: $13.61 million</li>
+          <li>Minnesota exemption: $3 million</li>
+          <li>Gap creates surprise tax liability</li>
+          <li>Planning essential for estates over $3M</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mitigation Strategies</h3>
+          <p><strong>Gifting Programs:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Annual exclusion gifts ($18,000/recipient)</li>
+          <li>Reduce estate over time</li>
+          <li>Consider earlier vs later gifts</li>
+          </ul>
+          <p><strong>Irrevocable Life Insurance Trusts (ILITs):</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Remove life insurance from estate</li>
+          <li>Provide estate tax liquidity</li>
+          <li>Three-year look-back period</li>
+          </ul>
+          <p><strong>Charitable Planning:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Charitable remainder trusts</li>
+          <li>Donor-advised funds</li>
+          <li>Reduce taxable estate</li>
+          </ul>
+          <p><strong>Relocation Consideration:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Some families move to no-estate-tax states</li>
+          <li>Florida, Texas, Nevada options</li>
+          <li>Must be genuine domicile change</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Healthcare in the Twin Cities',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Exceptional Access</h3>
+          <p>Twin Cities healthcare is excellent:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Mayo Clinic influence</strong> extends throughout region</li>
+          <li><strong>Allina Health</strong>: Large regional system</li>
+          <li><strong>Fairview</strong>: University of Minnesota affiliated</li>
+          <li><strong>HealthPartners</strong>: Integrated system</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Medicare Options</h3>
+          <p>Strong Medicare infrastructure:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Multiple Medicare Advantage plans</li>
+          <li>Competitive Medigap options</li>
+          <li>Good Part D availability</li>
+          <li>Rochester access to Mayo</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Common Minneapolis Retirement Mistakes',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 1: Ignoring Estate Tax</h3>
+          <p>Minnesota's $3 million estate tax threshold surprises many families. Planning should begin well before death.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 2: Not Maximizing Social Security Exemption</h3>
+          <p>Many retirees don't realize Social Security is exempt for most. Optimize other income to stay under thresholds.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 3: Keeping Too Much Employer Stock</h3>
+          <p>Fortune 500 concentration is common. Systematic diversification protects retirement security.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 4: Waiting Too Long to Plan</h3>
+          <p>Minnesota's tax complexity requires multi-year strategies. Start planning early.</p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Working with a Minneapolis Retirement Planner',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">What to Look For</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Minnesota tax expertise</li>
+          <li>Estate planning coordination</li>
+          <li>Fortune 500 compensation experience</li>
+          <li>Fee transparency</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Questions to Ask</h3>
+          <p>1. How do you approach Minnesota's estate tax? 2. What's your experience with Fortune 500 stock concentration? 3. How do you optimize around the Social Security exemption? 4. What charitable giving strategies do you recommend?</p>
+        `
+      },
+    ],
+    faqs: [
+      {
+        question: '### Is Social Security taxed in Minnesota?',
+        answer: 'For most retirees, no. Minnesota exempts Social Security for couples with AGI under $100,000 and singles under $78,000. Partial exemptions apply above those levels.'
+      },
+    ],
+    bottomLine: 'Minneapolis retirement requires proactive tax planning due to Minnesota\'s high rates and separate estate tax. However, the region\'s quality of life, healthcare access, and cultural amenities make it worthwhile for many retirees. The key is starting tax planning early and working with advisors who understand Minnesota\'s complexity. ---'
+  },
+  {
+    id: 'portland-retirement-planning',
+    title: 'Retirement Planning in Portland: Oregon Tax Guide',
+    slug: 'portland-retirement-planning',
+    hubId: 'retirement-planning',
+    type: 'spoke',
+    excerpt: 'Retirement planning strategies for Portland residents. Navigate Oregon\'s high income tax, no sales tax benefit, and $1M estate tax threshold.',
+    readTime: '5 min read',
+    publishDate: '2025-11-29',
+    author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
+    primaryKeyword: 'retirement planning Portland',
+    metaDescription: 'Retirement planning strategies for Portland residents. Navigate Oregon\'s high income tax, no sales tax benefit, and $1M estate tax threshold.',
+    lastUpdated: '2025-11-29',
+    keyTakeaways: [
+      'Oregon has high income tax (up to 9.9%) but no sales tax',
+      'Oregon\'s estate tax threshold is only $1 million',
+      'Social Security may be taxable for higher-income retirees',
+      'Some Nike and Intel retirees have significant stock concentration',
+      'Washington state (no income tax) is nearby for comparison',
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'Oregon\'s Retirement Tax Structure',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Income Tax Rates</h3>
+          <p>Oregon's progressive tax structure:</p>
+          <p>| Taxable Income (Single) | Rate | |------------------------|------| | $0 - $4,050 | 4.75% | | $4,051 - $10,200 | 6.75% | | $10,201 - $125,000 | 8.75% | | $125,001+ | 9.9% |</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Social Security Treatment</h3>
+          <p>Unlike many states, Oregon may tax Social Security:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>For higher-income retirees, Social Security is taxable</li>
+          <li>Oregon follows federal taxation rules</li>
+          <li>Lower-income retirees may have benefits exempt</li>
+          <li>Plan around provisional income thresholds</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Retirement Account Distributions</h3>
+          <p>All retirement income is taxable:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>401(k) and IRA distributions taxed at progressive rates</li>
+          <li>No special retirement income exclusion</li>
+          <li>Potentially taxed at 9.9% for higher amounts</li>
+          <li>Federal retirement income credit available for some</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Oregon Kicker</h3>
+          <p>Unique Oregon feature:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>When state revenue exceeds projections by 2%</li>
+          <li>Excess returned to taxpayers</li>
+          <li>Delivered as credit on next year's return</li>
+          <li>Variable and unpredictable</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Oregon\'s Low Estate Tax Threshold',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Critical Planning Issue</h3>
+          <p>Oregon's estate tax is a major concern:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>State threshold: Only $1 million</li>
+          <li>Federal threshold: $13.61 million</li>
+          <li>Oregon rates: 10% to 16%</li>
+          <li>Most wealth management clients affected</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Estate Tax Comparison</h3>
+          <p>| State | Estate Tax Threshold | |-------|---------------------| | Oregon | $1,000,000 | | Washington | $2,193,000 | | Minnesota | $3,000,000 | | Federal | $13,610,000 |</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Planning Strategies</h3>
+          <p><strong>Gifting Programs:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Reduce estate through annual gifts</li>
+          <li>$18,000 per recipient annually</li>
+          <li>Start early for maximum impact</li>
+          </ul>
+          <p><strong>Irrevocable Life Insurance Trusts:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Remove life insurance from estate</li>
+          <li>Provide liquidity for estate tax</li>
+          <li>Three-year look-back rule</li>
+          </ul>
+          <p><strong>Charitable Strategies:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Charitable remainder trusts</li>
+          <li>Donor-advised funds</li>
+          <li>Reduce taxable estate</li>
+          </ul>
+          <p><strong>Relocation Consideration:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Washington state has no income tax</li>
+          <li>Higher estate tax threshold</li>
+          <li>Vancouver, WA popular option</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Portland Retirement Cost Planning',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Housing Costs</h3>
+          <p>Portland area housing:</p>
+          <p>| Area | Median Home Price | Character | |------|-------------------|-----------| | Lake Oswego | $800,000+ | Upscale, waterfront | | West Linn | $650,000 | Affluent suburb | | Beaverton | $500,000 | Tech corridor | | Downtown Portland | $400,000 | Urban condos | | Tigard | $475,000 | Suburban | | Vancouver, WA | $450,000 | No income tax |</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">No Sales Tax Advantage</h3>
+          <p>Oregon's lack of sales tax helps retirees:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Major purchases tax-free</li>
+          <li>Daily expenses lower</li>
+          <li>Partially offsets income tax</li>
+          <li>Significant for large purchases</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Property Taxes</h3>
+          <p>Oregon property taxes:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Varies by location</li>
+          <li>Generally moderate</li>
+          <li>Measure 5 limits rates</li>
+          <li>Some senior exemptions available</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Retirement Income Strategies',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Managing High State Taxes</h3>
+          <p>Strategies for Oregon retirees:</p>
+          <p><strong>Roth Conversions:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Consider before reaching 9.9% bracket</li>
+          <li>Pay taxes at known rates</li>
+          <li>Avoid future high-bracket distributions</li>
+          </ul>
+          <p><strong>Income Smoothing:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Spread distributions across years</li>
+          <li>Avoid 9.9% bracket spikes</li>
+          <li>Multi-year planning essential</li>
+          </ul>
+          <p><strong>Washington Residency:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Vancouver, WA has no income tax</li>
+          <li>Oregon taxes WA residents on Oregon-source income</li>
+          <li>Genuine residency required</li>
+          <li>Not for everyone but worth considering</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Nike/Intel Stock Positions</h3>
+          <p>Portland-area executives often have concentrated holdings:</p>
+          <p><strong>Nike:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>RSUs and stock options</li>
+          <li>Diversification strategies needed</li>
+          <li>Charitable giving with appreciated shares</li>
+          <li>10b5-1 plans for systematic selling</li>
+          </ul>
+          <p><strong>Intel:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Stock-based compensation</li>
+          <li>Semiconductor industry volatility</li>
+          <li>Geographic concentration risk</li>
+          <li>Careful diversification timing</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Healthcare in Portland',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Major Systems</h3>
+          <p>Portland healthcare is strong:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>OHSU</strong>: Academic medical center, research</li>
+          <li><strong>Providence</strong>: Large regional system</li>
+          <li><strong>Legacy Health</strong>: Multiple facilities</li>
+          <li><strong>Kaiser Permanente</strong>: Integrated care</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Medicare Options</h3>
+          <p>Good Medicare infrastructure:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Multiple Medicare Advantage plans</li>
+          <li>Competitive Medigap options</li>
+          <li>Part D availability</li>
+          <li>Strong provider networks</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Common Portland Retirement Mistakes',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 1: Ignoring Estate Tax</h3>
+          <p>With only a $1 million threshold, most affluent families are affected. Planning is essential.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 2: Not Considering Washington</h3>
+          <p>Vancouver, WA offers no income tax and is minutes from Portland. Worth evaluating for some retirees.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 3: Keeping Too Much Company Stock</h3>
+          <p>Nike and Intel retirees often have concentrated positions. Systematic diversification is critical.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 4: Overlooking Social Security Taxation</h3>
+          <p>Unlike many states, Oregon may tax Social Security. Plan for this potential liability.</p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Working with a Portland Retirement Planner',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">What to Look For</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Oregon estate tax expertise</li>
+          <li>Nike/Intel compensation experience</li>
+          <li>Washington comparison knowledge</li>
+          <li>Fee transparency</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Questions to Ask</h3>
+          <p>1. How do you approach Oregon's low estate tax threshold? 2. What's your experience with tech industry stock concentration? 3. How do you evaluate Oregon vs Washington residency? 4. What strategies do you use for Oregon's income tax?</p>
+        `
+      },
+    ],
+    faqs: [
+      {
+        question: '### Is Social Security taxed in Oregon?',
+        answer: 'Oregon may tax Social Security for higher-income retirees, following federal taxation rules. Lower-income retirees may have benefits exempt.'
+      },
+    ],
+    bottomLine: 'Portland retirement requires aggressive tax planning due to Oregon\'s high income tax and very low estate tax threshold. The lack of sales tax provides some offset, and Washington residency offers an alternative for some. Most importantly, estate planning should begin early given the $1 million threshold. ---'
+  },
+  {
+    id: 'las-vegas-retirement-planning',
+    title: 'Retirement Planning in Las Vegas: Nevada Tax-Free Guide',
+    slug: 'las-vegas-retirement-planning',
+    hubId: 'retirement-planning',
+    type: 'spoke',
+    excerpt: 'Retirement planning strategies for Las Vegas residents. Maximize Nevada\'s zero income tax and plan for retirement in the Entertainment Capital.',
+    readTime: '5 min read',
+    publishDate: '2025-11-29',
+    author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
+    primaryKeyword: 'retirement planning Las Vegas',
+    metaDescription: 'Retirement planning strategies for Las Vegas residents. Maximize Nevada\'s zero income tax and plan for retirement in the Entertainment Capital.',
+    lastUpdated: '2025-11-29',
+    keyTakeaways: [
+      'Nevada has no state income tax on any income type',
+      'No state estate tax—only federal applies',
+      'Las Vegas housing costs are moderate compared to California',
+      'Strong asset protection laws benefit wealth preservation',
+      'Healthcare access has improved significantly with new facilities',
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'Nevada\'s Tax-Free Retirement Advantage',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">What's Not Taxed</h3>
+          <p>Nevada does not tax:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Wages and salary</li>
+          <li>Social Security benefits</li>
+          <li>Pension income</li>
+          <li>401(k) and IRA distributions</li>
+          <li>Capital gains</li>
+          <li>Dividends and interest</li>
+          <li>Inheritance (no state estate tax)</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">The California Migration Advantage</h3>
+          <p>Many Las Vegas retirees come from California:</p>
+          <p>| Tax Category | California | Nevada | |--------------|-----------|--------| | Top income tax | 13.3% | 0% | | Capital gains | 13.3% | 0% | | Social Security | Not taxed | Not taxed | | Estate tax | None | None |</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Establishing Nevada Residency</h3>
+          <p>California's Franchise Tax Board aggressively audits former residents:</p>
+          <p><strong>Documentation needed:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Nevada driver's license</li>
+          <li>Vehicle registration</li>
+          <li>Voter registration</li>
+          <li>Bank and brokerage address updates</li>
+          <li>Club memberships</li>
+          <li>Religious affiliations</li>
+          <li>Professional licenses</li>
+          <li>Estate planning documents under Nevada law</li>
+          </ul>
+          <p><strong>Time requirements:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Spend fewer than 183 days in California</li>
+          <li>Establish genuine Nevada domicile</li>
+          <li>Document intent thoroughly</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Las Vegas Retirement Cost Planning',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Housing Costs</h3>
+          <p>Las Vegas offers value compared to California:</p>
+          <p>| Area | Median Home Price | Character | |------|-------------------|-----------| | Summerlin | $550,000+ | Master-planned, family | | Henderson | $500,000+ | Suburban, growing | | The Lakes | $450,000 | Established, convenient | | North Las Vegas | $375,000 | Value-oriented | | Boulder City | $450,000 | Small town feel |</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Property Taxes</h3>
+          <p>Nevada property taxes are reasonable:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Effective rate: 0.5-0.7%</li>
+          <li>Tax cap limits annual increases</li>
+          <li>Significantly lower than Texas</li>
+          <li>Homestead exemptions available</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Utilities and Insurance</h3>
+          <p><strong>Climate considerations:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Summer cooling costs can be significant</li>
+          <li>Pool maintenance if applicable</li>
+          <li>Homeowner's insurance generally affordable</li>
+          <li>No flood insurance typically needed</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Retirement Income Strategies',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Social Security Optimization</h3>
+          <p>With no state tax impact:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Focus on federal tax planning</li>
+          <li>Delaying benefits maximizes lifetime income</li>
+          <li>Coordinate spousal benefits strategically</li>
+          <li>No state-level provisional income concerns</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Roth Conversions</h3>
+          <p>Nevada's tax environment creates opportunities:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Convert at federal rates only</li>
+          <li>No state tax on conversion amount</li>
+          <li>Particularly valuable for California migrants</li>
+          <li>Consider multi-year conversion strategy</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Pension Planning</h3>
+          <p>For those with pensions:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>All pension income is state tax-free</li>
+          <li>Lump sum decisions based purely on financial analysis</li>
+          <li>No state tax impact on survivor benefit choices</li>
+          <li>Out-of-state pensions treated identically</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Healthcare in Las Vegas',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Improving Infrastructure</h3>
+          <p>Las Vegas healthcare has expanded significantly:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Cleveland Clinic Lou Ruvo Center (neurology)</li>
+          <li>Comprehensive Cancer Centers</li>
+          <li>Dignity Health and HCA facilities</li>
+          <li>Growing specialist availability</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Medicare Options</h3>
+          <p>Strong Medicare plan availability:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Multiple Medicare Advantage options</li>
+          <li>Competitive Medigap policies</li>
+          <li>Good Part D plan selection</li>
+          <li>Network access throughout metro</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Limitations</h3>
+          <p>Some considerations:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>May need to travel for highly specialized care</li>
+          <li>Academic medical centers limited compared to larger metros</li>
+          <li>Consider proximity to healthcare when choosing location</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Entertainment Industry Retirement',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Unique Planning Needs</h3>
+          <p>Las Vegas entertainment creates special considerations:</p>
+          <p><strong>Casino employees:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Tip income documentation for Social Security</li>
+          <li>Variable income planning</li>
+          <li>Gaming license requirements end at retirement</li>
+          <li>Health insurance transitions</li>
+          </ul>
+          <p><strong>Entertainers:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Irregular income history</li>
+          <li>Self-employment retirement options</li>
+          <li>Contract-based career planning</li>
+          <li>Intellectual property considerations</li>
+          </ul>
+          <p><strong>Hospitality workers:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Union pension plans where applicable</li>
+          <li>401(k) optimization strategies</li>
+          <li>Healthcare coverage continuity</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Asset Protection Advantages',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Nevada's Strong Protections</h3>
+          <p>Nevada offers excellent asset protection:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Domestic Asset Protection Trusts (DAPTs)</li>
+          <li>Unlimited homestead exemption</li>
+          <li>Strong LLC protections</li>
+          <li>Favorable charging order rules</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Planning Opportunities</h3>
+          <p>Consider Nevada-specific strategies:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Nevada asset protection trusts</li>
+          <li>Series LLC structures</li>
+          <li>Retirement account protections</li>
+          <li>Insurance and trust combinations</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Common Las Vegas Retirement Mistakes',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 1: Poor California Exit Planning</h3>
+          <p>Moving without proper residency documentation can result in California audits and back taxes. Work with professionals on the transition.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 2: Underestimating Summer Costs</h3>
+          <p>Las Vegas summers require significant air conditioning. Budget appropriately for utility costs, especially in older homes.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 3: Ignoring Federal Taxes</h3>
+          <p>Zero state tax doesn't mean zero taxes. Federal income tax planning remains essential.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 4: Healthcare Assumptions</h3>
+          <p>While healthcare has improved, Las Vegas isn't a major medical center. Ensure access to any specialized care you may need.</p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Working with a Las Vegas Retirement Planner',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">What to Look For</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>California relocation expertise</li>
+          <li>Nevada asset protection knowledge</li>
+          <li>Entertainment industry experience (if applicable)</li>
+          <li>Fee transparency</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Questions to Ask</h3>
+          <p>1. How do you approach California residency exit planning? 2. What's your experience with Nevada asset protection trusts? 3. How do you handle variable income retirement planning? 4. What federal tax strategies do you recommend?</p>
+        `
+      },
+    ],
+    faqs: [
+      {
+        question: '### Is Nevada really tax-free for retirees?',
+        answer: 'Yes, Nevada has no state income tax on any income type. All retirement income—Social Security, pensions, IRA/401(k) distributions, and investment income—is state tax-free.'
+      },
+    ],
+    bottomLine: 'Las Vegas offers significant retirement advantages through Nevada\'s zero income tax and strong asset protection. For California migrants especially, the tax savings can be substantial. Success requires proper residency establishment, realistic cost planning, and attention to healthcare access. ---'
+  },
+  {
+    id: 'tampa-retirement-planning',
+    title: 'Retirement Planning in Tampa: Florida Tax-Free Guide',
+    slug: 'tampa-retirement-planning',
+    hubId: 'retirement-planning',
+    type: 'spoke',
+    excerpt: 'Retirement planning strategies for Tampa Bay residents. Maximize Florida\'s zero income tax and plan for Sunshine State retirement.',
+    readTime: '6 min read',
+    publishDate: '2025-11-29',
+    author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
+    primaryKeyword: 'retirement planning Tampa',
+    metaDescription: 'Retirement planning strategies for Tampa Bay residents. Maximize Florida\'s zero income tax and plan for Sunshine State retirement.',
+    lastUpdated: '2025-11-29',
+    keyTakeaways: [
+      'Florida has no state income tax on any income type',
+      'No state estate tax—only federal applies',
+      'Tampa Bay is more affordable than Miami or Southeast Florida',
+      'Excellent healthcare access through Tampa General and Moffitt Cancer Center',
+      'Homestead laws provide property tax protection and asset shielding',
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'Florida\'s Tax-Free Retirement Advantage',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">What's Not Taxed</h3>
+          <p>Florida does not tax:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Wages and salary</li>
+          <li>Social Security benefits</li>
+          <li>Pension income</li>
+          <li>401(k) and IRA distributions</li>
+          <li>Capital gains</li>
+          <li>Dividends and interest</li>
+          <li>Inheritance (no state estate tax)</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Constitutional Protection</h3>
+          <p>Florida's no-income-tax status is constitutionally protected—changing it would require a statewide voter referendum. This provides long-term stability for retirement planning.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Compared to Origin States</h3>
+          <p>| State | Income Tax | Estate Tax | Total Burden | |-------|-----------|------------|--------------| | Florida | 0% | None | Low | | New York | Up to 10.9% | Yes (above $6.94M) | Very High | | New Jersey | Up to 10.75% | Yes (above $0) | Very High | | Illinois | 4.95% | Yes (above $4M) | High |</p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Tampa Bay Retirement Cost Planning',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Housing Costs</h3>
+          <p>Tampa Bay offers better value than Southeast Florida:</p>
+          <p>| Area | Median Home Price | Character | |------|-------------------|-----------| | South Tampa | $600,000+ | Upscale, walkable | | St. Petersburg | $450,000 | Arts, downtown | | Clearwater | $400,000 | Beach access | | Brandon | $375,000 | Suburban value | | Wesley Chapel | $425,000 | New development | | New Tampa | $450,000 | Family-oriented |</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Property Taxes</h3>
+          <p>Florida property taxes are moderate:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Typical effective rate: 0.8-1.1%</li>
+          <li>Save Our Homes caps annual increases at 3%</li>
+          <li>Homestead exemption reduces taxable value by $50,000</li>
+          <li>Portability allows moving SOH savings to new home</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Insurance Considerations</h3>
+          <p>Florida insurance requires planning:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Homeowner's insurance: Rising costs, limited carriers</li>
+          <li>Flood insurance: Often required near water</li>
+          <li>Hurricane coverage: Typically separate</li>
+          <li>Citizens Insurance: State-backed option of last resort</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Florida Homestead Benefits',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Tax Benefits</h3>
+          <p>Homestead provides:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>$50,000 exemption from property taxes</li>
+          <li>Save Our Homes 3% annual cap on assessment increases</li>
+          <li>Portability of accumulated savings</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Asset Protection</h3>
+          <p>Florida homestead offers exceptional protection:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Unlimited value protection from creditors</li>
+          <li>Protection applies to primary residence</li>
+          <li>Half acre in city, 160 acres rural</li>
+          <li>Cannot be reached by most creditors</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Estate Planning Considerations</h3>
+          <p>Be aware of restrictions:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Cannot freely devise homestead</li>
+          <li>Surviving spouse has rights</li>
+          <li>Must follow Florida homestead laws</li>
+          <li>Coordinate with estate plan</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Retirement Income Strategies',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Social Security Optimization</h3>
+          <p>With no state tax impact:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Focus on federal tax minimization</li>
+          <li>Delaying benefits to 70 often optimal</li>
+          <li>Spousal coordination strategies</li>
+          <li>Survivor benefit planning</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">IRA and 401(k) Planning</h3>
+          <p>Florida's tax-free environment creates opportunities:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Larger distributions don't increase state taxes</li>
+          <li>Roth conversions incur only federal tax</li>
+          <li>Consider accelerating conversions after Florida move</li>
+          <li>RMD planning focused on federal brackets</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Pension Decisions</h3>
+          <p>For those with pensions:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Lump sum vs annuity based purely on financial merit</li>
+          <li>No state tax consideration in decision</li>
+          <li>Survivor benefit elections</li>
+          <li>COLA features evaluation</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Healthcare in Tampa Bay',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Major Healthcare Systems</h3>
+          <p>Tampa Bay has excellent healthcare:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Moffitt Cancer Center</strong>: Nationally ranked cancer care</li>
+          <li><strong>Tampa General Hospital</strong>: Level I trauma, transplant center</li>
+          <li><strong>AdventHealth Tampa</strong>: Full-service hospital</li>
+          <li><strong>BayCare Health System</strong>: Multiple facilities</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Medicare in Florida</h3>
+          <p>Strong Medicare options:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Extensive Medicare Advantage availability</li>
+          <li>Competitive Medigap pricing</li>
+          <li>Multiple Part D plans</li>
+          <li>Strong provider networks</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Long-Term Care</h3>
+          <p>Consider Florida-specific planning:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Long-term care insurance options</li>
+          <li>Florida Partnership policies</li>
+          <li>Hybrid life/LTC products</li>
+          <li>Medicaid planning if needed</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Common Tampa Retirement Mistakes',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 1: Ignoring Insurance Costs</h3>
+          <p>Florida homeowner's and flood insurance costs have risen dramatically. Budget realistically and shop extensively.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 2: Poor Homestead Planning</h3>
+          <p>Failing to file for homestead exemption or understand its restrictions can cost thousands and create estate problems.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 3: Not Establishing Proper Domicile</h3>
+          <p>If coming from a high-tax state, thoroughly document Florida residency. Some states audit former residents aggressively.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 4: Underestimating Hurricane Preparation</h3>
+          <p>Living in Florida means hurricane season. Budget for storm shutters, generators, and potential evacuations.</p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Establishing Florida Residency',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Required Steps</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Obtain Florida driver's license</li>
+          <li>Register vehicles in Florida</li>
+          <li>Register to vote</li>
+          <li>File Declaration of Domicile</li>
+          <li>Update bank and brokerage addresses</li>
+          <li>Transfer professional licenses</li>
+          <li>Join local organizations</li>
+          <li>Update estate planning documents</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Timing Considerations</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Spend fewer than 183 days in prior state</li>
+          <li>Make Florida your "domicile of choice"</li>
+          <li>Document intent thoroughly</li>
+          <li>File Florida declaration immediately upon moving</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Working with a Tampa Retirement Planner',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">What to Look For</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Understanding of Florida residency issues</li>
+          <li>Insurance planning expertise</li>
+          <li>Healthcare cost projections</li>
+          <li>Estate planning coordination</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Questions to Ask</h3>
+          <p>1. How do you approach domicile establishment? 2. What insurance planning do you recommend? 3. How do you project healthcare costs? 4. What's your experience with Florida homestead?</p>
+        `
+      },
+    ],
+    faqs: [
+      {
+        question: '### Is Florida really tax-free for retirees?',
+        answer: 'Yes, Florida has no state income tax on any income type. All retirement income—Social Security, pensions, IRA/401(k) distributions, and investment income—is state tax-free.'
+      },
+    ],
+    bottomLine: 'Tampa Bay offers an excellent retirement environment with Florida\'s zero income tax, affordable costs relative to other Florida markets, and strong healthcare access. Success requires proper residency establishment, realistic insurance budgeting, and understanding Florida\'s unique homestead laws. ---'
+  },
+  {
+    id: 'charlotte-retirement-planning',
+    title: 'Retirement Planning in Charlotte: North Carolina Tax Guide',
+    slug: 'charlotte-retirement-planning',
+    hubId: 'retirement-planning',
+    type: 'spoke',
+    excerpt: 'Retirement planning strategies for Charlotte residents. Navigate North Carolina\'s flat tax, maximize Social Security exemption, and plan for Queen City retirement.',
+    readTime: '5 min read',
+    publishDate: '2025-11-29',
+    author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
+    primaryKeyword: 'retirement planning Charlotte',
+    metaDescription: 'Retirement planning strategies for Charlotte residents. Navigate North Carolina\'s flat tax, maximize Social Security exemption, and plan for Queen City retirement.',
+    lastUpdated: '2025-11-29',
+    keyTakeaways: [
+      'North Carolina has a flat 4.75% income tax rate (declining to 3.99% by 2027)',
+      'Social Security is fully exempt from NC state tax',
+      'No special retirement income exclusion for most private pensions',
+      'Bailey Settlement exempts pre-1989 government pensions',
+      'Charlotte offers moderate costs with urban amenities',
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'North Carolina\'s Retirement Tax Structure',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Income Tax Basics</h3>
+          <p>North Carolina's flat tax rate:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Current rate: 4.75%</li>
+          <li>Declining schedule: Reaching 3.99% by 2027</li>
+          <li>Applies to all taxable income equally</li>
+          <li>No local income taxes in Charlotte</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Social Security Treatment</h3>
+          <p>Good news for retirees:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Social Security is <strong>fully exempt</strong> from NC state tax</li>
+          <li>No income limits on the exemption</li>
+          <li>Applies regardless of other income</li>
+          <li>Both worker and spousal benefits exempt</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Retirement Account Distributions</h3>
+          <p>Less favorable treatment:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>401(k) and IRA distributions are fully taxable</li>
+          <li>No special retirement income exclusion</li>
+          <li>Taxed at flat 4.75% rate</li>
+          <li>Plan withdrawals strategically</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">The Bailey Settlement</h3>
+          <p>Special exemption for government pensions:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>State and local government employees vested by August 12, 1989</li>
+          <li>Their pensions are completely exempt from NC tax</li>
+          <li>Does not apply to newer government employees</li>
+          <li>Important for long-term government workers</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Charlotte Retirement Cost Planning',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Housing Costs</h3>
+          <p>Charlotte offers moderate housing:</p>
+          <p>| Area | Median Home Price | Character | |------|-------------------|-----------| | Myers Park | $700,000+ | Historic, upscale | | SouthPark | $600,000 | Shopping, established | | Ballantyne | $550,000 | Master-planned | | Lake Norman | $600,000+ | Waterfront living | | Fort Mill (SC) | $450,000 | Tax advantages | | Matthews | $475,000 | Suburban |</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">South Carolina Border</h3>
+          <p>Fort Mill and nearby SC towns offer advantages:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Lower property taxes</li>
+          <li>No tax on Social Security (same as NC)</li>
+          <li>Favorable retirement income deduction</li>
+          <li>SC exempts up to $10,000 retirement income at 65</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Property Taxes</h3>
+          <p>Mecklenburg County property taxes:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Effective rate: ~1.0%</li>
+          <li>Moderate compared to Northeast</li>
+          <li>Homestead exclusion for seniors/disabled</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Retirement Income Strategies',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Social Security Optimization</h3>
+          <p>With full NC exemption:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Focus on federal tax management</li>
+          <li>Delaying benefits often makes sense</li>
+          <li>Coordinate spousal strategies</li>
+          <li>No state tax impact on claiming decision</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">401(k) and IRA Planning</h3>
+          <p>Since distributions are taxable:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Consider Roth conversions before moving</li>
+          <li>Plan withdrawals to manage brackets</li>
+          <li>Coordinate with Social Security timing</li>
+          <li>Consider SC residence for better treatment</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Bank of America/Truist Benefits</h3>
+          <p>Charlotte banking executives have specific needs:</p>
+          <p><strong>Stock compensation:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>RSUs vest and create ordinary income</li>
+          <li>Stock options timing considerations</li>
+          <li>Concentrated position diversification</li>
+          <li>10b5-1 plan strategies</li>
+          </ul>
+          <p><strong>Deferred compensation:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Distribution timing elections</li>
+          <li>NC tax on distributions</li>
+          <li>Retirement timing coordination</li>
+          <li>Rollover options where available</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Healthcare in Charlotte',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Major Systems</h3>
+          <p>Charlotte has strong healthcare:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Atrium Health (Carolinas Medical Center)</strong>: Large regional system</li>
+          <li><strong>Novant Health</strong>: Major network</li>
+          <li><strong>Levine Cancer Institute</strong>: Comprehensive cancer care</li>
+          <li><strong>Multiple specialty centers</strong></li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Medicare Options</h3>
+          <p>Good Medicare infrastructure:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Multiple Medicare Advantage plans</li>
+          <li>Competitive Medigap options</li>
+          <li>Strong Part D availability</li>
+          <li>In-network access throughout metro</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Between Mountains and Coast</h3>
+          <p>Consider proximity to:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Duke University Hospital (Durham)</li>
+          <li>Wake Forest Baptist (Winston-Salem)</li>
+          <li>Major centers accessible for specialty care</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Common Charlotte Retirement Mistakes',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 1: Ignoring Social Security Exemption Value</h3>
+          <p>Many retirees don't realize NC's full Social Security exemption. This makes the state more attractive than it initially appears.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 2: Not Considering South Carolina</h3>
+          <p>The SC border is close, and Fort Mill/Tega Cay offer tax advantages. Compare total costs before choosing location.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 3: Timing Stock Sales Poorly</h3>
+          <p>Banking executives with concentrated positions should plan sales across multiple years and consider charitable strategies.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 4: Bailey Settlement Assumptions</h3>
+          <p>Don't assume government pension exemption applies to you. The 1989 vesting date is strictly enforced.</p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Working with a Charlotte Retirement Planner',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">What to Look For</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Banking industry compensation expertise</li>
+          <li>NC vs SC tax knowledge</li>
+          <li>Healthcare cost projection ability</li>
+          <li>Estate planning coordination</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Questions to Ask</h3>
+          <p>1. What experience do you have with banking executive compensation? 2. How do you compare NC vs SC for retirement? 3. What's your approach to concentrated stock positions? 4. How do you project healthcare costs in retirement?</p>
+        `
+      },
+    ],
+    faqs: [
+      {
+        question: '### Is Social Security taxed in North Carolina?',
+        answer: 'No, North Carolina fully exempts Social Security benefits from state income tax, regardless of your total income.'
+      },
+    ],
+    bottomLine: 'Charlotte offers moderate taxes with the significant benefit of fully exempt Social Security. For those with substantial 401(k)/IRA assets, the full taxation of distributions is a consideration. Banking executives and corporate relocations benefit from advisors who understand executive compensation planning alongside traditional retirement strategies. ---'
+  },
+  {
+    id: 'san-antonio-retirement-planning',
+    title: 'Retirement Planning in San Antonio: Military & Texas Tax Guide',
+    slug: 'san-antonio-retirement-planning',
+    hubId: 'retirement-planning',
+    type: 'spoke',
+    excerpt: 'Retirement planning strategies for San Antonio residents. Maximize Texas\'s zero income tax, optimize military benefits, and plan for affordable retirement.',
+    readTime: '6 min read',
+    publishDate: '2025-11-29',
+    author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
+    primaryKeyword: 'retirement planning San Antonio',
+    metaDescription: 'Retirement planning strategies for San Antonio residents. Maximize Texas\'s zero income tax, optimize military benefits, and plan for affordable retirement.',
+    lastUpdated: '2025-11-29',
+    keyTakeaways: [
+      'Texas has no state income tax on any income type',
+      'San Antonio\'s cost of living is 9% below the national average',
+      'Major military installations create strong veteran community',
+      'Texas property taxes are higher than average (offset by no income tax)',
+      'Excellent healthcare through military and civilian systems',
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'Texas\'s Tax-Free Retirement Advantage',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">What's Not Taxed</h3>
+          <p>Texas does not tax:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Wages and salary</li>
+          <li>Social Security benefits</li>
+          <li>Military retirement pay</li>
+          <li>Pension income</li>
+          <li>401(k) and IRA distributions</li>
+          <li>Capital gains</li>
+          <li>Dividends and interest</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Constitutional Protection</h3>
+          <p>Texas's no-income-tax status is constitutionally protected. Implementing an income tax would require a voter referendum—providing long-term stability for retirement planning.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Property Tax Trade-Off</h3>
+          <p>Texas relies on property taxes instead:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Effective rates: 2.0-2.5%</li>
+          <li>Higher than national average</li>
+          <li>Homestead exemptions available</li>
+          <li>Over-65 freeze protects seniors</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Military Retirement Planning',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">TSP Optimization</h3>
+          <p>Transitioning service members face TSP decisions:</p>
+          <p><strong>TSP Advantages:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Lowest fees of any retirement plan (0.04%)</li>
+          <li>G Fund offers unique principal protection</li>
+          <li>Can remain in TSP after separation</li>
+          <li>Roth TSP option available</li>
+          </ul>
+          <p><strong>TSP Considerations:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Limited investment options (5 funds + L Funds)</li>
+          <li>Less flexibility than IRA</li>
+          <li>No individual stock options</li>
+          <li>Can do partial rollovers</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Military Pension Decisions</h3>
+          <p><strong>Legacy Retirement System:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>2.5% × years of service × high-3 average</li>
+          <li>20-year vesting requirement</li>
+          <li>COLA adjustments</li>
+          <li>Survivor Benefit Plan elections</li>
+          </ul>
+          <p><strong>Blended Retirement System:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Smaller pension (2.0% multiplier)</li>
+          <li>TSP matching contributions</li>
+          <li>Continuation pay at 12 years</li>
+          <li>Lump sum option at retirement</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Survivor Benefit Plan (SBP)</h3>
+          <p>Critical decision at retirement:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Provides 55% of pension to spouse if you die first</li>
+          <li>Costs 6.5% of pension</li>
+          <li>Compare to private life insurance</li>
+          <li>Consider spouse's age and health</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'San Antonio Cost of Living',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Housing Affordability</h3>
+          <p>San Antonio offers excellent value:</p>
+          <p>| Area | Median Home Price | Character | |------|-------------------|-----------| | Alamo Heights | $550,000+ | Historic, upscale | | Stone Oak | $450,000 | Master-planned | | The Dominion | $700,000+ | Luxury gated | | Helotes | $375,000 | Hill Country feel | | New Braunfels | $350,000 | Growing, value | | Live Oak | $325,000 | Military convenient |</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Property Tax Management</h3>
+          <p>Texas property taxes require attention:</p>
+          <p><strong>Available Exemptions:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Homestead: 20% of appraised value for school taxes</li>
+          <li>Over-65: Additional $10,000+ exemption</li>
+          <li>Disabled veteran: Up to 100% for 100% disabled</li>
+          <li>Tax ceiling freeze for seniors</li>
+          </ul>
+          <p><strong>Management Strategies:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Protest appraisals annually</li>
+          <li>File for all applicable exemptions</li>
+          <li>Budget for property tax in retirement</li>
+          <li>Compare neighborhoods by tax rate</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Healthcare in San Antonio',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Military Healthcare</h3>
+          <p>Exceptional access for military retirees:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Brooke Army Medical Center (BAMC)</strong>: Level I trauma, major facility</li>
+          <li><strong>Wilford Hall</strong>: Specialty care</li>
+          <li><strong>TRICARE network</strong>: Extensive civilian options</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">TRICARE in Retirement</h3>
+          <p>Healthcare continuity for military retirees:</p>
+          <p><strong>Before 65:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>TRICARE Prime or Select</li>
+          <li>Enrollment in Defense Enrollment Eligibility Reporting System (DEERS)</li>
+          <li>Low-cost coverage</li>
+          </ul>
+          <p><strong>After 65:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>TRICARE For Life (with Medicare)</li>
+          <li>Medicare becomes primary</li>
+          <li>TRICARE covers remaining costs</li>
+          <li>Excellent comprehensive coverage</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Civilian Healthcare</h3>
+          <p>Strong civilian options too:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Methodist Healthcare System</strong></li>
+          <li><strong>Baptist Health System</strong></li>
+          <li><strong>University Health System</strong></li>
+          <li><strong>CHRISTUS Santa Rosa</strong></li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Retirement Income Strategies',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Maximizing Tax-Free Environment</h3>
+          <p>Texas's no income tax creates opportunities:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Roth conversions face only federal tax</li>
+          <li>Large distributions don't trigger state tax</li>
+          <li>Social Security optimization focused on federal</li>
+          <li>No state impact on pension decisions</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Property Tax Budgeting</h3>
+          <p>Critical for Texas retirees:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Property taxes can be $5,000-15,000+ annually</li>
+          <li>Budget as part of housing costs</li>
+          <li>Over-65 freeze provides predictability</li>
+          <li>Consider in location decisions</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Military Pension + TSP Coordination</h3>
+          <p>Optimize both income streams:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Pension provides guaranteed base income</li>
+          <li>TSP supplements for flexibility</li>
+          <li>Consider TSP withdrawal strategies</li>
+          <li>RMD planning for TSP accounts</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'VA Benefits Integration',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Healthcare Benefits</h3>
+          <p>VA healthcare available for eligible veterans:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Audie L. Murphy VA Hospital</strong>: Major facility</li>
+          <li>Priority groups determine access</li>
+          <li>Coordinate with TRICARE if eligible for both</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Disability Compensation</h3>
+          <p>VA disability planning:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Tax-free at both federal and state levels</li>
+          <li>Combat-Related Special Compensation (CRSC)</li>
+          <li>Concurrent Retirement and Disability Pay (CRDP)</li>
+          <li>Impact on SBP costs</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Common San Antonio Retirement Mistakes',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 1: Ignoring Property Taxes</h3>
+          <p>Texas property taxes can surprise retirees from other states. Budget appropriately and claim all exemptions.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 2: Poor TSP Decisions</h3>
+          <p>Rolling TSP to IRA without analysis may increase costs. TSP's 0.04% fees are unmatched.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 3: SBP vs Life Insurance Analysis</h3>
+          <p>Many retirees take SBP without comparing to private life insurance. Do the math for your situation.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 4: Not Filing Exemptions</h3>
+          <p>Homestead and over-65 exemptions must be filed. Missing them costs thousands in property taxes.</p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Working with a San Antonio Retirement Planner',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">What to Look For</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Military benefits expertise</li>
+          <li>TSP knowledge</li>
+          <li>VA benefits understanding</li>
+          <li>Fee transparency</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Questions to Ask</h3>
+          <p>1. How many military retirees do you work with? 2. What's your approach to TSP vs IRA analysis? 3. How do you optimize SBP decisions? 4. What property tax strategies do you recommend?</p>
+        `
+      },
+    ],
+    faqs: [
+      {
+        question: '### Is Texas really tax-free for retirees?',
+        answer: 'Yes, Texas has no state income tax on any income type. Military retirement, pensions, Social Security, and investment income are all state tax-free.'
+      },
+    ],
+    bottomLine: 'San Antonio offers exceptional retirement value with Texas\'s zero income tax, affordable housing, and strong military community. The key is managing property taxes through exemptions, optimizing military benefits like TSP and SBP, and taking advantage of excellent healthcare access. For military retirees especially, San Antonio is hard to beat. ---'
+  },
+  {
+    id: 'dc-retirement-planning',
+    title: 'Retirement Planning in Washington DC: Federal Employee Guide',
+    slug: 'washington-dc-retirement-planning',
+    hubId: 'retirement-planning',
+    type: 'spoke',
+    excerpt: 'Retirement planning strategies for DC federal employees and contractors. Optimize FERS, TSP, and navigate the three-jurisdiction tax landscape.',
+    readTime: '5 min read',
+    publishDate: '2025-11-29',
+    author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
+    primaryKeyword: 'retirement planning Washington DC',
+    metaDescription: 'Retirement planning strategies for DC federal employees and contractors. Optimize FERS, TSP, and navigate the three-jurisdiction tax landscape.',
+    lastUpdated: '2025-11-29',
+    keyTakeaways: [
+      'FERS provides a three-legged stool: pension, Social Security, and TSP',
+      'TSP offers the lowest-cost retirement investing available (0.04% expense ratio)',
+      'DC, Maryland, and Virginia each have different tax treatments for retirement income',
+      'Federal employees have unique catch-up contribution opportunities',
+      'Timing of retirement affects pension calculation significantly',
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'Understanding FERS Retirement',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">The FERS Pension Calculation</h3>
+          <p>FERS provides a defined benefit pension based on:</p>
+          <p><strong>Basic Formula:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Years of service × 1% × high-3 average salary</li>
+          <li>Or 1.1% if retiring at 62+ with 20+ years</li>
+          </ul>
+          <p><strong>Example:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>30 years of service</li>
+          <li>High-3 average: $150,000</li>
+          <li>Age 62 retirement</li>
+          <li>Pension: 30 × 1.1% × $150,000 = $49,500/year</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Special Retirement Provisions</h3>
+          <p>Certain federal employees have enhanced benefits:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Law enforcement officers</li>
+          <li>Firefighters</li>
+          <li>Air traffic controllers</li>
+          <li>Special provision employees</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">FERS Supplement</h3>
+          <p>If retiring before 62 with 30 years (or MRA with 30 years), you may receive the FERS Supplement—essentially early Social Security from your agency until you reach 62.</p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'TSP Optimization Strategies',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">2024 Contribution Limits</h3>
+          <p>| Category | Limit | |----------|-------| | Regular contributions | $23,000 | | Age 50+ catch-up | $7,500 | | Total employee contribution | $30,500 | | Total including agency match | Up to $69,000 |</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">TSP Fund Selection</h3>
+          <p><strong>Individual Funds:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>G Fund: Government securities (unique principal protection)</li>
+          <li>F Fund: Bond index</li>
+          <li>C Fund: S&P 500 index</li>
+          <li>S Fund: Small/mid-cap index</li>
+          <li>I Fund: International index</li>
+          </ul>
+          <p><strong>Lifecycle Funds:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>L Funds automatically adjust allocation</li>
+          <li>Appropriate for hands-off investors</li>
+          <li>Consider your other investments</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Traditional vs Roth TSP</h3>
+          <p><strong>Traditional TSP:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Tax deduction now</li>
+          <li>Taxed at withdrawal</li>
+          <li>Better if expecting lower tax bracket in retirement</li>
+          </ul>
+          <p><strong>Roth TSP:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>No tax deduction</li>
+          <li>Tax-free withdrawals</li>
+          <li>Better if expecting higher taxes in retirement</li>
+          <li>Consider current DC/MD/VA tax rates</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Three-Jurisdiction Tax Planning',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Retirement Income Taxation</h3>
+          <p>| Jurisdiction | Social Security | Pension | 401(k)/IRA | |--------------|-----------------|---------|------------| | DC | Not taxed | Taxed (with exclusions) | Taxed | | Maryland | Not taxed | Partial exclusion | Partial exclusion | | Virginia | Not taxed | Partial exemption | Taxed |</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">DC Retirement Exclusions</h3>
+          <p>DC offers exclusions for certain retirement income:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Age 62+: Exclusion for qualified retirement income</li>
+          <li>Varies by income level</li>
+          <li>Social Security always exempt</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Maryland Pension Exclusion</h3>
+          <p>Maryland offers a pension exclusion:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Up to $36,200 for those 65+ (2024)</li>
+          <li>Includes pension, 401(k), IRA income</li>
+          <li>Income limits apply</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Virginia Age Deduction</h3>
+          <p>Virginia provides:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Age 65+ deduction: Up to $12,000</li>
+          <li>Income limits apply</li>
+          <li>Can reduce state tax significantly</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Federal Employee Healthcare in Retirement',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">FEHB in Retirement</h3>
+          <p>Federal employees can continue FEHB coverage if:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Enrolled in FEHB for 5 years immediately before retirement</li>
+          <li>Retiring on immediate annuity</li>
+          </ul>
+          <p><strong>Key Benefits:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Same plans available as active employees</li>
+          <li>Government contribution continues</li>
+          <li>Covers employee, spouse, and eligible dependents</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Medicare Integration</h3>
+          <p>When turning 65:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Must enroll in Medicare Part A (usually premium-free)</li>
+          <li>Part B enrollment optional but recommended</li>
+          <li>FEHB becomes secondary to Medicare</li>
+          <li>Consider FEHB plan selection based on Medicare coordination</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Common DC Retirement Mistakes',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 1: Leaving TSP Money on the Table</h3>
+          <p>Many employees don't contribute enough to get the full 5% agency match. That's free money—always contribute at least 5%.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 2: Ignoring the G Fund</h3>
+          <p>The TSP G Fund offers a unique combination of Treasury security safety with returns exceeding money markets. No private sector equivalent exists.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 3: Poor Retirement Timing</h3>
+          <p>The date you retire affects your pension calculation:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Retiring January 1 vs December 31 can mean different high-3 calculations</li>
+          <li>Leave balance payouts affect calculations</li>
+          <li>Consider timing of raises and step increases</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 4: Rolling Over TSP Without Analysis</h3>
+          <p>TSP's 0.04% expense ratio is unmatched. Rolling to an IRA may increase costs significantly. Consider keeping TSP even after retirement.</p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Working with a Federal Retirement Specialist',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">What to Look For</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Experience with FERS/CSRS benefits</li>
+          <li>TSP expertise</li>
+          <li>Understanding of three-jurisdiction taxes</li>
+          <li>Fee-only compensation preferred</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Questions to Ask</h3>
+          <p>1. How many federal employees do you work with? 2. What's your approach to TSP withdrawal strategies? 3. How do you optimize across DC, MD, and VA taxes? 4. Do you understand the FERS Supplement?</p>
+        `
+      },
+    ],
+    faqs: [
+      {
+        question: '### Should I roll over my TSP to an IRA?',
+        answer: 'Not necessarily. TSP has the lowest fees of any retirement plan. Unless you need investment options unavailable in TSP, consider keeping it. You can do partial rollovers if needed.'
+      },
+    ],
+    bottomLine: 'DC federal employees have exceptional retirement benefits that require specialized planning to optimize. The combination of FERS pension, TSP, and Social Security—properly coordinated—can provide secure retirement income. The key is understanding the unique features of federal benefits and planning across three tax jurisdictions. ---'
+  },
+  {
+    id: 'nashville-retirement-planning',
+    title: 'Retirement Planning in Nashville: Tennessee Tax-Free Guide',
+    slug: 'nashville-retirement-planning',
+    hubId: 'retirement-planning',
+    type: 'spoke',
+    excerpt: 'Retirement planning strategies for Nashville residents. Maximize Tennessee\'s zero income tax advantage and plan for Music City retirement.',
+    readTime: '5 min read',
+    publishDate: '2025-11-29',
+    author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
+    primaryKeyword: 'retirement planning Nashville',
+    metaDescription: 'Retirement planning strategies for Nashville residents. Maximize Tennessee\'s zero income tax advantage and plan for Music City retirement.',
+    lastUpdated: '2025-11-29',
+    keyTakeaways: [
+      'Tennessee has no state income tax on wages or investment income',
+      'No state tax on Social Security, pensions, or retirement account distributions',
+      'Nashville offers world-class healthcare through Vanderbilt and other systems',
+      'Cost of living is rising but remains below coastal metros',
+      'No state estate tax—only federal applies',
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'Tennessee\'s Tax-Free Retirement Advantage',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">What's Not Taxed</h3>
+          <p>Tennessee does not tax:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Wages and salary</li>
+          <li>Social Security benefits</li>
+          <li>Pension income</li>
+          <li>401(k) and IRA distributions</li>
+          <li>Capital gains</li>
+          <li>Dividends and interest (Hall Tax fully repealed in 2021)</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Compared to Other States</h3>
+          <p>| State | Income Tax | Social Security Tax | Pension Tax | |-------|-----------|-------------------|-------------| | Tennessee | 0% | No | No | | Georgia | 5.49% | No | Yes (with exclusion) | | North Carolina | 4.75% | No | Yes | | California | Up to 13.3% | No | Yes |</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Relocation Considerations</h3>
+          <p>If moving from a high-tax state:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Time your move to maximize tax savings</li>
+          <li>Consider selling appreciated assets after establishing residency</li>
+          <li>Update all residency documentation thoroughly</li>
+          <li>Consult a tax professional on transition timing</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Nashville Retirement Cost Planning',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Housing Costs</h3>
+          <p>Nashville housing has appreciated significantly:</p>
+          <p>| Area | Median Home Price | Trend | |------|-------------------|-------| | Downtown/Gulch | $600,000+ | Rising | | Green Hills | $700,000+ | Stable-high | | Franklin | $650,000+ | Rising | | Brentwood | $800,000+ | Premium | | Mt. Juliet | $450,000 | Growing | | Murfreesboro | $400,000 | Value area |</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Property Taxes</h3>
+          <p>Tennessee property taxes are relatively low:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Davidson County (Nashville): ~2.0% effective rate</li>
+          <li>Williamson County (Franklin): ~1.5% effective rate</li>
+          <li>Lower than Texas despite no income tax in both</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Sales Tax Impact</h3>
+          <p>Tennessee has higher sales taxes:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>State: 7%</li>
+          <li>Local: 2-2.75% additional</li>
+          <li>Total in Nashville: 9.25%</li>
+          <li>Food taxed at reduced 4% state rate</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Retirement Income Strategies',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Social Security Planning</h3>
+          <p>With no state tax on Social Security:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Focus on federal tax optimization</li>
+          <li>Consider delaying to 70 for maximum benefit</li>
+          <li>Provisional income planning for federal taxation</li>
+          <li>Coordinate spousal benefits strategically</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">IRA and 401(k) Distributions</h3>
+          <p>Tennessee's zero income tax creates opportunities:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Larger distributions don't trigger state tax</li>
+          <li>Roth conversions face only federal tax</li>
+          <li>Consider accelerating conversions if moving from high-tax state</li>
+          <li>RMD planning focused on federal brackets</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Pension Income</h3>
+          <p>For those with pensions:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>All pension income is state tax-free</li>
+          <li>Consider lump sum vs annuity purely on financial merits</li>
+          <li>Survivor benefit decisions unaffected by state tax</li>
+          <li>Out-of-state pensions receive same treatment</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Healthcare in Nashville',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Why Nashville Healthcare Excels</h3>
+          <p>Nashville is known as "Healthcare City":</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>HCA Healthcare headquarters</li>
+          <li>Vanderbilt University Medical Center</li>
+          <li>300+ healthcare companies</li>
+          <li>Major medical research hub</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Medicare Options</h3>
+          <p>Nashville offers extensive Medicare choices:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Numerous Medicare Advantage plans</li>
+          <li>Competitive Medigap options</li>
+          <li>Strong Part D plan availability</li>
+          <li>In-network access at major systems</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Healthcare Costs</h3>
+          <p>Despite the industry presence, costs are moderate:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Medicare Advantage premiums competitive</li>
+          <li>Good provider networks</li>
+          <li>Multiple options for specialists</li>
+          <li>Teaching hospital access through Vanderbilt</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Music Industry Retirement Planning',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Unique Considerations</h3>
+          <p>Nashville's music industry creates special planning needs:</p>
+          <p><strong>Songwriters:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Royalty income streams in retirement</li>
+          <li>BMI/ASCAP/SESAC payments continue</li>
+          <li>Catalog value as retirement asset</li>
+          <li>IP estate planning considerations</li>
+          </ul>
+          <p><strong>Performers:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Variable income history affects Social Security</li>
+          <li>Self-employment throughout career</li>
+          <li>SEP-IRA or Solo 401(k) optimization</li>
+          <li>Healthcare continuity between gigs</li>
+          </ul>
+          <p><strong>Music Business:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Stock options from Nashville music companies</li>
+          <li>Deferred compensation plans</li>
+          <li>Business sale as retirement funding</li>
+          <li>Earn-out structures</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Common Nashville Retirement Mistakes',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 1: Assuming All Costs Are Low</h3>
+          <p>While taxes are low, Nashville's cost of living has risen significantly. Budget realistically for housing and lifestyle costs.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 2: Ignoring Federal Taxes</h3>
+          <p>Zero state income tax doesn't mean zero taxes. Federal income tax still applies to retirement distributions, and planning is essential.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 3: Not Establishing Proper Residency</h3>
+          <p>If moving from another state, thoroughly document your Nashville residency. Some states audit former residents aggressively.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 4: Underestimating Healthcare Needs</h3>
+          <p>While Nashville has excellent healthcare, some specialties may require travel. Plan for comprehensive coverage.</p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Working with a Nashville Retirement Planner',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">What to Look For</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Understanding of Tennessee's tax advantages</li>
+          <li>Experience with music/entertainment industry (if applicable)</li>
+          <li>Healthcare industry knowledge (if applicable)</li>
+          <li>Fee transparency</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Questions to Ask</h3>
+          <p>1. How do you approach planning in a no-income-tax state? 2. What experience do you have with variable income clients? 3. How do you coordinate federal tax planning? 4. What's your approach to healthcare cost projections?</p>
+        `
+      },
+    ],
+    faqs: [
+      {
+        question: '### Is Tennessee really tax-free for retirees?',
+        answer: 'Yes, Tennessee has no state income tax on any income type. Social Security, pensions, 401(k)/IRA distributions, and investment income are all state tax-free.'
+      },
+    ],
+    bottomLine: 'Nashville\'s zero income tax environment makes it an exceptional retirement destination, but rising costs and federal tax planning still require attention. The key is maximizing Tennessee\'s advantages while budgeting realistically for the evolving Nashville economy. ---'
   }
 ];

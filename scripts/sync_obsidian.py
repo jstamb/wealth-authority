@@ -442,6 +442,18 @@ class ObsidianToTSConverter:
             'philadelphia': 'https://images.unsplash.com/photo-1569761316261-9a8696fa2ca3?w=800&q=80',
             'san-diego': 'https://images.unsplash.com/photo-1538964173425-93dc8f5c0d5b?w=800&q=80',
             'san-jose': 'https://images.unsplash.com/photo-1535581652167-3a26c90788fc?w=800&q=80',
+            # New cities added
+            'atlanta': 'https://images.unsplash.com/photo-1575917649705-5b59aaa12e6b?w=800&q=80',
+            'dc': 'https://images.unsplash.com/photo-1617581629397-a72507c3de9e?w=800&q=80',
+            'washington-dc': 'https://images.unsplash.com/photo-1617581629397-a72507c3de9e?w=800&q=80',
+            'minneapolis': 'https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=800&q=80',
+            'san-antonio': 'https://images.unsplash.com/photo-1531218150217-54595bc2b934?w=800&q=80',
+            'charlotte': 'https://images.unsplash.com/photo-1546726747-421c6d69c929?w=800&q=80',
+            'portland': 'https://images.unsplash.com/photo-1507245351198-628c77ea90c2?w=800&q=80',
+            'las-vegas': 'https://images.unsplash.com/photo-1605833556294-ea5c7a74f57d?w=800&q=80',
+            'nashville': 'https://images.unsplash.com/photo-1545419913-775e3e03a36d?w=800&q=80',
+            'detroit': 'https://images.unsplash.com/photo-1564419320461-6870880221ad?w=800&q=80',
+            'tampa': 'https://images.unsplash.com/photo-1605723517503-3cadb5818a0c?w=800&q=80',
         }
         # Default image for unknown cities
         default_image = 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80'
@@ -867,7 +879,7 @@ class ObsidianToTSConverter:
             # Find the closing bracket of the array
             # Look for the pattern: }]; or }\n]; at the end
             import re
-            match = re.search(r'\}\s*\];?\s*$', existing_content)
+            match = re.search(r'\},?\s*\]\s*;?\s*$', existing_content)
             if match:
                 # Insert new articles before the closing bracket
                 insert_pos = match.start() + 1  # After the }
@@ -969,7 +981,7 @@ class ObsidianToTSConverter:
             with open(output_file, 'r', encoding='utf-8') as f:
                 existing_content = f.read()
 
-            match = re.search(r'\}\s*\];?\s*$', existing_content)
+            match = re.search(r'\},?\s*\]\s*;?\s*$', existing_content)
             if match:
                 # Generate just the new hub objects
                 new_hub_ts = []
@@ -1103,7 +1115,7 @@ class ObsidianToTSConverter:
             with open(output_file, 'r', encoding='utf-8') as f:
                 existing_content = f.read()
 
-            match = re.search(r'\}\s*\];?\s*$', existing_content)
+            match = re.search(r'\},?\s*\]\s*;?\s*$', existing_content)
             if match:
                 new_city_ts = []
                 for city in new_cities:
