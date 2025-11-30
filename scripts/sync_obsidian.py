@@ -117,10 +117,36 @@ class ObsidianToTSConverter:
         html_parts = []
         current_paragraph = []
         in_list = False
-        list_items = []
+        in_table = False
+        table_rows = []
 
-        for line in content.split('\n'):
-            line = line.strip()
+        lines = content.split('\n')
+        i = 0
+
+        while i < len(lines):
+            line = lines[i].strip()
+
+            # Check for table start (line starts with |)
+            if line.startswith('|') and '|' in line[1:]:
+                # Close any open elements first
+                if in_list:
+                    html_parts.append('</ul>')
+                    in_list = False
+                if current_paragraph:
+                    html_parts.append(f"<p>{' '.join(current_paragraph)}</p>")
+                    current_paragraph = []
+
+                # Collect all table rows
+                table_rows = []
+                while i < len(lines) and lines[i].strip().startswith('|'):
+                    table_rows.append(lines[i].strip())
+                    i += 1
+
+                # Convert table to HTML
+                if table_rows:
+                    table_html = self.markdown_table_to_html(table_rows)
+                    html_parts.append(table_html)
+                continue
 
             if not line:
                 # Close any open elements
@@ -130,6 +156,7 @@ class ObsidianToTSConverter:
                 if current_paragraph:
                     html_parts.append(f"<p>{' '.join(current_paragraph)}</p>")
                     current_paragraph = []
+                i += 1
                 continue
 
             # H3 headers
@@ -169,6 +196,8 @@ class ObsidianToTSConverter:
                     in_list = False
                 current_paragraph.append(self.markdown_to_html(line))
 
+            i += 1
+
         # Close any remaining open elements
         if in_list:
             html_parts.append('</ul>')
@@ -176,6 +205,72 @@ class ObsidianToTSConverter:
             html_parts.append(f"<p>{' '.join(current_paragraph)}</p>")
 
         return '\n          '.join(html_parts)
+
+    def markdown_table_to_html(self, table_rows: List[str]) -> str:
+        """Convert markdown table rows to HTML table"""
+        if not table_rows:
+            return ""
+
+        # Parse cells from a row
+        def parse_row(row: str) -> List[str]:
+            # Remove leading/trailing pipes and split
+            cells = row.strip('|').split('|')
+            return [cell.strip() for cell in cells]
+
+        # Check if a row is a separator (contains only -, :, |, and spaces)
+        def is_separator(row: str) -> bool:
+            cleaned = row.replace('|', '').replace('-', '').replace(':', '').replace(' ', '')
+            return len(cleaned) == 0
+
+        html_lines = ['<div class="overflow-x-auto my-6">',
+                      '<table class="min-w-full border-collapse border border-gray-200">']
+
+        header_row = None
+        body_rows = []
+        found_separator = False
+
+        for row in table_rows:
+            if is_separator(row):
+                found_separator = True
+                continue
+
+            if not found_separator:
+                # This is the header row
+                header_row = parse_row(row)
+            else:
+                # This is a body row
+                body_rows.append(parse_row(row))
+
+        # If no separator found, treat first row as header anyway
+        if not found_separator and table_rows:
+            header_row = parse_row(table_rows[0])
+            body_rows = [parse_row(r) for r in table_rows[1:] if not is_separator(r)]
+
+        # Generate header
+        if header_row:
+            html_lines.append('<thead class="bg-gray-50">')
+            html_lines.append('<tr>')
+            for cell in header_row:
+                cell_html = self.markdown_to_html(cell)
+                html_lines.append(f'<th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">{cell_html}</th>')
+            html_lines.append('</tr>')
+            html_lines.append('</thead>')
+
+        # Generate body
+        if body_rows:
+            html_lines.append('<tbody class="divide-y divide-gray-200">')
+            for row_cells in body_rows:
+                html_lines.append('<tr>')
+                for cell in row_cells:
+                    cell_html = self.markdown_to_html(cell)
+                    html_lines.append(f'<td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">{cell_html}</td>')
+                html_lines.append('</tr>')
+            html_lines.append('</tbody>')
+
+        html_lines.append('</table>')
+        html_lines.append('</div>')
+
+        return '\n          '.join(html_lines)
 
     def extract_key_takeaways(self, content: str) -> List[str]:
         """Extract key takeaways from content"""

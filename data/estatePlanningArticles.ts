@@ -74,7 +74,35 @@ export const ESTATEPLANNING_ARTICLES: Article[] = [
           <li>Delays (months to years)</li>
           </ul>
           <p><strong>Trust advantage:</strong> Assets in the trust skip probate entirely, transferring directly to beneficiaries.</p>
-          <p><strong>Savings vary by state:</strong> | State | Typical Probate Cost | |-------|---------------------| | California | 4-7% of estate | | Florida | 3-5% of estate | | Texas | 2-3% of estate | | Wisconsin | 0.5-1% of estate |</p>
+          <p><strong>Savings vary by state:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">State</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Typical Probate Cost</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">California</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">4-7% of estate</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Florida</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">3-5% of estate</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Texas</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2-3% of estate</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Wisconsin</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.5-1% of estate</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Benefit 2: Privacy</h3>
           <p><strong>Probate is public:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -606,7 +634,54 @@ export const ESTATEPLANNING_ARTICLES: Article[] = [
           <p><strong>Prohibited transactions:</strong> Self-dealing rules, jeopardizing investments, excess business holdings.</p>
           <p><strong>Public disclosure:</strong> Form 990-PF is public.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Comparison: DAF vs. Private Foundation</h3>
-          <p>| Feature | Donor-Advised Fund | Private Foundation | |---------|-------------------|--------------------| | Minimum to start | Low ($0-25K) | High ($1M+) | | Administrative burden | None | Significant | | Privacy | Yes | No (990-PF public) | | Annual payout required | No | Yes (5%) | | Excise tax | No | Yes | | Family compensation | No | Yes (reasonable) | | Investment control | Limited | Full |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Feature</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Donor-Advised Fund</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Private Foundation</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Minimum to start</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Low ($0-25K)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">High ($1M+)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Administrative burden</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">None</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Significant</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Privacy</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No (990-PF public)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Annual payout required</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes (5%)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Excise tax</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Family compensation</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes (reasonable)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Investment control</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Limited</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Full</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">When to Choose Private Foundation</h3>
           <p><strong>Consider if:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -697,7 +772,42 @@ export const ESTATEPLANNING_ARTICLES: Article[] = [
           <li>How much do you want to leave to family vs. charity?</li>
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Choose the Right Vehicle</h3>
-          <p>| Goal | Best Vehicle | |------|-------------| | Simple, one-time gift | Charitable bequest | | Income now, charity later | CRT | | Wealth transfer to heirs | CLT | | Maximum control | Private foundation | | Simplicity with tax benefits | Donor-advised fund | | Support specific organization | Supporting organization |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Goal</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Best Vehicle</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Simple, one-time gift</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Charitable bequest</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Income now, charity later</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">CRT</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Wealth transfer to heirs</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">CLT</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Maximum control</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Private foundation</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Simplicity with tax benefits</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Donor-advised fund</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Support specific organization</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Supporting organization</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Work with Professionals</h3>
           <p><strong>Estate planning attorney:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -890,7 +1000,42 @@ export const ESTATEPLANNING_ARTICLES: Article[] = [
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Federal Estate Tax Exemption Changes</h3>
           <p>The federal estate tax exemption has changed dramatically over time:</p>
-          <p>| Year | Exemption Amount | |------|-----------------| | 2001 | $675,000 | | 2009 | $3.5 million | | 2017 | $5.49 million | | 2024 | $13.99 million | | 2025 | $13.99 million | | 2026+ | $15 million (indexed for inflation) |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Year</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Exemption Amount</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2001</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$675,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2009</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$3.5 million</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2017</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5.49 million</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2024</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$13.99 million</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2025</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$13.99 million</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2026+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$15 million (indexed for inflation)</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Why it matters:</strong> Estate plans designed to minimize estate taxes at lower thresholds may include provisions that are counterproductive at higher thresholds—or may have completely ignored estate tax planning when it wasn't needed.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">2026 Permanent Exemption Increase</h3>
           <p>The One Big Beautiful Bill Act (signed July 2025) permanently set the federal estate tax exemption at $15 million per person ($30 million per married couple) starting January 1, 2026, indexed annually for inflation. This eliminates the previously scheduled TCJA sunset.</p>
@@ -1574,7 +1719,69 @@ export const ESTATEPLANNING_ARTICLES: Article[] = [
         title: 'Will vs. Trust: Key Differences',
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Comparison Table</h3>
-          <p>| Feature | Will | Revocable Trust | |---------|------|-----------------| | Probate required | Yes | No | | Public record | Yes | No | | Effective when | After death | Immediately | | Incapacity planning | No | Yes | | Cost to create | Lower | Higher | | Ongoing maintenance | Minimal | Must fund trust | | Minor children guardian | Yes | No | | Privacy | None | Yes | | Court supervision | Yes | No | | Creditor protection | No | No (revocable) |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Feature</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Will</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Revocable Trust</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Probate required</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Public record</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Effective when</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">After death</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Immediately</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Incapacity planning</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Cost to create</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Lower</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Higher</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Ongoing maintenance</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Minimal</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Must fund trust</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Minor children guardian</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Privacy</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">None</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Court supervision</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Creditor protection</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No (revocable)</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">When a Will Is Sufficient</h3>
           <p><strong>A simple will may be enough if:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -2316,7 +2523,38 @@ export const ESTATEPLANNING_ARTICLES: Article[] = [
           <p><strong>Married couple:</strong> $27.22 million combined (with portability)</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Inflation Adjustments</h3>
           <p>The exemption is indexed for inflation:</p>
-          <p>| Year | Individual Exemption | |------|---------------------| | 2020 | $11.58 million | | 2021 | $11.70 million | | 2022 | $12.06 million | | 2023 | $12.92 million | | 2024 | $13.99 million |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Year</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Individual Exemption</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2020</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$11.58 million</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2021</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$11.70 million</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2022</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$12.06 million</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2023</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$12.92 million</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2024</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$13.99 million</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">The 2026 Sunset</h3>
           <p><strong>Critical planning consideration:</strong> The current high exemption expires December 31, 2025.</p>
           <p><strong>After 2025:</strong></p>
@@ -2353,7 +2591,63 @@ export const ESTATEPLANNING_ARTICLES: Article[] = [
           <li>Marital deduction (unlimited for U.S. citizen spouse)</li>
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Example Calculation</h3>
-          <p><strong>Single individual, 2024:</strong> | Component | Amount | |-----------|--------| | Real estate | $5,000,000 | | Investments | $8,000,000 | | Retirement accounts | $3,000,000 | | Life insurance | $2,000,000 | | <strong>Gross estate</strong> | <strong>$18,000,000</strong> | | Less: Debts and expenses | ($200,000) | | Less: Charitable bequest | ($500,000) | | <strong>Taxable estate</strong> | <strong>$17,300,000</strong> | | Less: Exemption | ($13,610,000) | | <strong>Amount subject to tax</strong> | <strong>$3,690,000</strong> | | <strong>Estate tax (40%)</strong> | <strong>$1,476,000</strong> |</p>
+          <p><strong>Single individual, 2024:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Component</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Amount</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Real estate</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5,000,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Investments</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$8,000,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Retirement accounts</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$3,000,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Life insurance</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,000,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Gross estate</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$18,000,000</strong></td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Less: Debts and expenses</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">($200,000)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Less: Charitable bequest</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">($500,000)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Taxable estate</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$17,300,000</strong></td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Less: Exemption</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">($13,610,000)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Amount subject to tax</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$3,690,000</strong></td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Estate tax (40%)</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$1,476,000</strong></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
         `
       },
       {
@@ -2392,7 +2686,84 @@ export const ESTATEPLANNING_ARTICLES: Article[] = [
         title: 'State Estate Taxes',
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">States With Estate Tax</h3>
-          <p>| State | Exemption (2024) | Top Rate | |-------|-----------------|----------| | Connecticut | $13.99 million | 12% | | Hawaii | $5.49 million | 20% | | Illinois | $4 million | 16% | | Maine | $6.8 million | 12% | | Maryland | $5 million | 16% | | Massachusetts | $2 million | 16% | | Minnesota | $3 million | 16% | | New York | $6.94 million | 16% | | Oregon | $1 million | 16% | | Rhode Island | $1.77 million | 16% | | Vermont | $5 million | 16% | | Washington | $2.19 million | 20% | | DC | $4.71 million | 16% |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">State</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Exemption (2024)</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Top Rate</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Connecticut</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$13.99 million</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">12%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Hawaii</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5.49 million</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">20%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Illinois</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$4 million</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">16%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Maine</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$6.8 million</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">12%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Maryland</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5 million</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">16%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Massachusetts</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2 million</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">16%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Minnesota</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$3 million</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">16%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">New York</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$6.94 million</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">16%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Oregon</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1 million</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">16%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Rhode Island</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1.77 million</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">16%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Vermont</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5 million</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">16%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Washington</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2.19 million</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">20%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">DC</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$4.71 million</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">16%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">States With Inheritance Tax</h3>
           <p>Tax paid by recipient, not estate:</p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -2698,7 +3069,30 @@ export const ESTATEPLANNING_ARTICLES: Article[] = [
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">How Long Does Probate Take?</h3>
           <p><strong>Typical timeline by state type:</strong></p>
-          <p>| State Type | Typical Duration | |------------|-----------------| | Simple states | 4-8 months | | Moderate states | 8-12 months | | Complex states (CA, NY) | 12-24 months |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">State Type</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Typical Duration</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Simple states</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">4-8 months</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Moderate states</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">8-12 months</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Complex states (CA, NY)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">12-24 months</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Factors Affecting Duration</h3>
           <p><strong>Faster probate:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -2748,8 +3142,56 @@ export const ESTATEPLANNING_ARTICLES: Article[] = [
           <li>Property maintenance</li>
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Cost by State</h3>
-          <p><strong>High-cost states:</strong> | State | Typical Cost | |-------|-------------| | California | 4-7% of estate | | Florida | 3-5% of estate | | New York | 2-5% of estate |</p>
-          <p><strong>Lower-cost states:</strong> | State | Typical Cost | |-------|-------------| | Texas | 2-3% of estate | | Wisconsin | 0.5-1.5% of estate | | UPC states* | Generally lower |</p>
+          <p><strong>High-cost states:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">State</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Typical Cost</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">California</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">4-7% of estate</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Florida</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">3-5% of estate</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">New York</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2-5% of estate</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <p><strong>Lower-cost states:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">State</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Typical Cost</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Texas</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2-3% of estate</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Wisconsin</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.5-1.5% of estate</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">UPC states*</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Generally lower</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p>*Uniform Probate Code states have streamlined procedures.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Example Cost Calculation</h3>
           <p><strong>California estate: $1,000,000</strong></p>
@@ -2893,7 +3335,38 @@ export const ESTATEPLANNING_ARTICLES: Article[] = [
           </ul>
           <p><strong>Thresholds vary:</strong> $20,000 to $150,000+ depending on state.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Which Strategy Is Best?</h3>
-          <p>| Situation | Best Approach | |-----------|--------------| | Few assets, simple estate | Beneficiary designations | | Moderate assets, simple family | TOD/POD + beneficiary designations | | Significant assets | Revocable living trust | | Multi-state real estate | Revocable living trust | | Privacy important | Revocable living trust |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Situation</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Best Approach</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Few assets, simple estate</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Beneficiary designations</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Moderate assets, simple family</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">TOD/POD + beneficiary designations</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Significant assets</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Revocable living trust</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Multi-state real estate</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Revocable living trust</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Privacy important</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Revocable living trust</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
         `
       },
       {
@@ -3318,7 +3791,45 @@ export const ESTATEPLANNING_ARTICLES: Article[] = [
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">What Makes a Trust Irrevocable?</h3>
           <p><strong>Definition:</strong> An irrevocable trust cannot be modified, amended, or terminated by the grantor without beneficiary consent (and sometimes court approval).</p>
-          <p><strong>Key distinction from revocable trust:</strong> | Feature | Revocable Trust | Irrevocable Trust | |---------|-----------------|-------------------| | Can be changed | Yes | Generally no | | Assets in your estate | Yes | No | | Income tax treatment | Pass-through | May be separate entity | | Creditor protection | None | Potentially yes | | Medicaid eligibility | Assets counted | May be excluded |</p>
+          <p><strong>Key distinction from revocable trust:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Feature</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Revocable Trust</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Irrevocable Trust</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Can be changed</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Generally no</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Assets in your estate</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Income tax treatment</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Pass-through</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">May be separate entity</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Creditor protection</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">None</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Potentially yes</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Medicaid eligibility</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Assets counted</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">May be excluded</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Why Give Up Control?</h3>
           <p>The benefits justify the permanence:</p>
           <ul class="list-disc pl-6 space-y-2 my-4">

@@ -52,7 +52,43 @@ export const RISKMANAGEMENT_ARTICLES: Article[] = [
           <li>Personal injury claims</li>
           <li>Worldwide incidents</li>
           </ul>
-          <p><strong>Types of claims covered:</strong> | Claim Type | Example | |------------|---------| | Bodily injury | Guest falls on your icy driveway | | Property damage | Your child damages neighbor's property | | Libel/slander | Defamation lawsuit | | False arrest | Wrongful citizen's arrest | | Malicious prosecution | Frivolous lawsuit defense | | Invasion of privacy | Privacy violation claim |</p>
+          <p><strong>Types of claims covered:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Claim Type</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Example</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Bodily injury</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Guest falls on your icy driveway</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Property damage</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Your child damages neighbor's property</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Libel/slander</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Defamation lawsuit</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">False arrest</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Wrongful citizen's arrest</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Malicious prosecution</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Frivolous lawsuit defense</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Invasion of privacy</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Privacy violation claim</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">What Umbrella Insurance Doesn't Cover</h3>
           <p><strong>Exclusions:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -81,14 +117,103 @@ export const RISKMANAGEMENT_ARTICLES: Article[] = [
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Standard Policies Are Insufficient</h3>
           <p><strong>Typical policy limits:</strong></p>
-          <p>| Policy Type | Standard Limit | May Need | |-------------|---------------|----------| | Auto liability | $100,000-$500,000 | $1,000,000+ | | Homeowners liability | $100,000-$300,000 | $1,000,000+ | | Boat liability | $25,000-$100,000 | $500,000+ |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Policy Type</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Standard Limit</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">May Need</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Auto liability</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$100,000-$500,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,000,000+</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Homeowners liability</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$100,000-$300,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,000,000+</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Boat liability</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$25,000-$100,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500,000+</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Gap in protection:</strong> Your assets could be exposed to claims exceeding these limits.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">The Cost of Claims</h3>
           <p><strong>Sample claim costs:</strong></p>
-          <p>| Scenario | Potential Claim | |----------|-----------------| | Serious auto accident (multiple injuries) | $1,000,000-$5,000,000+ | | Pool drowning | $2,000,000-$10,000,000+ | | Dog bite (severe injury) | $500,000-$2,000,000 | | Defamation lawsuit | $100,000-$1,000,000+ | | Teen driver serious accident | $1,000,000-$3,000,000+ |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Scenario</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Potential Claim</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Serious auto accident (multiple injuries)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,000,000-$5,000,000+</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Pool drowning</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,000,000-$10,000,000+</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Dog bite (severe injury)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500,000-$2,000,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Defamation lawsuit</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$100,000-$1,000,000+</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Teen driver serious accident</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,000,000-$3,000,000+</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Umbrella Coverage Is Inexpensive</h3>
           <p><strong>Cost comparison:</strong></p>
-          <p>| Coverage Amount | Annual Premium | |----------------|----------------| | $1,000,000 | $150-$300 | | $2,000,000 | $225-$400 | | $3,000,000 | $300-$500 | | $5,000,000 | $450-$700 | | $10,000,000 | $750-$1,500 |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Coverage Amount</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Annual Premium</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,000,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$150-$300</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,000,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$225-$400</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$3,000,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$300-$500</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5,000,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$450-$700</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$10,000,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$750-$1,500</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Why so affordable:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
           <li>Claims are relatively rare</li>
@@ -112,12 +237,115 @@ export const RISKMANAGEMENT_ARTICLES: Article[] = [
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Factors That Increase Your Need</h3>
           <p><strong>Higher coverage recommended if:</strong></p>
-          <p>| Factor | Why More Coverage | |--------|------------------| | Teen drivers | Higher accident risk | | Swimming pool | Drowning liability | | Trampoline | Injury liability | | Dog (certain breeds) | Bite liability | | Rental properties | Tenant injuries | | Boat or watercraft | Maritime accidents | | Household employees | Employer liability | | High public profile | Increased lawsuit target |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Factor</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Why More Coverage</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Teen drivers</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Higher accident risk</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Swimming pool</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Drowning liability</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Trampoline</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Injury liability</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Dog (certain breeds)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Bite liability</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Rental properties</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Tenant injuries</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Boat or watercraft</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Maritime accidents</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Household employees</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Employer liability</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">High public profile</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Increased lawsuit target</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Coverage Recommendations by Net Worth</h3>
-          <p>| Net Worth | Minimum Umbrella | Recommended | |-----------|------------------|-------------| | $500,000 | $1,000,000 | $1,000,000-$2,000,000 | | $1,000,000 | $1,000,000 | $2,000,000-$3,000,000 | | $2,000,000 | $2,000,000 | $3,000,000-$5,000,000 | | $5,000,000 | $5,000,000 | $5,000,000-$10,000,000 | | $10,000,000+ | $10,000,000+ | $10,000,000-$25,000,000+ |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Net Worth</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Minimum Umbrella</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Recommended</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,000,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,000,000-$2,000,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,000,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,000,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,000,000-$3,000,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,000,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,000,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$3,000,000-$5,000,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5,000,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5,000,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5,000,000-$10,000,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$10,000,000+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$10,000,000+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$10,000,000-$25,000,000+</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Underlying Coverage Requirements</h3>
           <p><strong>Umbrella policies require minimum underlying limits:</strong></p>
-          <p>| Policy | Typical Minimum Required | |--------|-------------------------| | Auto liability | $250,000/$500,000 | | Homeowners liability | $300,000 | | Boat liability | $100,000 |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Policy</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Typical Minimum Required</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Auto liability</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$250,000/$500,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Homeowners liability</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$300,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Boat liability</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$100,000</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Note:</strong> May need to increase underlying coverage to qualify for umbrella.</p>
         `
       },
@@ -398,7 +626,45 @@ export const RISKMANAGEMENT_ARTICLES: Article[] = [
           <li>Required foundation before other strategies</li>
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Types of Insurance for Asset Protection</h3>
-          <p><strong>Liability insurance:</strong> | Type | What It Covers | Recommended Amount | |------|----------------|-------------------| | Auto liability | Accidents you cause | $500,000+ | | Homeowners liability | Injuries on property | $500,000+ | | Umbrella | Excess liability | Equal to net worth | | Professional liability | Malpractice claims | Varies by profession | | Commercial general liability | Business operations | $1-2 million |</p>
+          <p><strong>Liability insurance:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Type</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">What It Covers</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Recommended Amount</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Auto liability</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Accidents you cause</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500,000+</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Homeowners liability</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Injuries on property</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500,000+</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Umbrella</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Excess liability</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Equal to net worth</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Professional liability</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Malpractice claims</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Varies by profession</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Commercial general liability</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Business operations</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1-2 million</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Other protective insurance:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
           <li>Directors & officers (D&O)</li>
@@ -484,7 +750,29 @@ export const RISKMANAGEMENT_ARTICLES: Article[] = [
           <li>LLC assets may be protected from your personal liabilities</li>
           </ul>
           <p><strong>Inside vs. outside protection:</strong></p>
-          <p>| Protection Type | What It Means | Example | |----------------|---------------|---------| | Inside-out | LLC shields owner from LLC debts | Tenant sues LLC; your home protected | | Outside-in | LLC shields LLC from owner's debts | You're sued personally; LLC assets protected |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Protection Type</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">What It Means</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Example</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Inside-out</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">LLC shields owner from LLC debts</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Tenant sues LLC; your home protected</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Outside-in</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">LLC shields LLC from owner's debts</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">You're sued personally; LLC assets protected</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Charging order protection:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
           <li>In many states, creditors can only get "charging order"</li>
@@ -626,7 +914,45 @@ export const RISKMANAGEMENT_ARTICLES: Article[] = [
         title: 'Protecting Specific Assets',
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Real Estate</h3>
-          <p><strong>Strategies:</strong> | Strategy | Protection Level | Cost | |----------|-----------------|------| | Adequate insurance | Moderate | $ | | Umbrella policy | Good | $ | | Hold in LLC | Better | $$ | | Hold in multiple LLCs | Strong | $$$ | | Land trust + LLC | Strong | $$$ |</p>
+          <p><strong>Strategies:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Strategy</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Protection Level</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Cost</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Adequate insurance</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Moderate</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Umbrella policy</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Good</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Hold in LLC</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Better</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$$</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Hold in multiple LLCs</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Strong</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$$$</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Land trust + LLC</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Strong</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$$$</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Mortgage consideration:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
           <li>Lenders may require personal guarantee</li>
@@ -747,7 +1073,34 @@ export const RISKMANAGEMENT_ARTICLES: Article[] = [
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Look-Back Periods</h3>
           <p><strong>How far back courts can look:</strong></p>
-          <p>| Jurisdiction | Look-Back Period | |--------------|------------------| | State law (UFTA/UVTA) | 4 years (most states) | | Federal bankruptcy | 2 years | | IRS collections | Up to 10 years | | Some states | Up to 6-7 years |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Jurisdiction</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Look-Back Period</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">State law (UFTA/UVTA)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">4 years (most states)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Federal bankruptcy</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2 years</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">IRS collections</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Up to 10 years</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Some states</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Up to 6-7 years</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Implication:</strong> The longer before any issue, the safer the transfer.</p>
         `
       },
@@ -981,7 +1334,38 @@ export const RISKMANAGEMENT_ARTICLES: Article[] = [
           <p><strong>How much is needed:</strong> Estimate estate tax liability + settlement costs + debts</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Calculating Liquidity Needs</h3>
           <p><strong>Example estate:</strong></p>
-          <p>| Asset | Value | |-------|-------| | Home | $2,000,000 | | Investment portfolio | $3,000,000 | | Family business | $8,000,000 | | Other assets | $1,000,000 | | <strong>Total Estate</strong> | <strong>$14,000,000</strong> |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Asset</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Value</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Home</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,000,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Investment portfolio</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$3,000,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Family business</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$8,000,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Other assets</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,000,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Total Estate</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$14,000,000</strong></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Tax calculation (2024):</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
           <li>Estate: $14,000,000</li>
@@ -1087,7 +1471,29 @@ export const RISKMANAGEMENT_ARTICLES: Article[] = [
           <li>Insurance provides cash to buy deceased's share</li>
           </ul>
           <p><strong>Types of buy-sell:</strong></p>
-          <p>| Type | Who Owns Insurance | Who Buys Shares | |------|-------------------|-----------------| | Cross-purchase | Each partner on others | Surviving partners | | Entity (redemption) | Business on owners | Business |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Type</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Who Owns Insurance</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Who Buys Shares</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Cross-purchase</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Each partner on others</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Surviving partners</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Entity (redemption)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Business on owners</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Business</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Key Person Insurance</h3>
           <p><strong>Purpose:</strong> Protect business from loss of key employee/owner.</p>
           <p><strong>How it works:</strong></p>
@@ -1253,7 +1659,34 @@ export const RISKMANAGEMENT_ARTICLES: Article[] = [
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">What Retirees Actually Spend</h3>
           <p><strong>Average annual healthcare spending by age:</strong></p>
-          <p>| Age Group | Annual Spending | |-----------|-----------------| | 55-64 | $7,000-$9,000 | | 65-74 | $6,000-$8,000 (Medicare kicks in) | | 75-84 | $8,000-$11,000 | | 85+ | $15,000-$20,000+ |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Age Group</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Annual Spending</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">55-64</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$7,000-$9,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">65-74</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$6,000-$8,000 (Medicare kicks in)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">75-84</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$8,000-$11,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">85+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$15,000-$20,000+</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Lifetime estimates (couple, age 65):</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
           <li>Fidelity estimate: $315,000 (median, excluding long-term care)</li>
@@ -1262,7 +1695,50 @@ export const RISKMANAGEMENT_ARTICLES: Article[] = [
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Major Categories of Healthcare Costs</h3>
           <p><strong>Regular retirement healthcare costs:</strong></p>
-          <p>| Category | Typical Annual Cost (Per Person) | |----------|----------------------------------| | Medicare Part B premium | $2,100-$8,000+ (income-based) | | Medicare Part D premium | $300-$600+ | | Medigap premium | $1,500-$4,500 | | Out-of-pocket (copays, coinsurance) | $1,500-$4,000 | | Dental (not covered) | $500-$2,000 | | Vision (limited coverage) | $200-$500 | | Hearing aids (limited coverage) | $0-$2,000 | | <strong>Total Annual</strong> | <strong>$6,000-$20,000+</strong> |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Category</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Typical Annual Cost (Per Person)</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Medicare Part B premium</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,100-$8,000+ (income-based)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Medicare Part D premium</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$300-$600+</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Medigap premium</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,500-$4,500</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Out-of-pocket (copays, coinsurance)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,500-$4,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Dental (not covered)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500-$2,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Vision (limited coverage)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$200-$500</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Hearing aids (limited coverage)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$0-$2,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Total Annual</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$6,000-$20,000+</strong></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">What Makes Healthcare Costs Unpredictable</h3>
           <p><strong>Cost drivers:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -1345,11 +1821,91 @@ export const RISKMANAGEMENT_ARTICLES: Article[] = [
           <li>Plan N (good value): ~$100-$200/month</li>
           <li>Plan F: No longer available for new enrollees</li>
           </ul>
-          <p><strong>Medigap vs. Medicare Advantage:</strong> | Factor | Medigap | Medicare Advantage | |--------|---------|-------------------| | Monthly cost | Higher | Lower (often $0) | | Out-of-pocket protection | Better | Varies | | Doctor choice | Any Medicare provider | Network required | | Extra benefits | No | Often yes (dental, vision) | | Predictability | More predictable | Less predictable |</p>
+          <p><strong>Medigap vs. Medicare Advantage:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Factor</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Medigap</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Medicare Advantage</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Monthly cost</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Higher</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Lower (often $0)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Out-of-pocket protection</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Better</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Varies</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Doctor choice</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Any Medicare provider</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Network required</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Extra benefits</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Often yes (dental, vision)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Predictability</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">More predictable</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Less predictable</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">IRMAA: Income-Related Monthly Adjustment Amount</h3>
           <p><strong>What it is:</strong> Higher-income retirees pay more for Medicare Parts B and D.</p>
           <p><strong>2024 IRMAA brackets (single filers):</strong></p>
-          <p>| Modified AGI (2022) | Part B Monthly | Part D Surcharge | |--------------------|----------------|------------------| | ≤$103,000 | $174.70 | $0 | | $103,001-$129,000 | $244.60 | $12.90 | | $129,001-$161,000 | $349.40 | $33.30 | | $161,001-$193,000 | $454.20 | $53.80 | | $193,001-$500,000 | $559.00 | $74.20 | | >$500,000 | $594.00 | $81.00 |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Modified AGI (2022)</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Part B Monthly</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Part D Surcharge</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">≤$103,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$174.70</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$0</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$103,001-$129,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$244.60</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$12.90</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$129,001-$161,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$349.40</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$33.30</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$161,001-$193,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$454.20</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$53.80</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$193,001-$500,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$559.00</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$74.20</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">>$500,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$594.00</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$81.00</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Planning implication:</strong> Manage income to minimize IRMAA (Roth conversions, timing of withdrawals).</p>
         `
       },
@@ -1365,7 +1921,34 @@ export const RISKMANAGEMENT_ARTICLES: Article[] = [
           <li>20% will need care for 5+ years</li>
           </ul>
           <p><strong>Costs (2024 national averages):</strong></p>
-          <p>| Type of Care | Monthly Cost | |--------------|--------------| | Nursing home (private room) | $9,500-$10,500 | | Nursing home (semi-private) | $8,000-$9,000 | | Assisted living | $4,500-$5,000 | | Home health aide (44 hrs/week) | $5,500-$6,000 |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Type of Care</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Monthly Cost</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Nursing home (private room)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$9,500-$10,500</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Nursing home (semi-private)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$8,000-$9,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Assisted living</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$4,500-$5,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Home health aide (44 hrs/week)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5,500-$6,000</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">What Medicare Covers (Spoiler: Not Much)</h3>
           <p><strong>Medicare covers:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -1593,7 +2176,54 @@ export const RISKMANAGEMENT_ARTICLES: Article[] = [
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Step 1: Estimate Your Costs</h3>
           <p><strong>Worksheet:</strong></p>
-          <p>| Category | Estimated Annual Cost | |----------|----------------------| | Medicare Part B premium | $ | | Part D or Advantage premium | $ | | Medigap premium | $ | | Out-of-pocket (copays, coinsurance) | $ | | Dental | $ | | Vision | $ | | Hearing | $ | | Long-term care (contribution to fund) | $ | | <strong>Total Annual</strong> | <strong>$</strong> |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Category</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Estimated Annual Cost</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Medicare Part B premium</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Part D or Advantage premium</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Medigap premium</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Out-of-pocket (copays, coinsurance)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Dental</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Vision</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Hearing</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Long-term care (contribution to fund)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Total Annual</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$</strong></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Step 2: Assess Your Resources</h3>
           <p><strong>Available for healthcare:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -1690,7 +2320,46 @@ export const RISKMANAGEMENT_ARTICLES: Article[] = [
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Common Causes of Disability</h3>
           <p><strong>Leading causes:</strong></p>
-          <p>| Cause | % of Disability Claims | |-------|----------------------| | Musculoskeletal (back, joints) | 27% | | Cancer | 15% | | Mental health/nervous system | 14% | | Cardiovascular | 12% | | Injuries | 11% | | Pregnancy complications | 8% | | Other illnesses | 13% |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Cause</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">% of Disability Claims</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Musculoskeletal (back, joints)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">27%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Cancer</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">15%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Mental health/nervous system</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">14%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Cardiovascular</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">12%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Injuries</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">11%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Pregnancy complications</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">8%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Other illnesses</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">13%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Note:</strong> Accidents are minority of claims—illness is primary cause.</p>
         `
       },
@@ -1731,8 +2400,64 @@ export const RISKMANAGEMENT_ARTICLES: Article[] = [
           <li>Primary income protection</li>
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Individual vs. Group Coverage</h3>
-          <p><strong>Employer-provided (Group):</strong> | Pros | Cons | |------|------| | Usually free or subsidized | Limited coverage (usually 60%) | | No medical underwriting | May lose when leaving employer | | Easy to enroll | Benefits may be taxable | | | Less favorable definitions |</p>
-          <p><strong>Individual policies:</strong> | Pros | Cons | |------|------| | Portable (you own it) | Requires medical underwriting | | Better definitions | You pay full premium | | Benefits tax-free if you pay | Must qualify medically | | More customizable | More expensive |</p>
+          <p><strong>Employer-provided (Group):</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Pros</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Cons</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Usually free or subsidized</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Limited coverage (usually 60%)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No medical underwriting</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">May lose when leaving employer</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Easy to enroll</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Benefits may be taxable</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Less favorable definitions</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <p><strong>Individual policies:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Pros</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Cons</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Portable (you own it)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Requires medical underwriting</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Better definitions</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">You pay full premium</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Benefits tax-free if you pay</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Must qualify medically</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">More customizable</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">More expensive</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
         `
       },
       {
@@ -1777,11 +2502,75 @@ export const RISKMANAGEMENT_ARTICLES: Article[] = [
           <p><strong>Benefit cap:</strong> Maximum monthly benefit (often $10,000-$25,000 for individual policies).</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Elimination Period</h3>
           <p><strong>Waiting period before benefits begin:</strong></p>
-          <p>| Elimination Period | Effect on Premium | Best For | |-------------------|------------------|----------| | 30 days | Highest | Those without savings | | 60 days | Higher | Modest emergency fund | | 90 days | Moderate | Standard recommendation | | 180 days | Lower | Large emergency fund | | 365 days | Lowest | Wealthy individuals |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Elimination Period</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Effect on Premium</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Best For</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">30 days</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Highest</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Those without savings</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">60 days</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Higher</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Modest emergency fund</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">90 days</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Moderate</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Standard recommendation</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">180 days</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Lower</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Large emergency fund</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">365 days</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Lowest</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Wealthy individuals</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Coordination with emergency fund:</strong> Elimination period should match what your savings can cover.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Benefit Period</h3>
           <p><strong>How long benefits are paid:</strong></p>
-          <p>| Benefit Period | Best For | |---------------|----------| | 2 years | Budget option (not recommended) | | 5 years | Covers most disabilities | | To age 65 | Maximum protection | | To age 67 | Matches Social Security full retirement age |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Benefit Period</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Best For</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2 years</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Budget option (not recommended)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">5 years</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Covers most disabilities</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">To age 65</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Maximum protection</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">To age 67</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Matches Social Security full retirement age</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Recommendation:</strong> Coverage to age 65 or 67 for primary income protection.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Residual/Partial Disability</h3>
           <p><strong>Covers partial loss of income:</strong></p>
@@ -1821,7 +2610,47 @@ export const RISKMANAGEMENT_ARTICLES: Article[] = [
         title: 'How Much Coverage You Need',
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Calculating Your Need</h3>
-          <p><strong>Step 1: Calculate monthly expenses:</strong> | Category | Monthly Amount | |----------|---------------| | Housing | $ | | Utilities | $ | | Food | $ | | Insurance (health, auto) | $ | | Debt payments | $ | | Other essentials | $ | | <strong>Total Essential Expenses</strong> | <strong>$</strong> |</p>
+          <p><strong>Step 1: Calculate monthly expenses:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Category</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Monthly Amount</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Housing</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Utilities</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Food</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Insurance (health, auto)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Debt payments</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Other essentials</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Total Essential Expenses</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$</strong></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Step 2: Assess other income sources:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
           <li>Spouse's income</li>
@@ -1880,14 +2709,125 @@ export const RISKMANAGEMENT_ARTICLES: Article[] = [
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Occupation Classes</h3>
           <p><strong>Insurers rate occupations by risk:</strong></p>
-          <p>| Class | Examples | Premium Level | |-------|----------|---------------| | 6A/5A (lowest risk) | Office professionals, executives | Lowest | | 4A | Engineers, accountants | Low | | 3A | Sales, nurses | Moderate | | 2A | Retail, skilled labor | Higher | | 1A/B | Manual labor, construction | Highest |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Class</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Examples</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Premium Level</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">6A/5A (lowest risk)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Office professionals, executives</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Lowest</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">4A</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Engineers, accountants</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Low</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">3A</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Sales, nurses</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Moderate</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2A</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Retail, skilled labor</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Higher</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1A/B</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Manual labor, construction</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Highest</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Impact:</strong> Same coverage may cost 2-3× more for high-risk occupations.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Premium Factors</h3>
           <p><strong>What affects your cost:</strong></p>
-          <p>| Factor | Impact | |--------|--------| | Age | Younger = cheaper | | Gender | Women pay more (higher claim rates) | | Health | Better health = lower premium | | Occupation | Desk job = cheaper | | Benefit amount | More coverage = higher premium | | Benefit period | Longer = more expensive | | Elimination period | Longer = cheaper | | Riders | Add to base premium |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Factor</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Impact</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Age</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Younger = cheaper</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Gender</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Women pay more (higher claim rates)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Health</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Better health = lower premium</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Occupation</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Desk job = cheaper</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Benefit amount</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">More coverage = higher premium</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Benefit period</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Longer = more expensive</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Elimination period</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Longer = cheaper</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Riders</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Add to base premium</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Sample Premium Costs</h3>
           <p><strong>Individual LTD policy (age 35, office professional):</strong></p>
-          <p>| Monthly Benefit | Elimination | Benefit Period | Annual Premium | |-----------------|-------------|----------------|----------------| | $5,000 | 90 days | To age 65 | $1,200-$1,800 | | $7,500 | 90 days | To age 65 | $1,800-$2,700 | | $10,000 | 90 days | To age 65 | $2,400-$3,600 |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Monthly Benefit</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Elimination</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Benefit Period</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Annual Premium</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">90 days</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">To age 65</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,200-$1,800</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$7,500</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">90 days</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">To age 65</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,800-$2,700</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$10,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">90 days</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">To age 65</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,400-$3,600</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Note:</strong> Premiums vary significantly by insurer, state, and individual factors.</p>
         `
       },
@@ -2096,7 +3036,51 @@ export const RISKMANAGEMENT_ARTICLES: Article[] = [
           <li>Risks you cannot afford to cover</li>
           <li>Legal requirements (auto liability, workers' comp)</li>
           </ul>
-          <p><strong>Examples:</strong> | Risk | Probability | Severity | Insure? | |------|-------------|----------|---------| | House burns down | Very low | Catastrophic | Yes | | Cause major auto accident | Low | High | Yes | | Premature death (with dependents) | Low | Catastrophic | Yes | | Phone screen cracks | Moderate | Low | No | | Appliance breaks | Moderate | Low-moderate | Usually no |</p>
+          <p><strong>Examples:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Risk</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Probability</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Severity</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Insure?</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">House burns down</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Very low</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Catastrophic</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Cause major auto accident</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Low</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">High</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Premature death (with dependents)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Low</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Catastrophic</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Phone screen cracks</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Moderate</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Low</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Appliance breaks</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Moderate</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Low-moderate</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Usually no</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
         `
       },
       {
@@ -2126,7 +3110,44 @@ export const RISKMANAGEMENT_ARTICLES: Article[] = [
           <p><strong>Trade-off:</strong> Higher deductible = Lower premium (but more out-of-pocket risk)</p>
           <h3 class="text-xl font-bold mt-8 mb-4">The Math of High Deductibles</h3>
           <p><strong>Example: Auto insurance</strong></p>
-          <p>| Deductible | Annual Premium | 5-Year Premium | Savings | |------------|---------------|----------------|---------| | $250 | $1,500 | $7,500 | Baseline | | $500 | $1,350 | $6,750 | $750 | | $1,000 | $1,200 | $6,000 | $1,500 | | $2,500 | $1,050 | $5,250 | $2,250 |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Deductible</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Annual Premium</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">5-Year Premium</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Savings</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$250</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,500</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$7,500</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Baseline</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,350</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$6,750</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$750</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,200</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$6,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,500</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,500</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,050</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5,250</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,250</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Break-even analysis:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
           <li>Raise deductible from $500 to $1,000 = $150/year savings</li>
@@ -2280,10 +3301,64 @@ export const RISKMANAGEMENT_ARTICLES: Article[] = [
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Building Your Fund</h3>
           <p><strong>Concept:</strong> Set aside money specifically for self-insured risks.</p>
-          <p><strong>Beyond emergency fund:</strong> | Fund | Purpose | Amount | |------|---------|--------| | Emergency fund | Job loss, major emergencies | 3-6 months expenses | | Self-insurance fund | Deductibles, small losses | Sum of potential deductibles |</p>
+          <p><strong>Beyond emergency fund:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Fund</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Purpose</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Amount</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Emergency fund</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Job loss, major emergencies</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">3-6 months expenses</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Self-insurance fund</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Deductibles, small losses</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Sum of potential deductibles</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Calculating Your Self-Insurance Reserve</h3>
           <p><strong>Add up potential out-of-pocket:</strong></p>
-          <p>| Risk | Maximum Out-of-Pocket | |------|----------------------| | Health deductible | $3,000 | | Auto deductible | $1,000 | | Home deductible | $2,500 | | Appliance replacement | $1,500 | | <strong>Total Reserve Needed</strong> | <strong>$8,000</strong> |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Risk</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Maximum Out-of-Pocket</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Health deductible</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$3,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Auto deductible</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Home deductible</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,500</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Appliance replacement</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,500</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Total Reserve Needed</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$8,000</strong></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Where to Keep Self-Insurance Money</h3>
           <p><strong>Requirements:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -2580,7 +3655,62 @@ export const RISKMANAGEMENT_ARTICLES: Article[] = [
           <li>Those comfortable with complexity</li>
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Comparison of Annuity Types</h3>
-          <p>| Feature | Fixed | Variable | Fixed Indexed | |---------|-------|----------|---------------| | Principal protected | Yes | No | Yes | | Guaranteed return | Yes (minimum) | No | Minimum floor | | Market participation | No | Full | Partial (capped) | | Complexity | Low | High | High | | Fees | Low | High | Moderate | | Upside potential | Limited | Unlimited | Capped | | Downside risk | None | Full market | None |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Feature</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Fixed</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Variable</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Fixed Indexed</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Principal protected</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Guaranteed return</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes (minimum)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Minimum floor</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Market participation</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Full</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Partial (capped)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Complexity</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Low</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">High</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">High</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Fees</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Low</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">High</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Moderate</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Upside potential</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Limited</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Unlimited</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Capped</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Downside risk</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">None</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Full market</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">None</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
         `
       },
       {
@@ -2620,11 +3750,79 @@ export const RISKMANAGEMENT_ARTICLES: Article[] = [
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Total Cost Example</h3>
           <p><strong>Variable annuity with guarantees:</strong></p>
-          <p>| Fee Type | Annual Cost | |----------|-------------| | M&E charge | 1.25% | | Administrative | 0.15% | | Subaccount expenses | 0.80% | | Guaranteed withdrawal rider | 1.00% | | <strong>Total Annual Cost</strong> | <strong>3.20%</strong> |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Fee Type</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Annual Cost</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">M&E charge</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1.25%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Administrative</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.15%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Subaccount expenses</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.80%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Guaranteed withdrawal rider</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1.00%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Total Annual Cost</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>3.20%</strong></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Impact:</strong> On $200,000, that's $6,400/year in fees.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Comparing to Alternatives</h3>
           <p><strong>Variable annuity vs. taxable account:</strong></p>
-          <p>| Factor | Variable Annuity | Low-Cost Index Fund | |--------|------------------|-------------------| | Annual fees | 2.0-3.5% | 0.03-0.10% | | Tax treatment | Tax-deferred | Capital gains taxed | | Liquidity | Restricted | Full | | Guarantees | Available | None | | Death benefit | At cost basis (taxed) | Step-up in basis |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Factor</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Variable Annuity</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Low-Cost Index Fund</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Annual fees</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2.0-3.5%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.03-0.10%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Tax treatment</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Tax-deferred</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Capital gains taxed</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Liquidity</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Restricted</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Full</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Guarantees</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Available</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">None</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Death benefit</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">At cost basis (taxed)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Step-up in basis</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
         `
       },
       {
@@ -3015,7 +4213,39 @@ export const RISKMANAGEMENT_ARTICLES: Article[] = [
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Term Life Cost Examples</h3>
           <p><strong>$500,000 20-year level term (annual premiums):</strong></p>
-          <p>| Age | Excellent Health | Average Health | |-----|------------------|----------------| | 25 | $250-$300 | $350-$450 | | 35 | $350-$400 | $500-$650 | | 45 | $700-$900 | $1,000-$1,400 | | 55 | $1,600-$2,200 | $2,500-$3,500 |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Age</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Excellent Health</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Average Health</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">25</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$250-$300</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$350-$450</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">35</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$350-$400</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500-$650</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">45</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$700-$900</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,000-$1,400</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">55</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,600-$2,200</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,500-$3,500</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">When Term Life Makes Sense</h3>
           <p><strong>Ideal for:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -3060,7 +4290,40 @@ export const RISKMANAGEMENT_ARTICLES: Article[] = [
           <li>Withdraw (may reduce death benefit)</li>
           <li>Surrender policy for cash value</li>
           </ul>
-          <p><strong>Example growth:</strong> $500,000 whole life policy ($6,000/year premium): | Year | Cash Value | Death Benefit | |------|------------|---------------| | 5 | $15,000 | $500,000 | | 10 | $45,000 | $500,000 | | 20 | $130,000 | $500,000 | | 30 | $280,000 | $500,000 |</p>
+          <p><strong>Example growth:</strong> $500,000 whole life policy ($6,000/year premium):</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Year</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Cash Value</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Death Benefit</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">5</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$15,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">10</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$45,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">20</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$130,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">30</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$280,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500,000</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Whole Life Advantages</h3>
           <p><strong>Guaranteed coverage:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -3114,7 +4377,39 @@ export const RISKMANAGEMENT_ARTICLES: Article[] = [
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Whole Life Cost Examples</h3>
           <p><strong>$500,000 whole life (annual premiums):</strong></p>
-          <p>| Age at Issue | Annual Premium | Lifetime Total (to age 85) | |--------------|----------------|---------------------------| | 25 | $4,500 | $270,000 | | 35 | $6,500 | $325,000 | | 45 | $10,500 | $420,000 | | 55 | $18,000 | $540,000 |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Age at Issue</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Annual Premium</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Lifetime Total (to age 85)</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">25</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$4,500</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$270,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">35</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$6,500</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$325,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">45</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$10,500</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$420,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">55</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$18,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$540,000</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">When Whole Life Makes Sense</h3>
           <p><strong>Potentially appropriate for:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -3312,9 +4607,137 @@ export const RISKMANAGEMENT_ARTICLES: Article[] = [
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Cost Comparison</h3>
           <p><strong>$500,000 coverage, 35-year-old male, excellent health:</strong></p>
-          <p>| Type | Annual Premium | 30-Year Total | Cash Value (Year 30) | |------|----------------|---------------|----------------------| | 30-year term | $450 | $13,500 | $0 | | GUL to age 100 | $3,200 | $96,000 | Minimal | | Whole life | $6,500 | $195,000 | ~$150,000 | | Universal life | $5,500 | $165,000 | ~$100,000 | | IUL | $5,000 | $150,000 | Variable | | VUL | $5,500 | $165,000 | Variable |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Type</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Annual Premium</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">30-Year Total</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Cash Value (Year 30)</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">30-year term</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$450</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$13,500</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$0</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">GUL to age 100</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$3,200</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$96,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Minimal</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Whole life</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$6,500</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$195,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">~$150,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Universal life</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5,500</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$165,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">~$100,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">IUL</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$150,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Variable</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">VUL</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5,500</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$165,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Variable</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Feature Comparison</h3>
-          <p>| Feature | Term | Whole | GUL | UL | IUL | VUL | |---------|------|-------|-----|----|----|-----| | Coverage duration | Limited | Lifetime | Lifetime | Lifetime | Lifetime | Lifetime | | Level premiums | Yes | Yes | Yes | Flexible | Flexible | Flexible | | Cash value | No | Yes | Minimal | Yes | Yes | Yes | | Guaranteed returns | N/A | Yes | N/A | Minimum | Floor | No | | Market exposure | No | No | No | No | Partial | Full | | Complexity | Low | Medium | Low | Medium | High | High | | Cost | Lowest | Highest | Medium | Medium | Medium | Medium |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Feature</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Term</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Whole</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">GUL</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">UL</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">IUL</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">VUL</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Coverage duration</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Limited</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Lifetime</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Lifetime</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Lifetime</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Lifetime</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Lifetime</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Level premiums</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Flexible</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Flexible</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Flexible</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Cash value</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Minimal</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Guaranteed returns</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">N/A</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">N/A</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Minimum</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Floor</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Market exposure</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Partial</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Full</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Complexity</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Low</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Medium</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Low</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Medium</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">High</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">High</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Cost</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Lowest</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Highest</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Medium</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Medium</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Medium</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Medium</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Buy Term and Invest the Difference</h3>
           <p><strong>Classic strategy comparison:</strong></p>
           <p><strong>Option A: $500,000 whole life</strong></p>
@@ -3476,7 +4899,39 @@ export const RISKMANAGEMENT_ARTICLES: Article[] = [
           <li>Rehabilitation therapy</li>
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Where Long-Term Care Is Provided</h3>
-          <p><strong>Settings:</strong> | Type | Monthly Cost (National Average) | |------|--------------------------------| | Nursing home (private room) | $9,500-$10,500 | | Nursing home (semi-private) | $8,000-$9,000 | | Assisted living facility | $4,500-$5,000 | | Home health aide | $5,000-$6,000 (44 hrs/week) | | Adult day care | $1,500-$2,000 |</p>
+          <p><strong>Settings:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Type</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Monthly Cost (National Average)</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Nursing home (private room)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$9,500-$10,500</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Nursing home (semi-private)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$8,000-$9,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Assisted living facility</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$4,500-$5,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Home health aide</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5,000-$6,000 (44 hrs/week)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Adult day care</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,500-$2,000</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Note:</strong> Costs vary dramatically by location—$15,000+/month in New York or California.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">The Long-Term Care Risk</h3>
           <p><strong>Statistics:</strong></p>
@@ -3516,7 +4971,34 @@ export const RISKMANAGEMENT_ARTICLES: Article[] = [
           <li>Cognitive impairment requiring supervision</li>
           </ul>
           <p><strong>Key policy terms:</strong></p>
-          <p>| Term | What It Means | |------|---------------| | Daily/monthly benefit | Maximum payment per day/month | | Benefit period | How long benefits last (2, 3, 5 years, or lifetime) | | Elimination period | Waiting period before benefits begin (like deductible) | | Inflation protection | How benefits grow over time |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Term</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">What It Means</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Daily/monthly benefit</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Maximum payment per day/month</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Benefit period</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">How long benefits last (2, 3, 5 years, or lifetime)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Elimination period</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Waiting period before benefits begin (like deductible)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Inflation protection</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">How benefits grow over time</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Coverage Options</h3>
           <p><strong>Daily benefit amounts:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -3586,9 +5068,62 @@ export const RISKMANAGEMENT_ARTICLES: Article[] = [
           <p><strong>What affects your premium:</strong> 1. Age at purchase (biggest factor) 2. Health status 3. Gender (women pay more—longer life expectancy) 4. Marital status (couples may get discounts) 5. Coverage options selected</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Sample Premium Costs</h3>
           <p><strong>Traditional LTCI annual premiums (healthy 55-year-old):</strong></p>
-          <p>| Coverage | Single Male | Single Female | Couple | |----------|-------------|---------------|--------| | $150/day, 3-year, 90-day EP, 3% inflation | $1,500 | $2,800 | $3,500 | | $200/day, 3-year, 90-day EP, 3% inflation | $2,000 | $3,800 | $4,800 | | $200/day, 5-year, 90-day EP, 5% inflation | $3,500 | $6,500 | $8,500 |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Coverage</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Single Male</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Single Female</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Couple</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$150/day, 3-year, 90-day EP, 3% inflation</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,500</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,800</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$3,500</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$200/day, 3-year, 90-day EP, 3% inflation</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$3,800</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$4,800</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$200/day, 5-year, 90-day EP, 5% inflation</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$3,500</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$6,500</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$8,500</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Hybrid policy examples (single premium or annual):</strong></p>
-          <p>| Type | Amount | LTC Benefit Pool | |------|--------|-----------------| | Life/LTC hybrid (single premium) | $100,000 | $300,000-$400,000 | | Life/LTC hybrid (annual premium) | $5,000-$10,000/year | Varies |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Type</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Amount</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">LTC Benefit Pool</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Life/LTC hybrid (single premium)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$100,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$300,000-$400,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Life/LTC hybrid (annual premium)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5,000-$10,000/year</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Varies</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Premium Increases</h3>
           <p><strong>Critical issue:</strong> Traditional LTCI premiums can increase after purchase.</p>
           <p><strong>History:</strong> Many insurers have increased premiums 50-100%+ since policies were issued.</p>
@@ -3707,7 +5242,38 @@ export const RISKMANAGEMENT_ARTICLES: Article[] = [
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">The Self-Insurance Alternative</h3>
           <p><strong>Instead of LTCI, save specifically for care:</strong></p>
-          <p>| Monthly Savings | Years | Growth (5%) | Ending Value | |-----------------|-------|-------------|--------------| | $500 | 20 | $206,000 | Moderate care fund | | $750 | 20 | $309,000 | Solid care fund | | $1,000 | 20 | $412,000 | Strong care fund |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Monthly Savings</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Years</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Growth (5%)</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Ending Value</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">20</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$206,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Moderate care fund</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$750</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">20</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$309,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Solid care fund</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">20</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$412,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Strong care fund</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Pros of self-insurance:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
           <li>Keep money if don't need care</li>
@@ -3864,7 +5430,39 @@ export const RISKMANAGEMENT_ARTICLES: Article[] = [
           <li>Can use HSA for qualified LTC expenses</li>
           <li>Tax-free if used for medical</li>
           </ul>
-          <p><strong>HSA premium limits for LTC insurance (2024):</strong> | Age | Maximum Tax-Free Premium | |-----|-------------------------| | 40 and under | $480 | | 41-50 | $890 | | 51-60 | $1,790 | | 61-70 | $4,770 | | 71+ | $5,960 |</p>
+          <p><strong>HSA premium limits for LTC insurance (2024):</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Age</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Maximum Tax-Free Premium</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">40 and under</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$480</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">41-50</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$890</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">51-60</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,790</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">61-70</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$4,770</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">71+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5,960</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Life Insurance Cash Value</h3>
           <p><strong>Using life insurance for LTC:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -4036,7 +5634,50 @@ export const RISKMANAGEMENT_ARTICLES: Article[] = [
           </ul>
           <p><strong>Adjustment:</strong> If investing proceeds at 5%, divide by discount factor: $2,000,000 ÷ 1.5 = ~$1,333,000</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Quick Reference Table</h3>
-          <p>| Annual Income | Conservative (10×) | Moderate (12×) | Thorough (15×) | |--------------|-------------------|----------------|----------------| | $50,000 | $500,000 | $600,000 | $750,000 | | $75,000 | $750,000 | $900,000 | $1,125,000 | | $100,000 | $1,000,000 | $1,200,000 | $1,500,000 | | $150,000 | $1,500,000 | $1,800,000 | $2,250,000 | | $200,000 | $2,000,000 | $2,400,000 | $3,000,000 |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Annual Income</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Conservative (10×)</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Moderate (12×)</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Thorough (15×)</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$50,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$600,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$750,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$75,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$750,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$900,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,125,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$100,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,000,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,200,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,500,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$150,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,500,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,800,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,250,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$200,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,000,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,400,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$3,000,000</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
         `
       },
       {
@@ -4069,7 +5710,38 @@ export const RISKMANAGEMENT_ARTICLES: Article[] = [
           <li>Years until youngest is 18: 13</li>
           </ul>
           <p><strong>Calculation:</strong></p>
-          <p>| Category | Amount | |----------|--------| | <strong>D</strong>ebt | $20,000 | | <strong>I</strong>ncome (13 years) | $1,300,000 | | <strong>M</strong>ortgage | $350,000 | | <strong>E</strong>ducation ($50K × 2) | $100,000 | | <strong>Total</strong> | <strong>$1,770,000</strong> |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Category</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Amount</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>D</strong>ebt</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$20,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>I</strong>ncome (13 years)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,300,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>M</strong>ortgage</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$350,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>E</strong>ducation ($50K × 2)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$100,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Total</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$1,770,000</strong></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Recommended:</strong> $1,750,000-$2,000,000 policy</p>
         `
       },
@@ -4078,7 +5750,39 @@ export const RISKMANAGEMENT_ARTICLES: Article[] = [
         title: 'Comprehensive Needs Analysis',
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Step 1: Calculate Immediate Needs</h3>
-          <p><strong>One-time expenses:</strong> | Need | Typical Amount | |------|----------------| | Final expenses (funeral, burial) | $15,000-$25,000 | | Estate settlement costs | $5,000-$15,000 | | Emergency fund for survivors | $10,000-$30,000 | | Debt payoff (non-mortgage) | Varies | | <strong>Total Immediate Needs</strong> | Sum of above |</p>
+          <p><strong>One-time expenses:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Need</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Typical Amount</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Final expenses (funeral, burial)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$15,000-$25,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Estate settlement costs</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5,000-$15,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Emergency fund for survivors</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$10,000-$30,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Debt payoff (non-mortgage)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Varies</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Total Immediate Needs</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Sum of above</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Step 2: Calculate Ongoing Needs</h3>
           <p><strong>Annual income replacement:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -4099,7 +5803,31 @@ export const RISKMANAGEMENT_ARTICLES: Article[] = [
           <li>Forever (provide ongoing income)?</li>
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Step 3: Calculate Future Obligations</h3>
-          <p><strong>Education funding:</strong> | Education Goal | Per Child | |----------------|-----------| | Public university (4 years) | $100,000-$150,000 | | Private university (4 years) | $200,000-$300,000 | | Graduate school | $50,000-$200,000 |</p>
+          <p><strong>Education funding:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Education Goal</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Per Child</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Public university (4 years)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$100,000-$150,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Private university (4 years)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$200,000-$300,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Graduate school</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$50,000-$200,000</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Other future needs:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
           <li>Wedding contributions</li>
@@ -4107,11 +5835,126 @@ export const RISKMANAGEMENT_ARTICLES: Article[] = [
           <li>Caring for aging parents</li>
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Step 4: Subtract Existing Resources</h3>
-          <p><strong>Assets that reduce insurance need:</strong> | Resource | Value | |----------|-------| | Existing life insurance | $ | | Savings/investments | $ | | 529 education accounts | $ | | Spouse's retirement savings | $ | | Social Security survivor benefits | $ | | Other assets | $ | | <strong>Total Resources</strong> | $ |</p>
+          <p><strong>Assets that reduce insurance need:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Resource</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Value</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Existing life insurance</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Savings/investments</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">529 education accounts</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Spouse's retirement savings</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Social Security survivor benefits</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Other assets</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Total Resources</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Step 5: Calculate Insurance Gap</h3>
           <p><strong>Formula:</strong> Insurance needed = (Immediate + Ongoing + Future) - Existing Resources</p>
           <p><strong>Complete Example:</strong></p>
-          <p>| Category | Amount | |----------|--------| | <strong>Immediate Needs</strong> | | | Final expenses | $20,000 | | Debt payoff | $25,000 | | Emergency fund | $20,000 | | Subtotal | $65,000 | | <strong>Ongoing Needs</strong> | | | Income replacement ($40K × 15 years) | $600,000 | | <strong>Future Needs</strong> | | | College (2 children) | $200,000 | | <strong>Total Needs</strong> | <strong>$865,000</strong> | | <strong>Existing Resources</strong> | | | Current life insurance | -$100,000 | | Savings | -$50,000 | | 529 accounts | -$30,000 | | <strong>Net Resources</strong> | -$180,000 | | <strong>Insurance Gap</strong> | <strong>$685,000</strong> |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Category</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Amount</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Immediate Needs</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Final expenses</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$20,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Debt payoff</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$25,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Emergency fund</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$20,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Subtotal</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$65,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Ongoing Needs</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Income replacement ($40K × 15 years)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$600,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Future Needs</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">College (2 children)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$200,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Total Needs</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$865,000</strong></td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Existing Resources</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Current life insurance</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">-$100,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Savings</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">-$50,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">529 accounts</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">-$30,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Net Resources</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">-$180,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Insurance Gap</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$685,000</strong></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Recommendation:</strong> $700,000-$750,000 additional coverage</p>
         `
       },
@@ -4153,7 +5996,39 @@ export const RISKMANAGEMENT_ARTICLES: Article[] = [
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Stay-at-Home Parent Coverage</h3>
           <p><strong>Common mistake:</strong> Not insuring the stay-at-home parent.</p>
-          <p><strong>Stay-at-home parent provides:</strong> | Service | Annual Value | |---------|--------------| | Childcare | $30,000-$50,000 | | Housekeeping | $10,000-$15,000 | | Meal preparation | $5,000-$10,000 | | Transportation | $5,000-$10,000 | | <strong>Total</strong> | <strong>$50,000-$85,000</strong> |</p>
+          <p><strong>Stay-at-home parent provides:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Service</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Annual Value</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Childcare</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$30,000-$50,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Housekeeping</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$10,000-$15,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Meal preparation</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5,000-$10,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Transportation</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5,000-$10,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Total</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$50,000-$85,000</strong></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Recommended coverage:</strong> $500,000-$1,000,000 on stay-at-home parent</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Income Level</h3>
           <p><strong>Higher income typically means:</strong></p>

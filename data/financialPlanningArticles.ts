@@ -130,7 +130,47 @@ export const FINANCIALPLANNING_ARTICLES: Article[] = [
         title: 'Planning for Home Purchase',
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">True Cost of Home Ownership</h3>
-          <p><strong>Beyond purchase price:</strong> | Cost | Estimate | |------|----------| | Down payment | 10-20% of price | | Closing costs | 2-5% of price | | Property taxes | 1-2% annually | | Insurance | 0.5-1% annually | | Maintenance | 1-2% annually | | HOA fees | Varies | | Utilities | Higher than renting |</p>
+          <p><strong>Beyond purchase price:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Cost</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Estimate</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Down payment</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">10-20% of price</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Closing costs</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2-5% of price</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Property taxes</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1-2% annually</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Insurance</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.5-1% annually</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Maintenance</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1-2% annually</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">HOA fees</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Varies</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Utilities</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Higher than renting</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Total annual cost:</strong> Often 3-5% of home value beyond mortgage.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">How Much Home Can You Afford?</h3>
           <p><strong>Conservative guidelines:</strong></p>
@@ -143,7 +183,35 @@ export const FINANCIALPLANNING_ARTICLES: Article[] = [
           <p><strong>Your number:</strong> Based on comfortable payment, not maximum approval</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Saving for Down Payment</h3>
           <p><strong>Target:</strong> 20% to avoid PMI</p>
-          <p><strong>Timeline:</strong> | Home Price | 20% Down | Monthly Savings (3 years) | |------------|----------|---------------------------| | $300,000 | $60,000 | $1,667 | | $400,000 | $80,000 | $2,222 | | $500,000 | $100,000 | $2,778 |</p>
+          <p><strong>Timeline:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Home Price</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">20% Down</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Monthly Savings (3 years)</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$300,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$60,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,667</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$400,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$80,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,222</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$100,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,778</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Where to save:</strong> High-yield savings for near-term; don't invest down payment money in stocks</p>
           <h3 class="text-xl font-bold mt-8 mb-4">When to Buy vs. Rent</h3>
           <p><strong>Factors favoring buying:</strong></p>
@@ -167,7 +235,43 @@ export const FINANCIALPLANNING_ARTICLES: Article[] = [
         title: 'Planning for Vehicle Purchase',
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">True Cost of Car Ownership</h3>
-          <p><strong>Annual costs (example: $35,000 car):</strong> | Cost | Annual | |------|--------| | Depreciation | $4,000-$6,000 | | Insurance | $1,200-$2,000 | | Fuel | $1,500-$3,000 | | Maintenance | $500-$1,500 | | Registration/taxes | $200-$500 | | <strong>Total</strong> | <strong>$7,400-$13,000</strong> |</p>
+          <p><strong>Annual costs (example: $35,000 car):</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Cost</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Annual</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Depreciation</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$4,000-$6,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Insurance</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,200-$2,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Fuel</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,500-$3,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Maintenance</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500-$1,500</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Registration/taxes</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$200-$500</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Total</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$7,400-$13,000</strong></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Per month:</strong> $600-$1,100 for a $35,000 car</p>
           <h3 class="text-xl font-bold mt-8 mb-4">New vs. Used Decision</h3>
           <p><strong>New car advantages:</strong></p>
@@ -242,7 +346,35 @@ export const FINANCIALPLANNING_ARTICLES: Article[] = [
           <li>Total cost including accessories</li>
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Home Improvements</h3>
-          <p><strong>Return on investment varies:</strong> | Project | Typical ROI | |---------|-------------| | Minor kitchen remodel | 70-80% | | Bathroom remodel | 60-70% | | Deck addition | 65-75% | | Major kitchen remodel | 50-60% |</p>
+          <p><strong>Return on investment varies:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Project</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Typical ROI</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Minor kitchen remodel</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">70-80%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Bathroom remodel</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">60-70%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Deck addition</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">65-75%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Major kitchen remodel</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">50-60%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Questions:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
           <li>Is this for enjoyment or resale?</li>
@@ -294,7 +426,45 @@ export const FINANCIALPLANNING_ARTICLES: Article[] = [
           <li>Read terms carefully</li>
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Calculating Financing Cost</h3>
-          <p><strong>Example: $25,000 car loan</strong> | Term | Rate | Monthly | Total Interest | |------|------|---------|----------------| | 36 months | 5% | $749 | $1,964 | | 48 months | 6% | $587 | $3,176 | | 60 months | 7% | $495 | $4,700 | | 72 months | 8% | $439 | $6,608 |</p>
+          <p><strong>Example: $25,000 car loan</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Term</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Rate</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Monthly</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Total Interest</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">36 months</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">5%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$749</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,964</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">48 months</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">6%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$587</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$3,176</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">60 months</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">7%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$495</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$4,700</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">72 months</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">8%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$439</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$6,608</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Longer term = lower payment but much higher total cost</strong></p>
         `
       },
@@ -304,7 +474,45 @@ export const FINANCIALPLANNING_ARTICLES: Article[] = [
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Creating Sinking Funds</h3>
           <p><strong>Concept:</strong> Save monthly for known future purchases.</p>
-          <p><strong>Examples:</strong> | Goal | Cost | Months | Monthly Savings | |------|------|--------|-----------------| | Car replacement | $20,000 | 48 | $417 | | Appliances | $3,000 | 24 | $125 | | Furniture | $5,000 | 18 | $278 | | Vacation | $4,000 | 12 | $333 |</p>
+          <p><strong>Examples:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Goal</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Cost</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Months</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Monthly Savings</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Car replacement</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$20,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">48</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$417</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Appliances</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$3,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">24</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$125</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Furniture</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">18</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$278</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Vacation</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$4,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">12</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$333</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Where to Keep Major Purchase Savings</h3>
           <p><strong>Short-term (< 2 years):</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -1213,7 +1421,51 @@ export const FINANCIALPLANNING_ARTICLES: Article[] = [
           </ul>
           <p><strong>Reality:</strong> Even "good" debt has costs. The goal is minimizing all debt strategically.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Debt Assessment</h3>
-          <p><strong>Create your debt inventory:</strong> | Debt | Balance | Interest Rate | Min Payment | |------|---------|---------------|-------------| | Credit Card A | $8,000 | 22% | $200 | | Credit Card B | $3,500 | 18% | $100 | | Auto loan | $15,000 | 6% | $350 | | Student loans | $25,000 | 5% | $280 | | <strong>Total</strong> | <strong>$51,500</strong> | | <strong>$930</strong> |</p>
+          <p><strong>Create your debt inventory:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Debt</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Balance</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Interest Rate</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Min Payment</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Credit Card A</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$8,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">22%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$200</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Credit Card B</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$3,500</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">18%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$100</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Auto loan</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$15,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">6%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$350</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Student loans</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$25,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">5%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$280</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Total</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$51,500</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$930</strong></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
         `
       },
       {
@@ -1610,7 +1862,51 @@ export const FINANCIALPLANNING_ARTICLES: Article[] = [
           <li>Other liquid assets available</li>
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Emergency Fund Calculation Example</h3>
-          <p><strong>Monthly essential expenses:</strong> | Category | Amount | |----------|--------| | Rent/Mortgage | $1,800 | | Utilities | $200 | | Groceries | $500 | | Insurance | $400 | | Minimum debt payments | $300 | | Transportation | $300 | | Healthcare | $150 | | <strong>Total</strong> | <strong>$3,650</strong> |</p>
+          <p><strong>Monthly essential expenses:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Category</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Amount</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Rent/Mortgage</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,800</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Utilities</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$200</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Groceries</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Insurance</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$400</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Minimum debt payments</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$300</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Transportation</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$300</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Healthcare</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$150</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Total</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$3,650</strong></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Emergency fund targets:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
           <li>3 months: $10,950</li>
@@ -1950,7 +2246,51 @@ export const FINANCIALPLANNING_ARTICLES: Article[] = [
           <li>Cover final expenses</li>
           <li>Minus existing resources (savings, spouse income)</li>
           </ul>
-          <p><strong>Example calculation:</strong> | Need | Amount | |------|--------| | Income replacement (15 years × $80,000) | $1,200,000 | | Mortgage payoff | $250,000 | | College for 2 kids | $200,000 | | Final expenses | $20,000 | | <strong>Total needs</strong> | <strong>$1,670,000</strong> | | Minus: Spouse income (PV) | ($400,000) | | Minus: Existing savings | ($150,000) | | <strong>Life insurance needed</strong> | <strong>$1,120,000</strong> |</p>
+          <p><strong>Example calculation:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Need</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Amount</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Income replacement (15 years × $80,000)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,200,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Mortgage payoff</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$250,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">College for 2 kids</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$200,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Final expenses</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$20,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Total needs</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$1,670,000</strong></td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Minus: Spouse income (PV)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">($400,000)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Minus: Existing savings</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">($150,000)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Life insurance needed</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$1,120,000</strong></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Term Length Selection</h3>
           <p><strong>Match to need duration:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -2210,7 +2550,39 @@ export const FINANCIALPLANNING_ARTICLES: Article[] = [
         title: 'The Cost of College',
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Current Costs (2024)</h3>
-          <p><strong>Average annual costs:</strong> | Type | Tuition & Fees | Room & Board | Total | |------|---------------|--------------|-------| | Public in-state | $11,000 | $12,000 | $23,000 | | Public out-of-state | $23,000 | $12,000 | $35,000 | | Private | $42,000 | $15,000 | $57,000 |</p>
+          <p><strong>Average annual costs:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Type</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Tuition & Fees</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Room & Board</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Total</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Public in-state</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$11,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$12,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$23,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Public out-of-state</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$23,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$12,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$35,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Private</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$42,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$15,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$57,000</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Four-year total:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
           <li>Public in-state: ~$100,000</li>
@@ -2221,7 +2593,31 @@ export const FINANCIALPLANNING_ARTICLES: Article[] = [
           <p><strong>College costs increase:</strong> ~4-5% annually <strong>General inflation:</strong> ~2-3% annually</p>
           <p><strong>Result:</strong> College costs double roughly every 15 years.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Projected Future Costs</h3>
-          <p><strong>In 18 years (for newborn today):</strong> | Type | Projected 4-Year Cost | |------|----------------------| | Public in-state | ~$200,000 | | Public out-of-state | ~$300,000 | | Private | ~$460,000 |</p>
+          <p><strong>In 18 years (for newborn today):</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Type</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Projected 4-Year Cost</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Public in-state</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">~$200,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Public out-of-state</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">~$300,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Private</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">~$460,000</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>These are projections; actual costs may vary.</strong></p>
         `
       },
@@ -2431,7 +2827,31 @@ export const FINANCIALPLANNING_ARTICLES: Article[] = [
         title: 'Financial Aid Considerations',
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">How Assets Affect Aid</h3>
-          <p><strong>FAFSA formula counts:</strong> | Asset | Assessment Rate | |-------|-----------------| | Parent 529 | Up to 5.64% | | Parent investments | Up to 5.64% | | Student assets | 20% |</p>
+          <p><strong>FAFSA formula counts:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Asset</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Assessment Rate</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Parent 529</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Up to 5.64%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Parent investments</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Up to 5.64%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Student assets</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">20%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Parent 529 is favorable</strong> compared to student-owned assets.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Strategies</h3>
           <p><strong>Maximize parent asset treatment:</strong> Keep savings in parent's name (529 or investment accounts).</p>
@@ -2599,8 +3019,80 @@ export const FINANCIALPLANNING_ARTICLES: Article[] = [
           <h3 class="text-xl font-bold mt-8 mb-4">Step 3: Calculate</h3>
           <p><strong>Net worth = Assets - Liabilities</strong></p>
           <h3 class="text-xl font-bold mt-8 mb-4">Example Net Worth Statement</h3>
-          <p><strong>Assets:</strong> | Category | Amount | |----------|--------| | Checking/Savings | $15,000 | | 401(k) | $150,000 | | Roth IRA | $45,000 | | Brokerage | $25,000 | | Home value | $450,000 | | Vehicles | $25,000 | | <strong>Total Assets</strong> | <strong>$710,000</strong> |</p>
-          <p><strong>Liabilities:</strong> | Category | Amount | |----------|--------| | Mortgage | $280,000 | | Auto loan | $15,000 | | Student loans | $20,000 | | Credit cards | $5,000 | | <strong>Total Liabilities</strong> | <strong>$320,000</strong> |</p>
+          <p><strong>Assets:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Category</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Amount</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Checking/Savings</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$15,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">401(k)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$150,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Roth IRA</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$45,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Brokerage</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$25,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Home value</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$450,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Vehicles</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$25,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Total Assets</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$710,000</strong></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <p><strong>Liabilities:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Category</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Amount</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Mortgage</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$280,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Auto loan</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$15,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Student loans</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$20,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Credit cards</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Total Liabilities</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$320,000</strong></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Net Worth: $710,000 - $320,000 = $390,000</strong></p>
         `
       },
@@ -2609,13 +3101,81 @@ export const FINANCIALPLANNING_ARTICLES: Article[] = [
         title: 'Net Worth Benchmarks',
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Net Worth by Age</h3>
-          <p><strong>General guidelines (median U.S.):</strong> | Age | Median Net Worth | |-----|-----------------| | Under 35 | $39,000 | | 35-44 | $135,000 | | 45-54 | $247,000 | | 55-64 | $364,000 | | 65-74 | $409,000 | | 75+ | $335,000 |</p>
+          <p><strong>General guidelines (median U.S.):</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Age</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Median Net Worth</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Under 35</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$39,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">35-44</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$135,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">45-54</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$247,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">55-64</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$364,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">65-74</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$409,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">75+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$335,000</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Note:</strong> These are medians. Targets for those serious about building wealth should be higher.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">The Millionaire Next Door Formula</h3>
           <p><strong>Target net worth:</strong> (Age × Annual Income) ÷ 10</p>
           <p><strong>Example:</strong> 45 years old, $100,000 income Target: (45 × $100,000) ÷ 10 = $450,000</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Retirement-Focused Benchmarks</h3>
-          <p><strong>By age, as multiple of salary:</strong> | Age | Target (× Salary) | |-----|-------------------| | 30 | 1× | | 40 | 3× | | 50 | 6× | | 60 | 8× | | 67 | 10× |</p>
+          <p><strong>By age, as multiple of salary:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Age</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Target (× Salary)</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">30</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1×</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">40</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">3×</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">50</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">6×</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">60</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">8×</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">67</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">10×</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Understanding Benchmarks</h3>
           <p><strong>Benchmarks are guidelines, not requirements:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -3293,7 +3853,39 @@ export const FINANCIALPLANNING_ARTICLES: Article[] = [
           </ul>
           <p><strong>Net worth is the destination; cash flow is the vehicle.</strong></p>
           <h3 class="text-xl font-bold mt-8 mb-4">Cash Flow vs. Net Worth</h3>
-          <p>| Metric | Cash Flow | Net Worth | |--------|-----------|-----------| | Measures | Monthly money movement | Total wealth accumulated | | Focus | Income and expenses | Assets and liabilities | | Actionable | Highly—can change immediately | Less—changes over time | | Control | Direct control over decisions | Affected by market values |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Metric</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Cash Flow</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Net Worth</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Measures</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Monthly money movement</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Total wealth accumulated</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Focus</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Income and expenses</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Assets and liabilities</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Actionable</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Highly—can change immediately</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Less—changes over time</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Control</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Direct control over decisions</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Affected by market values</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
         `
       },
       {
@@ -3309,10 +3901,114 @@ export const FINANCIALPLANNING_ARTICLES: Article[] = [
           <li>Rental income</li>
           <li>Any other regular income</li>
           </ul>
-          <p><strong>Example:</strong> | Source | Amount | |--------|--------| | Primary job (net) | $6,500 | | Side business | $800 | | Dividends | $150 | | <strong>Total Income</strong> | <strong>$7,450</strong> |</p>
+          <p><strong>Example:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Source</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Amount</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Primary job (net)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$6,500</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Side business</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$800</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Dividends</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$150</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Total Income</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$7,450</strong></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Step 2: Calculate Monthly Expenses</h3>
-          <p><strong>Fixed expenses:</strong> | Category | Amount | |----------|--------| | Mortgage | $1,800 | | Car payment | $400 | | Insurance | $350 | | Utilities | $250 | | Subscriptions | $100 | | <strong>Total Fixed</strong> | <strong>$2,900</strong> |</p>
-          <p><strong>Variable expenses:</strong> | Category | Amount | |----------|--------| | Groceries | $600 | | Gas | $200 | | Dining out | $400 | | Entertainment | $200 | | Personal care | $100 | | Miscellaneous | $250 | | <strong>Total Variable</strong> | <strong>$1,750</strong> |</p>
+          <p><strong>Fixed expenses:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Category</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Amount</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Mortgage</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,800</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Car payment</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$400</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Insurance</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$350</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Utilities</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$250</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Subscriptions</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$100</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Total Fixed</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$2,900</strong></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <p><strong>Variable expenses:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Category</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Amount</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Groceries</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$600</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Gas</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$200</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Dining out</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$400</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Entertainment</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$200</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Personal care</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$100</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Miscellaneous</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$250</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Total Variable</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$1,750</strong></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Total Expenses:</strong> $4,650</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Step 3: Calculate Cash Flow</h3>
           <p><strong>Cash flow = $7,450 - $4,650 = $2,800 positive</strong></p>
@@ -3340,9 +4036,118 @@ export const FINANCIALPLANNING_ARTICLES: Article[] = [
         title: 'Creating a Cash Flow Statement',
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Personal Cash Flow Statement</h3>
-          <p><strong>Income:</strong> | Source | Monthly | Annual | |--------|---------|--------| | Employment | $6,500 | $78,000 | | Side income | $800 | $9,600 | | Investment income | $150 | $1,800 | | <strong>Total Income</strong> | <strong>$7,450</strong> | <strong>$89,400</strong> |</p>
-          <p><strong>Expenses:</strong> | Category | Monthly | Annual | |----------|---------|--------| | Housing | $1,800 | $21,600 | | Transportation | $600 | $7,200 | | Food | $1,000 | $12,000 | | Insurance | $350 | $4,200 | | Utilities | $250 | $3,000 | | Entertainment | $400 | $4,800 | | Other | $250 | $3,000 | | <strong>Total Expenses</strong> | <strong>$4,650</strong> | <strong>$55,800</strong> |</p>
-          <p><strong>Cash Flow:</strong> | | Monthly | Annual | |---|---------|--------| | Net Cash Flow | $2,800 | $33,600 | | Savings Rate | 37.6% | 37.6% |</p>
+          <p><strong>Income:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Source</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Monthly</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Annual</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Employment</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$6,500</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$78,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Side income</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$800</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$9,600</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Investment income</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$150</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,800</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Total Income</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$7,450</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$89,400</strong></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <p><strong>Expenses:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Category</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Monthly</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Annual</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Housing</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,800</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$21,600</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Transportation</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$600</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$7,200</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Food</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$12,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Insurance</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$350</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$4,200</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Utilities</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$250</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$3,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Entertainment</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$400</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$4,800</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Other</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$250</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$3,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Total Expenses</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$4,650</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$55,800</strong></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <p><strong>Cash Flow:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900"></th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Monthly</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Annual</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Net Cash Flow</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,800</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$33,600</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Savings Rate</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">37.6%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">37.6%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
         `
       },
       {
@@ -3444,7 +4249,40 @@ export const FINANCIALPLANNING_ARTICLES: Article[] = [
           <li>Flexibility</li>
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Improving Cash Flow Through Debt Payoff</h3>
-          <p><strong>Example:</strong> | Debt | Payment | Interest | |------|---------|----------| | Credit card | $300 | 22% | | Car loan | $400 | 6% | | Student loan | $280 | 5% | | <strong>Total</strong> | <strong>$980</strong> | |</p>
+          <p><strong>Example:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Debt</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Payment</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Interest</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Credit card</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$300</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">22%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Car loan</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$400</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">6%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Student loan</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$280</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">5%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Total</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$980</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>After paying off credit card:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
           <li>$300/month freed up</li>
@@ -3473,7 +4311,47 @@ export const FINANCIALPLANNING_ARTICLES: Article[] = [
           <p><strong>6. Additional savings:</strong> Retirement and goals</p>
           <p><strong>7. Discretionary:</strong> After priorities funded</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Percentage Guidelines</h3>
-          <p><strong>As percentage of income:</strong> | Category | Recommended | |----------|-------------| | Housing | 25-30% | | Transportation | 10-15% | | Food | 10-15% | | Insurance | 5-10% | | Savings | 15-20%+ | | Debt (non-mortgage) | As low as possible | | Discretionary | What remains |</p>
+          <p><strong>As percentage of income:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Category</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Recommended</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Housing</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">25-30%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Transportation</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">10-15%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Food</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">10-15%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Insurance</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">5-10%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Savings</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">15-20%+</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Debt (non-mortgage)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">As low as possible</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Discretionary</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">What remains</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
         `
       },
       {
@@ -3643,7 +4521,34 @@ export const FINANCIALPLANNING_ARTICLES: Article[] = [
           <li>Any other regular income</li>
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Example Income Calculation</h3>
-          <p>| Source | Monthly Amount | |--------|---------------| | Primary job (net) | $5,200 | | Spouse job (net) | $3,800 | | Side business | $500 | | <strong>Total</strong> | <strong>$9,500</strong> |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Source</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Monthly Amount</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Primary job (net)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5,200</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Spouse job (net)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$3,800</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Side business</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Total</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$9,500</strong></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
         `
       },
       {
@@ -3699,7 +4604,35 @@ export const FINANCIALPLANNING_ARTICLES: Article[] = [
           <li>20% = Savings/debt payoff</li>
           </ul>
           <p><strong>Best for:</strong> Simple approach, beginners</p>
-          <p><strong>Example ($9,500 income):</strong> | Category | Percentage | Amount | |----------|------------|--------| | Needs | 50% | $4,750 | | Wants | 30% | $2,850 | | Savings | 20% | $1,900 |</p>
+          <p><strong>Example ($9,500 income):</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Category</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Percentage</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Amount</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Needs</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">50%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$4,750</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Wants</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">30%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,850</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Savings</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">20%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,900</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Zero-Based Budget</h3>
           <p><strong>Concept:</strong> Every dollar has a job. Income - Expenses = $0</p>
           <p><strong>Process:</strong> 1. List all income 2. Assign every dollar to a category 3. Adjust until allocations equal income exactly</p>
@@ -3752,7 +4685,114 @@ export const FINANCIALPLANNING_ARTICLES: Article[] = [
           <li>Personal spending</li>
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Sample Budget ($9,500/month)</h3>
-          <p>| Category | Amount | % of Income | |----------|--------|-------------| | Housing (mortgage, insurance, tax) | $2,500 | 26% | | Utilities | $300 | 3% | | Groceries | $800 | 8% | | Transportation | $500 | 5% | | Insurance (auto, life) | $300 | 3% | | Minimum debt payments | $400 | 4% | | <strong>Total Fixed/Needs</strong> | <strong>$4,800</strong> | <strong>51%</strong> | | 401(k) contributions | $1,000 | 11% | | Emergency fund | $400 | 4% | | Extra debt payoff | $300 | 3% | | <strong>Total Savings</strong> | <strong>$1,700</strong> | <strong>18%</strong> | | Dining out | $400 | 4% | | Entertainment | $300 | 3% | | Personal/hobbies | $300 | 3% | | Clothing | $150 | 2% | | Miscellaneous | $200 | 2% | | <strong>Total Wants</strong> | <strong>$1,350</strong> | <strong>14%</strong> | | Buffer/irregular | $650 | 7% | | <strong>Total</strong> | <strong>$9,500</strong> | <strong>100%</strong> |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Category</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Amount</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">% of Income</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Housing (mortgage, insurance, tax)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,500</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">26%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Utilities</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$300</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">3%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Groceries</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$800</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">8%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Transportation</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">5%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Insurance (auto, life)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$300</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">3%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Minimum debt payments</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$400</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">4%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Total Fixed/Needs</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$4,800</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>51%</strong></td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">401(k) contributions</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">11%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Emergency fund</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$400</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">4%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Extra debt payoff</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$300</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">3%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Total Savings</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$1,700</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>18%</strong></td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Dining out</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$400</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">4%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Entertainment</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$300</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">3%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Personal/hobbies</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$300</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">3%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Clothing</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$150</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Miscellaneous</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$200</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Total Wants</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$1,350</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>14%</strong></td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Buffer/irregular</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$650</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">7%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Total</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$9,500</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>100%</strong></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
         `
       },
       {

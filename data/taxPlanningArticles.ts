@@ -27,8 +27,48 @@ export const TAXPLANNING_ARTICLES: Article[] = [
         title: 'The High-Income Tax Landscape',
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Federal Income Tax Brackets (2024)</h3>
-          <p><strong>Single filers:</strong> | Income | Rate | |--------|------| | $243,726 - $609,350 | 35% | | Over $609,350 | 37% |</p>
-          <p><strong>Married filing jointly:</strong> | Income | Rate | |--------|------| | $487,451 - $731,200 | 35% | | Over $731,200 | 37% |</p>
+          <p><strong>Single filers:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Income</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Rate</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$243,726 - $609,350</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">35%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Over $609,350</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">37%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <p><strong>Married filing jointly:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Income</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Rate</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$487,451 - $731,200</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">35%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Over $731,200</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">37%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Additional Surtaxes</h3>
           <p><strong>Net Investment Income Tax (NIIT):</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -42,7 +82,54 @@ export const TAXPLANNING_ARTICLES: Article[] = [
           <li>Not indexed for inflation</li>
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Combined Maximum Rates</h3>
-          <p>| Income Type | Federal | NIIT | Medicare | State (CA) | Total | |-------------|---------|------|----------|------------|-------| | Wages | 37% | - | 0.9% | 13.3% | 51.2% | | Investment | 37% | 3.8% | - | 13.3% | 54.1% | | LTCG | 20% | 3.8% | - | 13.3% | 37.1% | | Qualified Div | 20% | 3.8% | - | 13.3% | 37.1% |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Income Type</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Federal</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">NIIT</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Medicare</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">State (CA)</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Total</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Wages</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">37%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">-</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.9%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">13.3%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">51.2%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Investment</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">37%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">3.8%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">-</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">13.3%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">54.1%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">LTCG</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">20%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">3.8%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">-</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">13.3%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">37.1%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Qualified Div</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">20%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">3.8%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">-</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">13.3%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">37.1%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
         `
       },
       {
@@ -514,14 +601,70 @@ export const TAXPLANNING_ARTICLES: Article[] = [
           <p><strong>Non-refundable</strong></p>
           <h3 class="text-xl font-bold mt-8 mb-4">Earned Income Tax Credit (EITC)</h3>
           <p><strong>Purpose:</strong> Benefit low-to-moderate income workers</p>
-          <p><strong>2024 maximum credits:</strong> | Children | Maximum Credit | |----------|----------------| | 0 | $632 | | 1 | $4,213 | | 2 | $6,960 | | 3+ | $7,830 |</p>
+          <p><strong>2024 maximum credits:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Children</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Maximum Credit</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$632</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$4,213</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$6,960</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">3+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$7,830</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Requirements:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
           <li>Must have earned income</li>
           <li>Meet income limits (varies by filing status and children)</li>
           <li>Must file return to claim</li>
           </ul>
-          <p><strong>Income limits (2024, Married Filing Jointly):</strong> | Children | Income Limit | |----------|--------------| | 0 | $24,210 | | 1 | $56,004 | | 2 | $62,688 | | 3+ | $66,819 |</p>
+          <p><strong>Income limits (2024, Married Filing Jointly):</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Children</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Income Limit</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$24,210</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$56,004</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$62,688</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">3+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$66,819</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Fully refundable</strong></p>
         `
       },
@@ -567,7 +710,44 @@ export const TAXPLANNING_ARTICLES: Article[] = [
           </ul>
           <p><strong>Non-refundable</strong></p>
           <h3 class="text-xl font-bold mt-8 mb-4">Choosing Between Education Credits</h3>
-          <p>| Factor | AOTC | LLC | |--------|------|-----| | Maximum credit | $2,500/student | $2,000/return | | Years available | First 4 years | Unlimited | | Enrollment | Half-time minimum | Any amount | | Refundable | 40% (up to $1,000) | No | | Best for | Undergraduates | Graduate, continuing ed |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Factor</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">AOTC</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">LLC</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Maximum credit</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,500/student</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,000/return</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Years available</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">First 4 years</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Unlimited</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Enrollment</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Half-time minimum</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Any amount</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Refundable</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">40% (up to $1,000)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Best for</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Undergraduates</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Graduate, continuing ed</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
         `
       },
       {
@@ -582,7 +762,35 @@ export const TAXPLANNING_ARTICLES: Article[] = [
           <li>Rate: 10%, 20%, or 50% depending on income</li>
           <li>Maximum contribution considered: $2,000 per person</li>
           </ul>
-          <p><strong>2024 income limits (Married Filing Jointly):</strong> | AGI | Credit Rate | |-----|-------------| | $0-$46,000 | 50% | | $46,001-$50,000 | 20% | | $50,001-$76,500 | 10% | | Over $76,500 | 0% |</p>
+          <p><strong>2024 income limits (Married Filing Jointly):</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">AGI</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Credit Rate</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$0-$46,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">50%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$46,001-$50,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">20%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$50,001-$76,500</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">10%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Over $76,500</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Example:</strong> Married couple, $45,000 AGI, $4,000 total IRA contributions:</p>
           <ul class="list-disc pl-6 space-y-2 my-4">
           <li>Maximum qualifying: $4,000</li>
@@ -826,7 +1034,49 @@ export const TAXPLANNING_ARTICLES: Article[] = [
           <p>When you donate long-term appreciated assets: 1. Deduct full fair market value 2. Avoid capital gains tax on appreciation 3. Double tax benefit</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Example: Stock Donation vs. Cash</h3>
           <p><strong>Scenario:</strong> Want to donate $10,000 to charity</p>
-          <p>| Method | Cash Donation | Stock Donation | |--------|---------------|----------------| | Original cost | N/A | $3,000 | | Current value | $10,000 | $10,000 | | Deduction | $10,000 | $10,000 | | Tax savings (32%) | $3,200 | $3,200 | | Capital gains avoided | $0 | $1,050* | | <strong>Total tax benefit</strong> | <strong>$3,200</strong> | <strong>$4,250</strong> |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Method</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Cash Donation</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Stock Donation</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Original cost</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">N/A</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$3,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Current value</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$10,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$10,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Deduction</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$10,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$10,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Tax savings (32%)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$3,200</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$3,200</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Capital gains avoided</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$0</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,050*</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Total tax benefit</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$3,200</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$4,250</strong></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p>*$7,000 gain × 15% = $1,050</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Best Assets to Donate</h3>
           <p><strong>Donate:</strong></p>
@@ -865,8 +1115,82 @@ export const TAXPLANNING_ARTICLES: Article[] = [
           <li>Exceed standard deduction threshold</li>
           <li>Distribute to charities over time</li>
           </ul>
-          <p><strong>Example:</strong> | Year | Normal Giving | Standard Ded | Itemize? | |------|---------------|--------------|----------| | 2024 | $5,000 | $29,200 | No | | 2025 | $5,000 | $29,200 | No | | 2026 | $5,000 | $29,200 | No | | Total tax benefit from charity | $0 | | |</p>
-          <p><strong>With DAF bunching:</strong> | Year | DAF Contribution | Other Deductions | Total | Itemize? | |------|------------------|------------------|-------|----------| | 2024 | $15,000 | $18,000 | $33,000 | Yes | | 2025 | $0 | $18,000 | $18,000 | No | | 2026 | $0 | $18,000 | $18,000 | No |</p>
+          <p><strong>Example:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Year</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Normal Giving</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Standard Ded</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Itemize?</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2024</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$29,200</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2025</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$29,200</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2026</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$29,200</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Total tax benefit from charity</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$0</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <p><strong>With DAF bunching:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Year</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">DAF Contribution</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Other Deductions</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Total</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Itemize?</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2024</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$15,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$18,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$33,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2025</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$0</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$18,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$18,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2026</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$0</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$18,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$18,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p>Tax benefit: $3,800 more over 3 years (in 24% bracket)</p>
           <h3 class="text-xl font-bold mt-8 mb-4">DAF Providers</h3>
           <p><strong>Major providers:</strong></p>
@@ -913,7 +1237,39 @@ export const TAXPLANNING_ARTICLES: Article[] = [
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Tax Advantage</h3>
           <p><strong>Example:</strong> $50,000 RMD requirement</p>
-          <p>| Strategy | Normal RMD | With $20,000 QCD | |----------|------------|------------------| | Taxable income from IRA | $50,000 | $30,000 | | Charitable deduction | $0 (standard) | $0 | | Net taxable income | $50,000 | $30,000 | | Tax savings (22%) | — | $4,400 |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Strategy</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Normal RMD</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">With $20,000 QCD</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Taxable income from IRA</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$50,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$30,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Charitable deduction</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$0 (standard)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$0</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Net taxable income</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$50,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$30,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Tax savings (22%)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">—</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$4,400</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>QCDs reduce AGI</strong>, which can also:</p>
           <ul class="list-disc pl-6 space-y-2 my-4">
           <li>Lower Medicare premiums (IRMAA)</li>
@@ -998,7 +1354,59 @@ export const TAXPLANNING_ARTICLES: Article[] = [
           <li>Willing to manage administrative burden</li>
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Comparison: DAF vs. Private Foundation</h3>
-          <p>| Feature | DAF | Private Foundation | |---------|-----|-------------------| | Minimum to start | Low ($0-25K) | High ($1M+) | | Administrative burden | None | Significant | | Annual distribution required | No | Yes (5%) | | Deduction limit (cash) | 60% AGI | 30% AGI | | Deduction limit (appreciated) | 30% AGI | 20% AGI | | Public disclosure | No | Yes (990-PF) | | Family compensation | No | Yes (reasonable) | | Family involvement | Limited | Unlimited |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Feature</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">DAF</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Private Foundation</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Minimum to start</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Low ($0-25K)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">High ($1M+)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Administrative burden</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">None</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Significant</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Annual distribution required</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes (5%)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Deduction limit (cash)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">60% AGI</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">30% AGI</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Deduction limit (appreciated)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">30% AGI</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">20% AGI</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Public disclosure</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes (990-PF)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Family compensation</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes (reasonable)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Family involvement</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Limited</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Unlimited</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
         `
       },
       {
@@ -1144,7 +1552,59 @@ export const TAXPLANNING_ARTICLES: Article[] = [
         title: 'Year-End Tax Planning Calendar',
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">December Deadlines</h3>
-          <p>| Action | Deadline | Notes | |--------|----------|-------| | 401(k) contributions | December 31 | Through payroll | | HSA contributions | December 31 | Or April 15 next year | | Tax-loss harvesting | December 31 | Allow for settlement | | Charitable donations | December 31 | Must be received/charged | | Required Minimum Distributions | December 31 | 25% penalty if missed | | Roth conversions | December 31 | Cannot be recharacterized | | Flexible spending use | December 31 | Check plan for grace period | | Quarterly estimated tax | January 15 | Q4 payment |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Action</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Deadline</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Notes</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">401(k) contributions</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">December 31</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Through payroll</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">HSA contributions</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">December 31</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Or April 15 next year</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Tax-loss harvesting</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">December 31</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Allow for settlement</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Charitable donations</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">December 31</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Must be received/charged</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Required Minimum Distributions</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">December 31</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">25% penalty if missed</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Roth conversions</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">December 31</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Cannot be recharacterized</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Flexible spending use</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">December 31</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Check plan for grace period</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Quarterly estimated tax</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">January 15</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Q4 payment</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Post-Year Opportunities</h3>
           <p>These can still be done after December 31:</p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -1565,11 +2025,128 @@ export const TAXPLANNING_ARTICLES: Article[] = [
         title: '2025 Federal Tax Brackets',
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Single Filers</h3>
-          <p>| Taxable Income | Tax Rate | |----------------|----------| | $0 - $11,925 | 10% | | $11,926 - $48,475 | 12% | | $48,476 - $103,350 | 22% | | $103,351 - $197,300 | 24% | | $197,301 - $250,525 | 32% | | $250,526 - $626,350 | 35% | | Over $626,350 | 37% |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Taxable Income</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Tax Rate</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$0 - $11,925</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">10%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$11,926 - $48,475</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">12%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$48,476 - $103,350</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">22%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$103,351 - $197,300</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">24%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$197,301 - $250,525</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">32%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$250,526 - $626,350</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">35%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Over $626,350</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">37%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Married Filing Jointly</h3>
-          <p>| Taxable Income | Tax Rate | |----------------|----------| | $0 - $23,850 | 10% | | $23,851 - $96,950 | 12% | | $96,951 - $206,700 | 22% | | $206,701 - $394,600 | 24% | | $394,601 - $501,050 | 32% | | $501,051 - $751,600 | 35% | | Over $751,600 | 37% |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Taxable Income</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Tax Rate</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$0 - $23,850</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">10%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$23,851 - $96,950</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">12%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$96,951 - $206,700</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">22%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$206,701 - $394,600</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">24%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$394,601 - $501,050</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">32%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$501,051 - $751,600</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">35%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Over $751,600</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">37%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Head of Household</h3>
-          <p>| Taxable Income | Tax Rate | |----------------|----------| | $0 - $17,000 | 10% | | $17,001 - $64,850 | 12% | | $64,851 - $103,350 | 22% | | $103,351 - $197,300 | 24% | | $197,301 - $250,500 | 32% | | $250,501 - $626,350 | 35% | | Over $626,350 | 37% |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Taxable Income</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Tax Rate</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$0 - $17,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">10%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$17,001 - $64,850</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">12%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$64,851 - $103,350</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">22%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$103,351 - $197,300</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">24%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$197,301 - $250,500</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">32%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$250,501 - $626,350</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">35%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Over $626,350</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">37%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
         `
       },
       {
@@ -1581,7 +2158,44 @@ export const TAXPLANNING_ARTICLES: Article[] = [
           <p><strong>Right:</strong> You pay 10% on the first portion, 12% on the next portion, and 22% only on income above $47,150.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Step-by-Step Calculation Example</h3>
           <p><strong>Single filer with $100,000 taxable income (2025):</strong></p>
-          <p>| Bracket | Income in Bracket | Tax Rate | Tax | |---------|------------------|----------|-----| | 10% | $11,925 | 10% | $1,193 | | 12% | $36,550 ($48,475 - $11,925) | 12% | $4,386 | | 22% | $51,525 ($100,000 - $48,475) | 22% | $11,336 | | <strong>Total</strong> | <strong>$100,000</strong> | | <strong>$16,915</strong> |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Bracket</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Income in Bracket</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Tax Rate</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Tax</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">10%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$11,925</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">10%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,193</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">12%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$36,550 ($48,475 - $11,925)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">12%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$4,386</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">22%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$51,525 ($100,000 - $48,475)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">22%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$11,336</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Total</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$100,000</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$16,915</strong></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Effective tax rate:</strong> $16,915 ÷ $100,000 = <strong>16.9%</strong></p>
           <p>The marginal rate is 22%, but the effective rate is only 16.9%.</p>
         `
@@ -1622,7 +2236,44 @@ export const TAXPLANNING_ARTICLES: Article[] = [
         title: 'From Gross Income to Taxable Income',
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">The Path to Your Tax Bracket</h3>
-          <p>| Step | Item | Example | |------|------|---------| | 1 | Gross Income | $150,000 | | 2 | - Above-the-line deductions | -$7,500 (401k catch-up) | | 3 | = Adjusted Gross Income (AGI) | $142,500 | | 4 | - Standard or Itemized Deduction | -$30,000 (MFJ standard) | | 5 | = Taxable Income | $112,500 |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Step</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Item</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Example</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Gross Income</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$150,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">- Above-the-line deductions</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">-$7,500 (401k catch-up)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">3</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">= Adjusted Gross Income (AGI)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$142,500</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">4</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">- Standard or Itemized Deduction</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">-$30,000 (MFJ standard)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">5</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">= Taxable Income</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$112,500</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Your bracket is determined by taxable income, not gross income.</strong></p>
           <h3 class="text-xl font-bold mt-8 mb-4">Above-the-Line Deductions</h3>
           <p>Reduce AGI (and thus taxable income) regardless of whether you itemize:</p>
@@ -1723,7 +2374,44 @@ export const TAXPLANNING_ARTICLES: Article[] = [
         title: 'State Tax Considerations',
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">State Income Tax Rates</h3>
-          <p>| State | Top Rate | Notes | |-------|----------|-------| | California | 13.3% | Highest in nation | | New York | 10.9% | Plus NYC tax | | Texas | 0% | No state income tax | | Florida | 0% | No state income tax | | Illinois | 4.95% | Flat rate |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">State</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Top Rate</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Notes</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">California</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">13.3%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Highest in nation</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">New York</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">10.9%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Plus NYC tax</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Texas</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No state income tax</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Florida</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No state income tax</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Illinois</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">4.95%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Flat rate</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Combined Federal + State</h3>
           <p>In high-tax states:</p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -1759,7 +2447,44 @@ export const TAXPLANNING_ARTICLES: Article[] = [
           <li>Concern: "Will I end up with less money in a higher bracket?"</li>
           </ul>
           <p><strong>The Math (2025 brackets):</strong></p>
-          <p>| Income Level | Calculation | Result | |--------------|-------------|--------| | Old tax on $95,000 | $1,193 + $4,386 + ($95,000 - $48,475) × 22% | $15,815 | | New tax on $115,000 | $1,193 + $4,386 + ($103,350 - $48,475) × 22% + ($115,000 - $103,350) × 24% | $20,167 | | Additional tax | $20,167 - $15,815 | $4,352 | | <strong>Additional income</strong> | | <strong>$20,000</strong> | | <strong>Take-home increase</strong> | $20,000 - $4,352 | <strong>$15,648</strong> |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Income Level</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Calculation</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Result</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Old tax on $95,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,193 + $4,386 + ($95,000 - $48,475) × 22%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$15,815</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">New tax on $115,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,193 + $4,386 + ($103,350 - $48,475) × 22% + ($115,000 - $103,350) × 24%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$20,167</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Additional tax</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$20,167 - $15,815</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$4,352</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Additional income</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$20,000</strong></td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Take-home increase</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$20,000 - $4,352</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$15,648</strong></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Reality:</strong> James keeps 78% of his raise. The higher bracket only affects income above $103,350.</p>
           <p>---</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Scenario 2: Strategic Roth Conversion</h3>
@@ -1793,7 +2518,32 @@ export const TAXPLANNING_ARTICLES: Article[] = [
           </ul>
           <p><strong>Problem:</strong> $13,000 in itemized deductions < $15,000 standard deduction</p>
           <p><strong>Strategy:</strong> Bunch two years of donations into one year using a donor-advised fund.</p>
-          <p>| Approach | Year 1 | Year 2 | Total Deduction | |----------|--------|--------|-----------------| | Normal giving | $15,000 (standard) | $15,000 (standard) | $30,000 | | Bunching | $21,000 (itemized) | $15,000 (standard) | $36,000 |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Approach</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Year 1</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Year 2</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Total Deduction</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Normal giving</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$15,000 (standard)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$15,000 (standard)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$30,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Bunching</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$21,000 (itemized)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$15,000 (standard)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$36,000</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Extra deduction:</strong> $6,000 <strong>Tax savings at 24% bracket:</strong> $1,440 over two years</p>
           <p>---</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Scenario 4: Managing the 32% Cliff</h3>
@@ -1805,7 +2555,29 @@ export const TAXPLANNING_ARTICLES: Article[] = [
           </ul>
           <p><strong>Problem:</strong> Without planning, bonus pushes income into 32% bracket (starts at $197,301).</p>
           <p><strong>Strategy:</strong> Maximize 401(k) with catch-up contribution.</p>
-          <p>| Scenario | Taxable Income | Tax on Bonus | |----------|----------------|--------------| | No action | $190,000 + $25,000 - $8,500 remaining 401(k) room = $206,500 | ~$9,200 above 32% threshold taxed at 32% | | Max 401(k) | $190,000 + $25,000 - $31,000 full contribution = $184,000 | Stays in 24% bracket |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Scenario</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Taxable Income</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Tax on Bonus</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No action</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$190,000 + $25,000 - $8,500 remaining 401(k) room = $206,500</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">~$9,200 above 32% threshold taxed at 32%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Max 401(k)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$190,000 + $25,000 - $31,000 full contribution = $184,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Stays in 24% bracket</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Savings:</strong> By contributing an additional $16,000 pre-tax:</p>
           <ul class="list-disc pl-6 space-y-2 my-4">
           <li>Immediate tax savings: $16,000 × 24% = $3,840</li>
@@ -1874,11 +2646,80 @@ export const TAXPLANNING_ARTICLES: Article[] = [
         title: '2024 Long-Term Capital Gains Rates',
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Single Filers</h3>
-          <p>| Taxable Income | Capital Gains Rate | |----------------|-------------------| | $0 - $47,025 | 0% | | $47,026 - $518,900 | 15% | | Over $518,900 | 20% |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Taxable Income</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Capital Gains Rate</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$0 - $47,025</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$47,026 - $518,900</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">15%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Over $518,900</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">20%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Married Filing Jointly</h3>
-          <p>| Taxable Income | Capital Gains Rate | |----------------|-------------------| | $0 - $94,050 | 0% | | $94,051 - $583,750 | 15% | | Over $583,750 | 20% |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Taxable Income</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Capital Gains Rate</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$0 - $94,050</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$94,051 - $583,750</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">15%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Over $583,750</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">20%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Head of Household</h3>
-          <p>| Taxable Income | Capital Gains Rate | |----------------|-------------------| | $0 - $63,000 | 0% | | $63,001 - $551,350 | 15% | | Over $551,350 | 20% |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Taxable Income</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Capital Gains Rate</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$0 - $63,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$63,001 - $551,350</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">15%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Over $551,350</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">20%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Net Investment Income Tax (NIIT)</h3>
           <p>Additional 3.8% on investment income when AGI exceeds:</p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -2023,7 +2864,46 @@ export const TAXPLANNING_ARTICLES: Article[] = [
           <li>Remaining losses carry forward indefinitely</li>
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Example</h3>
-          <p>| Transaction | Amount | |-------------|--------| | Long-term gain | +$10,000 | | Short-term gain | +$5,000 | | Long-term loss | -$8,000 | | Short-term loss | -$3,000 | | <strong>Net long-term</strong> | +$2,000 | | <strong>Net short-term</strong> | +$2,000 | | <strong>Total taxable gains</strong> | $4,000 |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Transaction</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Amount</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Long-term gain</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">+$10,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Short-term gain</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">+$5,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Long-term loss</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">-$8,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Short-term loss</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">-$3,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Net long-term</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">+$2,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Net short-term</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">+$2,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Total taxable gains</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$4,000</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Wash Sale Rule</h3>
           <p>Can't claim loss if you buy "substantially identical" security within 30 days before or after sale:</p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -2099,7 +2979,34 @@ export const TAXPLANNING_ARTICLES: Article[] = [
           </ul>
           <p>*Limited to interest and dividends <em></em>Has separate capital gains tax starting 2022</p>
           <h3 class="text-xl font-bold mt-8 mb-4">High Capital Gains Tax States</h3>
-          <p>| State | Top Rate | |-------|----------| | California | 13.3% | | New York | 10.9% | | New Jersey | 10.75% | | Oregon | 9.9% |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">State</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Top Rate</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">California</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">13.3%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">New York</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">10.9%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">New Jersey</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">10.75%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Oregon</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">9.9%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Combined Rates</h3>
           <p>In California:</p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -2321,7 +3228,54 @@ export const TAXPLANNING_ARTICLES: Article[] = [
           <li>Short-term or long-term based on holding period from exercise</li>
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">NQSO vs. ISO Comparison</h3>
-          <p>| Feature | ISO | NQSO | |---------|-----|------| | Tax at exercise | AMT only | Ordinary income | | Qualifying sale | LTCG on full gain | LTCG on post-exercise gain | | Disqualifying sale | Ordinary + LTCG | N/A | | AMT implications | Yes | No | | Available to everyone | Employees only | Anyone | | $100K limit | Yes | No | | Best for | Lower spreads, long holds | Large grants, immediate sale |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Feature</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">ISO</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">NQSO</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Tax at exercise</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">AMT only</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Ordinary income</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Qualifying sale</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">LTCG on full gain</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">LTCG on post-exercise gain</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Disqualifying sale</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Ordinary + LTCG</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">N/A</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">AMT implications</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Available to everyone</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Employees only</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Anyone</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$100K limit</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Best for</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Lower spreads, long holds</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Large grants, immediate sale</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
         `
       },
       {
@@ -2354,14 +3308,69 @@ export const TAXPLANNING_ARTICLES: Article[] = [
           <li>Actual purchase price: $85 (15% off $100 via lookback)</li>
           <li>Sell at $150</li>
           </ul>
-          <p>| Component | Amount | Tax Type | |-----------|--------|----------| | Discount | $15 ($100 × 15%) | Ordinary income | | Additional gain | $50 ($150 - $100) | LTCG | | Total gain | $65 | |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Component</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Amount</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Tax Type</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Discount</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$15 ($100 × 15%)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Ordinary income</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Additional gain</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$50 ($150 - $100)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">LTCG</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Total gain</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$65</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Disqualifying Disposition</h3>
           <p><strong>Tax treatment:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
           <li>Actual discount taxed as ordinary income</li>
           <li>Remaining gain/loss is capital gain/loss</li>
           </ul>
-          <p><strong>Same example, disqualifying:</strong> | Component | Amount | Tax Type | |-----------|--------|----------| | Discount | $35 ($120 - $85) | Ordinary income | | Additional gain | $30 ($150 - $120) | Capital gain | | Total gain | $65 | |</p>
+          <p><strong>Same example, disqualifying:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Component</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Amount</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Tax Type</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Discount</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$35 ($120 - $85)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Ordinary income</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Additional gain</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$30 ($150 - $120)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Capital gain</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Total gain</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$65</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Note:</strong> In this case, disqualifying disposition results in MORE ordinary income.</p>
         `
       },
@@ -2580,7 +3589,39 @@ export const TAXPLANNING_ARTICLES: Article[] = [
         title: 'Quarterly Payment Due Dates',
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Standard Schedule</h3>
-          <p>| Quarter | Income Period | Due Date | |---------|---------------|----------| | Q1 | January 1 - March 31 | April 15 | | Q2 | April 1 - May 31 | June 15 | | Q3 | June 1 - August 31 | September 15 | | Q4 | September 1 - December 31 | January 15 (next year) |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Quarter</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Income Period</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Due Date</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Q1</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">January 1 - March 31</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">April 15</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Q2</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">April 1 - May 31</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">June 15</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Q3</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">June 1 - August 31</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">September 15</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Q4</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">September 1 - December 31</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">January 15 (next year)</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Note:</strong> Q2 and Q3 cover shorter periods than might be expected.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Weekend/Holiday Adjustments</h3>
           <p>If the due date falls on a weekend or holiday, payment is due the next business day.</p>
@@ -2957,14 +3998,145 @@ export const TAXPLANNING_ARTICLES: Article[] = [
           <li>Tennessee (phasing out, ended 2021)</li>
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">High-Tax States</h3>
-          <p>| State | Top Marginal Rate | Threshold (Single) | |-------|-------------------|-------------------| | California | 13.3% | $1,000,000 | | Hawaii | 11.0% | $200,000 | | New Jersey | 10.75% | $1,000,000 | | Oregon | 9.9% | $125,000 | | Minnesota | 9.85% | $183,340 | | New York | 10.9% | $25,000,000* |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">State</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Top Marginal Rate</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Threshold (Single)</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">California</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">13.3%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,000,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Hawaii</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">11.0%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$200,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">New Jersey</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">10.75%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,000,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Oregon</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">9.9%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$125,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Minnesota</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">9.85%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$183,340</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">New York</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">10.9%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$25,000,000*</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p>*NYC adds up to 3.876% additional</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Flat Tax States</h3>
           <p>Several states use a flat tax rate regardless of income:</p>
-          <p>| State | Flat Rate | |-------|-----------| | Arizona | 2.5% | | Colorado | 4.4% | | Illinois | 4.95% | | Indiana | 3.05% | | Kentucky | 4.0% | | Michigan | 4.25% | | North Carolina | 4.75% | | Pennsylvania | 3.07% | | Utah | 4.65% |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">State</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Flat Rate</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Arizona</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2.5%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Colorado</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">4.4%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Illinois</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">4.95%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Indiana</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">3.05%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Kentucky</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">4.0%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Michigan</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">4.25%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">North Carolina</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">4.75%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Pennsylvania</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">3.07%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Utah</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">4.65%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Combined Federal + State Rates</h3>
           <p>For high earners in high-tax states:</p>
-          <p>| Location | Federal | State | NIIT | Total | |----------|---------|-------|------|-------| | California | 37% | 13.3% | 3.8% | 54.1% | | New York City | 37% | 10.9% + 3.9% | 3.8% | 55.6% | | Texas | 37% | 0% | 3.8% | 40.8% | | Florida | 37% | 0% | 3.8% | 40.8% |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Location</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Federal</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">State</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">NIIT</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Total</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">California</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">37%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">13.3%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">3.8%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">54.1%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">New York City</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">37%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">10.9% + 3.9%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">3.8%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">55.6%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Texas</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">37%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">3.8%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">40.8%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Florida</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">37%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">3.8%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">40.8%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Difference:</strong> ~14-15% on highest earnings</p>
         `
       },
@@ -3329,7 +4501,30 @@ export const TAXPLANNING_ARTICLES: Article[] = [
           <li>Additional 0.9% on earnings over $200,000 (single) / $250,000 (married)</li>
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Total Rates</h3>
-          <p>| Income Level | SE Tax Rate | |--------------|-------------| | First $168,600 | 15.3% | | $168,601 - $200,000 | 2.9% | | Over $200,000 | 3.8% |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Income Level</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">SE Tax Rate</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">First $168,600</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">15.3%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$168,601 - $200,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2.9%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Over $200,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">3.8%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">The 92.35% Rule</h3>
           <p>SE tax applies to 92.35% of net self-employment earnings, not 100%.</p>
           <p><strong>Why:</strong> Mirrors the fact that employees don't pay FICA on the employer's share.</p>
@@ -3362,7 +4557,44 @@ export const TAXPLANNING_ARTICLES: Article[] = [
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Example Calculation</h3>
           <p><strong>Scenario:</strong> Single consultant with $150,000 net self-employment income</p>
-          <p>| Step | Calculation | Amount | |------|-------------|--------| | Net SE income | | $150,000 | | × 92.35% | $150,000 × 0.9235 | $138,525 | | Social Security tax | $138,525 × 12.4% | $17,177 | | Medicare tax | $138,525 × 2.9% | $4,017 | | <strong>Total SE tax</strong> | | <strong>$21,194</strong> |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Step</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Calculation</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Amount</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Net SE income</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$150,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">× 92.35%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$150,000 × 0.9235</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$138,525</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Social Security tax</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$138,525 × 12.4%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$17,177</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Medicare tax</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$138,525 × 2.9%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$4,017</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Total SE tax</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$21,194</strong></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">The Deduction for Half of SE Tax</h3>
           <p>You can deduct half of your SE tax as an above-the-line deduction:</p>
           <p>$21,194 ÷ 2 = $10,597 income tax deduction</p>
@@ -3477,7 +4709,35 @@ export const TAXPLANNING_ARTICLES: Article[] = [
           <p><strong>Rough guideline:</strong> Consider S-corp when net profit exceeds $75,000-$100,000</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Strategy 3: Retirement Contributions</h3>
           <p>Retirement plan contributions reduce SE tax AND income tax:</p>
-          <p><strong>Options for self-employed:</strong> | Plan Type | 2024 Max | SE Tax Impact | |-----------|----------|---------------| | SEP-IRA | $70,000 | Reduces SE income | | Solo 401(k) | $70,000 | Reduces SE income | | SIMPLE IRA | $16,000 + 3% match | Reduces SE income |</p>
+          <p><strong>Options for self-employed:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Plan Type</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">2024 Max</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">SE Tax Impact</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">SEP-IRA</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$70,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Reduces SE income</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Solo 401(k)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$70,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Reduces SE income</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">SIMPLE IRA</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$16,000 + 3% match</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Reduces SE income</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Example:</strong> $50,000 SEP-IRA contribution</p>
           <ul class="list-disc pl-6 space-y-2 my-4">
           <li>SE tax savings: $50,000 × 15.3% × 92.35% = $7,065</li>
@@ -3532,7 +4792,39 @@ export const TAXPLANNING_ARTICLES: Article[] = [
           <li>Spread tax burden throughout year</li>
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Due Dates</h3>
-          <p>| Quarter | Period Covered | Due Date | |---------|----------------|----------| | Q1 | January - March | April 15 | | Q2 | April - May | June 15 | | Q3 | June - August | September 15 | | Q4 | September - December | January 15 |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Quarter</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Period Covered</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Due Date</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Q1</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">January - March</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">April 15</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Q2</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">April - May</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">June 15</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Q3</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">June - August</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">September 15</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Q4</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">September - December</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">January 15</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Safe Harbor Rules</h3>
           <p>Avoid penalties by paying:</p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -3573,10 +4865,89 @@ export const TAXPLANNING_ARTICLES: Article[] = [
         title: 'Self-Employment Tax vs. Income Tax',
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Key Differences</h3>
-          <p>| Feature | Self-Employment Tax | Income Tax | |---------|--------------------| -----------| | Rate | 15.3% flat (to SS limit) | Progressive brackets | | Applies to | Net SE income | All taxable income | | Deductions | Business expenses | Standard/itemized | | Retirement impact | Reduces SE income | Reduces taxable income | | Credits | None reduce SE tax | Many available |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Feature</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Self-Employment Tax</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Income Tax</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Rate</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">15.3% flat (to SS limit)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Progressive brackets</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Applies to</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Net SE income</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">All taxable income</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Deductions</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Business expenses</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Standard/itemized</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Retirement impact</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Reduces SE income</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Reduces taxable income</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Credits</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">None reduce SE tax</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Many available</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Combined Tax Burden</h3>
           <p><strong>Example:</strong> Single, $100,000 net SE income, standard deduction</p>
-          <p>| Tax Type | Calculation | Amount | |----------|-------------|--------| | SE tax | $92,350 × 15.3% | $14,130 | | SE deduction | $14,130 ÷ 2 | ($7,065) | | Taxable income | $100,000 - $7,065 - $14,600 | $78,335 | | Income tax | Progressive rates | ~$12,500 | | <strong>Total federal tax</strong> | | <strong>~$26,630</strong> | | <strong>Effective rate</strong> | | <strong>~26.6%</strong> |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Tax Type</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Calculation</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Amount</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">SE tax</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$92,350 × 15.3%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$14,130</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">SE deduction</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$14,130 ÷ 2</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">($7,065)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Taxable income</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$100,000 - $7,065 - $14,600</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$78,335</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Income tax</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Progressive rates</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">~$12,500</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Total federal tax</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>~$26,630</strong></td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Effective rate</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>~26.6%</strong></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
         `
       },
       {
@@ -3645,7 +5016,38 @@ export const TAXPLANNING_ARTICLES: Article[] = [
           <p>Credits are more valuable dollar-for-dollar.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">The Value of a Deduction</h3>
           <p>Your savings depend on your marginal tax bracket:</p>
-          <p>| Deduction | 12% Bracket | 22% Bracket | 32% Bracket | |-----------|-------------|-------------|-------------| | $1,000 | $120 savings | $220 savings | $320 savings | | $5,000 | $600 savings | $1,100 savings | $1,600 savings | | $10,000 | $1,200 savings | $2,200 savings | $3,200 savings |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Deduction</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">12% Bracket</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">22% Bracket</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">32% Bracket</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$120 savings</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$220 savings</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$320 savings</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$600 savings</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,100 savings</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,600 savings</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$10,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,200 savings</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,200 savings</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$3,200 savings</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p>Higher-bracket taxpayers benefit more from deductions.</p>
         `
       },
@@ -3654,7 +5056,34 @@ export const TAXPLANNING_ARTICLES: Article[] = [
         title: 'Standard Deduction vs. Itemizing',
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">2024 Standard Deduction</h3>
-          <p>| Filing Status | Standard Deduction | |---------------|-------------------| | Single | $14,600 | | Married Filing Jointly | $29,200 | | Married Filing Separately | $14,600 | | Head of Household | $21,900 |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Filing Status</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Standard Deduction</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Single</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$14,600</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Married Filing Jointly</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$29,200</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Married Filing Separately</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$14,600</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Head of Household</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$21,900</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Additional amounts for age 65+ or blind:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
           <li>Single/HOH: +$1,950</li>
@@ -3669,7 +5098,43 @@ export const TAXPLANNING_ARTICLES: Article[] = [
           <li>Charitable contributions</li>
           <li>Medical expenses (exceeding 7.5% of AGI)</li>
           </ul>
-          <p><strong>Example analysis (Married couple):</strong> | Deduction | Amount | |-----------|--------| | SALT | $10,000 | | Mortgage interest | $15,000 | | Charitable | $8,000 | | <strong>Total itemized</strong> | <strong>$33,000</strong> | | Standard deduction | $29,200 | | <strong>Benefit of itemizing</strong> | <strong>$3,800</strong> |</p>
+          <p><strong>Example analysis (Married couple):</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Deduction</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Amount</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">SALT</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$10,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Mortgage interest</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$15,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Charitable</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$8,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Total itemized</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$33,000</strong></td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Standard deduction</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$29,200</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Benefit of itemizing</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$3,800</strong></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Why Most Taxpayers Take the Standard Deduction</h3>
           <p>Since 2018 tax law changes:</p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -3797,8 +5262,69 @@ export const TAXPLANNING_ARTICLES: Article[] = [
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Strategy 1: Bunching Deductions</h3>
           <p><strong>Concept:</strong> Combine two years of deductions into one year to exceed standard deduction.</p>
-          <p><strong>Example (Charitable giving):</strong> | Year | Normal Giving | Standard Ded | Itemize? | |------|---------------|--------------|----------| | 2024 | $5,000 | $29,200 | No | | 2025 | $5,000 | $29,200 | No | | Total | $10,000 | | |</p>
-          <p><strong>With bunching:</strong> | Year | Bunched Giving | Other Itemized | Total | Itemize? | |------|----------------|----------------|-------|----------| | 2024 | $0 | $20,000 | $20,000 | No | | 2025 | $10,000 | $20,000 | $30,000 | Yes |</p>
+          <p><strong>Example (Charitable giving):</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Year</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Normal Giving</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Standard Ded</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Itemize?</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2024</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$29,200</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2025</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$29,200</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Total</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$10,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <p><strong>With bunching:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Year</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Bunched Giving</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Other Itemized</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Total</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Itemize?</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2024</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$0</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$20,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$20,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2025</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$10,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$20,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$30,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p>By bunching, you get $30,000 in deductions one year + $29,200 standard the other = $59,200 vs. $58,400 without bunching.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Strategy 2: Donor-Advised Funds</h3>
           <p><strong>How it works:</strong> 1. Make large contribution to DAF 2. Receive full deduction in contribution year 3. Distribute to charities over time</p>

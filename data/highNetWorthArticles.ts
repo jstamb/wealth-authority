@@ -67,11 +67,132 @@ export const HIGHNETWORTH_ARTICLES: Article[] = [
         title: 'Side-by-Side Comparison',
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Service Scope</h3>
-          <p>| Aspect | Financial Planning | Wealth Management | |--------|-------------------|-------------------| | Scope | Defined areas | Comprehensive | | Duration | Project or ongoing | Always ongoing | | Investment management | May or may not include | Always included | | Tax preparation | Rarely | Often coordinated | | Estate documents | Referral to attorney | Coordinated, reviewed | | Family involvement | Sometimes | Usually | | Concierge services | No | Sometimes |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Aspect</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Financial Planning</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Wealth Management</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Scope</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Defined areas</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Comprehensive</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Duration</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Project or ongoing</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Always ongoing</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Investment management</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">May or may not include</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Always included</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Tax preparation</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Rarely</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Often coordinated</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Estate documents</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Referral to attorney</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Coordinated, reviewed</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Family involvement</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Sometimes</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Usually</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Concierge services</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Sometimes</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Typical Client Profiles</h3>
-          <p>| Factor | Financial Planning | Wealth Management | |--------|-------------------|-------------------| | Investable assets | $100K-$500K typical | $500K-$1M+ typical | | Complexity | Low to moderate | Moderate to high | | Time available | Has time for some DIY | Prefers delegation | | Goals | Accumulation focused | Preservation + distribution | | Family complexity | Simple | Often complex |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Factor</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Financial Planning</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Wealth Management</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Investable assets</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$100K-$500K typical</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500K-$1M+ typical</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Complexity</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Low to moderate</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Moderate to high</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Time available</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Has time for some DIY</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Prefers delegation</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Goals</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Accumulation focused</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Preservation + distribution</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Family complexity</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Simple</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Often complex</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Pricing Models</h3>
-          <p>| Model | Financial Planning | Wealth Management | |-------|-------------------|-------------------| | Hourly | $150-$400/hour | Rarely | | Flat fee | $1,000-$7,500/year | $5,000-$25,000+/year | | AUM (% of assets) | 0-1% | 0.5-1.5% | | Retainer | $100-$500/month | Included in AUM | | Commission | Some advisors | Rare (fee-only preferred) |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Model</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Financial Planning</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Wealth Management</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Hourly</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$150-$400/hour</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Rarely</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Flat fee</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,000-$7,500/year</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5,000-$25,000+/year</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">AUM (% of assets)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0-1%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.5-1.5%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Retainer</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$100-$500/month</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Included in AUM</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Commission</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Some advisors</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Rare (fee-only preferred)</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
         `
       },
       {
@@ -287,7 +408,45 @@ export const HIGHNETWORTH_ARTICLES: Article[] = [
           <li>No ongoing relationship</li>
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Wealth Management Costs</h3>
-          <p><strong>Assets under management (AUM) model:</strong> | Portfolio Size | Typical Fee | Annual Cost | |---------------|-------------|-------------| | $500,000 | 1.00% | $5,000 | | $1,000,000 | 0.90% | $9,000 | | $2,000,000 | 0.80% | $16,000 | | $5,000,000 | 0.65% | $32,500 | | $10,000,000 | 0.50% | $50,000 |</p>
+          <p><strong>Assets under management (AUM) model:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Portfolio Size</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Typical Fee</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Annual Cost</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1.00%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,000,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.90%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$9,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,000,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.80%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$16,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5,000,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.65%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$32,500</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$10,000,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.50%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$50,000</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>What's included:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
           <li>Comprehensive financial planning</li>
@@ -442,7 +601,44 @@ export const HIGHNETWORTH_ARTICLES: Article[] = [
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Total Compensation Breakdown</h3>
           <p><strong>Typical executive package:</strong></p>
-          <p>| Component | Description | Typical % of Total | |-----------|-------------|-------------------| | Base salary | Fixed cash compensation | 15-25% | | Annual bonus | Cash performance award | 15-25% | | Long-term incentives | Equity awards (RSUs, options) | 40-60% | | Benefits | Health, retirement, perks | 5-10% | | Deferred compensation | NQDC plans | Varies |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Component</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Description</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Typical % of Total</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Base salary</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Fixed cash compensation</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">15-25%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Annual bonus</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Cash performance award</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">15-25%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Long-term incentives</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Equity awards (RSUs, options)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">40-60%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Benefits</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Health, retirement, perks</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">5-10%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Deferred compensation</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">NQDC plans</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Varies</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Cash Components</h3>
           <p><strong>Base salary:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -1011,7 +1207,77 @@ export const HIGHNETWORTH_ARTICLES: Article[] = [
           </ul>
           <p><strong>Best for:</strong> Estate planning focus with charitable component.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Comparison of Vehicles</h3>
-          <p>| Feature | DAF | Foundation | CRT | CLT | |---------|-----|------------|-----|-----| | Control | Advisory | Complete | Moderate | Moderate | | Deduction | Immediate | Immediate | Partial | Varies | | Investment | Yes | Yes | Yes | Yes | | Distribution req | None | 5% annually | Income to donor | Income to charity | | Complexity | Low | High | Moderate | Moderate | | Cost | Low | High | Moderate | Moderate | | Family involvement | Limited | Maximum | Limited | Limited | | Visibility | Low | High | Low | Low |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Feature</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">DAF</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Foundation</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">CRT</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">CLT</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Control</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Advisory</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Complete</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Moderate</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Moderate</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Deduction</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Immediate</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Immediate</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Partial</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Varies</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Investment</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Distribution req</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">None</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">5% annually</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Income to donor</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Income to charity</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Complexity</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Low</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">High</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Moderate</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Moderate</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Cost</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Low</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">High</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Moderate</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Moderate</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Family involvement</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Limited</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Maximum</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Limited</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Limited</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Visibility</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Low</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">High</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Low</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Low</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
         `
       },
       {
@@ -1021,7 +1287,32 @@ export const HIGHNETWORTH_ARTICLES: Article[] = [
           <h3 class="text-xl font-bold mt-8 mb-4">Donating Appreciated Assets</h3>
           <p><strong>Most tax-efficient approach:</strong> Donate stock, real estate, or other appreciated assets instead of cash.</p>
           <p><strong>Example:</strong> $100,000 worth of stock, $10,000 cost basis</p>
-          <p>| Method | Tax Deduction | Capital Gains Tax | Net Benefit | |--------|---------------|-------------------|-------------| | Sell, give cash | $100,000 | $21,420 | $78,580 | | Give stock directly | $100,000 | $0 | $100,000+ |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Method</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Tax Deduction</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Capital Gains Tax</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Net Benefit</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Sell, give cash</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$100,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$21,420</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$78,580</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Give stock directly</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$100,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$0</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$100,000+</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Additional benefit:</strong> Charity receives full value; you avoid all capital gains.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Bunching Charitable Deductions</h3>
           <p><strong>Strategy:</strong> Concentrate multiple years' giving in one year to exceed standard deduction.</p>
@@ -1106,7 +1397,35 @@ export const HIGHNETWORTH_ARTICLES: Article[] = [
           <li>Direct conversation with leadership</li>
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Measuring Impact</h3>
-          <p><strong>Types of metrics:</strong> | Level | What to Measure | |-------|-----------------| | Inputs | Dollars donated | | Outputs | People served, programs run | | Outcomes | Changes in lives/conditions | | Impact | Long-term societal change |</p>
+          <p><strong>Types of metrics:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Level</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">What to Measure</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Inputs</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Dollars donated</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Outputs</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">People served, programs run</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Outcomes</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Changes in lives/conditions</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Impact</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Long-term societal change</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Regular review:</strong> Assess whether giving achieves intended goals; adjust as needed.</p>
         `
       },
@@ -1230,7 +1549,38 @@ export const HIGHNETWORTH_ARTICLES: Article[] = [
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Foundation Costs</h3>
           <p><strong>Typical annual costs:</strong></p>
-          <p>| Category | Range | |----------|-------| | Administrative staff | $100,000-$500,000+ | | Legal and accounting | $20,000-$100,000 | | Investment management | 0.5-1% of assets | | Office and operations | $20,000-$100,000 | | <strong>Total</strong> | <strong>$150,000-$700,000+</strong> |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Category</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Range</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Administrative staff</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$100,000-$500,000+</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Legal and accounting</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$20,000-$100,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Investment management</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.5-1% of assets</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Office and operations</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$20,000-$100,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Total</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$150,000-$700,000+</strong></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Rule of thumb:</strong> Foundation viable at $5-10 million minimum; more efficient at $20 million+.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Alternatives to Starting a Foundation</h3>
           <p><strong>If below foundation threshold:</strong></p>
@@ -1318,9 +1668,93 @@ export const HIGHNETWORTH_ARTICLES: Article[] = [
           <li>Integrated banking and investments</li>
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Private Banking vs. Regular Banking</h3>
-          <p>| Feature | Regular Banking | Private Banking | |---------|-----------------|-----------------| | Account manager | None/call center | Dedicated banker | | Loan approval | Standard process | Expedited, flexible | | Interest rates | Posted rates | Negotiable | | Fees | Standard schedule | Often waived | | Services | Menu-based | Customized | | Access | Branch/online | Direct phone/email | | Investment access | Limited | Broader |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Feature</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Regular Banking</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Private Banking</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Account manager</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">None/call center</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Dedicated banker</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Loan approval</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Standard process</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Expedited, flexible</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Interest rates</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Posted rates</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Negotiable</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Fees</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Standard schedule</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Often waived</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Services</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Menu-based</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Customized</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Access</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Branch/online</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Direct phone/email</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Investment access</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Limited</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Broader</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Private Banking vs. Wealth Management</h3>
-          <p>| Aspect | Private Banking | Wealth Management | |--------|-----------------|-------------------| | Primary focus | Banking services | Investment management | | Core offering | Deposits, lending, credit | Portfolio management, planning | | Relationship | Banker | Financial advisor | | Regulation | Bank regulators | SEC/state securities | | Fee structure | Service fees, interest spreads | AUM fees |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Aspect</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Private Banking</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Wealth Management</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Primary focus</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Banking services</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Investment management</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Core offering</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Deposits, lending, credit</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Portfolio management, planning</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Relationship</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Banker</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Financial advisor</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Regulation</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Bank regulators</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">SEC/state securities</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Fee structure</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Service fees, interest spreads</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">AUM fees</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Note:</strong> Many institutions combine both under "private banking" or "wealth management."</p>
         `
       },
@@ -1330,7 +1764,38 @@ export const HIGHNETWORTH_ARTICLES: Article[] = [
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Typical Requirements</h3>
           <p><strong>Asset minimums vary widely:</strong></p>
-          <p>| Bank Type | Typical Minimum | |-----------|-----------------| | Regional banks | $250,000-$500,000 | | National banks (entry tier) | $500,000-$1 million | | National banks (premium) | $1-5 million | | Elite private banks | $5-25+ million | | Swiss/European private banks | $5-50+ million |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Bank Type</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Typical Minimum</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Regional banks</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$250,000-$500,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">National banks (entry tier)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500,000-$1 million</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">National banks (premium)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1-5 million</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Elite private banks</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5-25+ million</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Swiss/European private banks</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5-50+ million</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">What Counts Toward Minimums</h3>
           <p><strong>Typically included:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -1397,7 +1862,38 @@ export const HIGHNETWORTH_ARTICLES: Article[] = [
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Lending Services</h3>
           <p><strong>Preferential lending:</strong></p>
-          <p>| Loan Type | Private Banking Advantage | |-----------|--------------------------| | Mortgage | Rate discounts, higher limits, jumbo expertise | | Home equity | Flexible terms, quick approval | | Securities-backed | Access to pledged asset lines | | Personal loans | Larger amounts, better rates | | Aircraft/yacht | Specialized lending |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Loan Type</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Private Banking Advantage</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Mortgage</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Rate discounts, higher limits, jumbo expertise</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Home equity</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Flexible terms, quick approval</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Securities-backed</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Access to pledged asset lines</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Personal loans</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Larger amounts, better rates</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Aircraft/yacht</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Specialized lending</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Securities-based lending:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
           <li>Borrow against investment portfolio</li>
@@ -1558,7 +2054,62 @@ export const HIGHNETWORTH_ARTICLES: Article[] = [
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Comparing Offers</h3>
           <p><strong>Create a comparison:</strong></p>
-          <p>| Factor | Bank A | Bank B | Best Option | |--------|--------|--------|-------------| | Minimum required | $ | $ | Lower | | Mortgage discount | % | % | Higher | | AUM fees | % | % | Lower | | Checking benefits | List | List | Compare | | Lending flexibility | Rating | Rating | Higher | | Investment quality | Rating | Rating | Higher | | Service quality | Rating | Rating | Higher |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Factor</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Bank A</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Bank B</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Best Option</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Minimum required</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Lower</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Mortgage discount</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Higher</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">AUM fees</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Lower</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Checking benefits</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">List</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">List</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Compare</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Lending flexibility</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Rating</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Rating</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Higher</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Investment quality</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Rating</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Rating</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Higher</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Service quality</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Rating</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Rating</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Higher</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Red Flags</h3>
           <p><strong>Watch out for:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -1784,7 +2335,56 @@ export const HIGHNETWORTH_ARTICLES: Article[] = [
           </ul>
           <p><strong>Best for:</strong> $5-50 million range, complex situations but below SFO threshold.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Comparison</h3>
-          <p>| Factor | Single Family Office | Multi-Family Office | Virtual FO | |--------|---------------------|---------------------|------------| | Minimum assets | $100M+ | $10-25M+ | $5-10M+ | | Annual cost | $1-5M+ | $50K-$500K | $25K-$150K | | Customization | Maximum | High | Moderate | | Privacy | Maximum | Good | Good | | Control | Complete | Shared decisions | Limited | | Staffing | Dedicated | Shared | External |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Factor</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Single Family Office</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Multi-Family Office</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Virtual FO</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Minimum assets</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$100M+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$10-25M+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5-10M+</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Annual cost</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1-5M+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$50K-$500K</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$25K-$150K</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Customization</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Maximum</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">High</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Moderate</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Privacy</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Maximum</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Good</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Good</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Control</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Complete</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Shared decisions</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Limited</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Staffing</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Dedicated</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Shared</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">External</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
         `
       },
       {
@@ -1949,7 +2549,46 @@ export const HIGHNETWORTH_ARTICLES: Article[] = [
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Single Family Office Costs</h3>
           <p><strong>Operating a single family office:</strong></p>
-          <p>| Category | Annual Cost Range | |----------|------------------| | Staff compensation | $500K-$3M+ | | Office space | $100K-$500K | | Technology | $50K-$200K | | Professional services | $100K-$500K | | Insurance | $25K-$100K | | Other operating costs | $50K-$200K | | <strong>Total</strong> | <strong>$1-5M+ annually</strong> |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Category</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Annual Cost Range</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Staff compensation</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500K-$3M+</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Office space</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$100K-$500K</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Technology</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$50K-$200K</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Professional services</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$100K-$500K</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Insurance</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$25K-$100K</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Other operating costs</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$50K-$200K</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Total</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$1-5M+ annually</strong></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>As percentage of assets:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
           <li>$100M portfolio: 1-5% annually</li>
@@ -1959,7 +2598,34 @@ export const HIGHNETWORTH_ARTICLES: Article[] = [
           <p><strong>Economies of scale make SFOs more efficient at higher asset levels.</strong></p>
           <h3 class="text-xl font-bold mt-8 mb-4">Multi-Family Office Costs</h3>
           <p><strong>Typical MFO fee structure:</strong></p>
-          <p>| Fee Type | Typical Range | |----------|---------------| | AUM fee | 0.50-1.25% | | Planning fee | $5,000-$50,000/year | | Retainer | $10,000-$50,000/year | | Hourly (additional) | $250-$500/hour |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Fee Type</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Typical Range</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">AUM fee</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.50-1.25%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Planning fee</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5,000-$50,000/year</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Retainer</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$10,000-$50,000/year</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Hourly (additional)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$250-$500/hour</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Example:</strong> $25 million portfolio</p>
           <ul class="list-disc pl-6 space-y-2 my-4">
           <li>AUM fee at 0.75%: $187,500</li>
@@ -2196,7 +2862,38 @@ export const HIGHNETWORTH_ARTICLES: Article[] = [
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">State Estate Taxes</h3>
           <p><strong>17 states plus DC have estate or inheritance taxes:</strong></p>
-          <p>| State | Exemption (2024) | |-------|------------------| | Oregon | $1 million | | Massachusetts | $2 million | | New York | $6.94 million | | Washington | $2.19 million | | Maryland | Estate + inheritance |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">State</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Exemption (2024)</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Oregon</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1 million</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Massachusetts</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2 million</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">New York</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$6.94 million</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Washington</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2.19 million</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Maryland</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Estate + inheritance</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>State taxes add to federal burden and apply at lower thresholds.</strong></p>
         `
       },
@@ -2389,7 +3086,39 @@ export const HIGHNETWORTH_ARTICLES: Article[] = [
           <li>Role of advisors</li>
           <li>Giving and philanthropy</li>
           </ul>
-          <p><strong>Age-appropriate education:</strong> | Age | Topics | |-----|--------| | 8-12 | Saving, basic budgeting | | 13-17 | Investing, work ethic | | 18-22 | Real-world money management, credit | | 23-30 | Investing, estate planning awareness | | 30+ | Family governance, stewardship |</p>
+          <p><strong>Age-appropriate education:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Age</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Topics</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">8-12</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Saving, basic budgeting</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">13-17</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Investing, work ethic</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">18-22</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Real-world money management, credit</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">23-30</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Investing, estate planning awareness</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">30+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Family governance, stewardship</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Gradual Wealth Transfer</h3>
           <p><strong>Progressive approach:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -2587,7 +3316,42 @@ export const HIGHNETWORTH_ARTICLES: Article[] = [
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">How Concentrated Positions Form</h3>
           <p><strong>Common sources:</strong></p>
-          <p>| Source | Example | |--------|---------| | Founding a company | Tech entrepreneur with IPO | | Executive compensation | RSUs, options accumulating | | Inheritance | Received family company stock | | Long-term holding | Early investment that grew | | Company acquisition | Received acquirer's stock | | ESOP | Employee Stock Ownership Plan |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Source</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Example</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Founding a company</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Tech entrepreneur with IPO</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Executive compensation</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">RSUs, options accumulating</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Inheritance</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Received family company stock</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Long-term holding</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Early investment that grew</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Company acquisition</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Received acquirer's stock</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">ESOP</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Employee Stock Ownership Plan</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">The Risk of Concentration</h3>
           <p><strong>Single-stock risk includes:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -2636,7 +3400,38 @@ export const HIGHNETWORTH_ARTICLES: Article[] = [
           <p><strong>Selling creates massive tax bill immediately.</strong></p>
           <h3 class="text-xl font-bold mt-8 mb-4">Long-Term vs. Short-Term Gains</h3>
           <p><strong>Rate differences (2024):</strong></p>
-          <p>| Income Level | Short-Term | Long-Term | NIIT | |--------------|------------|-----------|------| | Highest bracket | 37% | 20% | +3.8% | | Middle brackets | 22-32% | 15% | +3.8% | | Lower brackets | 10-12% | 0% | N/A |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Income Level</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Short-Term</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Long-Term</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">NIIT</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Highest bracket</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">37%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">20%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">+3.8%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Middle brackets</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">22-32%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">15%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">+3.8%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Lower brackets</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">10-12%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">N/A</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Always prefer long-term treatment when possible.</strong></p>
           <h3 class="text-xl font-bold mt-8 mb-4">State Tax Implications</h3>
           <p><strong>State capital gains taxes vary:</strong></p>
@@ -2857,7 +3652,46 @@ export const HIGHNETWORTH_ARTICLES: Article[] = [
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Decision Framework</h3>
           <p><strong>Consider these factors:</strong></p>
-          <p>| Factor | Question | |--------|----------| | Charitable intent | Want to give to charity? | | Income need | Need cash flow from the stock? | | Continued upside | Believe in significant upside? | | Tax situation | High or low bracket? Losses to use? | | Timeline | How quickly need diversification? | | Complexity tolerance | Comfortable with sophisticated strategies? | | Insider status | Subject to trading restrictions? |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Factor</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Question</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Charitable intent</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Want to give to charity?</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Income need</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Need cash flow from the stock?</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Continued upside</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Believe in significant upside?</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Tax situation</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">High or low bracket? Losses to use?</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Timeline</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">How quickly need diversification?</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Complexity tolerance</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Comfortable with sophisticated strategies?</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Insider status</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Subject to trading restrictions?</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Strategy Selection Guide</h3>
           <p><strong>If you have charitable goals:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -2890,7 +3724,34 @@ export const HIGHNETWORTH_ARTICLES: Article[] = [
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Rules of Thumb</h3>
           <p><strong>General guidelines:</strong></p>
-          <p>| Position Size | Suggested Action | |--------------|------------------| | <10% of net worth | May be acceptable to hold | | 10-25% | Begin diversification planning | | 25-50% | Active diversification needed | | >50% | Urgent need to reduce concentration |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Position Size</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Suggested Action</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><10% of net worth</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">May be acceptable to hold</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">10-25%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Begin diversification planning</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">25-50%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Active diversification needed</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">>50%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Urgent need to reduce concentration</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Time-based approach:</strong> Reduce concentration by 10-20% per year until acceptable level.</p>
         `
       },
@@ -2995,7 +3856,35 @@ export const HIGHNETWORTH_ARTICLES: Article[] = [
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Robo-Advisors</h3>
           <p><strong>Minimum:</strong> $0-$500 typically</p>
-          <p><strong>Examples:</strong> | Platform | Minimum | |----------|---------| | Betterment | $0 | | Wealthfront | $500 | | Schwab Intelligent Portfolios | $5,000 | | Vanguard Digital Advisor | $3,000 |</p>
+          <p><strong>Examples:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Platform</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Minimum</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Betterment</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$0</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Wealthfront</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Schwab Intelligent Portfolios</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Vanguard Digital Advisor</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$3,000</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>What you get:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
           <li>Automated portfolio management</li>
@@ -3006,7 +3895,35 @@ export const HIGHNETWORTH_ARTICLES: Article[] = [
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Hybrid Robo-Advisors</h3>
           <p><strong>Minimum:</strong> $25,000-$100,000</p>
-          <p><strong>Examples:</strong> | Platform | Minimum | What's Included | |----------|---------|-----------------| | Betterment Premium | $100,000 | Unlimited CFP access | | Vanguard Personal Advisor | $50,000 | CFP advice | | Schwab Intelligent Premium | $25,000 | Unlimited 1:1 guidance |</p>
+          <p><strong>Examples:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Platform</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Minimum</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">What's Included</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Betterment Premium</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$100,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Unlimited CFP access</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Vanguard Personal Advisor</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$50,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">CFP advice</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Schwab Intelligent Premium</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$25,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Unlimited 1:1 guidance</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>What you get:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
           <li>Automated investing</li>
@@ -3016,7 +3933,35 @@ export const HIGHNETWORTH_ARTICLES: Article[] = [
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Traditional Financial Advisors</h3>
           <p><strong>Minimum:</strong> $100,000-$500,000</p>
-          <p><strong>What to expect:</strong> | AUM | Typical Minimum | Service Level | |-----|-----------------|---------------| | $100K-$250K | Entry level | Basic planning, model portfolios | | $250K-$500K | Standard | Comprehensive planning, customization | | $500K-$1M | Enhanced | Dedicated advisor, full service |</p>
+          <p><strong>What to expect:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">AUM</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Typical Minimum</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Service Level</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$100K-$250K</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Entry level</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Basic planning, model portfolios</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$250K-$500K</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Standard</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Comprehensive planning, customization</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500K-$1M</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Enhanced</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Dedicated advisor, full service</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>What you get:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
           <li>Personal relationship with advisor</li>
@@ -3026,7 +3971,35 @@ export const HIGHNETWORTH_ARTICLES: Article[] = [
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Wealth Management Firms</h3>
           <p><strong>Minimum:</strong> $500,000-$2,000,000</p>
-          <p><strong>Examples by segment:</strong> | Firm Type | Typical Minimum | |-----------|-----------------| | Regional RIAs | $250K-$500K | | National wealth managers | $500K-$1M | | Wirehouse private client | $1M-$2M | | Private banks | $1M-$5M |</p>
+          <p><strong>Examples by segment:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Firm Type</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Typical Minimum</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Regional RIAs</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$250K-$500K</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">National wealth managers</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500K-$1M</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Wirehouse private client</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1M-$2M</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Private banks</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1M-$5M</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>What you get:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
           <li>Comprehensive wealth management</li>
@@ -3067,7 +4040,54 @@ export const HIGHNETWORTH_ARTICLES: Article[] = [
         type: 'text',
         title: 'Minimum Investment Summary Table',
         content: `
-          <p>| Advisor Type | Typical Minimum | Annual Fee Range | |--------------|-----------------|------------------| | Robo-advisor | $0-$5,000 | 0.25-0.35% | | Hybrid robo | $25,000-$100,000 | 0.30-0.40% | | Financial planner (flat fee) | $0-$50,000 | $2,000-$7,500/year | | Traditional advisor | $100,000-$500,000 | 0.80-1.25% | | Wealth management | $500,000-$2,000,000 | 0.65-1.00% | | Private wealth | $2,000,000-$10,000,000 | 0.50-0.75% | | Multi-family office | $10,000,000+ | 0.40-0.60% |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Advisor Type</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Typical Minimum</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Annual Fee Range</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Robo-advisor</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$0-$5,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.25-0.35%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Hybrid robo</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$25,000-$100,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.30-0.40%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Financial planner (flat fee)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$0-$50,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,000-$7,500/year</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Traditional advisor</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$100,000-$500,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.80-1.25%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Wealth management</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500,000-$2,000,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.65-1.00%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Private wealth</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,000,000-$10,000,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.50-0.75%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Multi-family office</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$10,000,000+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.40-0.60%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
         `
       },
       {
@@ -3248,7 +4268,49 @@ export const HIGHNETWORTH_ARTICLES: Article[] = [
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Higher Minimums Often Mean Lower Fees</h3>
           <p><strong>The sliding scale reality:</strong></p>
-          <p>| Assets | Typical Fee | Annual Cost | |--------|-------------|-------------| | $100,000 | 1.25% | $1,250 | | $250,000 | 1.10% | $2,750 | | $500,000 | 1.00% | $5,000 | | $1,000,000 | 0.85% | $8,500 | | $2,500,000 | 0.70% | $17,500 | | $5,000,000 | 0.55% | $27,500 |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Assets</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Typical Fee</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Annual Cost</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$100,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1.25%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,250</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$250,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1.10%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,750</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1.00%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,000,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.85%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$8,500</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,500,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.70%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$17,500</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5,000,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.55%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$27,500</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>As assets grow, percentage typically decreases.</strong></p>
           <h3 class="text-xl font-bold mt-8 mb-4">Comparing Total Value</h3>
           <p><strong>Lower minimum advisor at 1.25% vs. higher minimum at 0.85%:</strong></p>
@@ -3322,7 +4384,44 @@ export const HIGHNETWORTH_ARTICLES: Article[] = [
           </ul>
           <p><strong>Global UHNW population:</strong> Approximately 260,000 individuals worldwide (2023).</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Wealth Tiers Above HNW</h3>
-          <p>| Tier | Investable Assets | Characteristics | |------|------------------|-----------------| | High net worth | $1-5 million | Successful professionals, business owners | | Very high net worth | $5-30 million | Major business owners, executives | | Ultra high net worth | $30-100 million | Major entrepreneurs, inheritance | | Centi-millionaire | $100-999 million | Major business exits, family dynasties | | Billionaire | $1 billion+ | Ultra-successful entrepreneurs |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Tier</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Investable Assets</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Characteristics</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">High net worth</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1-5 million</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Successful professionals, business owners</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Very high net worth</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5-30 million</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Major business owners, executives</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Ultra high net worth</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$30-100 million</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Major entrepreneurs, inheritance</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Centi-millionaire</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$100-999 million</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Major business exits, family dynasties</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Billionaire</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1 billion+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Ultra-successful entrepreneurs</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">What Makes UHNW Different</h3>
           <p><strong>Unique characteristics:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -3472,7 +4571,45 @@ export const HIGHNETWORTH_ARTICLES: Article[] = [
         title: 'Investment Strategies for UHNW',
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Access to Alternatives</h3>
-          <p><strong>What becomes available:</strong> | Investment Type | Typical Minimum | Accreditation | |-----------------|-----------------|---------------| | Hedge funds | $1-10 million | Qualified purchaser | | Private equity | $5-25 million | Qualified purchaser | | Venture capital | $1-5 million | Accredited + QP | | Direct deals | Varies | Varies | | Art funds | $500K+ | Accredited |</p>
+          <p><strong>What becomes available:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Investment Type</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Typical Minimum</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Accreditation</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Hedge funds</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1-10 million</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Qualified purchaser</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Private equity</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5-25 million</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Qualified purchaser</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Venture capital</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1-5 million</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Accredited + QP</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Direct deals</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Varies</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Varies</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Art funds</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500K+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Accredited</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Direct Investments</h3>
           <p><strong>Opportunities:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -3732,7 +4869,39 @@ export const HIGHNETWORTH_ARTICLES: Article[] = [
           <li>How do you handle conflicts of interest?</li>
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Fee Structures</h3>
-          <p><strong>UHNW fee models:</strong> | Service | Typical Structure | |---------|------------------| | Investment management | 0.50-0.75% AUM | | Family office (multi) | 0.40-0.75% + fixed fees | | Family office (single) | $1-5 million+ annually | | Legal (estate) | Project or retainer | | Tax | Hourly or fixed |</p>
+          <p><strong>UHNW fee models:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Service</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Typical Structure</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Investment management</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.50-0.75% AUM</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Family office (multi)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.40-0.75% + fixed fees</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Family office (single)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1-5 million+ annually</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Legal (estate)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Project or retainer</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Tax</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Hourly or fixed</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Total costs:</strong> Often 0.75-1.5% of assets annually for comprehensive service.</p>
         `
       },
@@ -3842,7 +5011,44 @@ export const HIGHNETWORTH_ARTICLES: Article[] = [
           <li>Family office may be appropriate</li>
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Wealth Tier Summary</h3>
-          <p>| Tier | Investable Assets | Typical Characteristics | |------|------------------|------------------------| | Mass affluent | $100,000-$1 million | Accumulators, pre-retirement | | High net worth (HNW) | $1-5 million | Successful professionals, business owners | | Very high net worth (VHNW) | $5-30 million | Executives, entrepreneurs, inherited wealth | | Ultra-high net worth (UHNW) | $30+ million | Major business owners, top executives | | Centi-millionaire | $100+ million | Rare; family office territory |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Tier</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Investable Assets</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Typical Characteristics</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Mass affluent</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$100,000-$1 million</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Accumulators, pre-retirement</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">High net worth (HNW)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1-5 million</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Successful professionals, business owners</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Very high net worth (VHNW)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5-30 million</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Executives, entrepreneurs, inherited wealth</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Ultra-high net worth (UHNW)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$30+ million</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Major business owners, top executives</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Centi-millionaire</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$100+ million</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Rare; family office territory</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
         `
       },
       {
@@ -3871,7 +5077,55 @@ export const HIGHNETWORTH_ARTICLES: Article[] = [
           <h3 class="text-xl font-bold mt-8 mb-4">Liquid vs. Total Net Worth</h3>
           <p><strong>Total net worth:</strong> Everything you own minus everything you owe.</p>
           <p><strong>Liquid net worth:</strong> Assets that can be quickly converted to cash without significant loss.</p>
-          <p><strong>Example:</strong> | Category | Amount | |----------|--------| | Home value | $1,500,000 | | Mortgage | -$800,000 | | Home equity | $700,000 | | Investment accounts | $1,200,000 | | Retirement accounts | $800,000 | | Bank accounts | $100,000 | | Auto loans | -$30,000 | | <strong>Total net worth</strong> | <strong>$2,770,000</strong> | | <strong>Liquid/investable</strong> | <strong>$2,100,000</strong> |</p>
+          <p><strong>Example:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Category</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Amount</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Home value</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,500,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Mortgage</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">-$800,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Home equity</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$700,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Investment accounts</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,200,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Retirement accounts</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$800,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Bank accounts</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$100,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Auto loans</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">-$30,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Total net worth</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$2,770,000</strong></td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Liquid/investable</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$2,100,000</strong></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>For HNW classification:</strong> Most definitions focus on liquid/investable assets, not total net worth.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Why Primary Residence Is Often Excluded</h3>
           <p><strong>Reasons:</strong></p>
@@ -3896,7 +5150,38 @@ export const HIGHNETWORTH_ARTICLES: Article[] = [
           <li>Premium services often at $5-10 million</li>
           </ul>
           <p><strong>Example minimums:</strong></p>
-          <p>| Firm Type | Typical Minimum | |-----------|-----------------| | Robo-advisors | $0-$500 | | Traditional advisors | $100,000-$500,000 | | Wealth managers | $500,000-$2 million | | Private wealth management | $2-10 million | | Family offices | $25-100+ million |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Firm Type</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Typical Minimum</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Robo-advisors</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$0-$500</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Traditional advisors</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$100,000-$500,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Wealth managers</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500,000-$2 million</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Private wealth management</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2-10 million</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Family offices</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$25-100+ million</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Banks and Financial Institutions</h3>
           <p><strong>Private banking thresholds:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -4049,7 +5334,42 @@ export const HIGHNETWORTH_ARTICLES: Article[] = [
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Pricing and Fees</h3>
           <p><strong>Fee structures often change with wealth level:</strong></p>
-          <p>| AUM | Typical Fee | |-----|-------------| | Under $500K | 1.25-1.50% | | $500K-$1M | 1.00-1.25% | | $1-2M | 0.90-1.10% | | $2-5M | 0.75-0.90% | | $5-10M | 0.60-0.75% | | $10M+ | 0.50% or less |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">AUM</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Typical Fee</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Under $500K</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1.25-1.50%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500K-$1M</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1.00-1.25%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1-2M</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.90-1.10%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2-5M</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.75-0.90%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5-10M</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.60-0.75%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$10M+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.50% or less</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Regulatory Implications</h3>
           <p><strong>Accredited investor status:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">

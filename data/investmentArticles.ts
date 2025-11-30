@@ -57,7 +57,39 @@ export const INVESTMENT_ARTICLES: Article[] = [
           <li>Managing emotional reactions to market news</li>
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Investment Advisor vs Financial Planner</h3>
-          <p>| Aspect | Investment Advisor | Financial Planner | |--------|-------------------|------------------| | Primary Focus | Portfolio management | Comprehensive planning | | Services | Investment selection, rebalancing | Retirement, taxes, insurance, estate | | Typical Fee Basis | % of assets managed | % of assets, flat fee, or hourly | | When You Need Them | Managing significant investments | Life transitions, complex decisions |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Aspect</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Investment Advisor</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Financial Planner</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Primary Focus</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Portfolio management</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Comprehensive planning</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Services</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Investment selection, rebalancing</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Retirement, taxes, insurance, estate</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Typical Fee Basis</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">% of assets managed</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">% of assets, flat fee, or hourly</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">When You Need Them</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Managing significant investments</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Life transitions, complex decisions</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p>Many professionals offer both services. For investment-focused needs, you may find a dedicated investment advisor more cost-effective.</p>
         `
       },
@@ -187,7 +219,39 @@ export const INVESTMENT_ARTICLES: Article[] = [
         title: 'The True Cost of Advisors vs DIY',
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Advisor Costs</h3>
-          <p>| Service Level | Typical Cost | What You Get | |--------------|--------------|--------------| | Robo-advisor | 0.25-0.50% | Automated rebalancing, tax-loss harvesting | | Online advisor | 0.50-0.75% | Virtual access, some planning | | Traditional advisor | 0.75-1.25% | Full service, relationship | | Wealth manager | 0.50-1.00% | Comprehensive (often lower % at higher assets) |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Service Level</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Typical Cost</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">What You Get</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Robo-advisor</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.25-0.50%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Automated rebalancing, tax-loss harvesting</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Online advisor</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.50-0.75%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Virtual access, some planning</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Traditional advisor</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.75-1.25%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Full service, relationship</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Wealth manager</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.50-1.00%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Comprehensive (often lower % at higher assets)</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p>On $500,000 portfolio:</p>
           <ul class="list-disc pl-6 space-y-2 my-4">
           <li>DIY (index funds): ~$150/year in fund fees</li>
@@ -196,7 +260,46 @@ export const INVESTMENT_ARTICLES: Article[] = [
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Where Advisors Add Value (Vanguard Research)</h3>
           <p>Vanguard's "Advisor's Alpha" research estimates advisors add approximately 3% annually through:</p>
-          <p>| Value Source | Estimated Annual Benefit | |-------------|-------------------------| | Asset allocation | 0.0-0.75% | | Cost-effective implementation | 0.34% | | Rebalancing | 0.26% | | Behavioral coaching | 1.50% | | Asset location | 0.0-0.75% | | Spending strategy (withdrawal) | 0.0-1.10% | | <strong>Total potential value</strong> | <strong>~3.0%</strong> |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Value Source</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Estimated Annual Benefit</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Asset allocation</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.0-0.75%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Cost-effective implementation</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.34%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Rebalancing</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.26%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Behavioral coaching</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1.50%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Asset location</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.0-0.75%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Spending strategy (withdrawal)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.0-1.10%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Total potential value</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>~3.0%</strong></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p>The 3% isn't guaranteed every year—it's the potential value, with behavioral coaching providing the most consistent benefit.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Break-Even Analysis</h3>
           <p>When does an advisor's value exceed their cost?</p>
@@ -460,7 +563,34 @@ export const INVESTMENT_ARTICLES: Article[] = [
           <h3 class="text-xl font-bold mt-8 mb-4">Offsetting Capital Gains</h3>
           <p>Losses first offset gains of the same type: 1. Short-term losses offset short-term gains 2. Long-term losses offset long-term gains 3. Net losses offset net gains of other type</p>
           <p><strong>Order matters for tax efficiency:</strong></p>
-          <p>| Your Situation | Offset | |---------------|--------| | Short-term gain, short-term loss | Net to $0 | | Long-term gain, long-term loss | Net to $0 | | Short-term gain, long-term loss | Long-term loss offsets short-term (saves more tax) | | Long-term gain, short-term loss | Short-term loss offsets long-term gain |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Your Situation</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Offset</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Short-term gain, short-term loss</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Net to $0</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Long-term gain, long-term loss</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Net to $0</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Short-term gain, long-term loss</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Long-term loss offsets short-term (saves more tax)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Long-term gain, short-term loss</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Short-term loss offsets long-term gain</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Offsetting Ordinary Income</h3>
           <p>After offsetting all capital gains, excess losses offset ordinary income up to $3,000/year.</p>
           <p><strong>Example:</strong></p>
@@ -554,7 +684,34 @@ export const INVESTMENT_ARTICLES: Article[] = [
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Replacement Security Selection</h3>
           <p><strong>Maintain market exposure while avoiding wash sales:</strong></p>
-          <p>| Original Investment | Replacement Option | |--------------------|--------------------| | Vanguard S&P 500 (VOO) | iShares S&P 500 (IVV) | | Vanguard Total Stock (VTI) | iShares Total Stock (ITOT) | | Vanguard International (VXUS) | iShares International (IXUS) | | Vanguard Bonds (BND) | iShares Bonds (AGG) |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Original Investment</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Replacement Option</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Vanguard S&P 500 (VOO)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">iShares S&P 500 (IVV)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Vanguard Total Stock (VTI)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">iShares Total Stock (ITOT)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Vanguard International (VXUS)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">iShares International (IXUS)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Vanguard Bonds (BND)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">iShares Bonds (AGG)</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Key:</strong> Similar exposure, different fund.</p>
         `
       },
@@ -716,7 +873,44 @@ export const INVESTMENT_ARTICLES: Article[] = [
           <li>No manager risk</li>
           </ul>
           <p><strong>Popular Index Funds (2025 Expense Ratios):</strong></p>
-          <p>| Fund | Index Tracked | Expense Ratio | |------|--------------|---------------| | Vanguard Total Stock Market (VTI/VTSAX) | Entire U.S. market | 0.03% | | Fidelity ZERO Total Market (FZROX) | U.S. total market | 0.00% | | Schwab S&P 500 (SWPPX) | S&P 500 | 0.02% | | Vanguard Total International (VXUS) | Non-U.S. stocks | 0.07% | | Vanguard Total Bond (BND) | U.S. bonds | 0.03% |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Fund</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Index Tracked</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Expense Ratio</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Vanguard Total Stock Market (VTI/VTSAX)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Entire U.S. market</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.03%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Fidelity ZERO Total Market (FZROX)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">U.S. total market</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.00%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Schwab S&P 500 (SWPPX)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">S&P 500</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.02%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Vanguard Total International (VXUS)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Non-U.S. stocks</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.07%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Vanguard Total Bond (BND)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">U.S. bonds</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.03%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Active Funds</h3>
           <p><strong>What they do:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -740,11 +934,65 @@ export const INVESTMENT_ARTICLES: Article[] = [
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Long-Term Underperformance</h3>
           <p>SPIVA (S&P Indices Versus Active) research consistently shows:</p>
-          <p>| Category | % Underperforming Index (15 Years) | |----------|-----------------------------------| | U.S. Large Cap | 88% | | U.S. Mid Cap | 86% | | U.S. Small Cap | 85% | | International | 80% | | Emerging Markets | 86% |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Category</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">% Underperforming Index (15 Years)</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">U.S. Large Cap</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">88%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">U.S. Mid Cap</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">86%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">U.S. Small Cap</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">85%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">International</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">80%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Emerging Markets</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">86%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p>Over 15 years, roughly 85-90% of active funds underperform their benchmark.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">The Cost Drag</h3>
           <p>Active funds charge higher fees:</p>
-          <p>| Fund Type | Average Expense Ratio | |-----------|----------------------| | Index funds | 0.05-0.15% | | Actively managed | 0.60-1.00% | | Difference | 0.50-0.85% |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Fund Type</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Average Expense Ratio</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Index funds</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.05-0.15%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Actively managed</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.60-1.00%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Difference</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.50-0.85%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Impact over 30 years on $100,000 (7% return before fees):</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
           <li>Index fund (0.10% fee): $744,000</li>
@@ -871,7 +1119,45 @@ export const INVESTMENT_ARTICLES: Article[] = [
           <li>Targeted strategies</li>
           <li>Personal conviction bets</li>
           </ul>
-          <p><strong>Example:</strong> | Allocation | Strategy | Cost | |------------|----------|------| | 50% | U.S. Total Market Index | 0.04% | | 20% | International Index | 0.07% | | 15% | Bond Index | 0.05% | | 10% | Active Small-Cap Value | 0.60% | | 5% | Active International Small | 0.80% |</p>
+          <p><strong>Example:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Allocation</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Strategy</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Cost</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">50%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">U.S. Total Market Index</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.04%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">20%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">International Index</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.07%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">15%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Bond Index</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.05%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">10%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Active Small-Cap Value</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.60%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">5%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Active International Small</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.80%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p>Weighted average cost: ~0.15% (vs. 0.05% all-index)</p>
         `
       },
@@ -1029,7 +1315,44 @@ export const INVESTMENT_ARTICLES: Article[] = [
           <li>Risk tolerance: Moderate</li>
           </ul>
           <p><strong>Approach: 85% Index Core + 15% Active Satellite</strong></p>
-          <p>| Allocation | Investment | Cost | |------------|-----------|------| | 45% | Vanguard Total Stock (VTI) | 0.03% | | 20% | Vanguard Total International (VXUS) | 0.07% | | 20% | Vanguard Total Bond (BND) | 0.03% | | 10% | Dimensional Small Value (DFSVX) | 0.31% | | 5% | T. Rowe Price International Discovery | 1.18% |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Allocation</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Investment</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Cost</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">45%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Vanguard Total Stock (VTI)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.03%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">20%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Vanguard Total International (VXUS)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.07%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">20%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Vanguard Total Bond (BND)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.03%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">10%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Dimensional Small Value (DFSVX)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.31%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">5%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">T. Rowe Price International Discovery</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1.18%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Weighted expense ratio: 0.13%</strong></p>
           <p><strong>Why this works</strong>: Rachel gets broad market exposure at minimal cost while allocating a small portion to areas where active management may add value (small-cap value, international small-cap). Even if the active funds underperform, 85% of her portfolio captures market returns at near-zero cost.</p>
         `
@@ -1079,11 +1402,77 @@ export const INVESTMENT_ARTICLES: Article[] = [
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Correlation Explained</h3>
           <p><strong>Correlation of +1:</strong> Assets move together perfectly <strong>Correlation of 0:</strong> Assets move independently <strong>Correlation of -1:</strong> Assets move opposite (rare)</p>
-          <p>| Asset Pair | Typical Correlation | |------------|---------------------| | U.S. Large & U.S. Mid-Cap | +0.95 | | U.S. & International Stocks | +0.75 | | Stocks & Bonds | +0.20 | | Stocks & Gold | ~0 | | Stocks & Treasury Bonds | -0.20 to +0.20 |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Asset Pair</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Typical Correlation</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">U.S. Large & U.S. Mid-Cap</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">+0.95</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">U.S. & International Stocks</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">+0.75</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Stocks & Bonds</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">+0.20</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Stocks & Gold</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">~0</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Stocks & Treasury Bonds</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">-0.20 to +0.20</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Lower correlation = more diversification benefit</strong></p>
           <h3 class="text-xl font-bold mt-8 mb-4">Diminishing Returns</h3>
           <p>Diversification benefit tapers after ~20-30 securities in each asset class.</p>
-          <p>| Number of Stocks | Unsystematic Risk Reduced | |-----------------|---------------------------| | 1 | 0% | | 5 | 50% | | 10 | 70% | | 20 | 85% | | 30 | 90% | | 500+ | ~95% |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Number of Stocks</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Unsystematic Risk Reduced</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">5</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">50%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">10</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">70%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">20</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">85%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">30</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">90%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">500+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">~95%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p>Beyond 30 stocks, you've eliminated most company-specific risk.</p>
         `
       },
@@ -1103,7 +1492,49 @@ export const INVESTMENT_ARTICLES: Article[] = [
           <li>Alternative investments</li>
           </ul>
           <p><strong>Why it matters:</strong> Different asset classes respond differently to economic conditions.</p>
-          <p>| Economic Environment | Stocks | Bonds | Commodities | Real Estate | |---------------------|--------|-------|-------------|-------------| | Growth | + | - | + | + | | Recession | - | + | - | - | | Inflation | - | - | + | + | | Deflation | - | + | - | - |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Economic Environment</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Stocks</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Bonds</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Commodities</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Real Estate</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Growth</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">-</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">+</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Recession</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">-</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">-</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">-</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Inflation</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">-</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">-</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">+</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Deflation</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">-</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">-</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">-</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Geographic Diversification</h3>
           <p>Don't put all eggs in one country:</p>
           <p><strong>Why diversify globally:</strong></p>
@@ -1191,7 +1622,30 @@ export const INVESTMENT_ARTICLES: Article[] = [
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">The Simple Approach: Total Market Funds</h3>
           <p>One fund can provide complete diversification within an asset class:</p>
-          <p>| Fund Type | Diversification Provided | |-----------|-------------------------| | Total U.S. Stock Market | 3,500+ U.S. stocks | | Total International Stock | 7,500+ non-U.S. stocks | | Total Bond Market | 10,000+ bonds |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Fund Type</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Diversification Provided</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Total U.S. Stock Market</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">3,500+ U.S. stocks</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Total International Stock</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">7,500+ non-U.S. stocks</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Total Bond Market</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">10,000+ bonds</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Three-fund portfolio:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
           <li>Vanguard Total Stock Market (VTI)</li>
@@ -1219,9 +1673,113 @@ export const INVESTMENT_ARTICLES: Article[] = [
           <li>Ensure each fund doesn't overlap significantly</li>
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Sample Diversified Portfolios</h3>
-          <p><strong>Simple (3 funds):</strong> | Fund | Allocation | |------|------------| | Total U.S. Stock | 50% | | Total International Stock | 20% | | Total Bond | 30% |</p>
-          <p><strong>Moderate (5 funds):</strong> | Fund | Allocation | |------|------------| | U.S. Large-Cap | 30% | | U.S. Small-Cap | 10% | | International Developed | 15% | | Emerging Markets | 5% | | Total Bond | 40% |</p>
-          <p><strong>Comprehensive (7+ funds):</strong> | Fund | Allocation | |------|------------| | U.S. Large-Cap Growth | 15% | | U.S. Large-Cap Value | 15% | | U.S. Small-Cap | 10% | | International Developed | 15% | | Emerging Markets | 5% | | U.S. Aggregate Bond | 25% | | International Bond | 5% | | REITs | 5% | | TIPS | 5% |</p>
+          <p><strong>Simple (3 funds):</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Fund</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Allocation</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Total U.S. Stock</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">50%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Total International Stock</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">20%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Total Bond</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">30%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <p><strong>Moderate (5 funds):</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Fund</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Allocation</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">U.S. Large-Cap</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">30%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">U.S. Small-Cap</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">10%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">International Developed</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">15%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Emerging Markets</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">5%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Total Bond</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">40%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <p><strong>Comprehensive (7+ funds):</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Fund</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Allocation</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">U.S. Large-Cap Growth</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">15%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">U.S. Large-Cap Value</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">15%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">U.S. Small-Cap</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">10%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">International Developed</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">15%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Emerging Markets</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">5%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">U.S. Aggregate Bond</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">25%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">International Bond</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">5%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">REITs</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">5%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">TIPS</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">5%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
         `
       },
       {
@@ -1883,7 +2441,49 @@ export const INVESTMENT_ARTICLES: Article[] = [
           <li>Local market concentration</li>
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">REITs vs. Direct Ownership</h3>
-          <p>| Factor | REITs | Direct Ownership | |--------|-------|------------------| | Liquidity | High (traded daily) | Low (months to sell) | | Diversification | Broad | Single property | | Management | Professional | You or hired | | Minimum | ~$50-100 | $50,000+ down payment | | Control | None | Full | | Tax benefits | Limited | Significant (depreciation) |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Factor</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">REITs</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Direct Ownership</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Liquidity</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">High (traded daily)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Low (months to sell)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Diversification</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Broad</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Single property</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Management</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Professional</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">You or hired</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Minimum</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">~$50-100</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$50,000+ down payment</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Control</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">None</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Full</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Tax benefits</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Limited</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Significant (depreciation)</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Who Should Consider</h3>
           <p><strong>REITs:</strong> Most investors wanting real estate exposure <strong>Direct ownership:</strong> Those with time, interest, and capital <strong>Private real estate funds:</strong> Accredited investors seeking diversification</p>
         `
@@ -1983,7 +2583,34 @@ export const INVESTMENT_ARTICLES: Article[] = [
         title: 'How Much to Allocate to Alternatives',
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Institutional Allocations</h3>
-          <p>| Investor Type | Typical Alternative Allocation | |---------------|-------------------------------| | Endowments | 50-60% | | Pension funds | 20-30% | | Family offices | 30-50% | | Individual investors | 0-20% |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Investor Type</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Typical Alternative Allocation</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Endowments</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">50-60%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Pension funds</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">20-30%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Family offices</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">30-50%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Individual investors</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0-20%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">For Individual Investors</h3>
           <p><strong>Conservative approach (most appropriate):</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -2094,7 +2721,56 @@ export const INVESTMENT_ARTICLES: Article[] = [
           <li>Regardless of market price</li>
           </ul>
           <p><strong>Example:</strong> $500 invested monthly in an index fund over 6 months:</p>
-          <p>| Month | Price | Shares Bought | Total Shares | |-------|-------|---------------|--------------| | Jan | $50 | 10.0 | 10.0 | | Feb | $45 | 11.1 | 21.1 | | Mar | $40 | 12.5 | 33.6 | | Apr | $42 | 11.9 | 45.5 | | May | $48 | 10.4 | 55.9 | | Jun | $52 | 9.6 | 65.5 |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Month</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Price</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Shares Bought</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Total Shares</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Jan</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$50</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">10.0</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">10.0</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Feb</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$45</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">11.1</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">21.1</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Mar</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$40</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">12.5</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">33.6</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Apr</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$42</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">11.9</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">45.5</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">May</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$48</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">10.4</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">55.9</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Jun</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$52</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">9.6</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">65.5</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Results:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
           <li>Total invested: $3,000</li>
@@ -2204,7 +2880,39 @@ export const INVESTMENT_ARTICLES: Article[] = [
           <p><strong>IRA:</strong> Set up automatic monthly transfers from bank account.</p>
           <p><strong>Taxable brokerage:</strong> Schedule recurring purchases of target funds.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Choosing Frequency</h3>
-          <p>| Frequency | Pros | Cons | |-----------|------|------| | Weekly | More averaging effect | More transactions | | Bi-weekly | Matches paycheck | Common choice | | Monthly | Simple, sufficient | Slightly less averaging | | Quarterly | Minimal effort | Less averaging benefit |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Frequency</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Pros</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Cons</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Weekly</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">More averaging effect</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">More transactions</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Bi-weekly</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Matches paycheck</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Common choice</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Monthly</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Simple, sufficient</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Slightly less averaging</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Quarterly</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Minimal effort</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Less averaging benefit</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>For most investors:</strong> Monthly is sufficient. More frequent offers marginal additional benefit.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Choosing Investment Targets</h3>
           <p><strong>Simple approach:</strong> DCA into target-date fund or total market fund</p>
@@ -2361,7 +3069,35 @@ export const INVESTMENT_ARTICLES: Article[] = [
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">The Drift Problem</h3>
           <p>Without rebalancing, portfolios drift toward riskier allocations:</p>
-          <p><strong>Example over 10 years:</strong> | Year | Starting Mix | Ending Mix (No Rebalance) | |------|--------------|--------------------------| | 0 | 60% stocks / 40% bonds | 60% / 40% | | 5 | - | 70% / 30% | | 10 | - | 78% / 22% |</p>
+          <p><strong>Example over 10 years:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Year</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Starting Mix</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Ending Mix (No Rebalance)</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">60% stocks / 40% bonds</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">60% / 40%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">5</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">-</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">70% / 30%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">10</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">-</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">78% / 22%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p>After strong stock returns, you're taking far more risk than intended.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Risk Management</h3>
           <p>Rebalancing controls risk:</p>
@@ -2467,10 +3203,82 @@ export const INVESTMENT_ARTICLES: Article[] = [
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Step 1: Determine Current Allocation</h3>
           <p>Calculate current percentages across all accounts:</p>
-          <p>| Asset Class | Target | Current Value | Current % | |-------------|--------|---------------|-----------| | U.S. Stocks | 50% | $55,000 | 55% | | Int'l Stocks | 20% | $18,000 | 18% | | Bonds | 30% | $27,000 | 27% | | <strong>Total</strong> | 100% | $100,000 | 100% |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Asset Class</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Target</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Current Value</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Current %</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">U.S. Stocks</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">50%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$55,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">55%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Int'l Stocks</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">20%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$18,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">18%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Bonds</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">30%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$27,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">27%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Total</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">100%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$100,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">100%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Step 2: Calculate Required Changes</h3>
           <p>Determine what needs to move:</p>
-          <p>| Asset Class | Target | Current | Difference | Action | |-------------|--------|---------|------------|--------| | U.S. Stocks | $50,000 | $55,000 | +$5,000 | Sell $5,000 | | Int'l Stocks | $20,000 | $18,000 | -$2,000 | Buy $2,000 | | Bonds | $30,000 | $27,000 | -$3,000 | Buy $3,000 |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Asset Class</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Target</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Current</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Difference</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Action</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">U.S. Stocks</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$50,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$55,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">+$5,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Sell $5,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Int'l Stocks</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$20,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$18,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">-$2,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Buy $2,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Bonds</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$30,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$27,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">-$3,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Buy $3,000</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Step 3: Execute Trades</h3>
           <p><strong>In tax-advantaged accounts (401k, IRA):</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -2555,7 +3363,39 @@ export const INVESTMENT_ARTICLES: Article[] = [
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Asset Location Optimization</h3>
           <p>Different assets perform better in different account types:</p>
-          <p>| Asset Type | Best Location | Why | |------------|---------------|-----| | Bonds | Tax-deferred (401k, IRA) | Interest taxed as income | | REITs | Tax-deferred | High distributions | | Stock index funds | Taxable | Tax-efficient, capital gains | | International stocks | Taxable | Foreign tax credit |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Asset Type</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Best Location</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Why</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Bonds</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Tax-deferred (401k, IRA)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Interest taxed as income</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">REITs</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Tax-deferred</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">High distributions</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Stock index funds</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Taxable</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Tax-efficient, capital gains</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">International stocks</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Taxable</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Foreign tax credit</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Rebalancing Strategy by Account</h3>
           <p><strong>Tax-deferred accounts:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -2785,11 +3625,73 @@ export const INVESTMENT_ARTICLES: Article[] = [
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Time Horizon</h3>
           <p><strong>Longer horizon = more stocks</strong></p>
-          <p>| Time Horizon | Suggested Stock % | |--------------|------------------| | 30+ years | 80-100% | | 20-30 years | 70-90% | | 10-20 years | 60-80% | | 5-10 years | 40-60% | | Under 5 years | 0-30% |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Time Horizon</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Suggested Stock %</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">30+ years</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">80-100%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">20-30 years</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">70-90%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">10-20 years</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">60-80%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">5-10 years</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">40-60%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Under 5 years</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0-30%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Why:</strong> Stocks outperform over long periods despite short-term volatility. With 30 years, you can ride out multiple bear markets.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Risk Tolerance</h3>
           <p><strong>Higher tolerance = more stocks</strong></p>
-          <p>| Risk Profile | Stock Allocation | |--------------|-----------------| | Aggressive | 80-100% | | Moderately Aggressive | 70-80% | | Moderate | 50-70% | | Moderately Conservative | 30-50% | | Conservative | 10-30% |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Risk Profile</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Stock Allocation</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Aggressive</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">80-100%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Moderately Aggressive</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">70-80%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Moderate</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">50-70%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Moderately Conservative</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">30-50%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Conservative</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">10-30%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Assessment questions:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
           <li>How would you react to a 30% portfolio drop?</li>
@@ -2854,9 +3756,125 @@ export const INVESTMENT_ARTICLES: Article[] = [
           <li>Worst-case drop: ~15%</li>
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Sample Detailed Allocations</h3>
-          <p><strong>Aggressive Portfolio:</strong> | Asset Class | Allocation | |-------------|------------| | U.S. Large-Cap Stocks | 40% | | U.S. Small/Mid-Cap Stocks | 15% | | International Developed | 15% | | Emerging Markets | 10% | | U.S. Bonds | 15% | | International Bonds | 5% |</p>
-          <p><strong>Moderate Portfolio:</strong> | Asset Class | Allocation | |-------------|------------| | U.S. Large-Cap Stocks | 30% | | U.S. Small/Mid-Cap Stocks | 10% | | International Developed | 12% | | Emerging Markets | 8% | | U.S. Bonds | 30% | | International Bonds | 5% | | Cash | 5% |</p>
-          <p><strong>Conservative Portfolio:</strong> | Asset Class | Allocation | |-------------|------------| | U.S. Large-Cap Stocks | 20% | | U.S. Small/Mid-Cap Stocks | 5% | | International Developed | 10% | | Emerging Markets | 5% | | U.S. Bonds | 45% | | International Bonds | 5% | | Cash | 10% |</p>
+          <p><strong>Aggressive Portfolio:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Asset Class</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Allocation</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">U.S. Large-Cap Stocks</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">40%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">U.S. Small/Mid-Cap Stocks</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">15%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">International Developed</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">15%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Emerging Markets</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">10%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">U.S. Bonds</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">15%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">International Bonds</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">5%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <p><strong>Moderate Portfolio:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Asset Class</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Allocation</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">U.S. Large-Cap Stocks</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">30%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">U.S. Small/Mid-Cap Stocks</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">10%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">International Developed</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">12%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Emerging Markets</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">8%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">U.S. Bonds</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">30%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">International Bonds</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">5%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Cash</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">5%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <p><strong>Conservative Portfolio:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Asset Class</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Allocation</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">U.S. Large-Cap Stocks</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">20%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">U.S. Small/Mid-Cap Stocks</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">5%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">International Developed</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">10%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Emerging Markets</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">5%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">U.S. Bonds</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">45%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">International Bonds</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">5%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Cash</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">10%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
         `
       },
       {
@@ -2920,7 +3938,49 @@ export const INVESTMENT_ARTICLES: Article[] = [
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Glide Path</h3>
           <p>A planned shift from stocks to bonds over time:</p>
-          <p>| Age | Stocks | Bonds | |-----|--------|-------| | 25 | 90% | 10% | | 35 | 85% | 15% | | 45 | 75% | 25% | | 55 | 65% | 35% | | 65 | 50% | 50% | | 75 | 40% | 60% |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Age</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Stocks</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Bonds</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">25</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">90%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">10%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">35</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">85%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">15%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">45</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">75%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">25%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">55</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">65%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">35%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">65</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">50%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">50%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">75</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">40%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">60%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Bucket Strategy in Retirement</h3>
           <p>Segment portfolio by time horizon:</p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -3027,7 +4087,30 @@ export const INVESTMENT_ARTICLES: Article[] = [
           <li>7% pre-tax return</li>
           <li>With 1% annual tax drag: 6% after-tax return</li>
           </ul>
-          <p>| Scenario | 30-Year Value | |----------|---------------| | 7% return (tax-free) | $761,000 | | 6% return (after tax drag) | $574,000 | | <strong>Difference</strong> | <strong>$187,000</strong> |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Scenario</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">30-Year Value</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">7% return (tax-free)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$761,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">6% return (after tax drag)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$574,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Difference</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$187,000</strong></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p>1% annual tax drag costs $187,000 over 30 years.</p>
         `
       },
@@ -3044,7 +4127,54 @@ export const INVESTMENT_ARTICLES: Article[] = [
           <li><strong>Taxable:</strong> Annual tax on dividends, interest, and realized gains</li>
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">General Asset Location Guidelines</h3>
-          <p>| Asset Type | Best Location | Reasoning | |------------|---------------|-----------| | Bonds | Tax-deferred | Interest taxed as ordinary income | | REITs | Tax-deferred | High distributions taxed as ordinary income | | Active funds | Tax-deferred | Higher turnover, more distributions | | International stocks | Taxable | Foreign tax credit available | | Tax-efficient stock funds | Taxable | Low distributions, capital gains control | | Growth stocks | Roth | Maximum tax-free growth | | High-expected-return | Roth | More value from tax-free treatment |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Asset Type</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Best Location</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Reasoning</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Bonds</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Tax-deferred</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Interest taxed as ordinary income</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">REITs</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Tax-deferred</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">High distributions taxed as ordinary income</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Active funds</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Tax-deferred</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Higher turnover, more distributions</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">International stocks</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Taxable</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Foreign tax credit available</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Tax-efficient stock funds</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Taxable</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Low distributions, capital gains control</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Growth stocks</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Roth</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Maximum tax-free growth</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">High-expected-return</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Roth</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">More value from tax-free treatment</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Implementation Example</h3>
           <p><strong>Portfolio:</strong> $500,000 total</p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -3054,7 +4184,34 @@ export const INVESTMENT_ARTICLES: Article[] = [
           </ul>
           <p><strong>Target allocation:</strong> 60% stocks, 40% bonds</p>
           <p><strong>Tax-efficient placement:</strong></p>
-          <p>| Account | Holdings | Amount | |---------|----------|--------| | 401(k) | Bonds, REITs | $200,000 | | Roth IRA | Growth stocks | $100,000 | | Taxable | Total stock market index | $200,000 |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Account</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Holdings</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Amount</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">401(k)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Bonds, REITs</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$200,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Roth IRA</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Growth stocks</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$100,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Taxable</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Total stock market index</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$200,000</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p>This places tax-inefficient assets in tax-advantaged accounts.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">When Asset Location Gets Complex</h3>
           <p><strong>Limitations:</strong></p>
@@ -3088,7 +4245,42 @@ export const INVESTMENT_ARTICLES: Article[] = [
           <li>Generally more tax-efficient than mutual funds</li>
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Fund Tax Efficiency Comparison</h3>
-          <p>| Fund Type | Annual Tax Efficiency | |-----------|----------------------| | Total stock market ETF | Excellent (0-0.3% tax drag) | | Total stock market mutual fund | Very good (0.1-0.5% tax drag) | | Active large-cap fund | Moderate (0.5-1.5% tax drag) | | Active small-cap fund | Poor (1-2%+ tax drag) | | High-yield bond fund | Poor (interest taxed as ordinary) | | REIT fund | Poor (high distributions) |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Fund Type</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Annual Tax Efficiency</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Total stock market ETF</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Excellent (0-0.3% tax drag)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Total stock market mutual fund</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Very good (0.1-0.5% tax drag)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Active large-cap fund</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Moderate (0.5-1.5% tax drag)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Active small-cap fund</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Poor (1-2%+ tax drag)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">High-yield bond fund</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Poor (interest taxed as ordinary)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">REIT fund</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Poor (high distributions)</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Tax Efficiency Metrics</h3>
           <p><strong>Turnover ratio:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -3160,7 +4352,35 @@ export const INVESTMENT_ARTICLES: Article[] = [
         title: 'Tax-Advantaged Account Strategies',
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Maximize Contributions</h3>
-          <p><strong>2024 limits:</strong> | Account | Limit | Catch-up (50+) | |---------|-------|----------------| | 401(k) | $23,000 | +$7,500 | | IRA | $7,000 | +$1,000 | | HSA (family) | $8,550 | +$1,000 |</p>
+          <p><strong>2024 limits:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Account</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Limit</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Catch-up (50+)</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">401(k)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$23,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">+$7,500</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">IRA</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$7,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">+$1,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">HSA (family)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$8,550</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">+$1,000</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Roth vs. Traditional Decision</h3>
           <p><strong>Roth:</strong> Pay tax now, withdraw tax-free later <strong>Traditional:</strong> Deduct now, pay tax on withdrawals</p>
           <p><strong>General guidance:</strong></p>
@@ -3398,7 +4618,31 @@ export const INVESTMENT_ARTICLES: Article[] = [
           <p><strong>Limitation:</strong> Treats upside and downside volatility the same.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Maximum Drawdown</h3>
           <p><strong>What it measures:</strong> Largest peak-to-trough decline.</p>
-          <p><strong>Examples:</strong> | Asset | 2008-2009 Max Drawdown | |-------|------------------------| | S&P 500 | -55% | | 60/40 portfolio | -35% | | Bonds | -5% |</p>
+          <p><strong>Examples:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Asset</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">2008-2009 Max Drawdown</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">S&P 500</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">-55%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">60/40 portfolio</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">-35%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Bonds</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">-5%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Use:</strong> More intuitive than standard deviation for most investors.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Beta</h3>
           <p><strong>What it measures:</strong> Sensitivity to market movements.</p>
@@ -3476,7 +4720,39 @@ export const INVESTMENT_ARTICLES: Article[] = [
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Asset Allocation</h3>
           <p>The primary risk management tool:</p>
-          <p>| Allocation | Risk Level | Max Drawdown (Historical) | |------------|------------|--------------------------| | 80% stocks / 20% bonds | High | ~45% | | 60% stocks / 40% bonds | Moderate | ~35% | | 40% stocks / 60% bonds | Low-Moderate | ~25% | | 20% stocks / 80% bonds | Low | ~15% |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Allocation</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Risk Level</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Max Drawdown (Historical)</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">80% stocks / 20% bonds</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">High</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">~45%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">60% stocks / 40% bonds</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Moderate</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">~35%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">40% stocks / 60% bonds</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Low-Moderate</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">~25%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">20% stocks / 80% bonds</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Low</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">~15%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p>Match allocation to risk profile.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Diversification</h3>
           <p>Reduces unsystematic risk without reducing expected return:</p>
@@ -3623,7 +4899,59 @@ export const INVESTMENT_ARTICLES: Article[] = [
         type: 'text',
         title: 'Key Differences at a Glance',
         content: `
-          <p>| Feature | ETFs | Mutual Funds | |---------|------|--------------| | Trading | Throughout day | End of day | | Pricing | Real-time | Daily NAV | | Minimum investment | One share (~$50-$500) | Often $1,000-$3,000 | | Fractional shares | Limited availability | Standard at fund company | | Tax efficiency | Generally better | Generally worse | | Automatic investing | More complex | Easy | | Expense ratios | Very low | Very low to moderate | | Commission | Usually $0 | Usually $0 (at fund company) |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Feature</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">ETFs</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Mutual Funds</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Trading</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Throughout day</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">End of day</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Pricing</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Real-time</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Daily NAV</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Minimum investment</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">One share (~$50-$500)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Often $1,000-$3,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Fractional shares</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Limited availability</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Standard at fund company</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Tax efficiency</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Generally better</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Generally worse</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Automatic investing</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">More complex</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Easy</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Expense ratios</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Very low</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Very low to moderate</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Commission</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Usually $0</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Usually $0 (at fund company)</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
         `
       },
       {
@@ -3670,7 +4998,34 @@ export const INVESTMENT_ARTICLES: Article[] = [
           <li>You may owe taxes even if you didn't sell</li>
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Capital Gains Distribution History</h3>
-          <p>| Fund Type | Typical Annual Cap Gains Distribution | |-----------|--------------------------------------| | Index ETF | 0% (rarely any) | | Index Mutual Fund | 0-2% of NAV | | Active ETF | 0-5% of NAV | | Active Mutual Fund | 2-15% of NAV |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Fund Type</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Typical Annual Cap Gains Distribution</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Index ETF</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0% (rarely any)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Index Mutual Fund</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0-2% of NAV</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Active ETF</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0-5% of NAV</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Active Mutual Fund</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2-15% of NAV</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Tax Efficiency in Practice</h3>
           <p><strong>Example:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -3696,7 +5051,39 @@ export const INVESTMENT_ARTICLES: Article[] = [
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Expense Ratios</h3>
           <p>Costs have largely converged for index funds:</p>
-          <p>| Fund | Type | Expense Ratio | |------|------|---------------| | VTI (Vanguard) | ETF | 0.03% | | VTSAX (Vanguard) | Mutual Fund | 0.04% | | SPY (State Street) | ETF | 0.09% | | VOO (Vanguard) | ETF | 0.03% |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Fund</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Type</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Expense Ratio</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">VTI (Vanguard)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">ETF</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.03%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">VTSAX (Vanguard)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Mutual Fund</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.04%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">SPY (State Street)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">ETF</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.09%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">VOO (Vanguard)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">ETF</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.03%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>For major indexes, cost differences are negligible.</strong></p>
           <h3 class="text-xl font-bold mt-8 mb-4">Trading Costs</h3>
           <p><strong>ETFs:</strong></p>
@@ -3860,7 +5247,44 @@ export const INVESTMENT_ARTICLES: Article[] = [
         title: 'The Vanguard Advantage',
         content: `
           <p>Vanguard offers identical index funds in both structures:</p>
-          <p>| Index | ETF | Mutual Fund | Same Portfolio? | |-------|-----|-------------|-----------------| | Total Stock | VTI | VTSAX | Yes | | Total International | VXUS | VTIAX | Yes | | Total Bond | BND | VBTLX | Yes | | S&P 500 | VOO | VFIAX | Yes |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Index</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">ETF</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Mutual Fund</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Same Portfolio?</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Total Stock</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">VTI</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">VTSAX</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Total International</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">VXUS</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">VTIAX</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Total Bond</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">BND</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">VBTLX</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">S&P 500</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">VOO</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">VFIAX</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p>Both share classes of the same underlying fund—you can choose based on preference.</p>
         `
       },

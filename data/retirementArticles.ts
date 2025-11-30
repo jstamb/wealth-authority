@@ -27,7 +27,49 @@ export const RETIREMENT_ARTICLES: Article[] = [
         title: 'Understanding Retirement Income Taxation',
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Types of Retirement Income and Taxation</h3>
-          <p>| Income Source | Federal Tax Treatment | State Tax (Varies) | |---------------|----------------------|-------------------| | Social Security | 0-85% taxable | Many exempt | | Traditional IRA/401(k) | Fully taxable | Varies | | Roth IRA/401(k) | Tax-free | Tax-free | | Pension | Fully taxable | Many exempt/reduce | | Taxable investments | Capital gains rates | Varies | | Annuities | Partially taxable | Varies |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Income Source</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Federal Tax Treatment</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">State Tax (Varies)</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Social Security</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0-85% taxable</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Many exempt</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Traditional IRA/401(k)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Fully taxable</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Varies</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Roth IRA/401(k)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Tax-free</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Tax-free</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Pension</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Fully taxable</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Many exempt/reduce</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Taxable investments</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Capital gains rates</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Varies</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Annuities</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Partially taxable</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Varies</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">The Retirement Tax Brackets</h3>
           <p>Tax brackets in retirement work the same as during working years, but:</p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -36,7 +78,46 @@ export const RETIREMENT_ARTICLES: Article[] = [
           <li>Opportunity to manage brackets strategically</li>
           </ul>
           <p><strong>2024 Federal Tax Brackets (Married Filing Jointly):</strong></p>
-          <p>| Taxable Income | Tax Rate | |----------------|----------| | $0 - $23,200 | 10% | | $23,201 - $94,300 | 12% | | $94,301 - $201,050 | 22% | | $201,051 - $383,900 | 24% | | $383,901 - $487,450 | 32% | | $487,451 - $731,200 | 35% | | Over $731,200 | 37% |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Taxable Income</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Tax Rate</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$0 - $23,200</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">10%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$23,201 - $94,300</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">12%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$94,301 - $201,050</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">22%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$201,051 - $383,900</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">24%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$383,901 - $487,450</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">32%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$487,451 - $731,200</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">35%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Over $731,200</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">37%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
         `
       },
       {
@@ -65,7 +146,30 @@ export const RETIREMENT_ARTICLES: Article[] = [
           <li>Up to 85% taxable</li>
           </ul>
           <p>Based on "combined income": <strong>Combined Income = AGI + Tax-exempt interest + 50% of Social Security</strong></p>
-          <p>| Combined Income (Married) | Social Security Taxable | |---------------------------|------------------------| | Below $32,000 | 0% | | $32,000 - $44,000 | Up to 50% | | Above $44,000 | Up to 85% |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Combined Income (Married)</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Social Security Taxable</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Below $32,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$32,000 - $44,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Up to 50%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Above $44,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Up to 85%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>The torpedo:</strong> Between $32K and $44K, effective marginal rate can exceed 40% due to Social Security becoming taxable.</p>
           <p><strong>Strategy:</strong> Either stay below $32K or accept 85% taxation and optimize around it.</p>
         `
@@ -96,7 +200,39 @@ export const RETIREMENT_ARTICLES: Article[] = [
           <li>Balance against other income</li>
           <li>Multi-year strategy typically best</li>
           </ul>
-          <p><strong>Example conversion plan:</strong> | Year | Other Income | Conversion | Total Taxable | |------|--------------|------------|---------------| | 1 | $40,000 | $55,000 | $95,000 | | 2 | $42,000 | $53,000 | $95,000 | | 3 | $44,000 | $51,000 | $95,000 |</p>
+          <p><strong>Example conversion plan:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Year</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Other Income</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Conversion</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Total Taxable</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$40,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$55,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$95,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$42,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$53,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$95,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">3</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$44,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$51,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$95,000</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p>Each year fills the 12% bracket. Over 5-10 years, significant traditional balance converted at low rates.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Harvesting Capital Gains</h3>
           <p>Low-income years allow 0% capital gains rate:</p>
@@ -121,7 +257,38 @@ export const RETIREMENT_ARTICLES: Article[] = [
           <h3 class="text-xl font-bold mt-8 mb-4">What Triggers IRMAA</h3>
           <p>Income-Related Monthly Adjustment Amount increases Part B and D premiums.</p>
           <p>Based on MAGI from 2 years prior:</p>
-          <p>| MAGI (Single) | Part B Premium Increase | |---------------|------------------------| | $103,000 or less | $0 (standard) | | $103,001 - $129,000 | +$69.90/month | | $129,001 - $161,000 | +$174.70/month | | $161,001 - $193,000 | +$279.50/month | | $193,001 - $500,000 | +$384.30/month |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">MAGI (Single)</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Part B Premium Increase</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$103,000 or less</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$0 (standard)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$103,001 - $129,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">+$69.90/month</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$129,001 - $161,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">+$174.70/month</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$161,001 - $193,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">+$279.50/month</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$193,001 - $500,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">+$384.30/month</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">IRMAA Planning Strategies</h3>
           <p><strong>Watch the cliffs:</strong> $1 over threshold triggers full surcharge.</p>
           <p><strong>Timing income:</strong></p>
@@ -768,7 +935,44 @@ export const RETIREMENT_ARTICLES: Article[] = [
           <li>Lower payment than single life</li>
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Comparison Example</h3>
-          <p>| Option | Monthly Benefit | Survivor Benefit | |--------|-----------------|------------------| | Single Life | $3,000 | $0 | | J&S 50% | $2,700 | $1,350 | | J&S 75% | $2,550 | $1,912 | | J&S 100% | $2,400 | $2,400 | | 10-Year Certain | $2,850 | Guarantee minimum |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Option</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Monthly Benefit</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Survivor Benefit</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Single Life</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$3,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$0</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">J&S 50%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,700</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,350</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">J&S 75%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,550</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,912</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">J&S 100%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,400</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,400</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">10-Year Certain</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,850</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Guarantee minimum</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">How to Choose</h3>
           <p><strong>Factors favoring higher survivor benefit:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -885,7 +1089,30 @@ export const RETIREMENT_ARTICLES: Article[] = [
           <li>Balance against years of foregone payments</li>
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Analyzing Early Retirement Offers</h3>
-          <p><strong>Example comparison:</strong> | Retirement Age | Monthly Benefit | 20-Year Total | |----------------|-----------------|---------------| | 55 (early) | $2,000 | $480,000 | | 62 (normal) | $3,000 | $360,000* |</p>
+          <p><strong>Example comparison:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Retirement Age</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Monthly Benefit</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">20-Year Total</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">55 (early)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$480,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">62 (normal)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$3,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$360,000*</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p>*At age 62, only 13 years remaining in 20-year window</p>
           <p>Early retirement may result in more total dollars despite lower monthly amount.</p>
         `
@@ -1002,7 +1229,39 @@ export const RETIREMENT_ARTICLES: Article[] = [
           <p>The order of investment returns matters more in retirement than during accumulation:</p>
           <p><strong>The problem:</strong> Early retirement losses can devastate a portfolio even if average returns are acceptable.</p>
           <p><strong>Example:</strong> Two retirees, same average return (6%), different sequences:</p>
-          <p>| Year | Retiree A Return | Retiree B Return | |------|------------------|------------------| | 1 | -20% | +25% | | 2 | -10% | +15% | | 3 | +15% | -10% | | 4 | +25% | -20% |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Year</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Retiree A Return</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Retiree B Return</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">-20%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">+25%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">-10%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">+15%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">3</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">+15%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">-10%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">4</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">+25%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">-20%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p>With $1M starting balance and $50K annual withdrawals:</p>
           <ul class="list-disc pl-6 space-y-2 my-4">
           <li>Retiree A (bad early returns): Portfolio depleted in 20 years</li>
@@ -1010,7 +1269,30 @@ export const RETIREMENT_ARTICLES: Article[] = [
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Longevity Risk</h3>
           <p>You don't know how long you'll live:</p>
-          <p>| Age Now | Probability One Spouse Lives To: | |---------|----------------------------------| | 65 | 85: 72% | 90: 45% | 95: 20% | | 70 | 90: 56% | 95: 30% | 100: 10% |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Age Now</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Probability One Spouse Lives To:</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">65</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">85: 72%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">90: 45%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">95: 20%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">70</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">90: 56%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">95: 30%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">100: 10%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p>Planning for too short a retirement risks running out of money; planning for too long means living unnecessarily frugally.</p>
         `
       },
@@ -1046,7 +1328,38 @@ export const RETIREMENT_ARTICLES: Article[] = [
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Modified Safe Withdrawal Rates</h3>
           <p>Current research suggests:</p>
-          <p>| Scenario | Suggested Rate | |----------|----------------| | Traditional 60/40 portfolio, 30 years | 3.5-4.0% | | Aggressive allocation (80% stocks) | 4.0-4.5% | | Conservative allocation (40% stocks) | 3.0-3.5% | | 40-year retirement | 3.0-3.5% | | With Social Security/pension | 4.5-5.0%+ |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Scenario</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Suggested Rate</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Traditional 60/40 portfolio, 30 years</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">3.5-4.0%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Aggressive allocation (80% stocks)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">4.0-4.5%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Conservative allocation (40% stocks)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">3.0-3.5%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">40-year retirement</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">3.0-3.5%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">With Social Security/pension</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">4.5-5.0%+</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
         `
       },
       {
@@ -1084,7 +1397,38 @@ export const RETIREMENT_ARTICLES: Article[] = [
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Implementation Example</h3>
           <p>$1 million portfolio, $50,000 annual spending:</p>
-          <p>| Bucket | Allocation | Amount | Purpose | |--------|------------|--------|---------| | 1 | Cash/short-term | $100,000 | Years 1-2 expenses | | 2 | Bonds | $300,000 | Years 3-8 expenses | | 3 | Stocks | $600,000 | Long-term growth |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Bucket</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Allocation</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Amount</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Purpose</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Cash/short-term</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$100,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Years 1-2 expenses</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Bonds</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$300,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Years 3-8 expenses</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">3</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Stocks</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$600,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Long-term growth</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
         `
       },
       {
@@ -1500,7 +1844,44 @@ export const RETIREMENT_ARTICLES: Article[] = [
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Break-Even Analysis</h3>
           <p>Assuming 7% returns over 25 years:</p>
-          <p>| Current Rate | Retirement Rate | Optimal Choice | |--------------|-----------------|----------------| | 12% | 22% | Roth | | 22% | 12% | Traditional | | 22% | 22% | Either (true break-even) | | 24% | 22% | Traditional (slight edge) | | 32% | 22% | Traditional (significant edge) |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Current Rate</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Retirement Rate</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Optimal Choice</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">12%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">22%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Roth</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">22%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">12%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Traditional</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">22%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">22%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Either (true break-even)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">24%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">22%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Traditional (slight edge)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">32%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">22%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Traditional (significant edge)</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Effective vs. Marginal Rates</h3>
           <p>Important distinction:</p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -1581,7 +1962,38 @@ export const RETIREMENT_ARTICLES: Article[] = [
           <li><strong>Legacy options:</strong> Choose tax treatment for heirs</li>
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Sample Allocation by Age</h3>
-          <p>| Career Stage | Traditional | Roth | |--------------|-------------|------| | Early career (20s) | 30% | 70% | | Mid-career (30s-40s) | 50% | 50% | | Peak earning (50s) | 70% | 30% | | Near retirement | Convert to optimize |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Career Stage</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Traditional</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Roth</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Early career (20s)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">30%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">70%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Mid-career (30s-40s)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">50%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">50%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Peak earning (50s)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">70%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">30%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Near retirement</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Convert to optimize</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">The "Tax Diversification" Goal</h3>
           <p>Aim for roughly equal balances across:</p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -1728,7 +2140,46 @@ export const RETIREMENT_ARTICLES: Article[] = [
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Full Retirement Age</h3>
           <p>FRA varies by birth year:</p>
-          <p>| Birth Year | Full Retirement Age | |------------|---------------------| | 1943-1954 | 66 | | 1955 | 66 + 2 months | | 1956 | 66 + 4 months | | 1957 | 66 + 6 months | | 1958 | 66 + 8 months | | 1959 | 66 + 10 months | | 1960+ | 67 |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Birth Year</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Full Retirement Age</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1943-1954</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">66</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1955</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">66 + 2 months</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1956</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">66 + 4 months</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1957</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">66 + 6 months</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1958</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">66 + 8 months</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1959</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">66 + 10 months</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1960+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">67</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
         `
       },
       {
@@ -1736,7 +2187,54 @@ export const RETIREMENT_ARTICLES: Article[] = [
         title: 'When to Claim: The Core Decision',
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Claiming Age Options</h3>
-          <p>| Claiming Age | Benefit Adjustment | |--------------|-------------------| | 62 | -30% (if FRA is 67) | | 63 | -25% | | 64 | -20% | | 65 | -13.3% | | 66 | -6.7% | | 67 (FRA) | 100% of PIA | | 68 | +8% | | 69 | +16% | | 70 | +24% |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Claiming Age</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Benefit Adjustment</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">62</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">-30% (if FRA is 67)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">63</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">-25%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">64</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">-20%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">65</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">-13.3%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">66</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">-6.7%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">67 (FRA)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">100% of PIA</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">68</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">+8%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">69</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">+16%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">70</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">+24%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>The math:</strong> From age 62 to 70, benefits increase by approximately 77% (from 70% to 124% of PIA if FRA is 67).</p>
           <h3 class="text-xl font-bold mt-8 mb-4">The Break-Even Analysis</h3>
           <p>When does delaying pay off?</p>
@@ -1747,7 +2245,38 @@ export const RETIREMENT_ARTICLES: Article[] = [
           <li>At 62: $1,750/month ($2,500 × 70%)</li>
           <li>At 70: $3,100/month ($2,500 × 124%)</li>
           </ul>
-          <p>| Strategy | Cumulative by 80 | Cumulative by 85 | Cumulative by 90 | |----------|------------------|------------------|------------------| | Claim at 62 | $378,000 | $483,000 | $588,000 | | Claim at 67 | $390,000 | $540,000 | $690,000 | | Claim at 70 | $372,000 | $558,000 | $744,000 |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Strategy</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Cumulative by 80</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Cumulative by 85</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Cumulative by 90</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Claim at 62</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$378,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$483,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$588,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Claim at 67</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$390,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$540,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$690,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Claim at 70</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$372,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$558,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$744,000</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p>Break-even: Claim at 67 beats 62 around age 77. Claim at 70 beats 67 around age 82.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">When to Claim Early (62-64)</h3>
           <p>Early claiming may make sense if:</p>
@@ -1849,7 +2378,34 @@ export const RETIREMENT_ARTICLES: Article[] = [
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Working While Receiving Benefits</h3>
           <p>If you claim before FRA and continue working:</p>
-          <p>| Age | Earnings Limit | Reduction | |-----|---------------|-----------| | Under FRA all year | $22,320 (2024) | $1 for every $2 over | | Year reaching FRA | $59,520 (2024) | $1 for every $3 over | | FRA and above | No limit | No reduction |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Age</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Earnings Limit</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Reduction</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Under FRA all year</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$22,320 (2024)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1 for every $2 over</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Year reaching FRA</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$59,520 (2024)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1 for every $3 over</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">FRA and above</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No limit</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No reduction</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Important:</strong> Withheld benefits aren't lost—they increase your benefit after FRA.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Planning Around the Earnings Test</h3>
           <p>Options for high earners:</p>
@@ -1862,7 +2418,30 @@ export const RETIREMENT_ARTICLES: Article[] = [
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Taxation of Benefits</h3>
           <p>Social Security benefits may be taxable:</p>
-          <p>| Combined Income* | Taxable Portion | |------------------|-----------------| | Below $25K (single) / $32K (married) | 0% | | $25K-$34K (single) / $32K-$44K (married) | Up to 50% | | Above $34K (single) / $44K (married) | Up to 85% |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Combined Income*</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Taxable Portion</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Below $25K (single) / $32K (married)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$25K-$34K (single) / $32K-$44K (married)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Up to 50%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Above $34K (single) / $44K (married)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Up to 85%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p>*Combined income = AGI + nontaxable interest + 50% of SS benefits</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Tax-Efficient Claiming Strategies</h3>
           <p><strong>Delay to reduce taxation:</strong></p>
@@ -1979,7 +2558,39 @@ export const RETIREMENT_ARTICLES: Article[] = [
           <h3 class="text-xl font-bold mt-8 mb-4">The Math Changes</h3>
           <p>Traditional retirement planning assumes 25-30 years of retirement. Early retirement might require 40, 50, or even 60 years of funding.</p>
           <p><strong>Impact on savings target:</strong></p>
-          <p>| Retirement Length | Safe Withdrawal Rate | Multiple of Expenses | |-------------------|---------------------|---------------------| | 30 years | 4.0% | 25x | | 40 years | 3.5% | 29x | | 50 years | 3.25% | 31x | | 60 years | 3.0% | 33x |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Retirement Length</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Safe Withdrawal Rate</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Multiple of Expenses</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">30 years</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">4.0%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">25x</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">40 years</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">3.5%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">29x</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">50 years</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">3.25%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">31x</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">60 years</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">3.0%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">33x</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Example:</strong> For $60,000 annual expenses:</p>
           <ul class="list-disc pl-6 space-y-2 my-4">
           <li>Traditional (30-year): $1.5M</li>
@@ -2080,7 +2691,34 @@ export const RETIREMENT_ARTICLES: Article[] = [
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Creating an Access Strategy</h3>
           <p><strong>Example strategy for retiring at 50:</strong></p>
-          <p>| Age | Income Source | |-----|---------------| | 50-55 | Taxable accounts + Roth contributions | | 55-60 | 72(t) distributions + Roth conversion ladder | | 60-65 | Standard IRA withdrawals (still 10% penalty until 59½) | | 65+ | Social Security + Medicare + traditional withdrawals |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Age</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Income Source</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">50-55</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Taxable accounts + Roth contributions</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">55-60</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">72(t) distributions + Roth conversion ladder</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">60-65</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Standard IRA withdrawals (still 10% penalty until 59½)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">65+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Social Security + Medicare + traditional withdrawals</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
         `
       },
       {
@@ -2122,7 +2760,38 @@ export const RETIREMENT_ARTICLES: Article[] = [
           <li>Dependent on spouse's employment</li>
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Estimating Healthcare Costs</h3>
-          <p>| Age | Annual Premium (Couple) | Out-of-Pocket | Total | |-----|------------------------|---------------|-------| | 50-54 | $15,000-$25,000 | $2,000-$5,000 | $17,000-$30,000 | | 55-59 | $18,000-$30,000 | $3,000-$6,000 | $21,000-$36,000 | | 60-64 | $20,000-$35,000 | $3,000-$8,000 | $23,000-$43,000 |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Age</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Annual Premium (Couple)</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Out-of-Pocket</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Total</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">50-54</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$15,000-$25,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,000-$5,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$17,000-$30,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">55-59</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$18,000-$30,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$3,000-$6,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$21,000-$36,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">60-64</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$20,000-$35,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$3,000-$8,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$23,000-$43,000</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Planning tip:</strong> Budget $20,000-$40,000 annually for healthcare in early retirement.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">ACA Subsidy Optimization</h3>
           <p>ACA subsidies phase out at 400% of Federal Poverty Level (FPL):</p>
@@ -2185,7 +2854,34 @@ export const RETIREMENT_ARTICLES: Article[] = [
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">The Trinity Study Extended</h3>
           <p>Original 4% rule studied 30-year periods. For longer periods:</p>
-          <p>| Period | Success Rate at 4% | Suggested Rate for 95% Success | |--------|-------------------|--------------------------------| | 30 years | 95% | 4.0% | | 40 years | 85% | 3.5% | | 50 years | 78% | 3.25% |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Period</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Success Rate at 4%</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Suggested Rate for 95% Success</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">30 years</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">95%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">4.0%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">40 years</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">85%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">3.5%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">50 years</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">78%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">3.25%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Dynamic Strategies for Long Retirements</h3>
           <p><strong>Guardrails approach:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -2525,7 +3221,49 @@ export const RETIREMENT_ARTICLES: Article[] = [
           <li>Those in areas with strong plan options</li>
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Comparison Table</h3>
-          <p>| Factor | Medigap + Original Medicare | Medicare Advantage | |--------|---------------------------|-------------------| | Premium | Higher ($100-$300+/month) | Lower ($0-$50/month typically) | | Doctor choice | Any Medicare provider | Network restrictions | | Out-of-pocket max | No (though low costs) | Yes (capped) | | Drug coverage | Separate Part D required | Usually included | | Extra benefits | None | Often included | | Prior authorization | Rarely | Common |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Factor</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Medigap + Original Medicare</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Medicare Advantage</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Premium</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Higher ($100-$300+/month)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Lower ($0-$50/month typically)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Doctor choice</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Any Medicare provider</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Network restrictions</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Out-of-pocket max</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No (though low costs)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes (capped)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Drug coverage</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Separate Part D required</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Usually included</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Extra benefits</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">None</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Often included</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Prior authorization</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Rarely</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Common</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
         `
       },
       {
@@ -2536,7 +3274,49 @@ export const RETIREMENT_ARTICLES: Article[] = [
           <p>Higher Medicare premiums for higher-income beneficiaries.</p>
           <p>Based on Modified Adjusted Gross Income (MAGI) from 2 years prior.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">2024 IRMAA Brackets (Single)</h3>
-          <p>| MAGI | Part B Premium | Part D Surcharge | |------|----------------|------------------| | ≤$103,000 | $174.70 | $0 | | $103,001-$129,000 | $244.60 | $12.90 | | $129,001-$161,000 | $349.40 | $33.30 | | $161,001-$193,000 | $454.20 | $53.80 | | $193,001-$500,000 | $559.00 | $74.20 | | >$500,000 | $594.00 | $81.00 |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">MAGI</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Part B Premium</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Part D Surcharge</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">≤$103,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$174.70</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$0</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$103,001-$129,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$244.60</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$12.90</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$129,001-$161,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$349.40</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$33.30</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$161,001-$193,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$454.20</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$53.80</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$193,001-$500,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$559.00</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$74.20</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">>$500,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$594.00</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$81.00</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">IRMAA Planning Strategies</h3>
           <p><strong>Income timing:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -2558,7 +3338,42 @@ export const RETIREMENT_ARTICLES: Article[] = [
         title: 'Medicare and Healthcare Costs in Retirement',
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Estimating Total Healthcare Costs</h3>
-          <p>| Category | Annual Estimate | |----------|-----------------| | Part B premium | $2,100-$7,200 | | Part D premium | $200-$1,200 | | Medigap or MA premium | $0-$3,600 | | Out-of-pocket costs | $1,500-$5,000 | | Dental/vision (not covered) | $500-$2,000 | | <strong>Total (per person)</strong> | <strong>$4,300-$19,000</strong> |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Category</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Annual Estimate</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Part B premium</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,100-$7,200</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Part D premium</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$200-$1,200</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Medigap or MA premium</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$0-$3,600</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Out-of-pocket costs</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,500-$5,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Dental/vision (not covered)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500-$2,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Total (per person)</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$4,300-$19,000</strong></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Long-Term Care</h3>
           <p>Medicare does NOT cover:</p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -2683,10 +3498,74 @@ export const RETIREMENT_ARTICLES: Article[] = [
         title: 'Catch-Up Contribution Limits',
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">2025 Contribution Limits</h3>
-          <p>| Account Type | Standard Limit | Catch-Up (50+) | Total (50+) | |--------------|----------------|----------------|-------------| | 401(k), 403(b), 457 | $23,500 | $7,500 | $31,000 | | Traditional/Roth IRA | $7,000 | $1,000 | $8,000 | | SIMPLE IRA | $16,500 | $3,500 | $20,000 | | HSA (Family) | $8,550 | $1,000 (55+) | $9,550 |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Account Type</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Standard Limit</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Catch-Up (50+)</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Total (50+)</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">401(k), 403(b), 457</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$23,500</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$7,500</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$31,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Traditional/Roth IRA</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$7,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$8,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">SIMPLE IRA</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$16,500</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$3,500</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$20,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">HSA (Family)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$8,550</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,000 (55+)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$9,550</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Total Annual Tax-Advantaged Savings (50+)</h3>
           <p>For someone with access to all account types:</p>
-          <p>| Account | Contribution | |---------|--------------| | 401(k) + catch-up | $31,000 | | IRA + catch-up | $8,000 | | HSA + catch-up | $9,550 | | <strong>Total</strong> | <strong>$48,550</strong> |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Account</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Contribution</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">401(k) + catch-up</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$31,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">IRA + catch-up</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$8,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">HSA + catch-up</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$9,550</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Total</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$48,550</strong></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p>Plus employer match, backdoor Roth strategies, and after-tax mega backdoor options.</p>
         `
       },
@@ -2774,7 +3653,32 @@ export const RETIREMENT_ARTICLES: Article[] = [
           <li>Withdrawals: Tax-free for qualified medical expenses</li>
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">HSA Catch-Up (55+)</h3>
-          <p>| Coverage Type | Standard Limit | Catch-Up (55+) | Total | |---------------|----------------|----------------|-------| | Self-only | $4,300 | $1,000 | $5,300 | | Family | $8,550 | $1,000 | $9,550 |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Coverage Type</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Standard Limit</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Catch-Up (55+)</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Total</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Self-only</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$4,300</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5,300</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Family</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$8,550</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$9,550</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p>Note: HSA catch-up starts at 55, not 50.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">HSA Retirement Strategy</h3>
           <p>Use HSA as a retirement account:</p>
@@ -2840,7 +3744,49 @@ export const RETIREMENT_ARTICLES: Article[] = [
           <li>Catch-up contributions designed for you</li>
           </ul>
           <p><strong>Aggressive strategy:</strong> Maximize all available accounts:</p>
-          <p>| Year | 401(k) | IRA | HSA | Total | |------|--------|-----|-----|-------| | 1 | $31,000 | $8,000 | $9,550 | $48,550 | | 2 | $31,000 | $8,000 | $9,550 | $48,550 | | ... | ... | ... | ... | ... | | 15 | $31,000 | $8,000 | $9,550 | $48,550 |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Year</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">401(k)</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">IRA</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">HSA</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Total</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$31,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$8,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$9,550</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$48,550</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$31,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$8,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$9,550</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$48,550</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">...</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">...</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">...</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">...</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">...</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">15</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$31,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$8,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$9,550</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$48,550</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>15 years at $48,550/year = $728,250 in contributions</strong></p>
           <p>At 7% return: Approximately $1.32 million</p>
           <h3 class="text-xl font-bold mt-8 mb-4">If You're Starting at 55 with Little Saved</h3>
@@ -3116,7 +4062,44 @@ export const RETIREMENT_ARTICLES: Article[] = [
           <h3 class="text-xl font-bold mt-8 mb-4">The Catch-Up Decade</h3>
           <p>At 50, you become eligible for catch-up contributions—significantly higher limits designed to help late-stage savers accelerate wealth building.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">2025 Catch-Up Contribution Limits</h3>
-          <p>| Account Type | Standard Limit | Catch-Up (50+) | Total (50+) | |--------------|----------------|----------------|-------------| | 401(k) | $23,500 | $7,500 | $31,000 | | IRA | $7,000 | $1,000 | $8,000 | | HSA (55+) | $8,550 | $1,000 | $9,550 | | <strong>Total Possible</strong> | | | <strong>$48,550</strong> |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Account Type</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Standard Limit</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Catch-Up (50+)</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Total (50+)</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">401(k)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$23,500</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$7,500</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$31,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">IRA</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$7,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$8,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">HSA (55+)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$8,550</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$9,550</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Total Possible</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$48,550</strong></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Specific Action Steps</h3>
           <p><strong>Utilize full catch-up contributions</strong></p>
           <p>At 50, immediately increase 401(k) contributions to $31,000 annually if financially possible. Over 10 years (50-60), this alone contributes $310,000, plus growth.</p>
@@ -3213,7 +4196,59 @@ export const RETIREMENT_ARTICLES: Article[] = [
         title: 'Savings Benchmarks by Age: Summary Table',
         content: `
           <p>Use these benchmarks to evaluate whether you're on track. These assume retirement at 67 with Social Security and aim to replace about 75-80% of pre-retirement income.</p>
-          <p>| Age | Savings Target | Example (for $100k salary) | |-----|----------------|---------------------------| | 30 | 1x annual salary | $100,000 | | 35 | 2x annual salary | $200,000 | | 40 | 3x annual salary | $300,000 | | 45 | 4x annual salary | $400,000 | | 50 | 6x annual salary | $600,000 | | 55 | 7x annual salary | $700,000 | | 60 | 8x annual salary | $800,000 | | 67 | 10x annual salary | $1,000,000 |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Age</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Savings Target</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Example (for $100k salary)</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">30</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1x annual salary</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$100,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">35</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2x annual salary</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$200,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">40</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">3x annual salary</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$300,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">45</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">4x annual salary</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$400,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">50</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">6x annual salary</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$600,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">55</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">7x annual salary</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$700,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">60</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">8x annual salary</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$800,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">67</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">10x annual salary</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,000,000</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Behind the benchmarks?</strong> You have options:</p>
           <ul class="list-disc pl-6 space-y-2 my-4">
           <li>Increase contribution rate immediately</li>
@@ -3333,7 +4368,49 @@ export const RETIREMENT_ARTICLES: Article[] = [
           <li>Wealth transfer planning</li>
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Retirement Planner vs General Financial Advisor</h3>
-          <p>| Aspect | General Financial Advisor | Retirement Planner | |--------|--------------------------|-------------------| | Primary Focus | Wealth accumulation | Retirement income & decumulation | | Client Demographics | All ages | Typically 50+ or near retirement | | Tax Expertise | Basic tax efficiency | Deep retirement tax strategies | | Social Security | General guidance | Sophisticated claiming strategies | | Healthcare Planning | Limited | Medicare, IRMAA, long-term care | | RMD Planning | Basic compliance | Strategic minimization |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Aspect</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">General Financial Advisor</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Retirement Planner</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Primary Focus</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Wealth accumulation</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Retirement income & decumulation</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Client Demographics</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">All ages</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Typically 50+ or near retirement</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Tax Expertise</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Basic tax efficiency</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Deep retirement tax strategies</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Social Security</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">General guidance</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Sophisticated claiming strategies</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Healthcare Planning</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Limited</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Medicare, IRMAA, long-term care</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">RMD Planning</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Basic compliance</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Strategic minimization</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p>Many advisors call themselves "retirement planners" without specialized expertise. Verify that 50%+ of their clients are actually retirees or near-retirees.</p>
         `
       },
@@ -3460,7 +4537,44 @@ export const RETIREMENT_ARTICLES: Article[] = [
           </ul>
           <p>> <strong>DIY Success Story</strong>: Sarah, 35, has $200K in her 401(k) invested in a target-date 2055 fund. She contributes 15% of her $85K salary, gets a 4% match, and maxes her Roth IRA. Her plan is simple and effective—professional help would add minimal value at this stage.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">When Professional Help Pays for Itself</h3>
-          <p>| Your Situation | DIY Risk | Professional Value | |---------------|----------|-------------------| | $750K portfolio, 5 years to retirement | Poor withdrawal strategy costs $50K-$150K | Tax optimization, Social Security timing, risk management | | $500K in employer stock | Missing NUA strategy costs $40K+ in taxes | Stock diversification without tax disasters | | $200K inheritance + $400K portfolio | Inherited IRA mistakes forfeit tax benefits | Strategic inherited account management | | Pension lump sum decision | Wrong choice costs $100K+ lifetime | Actuarial analysis and modeling | | High income, multiple account types | Inefficient Roth conversions waste opportunities | Multi-year tax optimization |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Your Situation</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">DIY Risk</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Professional Value</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$750K portfolio, 5 years to retirement</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Poor withdrawal strategy costs $50K-$150K</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Tax optimization, Social Security timing, risk management</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500K in employer stock</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Missing NUA strategy costs $40K+ in taxes</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Stock diversification without tax disasters</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$200K inheritance + $400K portfolio</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Inherited IRA mistakes forfeit tax benefits</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Strategic inherited account management</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Pension lump sum decision</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Wrong choice costs $100K+ lifetime</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Actuarial analysis and modeling</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">High income, multiple account types</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Inefficient Roth conversions waste opportunities</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Multi-year tax optimization</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">The Hybrid Approach</h3>
           <p>Many people benefit from a middle ground:</p>
           <p><strong>One-time planning + periodic check-ins:</strong></p>
@@ -3521,7 +4635,44 @@ export const RETIREMENT_ARTICLES: Article[] = [
           <li>Unwillingness to disclose compensation</li>
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">What's a Fair Price?</h3>
-          <p>| Portfolio Size | Typical AUM Fee | Annual Cost | What You Should Get | |---------------|-----------------|-------------|---------------------| | $250K - $500K | 1.0% - 1.5% | $2,500 - $7,500 | Comprehensive planning, quarterly reviews | | $500K - $1M | 0.75% - 1.0% | $3,750 - $10,000 | Full service, tax coordination, frequent contact | | $1M - $2M | 0.60% - 0.85% | $6,000 - $17,000 | High-touch service, estate planning coordination | | $2M+ | 0.50% - 0.75% | $10,000+ | Dedicated team, comprehensive wealth management |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Portfolio Size</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Typical AUM Fee</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Annual Cost</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">What You Should Get</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$250K - $500K</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1.0% - 1.5%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,500 - $7,500</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Comprehensive planning, quarterly reviews</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500K - $1M</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.75% - 1.0%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$3,750 - $10,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Full service, tax coordination, frequent contact</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1M - $2M</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.60% - 0.85%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$6,000 - $17,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">High-touch service, estate planning coordination</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2M+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.50% - 0.75%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$10,000+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Dedicated team, comprehensive wealth management</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
         `
       },
       {
@@ -3653,7 +4804,30 @@ export const RETIREMENT_ARTICLES: Article[] = [
           <h3 class="text-xl font-bold mt-8 mb-4">Why RMDs Exist</h3>
           <p>Tax-deferred accounts let you defer taxes during accumulation. RMDs ensure the government eventually collects those taxes—you can't defer indefinitely.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Current RMD Ages</h3>
-          <p>| Birth Year | RMD Begins | |------------|------------| | 1950 or earlier | Already started (was 70½) | | 1951-1959 | Age 73 | | 1960 or later | Age 75 |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Birth Year</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">RMD Begins</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1950 or earlier</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Already started (was 70½)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1951-1959</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Age 73</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1960 or later</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Age 75</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">First RMD Timing</h3>
           <p><strong>First RMD deadline:</strong> April 1 of the year following the year you turn RMD age</p>
           <p><strong>Subsequent RMDs:</strong> December 31 of each year</p>
@@ -3669,7 +4843,59 @@ export const RETIREMENT_ARTICLES: Article[] = [
           <p>Account balance: December 31 of prior year</p>
           <p>Life expectancy factor: From IRS Uniform Lifetime Table</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Uniform Lifetime Table (Partial)</h3>
-          <p>| Age | Factor | Implied % | |-----|--------|-----------| | 73 | 26.5 | 3.77% | | 74 | 25.5 | 3.92% | | 75 | 24.6 | 4.07% | | 76 | 23.7 | 4.22% | | 77 | 22.9 | 4.37% | | 80 | 20.2 | 4.95% | | 85 | 16.0 | 6.25% | | 90 | 12.2 | 8.20% |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Age</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Factor</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Implied %</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">73</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">26.5</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">3.77%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">74</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">25.5</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">3.92%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">75</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">24.6</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">4.07%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">76</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">23.7</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">4.22%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">77</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">22.9</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">4.37%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">80</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">20.2</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">4.95%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">85</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">16.0</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">6.25%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">90</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">12.2</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">8.20%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Calculation Example</h3>
           <p><strong>Scenario:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -3976,7 +5202,44 @@ export const RETIREMENT_ARTICLES: Article[] = [
           <p>> <strong>Example—Too Conservative at 30</strong>: > - $500,000 in bonds returning 4% for 30 years: $1,621,000 > - $500,000 in stocks returning 7% for 30 years: $3,806,000 > - <strong>Difference: $2,185,000</strong> > > <strong>Example—Too Aggressive at 60</strong>: > - 50% market drop at age 62 with $800,000 portfolio > - Portfolio drops to $400,000 > - Forced to sell low to pay expenses: permanent loss of $100,000+</p>
           <h3 class="text-xl font-bold mt-8 mb-4">How to Fix It</h3>
           <p><strong>General allocation guidelines by age:</strong></p>
-          <p>| Age | Stocks | Bonds | |-----|--------|-------| | 20s-30s | 90-100% | 0-10% | | 40s | 80-90% | 10-20% | | 50s | 70-80% | 20-30% | | Early 60s | 60-70% | 30-40% | | At retirement | 50-60% | 40-50% |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Age</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Stocks</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Bonds</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">20s-30s</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">90-100%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0-10%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">40s</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">80-90%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">10-20%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">50s</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">70-80%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">20-30%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Early 60s</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">60-70%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">30-40%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">At retirement</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">50-60%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">40-50%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <ul class="list-disc pl-6 space-y-2 my-4">
           <li>Use target-date funds if unsure—they automatically adjust</li>
           <li>Rebalance annually</li>
@@ -4100,7 +5363,54 @@ export const RETIREMENT_ARTICLES: Article[] = [
           <p>DIY retirement planning works for simple situations, but complexity increases risk. Professional guidance typically adds 2-3% annually to outcomes through tax efficiency, behavioral coaching, and optimized decisions.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">The Cost</h3>
           <p>The cumulative cost of all the above mistakes—without professional guidance—can exceed <strong>$285,000-$485,000</strong> over a retirement.</p>
-          <p>| Mistake | Potential Cost | |---------|---------------| | Late start | $200,000-$576,000 | | Missed matches | $50,000-$113,000 | | Wrong allocation | $51,000-$200,000 | | Poor tax planning | $100,000-$240,000 | | Healthcare underestimate | $50,000-$200,000 | | Early Social Security | $100,000-$324,000 | | Ignoring inflation | $100,000-$480,000 | | Estate mistakes | $40,000-$440,000 | | No rebalancing | $50,000-$205,000 |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Mistake</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Potential Cost</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Late start</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$200,000-$576,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Missed matches</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$50,000-$113,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Wrong allocation</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$51,000-$200,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Poor tax planning</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$100,000-$240,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Healthcare underestimate</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$50,000-$200,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Early Social Security</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$100,000-$324,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Ignoring inflation</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$100,000-$480,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Estate mistakes</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$40,000-$440,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No rebalancing</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$50,000-$205,000</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p>Many of these mistakes compound or overlap. The total damage from several combined errors can devastate retirement security.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">How to Fix It</h3>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -4195,7 +5505,38 @@ export const RETIREMENT_ARTICLES: Article[] = [
         content: `
           <p>The 4% rule is a widely-used guideline suggesting you can withdraw 4% of your retirement savings in year one, then adjust for inflation each year, with a high probability your money lasts 30 years.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">How It Works</h3>
-          <p>| Year | Portfolio Value | 4% Withdrawal | Adjusted for 3% Inflation | |------|-----------------|---------------|---------------------------| | 1 | $1,000,000 | $40,000 | $40,000 | | 2 | ~$1,020,000 | $41,200 | $41,200 | | 3 | ~$1,040,000 | $42,436 | $42,436 |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Year</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Portfolio Value</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">4% Withdrawal</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Adjusted for 3% Inflation</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,000,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$40,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$40,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">~$1,020,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$41,200</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$41,200</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">3</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">~$1,040,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$42,436</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$42,436</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Limitations of the 4% Rule</h3>
           <p>The rule has critics. Consider adjusting if:</p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -4221,7 +5562,39 @@ export const RETIREMENT_ARTICLES: Article[] = [
           <li>Potentially lower taxes</li>
           </ul>
           <p><strong>Calculation Example:</strong></p>
-          <p>| Current Income | 80% Replacement | 70% Replacement | |----------------|-----------------|-----------------| | $60,000 | $48,000/year | $42,000/year | | $80,000 | $64,000/year | $56,000/year | | $100,000 | $80,000/year | $70,000/year | | $150,000 | $120,000/year | $105,000/year |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Current Income</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">80% Replacement</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">70% Replacement</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$60,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$48,000/year</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$42,000/year</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$80,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$64,000/year</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$56,000/year</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$100,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$80,000/year</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$70,000/year</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$150,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$120,000/year</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$105,000/year</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">When You Might Need More Than 80%</h3>
           <ul class="list-disc pl-6 space-y-2 my-4">
           <li><strong>Healthcare issues</strong>: Chronic conditions increase costs</li>
@@ -4246,11 +5619,100 @@ export const RETIREMENT_ARTICLES: Article[] = [
           <p>Let's walk through a comprehensive calculation:</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Step 1: Estimate Annual Expenses</h3>
           <p>List your expected retirement expenses:</p>
-          <p>| Category | Monthly | Annual | |----------|---------|--------| | Housing (mortgage/rent, taxes, insurance) | $2,000 | $24,000 | | Healthcare (premiums, out-of-pocket) | $1,000 | $12,000 | | Food and groceries | $600 | $7,200 | | Transportation | $400 | $4,800 | | Utilities | $300 | $3,600 | | Entertainment and travel | $500 | $6,000 | | Personal and miscellaneous | $400 | $4,800 | | <strong>Total</strong> | <strong>$5,200</strong> | <strong>$62,400</strong> |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Category</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Monthly</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Annual</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Housing (mortgage/rent, taxes, insurance)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$24,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Healthcare (premiums, out-of-pocket)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$12,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Food and groceries</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$600</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$7,200</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Transportation</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$400</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$4,800</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Utilities</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$300</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$3,600</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Entertainment and travel</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$6,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Personal and miscellaneous</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$400</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$4,800</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Total</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$5,200</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$62,400</strong></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Step 2: Account for Inflation</h3>
           <p>If retirement is 20 years away, today's $62,400 becomes roughly $112,700 at 3% inflation.</p>
           <p><strong>Inflation multiplier by years to retirement:</strong></p>
-          <p>| Years | Multiplier (3% inflation) | $60,000 becomes | |-------|---------------------------|-----------------| | 10 | 1.34 | $80,400 | | 15 | 1.56 | $93,600 | | 20 | 1.81 | $108,600 | | 25 | 2.09 | $125,400 | | 30 | 2.43 | $145,800 |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Years</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Multiplier (3% inflation)</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">$60,000 becomes</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">10</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1.34</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$80,400</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">15</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1.56</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$93,600</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">20</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1.81</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$108,600</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">25</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2.09</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$125,400</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">30</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2.43</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$145,800</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Step 3: Subtract Guaranteed Income</h3>
           <p>Identify income sources that don't depend on your savings:</p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -4262,7 +5724,50 @@ export const RETIREMENT_ARTICLES: Article[] = [
           <p>> <strong>Example</strong>: Your expenses are $80,000/year. Social Security provides $24,000 and a small pension adds $12,000. You need $44,000 from savings.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Step 4: Apply the Withdrawal Rate</h3>
           <p>Divide by your chosen withdrawal rate:</p>
-          <p>| Annual Need | 4% Rate | 3.5% Rate | 3% Rate | |-------------|---------|-----------|---------| | $30,000 | $750,000 | $857,000 | $1,000,000 | | $40,000 | $1,000,000 | $1,143,000 | $1,333,000 | | $50,000 | $1,250,000 | $1,429,000 | $1,667,000 | | $60,000 | $1,500,000 | $1,714,000 | $2,000,000 | | $80,000 | $2,000,000 | $2,286,000 | $2,667,000 |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Annual Need</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">4% Rate</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">3.5% Rate</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">3% Rate</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$30,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$750,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$857,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,000,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$40,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,000,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,143,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,333,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$50,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,250,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,429,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,667,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$60,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,500,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,714,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,000,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$80,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,000,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,286,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,667,000</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
         `
       },
       {
@@ -4296,9 +5801,93 @@ export const RETIREMENT_ARTICLES: Article[] = [
         content: `
           <p>Where you retire dramatically affects how much you need. The same lifestyle costs vastly different amounts across the country.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Cost of Living Comparison by Region</h3>
-          <p>| Location Type | Cost Index | $60K Lifestyle Requires | |--------------|-----------|------------------------| | Rural Midwest | 85 | $51,000/year | | Average U.S. City | 100 | $60,000/year | | Austin, TX | 103 | $61,800/year | | Denver, CO | 128 | $76,800/year | | Seattle, WA | 150 | $90,000/year | | San Francisco, CA | 180 | $108,000/year | | New York City, NY | 187 | $112,200/year |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Location Type</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Cost Index</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">$60K Lifestyle Requires</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Rural Midwest</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">85</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$51,000/year</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Average U.S. City</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">100</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$60,000/year</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Austin, TX</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">103</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$61,800/year</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Denver, CO</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">128</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$76,800/year</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Seattle, WA</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">150</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$90,000/year</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">San Francisco, CA</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">180</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$108,000/year</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">New York City, NY</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">187</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$112,200/year</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">How Location Affects Your Retirement Number</h3>
-          <p>| Location | Annual Need | 25x Multiple | Target Savings | |----------|-------------|--------------|----------------| | Midwest small city | $45,000 | × 25 | $1,125,000 | | Average suburb | $60,000 | × 25 | $1,500,000 | | High-cost metro | $90,000 | × 25 | $2,250,000 | | Very high-cost (NYC/SF) | $120,000 | × 25 | $3,000,000 |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Location</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Annual Need</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">25x Multiple</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Target Savings</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Midwest small city</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$45,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">× 25</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,125,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Average suburb</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$60,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">× 25</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,500,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">High-cost metro</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$90,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">× 25</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,250,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Very high-cost (NYC/SF)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$120,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">× 25</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$3,000,000</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Strategy tip</strong>: Many retirees reduce their retirement number by relocating from high-cost to moderate-cost areas. Moving from San Francisco to Austin could reduce your required savings by $1+ million.</p>
         `
       },
@@ -4308,27 +5897,218 @@ export const RETIREMENT_ARTICLES: Article[] = [
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Scenario 1: Modest Retirement at 65</h3>
           <p><strong>Profile</strong>: Single, $60,000 final salary, paid-off home, low-cost Midwest area</p>
-          <p>| Factor | Amount | |--------|--------| | Annual expenses needed | $40,000 | | Social Security | -$20,000 | | From savings | $20,000 | | Savings needed (4% rule) | $500,000 | | Healthcare reserve | +$150,000 | | <strong>Target</strong> | <strong>$650,000</strong> |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Factor</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Amount</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Annual expenses needed</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$40,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Social Security</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">-$20,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">From savings</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$20,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Savings needed (4% rule)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Healthcare reserve</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">+$150,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Target</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$650,000</strong></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Key insight</strong>: A paid-off home and low-cost location make modest retirement achievable with less than $1 million.</p>
           <p>---</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Scenario 2: Comfortable Retirement at 67</h3>
           <p><strong>Profile</strong>: Married couple, $150,000 combined income, moderate cost suburb</p>
-          <p>| Factor | Amount | |--------|--------| | Annual expenses needed | $100,000 | | Social Security (combined) | -$45,000 | | From savings | $55,000 | | Savings needed (4% rule) | $1,375,000 | | Healthcare reserve | +$315,000 | | <strong>Target</strong> | <strong>$1,690,000</strong> |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Factor</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Amount</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Annual expenses needed</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$100,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Social Security (combined)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">-$45,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">From savings</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$55,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Savings needed (4% rule)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,375,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Healthcare reserve</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">+$315,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Target</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$1,690,000</strong></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Key insight</strong>: A couple needs roughly $1.7M for a comfortable suburban retirement with travel and hobbies.</p>
           <p>---</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Scenario 3: Early Retirement at 55 (FIRE)</h3>
           <p><strong>Profile</strong>: Single, $120,000 income, wants to travel extensively</p>
-          <p>| Factor | Amount | |--------|--------| | Annual expenses needed | $90,000 | | Social Security (delayed) | $0 until 67 | | From savings (12 years) | $90,000 | | Bridge fund (12 years × $90K) | $1,080,000 | | Age 67+ need (3.5% rule) | $1,285,000 | | Healthcare (pre-Medicare) | +$200,000 | | <strong>Target</strong> | <strong>$2,565,000</strong> |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Factor</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Amount</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Annual expenses needed</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$90,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Social Security (delayed)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$0 until 67</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">From savings (12 years)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$90,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Bridge fund (12 years × $90K)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,080,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Age 67+ need (3.5% rule)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,285,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Healthcare (pre-Medicare)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">+$200,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Target</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$2,565,000</strong></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Key insight</strong>: Early retirement requires roughly 25-40% more savings due to longer time horizon and pre-Medicare healthcare costs.</p>
           <p>---</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Scenario 4: High-Cost City Retirement</h3>
           <p><strong>Profile</strong>: Married couple, $300,000 combined income, staying in San Francisco</p>
-          <p>| Factor | Amount | |--------|--------| | Annual expenses needed | $180,000 | | Social Security (combined, maxed) | -$70,000 | | From savings | $110,000 | | Savings needed (3.5% rule) | $3,143,000 | | Healthcare reserve | +$350,000 | | <strong>Target</strong> | <strong>$3,493,000</strong> |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Factor</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Amount</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Annual expenses needed</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$180,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Social Security (combined, maxed)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">-$70,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">From savings</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$110,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Savings needed (3.5% rule)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$3,143,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Healthcare reserve</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">+$350,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Target</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$3,493,000</strong></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Key insight</strong>: High-cost city dwellers need $3-4M+ for comfortable retirement. Consider whether staying is worth the additional savings required.</p>
           <p>---</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Scenario 5: Part-Time Work Retirement</h3>
           <p><strong>Profile</strong>: Couple, $100,000 combined income, plan to work part-time until 70</p>
-          <p>| Factor | Amount | |--------|--------| | Annual expenses needed | $75,000 | | Part-time income (ages 62-70) | -$30,000 | | Social Security (starting at 70) | -$55,000 | | From savings before 70 | $45,000/year | | Bridge fund (8 years) | $360,000 | | From savings after 70 | $20,000/year | | Post-70 savings needed (4% rule) | $500,000 | | Healthcare reserve | +$280,000 | | <strong>Target</strong> | <strong>$1,140,000</strong> |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Factor</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Amount</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Annual expenses needed</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$75,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Part-time income (ages 62-70)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">-$30,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Social Security (starting at 70)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">-$55,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">From savings before 70</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$45,000/year</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Bridge fund (8 years)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$360,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">From savings after 70</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$20,000/year</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Post-70 savings needed (4% rule)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Healthcare reserve</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">+$280,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Target</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$1,140,000</strong></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Key insight</strong>: Part-time work in early retirement dramatically reduces required savings while allowing Social Security to grow.</p>
         `
       },
@@ -4337,7 +6117,50 @@ export const RETIREMENT_ARTICLES: Article[] = [
         title: 'Savings Benchmarks by Age',
         content: `
           <p>Fidelity suggests these milestones based on saving 15% of income starting at age 25:</p>
-          <p>| Age | Savings Goal | |-----|--------------| | 30 | 1x annual salary | | 35 | 2x annual salary | | 40 | 3x annual salary | | 45 | 4x annual salary | | 50 | 6x annual salary | | 55 | 7x annual salary | | 60 | 8x annual salary | | 67 | 10x annual salary |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Age</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Savings Goal</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">30</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1x annual salary</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">35</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2x annual salary</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">40</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">3x annual salary</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">45</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">4x annual salary</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">50</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">6x annual salary</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">55</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">7x annual salary</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">60</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">8x annual salary</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">67</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">10x annual salary</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Are you behind?</strong> You can catch up by:</p>
           <ul class="list-disc pl-6 space-y-2 my-4">
           <li>Increasing savings rate</li>
@@ -4425,10 +6248,110 @@ export const RETIREMENT_ARTICLES: Article[] = [
         type: 'text',
         title: 'Side-by-Side Comparison (2025)',
         content: `
-          <p>| Feature | 401(k) | Traditional IRA | Roth IRA | |---------|--------|-----------------|----------| | 2025 Contribution Limit | $23,500 ($31,000 if 50+) | $7,000 ($8,000 if 50+) | $7,000 ($8,000 if 50+) | | Employer Match | Often available | No | No | | Tax Deduction | Yes (reduces current taxes) | Yes (if eligible) | No | | Tax-Free Withdrawals | No | No | Yes (qualified) | | Income Limits for Contributions | None | None (but deduction limits apply) | $150,000 single / $236,000 married (2025) | | Investment Options | Limited to plan menu | Virtually unlimited | Virtually unlimited | | Required Minimum Distributions | Yes, starting at 73 | Yes, starting at 73 | No (during owner's lifetime) | | Early Withdrawal Penalty | 10% before 59½ | 10% before 59½ | Contributions can be withdrawn anytime | | Creditor Protection | Strong (federal ERISA) | Varies by state | Varies by state | | Loan Provision | Often available | No | No |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Feature</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">401(k)</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Traditional IRA</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Roth IRA</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2025 Contribution Limit</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$23,500 ($31,000 if 50+)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$7,000 ($8,000 if 50+)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$7,000 ($8,000 if 50+)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Employer Match</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Often available</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Tax Deduction</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes (reduces current taxes)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes (if eligible)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Tax-Free Withdrawals</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes (qualified)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Income Limits for Contributions</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">None</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">None (but deduction limits apply)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$150,000 single / $236,000 married (2025)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Investment Options</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Limited to plan menu</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Virtually unlimited</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Virtually unlimited</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Required Minimum Distributions</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes, starting at 73</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes, starting at 73</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No (during owner's lifetime)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Early Withdrawal Penalty</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">10% before 59½</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">10% before 59½</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Contributions can be withdrawn anytime</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Creditor Protection</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Strong (federal ERISA)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Varies by state</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Varies by state</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Loan Provision</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Often available</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Total Savings Potential in 2025</h3>
           <p>If you maximize both account types, you can save significantly more than using just one:</p>
-          <p>| Account | Under 50 | Age 50+ | |---------|----------|---------| | 401(k) | $23,500 | $31,000 | | IRA | $7,000 | $8,000 | | <strong>Total</strong> | <strong>$30,500</strong> | <strong>$39,000</strong> |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Account</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Under 50</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Age 50+</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">401(k)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$23,500</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$31,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">IRA</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$7,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$8,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Total</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$30,500</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$39,000</strong></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p>Add an employer match, and your total tax-advantaged retirement savings can exceed $45,000 annually.</p>
         `
       },
@@ -4669,7 +6592,34 @@ export const RETIREMENT_ARTICLES: Article[] = [
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Birth Year Matters</h3>
           <p>Michigan's retirement income taxation is uniquely complex:</p>
-          <p>| Birth Year | Retirement Income Treatment | |------------|---------------------------| | Before 1946 | Up to $61,518 single / $123,036 joint exempt | | 1946-1952 | $20,000 single / $40,000 joint exempt at age 67 | | 1953-1966 | $20,000 exempt if certain conditions met at 67 | | After 1966 | No retirement income exemption |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Birth Year</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Retirement Income Treatment</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Before 1946</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Up to $61,518 single / $123,036 joint exempt</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1946-1952</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$20,000 single / $40,000 joint exempt at age 67</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1953-1966</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$20,000 exempt if certain conditions met at 67</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">After 1966</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No retirement income exemption</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Social Security</h3>
           <p>Michigan does NOT tax Social Security benefits:</p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -4739,7 +6689,30 @@ export const RETIREMENT_ARTICLES: Article[] = [
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Impact on Retirees</h3>
           <p>Detroit residents face additional taxation:</p>
-          <p>| Status | Detroit Tax Rate | |--------|-----------------| | Detroit resident | 2.4% | | Non-resident working in Detroit | 1.2% | | Pension income for residents | 2.4% taxable |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Status</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Detroit Tax Rate</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Detroit resident</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2.4%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Non-resident working in Detroit</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1.2%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Pension income for residents</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2.4% taxable</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Planning Considerations</h3>
           <ul class="list-disc pl-6 space-y-2 my-4">
           <li>Location choice affects total tax burden</li>
@@ -4918,7 +6891,29 @@ export const RETIREMENT_ARTICLES: Article[] = [
         content: `
           <p>Georgia offers one of the most generous retirement income exclusions in the Southeast:</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Age-Based Exclusions</h3>
-          <p>| Age | Single Exclusion | Married Exclusion | |-----|-----------------|-------------------| | 62-64 | $35,000 | $70,000 | | 65+ | $65,000 | $130,000 |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Age</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Single Exclusion</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Married Exclusion</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">62-64</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$35,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$70,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">65+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$65,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$130,000</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Qualifying Income</h3>
           <p>The exclusion applies to:</p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -4945,7 +6940,49 @@ export const RETIREMENT_ARTICLES: Article[] = [
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Housing Costs by Area</h3>
           <p>Metro Atlanta neighborhoods vary significantly in cost:</p>
-          <p>| Area | Median Home Price | Property Tax Rate | |------|-------------------|-------------------| | Buckhead | $700,000+ | 1.1% | | Midtown | $500,000+ | 1.1% | | Sandy Springs | $450,000 | 1.0% | | Alpharetta | $500,000 | 1.0% | | Decatur | $450,000 | 1.2% | | Marietta | $375,000 | 1.0% |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Area</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Median Home Price</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Property Tax Rate</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Buckhead</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$700,000+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1.1%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Midtown</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500,000+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1.1%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Sandy Springs</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$450,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1.0%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Alpharetta</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1.0%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Decatur</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$450,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1.2%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Marietta</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$375,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1.0%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Homestead Exemptions</h3>
           <p>Georgia offers homestead exemptions that reduce property taxes:</p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -5101,7 +7138,34 @@ export const RETIREMENT_ARTICLES: Article[] = [
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Income Tax Rates</h3>
           <p>Minnesota's progressive tax structure:</p>
-          <p>| Taxable Income (Single) | Rate | |------------------------|------| | $0 - $30,070 | 5.35% | | $30,071 - $98,760 | 6.80% | | $98,761 - $183,340 | 7.85% | | $183,341+ | 9.85% |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Taxable Income (Single)</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Rate</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$0 - $30,070</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">5.35%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$30,071 - $98,760</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">6.80%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$98,761 - $183,340</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">7.85%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$183,341+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">9.85%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Social Security Treatment</h3>
           <p>Good news: Most retirees don't pay state tax on Social Security:</p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -5134,7 +7198,49 @@ export const RETIREMENT_ARTICLES: Article[] = [
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Housing Costs</h3>
           <p>Minneapolis area housing:</p>
-          <p>| Area | Median Home Price | Character | |------|-------------------|-----------| | Edina | $600,000+ | Upscale suburb | | Wayzata | $750,000+ | Lake Minnetonka | | Eden Prairie | $500,000 | Family-oriented | | Maple Grove | $475,000 | Northwest suburb | | Downtown Minneapolis | $400,000 | Urban condo | | St. Paul | $325,000 | Historic, diverse |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Area</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Median Home Price</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Character</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Edina</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$600,000+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Upscale suburb</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Wayzata</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$750,000+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Lake Minnetonka</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Eden Prairie</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Family-oriented</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Maple Grove</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$475,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Northwest suburb</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Downtown Minneapolis</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$400,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Urban condo</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">St. Paul</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$325,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Historic, diverse</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Property Taxes</h3>
           <p>Minnesota property taxes are high:</p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -5328,7 +7434,34 @@ export const RETIREMENT_ARTICLES: Article[] = [
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Income Tax Rates</h3>
           <p>Oregon's progressive tax structure:</p>
-          <p>| Taxable Income (Single) | Rate | |------------------------|------| | $0 - $4,050 | 4.75% | | $4,051 - $10,200 | 6.75% | | $10,201 - $125,000 | 8.75% | | $125,001+ | 9.9% |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Taxable Income (Single)</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Rate</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$0 - $4,050</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">4.75%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$4,051 - $10,200</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">6.75%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$10,201 - $125,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">8.75%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$125,001+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">9.9%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Social Security Treatment</h3>
           <p>Unlike many states, Oregon may tax Social Security:</p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -5368,7 +7501,34 @@ export const RETIREMENT_ARTICLES: Article[] = [
           <li>Most wealth management clients affected</li>
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Estate Tax Comparison</h3>
-          <p>| State | Estate Tax Threshold | |-------|---------------------| | Oregon | $1,000,000 | | Washington | $2,193,000 | | Minnesota | $3,000,000 | | Federal | $13,610,000 |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">State</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Estate Tax Threshold</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Oregon</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,000,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Washington</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,193,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Minnesota</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$3,000,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Federal</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$13,610,000</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Planning Strategies</h3>
           <p><strong>Gifting Programs:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -5402,7 +7562,49 @@ export const RETIREMENT_ARTICLES: Article[] = [
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Housing Costs</h3>
           <p>Portland area housing:</p>
-          <p>| Area | Median Home Price | Character | |------|-------------------|-----------| | Lake Oswego | $800,000+ | Upscale, waterfront | | West Linn | $650,000 | Affluent suburb | | Beaverton | $500,000 | Tech corridor | | Downtown Portland | $400,000 | Urban condos | | Tigard | $475,000 | Suburban | | Vancouver, WA | $450,000 | No income tax |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Area</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Median Home Price</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Character</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Lake Oswego</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$800,000+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Upscale, waterfront</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">West Linn</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$650,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Affluent suburb</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Beaverton</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Tech corridor</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Downtown Portland</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$400,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Urban condos</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Tigard</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$475,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Suburban</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Vancouver, WA</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$450,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No income tax</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">No Sales Tax Advantage</h3>
           <p>Oregon's lack of sales tax helps retirees:</p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -5562,7 +7764,39 @@ export const RETIREMENT_ARTICLES: Article[] = [
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">The California Migration Advantage</h3>
           <p>Many Las Vegas retirees come from California:</p>
-          <p>| Tax Category | California | Nevada | |--------------|-----------|--------| | Top income tax | 13.3% | 0% | | Capital gains | 13.3% | 0% | | Social Security | Not taxed | Not taxed | | Estate tax | None | None |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Tax Category</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">California</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Nevada</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Top income tax</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">13.3%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Capital gains</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">13.3%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Social Security</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Not taxed</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Not taxed</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Estate tax</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">None</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">None</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Establishing Nevada Residency</h3>
           <p>California's Franchise Tax Board aggressively audits former residents:</p>
           <p><strong>Documentation needed:</strong></p>
@@ -5590,7 +7824,44 @@ export const RETIREMENT_ARTICLES: Article[] = [
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Housing Costs</h3>
           <p>Las Vegas offers value compared to California:</p>
-          <p>| Area | Median Home Price | Character | |------|-------------------|-----------| | Summerlin | $550,000+ | Master-planned, family | | Henderson | $500,000+ | Suburban, growing | | The Lakes | $450,000 | Established, convenient | | North Las Vegas | $375,000 | Value-oriented | | Boulder City | $450,000 | Small town feel |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Area</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Median Home Price</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Character</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Summerlin</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$550,000+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Master-planned, family</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Henderson</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500,000+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Suburban, growing</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">The Lakes</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$450,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Established, convenient</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">North Las Vegas</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$375,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Value-oriented</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Boulder City</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$450,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Small town feel</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Property Taxes</h3>
           <p>Nevada property taxes are reasonable:</p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -5795,7 +8066,44 @@ export const RETIREMENT_ARTICLES: Article[] = [
           <h3 class="text-xl font-bold mt-8 mb-4">Constitutional Protection</h3>
           <p>Florida's no-income-tax status is constitutionally protected—changing it would require a statewide voter referendum. This provides long-term stability for retirement planning.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Compared to Origin States</h3>
-          <p>| State | Income Tax | Estate Tax | Total Burden | |-------|-----------|------------|--------------| | Florida | 0% | None | Low | | New York | Up to 10.9% | Yes (above $6.94M) | Very High | | New Jersey | Up to 10.75% | Yes (above $0) | Very High | | Illinois | 4.95% | Yes (above $4M) | High |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">State</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Income Tax</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Estate Tax</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Total Burden</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Florida</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">None</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Low</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">New York</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Up to 10.9%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes (above $6.94M)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Very High</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">New Jersey</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Up to 10.75%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes (above $0)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Very High</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Illinois</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">4.95%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes (above $4M)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">High</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
         `
       },
       {
@@ -5804,7 +8112,49 @@ export const RETIREMENT_ARTICLES: Article[] = [
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Housing Costs</h3>
           <p>Tampa Bay offers better value than Southeast Florida:</p>
-          <p>| Area | Median Home Price | Character | |------|-------------------|-----------| | South Tampa | $600,000+ | Upscale, walkable | | St. Petersburg | $450,000 | Arts, downtown | | Clearwater | $400,000 | Beach access | | Brandon | $375,000 | Suburban value | | Wesley Chapel | $425,000 | New development | | New Tampa | $450,000 | Family-oriented |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Area</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Median Home Price</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Character</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">South Tampa</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$600,000+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Upscale, walkable</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">St. Petersburg</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$450,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Arts, downtown</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Clearwater</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$400,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Beach access</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Brandon</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$375,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Suburban value</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Wesley Chapel</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$425,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">New development</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">New Tampa</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$450,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Family-oriented</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Property Taxes</h3>
           <p>Florida property taxes are moderate:</p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -6039,7 +8389,49 @@ export const RETIREMENT_ARTICLES: Article[] = [
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Housing Costs</h3>
           <p>Charlotte offers moderate housing:</p>
-          <p>| Area | Median Home Price | Character | |------|-------------------|-----------| | Myers Park | $700,000+ | Historic, upscale | | SouthPark | $600,000 | Shopping, established | | Ballantyne | $550,000 | Master-planned | | Lake Norman | $600,000+ | Waterfront living | | Fort Mill (SC) | $450,000 | Tax advantages | | Matthews | $475,000 | Suburban |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Area</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Median Home Price</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Character</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Myers Park</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$700,000+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Historic, upscale</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">SouthPark</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$600,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Shopping, established</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Ballantyne</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$550,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Master-planned</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Lake Norman</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$600,000+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Waterfront living</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Fort Mill (SC)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$450,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Tax advantages</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Matthews</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$475,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Suburban</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">South Carolina Border</h3>
           <p>Fort Mill and nearby SC towns offer advantages:</p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -6261,7 +8653,49 @@ export const RETIREMENT_ARTICLES: Article[] = [
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Housing Affordability</h3>
           <p>San Antonio offers excellent value:</p>
-          <p>| Area | Median Home Price | Character | |------|-------------------|-----------| | Alamo Heights | $550,000+ | Historic, upscale | | Stone Oak | $450,000 | Master-planned | | The Dominion | $700,000+ | Luxury gated | | Helotes | $375,000 | Hill Country feel | | New Braunfels | $350,000 | Growing, value | | Live Oak | $325,000 | Military convenient |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Area</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Median Home Price</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Character</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Alamo Heights</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$550,000+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Historic, upscale</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Stone Oak</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$450,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Master-planned</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">The Dominion</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$700,000+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Luxury gated</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Helotes</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$375,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Hill Country feel</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">New Braunfels</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$350,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Growing, value</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Live Oak</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$325,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Military convenient</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Property Tax Management</h3>
           <p>Texas property taxes require attention:</p>
           <p><strong>Available Exemptions:</strong></p>
@@ -6461,7 +8895,34 @@ export const RETIREMENT_ARTICLES: Article[] = [
         title: 'TSP Optimization Strategies',
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">2024 Contribution Limits</h3>
-          <p>| Category | Limit | |----------|-------| | Regular contributions | $23,000 | | Age 50+ catch-up | $7,500 | | Total employee contribution | $30,500 | | Total including agency match | Up to $69,000 |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Category</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Limit</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Regular contributions</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$23,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Age 50+ catch-up</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$7,500</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Total employee contribution</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$30,500</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Total including agency match</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Up to $69,000</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">TSP Fund Selection</h3>
           <p><strong>Individual Funds:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -6498,7 +8959,38 @@ export const RETIREMENT_ARTICLES: Article[] = [
         title: 'Three-Jurisdiction Tax Planning',
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Retirement Income Taxation</h3>
-          <p>| Jurisdiction | Social Security | Pension | 401(k)/IRA | |--------------|-----------------|---------|------------| | DC | Not taxed | Taxed (with exclusions) | Taxed | | Maryland | Not taxed | Partial exclusion | Partial exclusion | | Virginia | Not taxed | Partial exemption | Taxed |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Jurisdiction</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Social Security</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Pension</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">401(k)/IRA</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">DC</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Not taxed</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Taxed (with exclusions)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Taxed</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Maryland</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Not taxed</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Partial exclusion</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Partial exclusion</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Virginia</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Not taxed</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Partial exemption</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Taxed</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">DC Retirement Exclusions</h3>
           <p>DC offers exclusions for certain retirement income:</p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -6627,7 +9119,44 @@ export const RETIREMENT_ARTICLES: Article[] = [
           <li>Dividends and interest (Hall Tax fully repealed in 2021)</li>
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Compared to Other States</h3>
-          <p>| State | Income Tax | Social Security Tax | Pension Tax | |-------|-----------|-------------------|-------------| | Tennessee | 0% | No | No | | Georgia | 5.49% | No | Yes (with exclusion) | | North Carolina | 4.75% | No | Yes | | California | Up to 13.3% | No | Yes |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">State</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Income Tax</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Social Security Tax</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Pension Tax</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Tennessee</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Georgia</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">5.49%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes (with exclusion)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">North Carolina</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">4.75%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">California</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Up to 13.3%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Relocation Considerations</h3>
           <p>If moving from a high-tax state:</p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -6644,7 +9173,49 @@ export const RETIREMENT_ARTICLES: Article[] = [
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Housing Costs</h3>
           <p>Nashville housing has appreciated significantly:</p>
-          <p>| Area | Median Home Price | Trend | |------|-------------------|-------| | Downtown/Gulch | $600,000+ | Rising | | Green Hills | $700,000+ | Stable-high | | Franklin | $650,000+ | Rising | | Brentwood | $800,000+ | Premium | | Mt. Juliet | $450,000 | Growing | | Murfreesboro | $400,000 | Value area |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Area</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Median Home Price</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Trend</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Downtown/Gulch</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$600,000+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Rising</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Green Hills</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$700,000+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Stable-high</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Franklin</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$650,000+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Rising</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Brentwood</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$800,000+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Premium</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Mt. Juliet</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$450,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Growing</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Murfreesboro</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$400,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Value area</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Property Taxes</h3>
           <p>Tennessee property taxes are relatively low:</p>
           <ul class="list-disc pl-6 space-y-2 my-4">

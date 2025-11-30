@@ -507,10 +507,66 @@ export const FINDADVISOR_ARTICLES: Article[] = [
         title: 'Calculating the Value of Advice',
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Tangible Value Sources</h3>
-          <p><strong>Tax optimization:</strong> | Strategy | Potential Value | |----------|----------------| | Asset location | 0.1% - 0.3%/year | | Tax-loss harvesting | 0.3% - 0.5%/year | | Roth conversion strategy | Varies, often significant | | Retirement withdrawal sequencing | Thousands over retirement |</p>
+          <p><strong>Tax optimization:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Strategy</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Potential Value</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Asset location</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.1% - 0.3%/year</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Tax-loss harvesting</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.3% - 0.5%/year</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Roth conversion strategy</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Varies, often significant</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Retirement withdrawal sequencing</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Thousands over retirement</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Example:</strong> Tax-efficient asset location on a $1M portfolio might add 0.2% annually—$2,000/year that compounds.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Behavioral Value</h3>
-          <p><strong>Advisor impact on behavior:</strong> | Behavior | Potential Value | |----------|----------------| | Preventing panic selling | 1% - 5%+ one-time | | Staying invested | Captures market returns | | Disciplined rebalancing | 0.3% - 0.5%/year | | Avoiding trendy investments | Avoids losses |</p>
+          <p><strong>Advisor impact on behavior:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Behavior</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Potential Value</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Preventing panic selling</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1% - 5%+ one-time</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Staying invested</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Captures market returns</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Disciplined rebalancing</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.3% - 0.5%/year</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Avoiding trendy investments</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Avoids losses</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Example:</strong> An advisor who prevents you from selling during a 30% crash helps you capture the subsequent recovery—potentially worth more than years of fees.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Intangible Value</h3>
           <p><strong>Hard to quantify but real:</strong></p>
@@ -1004,7 +1060,39 @@ export const FINDADVISOR_ARTICLES: Article[] = [
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">CFP® (Certified Financial Planner)</h3>
           <p><strong>What it is:</strong> The most comprehensive financial planning credential.</p>
-          <p><strong>Requirements:</strong> | Requirement | Details | |-------------|---------| | Education | Bachelor's degree + CFP curriculum | | Exam | 170-question, 6-hour exam | | Experience | 6,000 hours (4,000 with apprenticeship) | | Ethics | Background check + ethics course | | Continuing Ed | 30 hours every 2 years |</p>
+          <p><strong>Requirements:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Requirement</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Details</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Education</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Bachelor's degree + CFP curriculum</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Exam</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">170-question, 6-hour exam</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Experience</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">6,000 hours (4,000 with apprenticeship)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Ethics</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Background check + ethics course</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Continuing Ed</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">30 hours every 2 years</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Exam pass rate:</strong> Approximately 65% (challenging but not extreme).</p>
           <p><strong>Topics covered:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -1021,7 +1109,39 @@ export const FINDADVISOR_ARTICLES: Article[] = [
           <p><strong>Verify at:</strong> CFP Board website (letsmakeaplan.org).</p>
           <h3 class="text-xl font-bold mt-8 mb-4">CFA (Chartered Financial Analyst)</h3>
           <p><strong>What it is:</strong> The premier investment analysis credential.</p>
-          <p><strong>Requirements:</strong> | Requirement | Details | |-------------|---------| | Education | Bachelor's degree (or equivalent experience) | | Exams | Three levels, 4-6 hours each | | Experience | 4,000 hours in investment decision-making | | Ethics | Annual attestation | | Continuing Ed | Self-attestation of ongoing learning |</p>
+          <p><strong>Requirements:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Requirement</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Details</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Education</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Bachelor's degree (or equivalent experience)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Exams</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Three levels, 4-6 hours each</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Experience</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">4,000 hours in investment decision-making</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Ethics</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Annual attestation</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Continuing Ed</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Self-attestation of ongoing learning</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Exam difficulty:</strong> Extremely rigorous. Combined pass rate through all three levels is approximately 10-15%.</p>
           <p><strong>Topics covered:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -1160,7 +1280,70 @@ export const FINDADVISOR_ARTICLES: Article[] = [
         title: 'Comparing Major Credentials',
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Credential Comparison Matrix</h3>
-          <p>| Credential | Focus | Rigor | Fiduciary | Best For | |------------|-------|-------|-----------|----------| | CFP® | Comprehensive planning | High | Yes (when planning) | Overall financial planning | | CFA | Investment analysis | Very high | No | Investment management | | CPA/PFS | Tax + planning | High | No | Tax-complex situations | | ChFC | Planning (insurance focus) | Medium-high | No | Insurance-heavy planning | | CLU | Insurance | Medium | No | Insurance needs | | CIMA | Investment consulting | Medium-high | No | Investment advice | | CPWA | Wealth management | Medium-high | No | High net worth clients |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Credential</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Focus</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Rigor</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Fiduciary</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Best For</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">CFP®</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Comprehensive planning</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">High</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes (when planning)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Overall financial planning</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">CFA</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Investment analysis</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Very high</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Investment management</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">CPA/PFS</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Tax + planning</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">High</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Tax-complex situations</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">ChFC</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Planning (insurance focus)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Medium-high</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Insurance-heavy planning</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">CLU</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Insurance</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Medium</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Insurance needs</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">CIMA</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Investment consulting</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Medium-high</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Investment advice</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">CPWA</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Wealth management</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Medium-high</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">High net worth clients</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Which Credential Matters Most?</h3>
           <p><strong>For comprehensive planning:</strong> CFP® is the gold standard. It's the most recognized, has clear standards, and requires fiduciary behavior for planning.</p>
           <p><strong>For investment management:</strong> CFA indicates serious investment expertise. Portfolio managers and research analysts often hold this credential.</p>
@@ -1205,7 +1388,38 @@ export const FINDADVISOR_ARTICLES: Article[] = [
         title: 'How to Verify Credentials',
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Verification Resources</h3>
-          <p>| Credential | Verification Site | |------------|------------------| | CFP® | cfp.net/verify-a-cfp-professional | | CFA | cfainstitute.org | | CPA | Your state's CPA board | | ChFC/CLU | theamericancollege.edu | | CIMA/CPWA | investmentsandwealth.org |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Credential</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Verification Site</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">CFP®</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">cfp.net/verify-a-cfp-professional</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">CFA</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">cfainstitute.org</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">CPA</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Your state's CPA board</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">ChFC/CLU</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">theamericancollege.edu</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">CIMA/CPWA</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">investmentsandwealth.org</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">What to Check</h3>
           <p><strong>Verify:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -1663,7 +1877,43 @@ export const FINDADVISOR_ARTICLES: Article[] = [
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Assets Under Management (AUM)</h3>
           <p><strong>How it works:</strong> Advisor charges a percentage of the assets they manage.</p>
-          <p><strong>Typical rates:</strong> | Asset Level | Typical Fee Range | |-------------|------------------| | Under $500K | 1.00% - 1.50% | | $500K - $1M | 0.85% - 1.25% | | $1M - $2M | 0.75% - 1.00% | | $2M - $5M | 0.60% - 0.85% | | $5M - $10M | 0.50% - 0.75% | | $10M+ | 0.35% - 0.60% |</p>
+          <p><strong>Typical rates:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Asset Level</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Typical Fee Range</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Under $500K</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1.00% - 1.50%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500K - $1M</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.85% - 1.25%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1M - $2M</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.75% - 1.00%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2M - $5M</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.60% - 0.85%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5M - $10M</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.50% - 0.75%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$10M+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.35% - 0.60%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Advantages:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
           <li>Aligns interests (advisor grows assets = client grows assets)</li>
@@ -1681,7 +1931,35 @@ export const FINDADVISOR_ARTICLES: Article[] = [
           <p><strong>Example:</strong> $1 million portfolio at 1.0% = $10,000 per year.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Flat Fee/Retainer</h3>
           <p><strong>How it works:</strong> Fixed annual fee for comprehensive financial planning and advice.</p>
-          <p><strong>Typical rates:</strong> | Complexity Level | Typical Annual Fee | |-----------------|-------------------| | Basic | $2,000 - $4,000 | | Moderate | $4,000 - $8,000 | | Complex | $8,000 - $15,000 | | Very complex | $15,000 - $30,000+ |</p>
+          <p><strong>Typical rates:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Complexity Level</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Typical Annual Fee</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Basic</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,000 - $4,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Moderate</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$4,000 - $8,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Complex</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$8,000 - $15,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Very complex</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$15,000 - $30,000+</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Advantages:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
           <li>Predictable, known cost</li>
@@ -1699,7 +1977,31 @@ export const FINDADVISOR_ARTICLES: Article[] = [
           <p><strong>When it works best:</strong> High asset levels where AUM would be expensive, or when comprehensive planning is the priority over investment management.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Hourly Fees</h3>
           <p><strong>How it works:</strong> Pay for the advisor's time, similar to hiring an attorney.</p>
-          <p><strong>Typical rates:</strong> | Experience Level | Hourly Rate | |-----------------|-------------| | Entry-level | $150 - $200 | | Mid-career | $200 - $300 | | Senior/specialist | $300 - $500 |</p>
+          <p><strong>Typical rates:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Experience Level</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Hourly Rate</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Entry-level</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$150 - $200</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Mid-career</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$200 - $300</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Senior/specialist</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$300 - $500</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Advantages:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
           <li>Pay only for what you need</li>
@@ -1717,7 +2019,35 @@ export const FINDADVISOR_ARTICLES: Article[] = [
           <p><strong>Best for:</strong> One-time planning needs, second opinions, specific questions.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Project-Based Fees</h3>
           <p><strong>How it works:</strong> Fixed fee for a specific deliverable (usually a financial plan).</p>
-          <p><strong>Typical rates:</strong> | Project Type | Typical Fee | |-------------|-------------| | Basic financial plan | $1,000 - $2,500 | | Comprehensive plan | $2,500 - $5,000 | | Complex planning | $5,000 - $10,000 | | Specialized projects | Varies |</p>
+          <p><strong>Typical rates:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Project Type</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Typical Fee</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Basic financial plan</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,000 - $2,500</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Comprehensive plan</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,500 - $5,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Complex planning</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5,000 - $10,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Specialized projects</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Varies</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Advantages:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
           <li>Known cost upfront</li>
@@ -1738,7 +2068,31 @@ export const FINDADVISOR_ARTICLES: Article[] = [
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Fund Expense Ratios</h3>
           <p><strong>What they are:</strong> Annual costs embedded in mutual funds and ETFs.</p>
-          <p><strong>Typical range:</strong> | Fund Type | Expense Ratio | |-----------|---------------| | Index funds/ETFs | 0.03% - 0.20% | | Actively managed funds | 0.50% - 1.50% | | Alternative funds | 1.00% - 2.00%+ |</p>
+          <p><strong>Typical range:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Fund Type</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Expense Ratio</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Index funds/ETFs</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.03% - 0.20%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Actively managed funds</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.50% - 1.50%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Alternative funds</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1.00% - 2.00%+</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Why it matters:</strong> These costs compound alongside your advisory fee. A 1% advisory fee plus 0.75% average fund expenses means you're paying 1.75% total.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Trading Costs</h3>
           <p><strong>Types:</strong></p>
@@ -1758,7 +2112,31 @@ export const FINDADVISOR_ARTICLES: Article[] = [
           <p><strong>Check:</strong> Ask your advisor which custodian they use and what that custodian charges.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">Mutual Fund Loads</h3>
           <p><strong>What they are:</strong> Sales charges on certain mutual funds.</p>
-          <p><strong>Types:</strong> | Load Type | How It Works | |-----------|--------------| | Front-end (A shares) | 3% - 5.75% charged at purchase | | Back-end (B shares) | Charged if sold within certain period | | Level (C shares) | Ongoing higher expense ratio |</p>
+          <p><strong>Types:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Load Type</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">How It Works</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Front-end (A shares)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">3% - 5.75% charged at purchase</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Back-end (B shares)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Charged if sold within certain period</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Level (C shares)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Ongoing higher expense ratio</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Important:</strong> Fee-only advisors don't use load funds. If you're paying loads, you're not with a fee-only advisor.</p>
           <h3 class="text-xl font-bold mt-8 mb-4">12b-1 Fees</h3>
           <p><strong>What they are:</strong> Annual marketing fees embedded in some mutual funds.</p>
@@ -1772,11 +2150,107 @@ export const FINDADVISOR_ARTICLES: Article[] = [
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">The Full Picture</h3>
           <p><strong>True cost = Advisory fee + Fund expenses + Trading costs + Any other fees</strong></p>
-          <p><strong>Example 1 - Fee-only advisor:</strong> | Component | Cost | |-----------|------| | Advisory fee (1% AUM) | $10,000 | | Fund expenses (0.10% avg) | $1,000 | | Trading costs | $50 | | Platform fees | $0 | | <strong>Total annual cost</strong> | <strong>$11,050 (1.105%)</strong> |</p>
-          <p><strong>Example 2 - Commission-based advisor:</strong> | Component | Cost | |-----------|------| | Advisory fee | $0 | | Front-end load (5.75% on $100K new) | $5,750 | | Fund expenses (1.25% avg) | $12,500 | | 12b-1 fees (0.25%) | $2,500 | | <strong>Total first-year cost</strong> | <strong>$20,750</strong> |</p>
+          <p><strong>Example 1 - Fee-only advisor:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Component</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Cost</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Advisory fee (1% AUM)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$10,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Fund expenses (0.10% avg)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Trading costs</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$50</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Platform fees</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$0</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Total annual cost</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$11,050 (1.105%)</strong></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <p><strong>Example 2 - Commission-based advisor:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Component</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Cost</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Advisory fee</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$0</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Front-end load (5.75% on $100K new)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5,750</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Fund expenses (1.25% avg)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$12,500</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">12b-1 fees (0.25%)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,500</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Total first-year cost</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>$20,750</strong></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Long-Term Impact</h3>
           <p><strong>Over 20 years, $1 million, 7% gross return:</strong></p>
-          <p>| Fee Level | Ending Value | Lost to Fees | |-----------|-------------|--------------| | 0.50% total | $3,387,000 | $479,000 | | 1.00% total | $2,985,000 | $881,000 | | 1.50% total | $2,620,000 | $1,246,000 | | 2.00% total | $2,293,000 | $1,573,000 |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Fee Level</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Ending Value</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Lost to Fees</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.50% total</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$3,387,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$479,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1.00% total</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,985,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$881,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1.50% total</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,620,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,246,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2.00% total</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,293,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,573,000</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Each 0.50% in annual fees costs roughly $400,000 over 20 years on a $1 million portfolio.</strong></p>
         `
       },
@@ -1785,7 +2259,39 @@ export const FINDADVISOR_ARTICLES: Article[] = [
         title: 'What You Should Pay',
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Reasonable Fee Ranges</h3>
-          <p><strong>Based on asset level (AUM model):</strong> | Your Assets | Maximum Reasonable Fee | |-------------|----------------------| | $250K - $500K | 1.25% or less | | $500K - $1M | 1.00% or less | | $1M - $2M | 0.90% or less | | $2M - $5M | 0.75% or less | | $5M+ | 0.60% or less |</p>
+          <p><strong>Based on asset level (AUM model):</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Your Assets</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Maximum Reasonable Fee</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$250K - $500K</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1.25% or less</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500K - $1M</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1.00% or less</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1M - $2M</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.90% or less</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2M - $5M</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.75% or less</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5M+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.60% or less</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>For flat fee (comprehensive planning):</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
           <li>Simple situations: $2,000 - $5,000/year</li>
@@ -1859,7 +2365,56 @@ export const FINDADVISOR_ARTICLES: Article[] = [
           <h3 class="text-xl font-bold mt-8 mb-4">Apples-to-Apples Comparison</h3>
           <p><strong>Always compare:</strong> 1. Total fee percentage (advisory + typical fund costs) 2. Services included for that fee 3. Fee trajectory as assets grow 4. Any additional fees</p>
           <p><strong>Comparison worksheet:</strong></p>
-          <p>| Factor | Advisor A | Advisor B | Advisor C | |--------|-----------|-----------|-----------| | Advisory fee | | | | | Estimated fund expenses | | | | | Other fees | | | | | <strong>Total estimated cost</strong> | | | | | Services included | | | | | Fee at $2M | | | |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Factor</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Advisor A</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Advisor B</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Advisor C</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Advisory fee</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Estimated fund expenses</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Other fees</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"><strong>Total estimated cost</strong></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Services included</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Fee at $2M</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Value vs. Cost</h3>
           <p><strong>Lower fee isn't always better:</strong></p>
           <p><strong>Low-fee advisor:</strong></p>
@@ -1886,7 +2441,39 @@ export const FINDADVISOR_ARTICLES: Article[] = [
         title: 'Robo-Advisors and Low-Cost Options',
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Robo-Advisor Fees</h3>
-          <p><strong>Typical costs:</strong> | Provider | Advisory Fee | |----------|-------------| | Betterment | 0.25% | | Wealthfront | 0.25% | | Schwab Intelligent | 0% (fund fees apply) | | Vanguard Digital | 0.20% - 0.25% | | Fidelity Go | 0.35% |</p>
+          <p><strong>Typical costs:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Provider</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Advisory Fee</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Betterment</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.25%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Wealthfront</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.25%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Schwab Intelligent</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0% (fund fees apply)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Vanguard Digital</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.20% - 0.25%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Fidelity Go</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.35%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>What you get:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
           <li>Automated investing</li>
@@ -2004,7 +2591,38 @@ export const FINDADVISOR_ARTICLES: Article[] = [
           <li>What's my asset level? (Determines advisor options)</li>
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Types of Help Available</h3>
-          <p>| Your Need | Best Fit | |-----------|----------| | Basic guidance, lower assets | Robo-advisor or hourly planner | | Comprehensive plan, one-time | Fee-only financial planner | | Ongoing planning + investing | Wealth manager (AUM model) | | Complex wealth, multiple needs | Private wealth management | | Full service, $100M+ | Family office |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Your Need</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Best Fit</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Basic guidance, lower assets</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Robo-advisor or hourly planner</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Comprehensive plan, one-time</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Fee-only financial planner</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Ongoing planning + investing</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Wealth manager (AUM model)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Complex wealth, multiple needs</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Private wealth management</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Full service, $100M+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Family office</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Common Situations and Solutions</h3>
           <p><strong>Just starting out ($0-$100K):</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -2289,7 +2907,62 @@ export const FINDADVISOR_ARTICLES: Article[] = [
         title: 'Step 7: Compare and Decide',
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Create a Comparison Matrix</h3>
-          <p>| Factor | Advisor A | Advisor B | Advisor C | |--------|-----------|-----------|-----------| | Credentials | | | | | Experience | | | | | Fee structure | | | | | Services included | | | | | Fiduciary? | | | | | Communication style | | | | | Gut feeling | | | |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Factor</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Advisor A</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Advisor B</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Advisor C</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Credentials</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Experience</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Fee structure</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Services included</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Fiduciary?</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Communication style</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Gut feeling</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700"></td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Weigh What Matters</h3>
           <p><strong>Most important:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -2471,7 +3144,44 @@ export const FINDADVISOR_ARTICLES: Article[] = [
         title: 'Comparing the Models',
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">Conflict of Interest Analysis</h3>
-          <p>| Factor | Fee-Only | Commission | Fee-Based | |--------|----------|------------|-----------| | Conflict potential | Lowest | Highest | Medium | | Product bias | None | Toward high-commission | Some | | Transparency | Highest | Lowest | Medium | | Fiduciary likely | Yes | Usually not | Varies |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Factor</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Fee-Only</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Commission</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Fee-Based</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Conflict potential</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Lowest</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Highest</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Medium</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Product bias</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">None</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Toward high-commission</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Some</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Transparency</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Highest</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Lowest</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Medium</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Fiduciary likely</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Yes</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Usually not</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Varies</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Cost Transparency</h3>
           <p><strong>Fee-only:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -2486,7 +3196,32 @@ export const FINDADVISOR_ARTICLES: Article[] = [
           <li>Harder to compare</li>
           </ul>
           <p><strong>Example:</strong> Both advisors recommend investing $100,000.</p>
-          <p>| Model | Visible Cost | Hidden Cost | True First-Year Cost | |-------|--------------|-------------|---------------------| | Fee-only (1%) | $1,000 | $0 | $1,000 | | Commission (5.75% load) | $0 | $5,750 | $5,750 |</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Model</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Visible Cost</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Hidden Cost</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">True First-Year Cost</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Fee-only (1%)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$0</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Commission (5.75% load)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$0</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5,750</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5,750</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <h3 class="text-xl font-bold mt-8 mb-4">Product Recommendations</h3>
           <p><strong>Fee-only advisor might recommend:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -2605,7 +3340,35 @@ export const FINDADVISOR_ARTICLES: Article[] = [
         content: `
           <h3 class="text-xl font-bold mt-8 mb-4">AUM (Assets Under Management)</h3>
           <p><strong>How it works:</strong> Charge percentage of assets managed.</p>
-          <p><strong>Typical rates:</strong> | Assets | Typical Rate | |--------|--------------| | Under $500K | 1.00-1.25% | | $500K-$1M | 0.85-1.00% | | $1M-$2M | 0.75-0.85% | | $2M+ | 0.50-0.75% |</p>
+          <p><strong>Typical rates:</strong></p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Assets</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Typical Rate</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Under $500K</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1.00-1.25%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500K-$1M</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.85-1.00%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1M-$2M</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.75-0.85%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2M+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.50-0.75%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
           <p><strong>Pros:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
           <li>Advisor grows assets = client grows assets</li>
