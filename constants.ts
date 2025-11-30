@@ -1,13 +1,13 @@
 import { TopicHub, City, Article } from './types';
 
 import { RETIREMENT_ARTICLES } from './data/retirementArticles';
-import { FINANCIAL_PLANNING_ARTICLES } from './data/financialPlanningArticles';
-import { FIND_ADVISOR_ARTICLES } from './data/findAdvisorArticles';
-import { TAX_PLANNING_ARTICLES } from './data/taxPlanningArticles';
-import { ESTATE_PLANNING_ARTICLES } from './data/estatePlanningArticles';
+import { FINANCIALPLANNING_ARTICLES } from './data/financialPlanningArticles';
+import { FINDADVISOR_ARTICLES } from './data/findAdvisorArticles';
+import { TAXPLANNING_ARTICLES } from './data/taxPlanningArticles';
+import { ESTATEPLANNING_ARTICLES } from './data/estatePlanningArticles';
 import { INVESTMENT_ARTICLES } from './data/investmentArticles';
-import { HIGH_NET_WORTH_ARTICLES } from './data/highNetWorthArticles';
-import { RISK_MANAGEMENT_ARTICLES } from './data/riskManagementArticles';
+import { HIGHNETWORTH_ARTICLES } from './data/highNetWorthArticles';
+import { RISKMANAGEMENT_ARTICLES } from './data/riskManagementArticles';
 import { CITY_ARTICLES } from './data/cityArticles';
 
 // Synced data from Obsidian (takes priority over hardcoded)
@@ -607,12 +607,12 @@ export const CITIES: City[] = mergeById(HARDCODED_CITIES, SYNCED_CITIES);
 // Combined articles from all sources
 export const MOCK_ARTICLES: Article[] = [
   ...RETIREMENT_ARTICLES,
-  ...FINANCIAL_PLANNING_ARTICLES,
-  ...FIND_ADVISOR_ARTICLES,
-  ...TAX_PLANNING_ARTICLES,
-  ...ESTATE_PLANNING_ARTICLES,
+  ...FINANCIALPLANNING_ARTICLES,
+  ...FINDADVISOR_ARTICLES,
+  ...TAXPLANNING_ARTICLES,
+  ...ESTATEPLANNING_ARTICLES,
   ...INVESTMENT_ARTICLES,
-  ...HIGH_NET_WORTH_ARTICLES,
-  ...RISK_MANAGEMENT_ARTICLES,
+  ...HIGHNETWORTH_ARTICLES,
+  ...RISKMANAGEMENT_ARTICLES,
   ...CITY_ARTICLES
 ];

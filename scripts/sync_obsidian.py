@@ -255,9 +255,16 @@ class ObsidianToTSConverter:
         # Generate article ID
         article_id = frontmatter.get('content_id', self.generate_slug(frontmatter.get('title', Path(filepath).stem)))
 
-        # Determine hub ID from parent_hub or parent_hub_id
-        parent_hub = frontmatter.get('parent_hub', '').lower().replace(' ', '-')
-        hub_id = frontmatter.get('hub_id', parent_hub if parent_hub else 'retirement')
+        # Determine hub ID from parent_page, parent_hub, or hub_id
+        # Priority: hub_id > parent_page (slug) > parent_hub > default
+        hub_id = frontmatter.get('hub_id', '')
+        if not hub_id:
+            parent_page = frontmatter.get('parent_page', '').strip('/')
+            if parent_page:
+                hub_id = parent_page
+            else:
+                parent_hub = frontmatter.get('parent_hub', '').lower().replace(' ', '-')
+                hub_id = parent_hub if parent_hub else 'retirement-planning'
 
         # Extract sections
         sections = self.extract_sections(content)
@@ -325,10 +332,10 @@ class ObsidianToTSConverter:
         hub_topic = frontmatter.get('hub_topic', '').lower()
         icon_name = icon_map.get(hub_topic, 'BookOpen')
 
-        # Generate ID from content_id or url_slug
-        hub_id = frontmatter.get('content_id', '').replace('hub-', '')
+        # Generate ID from url_slug to match article hubIds
+        hub_id = frontmatter.get('url_slug', '/').strip('/')
         if not hub_id:
-            hub_id = frontmatter.get('url_slug', '/').strip('/').replace('-planning', '').replace('-strategies', '')
+            hub_id = frontmatter.get('content_id', '').replace('hub-', '')
 
         # Extract content
         key_takeaways = self.extract_key_takeaways(content)

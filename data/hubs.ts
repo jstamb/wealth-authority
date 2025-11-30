@@ -2,7 +2,7 @@ import { TopicHub } from '../types';
 
 export const SYNCED_HUBS: TopicHub[] = [
   {
-    id: 'financial',
+    id: 'financial-planning',
     title: 'Financial Planning',
     slug: 'financial-planning',
     description: 'Financial planning is the process of setting goals for your money and creating a roadmap to achieve them. It\'s not about getting rich quick or complex investment strategies—it\'s about understanding where you are, deciding where you want to be, and taking consistent steps to get there. Effective financial planning provides clarity, reduces stress, and dramatically increases the probability of achieving your financial goals.',
@@ -22,7 +22,7 @@ export const SYNCED_HUBS: TopicHub[] = [
     ]
   },
   {
-    id: 'find',
+    id: 'find-wealth-manager',
     title: 'Find a Wealth Manager',
     slug: 'find-wealth-manager',
     description: 'Choosing a wealth manager is one of the most important financial decisions you\'ll make. The right advisor helps you build and protect wealth, navigate complex decisions, and achieve your financial goals. The wrong one can cost you through poor advice, high fees, or conflicts of interest. This guide helps you understand what to look for, questions to ask, and red flags to avoid.',
@@ -42,7 +42,7 @@ export const SYNCED_HUBS: TopicHub[] = [
     ]
   },
   {
-    id: 'tax',
+    id: 'tax-planning',
     title: 'Tax Planning',
     slug: 'tax-planning',
     description: 'Tax planning is the legal process of analyzing your financial situation to minimize tax liability. Unlike tax preparation (filing your return), tax planning happens throughout the year and involves strategic decisions about income timing, account selection, and investment placement. For high earners, effective tax planning can save tens of thousands of dollars annually—money that compounds in your favor over time.',
@@ -62,7 +62,7 @@ export const SYNCED_HUBS: TopicHub[] = [
     ]
   },
   {
-    id: 'investment',
+    id: 'investment-strategies',
     title: 'Investment Strategies',
     slug: 'investment-strategies',
     description: 'Investment strategy is the systematic approach you use to allocate money across different assets to achieve your financial goals. The right strategy depends on your timeline, risk tolerance, and objectives—there\'s no single approach that works for everyone. What matters is choosing a strategy you can stick with through market ups and downs, then executing it consistently over time.',
@@ -82,7 +82,7 @@ export const SYNCED_HUBS: TopicHub[] = [
     ]
   },
   {
-    id: 'estate',
+    id: 'estate-planning',
     title: 'Estate Planning',
     slug: 'estate-planning',
     description: 'Estate planning is the process of arranging for the management and transfer of your assets during your lifetime and after death. It\'s not just for the wealthy—everyone with assets, dependents, or specific wishes about their care needs an estate plan. Without one, state laws determine who receives your assets, courts appoint guardians for your children, and your family faces unnecessary costs, delays, and conflict during an already difficult time.',
@@ -102,7 +102,7 @@ export const SYNCED_HUBS: TopicHub[] = [
     ]
   },
   {
-    id: 'hnw',
+    id: 'high-net-worth',
     title: 'High Net Worth Wealth Management',
     slug: 'high-net-worth',
     description: 'High net worth (HNW) wealth management goes beyond standard financial planning to address the unique challenges and opportunities that come with substantial wealth. Complex tax situations, estate planning concerns, concentrated stock positions, multi-generational wealth transfer, and sophisticated investment needs require specialized expertise that general financial advisors may lack.',
@@ -122,7 +122,7 @@ export const SYNCED_HUBS: TopicHub[] = [
     ]
   },
   {
-    id: 'risk',
+    id: 'risk-management',
     title: 'Risk Management',
     slug: 'risk-management',
     description: 'Risk management is the process of identifying, assessing, and mitigating threats to your financial well-being. While building wealth matters, protecting it matters equally—one catastrophic event can erase decades of progress. Effective risk management ensures that illness, disability, death, lawsuits, or market crashes don\'t devastate your family\'s financial security.',
@@ -142,7 +142,7 @@ export const SYNCED_HUBS: TopicHub[] = [
     ]
   },
   {
-    id: 'retirement',
+    id: 'retirement-planning',
     title: 'Retirement Planning',
     slug: 'retirement-planning',
     description: 'Retirement planning is the process of determining your retirement income goals and the actions needed to achieve them. It involves identifying income sources, estimating expenses, implementing a savings program, and managing assets and risk. The earlier you start, the more time your money has to grow—but it\'s never too late to begin.',
