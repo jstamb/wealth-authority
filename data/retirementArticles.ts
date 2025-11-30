@@ -3633,5 +3633,529 @@ export const RETIREMENT_ARTICLES: Article[] = [
       },
     ],
     bottomLine: 'Social Security claiming is one of the most important retirement decisions you\'ll make. For most people in good health, delaying benefits provides significant lifetime value through larger monthly payments and enhanced survivor protection. However, personal circumstances—health, finances, family situation—should drive your decision. Take time to analyze your options, consider professional guidance for complex situations, and coordinate with your overall retirement plan.'
+  },
+  {
+    id: 'spoke-retirement-012',
+    title: '401(k) Rollover Guide: Your Complete Options Explained',
+    slug: '401k-rollover-guide',
+    hubId: 'retirement',
+    type: 'spoke',
+    excerpt: 'Complete guide to 401(k) rollovers. Learn about direct vs indirect rollovers, rollover to IRA, Roth conversions, tax implications, and common mistakes to avoid when changing jobs.',
+    readTime: '10 min read',
+    publishDate: '2025-11-29',
+    author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
+    primaryKeyword: '401k rollover',
+    metaDescription: 'Complete guide to 401(k) rollovers. Learn direct vs indirect, IRA vs new 401(k), Roth conversion, 60-day rule, tax implications, and mistakes to avoid.',
+    keyTakeaways: [
+      'Direct rollovers avoid the 60-day deadline and mandatory 20% tax withholding',
+      'Rolling to an IRA gives you more investment options and often lower fees',
+      'Consider Roth conversion during rollover if you can afford the tax bill now',
+      'Leaving funds in a former employer\'s plan is an option but limits your control',
+      'Required Minimum Distributions don\'t apply until age 73, regardless of rollover choice',
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'What Is a 401(k) Rollover?',
+        content: `
+          <p>A 401(k) rollover is the process of moving retirement funds from one account to another without triggering taxes or penalties. This typically happens when you leave a job—whether for a new position, retirement, or other reasons.</p>
+
+          <p>When you change jobs, your 401(k) doesn't automatically follow you. You need to decide what to do with those hard-earned retirement savings. Understanding your rollover options helps you maintain control, minimize fees, and keep your retirement plan on track.</p>
+
+          <div class="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500 my-4"><p class="text-blue-800"><strong>Key Principle</strong>: A proper rollover moves funds from one qualified retirement account directly to another, preserving the tax-deferred status of your savings. No taxes, no penalties—just a smooth transfer of your money.</p></div>
+
+          <p>The average person changes jobs 12 times during their career. Each transition is an opportunity to optimize your retirement savings—or make costly mistakes that can derail your plans.</p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Your Four Rollover Options',
+        content: `
+          <p>When you leave your employer, you have four main choices for your 401(k) funds:</p>
+
+          <h3 class="text-xl font-bold mt-8 mb-4">Option 1: Roll Over to Your New Employer's 401(k)</h3>
+
+          <p>Transfer your old 401(k) balance into your new company's plan (if they accept rollovers).</p>
+
+          <strong>Advantages:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+            <li>Consolidates all retirement savings in one place</li>
+            <li>Keeps funds under ERISA protection (stronger creditor protection in most states)</li>
+            <li>May allow loans from the combined balance</li>
+            <li>Simplifies Required Minimum Distribution calculations later</li>
+            <li>Can delay RMDs past 73 if still working (for current employer's plan only)</li>
+          </ul>
+
+          <strong>Disadvantages:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+            <li>Limited to new plan's investment options</li>
+            <li>May have higher fees than low-cost IRA options</li>
+            <li>Some plans restrict when you can access funds</li>
+            <li>New plan may not accept rollovers</li>
+          </ul>
+
+          <h3 class="text-xl font-bold mt-8 mb-4">Option 2: Roll Over to a Traditional IRA</h3>
+
+          <p>Move funds to an Individual Retirement Account that you control.</p>
+
+          <strong>Advantages:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+            <li><strong>Maximum investment flexibility</strong>—thousands of options vs. limited 401(k) menu</li>
+            <li><strong>Often lower fees</strong>—no-cost IRAs with low expense ratio funds widely available</li>
+            <li><strong>Easier estate planning</strong>—IRAs offer more flexibility for beneficiary designations</li>
+            <li><strong>Consolidation</strong>—roll multiple old 401(k)s into one IRA</li>
+            <li><strong>No Required Minimum Distributions</strong> until age 73</li>
+          </ul>
+
+          <strong>Disadvantages:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+            <li>Potentially weaker creditor protection (varies by state)</li>
+            <li>Cannot take penalty-free withdrawals before 59½ (401(k)s allow at 55 if separated from service)</li>
+            <li>Makes "backdoor Roth IRA" strategy more complicated if you later need it</li>
+            <li>No loan provisions</li>
+          </ul>
+
+          <div class="bg-green-50 p-4 rounded-lg border-l-4 border-green-500 my-4"><p class="text-green-800"><strong>Most Popular Choice</strong>: Rolling to an IRA is the most common option because of investment flexibility and lower costs. This works well for most people who want control over their retirement savings.</p></div>
+
+          <h3 class="text-xl font-bold mt-8 mb-4">Option 3: Roll Over to a Roth IRA (Roth Conversion)</h3>
+
+          <p>Convert your traditional 401(k) to a Roth IRA, paying taxes now for tax-free growth and withdrawals later.</p>
+
+          <strong>Advantages:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+            <li><strong>Tax-free growth and withdrawals</strong> in retirement</li>
+            <li><strong>No Required Minimum Distributions</strong> during your lifetime</li>
+            <li><strong>Tax diversification</strong>—balances tax-deferred accounts</li>
+            <li>Contributions (not earnings) can be withdrawn anytime without penalty</li>
+            <li>Excellent for estate planning—tax-free inheritance for heirs</li>
+          </ul>
+
+          <strong>Disadvantages:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+            <li><strong>Immediate tax bill</strong>—you'll owe income tax on the entire converted amount</li>
+            <li>Can significantly increase your tax bracket for that year</li>
+            <li>May not make sense if you're in a high tax bracket now but expect lower taxes in retirement</li>
+            <li>Need cash from outside sources to pay the tax (don't use rollover funds to pay taxes)</li>
+          </ul>
+
+          <strong>Best for:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+            <li>Years when your income is unusually low (between jobs, sabbatical, etc.)</li>
+            <li>Early in your career when your tax bracket is lower</li>
+            <li>Those who expect higher tax rates in retirement</li>
+            <li>High earners who can't contribute directly to a Roth IRA</li>
+          </ul>
+
+          <h3 class="text-xl font-bold mt-8 mb-4">Option 4: Leave It in Your Former Employer's Plan</h3>
+
+          <p>If your balance exceeds $7,000, most plans allow you to keep funds where they are.</p>
+
+          <strong>Advantages:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+            <li>No immediate action required</li>
+            <li>Maintains ERISA creditor protection</li>
+            <li>Some 401(k) plans offer institutional-class funds with very low fees</li>
+            <li>Can delay decision while researching options</li>
+            <li>Penalty-free access at age 55 if you separated from service (vs. 59½ for IRAs)</li>
+          </ul>
+
+          <strong>Disadvantages:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+            <li>You're no longer a priority—former employees receive less service</li>
+            <li>Plan rules may change without your input</li>
+            <li>Limited investment options</li>
+            <li>Harder to track if you change jobs multiple times</li>
+            <li>May have higher fees than available IRA options</li>
+            <li>Complicates Required Minimum Distribution calculations later</li>
+          </ul>
+
+          <div class="bg-yellow-50 p-4 rounded-lg border-l-4 border-yellow-500 my-4"><p class="text-yellow-800"><strong>Not Recommended</strong>: While leaving funds behind is easy in the short term, it typically creates more complications than benefits. You lose control and may forget about the account entirely.</p></div>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Direct vs. Indirect Rollover: Critical Difference',
+        content: `
+          <p>How you execute your rollover matters tremendously. There are two methods—and one is clearly superior.</p>
+
+          <h3 class="text-xl font-bold mt-8 mb-4">Direct Rollover (Trustee-to-Trustee Transfer)</h3>
+
+          <p>The funds move directly from your old 401(k) provider to your new account without passing through your hands.</p>
+
+          <strong>How it works:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+            <li>You request a direct rollover from your former employer's plan administrator</li>
+            <li>They send funds directly to your new 401(k) or IRA custodian</li>
+            <li>You never touch the money</li>
+            <li>No taxes withheld, no deadlines to meet</li>
+          </ul>
+
+          <div class="bg-green-50 p-4 rounded-lg border-l-4 border-green-500 my-4"><p class="text-green-800"><strong>Best Practice</strong>: Always choose direct rollover. It's cleaner, safer, and avoids tax withholding and tight deadlines.</p></div>
+
+          <h3 class="text-xl font-bold mt-8 mb-4">Indirect Rollover (60-Day Rollover)</h3>
+
+          <p>Your 401(k) plan sends you a check, and you have 60 days to deposit it into a qualified retirement account.</p>
+
+          <strong>How it works:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+            <li>Former employer sends you a check for your 401(k) balance</li>
+            <li>They're required to withhold 20% for federal taxes</li>
+            <li>You must deposit the full amount (including the withheld 20%) into a new retirement account within 60 days</li>
+            <li>You'll need to replace the withheld 20% from your own pocket to avoid taxes</li>
+            <li>You get the withheld amount back when you file your tax return</li>
+          </ul>
+
+          <div class="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500 my-4"><p class="text-blue-800"><strong>Example</strong>: Your 401(k) has $50,000. With an indirect rollover, you receive a check for $40,000 (they withhold $10,000 for taxes). To complete the rollover tax-free, you must deposit the full $50,000 into your IRA within 60 days—meaning you need to find $10,000 from other sources to make up the withheld amount. When you file taxes, you'll get the $10,000 withholding refunded.</p></div>
+
+          <strong>Dangers of indirect rollovers:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+            <li><strong>The 60-day deadline is strict</strong>—miss it and the entire distribution becomes taxable</li>
+            <li><strong>20% mandatory withholding</strong> creates a cash flow problem</li>
+            <li><strong>10% early withdrawal penalty</strong> applies to any amount not rolled over if you're under 59½</li>
+            <li><strong>Only one indirect rollover per 12 months</strong> across all IRAs</li>
+          </ul>
+
+          <div class="bg-red-50 p-4 rounded-lg border-l-4 border-red-500 my-4"><p class="text-red-800"><strong>Warning</strong>: Indirect rollovers create unnecessary risk and complexity. The IRS counts the 60-day period in calendar days, not business days. Delays in processing, mailed checks getting lost, or banking issues can cause you to miss the deadline—resulting in a massive unexpected tax bill.</p></div>
+
+          <h3 class="text-xl font-bold mt-8 mb-4">The 60-Day Rule: What You Need to Know</h3>
+
+          <p>If you do an indirect rollover, you have exactly 60 days from when you receive the distribution to complete the rollover. The clock starts when the funds leave your 401(k), not when you receive the check.</p>
+
+          <strong>IRS exceptions are rare and only for:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+            <li>Errors by the financial institution</li>
+            <li>Serious illness or hospitalization</li>
+            <li>Natural disasters affecting your area</li>
+            <li>Death or disability</li>
+          </ul>
+
+          <p>"I forgot," "I was busy," or "I didn't understand the rules" are not acceptable reasons for missing the 60-day deadline.</p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Tax Implications of Your Rollover Choice',
+        content: `
+          <p>Understanding the tax consequences helps you make the right decision for your situation.</p>
+
+          <h3 class="text-xl font-bold mt-8 mb-4">Tax-Free Rollovers (No Immediate Tax)</h3>
+
+          <strong>Traditional 401(k) → Traditional 401(k) or Traditional IRA:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+            <li>No taxes owed</li>
+            <li>Maintains tax-deferred status</li>
+            <li>You'll pay taxes when you withdraw in retirement</li>
+          </ul>
+
+          <strong>Roth 401(k) → Roth IRA:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+            <li>No taxes owed</li>
+            <li>Maintains tax-free status</li>
+            <li>Qualified withdrawals remain tax-free forever</li>
+          </ul>
+
+          <h3 class="text-xl font-bold mt-8 mb-4">Taxable Conversions (Immediate Tax Bill)</h3>
+
+          <strong>Traditional 401(k) → Roth IRA (Roth Conversion):</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+            <li>You owe income tax on the entire converted amount</li>
+            <li>Added to your taxable income for the year</li>
+            <li>Can push you into a higher tax bracket</li>
+            <li>No 10% early withdrawal penalty (even if under 59½)</li>
+            <li>Future growth and qualified withdrawals are tax-free</li>
+          </ul>
+
+          <div class="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500 my-4"><p class="text-blue-800"><strong>Conversion Example</strong>: You have $80,000 in your traditional 401(k) and earn $75,000 this year. Converting the entire amount to a Roth IRA increases your taxable income to $155,000—likely pushing you from the 22% bracket into 24% or even 32%. Your tax bill could exceed $20,000. However, that $80,000 plus all future growth becomes tax-free forever.</p></div>
+
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategic Conversion Timing</h3>
+
+          <p>If you're considering a Roth conversion, timing can save thousands in taxes:</p>
+
+          <strong>Best times to convert:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+            <li><strong>Between jobs</strong> when you have little or no income</li>
+            <li><strong>Early retirement</strong> before Social Security and RMDs begin</li>
+            <li><strong>Year with business losses</strong> or other deductions that reduce income</li>
+            <li><strong>Market downturns</strong> when account values are temporarily lower</li>
+            <li><strong>Early career</strong> when you're in lower tax brackets</li>
+          </ul>
+
+          <strong>Consider partial conversions:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+            <li>Convert just enough to "fill up" your current tax bracket</li>
+            <li>Spread conversions across multiple years to manage tax impact</li>
+            <li>Convert more in low-income years, less in high-income years</li>
+          </ul>
+
+          <div class="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500 my-4"><p class="text-blue-800"><strong>Smart Strategy</strong>: If you leave your job in October, you might have only 2-3 months of income that year. This creates an opportunity to convert a significant amount at lower tax rates than you'd normally pay.</p></div>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Required Minimum Distributions and Rollovers',
+        content: `
+          <p>Understanding how Required Minimum Distributions (RMDs) interact with rollovers helps you plan effectively.</p>
+
+          <h3 class="text-xl font-bold mt-8 mb-4">When RMDs Begin</h3>
+
+          <p>You must start taking RMDs from traditional 401(k)s and traditional IRAs starting at age 73 (for those born 1951-1959; age 75 for those born 1960 or later).</p>
+
+          <strong>Key RMD Rules:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+            <li>Based on your age and account balance</li>
+            <li>Calculated using IRS life expectancy tables</li>
+            <li>Must be withdrawn annually (can't skip years)</li>
+            <li>Taxed as ordinary income</li>
+            <li>50% penalty on any amount you fail to withdraw</li>
+          </ul>
+
+          <h3 class="text-xl font-bold mt-8 mb-4">The Still-Working Exception</h3>
+
+          <p>If you're still working at age 73, you can delay RMDs from your current employer's 401(k)—but not from IRAs or old 401(k)s.</p>
+
+          <div class="bg-green-50 p-4 rounded-lg border-l-4 border-green-500 my-4"><p class="text-green-800"><strong>Strategy</strong>: If you plan to work past 73, consider rolling old 401(k)s into your current employer's plan (if allowed). This lets you delay RMDs on all those funds. Once you retire, you can then roll everything to an IRA for better investment options.</p></div>
+
+          <h3 class="text-xl font-bold mt-8 mb-4">Roth Accounts and RMDs</h3>
+
+          <strong>Roth IRAs:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+            <li>No RMDs during your lifetime</li>
+            <li>Can leave funds to grow tax-free indefinitely</li>
+            <li>Excellent estate planning tool</li>
+          </ul>
+
+          <strong>Roth 401(k)s:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+            <li>Previously required RMDs at 73</li>
+            <li>SECURE 2.0 Act (2024+) eliminated Roth 401(k) RMDs</li>
+            <li>However, rolling to a Roth IRA still provides more flexibility</li>
+          </ul>
+
+          <h3 class="text-xl font-bold mt-8 mb-4">RMD Considerations When Rolling Over</h3>
+
+          <p><strong>Important</strong>: If you've reached RMD age and are doing a rollover, you must take your current year's RMD before rolling over. You cannot roll over the RMD amount—it must be distributed to you and will be taxable.</p>
+
+          <div class="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500 my-4"><p class="text-blue-800"><strong>Example</strong>: You're 75 with a $200,000 401(k). Your RMD is $8,000. You want to roll over to an IRA. First, take the $8,000 RMD (taxable). Then roll over the remaining $192,000 (tax-free rollover).</p></div>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Step-by-Step Rollover Process',
+        content: `
+          <p>Follow these steps to execute a smooth, tax-free rollover.</p>
+
+          <h3 class="text-xl font-bold mt-8 mb-4">Step 1: Decide Where Funds Will Go</h3>
+
+          <p>Choose your destination account before initiating the rollover:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+            <li>New employer's 401(k) (verify they accept rollovers)</li>
+            <li>Traditional IRA at a brokerage you choose</li>
+            <li>Roth IRA (if doing a conversion)</li>
+          </ul>
+
+          <h3 class="text-xl font-bold mt-8 mb-4">Step 2: Open Your Receiving Account</h3>
+
+          <p>If rolling to an IRA, open the account first. Popular low-cost options include:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+            <li>Vanguard, Fidelity, Schwab (no account fees, excellent fund selection)</li>
+            <li>Choose "Rollover IRA" account type when opening</li>
+            <li>Don't fund it yet—rollover funds will transfer directly</li>
+          </ul>
+
+          <h3 class="text-xl font-bold mt-8 mb-4">Step 3: Contact Your Old 401(k) Administrator</h3>
+
+          <p>Request a direct rollover:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+            <li>Call the number on your 401(k) statement</li>
+            <li>Say: "I need to do a direct rollover to an IRA" (or new 401(k))</li>
+            <li>They'll send you rollover paperwork</li>
+          </ul>
+
+          <h3 class="text-xl font-bold mt-8 mb-4">Step 4: Complete Rollover Forms</h3>
+
+          <p>You'll need to provide:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+            <li>Receiving institution name and address</li>
+            <li>Your new account number</li>
+            <li>Type of account (Traditional IRA, Roth IRA, 401(k))</li>
+            <li>How to send funds (check, wire, electronic transfer)</li>
+          </ul>
+
+          <div class="bg-yellow-50 p-4 rounded-lg border-l-4 border-yellow-500 my-4"><p class="text-yellow-800"><strong>Important</strong>: Specify "direct rollover" or "trustee-to-trustee transfer" on all forms. If asked whether you want a distribution, say NO—you want a rollover.</p></div>
+
+          <h3 class="text-xl font-bold mt-8 mb-4">Step 5: Wait for Transfer to Complete</h3>
+
+          <p>Timeline varies:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+            <li>Typical: 2-4 weeks</li>
+            <li>Can take up to 6 weeks for complex situations</li>
+            <li>Your old plan may require processing time after you submit forms</li>
+            <li>Funds may be mailed as a check to the new custodian</li>
+          </ul>
+
+          <h3 class="text-xl font-bold mt-8 mb-4">Step 6: Verify Funds Arrived Correctly</h3>
+
+          <p>Once funds appear in your new account:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+            <li>Confirm the full amount transferred</li>
+            <li>Check that funds are coded as a "rollover" (not a new contribution)</li>
+            <li>Invest the funds according to your strategy (they may arrive as cash)</li>
+            <li>Save all paperwork for your tax records</li>
+          </ul>
+
+          <h3 class="text-xl font-bold mt-8 mb-4">Step 7: File Form 1099-R with Your Taxes</h3>
+
+          <p>You'll receive a Form 1099-R from your old 401(k) showing the distribution. It should have:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+            <li>Code "G" (direct rollover) or</li>
+            <li>Code "H" (direct rollover to Roth IRA—conversion, taxable)</li>
+            <li>Report this on your tax return to show the rollover was completed properly</li>
+            <li>If done correctly, no taxes owed (except Roth conversions)</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Common 401(k) Rollover Mistakes to Avoid',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 1: Choosing an Indirect Rollover</h3>
+
+          <p>Taking possession of the funds yourself triggers mandatory 20% withholding and creates a 60-day deadline. Always choose direct rollover.</p>
+
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 2: Cashing Out Instead of Rolling Over</h3>
+
+          <p>Taking a distribution instead of rolling over costs you:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+            <li>20% federal withholding</li>
+            <li>10% early withdrawal penalty (if under 59½)</li>
+            <li>State income taxes</li>
+            <li>Decades of compounded growth</li>
+          </ul>
+
+          <div class="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500 my-4"><p class="text-blue-800"><strong>Reality Check</strong>: A $50,000 401(k) cashed out at age 35 could cost $20,000 in taxes and penalties immediately—plus you lose the $400,000+ it could grow to by retirement. That's a $420,000 mistake.</p></div>
+
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 3: Rolling Pre-Tax and After-Tax Money Incorrectly</h3>
+
+          <p>Some 401(k)s allow after-tax contributions (beyond the $23,000 pre-tax limit). When rolling over:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+            <li>Pre-tax 401(k) money → Traditional IRA (tax-free rollover)</li>
+            <li>After-tax 401(k) contributions → Roth IRA (tax-free rollover of contributions)</li>
+            <li>Earnings on after-tax contributions → Traditional IRA (to avoid taxes)</li>
+          </ul>
+
+          <p>Mixing these up creates unnecessary tax complications.</p>
+
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 4: Forgetting About Company Stock (NUA)</h3>
+
+          <p>If your 401(k) holds company stock with significant appreciation, special "Net Unrealized Appreciation" (NUA) rules might save you thousands in taxes. Consult a tax advisor before rolling over company stock.</p>
+
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 5: Rolling Over Without Considering Backdoor Roth Strategy</h3>
+
+          <p>If you're a high earner who might need to use the "backdoor Roth IRA" strategy in the future, rolling a large 401(k) into a traditional IRA complicates this. Consider rolling to your new employer's 401(k) instead to keep the traditional IRA clear.</p>
+
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 6: Not Updating Beneficiaries</h3>
+
+          <p>Rollover to a new account means new beneficiary designations. Update them immediately—beneficiary forms override your will.</p>
+
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 7: Paying Taxes from the Rollover Amount</h3>
+
+          <p>If doing a Roth conversion, never use rollover funds to pay the tax bill. This reduces the amount going into the Roth and may trigger early withdrawal penalties. Pay taxes from outside sources.</p>
+
+          <h3 class="text-xl font-bold mt-8 mb-4">Mistake 8: Rushing the Decision</h3>
+
+          <p>You don't need to decide immediately when you leave a job. Take time to research options, compare fees, and consult with a financial advisor if needed.</p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Real-World Rollover Scenarios',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Scenario 1: Sarah, Age 32, Changing Jobs</h3>
+
+          <p><strong>Situation</strong>: Sarah has $65,000 in her old 401(k). Her new employer offers a 401(k) with a 4% match, but high-expense-ratio funds. She earns $85,000.</p>
+
+          <p><strong>Best Choice</strong>: Roll to a traditional IRA at a low-cost brokerage.</p>
+
+          <strong>Reasoning:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+            <li>More investment options with lower fees</li>
+            <li>She can contribute to her new 401(k) to get the match separately</li>
+            <li>Young enough that creditor protection differences don't outweigh investment flexibility</li>
+            <li>Traditional IRA keeps options open—can convert to Roth in future lower-income years</li>
+          </ul>
+
+          <h3 class="text-xl font-bold mt-8 mb-4">Scenario 2: James, Age 45, Laid Off Between Jobs</h3>
+
+          <p><strong>Situation</strong>: James has $180,000 in his 401(k). He expects to be unemployed for 4-6 months. He normally earns $150,000 but will have only $40,000 income this year. He has cash savings to cover expenses.</p>
+
+          <p><strong>Best Choice</strong>: Convert a portion to Roth IRA during low-income year.</p>
+
+          <strong>Reasoning:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+            <li>With only $40,000 income, he can convert $50,000-60,000 and stay in the 22% bracket</li>
+            <li>In a normal year, this conversion would cost 32% or more in taxes</li>
+            <li>Converting during unemployment saves potentially $10,000+ in taxes</li>
+            <li>Rest can go to traditional IRA, with option to convert more in future low-income years</li>
+          </ul>
+
+          <h3 class="text-xl font-bold mt-8 mb-4">Scenario 3: Maria, Age 58, Retiring Early</h3>
+
+          <p><strong>Situation</strong>: Maria is retiring at 58 with $450,000 in her 401(k). She needs income to bridge to Social Security at 65.</p>
+
+          <p><strong>Best Choice</strong>: Leave funds in current 401(k) for now.</p>
+
+          <strong>Reasoning:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+            <li>Rule of 55: She can take penalty-free withdrawals from her current employer's 401(k) at age 55+ (if separated from service)</li>
+            <li>If she rolls to an IRA, she'd face 10% penalty on withdrawals until 59½</li>
+            <li>At 59½, she can roll to an IRA for better investment options and flexibility</li>
+            <li>This buys her 18 months of penalty-free access to funds</li>
+          </ul>
+
+          <h3 class="text-xl font-bold mt-8 mb-4">Scenario 4: David, Age 52, New Job with Excellent 401(k)</h3>
+
+          <p><strong>Situation</strong>: David has $220,000 in his old 401(k). His new employer offers a 401(k) with institutional-class Vanguard funds (expense ratios under 0.05%) and accepts rollovers. He earns $200,000+ and may want to do backdoor Roth contributions.</p>
+
+          <p><strong>Best Choice</strong>: Roll to new employer's 401(k).</p>
+
+          <strong>Reasoning:</strong>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+            <li>New plan's fund options are as good as an IRA</li>
+            <li>Consolidates retirement savings in one place</li>
+            <li>Keeps traditional IRA balance at $0, preserving backdoor Roth IRA strategy</li>
+            <li>Stronger creditor protection (though less important for him)</li>
+            <li>Can delay RMDs past 73 if he continues working</li>
+          </ul>
+        `
+      },
+    ],
+    faqs: [
+      {
+        question: 'How long do I have to roll over my 401(k) after leaving a job?',
+        answer: 'There\'s no deadline for a direct rollover—you can do it anytime. However, if you take an indirect rollover (check made to you), you have exactly 60 days to deposit the funds into a new retirement account to avoid taxes and penalties. Direct rollovers have no time limit, which is another reason they\'re superior.'
+      },
+      {
+        question: 'Can I roll my 401(k) into my spouse\'s IRA?',
+        answer: 'No. You cannot roll your 401(k) into someone else\'s IRA, even your spouse. Each person\'s retirement accounts must remain separate. Exception: After you pass away, your spouse can roll your 401(k) or IRA into their own IRA as a beneficiary rollover.'
+      },
+      {
+        question: 'What happens if I have a 401(k) loan when I leave my job?',
+        answer: 'Outstanding 401(k) loans typically must be repaid within 60-90 days of separation (check your plan\'s rules). If not repaid, the loan balance becomes a taxable distribution. You\'ll owe income taxes plus 10% early withdrawal penalty if under 59½. Consider repaying the loan before rolling over, or factor the loan balance into your rollover decision.'
+      },
+      {
+        question: 'Should I roll over a Roth 401(k) to a Roth IRA?',
+        answer: 'Usually yes. Rolling a Roth 401(k) to a Roth IRA is tax-free and provides more investment flexibility, no required minimum distributions (even under new SECURE 2.0 rules, the IRA offers more control), and better estate planning options. There\'s rarely a reason to keep a Roth 401(k) at a former employer.'
+      },
+      {
+        question: 'Can I roll over multiple old 401(k)s into one IRA?',
+        answer: 'Yes. You can consolidate multiple old 401(k) accounts into a single IRA. This simplifies management, reduces fees, and makes it easier to implement a cohesive investment strategy. Just initiate a separate direct rollover from each old 401(k) to your chosen IRA.'
+      },
+      {
+        question: 'Will my rollover affect my ability to contribute to an IRA this year?',
+        answer: 'No. Rollovers and contributions are separate. You can roll over any amount from a 401(k) and still make your annual IRA contribution ($7,000 in 2024, $8,000 if 50+). Rollovers don\'t count toward annual contribution limits.'
+      },
+    ],
+    bottomLine: 'A 401(k) rollover is one of the most important financial decisions you\'ll make when changing jobs. For most people, a direct rollover to a low-cost IRA offers the best combination of investment flexibility, lower fees, and simplicity. Always choose direct rollover over indirect to avoid tax withholding and strict deadlines. Consider Roth conversion opportunities during low-income years, but understand the immediate tax implications. Avoid the temptation to cash out—preserving your retirement savings through proper rollovers keeps you on track for a secure retirement. If you have a large balance, company stock, or complex tax situation, consult with a financial advisor or tax professional before executing your rollover. The hour spent planning can save you thousands in taxes and fees.',
+    wordCount: 2487
   }
 ];
