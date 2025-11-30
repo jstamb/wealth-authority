@@ -4,7 +4,7 @@ export const FINANCIALPLANNING_ARTICLES: Article[] = [
   {
     id: 'spoke-financial-011',
     title: 'Major Purchase Planning: How to Make Smart Big Purchase Decisions',
-    slug: 'financial-planning/major-purchases',
+    slug: 'major-purchases',
     hubId: 'financial-planning',
     type: 'spoke',
     excerpt: 'Complete guide to planning major purchases including homes, cars, and other big-ticket items. Learn how to save, evaluate, and decide wisely.',
@@ -343,7 +343,7 @@ export const FINANCIALPLANNING_ARTICLES: Article[] = [
   {
     id: 'spoke-financial-007',
     title: 'Working with a Financial Advisor: How to Choose and What to Expect',
-    slug: 'financial-planning/working-with-advisor',
+    slug: 'working-with-advisor',
     hubId: 'financial-planning',
     type: 'spoke',
     excerpt: 'Complete guide to working with a financial advisor including how to choose one, fee structures, questions to ask, and when you need professional help.',
@@ -795,7 +795,7 @@ export const FINANCIALPLANNING_ARTICLES: Article[] = [
   {
     id: 'spoke-financial-008',
     title: 'Financial Goals: How to Set and Achieve Your Money Goals',
-    slug: 'financial-planning/financial-goals',
+    slug: 'financial-goals',
     hubId: 'financial-planning',
     type: 'spoke',
     excerpt: 'Complete guide to setting financial goals including SMART goal framework, prioritizing goals, and creating action plans to achieve your financial objectives.',
@@ -1155,7 +1155,7 @@ export const FINANCIALPLANNING_ARTICLES: Article[] = [
   {
     id: 'spoke-financial-004',
     title: 'Debt Management: Strategies to Pay Off Debt and Become Debt-Free',
-    slug: 'financial-planning/debt-management',
+    slug: 'debt-management',
     hubId: 'financial-planning',
     type: 'spoke',
     excerpt: 'Complete guide to debt management including debt payoff strategies, debt snowball vs avalanche, and how to create a plan to eliminate debt.',
@@ -1520,7 +1520,7 @@ export const FINANCIALPLANNING_ARTICLES: Article[] = [
   {
     id: 'spoke-financial-002',
     title: 'Emergency Fund Guide: How Much You Need and Where to Keep It',
-    slug: 'financial-planning/emergency-fund',
+    slug: 'emergency-fund',
     hubId: 'financial-planning',
     type: 'spoke',
     excerpt: 'Complete guide to building an emergency fund including how much to save, where to keep it, and strategies for building your financial safety net.',
@@ -1868,7 +1868,7 @@ export const FINANCIALPLANNING_ARTICLES: Article[] = [
   {
     id: 'spoke-financial-005',
     title: 'Insurance Planning: Protecting Your Financial Plan with Proper Coverage',
-    slug: 'financial-planning/insurance-planning',
+    slug: 'insurance-planning',
     hubId: 'financial-planning',
     type: 'spoke',
     excerpt: 'Complete guide to insurance planning including life, disability, health, and property insurance. Learn how to protect your family and financial plan.',
@@ -2187,7 +2187,7 @@ export const FINANCIALPLANNING_ARTICLES: Article[] = [
   {
     id: 'spoke-financial-006',
     title: 'College Savings Guide: 529 Plans and Education Funding Strategies',
-    slug: 'financial-planning/college-savings',
+    slug: 'college-savings',
     hubId: 'financial-planning',
     type: 'spoke',
     excerpt: 'Complete guide to college savings including 529 plans, how much to save, and strategies to fund education without sacrificing retirement.',
@@ -2510,7 +2510,7 @@ export const FINANCIALPLANNING_ARTICLES: Article[] = [
   {
     id: 'spoke-financial-003',
     title: 'Net Worth Guide: How to Calculate and Build Your Net Worth',
-    slug: 'financial-planning/net-worth',
+    slug: 'net-worth',
     hubId: 'financial-planning',
     type: 'spoke',
     excerpt: 'Complete guide to net worth including how to calculate it, benchmarks by age, and strategies to systematically build wealth over time.',
@@ -2844,7 +2844,7 @@ export const FINANCIALPLANNING_ARTICLES: Article[] = [
   {
     id: 'spoke-financial-001',
     title: 'Financial Planning Process: Steps to Create Your Financial Plan',
-    slug: 'financial-planning/financial-planning-process',
+    slug: 'financial-planning-process',
     hubId: 'financial-planning',
     type: 'spoke',
     excerpt: 'Learn the comprehensive financial planning process including goal setting, data gathering, analysis, and implementation of your personalized financial plan.',
@@ -3258,7 +3258,7 @@ export const FINANCIALPLANNING_ARTICLES: Article[] = [
   {
     id: 'spoke-financial-010',
     title: 'Cash Flow Management: Master Your Income and Expenses',
-    slug: 'financial-planning/cash-flow',
+    slug: 'cash-flow',
     hubId: 'financial-planning',
     type: 'spoke',
     excerpt: 'Complete guide to cash flow management including how to calculate cash flow, improve it, and ensure you\'re consistently building wealth.',
@@ -3584,7 +3584,7 @@ export const FINANCIALPLANNING_ARTICLES: Article[] = [
   {
     id: 'spoke-financial-009',
     title: 'Budgeting Guide: Create a Budget That Actually Works',
-    slug: 'financial-planning/budgeting',
+    slug: 'budgeting',
     hubId: 'financial-planning',
     type: 'spoke',
     excerpt: 'Complete budgeting guide including popular budget methods, how to track spending, and tips for creating a sustainable budget you\'ll stick with.',

@@ -4,7 +4,7 @@ export const TAXPLANNING_ARTICLES: Article[] = [
   {
     id: 'spoke-tax-010',
     title: 'Tax Planning for High Income Earners: Strategies for the Top Tax Brackets',
-    slug: 'tax-planning/high-income-tax-planning',
+    slug: 'high-income-tax-planning',
     hubId: 'tax-planning',
     type: 'spoke',
     excerpt: 'Advanced tax planning strategies for high-income earners including NIIT planning, AMT management, deduction optimization, and income timing strategies.',
@@ -419,7 +419,7 @@ export const TAXPLANNING_ARTICLES: Article[] = [
   {
     id: 'spoke-tax-004',
     title: 'Tax Credits Guide: The Most Valuable Tax Breaks Available',
-    slug: 'tax-planning/tax-credits',
+    slug: 'tax-credits',
     hubId: 'tax-planning',
     type: 'spoke',
     excerpt: 'Comprehensive guide to tax credits including child tax credit, education credits, energy credits, and retirement savings credit. Learn how to claim them.',
@@ -777,7 +777,7 @@ export const TAXPLANNING_ARTICLES: Article[] = [
   {
     id: 'spoke-tax-005',
     title: 'Charitable Giving Tax Strategies: Maximize Your Deduction and Impact',
-    slug: 'tax-planning/charitable-giving',
+    slug: 'charitable-giving',
     hubId: 'tax-planning',
     type: 'spoke',
     excerpt: 'Learn tax-smart charitable giving strategies including donor-advised funds, QCDs, appreciated stock donations, and charitable trusts to maximize tax benefits.',
@@ -1121,7 +1121,7 @@ export const TAXPLANNING_ARTICLES: Article[] = [
   {
     id: 'spoke-tax-011',
     title: 'Year-End Tax Planning: Essential Tax Moves to Make Before December 31',
-    slug: 'tax-planning/year-end-tax-planning',
+    slug: 'year-end-tax-planning',
     hubId: 'tax-planning',
     type: 'spoke',
     excerpt: 'Complete year-end tax planning checklist including retirement contributions, tax-loss harvesting, charitable giving, and income timing strategies.',
@@ -1542,7 +1542,7 @@ export const TAXPLANNING_ARTICLES: Article[] = [
   {
     id: 'spoke-tax-001',
     title: 'Tax Brackets Explained: How Federal Income Tax Brackets Work',
-    slug: 'tax-planning/tax-brackets',
+    slug: 'tax-brackets',
     hubId: 'tax-planning',
     type: 'spoke',
     excerpt: 'Understand how federal tax brackets work, the difference between marginal and effective tax rates, and strategies to manage your tax bracket.',
@@ -1826,7 +1826,7 @@ export const TAXPLANNING_ARTICLES: Article[] = [
   {
     id: 'spoke-tax-002',
     title: 'Capital Gains Tax: Rates, Rules, and Strategies to Minimize Taxes',
-    slug: 'tax-planning/capital-gains-tax',
+    slug: 'capital-gains-tax',
     hubId: 'tax-planning',
     type: 'spoke',
     excerpt: 'Learn about capital gains tax rates, the difference between short and long-term gains, and strategies to minimize capital gains taxes on your investments.',
@@ -2122,7 +2122,7 @@ export const TAXPLANNING_ARTICLES: Article[] = [
   {
     id: 'spoke-tax-008',
     title: 'Tax Planning for Stock Compensation: RSUs, ISOs, and Stock Options',
-    slug: 'tax-planning/stock-compensation-taxes',
+    slug: 'stock-compensation-taxes',
     hubId: 'tax-planning',
     type: 'spoke',
     excerpt: 'Comprehensive guide to taxation of stock compensation including RSUs, ISOs, NQSOs, and ESPP. Learn strategies to minimize taxes on equity compensation.',
@@ -2513,7 +2513,7 @@ export const TAXPLANNING_ARTICLES: Article[] = [
   {
     id: 'spoke-tax-009',
     title: 'Quarterly Estimated Taxes: How to Calculate and Pay Estimated Tax',
-    slug: 'tax-planning/quarterly-estimated-taxes',
+    slug: 'quarterly-estimated-taxes',
     hubId: 'tax-planning',
     type: 'spoke',
     excerpt: 'Learn how to calculate quarterly estimated taxes, avoid underpayment penalties, and manage cash flow with effective estimated tax payment strategies.',
@@ -2917,7 +2917,7 @@ export const TAXPLANNING_ARTICLES: Article[] = [
   {
     id: 'spoke-tax-007',
     title: 'State Tax Planning: Strategies for Managing State Income Taxes',
-    slug: 'tax-planning/state-tax-planning',
+    slug: 'state-tax-planning',
     hubId: 'tax-planning',
     type: 'spoke',
     excerpt: 'Learn state tax planning strategies including domicile planning, understanding state tax differences, and legal strategies to minimize state tax burden.',
@@ -3293,7 +3293,7 @@ export const TAXPLANNING_ARTICLES: Article[] = [
   {
     id: 'spoke-tax-006',
     title: 'Self-Employment Taxes: Understanding and Reducing Your SE Tax Burden',
-    slug: 'tax-planning/self-employment-taxes',
+    slug: 'self-employment-taxes',
     hubId: 'tax-planning',
     type: 'spoke',
     excerpt: 'Complete guide to self-employment taxes including how to calculate SE tax, quarterly estimated payments, and strategies to reduce your tax burden.',
@@ -3611,7 +3611,7 @@ export const TAXPLANNING_ARTICLES: Article[] = [
   {
     id: 'spoke-tax-003',
     title: 'Tax Deductions Guide: Maximize Your Deductions and Lower Your Taxes',
-    slug: 'tax-planning/tax-deductions',
+    slug: 'tax-deductions',
     hubId: 'tax-planning',
     type: 'spoke',
     excerpt: 'Complete guide to tax deductions including standard vs. itemized deductions, above-the-line deductions, and strategies to maximize your tax savings.',

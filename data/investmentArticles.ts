@@ -4,7 +4,7 @@ export const INVESTMENT_ARTICLES: Article[] = [
   {
     id: 'spoke-investment-012',
     title: 'When to Hire an Investment Advisor: Signs You Need Help',
-    slug: 'investment-strategies/when-to-hire-investment-advisor',
+    slug: 'when-to-hire-investment-advisor',
     hubId: 'investment-strategies',
     type: 'spoke',
     excerpt: 'Learn when to hire an investment advisor. Understand the signs, costs, credentials, and how professional management can improve your investment outcomes.',
@@ -361,7 +361,7 @@ export const INVESTMENT_ARTICLES: Article[] = [
   {
     id: 'spoke-investment-004',
     title: 'Tax-Loss Harvesting: How to Reduce Your Investment Tax Bill',
-    slug: 'investment-strategies/tax-loss-harvesting',
+    slug: 'tax-loss-harvesting',
     hubId: 'investment-strategies',
     type: 'spoke',
     excerpt: 'Learn how tax-loss harvesting works, when to use it, and how to avoid wash sale violations. Complete guide to this tax-efficient investment strategy.',
@@ -678,7 +678,7 @@ export const INVESTMENT_ARTICLES: Article[] = [
   {
     id: 'spoke-investment-002',
     title: 'Index Funds vs Active Funds: Which Is Better for You?',
-    slug: 'investment-strategies/index-vs-active',
+    slug: 'index-vs-active',
     hubId: 'investment-strategies',
     type: 'spoke',
     excerpt: 'Compare index funds and actively managed funds. Learn the evidence on performance, costs, and when each approach makes sense for your portfolio.',
@@ -1046,7 +1046,7 @@ export const INVESTMENT_ARTICLES: Article[] = [
   {
     id: 'spoke-investment-003',
     title: 'Diversification Strategies: How to Reduce Investment Risk',
-    slug: 'investment-strategies/diversification',
+    slug: 'diversification',
     hubId: 'investment-strategies',
     type: 'spoke',
     excerpt: 'Learn effective diversification strategies to reduce portfolio risk. Understand how to diversify across asset classes, geographies, and sectors.',
@@ -1353,7 +1353,7 @@ export const INVESTMENT_ARTICLES: Article[] = [
   {
     id: 'spoke-investment-008',
     title: 'Factor Investing: Understanding Smart Beta and Factor Premiums',
-    slug: 'investment-strategies/factor-investing',
+    slug: 'factor-investing',
     hubId: 'investment-strategies',
     type: 'spoke',
     excerpt: 'Learn about factor investing and smart beta strategies. Understand value, size, momentum, and quality factors and how they can enhance portfolio returns.',
@@ -1693,7 +1693,7 @@ export const INVESTMENT_ARTICLES: Article[] = [
   {
     id: 'spoke-investment-009',
     title: 'Alternative Investments: Private Equity, Hedge Funds, Real Estate & More',
-    slug: 'investment-strategies/alternative-investments',
+    slug: 'alternative-investments',
     hubId: 'investment-strategies',
     type: 'spoke',
     excerpt: 'Learn about alternative investments including private equity, hedge funds, real estate, and commodities. Understand when alternatives make sense for your portfolio.',
@@ -2064,7 +2064,7 @@ export const INVESTMENT_ARTICLES: Article[] = [
   {
     id: 'spoke-investment-007',
     title: 'Dollar-Cost Averaging: A Disciplined Approach to Investing',
-    slug: 'investment-strategies/dollar-cost-averaging',
+    slug: 'dollar-cost-averaging',
     hubId: 'investment-strategies',
     type: 'spoke',
     excerpt: 'Learn how dollar-cost averaging works, its benefits and limitations, and when to use DCA versus lump sum investing for your portfolio.',
@@ -2337,7 +2337,7 @@ export const INVESTMENT_ARTICLES: Article[] = [
   {
     id: 'spoke-investment-005',
     title: 'Portfolio Rebalancing: How and When to Rebalance Your Investments',
-    slug: 'investment-strategies/rebalancing',
+    slug: 'rebalancing',
     hubId: 'investment-strategies',
     type: 'spoke',
     excerpt: 'Learn when and how to rebalance your investment portfolio. Understand rebalancing strategies, frequencies, and tax-efficient approaches.',
@@ -2696,7 +2696,7 @@ export const INVESTMENT_ARTICLES: Article[] = [
   {
     id: 'spoke-investment-001',
     title: 'Asset Allocation Guide: How to Build a Diversified Portfolio',
-    slug: 'investment-strategies/asset-allocation',
+    slug: 'asset-allocation',
     hubId: 'investment-strategies',
     type: 'spoke',
     excerpt: 'Learn how to allocate investments across stocks, bonds, and other assets. Complete guide to building a diversified portfolio for your goals and risk tolerance.',
@@ -2989,7 +2989,7 @@ export const INVESTMENT_ARTICLES: Article[] = [
   {
     id: 'spoke-investment-010',
     title: 'Tax-Efficient Investing: Maximize After-Tax Returns',
-    slug: 'investment-strategies/tax-efficient-investing',
+    slug: 'tax-efficient-investing',
     hubId: 'investment-strategies',
     type: 'spoke',
     excerpt: 'Learn tax-efficient investing strategies including asset location, fund selection, and withdrawal strategies to maximize your after-tax investment returns.',
@@ -3258,7 +3258,7 @@ export const INVESTMENT_ARTICLES: Article[] = [
   {
     id: 'spoke-investment-011',
     title: 'Investment Risk Management: Understanding and Managing Portfolio Risk',
-    slug: 'investment-strategies/investment-risk-management',
+    slug: 'investment-risk-management',
     hubId: 'investment-strategies',
     type: 'spoke',
     excerpt: 'Learn how to understand and manage investment risk. Understand different risk types, assess your risk tolerance, and implement risk management strategies.',
@@ -3601,7 +3601,7 @@ export const INVESTMENT_ARTICLES: Article[] = [
   {
     id: 'spoke-investment-006',
     title: 'ETFs vs Mutual Funds: Which Is Better for You?',
-    slug: 'investment-strategies/etfs-vs-mutual-funds',
+    slug: 'etfs-vs-mutual-funds',
     hubId: 'investment-strategies',
     type: 'spoke',
     excerpt: 'Compare ETFs and mutual funds. Understand the differences in trading, taxes, costs, and when each makes sense for your portfolio.',

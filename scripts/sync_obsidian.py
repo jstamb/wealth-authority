@@ -284,10 +284,15 @@ class ObsidianToTSConverter:
         # Get title from meta_title or extract from content
         title = frontmatter.get('meta_title', frontmatter.get('title', 'Untitled'))
 
+        # Extract just the article slug (last segment) from url_slug
+        # e.g., 'tax-planning/capital-gains-tax' -> 'capital-gains-tax'
+        full_slug = frontmatter.get('url_slug', '/' + article_id).strip('/')
+        article_slug = full_slug.split('/')[-1] if '/' in full_slug else full_slug
+
         article = {
             'id': article_id,
             'title': title,
-            'slug': frontmatter.get('url_slug', '/' + article_id).strip('/'),
+            'slug': article_slug,
             'hubId': hub_id,
             'type': 'spoke',
             'excerpt': frontmatter.get('meta_description', ''),

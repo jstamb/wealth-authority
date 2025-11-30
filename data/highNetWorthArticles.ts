@@ -4,7 +4,7 @@ export const HIGHNETWORTH_ARTICLES: Article[] = [
   {
     id: 'spoke-hnw-002',
     title: 'Wealth Management vs Financial Planning: What\'s the Difference?',
-    slug: 'high-net-worth/wealth-management-vs-financial-planning',
+    slug: 'wealth-management-vs-financial-planning',
     hubId: 'high-net-worth',
     type: 'spoke',
     excerpt: 'Understand the differences between wealth management and financial planning, who needs each type of service, and how to choose the right advisor for your situation.',
@@ -418,7 +418,7 @@ export const HIGHNETWORTH_ARTICLES: Article[] = [
   {
     id: 'spoke-hnw-007',
     title: 'Executive Compensation Planning: RSUs, Options & Strategies',
-    slug: 'high-net-worth/executive-compensation',
+    slug: 'executive-compensation',
     hubId: 'high-net-worth',
     type: 'spoke',
     excerpt: 'Comprehensive guide to executive compensation planning including RSUs, stock options, deferred compensation, and strategies to maximize your equity package.',
@@ -875,7 +875,7 @@ export const HIGHNETWORTH_ARTICLES: Article[] = [
   {
     id: 'spoke-hnw-009',
     title: 'Philanthropy Planning: Strategic Charitable Giving for High Net Worth',
-    slug: 'high-net-worth/philanthropy',
+    slug: 'philanthropy',
     hubId: 'high-net-worth',
     type: 'spoke',
     excerpt: 'Learn how to plan strategic philanthropy including donor-advised funds, private foundations, charitable trusts, and tax-efficient giving strategies.',
@@ -1285,7 +1285,7 @@ export const HIGHNETWORTH_ARTICLES: Article[] = [
   {
     id: 'spoke-hnw-005',
     title: 'Private Banking Explained: Services, Benefits & Requirements',
-    slug: 'high-net-worth/private-banking',
+    slug: 'private-banking',
     hubId: 'high-net-worth',
     type: 'spoke',
     excerpt: 'Learn what private banking is, who qualifies, what services are included, and whether private banking is right for your high net worth situation.',
@@ -1674,7 +1674,7 @@ export const HIGHNETWORTH_ARTICLES: Article[] = [
   {
     id: 'spoke-hnw-003',
     title: 'Family Office Services: What They Are and Who Needs One',
-    slug: 'high-net-worth/family-office',
+    slug: 'family-office',
     hubId: 'high-net-worth',
     type: 'spoke',
     excerpt: 'Complete guide to family office services including single vs multi-family offices, services provided, costs, and when a family office makes sense for your wealth.',
@@ -2121,7 +2121,7 @@ export const HIGHNETWORTH_ARTICLES: Article[] = [
   {
     id: 'spoke-hnw-008',
     title: 'Wealth Transfer Strategies: How to Pass Wealth to the Next Generation',
-    slug: 'high-net-worth/wealth-transfer',
+    slug: 'wealth-transfer',
     hubId: 'high-net-worth',
     type: 'spoke',
     excerpt: 'Learn effective wealth transfer strategies including trusts, gifting, estate planning, and how to prepare heirs for receiving significant wealth.',
@@ -2555,7 +2555,7 @@ export const HIGHNETWORTH_ARTICLES: Article[] = [
   {
     id: 'spoke-hnw-006',
     title: 'Concentrated Stock Position Strategies: How to Manage the Risk',
-    slug: 'high-net-worth/concentrated-stock',
+    slug: 'concentrated-stock',
     hubId: 'high-net-worth',
     type: 'spoke',
     excerpt: 'Learn strategies for managing concentrated stock positions including diversification approaches, tax-efficient methods, and when to hold vs. sell.',
@@ -2930,7 +2930,7 @@ export const HIGHNETWORTH_ARTICLES: Article[] = [
   {
     id: 'spoke-hnw-004',
     title: 'Wealth Management Minimums: What You Need to Work with an Advisor',
-    slug: 'high-net-worth/minimums',
+    slug: 'minimums',
     hubId: 'high-net-worth',
     type: 'spoke',
     excerpt: 'Understand wealth management minimum requirements including why minimums exist, typical thresholds by advisor type, and options if you\'re below the minimum.',
@@ -3291,7 +3291,7 @@ export const HIGHNETWORTH_ARTICLES: Article[] = [
   {
     id: 'spoke-hnw-010',
     title: 'Ultra High Net Worth Services: What $30M+ Wealth Requires',
-    slug: 'high-net-worth/ultra-high-net-worth',
+    slug: 'ultra-high-net-worth',
     hubId: 'high-net-worth',
     type: 'spoke',
     excerpt: 'Discover what ultra high net worth individuals need including family offices, advanced tax strategies, multi-generational planning, and specialized services.',
@@ -3784,7 +3784,7 @@ export const HIGHNETWORTH_ARTICLES: Article[] = [
   {
     id: 'spoke-hnw-001',
     title: 'What Is High Net Worth? Definitions, Levels & What It Means',
-    slug: 'high-net-worth/definition',
+    slug: 'definition',
     hubId: 'high-net-worth',
     type: 'spoke',
     excerpt: 'Learn what high net worth means, the official definitions of HNW and UHNW, different wealth tiers, and what services become available at each level.',

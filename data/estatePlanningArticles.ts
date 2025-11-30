@@ -4,7 +4,7 @@ export const ESTATEPLANNING_ARTICLES: Article[] = [
   {
     id: 'spoke-estate-003',
     title: 'Revocable Living Trusts: Benefits, Setup, and Funding Guide',
-    slug: 'estate-planning/revocable-trusts',
+    slug: 'revocable-trusts',
     hubId: 'estate-planning',
     type: 'spoke',
     excerpt: 'Complete guide to revocable living trusts including benefits, how to set one up, funding requirements, and whether you need one for your estate plan.',
@@ -389,7 +389,7 @@ export const ESTATEPLANNING_ARTICLES: Article[] = [
   {
     id: 'spoke-estate-011',
     title: 'Charitable Estate Planning: Strategies for Leaving a Lasting Legacy',
-    slug: 'estate-planning/charitable-estate-planning',
+    slug: 'charitable-estate-planning',
     hubId: 'estate-planning',
     type: 'spoke',
     excerpt: 'Complete guide to charitable estate planning including charitable trusts, private foundations, and strategies to benefit both charity and family.',
@@ -731,7 +731,7 @@ export const ESTATEPLANNING_ARTICLES: Article[] = [
   {
     id: 'spoke-estate-012',
     title: 'When to Update Your Estate Plan: Complete Review Guide',
-    slug: 'estate-planning/when-to-update',
+    slug: 'when-to-update',
     hubId: 'estate-planning',
     type: 'spoke',
     excerpt: 'Know when to update your estate plan. Review triggers include marriage, divorce, births, deaths, and major asset changes. Complete checklist included.',
@@ -1074,7 +1074,7 @@ export const ESTATEPLANNING_ARTICLES: Article[] = [
   {
     id: 'spoke-estate-007',
     title: 'Beneficiary Designations: The Often-Overlooked Estate Planning Essential',
-    slug: 'estate-planning/beneficiary-designations',
+    slug: 'beneficiary-designations',
     hubId: 'estate-planning',
     type: 'spoke',
     excerpt: 'Complete guide to beneficiary designations on retirement accounts, life insurance, and financial accounts. Avoid common mistakes that can derail your estate plan.',
@@ -1451,7 +1451,7 @@ export const ESTATEPLANNING_ARTICLES: Article[] = [
   {
     id: 'spoke-estate-001',
     title: 'Wills and Trusts Guide: Essential Estate Planning Documents Explained',
-    slug: 'estate-planning/wills-and-trusts',
+    slug: 'wills-and-trusts',
     hubId: 'estate-planning',
     type: 'spoke',
     excerpt: 'Comprehensive guide to wills and trusts including differences between them, when you need each, and how they work together in estate planning.',
@@ -1833,7 +1833,7 @@ export const ESTATEPLANNING_ARTICLES: Article[] = [
   {
     id: 'spoke-estate-006',
     title: 'Healthcare Directives: Living Wills and Healthcare Proxy Guide',
-    slug: 'estate-planning/healthcare-directives',
+    slug: 'healthcare-directives',
     hubId: 'estate-planning',
     type: 'spoke',
     excerpt: 'Complete guide to healthcare directives including living wills, healthcare proxies, and advance directives. Ensure your medical wishes are honored.',
@@ -2272,7 +2272,7 @@ export const ESTATEPLANNING_ARTICLES: Article[] = [
   {
     id: 'spoke-estate-002',
     title: 'Estate Tax Planning: Federal Estate Tax Rules and Reduction Strategies',
-    slug: 'estate-planning/estate-tax',
+    slug: 'estate-tax',
     hubId: 'estate-planning',
     type: 'spoke',
     excerpt: 'Complete guide to estate tax planning including federal exemption amounts, state estate taxes, and strategies to minimize estate tax liability.',
@@ -2552,7 +2552,7 @@ export const ESTATEPLANNING_ARTICLES: Article[] = [
   {
     id: 'spoke-estate-008',
     title: 'Probate Process: Understanding What Happens After Death',
-    slug: 'estate-planning/probate',
+    slug: 'probate',
     hubId: 'estate-planning',
     type: 'spoke',
     excerpt: 'Complete guide to the probate process including steps, costs, timeline, executor duties, and strategies to avoid probate for your estate.',
@@ -2994,7 +2994,7 @@ export const ESTATEPLANNING_ARTICLES: Article[] = [
   {
     id: 'spoke-estate-010',
     title: 'Generation-Skipping Transfer Tax: Protecting Wealth Across Generations',
-    slug: 'estate-planning/generation-skipping-tax',
+    slug: 'generation-skipping-tax',
     hubId: 'estate-planning',
     type: 'spoke',
     excerpt: 'Complete guide to generation-skipping transfer tax (GSTT) including how it works, exemption amounts, and planning strategies for multi-generational wealth.',
@@ -3294,7 +3294,7 @@ export const ESTATEPLANNING_ARTICLES: Article[] = [
   {
     id: 'spoke-estate-004',
     title: 'Irrevocable Trusts: Types, Benefits, and When You Need One',
-    slug: 'estate-planning/irrevocable-trusts',
+    slug: 'irrevocable-trusts',
     hubId: 'estate-planning',
     type: 'spoke',
     excerpt: 'Comprehensive guide to irrevocable trusts including ILITs, dynasty trusts, and asset protection trusts. Learn when irrevocable trusts make sense.',
@@ -3617,7 +3617,7 @@ export const ESTATEPLANNING_ARTICLES: Article[] = [
   {
     id: 'spoke-estate-009',
     title: 'Gifting Strategies: Tax-Smart Ways to Transfer Wealth to Family',
-    slug: 'estate-planning/gifting-strategies',
+    slug: 'gifting-strategies',
     hubId: 'estate-planning',
     type: 'spoke',
     excerpt: 'Complete guide to gifting strategies including annual exclusion, lifetime exemption, and advanced techniques to transfer wealth while minimizing taxes.',
@@ -3948,7 +3948,7 @@ export const ESTATEPLANNING_ARTICLES: Article[] = [
   {
     id: 'spoke-estate-005',
     title: 'Power of Attorney: Essential Guide to Appointing a Financial Agent',
-    slug: 'estate-planning/power-of-attorney',
+    slug: 'power-of-attorney',
     hubId: 'estate-planning',
     type: 'spoke',
     excerpt: 'Complete guide to power of attorney documents including types, choosing an agent, and why everyone needs one for incapacity planning.',

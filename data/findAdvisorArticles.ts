@@ -4,7 +4,7 @@ export const FINDADVISOR_ARTICLES: Article[] = [
   {
     id: 'spoke-find-002',
     title: 'Fiduciary vs Suitability Standard: What\'s the Difference?',
-    slug: 'find-wealth-manager/fiduciary-vs-suitability',
+    slug: 'fiduciary-vs-suitability',
     hubId: 'find-wealth-manager',
     type: 'spoke',
     excerpt: 'Understand the difference between fiduciary and suitability standards, why it matters for your investments, and how to find a fiduciary advisor.',
@@ -309,7 +309,7 @@ export const FINDADVISOR_ARTICLES: Article[] = [
   {
     id: 'spoke-find-008',
     title: 'When Do You Need a Wealth Manager? Signs It\'s Time for Help',
-    slug: 'find-wealth-manager/when-do-you-need',
+    slug: 'when-do-you-need',
     hubId: 'find-wealth-manager',
     type: 'spoke',
     excerpt: 'Discover when hiring a wealth manager makes sense including life transitions, complexity thresholds, and situations where professional advice pays for itself.',
@@ -663,7 +663,7 @@ export const FINDADVISOR_ARTICLES: Article[] = [
   {
     id: 'spoke-find-004',
     title: 'Questions to Ask a Financial Advisor Before You Hire',
-    slug: 'find-wealth-manager/questions-to-ask',
+    slug: 'questions-to-ask',
     hubId: 'find-wealth-manager',
     type: 'spoke',
     excerpt: 'Essential questions to ask before hiring a financial advisor including compensation, fiduciary status, investment approach, and experience questions.',
@@ -943,7 +943,7 @@ export const FINDADVISOR_ARTICLES: Article[] = [
   {
     id: 'spoke-find-005',
     title: 'Financial Advisor Credentials Explained: CFP, CFA, and More',
-    slug: 'find-wealth-manager/credentials-explained',
+    slug: 'credentials-explained',
     hubId: 'find-wealth-manager',
     type: 'spoke',
     excerpt: 'Understand financial advisor credentials including CFP, CFA, CPA/PFS, ChFC, and others. Learn which designations matter and what they mean for your wealth.',
@@ -1274,7 +1274,7 @@ export const FINDADVISOR_ARTICLES: Article[] = [
   {
     id: 'spoke-find-007',
     title: 'Financial Advisor Red Flags: Warning Signs to Watch For',
-    slug: 'find-wealth-manager/red-flags',
+    slug: 'red-flags',
     hubId: 'find-wealth-manager',
     type: 'spoke',
     excerpt: 'Learn to identify financial advisor red flags including high-pressure tactics, guaranteed returns, hidden fees, and other warning signs that protect your wealth.',
@@ -1639,7 +1639,7 @@ export const FINDADVISOR_ARTICLES: Article[] = [
   {
     id: 'spoke-find-006',
     title: 'Wealth Management Fees: What Financial Advisors Cost in 2025',
-    slug: 'find-wealth-manager/fees',
+    slug: 'fees',
     hubId: 'find-wealth-manager',
     type: 'spoke',
     excerpt: 'Complete guide to wealth management fees including AUM, flat fees, hourly rates, and how to evaluate whether you\'re paying too much for financial advice.',
@@ -1973,7 +1973,7 @@ export const FINDADVISOR_ARTICLES: Article[] = [
   {
     id: 'spoke-find-001',
     title: 'How to Choose a Financial Advisor: Complete Selection Guide',
-    slug: 'find-wealth-manager/how-to-choose',
+    slug: 'how-to-choose',
     hubId: 'find-wealth-manager',
     type: 'spoke',
     excerpt: 'Step-by-step guide to choosing the right financial advisor including what to look for, questions to ask, and how to evaluate candidates.',
@@ -2401,7 +2401,7 @@ export const FINDADVISOR_ARTICLES: Article[] = [
   {
     id: 'spoke-find-003',
     title: 'Fee-Only vs Commission Advisors: Which Is Better for You?',
-    slug: 'find-wealth-manager/fee-only-vs-commission',
+    slug: 'fee-only-vs-commission',
     hubId: 'find-wealth-manager',
     type: 'spoke',
     excerpt: 'Compare fee-only and commission-based financial advisors including how each is paid, conflicts of interest, and which model works best for your situation.',

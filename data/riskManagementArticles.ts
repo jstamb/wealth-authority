@@ -4,7 +4,7 @@ export const RISKMANAGEMENT_ARTICLES: Article[] = [
   {
     id: 'spoke-risk-004',
     title: 'Umbrella Insurance for High Net Worth: Complete Guide',
-    slug: 'risk-management/umbrella-insurance',
+    slug: 'umbrella-insurance',
     hubId: 'risk-management',
     type: 'spoke',
     excerpt: 'Learn why high net worth individuals need umbrella insurance, how much coverage to buy, what it covers, and how to get the right policy.',
@@ -319,7 +319,7 @@ export const RISKMANAGEMENT_ARTICLES: Article[] = [
   {
     id: 'spoke-risk-007',
     title: 'Asset Protection Strategies: Protect Your Wealth from Lawsuits',
-    slug: 'risk-management/asset-protection-strategies',
+    slug: 'asset-protection-strategies',
     hubId: 'risk-management',
     type: 'spoke',
     excerpt: 'Learn proven asset protection strategies including LLCs, trusts, insurance, and legal structures to protect your wealth from lawsuits and creditors.',
@@ -838,7 +838,7 @@ export const RISKMANAGEMENT_ARTICLES: Article[] = [
   {
     id: 'spoke-risk-009',
     title: 'Life Insurance in Estate Planning: Strategies for Wealth Transfer',
-    slug: 'risk-management/life-insurance-estate-planning',
+    slug: 'life-insurance-estate-planning',
     hubId: 'risk-management',
     type: 'spoke',
     excerpt: 'Learn how life insurance fits into estate planning including ILITs, estate tax strategies, wealth transfer, and using insurance for inheritance equalization.',
@@ -1229,7 +1229,7 @@ export const RISKMANAGEMENT_ARTICLES: Article[] = [
   {
     id: 'spoke-risk-010',
     title: 'Healthcare Costs in Retirement: How to Plan and Save',
-    slug: 'risk-management/healthcare-costs-retirement',
+    slug: 'healthcare-costs-retirement',
     hubId: 'risk-management',
     type: 'spoke',
     excerpt: 'Understand and plan for healthcare costs in retirement including Medicare premiums, out-of-pocket expenses, long-term care, and strategies to manage medical costs.',
@@ -1641,7 +1641,7 @@ export const RISKMANAGEMENT_ARTICLES: Article[] = [
   {
     id: 'spoke-risk-005',
     title: 'Disability Insurance Guide: Protect Your Income & Career',
-    slug: 'risk-management/disability-insurance',
+    slug: 'disability-insurance',
     hubId: 'risk-management',
     type: 'spoke',
     excerpt: 'Complete guide to disability insurance including short-term vs long-term coverage, how much you need, policy features, and how to choose the right protection.',
@@ -2052,7 +2052,7 @@ export const RISKMANAGEMENT_ARTICLES: Article[] = [
   {
     id: 'spoke-risk-008',
     title: 'Insurance vs Self-Insuring: When to Skip Coverage and Save',
-    slug: 'risk-management/insurance-vs-self-insuring',
+    slug: 'insurance-vs-self-insuring',
     hubId: 'risk-management',
     type: 'spoke',
     excerpt: 'Learn when buying insurance makes sense and when self-insuring is smarter. Understand deductible strategies and which risks you can afford to take on yourself.',
@@ -2437,7 +2437,7 @@ export const RISKMANAGEMENT_ARTICLES: Article[] = [
   {
     id: 'spoke-risk-006',
     title: 'Annuities Explained: Types, Costs, Pros & Cons',
-    slug: 'risk-management/annuities-explained',
+    slug: 'annuities-explained',
     hubId: 'risk-management',
     type: 'spoke',
     excerpt: 'Comprehensive guide to annuities including fixed, variable, and indexed types. Learn how annuities work, their costs, and whether they\'re right for retirement.',
@@ -2880,7 +2880,7 @@ export const RISKMANAGEMENT_ARTICLES: Article[] = [
   {
     id: 'spoke-risk-001',
     title: 'Life Insurance Types Compared: Term, Whole, Universal & More',
-    slug: 'risk-management/life-insurance-types',
+    slug: 'life-insurance-types',
     hubId: 'risk-management',
     type: 'spoke',
     excerpt: 'Complete guide to life insurance types including term life, whole life, universal life, and variable life. Compare costs, benefits, and which type fits your needs.',
@@ -3436,7 +3436,7 @@ export const RISKMANAGEMENT_ARTICLES: Article[] = [
   {
     id: 'spoke-risk-003',
     title: 'Long-Term Care Insurance Guide: Costs, Coverage & Is It Worth It?',
-    slug: 'risk-management/long-term-care-insurance',
+    slug: 'long-term-care-insurance',
     hubId: 'risk-management',
     type: 'spoke',
     excerpt: 'Complete guide to long-term care insurance including costs, what it covers, when to buy, and whether you need it. Make an informed decision about LTCI.',
@@ -3956,7 +3956,7 @@ export const RISKMANAGEMENT_ARTICLES: Article[] = [
   {
     id: 'spoke-risk-002',
     title: 'How Much Life Insurance Do You Need? Calculator & Guide',
-    slug: 'risk-management/how-much-life-insurance',
+    slug: 'how-much-life-insurance',
     hubId: 'risk-management',
     type: 'spoke',
     excerpt: 'Calculate exactly how much life insurance you need with our comprehensive guide. Learn income replacement, DIME method, and factors that determine coverage amount.',

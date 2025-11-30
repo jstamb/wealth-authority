@@ -4,7 +4,7 @@ export const RETIREMENT_ARTICLES: Article[] = [
   {
     id: 'spoke-retirement-011',
     title: 'Retirement Tax Planning: Strategies to Minimize Taxes in Retirement',
-    slug: 'retirement-planning/retirement-tax-planning',
+    slug: 'retirement-tax-planning',
     hubId: 'retirement-planning',
     type: 'spoke',
     excerpt: 'Learn how to minimize taxes in retirement through strategic withdrawals, Roth conversions, and income management. Complete guide to retirement tax planning.',
@@ -312,7 +312,7 @@ export const RETIREMENT_ARTICLES: Article[] = [
   {
     id: 'spoke-retirement-009',
     title: '401(k) Rollover Guide: Your Complete Options Explained',
-    slug: 'retirement-planning/401k-rollover-guide',
+    slug: '401k-rollover-guide',
     hubId: 'retirement-planning',
     type: 'spoke',
     excerpt: 'Complete guide to 401(k) rollovers. Learn direct vs indirect, IRA vs new 401(k), Roth conversion, 60-day rule, tax implications, and mistakes to avoid.',
@@ -620,7 +620,7 @@ export const RETIREMENT_ARTICLES: Article[] = [
   {
     id: 'spoke-retirement-010',
     title: 'Pension Options: Lump Sum vs Annuity and Payout Strategies',
-    slug: 'retirement-planning/pension-options',
+    slug: 'pension-options',
     hubId: 'retirement-planning',
     type: 'spoke',
     excerpt: 'Understand pension payout options including lump sum vs annuity decisions, survivor benefits, and how to maximize your defined benefit pension.',
@@ -976,7 +976,7 @@ export const RETIREMENT_ARTICLES: Article[] = [
   {
     id: 'spoke-retirement-004',
     title: 'Retirement Income Strategies: How to Generate Sustainable Income',
-    slug: 'retirement-planning/retirement-income-strategies',
+    slug: 'retirement-income-strategies',
     hubId: 'retirement-planning',
     type: 'spoke',
     excerpt: 'Learn proven retirement income strategies including the 4% rule, bucket strategy, and dynamic withdrawals. Create sustainable income from your portfolio.',
@@ -1351,7 +1351,7 @@ export const RETIREMENT_ARTICLES: Article[] = [
   {
     id: 'spoke-retirement-006',
     title: 'Roth vs Traditional: Which Retirement Account Is Right for You?',
-    slug: 'retirement-planning/roth-vs-traditional',
+    slug: 'roth-vs-traditional',
     hubId: 'retirement-planning',
     type: 'spoke',
     excerpt: 'Compare Roth and traditional retirement accounts. Learn when to choose each type, conversion strategies, and how to optimize your retirement tax planning.',
@@ -1690,7 +1690,7 @@ export const RETIREMENT_ARTICLES: Article[] = [
   {
     id: 'spoke-retirement-003',
     title: 'Social Security Strategies: When to Claim and How to Maximize Benefits',
-    slug: 'retirement-planning/social-security-strategies',
+    slug: 'social-security-strategies',
     hubId: 'retirement-planning',
     type: 'spoke',
     excerpt: 'Learn when to claim Social Security and strategies to maximize your lifetime benefits. Understand claiming ages, spousal benefits, and coordination tactics.',
@@ -1954,7 +1954,7 @@ export const RETIREMENT_ARTICLES: Article[] = [
   {
     id: 'spoke-retirement-005',
     title: 'Early Retirement Planning: How to Retire Before 65',
-    slug: 'retirement-planning/early-retirement',
+    slug: 'early-retirement',
     hubId: 'retirement-planning',
     type: 'spoke',
     excerpt: 'Complete guide to early retirement planning. Learn FIRE strategies, withdrawal tactics, healthcare solutions, and how much you need to retire early.',
@@ -2333,7 +2333,7 @@ export const RETIREMENT_ARTICLES: Article[] = [
   {
     id: 'spoke-retirement-008',
     title: 'Medicare Planning: A Complete Guide for Retirees',
-    slug: 'retirement-planning/medicare-planning',
+    slug: 'medicare-planning',
     hubId: 'retirement-planning',
     type: 'spoke',
     excerpt: 'Navigate Medicare enrollment, Parts A through D, supplement options, and premium surcharges. Essential Medicare planning for retirement.',
@@ -2660,7 +2660,7 @@ export const RETIREMENT_ARTICLES: Article[] = [
   {
     id: 'spoke-retirement-007',
     title: 'Catch-Up Contributions: Maximize Retirement Savings After 50',
-    slug: 'retirement-planning/catch-up-contributions',
+    slug: 'catch-up-contributions',
     hubId: 'retirement-planning',
     type: 'spoke',
     excerpt: 'Learn about catch-up contributions for 401(k), IRA, and other retirement accounts. Strategies for accelerating retirement savings if you started late.',
@@ -2949,7 +2949,7 @@ export const RETIREMENT_ARTICLES: Article[] = [
   {
     id: 'spoke-retirement-003',
     title: 'Retirement Planning by Age: Decade-by-Decade Guide',
-    slug: 'retirement-planning/retirement-planning-by-age',
+    slug: 'retirement-planning-by-age',
     hubId: 'retirement-planning',
     type: 'spoke',
     excerpt: 'Decade-by-decade retirement planning guide. Learn age-specific savings targets, contribution limits, and strategies from your 20s through retirement.',
@@ -3278,7 +3278,7 @@ export const RETIREMENT_ARTICLES: Article[] = [
   {
     id: 'spoke-retirement-012',
     title: 'When to Hire a Retirement Planner: Signs You Need Help',
-    slug: 'retirement-planning/when-to-hire-retirement-planner',
+    slug: 'when-to-hire-retirement-planner',
     hubId: 'retirement-planning',
     type: 'spoke',
     excerpt: 'Clear signs you need a retirement planner: complex taxes, nearing retirement, major life changes, $500K+ assets. Learn costs, credentials, and questions to ask.',
@@ -3620,7 +3620,7 @@ export const RETIREMENT_ARTICLES: Article[] = [
   {
     id: 'spoke-retirement-009',
     title: 'Required Minimum Distributions (RMDs): Rules, Calculations, and Strategies',
-    slug: 'retirement-planning/required-minimum-distributions',
+    slug: 'required-minimum-distributions',
     hubId: 'retirement-planning',
     type: 'spoke',
     excerpt: 'Understand RMD rules, calculation methods, and strategies to minimize impact. Complete guide to required minimum distributions from retirement accounts.',
@@ -3916,7 +3916,7 @@ export const RETIREMENT_ARTICLES: Article[] = [
   {
     id: 'spoke-retirement-011',
     title: '10 Costly Retirement Planning Mistakes to Avoid',
-    slug: 'retirement-planning/retirement-planning-mistakes',
+    slug: 'retirement-planning-mistakes',
     hubId: 'retirement-planning',
     type: 'spoke',
     excerpt: 'Avoid these 10 costly retirement planning mistakes that can cost you hundreds of thousands in lost savings, higher taxes, and reduced retirement income.',
@@ -4162,7 +4162,7 @@ export const RETIREMENT_ARTICLES: Article[] = [
   {
     id: 'spoke-retirement-001',
     title: 'How Much Do You Need to Retire? Calculate Your Number',
-    slug: 'retirement-planning/how-much-need-to-retire',
+    slug: 'how-much-need-to-retire',
     hubId: 'retirement-planning',
     type: 'spoke',
     excerpt: 'Calculate exactly how much you need to retire comfortably. Learn the formulas, factors, and strategies to determine your personal retirement savings goal.',
@@ -4375,7 +4375,7 @@ export const RETIREMENT_ARTICLES: Article[] = [
   {
     id: 'spoke-retirement-002',
     title: '401(k) vs IRA: Which Retirement Account Is Right for You?',
-    slug: 'retirement-planning/401k-vs-ira',
+    slug: '401k-vs-ira',
     hubId: 'retirement-planning',
     type: 'spoke',
     excerpt: 'Compare 401(k) and IRA retirement accounts. Learn key differences in contribution limits, tax benefits, and investment options to choose the right account.',
