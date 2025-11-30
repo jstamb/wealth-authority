@@ -306,6 +306,147 @@ class ObsidianToTSConverter:
 
         return article
 
+    def convert_hub(self, filepath: str, frontmatter: Dict, content: str) -> Dict[str, Any]:
+        """Convert a hub page to TopicHub TypeScript format"""
+
+        # Map hub topic to icon name
+        icon_map = {
+            'retirement planning': 'TrendingUp',
+            'financial planning': 'PieChart',
+            'find a wealth manager': 'Users',
+            'find wealth manager': 'Users',
+            'tax planning': 'Calculator',
+            'estate planning': 'Shield',
+            'investment strategies': 'BarChart',
+            'high net worth': 'Gem',
+            'risk management': 'ShieldCheck'
+        }
+
+        hub_topic = frontmatter.get('hub_topic', '').lower()
+        icon_name = icon_map.get(hub_topic, 'BookOpen')
+
+        # Generate ID from content_id or url_slug
+        hub_id = frontmatter.get('content_id', '').replace('hub-', '')
+        if not hub_id:
+            hub_id = frontmatter.get('url_slug', '/').strip('/').replace('-planning', '').replace('-strategies', '')
+
+        # Extract content
+        key_takeaways = self.extract_key_takeaways(content)
+        faqs = self.extract_faqs(content)
+
+        # Extract expert quote if present
+        expert_quote = None
+        quote_match = re.search(r'>\s*["\']([^"\']+)["\'].*?[-—]\s*([^,\n]+),?\s*([^\n]+)?', content, re.DOTALL)
+        if quote_match:
+            expert_quote = {
+                'text': quote_match.group(1).strip(),
+                'author': quote_match.group(2).strip(),
+                'credentials': quote_match.group(3).strip() if quote_match.group(3) else ''
+            }
+
+        # Extract title from first H1 or meta_title
+        title = frontmatter.get('meta_title', frontmatter.get('hub_topic', 'Untitled'))
+        title_match = re.search(r'^#\s+(.+)$', content, re.MULTILINE)
+        if title_match:
+            title = title_match.group(1).split(':')[0].strip()
+
+        # Extract description from first paragraph after H1
+        description = frontmatter.get('meta_description', '')
+        desc_match = re.search(r'^#[^\n]+\n+([^\n#]+)', content, re.MULTILINE)
+        if desc_match:
+            description = desc_match.group(1).strip()
+
+        hub = {
+            'id': hub_id,
+            'title': title,
+            'slug': frontmatter.get('url_slug', '/' + hub_id).strip('/'),
+            'description': description,
+            'iconName': icon_name,
+            'keyTakeaways': key_takeaways,
+            'faqs': faqs
+        }
+
+        if expert_quote:
+            hub['expertQuote'] = expert_quote
+
+        return hub
+
+    def convert_city_hub(self, filepath: str, frontmatter: Dict, content: str) -> Dict[str, Any]:
+        """Convert a city-hub page to City TypeScript format"""
+
+        # Extract city stats from frontmatter
+        median_home_price = frontmatter.get('median_home_price', '$500,000')
+        cost_of_living = frontmatter.get('cost_of_living_index', 100)
+        state_income_tax = frontmatter.get('state_income_tax', 'Varies')
+
+        # Determine tier based on population or default to 2
+        population = frontmatter.get('population', '')
+        tier = 2
+        if 'million' in str(population).lower():
+            pop_num = float(re.search(r'[\d.]+', str(population)).group())
+            tier = 1 if pop_num >= 2 else 2
+
+        # Extract key takeaways and FAQs
+        key_takeaways = self.extract_key_takeaways(content)
+        faqs = self.extract_faqs(content)
+
+        # Extract local challenges from content
+        local_challenges = []
+        challenge_match = re.search(r'###?\s*(?:Local |Unique )?Challenges?\s*\n(.*?)(?=\n##|\Z)', content, re.DOTALL | re.IGNORECASE)
+        if challenge_match:
+            section = challenge_match.group(1)
+            # Look for bold titles with descriptions
+            challenges = re.findall(r'\*\*([^*]+)\*\*[:\s]*([^\n*]+)', section)
+            for title, desc in challenges[:3]:  # Limit to 3
+                local_challenges.append({
+                    'title': title.strip(),
+                    'description': desc.strip()
+                })
+
+        # If no challenges found, create defaults based on content
+        if not local_challenges:
+            if 'tax' in content.lower():
+                local_challenges.append({
+                    'title': 'Tax Considerations',
+                    'description': 'Local and state tax implications require careful planning.'
+                })
+            if 'cost of living' in content.lower() or 'housing' in content.lower():
+                local_challenges.append({
+                    'title': 'Cost of Living',
+                    'description': 'Housing and living costs impact retirement planning significantly.'
+                })
+
+        city_name = frontmatter.get('city_name', 'Unknown City')
+        city_short = frontmatter.get('city_short', city_name)
+
+        # Generate city ID
+        city_id = frontmatter.get('content_id', '').replace('city-', '')
+        if not city_id:
+            city_id = city_short.lower().replace(' ', '-')
+
+        # Default image based on city
+        image = f"https://images.unsplash.com/photo-{city_id}?w=800&q=80"
+
+        city = {
+            'id': city_id,
+            'name': city_name,
+            'slug': frontmatter.get('url_slug', '/' + city_id + '-wealth-management/').strip('/').replace('-wealth-management', ''),
+            'tier': tier,
+            'state': frontmatter.get('state_full', frontmatter.get('state', '')),
+            'description': frontmatter.get('meta_description', ''),
+            'image': image,
+            'stats': {
+                'medianHomePrice': median_home_price,
+                'colIndex': int(cost_of_living) if isinstance(cost_of_living, (int, float)) else 100,
+                'incomeTax': state_income_tax
+            },
+            'localChallenges': local_challenges,
+            'keyTakeaways': key_takeaways,
+            'faqs': faqs
+        }
+
+        return city
+
     def convert_to_typescript(self, articles: List[Dict[str, Any]], import_name: str) -> str:
         """Convert articles to TypeScript format"""
 
@@ -460,8 +601,15 @@ class ObsidianToTSConverter:
 
         return '\n'.join(ts_lines)
 
-    def sync_file(self, filepath: str, force: bool = False) -> Optional[Dict[str, Any]]:
-        """Sync a single file from Obsidian to TypeScript"""
+    def sync_file(self, filepath: str, force: bool = False) -> Optional[tuple]:
+        """Sync a single file from Obsidian to TypeScript
+
+        Returns a tuple of (content_type, data) where content_type is one of:
+        - 'article': spoke or city-spoke content
+        - 'hub': topic hub page
+        - 'city-hub': city landing page
+        - 'homepage': main homepage
+        """
         try:
             self.log(f"Processing: {filepath}")
 
@@ -481,7 +629,17 @@ class ObsidianToTSConverter:
 
             if content_level in ['spoke', 'city-spoke']:
                 article = self.convert_spoke_article(filepath, frontmatter, body)
-                return article
+                return ('article', article)
+            elif content_level == 'hub':
+                hub = self.convert_hub(filepath, frontmatter, body)
+                return ('hub', hub)
+            elif content_level == 'city-hub':
+                city = self.convert_city_hub(filepath, frontmatter, body)
+                return ('city-hub', city)
+            elif content_level == 'homepage':
+                # Homepage is handled separately - just log it
+                self.log(f"Homepage detected: {filepath}", "INFO")
+                return ('homepage', {'filepath': filepath, 'frontmatter': frontmatter})
             else:
                 self.log(f"Content level '{content_level}' not yet supported", "WARNING")
                 return None
@@ -509,26 +667,48 @@ class ObsidianToTSConverter:
             files = [f for f in files if self.is_file_updated_after(f, filter_date)]
             self.log(f"Filtered to {len(files)} files updated after {filter_date}")
 
-        # Group files by topic/hub
+        # Group files by content type
         articles_by_hub = {}
+        hubs = []
+        cities = []
+        homepage_data = None
 
         for filepath in files:
-            article = self.sync_file(filepath)
-            if article:
-                hub_id = article['hubId']
-                if hub_id not in articles_by_hub:
-                    articles_by_hub[hub_id] = []
-                articles_by_hub[hub_id].append(article)
+            result = self.sync_file(filepath)
+            if result:
+                content_type, data = result
 
-        # Generate TypeScript files
+                if content_type == 'article':
+                    hub_id = data['hubId']
+                    if hub_id not in articles_by_hub:
+                        articles_by_hub[hub_id] = []
+                    articles_by_hub[hub_id].append(data)
+                elif content_type == 'hub':
+                    hubs.append(data)
+                elif content_type == 'city-hub':
+                    cities.append(data)
+                elif content_type == 'homepage':
+                    homepage_data = data
+
+        # Generate TypeScript files for articles
         for hub_id, articles in articles_by_hub.items():
             self.write_typescript_file(hub_id, articles)
+
+        # Generate TypeScript file for hubs
+        if hubs:
+            self.write_hubs_file(hubs)
+
+        # Generate TypeScript file for cities
+        if cities:
+            self.write_cities_file(cities)
 
         # Summary
         self.log("\n" + "="*50)
         self.log("SYNC COMPLETE")
         self.log(f"Total files processed: {len(files)}")
         self.log(f"Articles converted: {sum(len(a) for a in articles_by_hub.values())}")
+        self.log(f"Hubs converted: {len(hubs)}")
+        self.log(f"Cities converted: {len(cities)}")
         self.log(f"Errors: {len(self.errors)}")
 
         if self.errors:
@@ -636,6 +816,272 @@ class ObsidianToTSConverter:
             with open(output_file, 'w', encoding='utf-8') as f:
                 f.write(ts_content)
             self.log(f"Created {output_file} with {len(new_articles)} articles")
+
+    def write_hubs_file(self, hubs: List[Dict[str, Any]]):
+        """Write hubs to TypeScript data file"""
+        output_file = os.path.join(DATA_DIR, "hubs.ts")
+
+        # Read existing hub IDs to avoid duplicates
+        existing_ids = set()
+        if os.path.exists(output_file):
+            try:
+                with open(output_file, 'r', encoding='utf-8') as f:
+                    content = f.read()
+                    ids = re.findall(r"id: '([^']+)'", content)
+                    existing_ids = set(ids)
+                    self.log(f"Found {len(existing_ids)} existing hubs in {output_file}")
+            except Exception as e:
+                self.log(f"Could not read existing hubs file: {e}", "WARNING")
+
+        # Filter out hubs that already exist
+        new_hubs = [h for h in hubs if h['id'] not in existing_ids]
+
+        if not new_hubs:
+            self.log(f"No new hubs to add to {output_file}", "INFO")
+            return
+
+        # Generate TypeScript content
+        ts_lines = ["import { TopicHub } from '../types';", "", "export const SYNCED_HUBS: TopicHub[] = ["]
+
+        for hub in new_hubs:
+            ts_lines.append("  {")
+            ts_lines.append(f"    id: '{hub['id']}',")
+            ts_lines.append(f"    title: '{self.escape_string(hub['title'])}',")
+            ts_lines.append(f"    slug: '{hub['slug']}',")
+            ts_lines.append(f"    description: '{self.escape_string(hub['description'])}',")
+            ts_lines.append(f"    iconName: '{hub['iconName']}',")
+
+            # Key takeaways
+            ts_lines.append("    keyTakeaways: [")
+            for takeaway in hub['keyTakeaways']:
+                ts_lines.append(f"      '{self.escape_string(takeaway)}',")
+            ts_lines.append("    ],")
+
+            # Expert quote (optional)
+            if hub.get('expertQuote'):
+                eq = hub['expertQuote']
+                ts_lines.append("    expertQuote: {")
+                ts_lines.append(f"      text: '{self.escape_string(eq['text'])}',")
+                ts_lines.append(f"      author: '{self.escape_string(eq['author'])}',")
+                ts_lines.append(f"      credentials: '{self.escape_string(eq.get('credentials', ''))}',")
+                ts_lines.append("    },")
+
+            # FAQs
+            ts_lines.append("    faqs: [")
+            for faq in hub.get('faqs', []):
+                ts_lines.append("      {")
+                ts_lines.append(f"        question: '{self.escape_string(faq['question'])}',")
+                ts_lines.append(f"        answer: '{self.escape_string(faq['answer'])}'")
+                ts_lines.append("      },")
+            ts_lines.append("    ]")
+
+            ts_lines.append("  },")
+
+        ts_lines.append("];")
+        ts_lines.append("")
+
+        # Append or create file
+        if os.path.exists(output_file) and existing_ids:
+            # Append to existing file
+            with open(output_file, 'r', encoding='utf-8') as f:
+                existing_content = f.read()
+
+            match = re.search(r'\}\s*\];?\s*$', existing_content)
+            if match:
+                # Generate just the new hub objects
+                new_hub_ts = []
+                for hub in new_hubs:
+                    hub_ts = self.format_single_hub(hub)
+                    new_hub_ts.append(hub_ts)
+
+                new_content = (
+                    existing_content[:match.start() + 1] +
+                    ',\n' +
+                    ',\n'.join(new_hub_ts) +
+                    '\n];\n'
+                )
+                with open(output_file, 'w', encoding='utf-8') as f:
+                    f.write(new_content)
+                self.log(f"Appended {len(new_hubs)} new hubs to {output_file}")
+        else:
+            # Create new file
+            with open(output_file, 'w', encoding='utf-8') as f:
+                f.write('\n'.join(ts_lines))
+            self.log(f"Created {output_file} with {len(new_hubs)} hubs")
+
+    def format_single_hub(self, hub: Dict[str, Any]) -> str:
+        """Format a single hub as TypeScript object"""
+        ts_lines = ["  {"]
+        ts_lines.append(f"    id: '{hub['id']}',")
+        ts_lines.append(f"    title: '{self.escape_string(hub['title'])}',")
+        ts_lines.append(f"    slug: '{hub['slug']}',")
+        ts_lines.append(f"    description: '{self.escape_string(hub['description'])}',")
+        ts_lines.append(f"    iconName: '{hub['iconName']}',")
+
+        ts_lines.append("    keyTakeaways: [")
+        for takeaway in hub['keyTakeaways']:
+            ts_lines.append(f"      '{self.escape_string(takeaway)}',")
+        ts_lines.append("    ],")
+
+        if hub.get('expertQuote'):
+            eq = hub['expertQuote']
+            ts_lines.append("    expertQuote: {")
+            ts_lines.append(f"      text: '{self.escape_string(eq['text'])}',")
+            ts_lines.append(f"      author: '{self.escape_string(eq['author'])}',")
+            ts_lines.append(f"      credentials: '{self.escape_string(eq.get('credentials', ''))}',")
+            ts_lines.append("    },")
+
+        ts_lines.append("    faqs: [")
+        for faq in hub.get('faqs', []):
+            ts_lines.append("      {")
+            ts_lines.append(f"        question: '{self.escape_string(faq['question'])}',")
+            ts_lines.append(f"        answer: '{self.escape_string(faq['answer'])}'")
+            ts_lines.append("      },")
+        ts_lines.append("    ]")
+
+        ts_lines.append("  }")
+        return '\n'.join(ts_lines)
+
+    def write_cities_file(self, cities: List[Dict[str, Any]]):
+        """Write cities to TypeScript data file"""
+        output_file = os.path.join(DATA_DIR, "cityHubs.ts")
+
+        # Read existing city IDs to avoid duplicates
+        existing_ids = set()
+        if os.path.exists(output_file):
+            try:
+                with open(output_file, 'r', encoding='utf-8') as f:
+                    content = f.read()
+                    ids = re.findall(r"id: '([^']+)'", content)
+                    existing_ids = set(ids)
+                    self.log(f"Found {len(existing_ids)} existing cities in {output_file}")
+            except Exception as e:
+                self.log(f"Could not read existing cities file: {e}", "WARNING")
+
+        # Filter out cities that already exist
+        new_cities = [c for c in cities if c['id'] not in existing_ids]
+
+        if not new_cities:
+            self.log(f"No new cities to add to {output_file}", "INFO")
+            return
+
+        # Generate TypeScript content
+        ts_lines = ["import { City } from '../types';", "", "export const SYNCED_CITIES: City[] = ["]
+
+        for city in new_cities:
+            ts_lines.append("  {")
+            ts_lines.append(f"    id: '{city['id']}',")
+            ts_lines.append(f"    name: '{self.escape_string(city['name'])}',")
+            ts_lines.append(f"    slug: '{city['slug']}',")
+            ts_lines.append(f"    tier: {city['tier']},")
+            ts_lines.append(f"    state: '{self.escape_string(city['state'])}',")
+            ts_lines.append(f"    description: '{self.escape_string(city['description'])}',")
+            ts_lines.append(f"    image: '{city['image']}',")
+
+            # Stats
+            stats = city['stats']
+            ts_lines.append("    stats: {")
+            ts_lines.append(f"      medianHomePrice: '{stats['medianHomePrice']}',")
+            ts_lines.append(f"      colIndex: {stats['colIndex']},")
+            ts_lines.append(f"      incomeTax: '{stats['incomeTax']}'")
+            ts_lines.append("    },")
+
+            # Local challenges
+            ts_lines.append("    localChallenges: [")
+            for challenge in city.get('localChallenges', []):
+                ts_lines.append("      {")
+                ts_lines.append(f"        title: '{self.escape_string(challenge['title'])}',")
+                ts_lines.append(f"        description: '{self.escape_string(challenge['description'])}'")
+                ts_lines.append("      },")
+            ts_lines.append("    ],")
+
+            # Key takeaways
+            ts_lines.append("    keyTakeaways: [")
+            for takeaway in city.get('keyTakeaways', []):
+                ts_lines.append(f"      '{self.escape_string(takeaway)}',")
+            ts_lines.append("    ],")
+
+            # FAQs
+            ts_lines.append("    faqs: [")
+            for faq in city.get('faqs', []):
+                ts_lines.append("      {")
+                ts_lines.append(f"        question: '{self.escape_string(faq['question'])}',")
+                ts_lines.append(f"        answer: '{self.escape_string(faq['answer'])}'")
+                ts_lines.append("      },")
+            ts_lines.append("    ]")
+
+            ts_lines.append("  },")
+
+        ts_lines.append("];")
+        ts_lines.append("")
+
+        # Append or create file
+        if os.path.exists(output_file) and existing_ids:
+            with open(output_file, 'r', encoding='utf-8') as f:
+                existing_content = f.read()
+
+            match = re.search(r'\}\s*\];?\s*$', existing_content)
+            if match:
+                new_city_ts = []
+                for city in new_cities:
+                    city_ts = self.format_single_city(city)
+                    new_city_ts.append(city_ts)
+
+                new_content = (
+                    existing_content[:match.start() + 1] +
+                    ',\n' +
+                    ',\n'.join(new_city_ts) +
+                    '\n];\n'
+                )
+                with open(output_file, 'w', encoding='utf-8') as f:
+                    f.write(new_content)
+                self.log(f"Appended {len(new_cities)} new cities to {output_file}")
+        else:
+            with open(output_file, 'w', encoding='utf-8') as f:
+                f.write('\n'.join(ts_lines))
+            self.log(f"Created {output_file} with {len(new_cities)} cities")
+
+    def format_single_city(self, city: Dict[str, Any]) -> str:
+        """Format a single city as TypeScript object"""
+        ts_lines = ["  {"]
+        ts_lines.append(f"    id: '{city['id']}',")
+        ts_lines.append(f"    name: '{self.escape_string(city['name'])}',")
+        ts_lines.append(f"    slug: '{city['slug']}',")
+        ts_lines.append(f"    tier: {city['tier']},")
+        ts_lines.append(f"    state: '{self.escape_string(city['state'])}',")
+        ts_lines.append(f"    description: '{self.escape_string(city['description'])}',")
+        ts_lines.append(f"    image: '{city['image']}',")
+
+        stats = city['stats']
+        ts_lines.append("    stats: {")
+        ts_lines.append(f"      medianHomePrice: '{stats['medianHomePrice']}',")
+        ts_lines.append(f"      colIndex: {stats['colIndex']},")
+        ts_lines.append(f"      incomeTax: '{stats['incomeTax']}'")
+        ts_lines.append("    },")
+
+        ts_lines.append("    localChallenges: [")
+        for challenge in city.get('localChallenges', []):
+            ts_lines.append("      {")
+            ts_lines.append(f"        title: '{self.escape_string(challenge['title'])}',")
+            ts_lines.append(f"        description: '{self.escape_string(challenge['description'])}'")
+            ts_lines.append("      },")
+        ts_lines.append("    ],")
+
+        ts_lines.append("    keyTakeaways: [")
+        for takeaway in city.get('keyTakeaways', []):
+            ts_lines.append(f"      '{self.escape_string(takeaway)}',")
+        ts_lines.append("    ],")
+
+        ts_lines.append("    faqs: [")
+        for faq in city.get('faqs', []):
+            ts_lines.append("      {")
+            ts_lines.append(f"        question: '{self.escape_string(faq['question'])}',")
+            ts_lines.append(f"        answer: '{self.escape_string(faq['answer'])}'")
+            ts_lines.append("      },")
+        ts_lines.append("    ]")
+
+        ts_lines.append("  }")
+        return '\n'.join(ts_lines)
 
 
 def main():
