@@ -1,5 +1,5 @@
 import React from 'react';
-import { Article, FAQItem, Author } from '../types';
+import { Article, FAQItem, Author, TopicHub } from '../types';
 
 interface ArticleSchemaProps {
   type: 'article';
@@ -31,12 +31,19 @@ interface LocalBusinessSchemaProps {
   stateName: string;
 }
 
+interface PillarPageSchemaProps {
+  type: 'pillarPage';
+  hub: TopicHub;
+  articles: { title: string; slug: string; excerpt: string }[];
+}
+
 type SchemaProps =
   | ArticleSchemaProps
   | FAQSchemaProps
   | BreadcrumbSchemaProps
   | OrganizationSchemaProps
-  | LocalBusinessSchemaProps;
+  | LocalBusinessSchemaProps
+  | PillarPageSchemaProps;
 
 const SchemaMarkup: React.FC<SchemaProps> = (props) => {
   let schema: Record<string, any>;
@@ -140,6 +147,46 @@ const SchemaMarkup: React.FC<SchemaProps> = (props) => {
         provider: {
           '@type': 'Organization',
           name: 'Wealth Authority'
+        }
+      };
+      break;
+
+    case 'pillarPage':
+      schema = {
+        '@context': 'https://schema.org',
+        '@type': 'CollectionPage',
+        name: props.hub.title,
+        description: props.hub.description,
+        url: `https://www.wealthauthority.org/hub/${props.hub.slug}`,
+        publisher: {
+          '@type': 'Organization',
+          name: 'Wealth Authority',
+          url: 'https://www.wealthauthority.org',
+          logo: {
+            '@type': 'ImageObject',
+            url: 'https://www.wealthauthority.org/logo.png'
+          }
+        },
+        mainEntity: {
+          '@type': 'ItemList',
+          name: `${props.hub.title} Guides`,
+          numberOfItems: props.articles.length,
+          itemListElement: props.articles.map((article, index) => ({
+            '@type': 'ListItem',
+            position: index + 1,
+            url: `https://www.wealthauthority.org/article/${article.slug}`,
+            name: article.title
+          }))
+        },
+        about: {
+          '@type': 'Thing',
+          name: props.hub.title,
+          description: props.hub.description
+        },
+        isPartOf: {
+          '@type': 'WebSite',
+          name: 'Wealth Authority',
+          url: 'https://www.wealthauthority.org'
         }
       };
       break;

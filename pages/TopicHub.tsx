@@ -22,6 +22,11 @@ const TopicHub: React.FC = () => {
   return (
     <div className="min-h-screen bg-white">
       {/* Schema Markup */}
+      <SchemaMarkup
+        type="pillarPage"
+        hub={hub}
+        articles={articles.map(a => ({ title: a.title, slug: a.slug, excerpt: a.excerpt }))}
+      />
       {hub.faqs.length > 0 && (
         <SchemaMarkup type="faq" faqs={hub.faqs} />
       )}
