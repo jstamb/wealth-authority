@@ -3516,6 +3516,26 @@ export const TAXPLANNING_ARTICLES: Article[] = [
         question: '### How are RSUs taxed differently from stock options?',
         answer: 'RSUs are taxed as ordinary income when they vest—you receive shares and owe tax on their value. Stock options aren\'t taxed until you exercise them, and then only on the "spread" between strike price and market value. RSUs have no purchase cost; options require paying the strike price.'
       },
+      {
+        question: '### What is the stock option tax payout?',
+        answer: 'Stock option tax depends on the option type: For Non-Qualified Stock Options (NQSOs): The spread (market price minus strike price) is taxed as ordinary income at exercise, plus applicable state taxes. For Incentive Stock Options (ISOs): No regular income tax at exercise, but the spread may trigger AMT. If you hold shares 1+ year after exercise and 2+ years after grant, gains are long-term capital gains (0-20%). Selling earlier converts to ordinary income treatment.'
+      },
+      {
+        question: '### What is the best stock option tax strategy?',
+        answer: 'The best stock option tax strategy depends on your situation: 1) For ISOs: Exercise and hold to qualify for long-term capital gains, but watch AMT exposure. 2) For NQSOs: Consider exercising in lower income years, or spread exercises across tax years. 3) For all options: Diversify after exercising—don\'t hold concentrated positions for tax reasons alone. 4) Time exercises with other income—avoid pushing yourself into higher brackets. 5) Consider cashless exercises to avoid tying up capital.'
+      },
+      {
+        question: '### How does stock option tax planning work?',
+        answer: 'Stock option tax planning involves: 1) Modeling exercise scenarios to project tax impact, 2) Comparing regular income tax vs. AMT treatment for ISOs, 3) Timing exercises across tax years to manage brackets, 4) Coordinating with other income sources (bonus timing, capital gains), 5) Using AMT credit carryforwards from prior ISO exercises, 6) Planning for state taxes (California taxes ISO gains as ordinary income), and 7) Considering 83(b) elections for early-exercise options. Good planning can save 10-20% in taxes on large option exercises.'
+      },
+      {
+        question: '### How much tax do I pay when I exercise stock options?',
+        answer: 'Tax on stock option exercise depends on option type and your bracket: NQSOs: Taxed at your marginal rate (22-37% federal + state). Example: $100K spread in a 35% combined bracket = ~$35,000 tax. ISOs: No regular income tax at exercise, but AMT may apply (26-28% on the spread). If you hold for required periods, only long-term capital gains (0-20%) applies on sale. Early sale of ISO shares converts to ordinary income. Always model both scenarios before exercising large amounts.'
+      },
+      {
+        question: '### When is the best time to exercise stock options?',
+        answer: 'The best time to exercise stock options considers: 1) Expiration date (don\'t lose valuable options), 2) Stock price outlook (exercise if you believe growth is limited), 3) Your tax situation (lower income years reduce tax on NQSOs), 4) AMT situation (for ISOs, model AMT before exercising large amounts), 5) Liquidity needs (exercise when you need cash), 6) Concentration risk (don\'t let options become too large a portion of net worth). There\'s no universal best time—it depends on your financial picture, tax situation, and stock outlook.'
+      },
     ],
     bottomLine: 'Stock compensation can be a significant wealth builder, but the tax complexity requires careful planning. RSUs are the simplest—taxed at vesting as ordinary income. ISOs offer potential long-term capital gains but create AMT exposure. NQSOs are taxed as ordinary income at exercise. ESPP provides a guaranteed discount worth maximizing. Across all types, manage concentration risk through systematic diversification, understand withholding shortfalls, and consider the tax implications of holding periods. Working with a financial advisor experienced in equity compensation can help you navigate these decisions and potentially save significant taxes. --- *Learn more about [[Tax Planning]], [[Capital Gains Tax]], and [[Diversification]] in our comprehensive guides.*'
   },

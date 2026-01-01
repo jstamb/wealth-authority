@@ -3020,8 +3020,28 @@ export const RETIREMENT_ARTICLES: Article[] = [
     ],
     faqs: [
       {
+        question: '### How can I retire before 65?',
+        answer: 'To retire before 65, you need: 1) Savings of 25-33x your annual expenses (the "4% rule" or more conservative 3% rule), 2) A healthcare solution (ACA marketplace, COBRA, or spouse\'s coverage until Medicare at 65), 3) Access to retirement funds without penalties (Roth contributions, taxable accounts, or 72(t) distributions), 4) A Social Security strategy (delaying increases benefits but you\'ll need bridge income), and 5) A realistic budget accounting for inflation over a 40+ year retirement.'
+      },
+      {
+        question: '### How much money do I need to retire before 65?',
+        answer: 'To retire before 65, target 25-33x your annual expenses. For example: $50,000/year expenses → $1.25-1.65 million, $75,000/year → $1.88-2.5 million, $100,000/year → $2.5-3.3 million. Add extra for healthcare ($15,000-25,000/year until Medicare) and a larger emergency fund. Early retirees should target the higher end (30-33x) because of the longer retirement period and sequence of returns risk.'
+      },
+      {
         question: '### Can I really retire at 50? At 40?',
-        answer: 'Yes, with sufficient savings and planning. The key factors: - Savings rate during working years - Expense level in retirement - Healthcare solution - Willingness to be flexible'
+        answer: 'Yes, with sufficient savings and planning. The key factors are: savings rate during working years (aim for 50%+ for very early retirement), expense level in retirement (lower expenses = easier target), healthcare solution (biggest challenge before Medicare), and willingness to be flexible (ability to adjust spending or return to work if needed). Many FIRE practitioners retire at 40-50 with $1.5-3 million.'
+      },
+      {
+        question: '### What is the biggest challenge of retiring before 65?',
+        answer: 'Healthcare is the biggest challenge of retiring before 65. You\'re not Medicare-eligible until 65, so you need private coverage for potentially 10-25 years. Options: 1) ACA marketplace plans (subsidies available if you manage taxable income below thresholds), 2) COBRA from previous employer (expensive, time-limited), 3) Spouse\'s employer plan, 4) Health sharing ministries, or 5) Part-time work with benefits. Budget $15,000-40,000/year per couple until Medicare.'
+      },
+      {
+        question: '### How do I access retirement accounts before 59.5?',
+        answer: 'To access retirement funds before 59.5 without the 10% penalty: 1) Roth IRA contributions (not earnings) can be withdrawn anytime tax and penalty-free, 2) 72(t)/SEPP distributions allow penalty-free access through substantially equal periodic payments, 3) 401(k) Rule of 55 allows penalty-free access if you leave your job in the year you turn 55+, 4) Taxable brokerage accounts have no age restrictions. Build a "bridge" of accessible funds to cover years before 59.5.'
+      },
+      {
+        question: '### Will retiring before 65 hurt my Social Security?',
+        answer: 'Retiring before 65 can reduce Social Security benefits because: 1) Your benefit is based on your highest 35 years of earnings—fewer working years may include $0 years, 2) You can\'t claim until 62 at the earliest (reduced benefits) or 67+ for full benefits. However, if you\'ve already worked 35 years, additional years at lower earnings won\'t help much. The key is having other income to bridge until you can claim at 67-70 for maximum benefits.'
       },
     ],
     bottomLine: 'Early retirement is achievable but requires more than just a high savings rate. Healthcare, access to retirement accounts, Social Security optimization, and lifestyle planning are equally important. The best early retirement plans build in flexibility—the ability to adjust spending, return to work if needed, and adapt to changing circumstances over a potentially very long retirement. --- *Learn more about [[Retirement Planning]], [[How Much Do You Need to Retire]], and [[Retirement Income Strategies]] in our comprehensive guides.*'

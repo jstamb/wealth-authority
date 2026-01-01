@@ -10,11 +10,24 @@ import ArticlePage from './pages/ArticlePage';
 import Strategies from './pages/Strategies';
 import CityDirectory from './pages/CityDirectory';
 
-// ScrollToTop component to handle scroll behavior on route change
+// Declare gtag for TypeScript
+declare global {
+  interface Window {
+    gtag: (command: string, targetId: string, config?: Record<string, unknown>) => void;
+  }
+}
+
+// ScrollToTop component to handle scroll behavior and GA pageview tracking on route change
 const ScrollToTopWrapper = () => {
   const { pathname } = useLocation();
   React.useEffect(() => {
     window.scrollTo(0, 0);
+    // Track pageview in Google Analytics for SPA navigation
+    if (typeof window.gtag === 'function') {
+      window.gtag('config', 'G-HF7WFWX4KQ', {
+        page_path: pathname,
+      });
+    }
   }, [pathname]);
   return null;
 }

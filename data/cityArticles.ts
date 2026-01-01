@@ -5,7 +5,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-austin-002',
     title: 'Tax Planning in Austin: Texas No-Income-Tax Strategies',
     slug: 'tax-planning',
-    hubId: 'austin-wealth-management',
+    hubId: 'austin',
     type: 'spoke',
     excerpt: 'Comprehensive tax planning strategies for Austin residents including Texas\'s zero income tax, property tax management, and tech equity optimization.',
     readTime: '7 min read',
@@ -452,7 +452,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-austin-004',
     title: 'Investment Strategies in Austin: Texas Tax-Free Portfolio Management',
     slug: 'investment-strategies',
-    hubId: 'austin-wealth-management',
+    hubId: 'austin',
     type: 'spoke',
     excerpt: 'Investment strategies tailored for Austin residents including tax-free investing, tech equity management, and Texas-specific portfolio optimization.',
     readTime: '7 min read',
@@ -871,7 +871,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-austin-003',
     title: 'Estate Planning in Austin: Texas Trust and Probate Strategies',
     slug: 'estate-planning',
-    hubId: 'austin-wealth-management',
+    hubId: 'austin',
     type: 'spoke',
     excerpt: 'Comprehensive estate planning strategies for Austin residents including Texas\'s no-estate-tax advantage, community property rules, and probate procedures.',
     readTime: '7 min read',
@@ -1265,7 +1265,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-austin-005',
     title: 'High Net Worth Wealth Management in Austin: Texas Tax Strategies',
     slug: 'high-net-worth',
-    hubId: 'austin-wealth-management',
+    hubId: 'austin',
     type: 'spoke',
     excerpt: 'Specialized wealth management strategies for high net worth Austin residents including tech equity optimization, tax planning, and family office services.',
     readTime: '8 min read',
@@ -1671,7 +1671,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-austin-001',
     title: 'Retirement Planning in Austin: Texas Tax-Free Retirement Strategies',
     slug: 'retirement-planning',
-    hubId: 'austin-wealth-management',
+    hubId: 'austin',
     type: 'spoke',
     excerpt: 'Expert retirement planning strategies for Austin residents including Texas\'s no-income-tax advantage, cost of living considerations, and tech wealth optimization.',
     readTime: '7 min read',
@@ -2180,7 +2180,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-seattle-002',
     title: 'Tax Planning for Seattle Residents: Washington State Strategies',
     slug: 'tax-planning',
-    hubId: 'seattle-wealth-management',
+    hubId: 'seattle',
     type: 'spoke',
     excerpt: 'Expert tax planning strategies for Seattle and Washington residents including capital gains tax management, estate tax planning, and tech industry wealth optimization.',
     readTime: '8 min read',
@@ -2579,7 +2579,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-seattle-004',
     title: 'Investment Strategies for Seattle Professionals: Expert Guide',
     slug: 'investment-strategies',
-    hubId: 'seattle-wealth-management',
+    hubId: 'seattle',
     type: 'spoke',
     excerpt: 'Smart investment strategies for Seattle and Washington residents including tech industry considerations, capital gains tax planning, and building wealth in the Pacific Northwest.',
     readTime: '8 min read',
@@ -3102,7 +3102,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-seattle-003',
     title: 'Estate Planning in Seattle: Washington State Complete Guide',
     slug: 'estate-planning',
-    hubId: 'seattle-wealth-management',
+    hubId: 'seattle',
     type: 'spoke',
     excerpt: 'Essential estate planning strategies for Seattle and Washington residents including estate tax planning, trusts, and protecting family wealth in the Pacific Northwest.',
     readTime: '8 min read',
@@ -3607,7 +3607,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-seattle-005',
     title: 'High Net Worth Services in Seattle: Washington Wealth Management Guide',
     slug: 'high-net-worth',
-    hubId: 'seattle-wealth-management',
+    hubId: 'seattle',
     type: 'spoke',
     excerpt: 'Comprehensive guide to high net worth services in Seattle including tech industry wealth management, estate tax planning, and family office services in the Pacific Northwest.',
     readTime: '9 min read',
@@ -4285,7 +4285,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-seattle-001',
     title: 'Retirement Planning in Seattle: Washington State Expert Guide',
     slug: 'retirement-planning',
-    hubId: 'seattle-wealth-management',
+    hubId: 'seattle',
     type: 'spoke',
     excerpt: 'Comprehensive retirement planning strategies for Seattle residents including Washington tax advantages, tech industry planning, and building retirement security in the Pacific Northwest.',
     readTime: '7 min read',
@@ -4707,7 +4707,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-chicago-002',
     title: 'Tax Planning for Chicago Residents: Illinois Tax Strategies',
     slug: 'tax-planning',
-    hubId: 'chicago-wealth-management',
+    hubId: 'chicago',
     type: 'spoke',
     excerpt: 'Expert tax planning strategies for Chicago and Illinois residents including retirement income benefits, property tax management, and wealth building approaches.',
     readTime: '8 min read',
@@ -5198,7 +5198,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-chicago-004',
     title: 'Investment Strategies for Chicago Professionals: Expert Guide',
     slug: 'investment-strategies',
-    hubId: 'chicago-wealth-management',
+    hubId: 'chicago',
     type: 'spoke',
     excerpt: 'Smart investment strategies for Chicago and Illinois residents including tax-efficient investing, retirement planning, and building wealth in the Midwest.',
     readTime: '8 min read',
@@ -5663,7 +5663,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-chicago-003',
     title: 'Estate Planning in Illinois: Chicago Resident\'s Complete Guide',
     slug: 'estate-planning',
-    hubId: 'chicago-wealth-management',
+    hubId: 'chicago',
     type: 'spoke',
     excerpt: 'Essential estate planning strategies for Chicago and Illinois residents including the Illinois estate tax, trusts, and protecting family wealth in the Prairie State.',
     readTime: '7 min read',
@@ -6108,7 +6108,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-chicago-005',
     title: 'High Net Worth Services in Chicago: Midwest Wealth Management Guide',
     slug: 'high-net-worth',
-    hubId: 'chicago-wealth-management',
+    hubId: 'chicago',
     type: 'spoke',
     excerpt: 'Comprehensive guide to high net worth services in Chicago including private banking, family offices, Illinois estate tax planning, and wealth preservation strategies.',
     readTime: '9 min read',
@@ -6738,7 +6738,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-chicago-001',
     title: 'Retirement Planning in Chicago: Illinois Expert Guide',
     slug: 'retirement-planning',
-    hubId: 'chicago-wealth-management',
+    hubId: 'chicago',
     type: 'spoke',
     excerpt: 'Comprehensive retirement planning strategies for Chicago residents including Illinois tax considerations, pension planning, and Midwest cost of living advantages.',
     readTime: '8 min read',
@@ -7183,7 +7183,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-la-002',
     title: 'Tax Planning for Los Angeles Residents: California Tax Strategies',
     slug: 'tax-planning',
-    hubId: 'los-angeles-wealth-management',
+    hubId: 'la',
     type: 'spoke',
     excerpt: 'Expert tax planning strategies for Los Angeles residents including California income tax optimization, Prop 13 planning, and entertainment industry tax considerations.',
     readTime: '9 min read',
@@ -7728,7 +7728,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-la-004',
     title: 'Investment Strategies for LA Professionals: Tax-Efficient Wealth Building',
     slug: 'investment-strategies',
-    hubId: 'los-angeles-wealth-management',
+    hubId: 'la',
     type: 'spoke',
     excerpt: 'Expert investment strategies for Los Angeles professionals including tax-efficient investing, entertainment industry considerations, and managing California\'s high tax burden.',
     readTime: '8 min read',
@@ -8243,7 +8243,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-la-003',
     title: 'Estate Planning in California: Los Angeles Resident\'s Guide',
     slug: 'estate-planning',
-    hubId: 'los-angeles-wealth-management',
+    hubId: 'la',
     type: 'spoke',
     excerpt: 'Complete guide to estate planning for Los Angeles residents including California trusts, probate avoidance, property transfers, and protecting your family.',
     readTime: '9 min read',
@@ -8715,7 +8715,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-la-005',
     title: 'High Net Worth Services in Los Angeles: Private Wealth Guide',
     slug: 'high-net-worth',
-    hubId: 'los-angeles-wealth-management',
+    hubId: 'la',
     type: 'spoke',
     excerpt: 'Comprehensive guide to high net worth services in Los Angeles including private banking, family offices, entertainment industry wealth management, and tax planning.',
     readTime: '9 min read',
@@ -9363,16 +9363,16 @@ export const CITY_ARTICLES: Article[] = [
   },
   {
     id: 'city-la-001',
-    title: 'Retirement Planning in Los Angeles: Expert Guide for LA Residents',
+    title: 'Los Angeles Retirement Planning & Investment Strategies: Expert Guide',
     slug: 'retirement-planning',
-    hubId: 'los-angeles-wealth-management',
+    hubId: 'la',
     type: 'spoke',
-    excerpt: 'Comprehensive retirement planning strategies for Los Angeles residents including California tax considerations, high cost of living, and entertainment industry planning.',
+    excerpt: 'Los Angeles retirement investment strategies and planning guide. Expert advice on California taxes, high cost of living, entertainment industry planning, and LA-specific retirement challenges.',
     readTime: '9 min read',
     publishDate: '2025-11-25',
     author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
-    primaryKeyword: 'retirement planning Los Angeles',
-    metaDescription: 'Comprehensive retirement planning strategies for Los Angeles residents including California tax considerations, high cost of living, and entertainment industry planning.',
+    primaryKeyword: 'los angeles retirement investment strategies',
+    metaDescription: 'Los Angeles retirement investment strategies and planning guide. Expert advice for LA residents on California taxes, cost of living, and entertainment industry retirement planning.',
     lastUpdated: '2025-11-25',
     keyTakeaways: [
       'LA\'s cost of living requires 15-25% more retirement savings than national averages',
@@ -9856,8 +9856,28 @@ export const CITY_ARTICLES: Article[] = [
     ],
     faqs: [
       {
+        question: '### What are the best retirement investment strategies for Los Angeles residents?',
+        answer: 'The best Los Angeles retirement investment strategies focus on tax efficiency and growth: 1) Maximize Roth conversions in lower-income years to reduce future California taxes, 2) Use municipal bonds (California munis are state and federal tax-free), 3) Hold tax-efficient index funds in taxable accounts, 4) Consider tax-loss harvesting to offset California capital gains, 5) Build substantial taxable accounts for flexibility before 59.5, and 6) Plan for higher withdrawal needs due to LA\'s cost of living.'
+      },
+      {
         question: '### How much more do I need to retire in LA vs. nationally?',
         answer: 'Generally 15-25% more, driven primarily by housing costs. Someone needing $60,000 nationally might need $70,000-$75,000 in Los Angeles. However, factors like paid-off housing, Prop 13 benefits, and lifestyle choices can significantly affect individual needs.'
+      },
+      {
+        question: '### Should I retire in Los Angeles or move to a tax-free state?',
+        answer: 'The LA vs. tax-free state decision depends on your priorities. Moving to Nevada, Arizona, or Texas saves 10-13% on retirement income annually. For a $100,000 retirement income, that\'s $10,000-$13,000/year. However, consider: weather and lifestyle preferences, family proximity, established medical care, Prop 13 benefits on long-held property, and social connections. Many LA retirees establish residency in Nevada while maintaining an LA presence, though this requires careful planning to avoid California\'s aggressive residency audits.'
+      },
+      {
+        question: '### How do entertainment industry professionals plan for retirement in LA?',
+        answer: 'Entertainment industry retirement planning requires: 1) SAG-AFTRA and other union pension optimization, 2) Strategies for irregular income years (income smoothing, Roth conversions in low years), 3) Residual income planning (royalties can continue into retirement), 4) Managing concentration in entertainment industry investments, 5) Health insurance bridging if retiring before guild eligibility or Medicare, and 6) Planning around the boom/bust income pattern typical of the industry.'
+      },
+      {
+        question: '### What is Prop 13 and how does it affect LA retirement planning?',
+        answer: 'Prop 13 limits California property tax increases to 2% annually regardless of home value appreciation. For long-term LA homeowners, this creates major retirement benefits: property taxes may be 1/10th what new buyers pay on the same home. This locked-in low rate makes staying in LA more affordable and is a key factor in the stay vs. relocate decision. If you sell your LA home and buy elsewhere in California, you may lose this benefit (though Prop 19 allows some transfers for those 55+).'
+      },
+      {
+        question: '### How much do LA residents need to retire comfortably?',
+        answer: 'To retire comfortably in Los Angeles, plan for 25-30x your annual expenses. For a moderate LA retirement lifestyle ($80,000-$100,000/year after taxes), target $2-3 million in retirement savings. For an affluent LA retirement ($150,000+/year), target $4-5 million or more. Remember: California taxes retirement income at up to 13.3%, so gross income needs are higher than net spending needs. Social Security is not taxed by California, which helps.'
       },
     ],
     bottomLine: 'Retirement planning in Los Angeles requires confronting high costs and high taxes while leveraging available benefits like Prop 13 and tax-free Social Security. Industry-specific strategies matter—entertainment professionals face different challenges than tech workers or healthcare providers. The stay vs. relocate decision deserves careful analysis beyond just tax savings. Work with advisors who understand LA\'s unique retirement landscape to build a plan that supports the lifestyle you want, whether that\'s enjoying LA\'s weather and culture or optimizing taxes elsewhere. --- *Learn more about [[Los Angeles Wealth Management]], [[Retirement Planning]], and [[LA Tax Planning]] in our comprehensive guides.*'
@@ -9866,7 +9886,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-phoenix-002',
     title: 'Tax Planning in Phoenix: Arizona Tax Strategies for High Earners',
     slug: 'tax-planning',
-    hubId: 'phoenix-wealth-management',
+    hubId: 'phoenix',
     type: 'spoke',
     excerpt: 'Comprehensive tax planning strategies for Phoenix residents including Arizona\'s flat tax, no estate tax, and strategic relocation benefits.',
     readTime: '6 min read',
@@ -10185,7 +10205,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-phoenix-004',
     title: 'Investment Strategies in Phoenix: Arizona-Optimized Portfolio Management',
     slug: 'investment-strategies',
-    hubId: 'phoenix-wealth-management',
+    hubId: 'phoenix',
     type: 'spoke',
     excerpt: 'Investment strategies tailored for Phoenix residents including tax-efficient investing, Arizona real estate opportunities, and regional economic considerations.',
     readTime: '7 min read',
@@ -10577,7 +10597,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-phoenix-003',
     title: 'Estate Planning in Phoenix: Arizona Trust and Estate Strategies',
     slug: 'estate-planning',
-    hubId: 'phoenix-wealth-management',
+    hubId: 'phoenix',
     type: 'spoke',
     excerpt: 'Comprehensive estate planning strategies for Phoenix residents including Arizona\'s no-estate-tax advantage, community property considerations, and wealth transfer.',
     readTime: '6 min read',
@@ -10888,7 +10908,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-phoenix-005',
     title: 'High Net Worth Wealth Management in Phoenix: Arizona Strategies',
     slug: 'high-net-worth',
-    hubId: 'phoenix-wealth-management',
+    hubId: 'phoenix',
     type: 'spoke',
     excerpt: 'Specialized wealth management strategies for high net worth Phoenix residents including tax optimization, estate planning, and multi-generational wealth transfer.',
     readTime: '7 min read',
@@ -11299,7 +11319,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-phoenix-001',
     title: 'Retirement Planning in Phoenix: Strategies for Arizona Residents',
     slug: 'retirement-planning',
-    hubId: 'phoenix-wealth-management',
+    hubId: 'phoenix',
     type: 'spoke',
     excerpt: 'Expert retirement planning strategies for Phoenix residents including tax advantages, cost of living benefits, and Arizona-specific retirement considerations.',
     readTime: '6 min read',
@@ -11623,7 +11643,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-houston-002',
     title: 'Tax Planning for Houston Residents: Texas Tax Advantage Strategies',
     slug: 'tax-planning',
-    hubId: 'houston-wealth-management',
+    hubId: 'houston',
     type: 'spoke',
     excerpt: 'Expert tax planning strategies for Houston and Texas residents including maximizing no-state-income-tax advantages, property tax management, and wealth building.',
     readTime: '8 min read',
@@ -12129,7 +12149,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-houston-004',
     title: 'Investment Strategies for Houston Professionals: Expert Guide',
     slug: 'investment-strategies',
-    hubId: 'houston-wealth-management',
+    hubId: 'houston',
     type: 'spoke',
     excerpt: 'Smart investment strategies for Houston and Texas residents including energy industry considerations, tax-efficient investing, and building wealth in the Lone Star State.',
     readTime: '7 min read',
@@ -12545,8 +12565,28 @@ export const CITY_ARTICLES: Article[] = [
     ],
     faqs: [
       {
+        question: '### What are the best trading strategies for Houston investors?',
+        answer: 'Houston investors should focus on tax-efficient trading strategies given Texas\' no-income-tax advantage: 1) Long-term holding minimizes federal capital gains taxes, 2) Tax-loss harvesting offsets gains without state tax complications, 3) Avoid short-term trading (taxed as ordinary income federally), 4) Diversify away from energy sector to reduce correlation with local economy, 5) Use ETFs for tax efficiency. For active traders, Houston\'s lack of state tax makes trading more attractive than in California or New York.'
+      },
+      {
+        question: '### What asset allocation strategies work best for Houston investors?',
+        answer: 'Asset allocation strategies for Houston investors should emphasize: 1) Reduced energy sector weighting (your career already provides energy exposure), 2) Global diversification to reduce Texas economy correlation, 3) Slightly higher stock allocation since no state tax means higher after-tax returns, 4) Municipal bonds are less valuable (no state tax to avoid), 5) Consider inflation hedges given Houston\'s ties to commodity prices. A typical Houston professional might hold 10-15% less energy than the S&P 500 allocation.'
+      },
+      {
         question: '### Should I invest more in energy since I understand the industry?',
         answer: 'Generally no. You already have significant energy exposure through your career, employer stock, and local economy. Your personal portfolio should diversify away from energy, not add more.'
+      },
+      {
+        question: '### How should Houston investors approach diversification?',
+        answer: 'Diversification for Houston investors requires intentional effort because your career, real estate, and local economy are heavily energy-dependent. Key strategies: 1) Underweight energy in your portfolio relative to market indices, 2) Diversify globally—international stocks aren\'t correlated with Texas oil, 3) Consider REITs focused outside Texas, 4) Limit employer stock to 5-10% of portfolio regardless of industry outlook, 5) Build bond positions that aren\'t energy-company debt. Your goal is a portfolio that performs well even when Houston\'s economy struggles.'
+      },
+      {
+        question: '### What alternative investments are popular with Houston investors?',
+        answer: 'Houston investors often pursue alternative investments including: 1) Real estate (Texas properties, but diversify location), 2) Oil and gas royalties and working interests (be cautious—adds energy concentration), 3) Private equity, especially energy-focused funds, 4) MLPs (master limited partnerships) for energy infrastructure, and 5) Farmland and timber. However, Houston investors should be cautious about adding more energy-related alternatives given existing energy exposure through career and local economy.'
+      },
+      {
+        question: '### How does Texas no income tax affect investment strategy?',
+        answer: 'Texas\' no income tax simplifies investment strategy: 1) No need for state-tax-exempt municipal bonds—national munis or corporates may offer better yields, 2) Roth vs. traditional IRA decision focuses only on federal rates, 3) Capital gains aren\'t taxed at state level, making rebalancing cheaper, 4) Dividend-paying stocks are more attractive (no state tax on dividends), 5) Tax-loss harvesting benefits apply only to federal taxes but remain valuable. Overall, Texas investors keep more of their investment returns than those in high-tax states.'
       },
     ],
     bottomLine: 'Houston investors benefit from Texas\' no-state-income-tax advantage but face concentration risk from the energy-dependent economy. Successful investing requires deliberate diversification away from energy, disciplined management of employer stock, and focus on federal tax efficiency. Build a globally diversified portfolio that complements rather than compounds your energy industry exposure. Stay consistent through industry cycles, and let time and compound growth work in your favor. --- *Learn more about [[Houston Wealth Management]], [[Investment Strategies]], and [[Houston Tax Planning]] in our comprehensive guides.*'
@@ -12555,7 +12595,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-houston-003',
     title: 'Estate Planning in Texas: Houston Resident\'s Complete Guide',
     slug: 'estate-planning',
-    hubId: 'houston-wealth-management',
+    hubId: 'houston',
     type: 'spoke',
     excerpt: 'Essential estate planning strategies for Houston and Texas residents including probate avoidance, trusts, and protecting family wealth in the Lone Star State.',
     readTime: '8 min read',
@@ -13013,7 +13053,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-houston-005',
     title: 'High Net Worth Services in Houston: Texas Wealth Management Guide',
     slug: 'high-net-worth',
-    hubId: 'houston-wealth-management',
+    hubId: 'houston',
     type: 'spoke',
     excerpt: 'Comprehensive guide to high net worth services in Houston including energy industry wealth management, family offices, and leveraging Texas tax advantages.',
     readTime: '8 min read',
@@ -13652,7 +13692,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-houston-001',
     title: 'Retirement Planning in Houston: Texas Expert Guide',
     slug: 'retirement-planning',
-    hubId: 'houston-wealth-management',
+    hubId: 'houston',
     type: 'spoke',
     excerpt: 'Comprehensive retirement planning strategies for Houston residents including Texas tax advantages, energy industry planning, and building retirement security without state income tax.',
     readTime: '7 min read',
@@ -14139,7 +14179,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-boston-002',
     title: 'Tax Planning in Boston: Massachusetts Millionaire Tax Strategies',
     slug: 'tax-planning',
-    hubId: 'boston-wealth-management',
+    hubId: 'boston',
     type: 'spoke',
     excerpt: 'Comprehensive tax planning strategies for Boston residents including millionaire surtax planning, estate tax mitigation, and investment tax optimization.',
     readTime: '7 min read',
@@ -14575,7 +14615,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-boston-004',
     title: 'Investment Strategies in Boston: Massachusetts Tax-Optimized Portfolios',
     slug: 'investment-strategies',
-    hubId: 'boston-wealth-management',
+    hubId: 'boston',
     type: 'spoke',
     excerpt: 'Investment strategies tailored for Boston residents including short-term capital gains avoidance, municipal bond allocation, and millionaire surtax planning.',
     readTime: '7 min read',
@@ -14949,7 +14989,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-boston-003',
     title: 'Estate Planning in Boston: Massachusetts Trust and Probate Strategies',
     slug: 'estate-planning',
-    hubId: 'boston-wealth-management',
+    hubId: 'boston',
     type: 'spoke',
     excerpt: 'Comprehensive estate planning strategies for Boston residents including Massachusetts estate tax planning, trust strategies, and probate procedures.',
     readTime: '7 min read',
@@ -15352,7 +15392,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-boston-005',
     title: 'High Net Worth Wealth Management in Boston: Massachusetts Strategies',
     slug: 'high-net-worth',
-    hubId: 'boston-wealth-management',
+    hubId: 'boston',
     type: 'spoke',
     excerpt: 'Specialized wealth management strategies for high net worth Boston residents including millionaire surtax planning, estate tax mitigation, and family office services.',
     readTime: '8 min read',
@@ -15850,7 +15890,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-boston-001',
     title: 'Retirement Planning in Boston: Massachusetts Retirement Strategies',
     slug: 'retirement-planning',
-    hubId: 'boston-wealth-management',
+    hubId: 'boston',
     type: 'spoke',
     excerpt: 'Expert retirement planning strategies for Boston residents including Massachusetts tax considerations, millionaire surtax planning, and healthcare advantages.',
     readTime: '7 min read',
@@ -16350,7 +16390,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-dallas-002',
     title: 'Tax Planning for Dallas Residents: Texas Tax Advantage Strategies',
     slug: 'tax-planning',
-    hubId: 'dallas-wealth-management',
+    hubId: 'dallas',
     type: 'spoke',
     excerpt: 'Expert tax planning strategies for Dallas and Texas residents including maximizing no-state-income-tax advantages, property tax management, and wealth building in DFW.',
     readTime: '8 min read',
@@ -16857,7 +16897,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-dallas-004',
     title: 'Investment Strategies for Dallas Professionals: Expert Guide',
     slug: 'investment-strategies',
-    hubId: 'dallas-wealth-management',
+    hubId: 'dallas',
     type: 'spoke',
     excerpt: 'Smart investment strategies for Dallas and Texas residents including corporate executive considerations, tax-efficient investing, and building wealth in DFW.',
     readTime: '7 min read',
@@ -17308,7 +17348,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-dallas-003',
     title: 'Estate Planning in Texas: Dallas Resident\'s Complete Guide',
     slug: 'estate-planning',
-    hubId: 'dallas-wealth-management',
+    hubId: 'dallas',
     type: 'spoke',
     excerpt: 'Essential estate planning strategies for Dallas and Texas residents including probate avoidance, trusts, and protecting family wealth in the Lone Star State.',
     readTime: '8 min read',
@@ -17766,7 +17806,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-dallas-005',
     title: 'High Net Worth Services in Dallas: Texas Wealth Management Guide',
     slug: 'high-net-worth',
-    hubId: 'dallas-wealth-management',
+    hubId: 'dallas',
     type: 'spoke',
     excerpt: 'Comprehensive guide to high net worth services in Dallas including corporate executive wealth management, family offices, and leveraging Texas tax advantages.',
     readTime: '8 min read',
@@ -18411,7 +18451,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-dallas-001',
     title: 'Retirement Planning in Dallas: Texas Expert Guide',
     slug: 'retirement-planning',
-    hubId: 'dallas-wealth-management',
+    hubId: 'dallas',
     type: 'spoke',
     excerpt: 'Comprehensive retirement planning strategies for Dallas residents including Texas tax advantages, corporate retirement benefits, and building retirement security in DFW.',
     readTime: '8 min read',
@@ -18924,7 +18964,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-sandiego-002',
     title: 'Tax Planning in San Diego: California Tax Strategies',
     slug: 'tax-planning',
-    hubId: 'san-diego-wealth-management',
+    hubId: 'sandiego',
     type: 'spoke',
     excerpt: 'Comprehensive tax planning strategies for San Diego residents including California\'s high taxes, Prop 13 benefits, and cross-border considerations.',
     readTime: '6 min read',
@@ -19367,7 +19407,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-sandiego-004',
     title: 'Investment Strategies in San Diego: California Tax-Efficient Portfolios',
     slug: 'investment-strategies',
-    hubId: 'san-diego-wealth-management',
+    hubId: 'sandiego',
     type: 'spoke',
     excerpt: 'Investment strategies tailored for San Diego residents including high state tax considerations, municipal bond allocation, and military TSP optimization.',
     readTime: '6 min read',
@@ -19749,7 +19789,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-sandiego-003',
     title: 'Estate Planning in San Diego: California Trust and Probate Strategies',
     slug: 'estate-planning',
-    hubId: 'san-diego-wealth-management',
+    hubId: 'sandiego',
     type: 'spoke',
     excerpt: 'Comprehensive estate planning strategies for San Diego residents including California\'s community property rules, trust planning, and probate avoidance.',
     readTime: '6 min read',
@@ -20146,7 +20186,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-sandiego-005',
     title: 'High Net Worth Wealth Management in San Diego: California Strategies',
     slug: 'high-net-worth',
-    hubId: 'san-diego-wealth-management',
+    hubId: 'sandiego',
     type: 'spoke',
     excerpt: 'Specialized wealth management strategies for high net worth San Diego residents including California tax optimization, real estate planning, and lifestyle considerations.',
     readTime: '7 min read',
@@ -20524,7 +20564,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-sandiego-001',
     title: 'Retirement Planning in San Diego: California Retirement Strategies',
     slug: 'retirement-planning',
-    hubId: 'san-diego-wealth-management',
+    hubId: 'sandiego',
     type: 'spoke',
     excerpt: 'Expert retirement planning strategies for San Diego residents including California tax considerations, military retirement benefits, and coastal lifestyle planning.',
     readTime: '7 min read',
@@ -20975,6 +21015,26 @@ export const CITY_ARTICLES: Article[] = [
         question: '### Does California tax retirement income?',
         answer: 'Yes. California taxes 401(k)s, IRAs, and pensions at regular income tax rates (up to 13.3%). Social Security is the exception—it\'s exempt from California state tax.'
       },
+      {
+        question: '### How much money do you need to retire in San Diego?',
+        answer: 'For a comfortable retirement in San Diego, plan for $80,000-$120,000 annual spending, requiring $2.0-$3.0 million in savings (plus Social Security). San Diego\'s cost of living is about 45% above the national average, with housing being the biggest factor. Factor in California\'s high income tax (up to 13.3%) on retirement distributions when calculating your needs.'
+      },
+      {
+        question: '### Is San Diego a good place to retire?',
+        answer: 'San Diego is excellent for retirees who prioritize lifestyle: perfect weather year-round (average 70°F), beaches, outdoor activities, and excellent healthcare (UC San Diego Health, Scripps, Sharp). The trade-offs are high housing costs and California\'s steep income tax. Military retirees benefit from VA healthcare and familiar community. For those who can afford it, San Diego offers one of America\'s best retirement environments.'
+      },
+      {
+        question: '### What are the best retirement communities in San Diego?',
+        answer: 'Top 55+ communities include Rancho Bernardo (multiple options), Oceana and La Costa Glen in North County, and Sun City in nearby Menifee. Del Webb has communities in the region. For luxury, consider La Jolla or Coronado. Most retirees settle in North County (Carlsbad, Oceanside, Encinitas) for lower costs than coastal South County while maintaining beach access.'
+      },
+      {
+        question: '### Should I retire in San Diego or move to a no-income-tax state?',
+        answer: 'Depends on lifestyle priorities. San Diego offers exceptional weather, beach lifestyle, and more relaxed pace than LA/SF. Those who value these highly may find the tax premium worth paying. Others may prefer Nevada, Arizona, or Texas for similar weather with no income tax. A retiree with $100,000 income saves $6,000-$8,000 annually in state tax by choosing Nevada over California.'
+      },
+      {
+        question: '### How do I find a wealth management advisor in San Diego?',
+        answer: 'San Diego has a robust wealth management industry. Look for fee-only fiduciary advisors with CFP certification and experience with California tax planning, military benefits (if applicable), and Prop 13 strategies. Major firms have offices in La Jolla and downtown. Ask about their experience with California residency issues, Roth conversions, and retirement income sequencing. Expect AUM fees of 0.75-1.25% for comprehensive wealth management.'
+      },
     ],
     bottomLine: 'San Diego offers one of America\'s most attractive retirement lifestyles: exceptional weather, beach access, and a vibrant community. The tradeoff is California\'s high income tax on retirement income (though Social Security is exempt). Proper planning—including Roth conversions, tax-efficient withdrawals, and potential part-year residency—can help minimize the tax impact while enjoying all San Diego offers. --- *Learn more about [[San Diego Wealth Management]], [[Retirement Planning]], and [[California Tax Strategies]] in our comprehensive guides.*'
   },
@@ -20982,7 +21042,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-denver-002',
     title: 'Tax Planning in Denver: Colorado Tax Strategies for High Earners',
     slug: 'tax-planning',
-    hubId: 'denver-wealth-management',
+    hubId: 'denver',
     type: 'spoke',
     excerpt: 'Comprehensive tax planning strategies for Denver residents including Colorado\'s flat tax, retirement income exclusions, and strategic tax optimization.',
     readTime: '6 min read',
@@ -21338,6 +21398,22 @@ export const CITY_ARTICLES: Article[] = [
         question: '### What is Colorado\'s income tax rate?',
         answer: 'Colorado has a flat 4.4% income tax rate on all taxable income. This simplified rate applies equally to wages, investment income, and retirement distributions.'
       },
+      {
+        question: '### How are retirement incomes taxed in Colorado?',
+        answer: 'Colorado offers significant retirement tax benefits: 1) Social Security is largely exempt for most retirees, 2) Those 55-64 can exclude up to $20,000 of retirement income annually, 3) Those 65+ can exclude up to $24,000 annually, 4) Military pensions are fully exempt. Combined with the moderate 4.4% flat tax, Colorado is relatively tax-friendly for retirees compared to many states, though not as favorable as zero-income-tax states like Texas or Nevada.'
+      },
+      {
+        question: '### What is Denver retirement tax planning?',
+        answer: 'Denver retirement tax planning focuses on maximizing Colorado\'s retirement income exclusions while managing the 4.4% flat tax and Denver\'s local occupational privilege tax ($5.75/month for employees, $4/month for employers). Key strategies include: timing Roth conversions before moving to Colorado, taking advantage of the $20,000-$24,000 retirement income exclusion, and considering the municipal bond vs. taxable bond decision given Colorado\'s moderate tax rate.'
+      },
+      {
+        question: '### Is Colorado a good state to retire in for taxes?',
+        answer: 'Colorado is a moderately tax-friendly state for retirees. Pros: 4.4% flat tax (moderate), generous retirement income exclusions ($20,000-$24,000/year), Social Security largely exempt, no estate tax, and no inheritance tax. Cons: Not a zero-tax state like Texas/Nevada/Florida, property taxes while moderate can be significant in high-value Denver areas. Colorado offers a good balance for retirees who want tax benefits but also quality of life, outdoor recreation, and solid public services.'
+      },
+      {
+        question: '### How does Colorado compare to other states for retirement taxes?',
+        answer: 'Colorado ranks as moderately tax-friendly for retirees. Better than: California (13.3%), Oregon (9.9%), New York (10.9%). Similar to: Utah, Arizona. Worse than: Texas, Florida, Nevada, Wyoming (no income tax). Colorado\'s retirement income exclusions significantly reduce effective tax rates for retirees with pension and IRA income. For a retiree with $80,000 income, Colorado\'s effective rate may be closer to 2-3% after exclusions.'
+      },
     ],
     bottomLine: 'Colorado\'s tax environment offers a balanced approach: moderate rates, significant retirement benefits, and no estate tax. While not a zero-tax state, the 4.4% flat rate combined with retirement income exclusions creates a manageable tax burden. For those valuing Colorado\'s lifestyle, the tax cost is modest compared to high-tax states while supporting quality public services. --- *Learn more about [[Denver Wealth Management]], [[Tax Planning]], and [[Colorado Retirement Strategies]] in our comprehensive guides.*'
   },
@@ -21345,7 +21421,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-denver-004',
     title: 'Investment Strategies in Denver: Colorado-Focused Portfolio Management',
     slug: 'investment-strategies',
-    hubId: 'denver-wealth-management',
+    hubId: 'denver',
     type: 'spoke',
     excerpt: 'Investment strategies tailored for Denver residents including tax-efficient investing, Colorado real estate opportunities, and Rocky Mountain economy considerations.',
     readTime: '8 min read',
@@ -21869,7 +21945,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-denver-003',
     title: 'Estate Planning in Denver: Colorado Trust and Probate Strategies',
     slug: 'estate-planning',
-    hubId: 'denver-wealth-management',
+    hubId: 'denver',
     type: 'spoke',
     excerpt: 'Comprehensive estate planning strategies for Denver residents including Colorado probate laws, trust planning, and unique homestead considerations.',
     readTime: '7 min read',
@@ -22262,7 +22338,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-denver-005',
     title: 'High Net Worth Wealth Management in Denver: Colorado Strategies',
     slug: 'high-net-worth',
-    hubId: 'denver-wealth-management',
+    hubId: 'denver',
     type: 'spoke',
     excerpt: 'Specialized wealth management strategies for high net worth Denver residents including tax optimization, mountain property planning, and Colorado lifestyle considerations.',
     readTime: '8 min read',
@@ -22738,7 +22814,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-denver-001',
     title: 'Retirement Planning in Denver: Colorado Retirement Strategies',
     slug: 'retirement-planning',
-    hubId: 'denver-wealth-management',
+    hubId: 'denver',
     type: 'spoke',
     excerpt: 'Expert retirement planning strategies for Denver residents including Colorado tax considerations, outdoor lifestyle planning, and mountain state retirement.',
     readTime: '7 min read',
@@ -23143,7 +23219,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-philadelphia-002',
     title: 'Tax Planning in Philadelphia: Pennsylvania Tax Strategies',
     slug: 'tax-planning',
-    hubId: 'philadelphia-wealth-management',
+    hubId: 'philly',
     type: 'spoke',
     excerpt: 'Comprehensive tax planning strategies for Philadelphia residents including Pennsylvania\'s flat tax, retirement income exemption, and city wage tax optimization.',
     readTime: '6 min read',
@@ -23522,7 +23598,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-philadelphia-004',
     title: 'Investment Strategies in Philadelphia: Pennsylvania Tax-Efficient Portfolios',
     slug: 'investment-strategies',
-    hubId: 'philadelphia-wealth-management',
+    hubId: 'philly',
     type: 'spoke',
     excerpt: 'Investment strategies tailored for Philadelphia residents including Pennsylvania\'s low tax rate, retirement account optimization, and regional investment opportunities.',
     readTime: '6 min read',
@@ -23928,7 +24004,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-philadelphia-003',
     title: 'Estate Planning in Philadelphia: Pennsylvania Inheritance Tax Strategies',
     slug: 'estate-planning',
-    hubId: 'philadelphia-wealth-management',
+    hubId: 'philly',
     type: 'spoke',
     excerpt: 'Comprehensive estate planning strategies for Philadelphia residents including Pennsylvania\'s unique inheritance tax, trust planning, and probate procedures.',
     readTime: '7 min read',
@@ -24290,7 +24366,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-philadelphia-005',
     title: 'High Net Worth Wealth Management in Philadelphia: Pennsylvania Strategies',
     slug: 'high-net-worth',
-    hubId: 'philadelphia-wealth-management',
+    hubId: 'philly',
     type: 'spoke',
     excerpt: 'Specialized wealth management strategies for high net worth Philadelphia residents including inheritance tax planning, wealth transfer strategies, and philanthropic opportunities.',
     readTime: '7 min read',
@@ -24726,7 +24802,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-philadelphia-001',
     title: 'Retirement Planning in Philadelphia: Pennsylvania Tax-Free Retirement Income',
     slug: 'retirement-planning',
-    hubId: 'philadelphia-wealth-management',
+    hubId: 'philly',
     type: 'spoke',
     excerpt: 'Expert retirement planning strategies for Philadelphia residents including Pennsylvania\'s tax-free retirement income, city wage tax considerations, and healthcare options.',
     readTime: '7 min read',
@@ -25267,7 +25343,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-miami-002',
     title: 'Tax Planning in Miami: Florida No Income Tax Strategies',
     slug: 'tax-planning',
-    hubId: 'miami-wealth-management',
+    hubId: 'miami',
     type: 'spoke',
     excerpt: 'Comprehensive tax planning strategies for Miami residents including Florida\'s no income tax advantage, residency establishment, and international tax considerations.',
     readTime: '7 min read',
@@ -25591,7 +25667,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-miami-004',
     title: 'Investment Strategies in Miami: Florida-Optimized Portfolio Management',
     slug: 'investment-strategies',
-    hubId: 'miami-wealth-management',
+    hubId: 'miami',
     type: 'spoke',
     excerpt: 'Investment strategies tailored for Miami residents including tax-efficient investing, real estate opportunities, and international portfolio considerations.',
     readTime: '7 min read',
@@ -26019,7 +26095,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-miami-003',
     title: 'Estate Planning in Miami: Florida Trust and Probate Strategies',
     slug: 'estate-planning',
-    hubId: 'miami-wealth-management',
+    hubId: 'miami',
     type: 'spoke',
     excerpt: 'Comprehensive estate planning strategies for Miami residents including Florida\'s no-estate-tax advantage, homestead protection, and international considerations.',
     readTime: '6 min read',
@@ -26378,7 +26454,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-miami-005',
     title: 'High Net Worth Wealth Management in Miami: Florida Strategies',
     slug: 'high-net-worth',
-    hubId: 'miami-wealth-management',
+    hubId: 'miami',
     type: 'spoke',
     excerpt: 'Specialized wealth management strategies for high net worth Miami residents including tax optimization, international planning, and luxury lifestyle considerations.',
     readTime: '7 min read',
@@ -26774,7 +26850,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-miami-001',
     title: 'Retirement Planning in Miami: Florida Tax-Free Retirement Strategies',
     slug: 'retirement-planning',
-    hubId: 'miami-wealth-management',
+    hubId: 'miami',
     type: 'spoke',
     excerpt: 'Expert retirement planning strategies for Miami residents including Florida\'s no income tax advantage, international considerations, and coastal retirement planning.',
     readTime: '7 min read',
@@ -27176,7 +27252,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-sf-002',
     title: 'Tax Planning for Bay Area Residents: Silicon Valley Tax Strategies',
     slug: 'tax-planning',
-    hubId: 'san-francisco-wealth-management',
+    hubId: 'sf',
     type: 'spoke',
     excerpt: 'Expert tax planning strategies for San Francisco and Bay Area residents including tech equity taxation, California income tax optimization, and startup tax planning.',
     readTime: '9 min read',
@@ -27667,7 +27743,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-sf-004',
     title: 'Investment Strategies for Bay Area Tech Professionals',
     slug: 'investment-strategies',
-    hubId: 'san-francisco-wealth-management',
+    hubId: 'sf',
     type: 'spoke',
     excerpt: 'Expert investment strategies for San Francisco and Silicon Valley professionals including tech equity management, tax-efficient investing, and diversification strategies.',
     readTime: '9 min read',
@@ -28156,7 +28232,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-sf-003',
     title: 'Estate Planning in San Francisco: Bay Area Guide to Protecting Wealth',
     slug: 'estate-planning',
-    hubId: 'san-francisco-wealth-management',
+    hubId: 'sf',
     type: 'spoke',
     excerpt: 'Complete estate planning guide for San Francisco and Bay Area residents including trusts, tech equity planning, Prop 13 considerations, and California-specific strategies.',
     readTime: '9 min read',
@@ -28662,7 +28738,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-sf-005',
     title: 'High Net Worth Services in San Francisco: Silicon Valley Wealth Guide',
     slug: 'high-net-worth',
-    hubId: 'san-francisco-wealth-management',
+    hubId: 'sf',
     type: 'spoke',
     excerpt: 'Comprehensive guide to high net worth services in San Francisco and Silicon Valley including tech wealth management, family offices, and tax planning strategies.',
     readTime: '10 min read',
@@ -29345,16 +29421,16 @@ export const CITY_ARTICLES: Article[] = [
   },
   {
     id: 'city-sf-001',
-    title: 'Retirement Planning in San Francisco: Bay Area Expert Guide',
+    title: 'Bay Area Retirement Planning: San Francisco & Silicon Valley Expert Guide',
     slug: 'retirement-planning',
-    hubId: 'san-francisco-wealth-management',
+    hubId: 'sf',
     type: 'spoke',
-    excerpt: 'Comprehensive retirement planning strategies for San Francisco and Bay Area residents including tech equity planning, California taxes, and high cost of living considerations.',
+    excerpt: 'Comprehensive Bay Area retirement planning strategies for San Francisco and Silicon Valley residents including tech equity planning, California taxes, FIRE strategies, and high cost of living considerations.',
     readTime: '9 min read',
     publishDate: '2025-11-25',
     author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
-    primaryKeyword: 'retirement planning San Francisco',
-    metaDescription: 'Comprehensive retirement planning strategies for San Francisco and Bay Area residents including tech equity planning, California taxes, and high cost of living considerations.',
+    primaryKeyword: 'bay area retirement planning',
+    metaDescription: 'Bay Area retirement planning guide for San Francisco and Silicon Valley. Expert strategies for tech equity, California taxes, high cost of living, and FIRE movement planning.',
     lastUpdated: '2025-11-25',
     keyTakeaways: [
       'Bay Area residents need 25-40% more retirement savings than the national average',
@@ -29827,6 +29903,22 @@ export const CITY_ARTICLES: Article[] = [
         question: '### How much more do I need to retire in San Francisco vs. nationally?',
         answer: 'Generally 25-40% more, primarily driven by housing. Someone comfortable on $60,000 nationally might need $80,000-$100,000 in the Bay Area—more if in San Francisco proper. However, tech wealth accumulation often enables Bay Area residents to meet these higher targets.'
       },
+      {
+        question: '### What is unique about Bay Area retirement planning?',
+        answer: 'Bay Area retirement planning involves challenges not found elsewhere: 1) Extremely high cost of living (190%+ of national average), 2) Tech equity concentration risk from RSUs and stock options, 3) California\'s 13.3% top tax rate, 4) The decision whether to stay or relocate for retirement, and 5) Higher healthcare costs until Medicare eligibility. However, high tech salaries often enable accelerated savings that can offset these challenges.'
+      },
+      {
+        question: '### Should I retire in the Bay Area or move somewhere cheaper?',
+        answer: 'This depends on your financial situation and priorities. Moving to a no-income-tax state like Nevada or Texas can save 10-13% on retirement withdrawals. However, consider: community ties, family proximity, weather preferences, Prop 13 property tax benefits on long-held homes, and quality of life. Some retirees split time between the Bay Area and a lower-cost location to balance lifestyle with savings.'
+      },
+      {
+        question: '### How do tech workers plan for early retirement in the Bay Area?',
+        answer: 'Bay Area tech workers often pursue FIRE (Financial Independence, Retire Early) by: 1) Maximizing 401(k) contributions ($23,000 + catch-up), 2) Systematically diversifying vesting RSUs, 3) Using mega backdoor Roth if their plan allows, 4) Building taxable brokerage accounts for pre-59.5 access, and 5) Targeting 25-33x annual expenses. Many tech workers achieve $2-5M by age 40-45, enabling early retirement despite high Bay Area costs.'
+      },
+      {
+        question: '### What are the best retirement accounts for Bay Area tech workers?',
+        answer: 'Priority order for Bay Area tech workers: 1) 401(k) to employer match (free money), 2) HSA if available ($4,150 single/$8,550 family in 2025), 3) Max out 401(k) ($23,000 + $7,500 catch-up if 50+), 4) Mega backdoor Roth (if your plan allows after-tax contributions), 5) Backdoor Roth IRA ($7,000), and 6) Taxable brokerage with tax-efficient index funds.'
+      },
     ],
     bottomLine: 'Retirement planning in the Bay Area requires confronting the highest costs in the nation while navigating California\'s substantial taxes. Tech equity creates both opportunities (early wealth accumulation) and challenges (concentration risk). The decision to stay or relocate deserves careful analysis beyond just tax savings. Work with advisors who understand both California\'s tax environment and the unique dynamics of tech compensation. With proper planning, the Bay Area\'s high incomes and wealth-creation opportunities can translate into secure, comfortable retirement—whether you stay or go. --- *Learn more about [[San Francisco Wealth Management]], [[Retirement Planning]], and [[Bay Area Tax Planning]] in our comprehensive guides.*'
   },
@@ -29834,7 +29926,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-sanjose-002',
     title: 'Tax Planning in San Jose: Silicon Valley Equity Tax Strategies',
     slug: 'tax-planning',
-    hubId: 'san-jose-wealth-management',
+    hubId: 'sanjose',
     type: 'spoke',
     excerpt: 'Comprehensive tax planning strategies for San Jose and Silicon Valley residents including RSU taxation, stock option planning, and California tax optimization.',
     readTime: '6 min read',
@@ -30198,7 +30290,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-sanjose-004',
     title: 'Investment Strategies in San Jose: Silicon Valley Portfolio Management',
     slug: 'investment-strategies',
-    hubId: 'san-jose-wealth-management',
+    hubId: 'sanjose',
     type: 'spoke',
     excerpt: 'Investment strategies for San Jose and Silicon Valley residents including concentrated stock management, tech equity diversification, and California tax optimization.',
     readTime: '6 min read',
@@ -30568,7 +30660,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-sanjose-003',
     title: 'Estate Planning in San Jose: Silicon Valley Trust and Equity Strategies',
     slug: 'estate-planning',
-    hubId: 'san-jose-wealth-management',
+    hubId: 'sanjose',
     type: 'spoke',
     excerpt: 'Comprehensive estate planning strategies for San Jose and Silicon Valley residents including tech equity planning, trust strategies, and California probate avoidance.',
     readTime: '6 min read',
@@ -30979,7 +31071,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-sanjose-005',
     title: 'High Net Worth Wealth Management in San Jose: Silicon Valley Strategies',
     slug: 'high-net-worth',
-    hubId: 'san-jose-wealth-management',
+    hubId: 'sanjose',
     type: 'spoke',
     excerpt: 'Specialized wealth management strategies for high net worth Silicon Valley residents including tech equity optimization, IPO planning, and family office services.',
     readTime: '7 min read',
@@ -31370,7 +31462,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-sanjose-001',
     title: 'Retirement Planning in San Jose: Silicon Valley Tech Wealth Strategies',
     slug: 'retirement-planning',
-    hubId: 'san-jose-wealth-management',
+    hubId: 'sanjose',
     type: 'spoke',
     excerpt: 'Expert retirement planning strategies for San Jose and Silicon Valley residents including tech equity optimization, high cost of living planning, and California tax considerations.',
     readTime: '6 min read',
@@ -31744,7 +31836,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-nyc-002',
     title: 'Tax Planning for NYC Residents: Strategies to Reduce Your Tax Burden',
     slug: 'tax-planning',
-    hubId: 'nyc-wealth-management',
+    hubId: 'nyc',
     type: 'spoke',
     excerpt: 'Comprehensive tax planning strategies for New York City residents including state, city, and federal tax optimization for high earners and investors.',
     readTime: '9 min read',
@@ -32228,7 +32320,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-nyc-004',
     title: 'Investment Strategies for NYC Professionals: Expert Guide',
     slug: 'investment-strategies',
-    hubId: 'nyc-wealth-management',
+    hubId: 'nyc',
     type: 'spoke',
     excerpt: 'Smart investment strategies for NYC professionals including tax-efficient investing, Wall Street insider considerations, and managing concentrated positions.',
     readTime: '9 min read',
@@ -32730,7 +32822,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-nyc-003',
     title: 'Estate Planning in New York: NYC Resident\'s Complete Guide',
     slug: 'estate-planning',
-    hubId: 'nyc-wealth-management',
+    hubId: 'nyc',
     type: 'spoke',
     excerpt: 'Essential estate planning strategies for New York residents including NY estate tax planning, trusts, co-op transfers, and protecting family wealth.',
     readTime: '10 min read',
@@ -33150,7 +33242,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-nyc-005',
     title: 'High Net Worth Services in NYC: Private Wealth Management Guide',
     slug: 'high-net-worth',
-    hubId: 'nyc-wealth-management',
+    hubId: 'nyc',
     type: 'spoke',
     excerpt: 'Comprehensive guide to high net worth services in NYC including private banking, family offices, tax planning, and wealth management for affluent New Yorkers.',
     readTime: '10 min read',
@@ -33769,7 +33861,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-nyc-001',
     title: 'Retirement Planning in NYC: Strategies for New York Professionals',
     slug: 'retirement-planning',
-    hubId: 'nyc-wealth-management',
+    hubId: 'nyc',
     type: 'spoke',
     excerpt: 'Expert retirement planning strategies for NYC residents including high cost of living considerations, state tax planning, and city-specific retirement challenges.',
     readTime: '9 min read',
@@ -34267,7 +34359,7 @@ export const CITY_ARTICLES: Article[] = [
     id: 'city-nyc-001',
     title: 'Retirement Planning in NYC: What New Yorkers Need to Know',
     slug: 'retirement-planning',
-    hubId: 'nyc-wealth-management',
+    hubId: 'nyc',
     type: 'spoke',
     excerpt: 'Retirement planning strategies for NYC residents. Learn how to account for high costs, NY taxes, and local considerations in your retirement plan.',
     readTime: '7 min read',
@@ -34553,5 +34645,5845 @@ export const CITY_ARTICLES: Article[] = [
       },
     ],
     bottomLine: 'Retirement planning in NYC requires confronting higher numbers than most online calculators suggest. The combination of extreme living costs and significant state/city taxes means saving more, planning more carefully, and making strategic decisions about housing and location. The good news: NYC\'s high salaries often make aggressive saving possible, and the city\'s equity (if you own) can fund retirement elsewhere. The key is running the numbers honestly and adjusting your plan to NYC reality rather than national averages. Whether you plan to stay in the city you love or eventually relocate, working with a wealth manager who understands NYC\'s unique financial landscape helps ensure your plan accounts for all the local factors. --- *This guide is part of our [[NYC Wealth Management]] resource. For broader retirement strategies, see our comprehensive [[Retirement Planning]] guide. Ready for personalized help? Connect with a [[NYC Wealth Manager]] who understands local retirement planning.*'
+  },
+  {
+    id: 'city-portland-001',
+    title: 'Oregon Retirement Taxes: Complete Guide for Portland Retirees',
+    slug: 'retirement-taxes',
+    hubId: 'portland',
+    type: 'spoke',
+    excerpt: 'Complete guide to Oregon retirement taxes for Portland retirees. Learn how Oregon taxes 401(k), IRA, pension, and Social Security income, plus strategies to minimize your tax burden.',
+    readTime: '10 min read',
+    publishDate: '2025-12-23',
+    author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
+    primaryKeyword: 'oregon retirement taxes',
+    metaDescription: 'Complete guide to Oregon retirement taxes. Learn how Oregon taxes 401(k), IRA, pension, and Social Security income for Portland retirees, plus tax-saving strategies.',
+    lastUpdated: '2025-12-23',
+    keyTakeaways: [
+      'Oregon taxes most retirement income at rates up to 9.9%',
+      'Social Security is exempt from Oregon state tax',
+      'Oregon has no sales tax—offsetting some income tax burden',
+      'Federal pension recipients get a partial exemption',
+      'Oregon estate tax starts at just $1 million (much lower than federal)',
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'Oregon Retirement Tax Overview',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">How Oregon Taxes Retirement Income</h3>
+          <p>Oregon is <strong>not</strong> particularly tax-friendly for retirees. The state taxes most retirement income at rates up to 9.9%:</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Income Type</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Oregon Tax Treatment</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Social Security</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700 font-semibold text-green-700">Fully Exempt</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">401(k) Distributions</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Fully Taxed (up to 9.9%)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Traditional IRA</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Fully Taxed (up to 9.9%)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Roth IRA/401(k)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700 font-semibold text-green-700">Tax-Free (qualified)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Private Pension</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Fully Taxed (up to 9.9%)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Federal Pension</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Partial Exemption Available</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Military Pension</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Fully Taxed (no exemption)</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Oregon Income Tax Brackets (2024)</h3>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Taxable Income (Single)</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Tax Rate</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$0 - $4,050</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">4.75%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$4,050 - $10,200</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">6.75%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$10,200 - $125,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">8.75%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Over $125,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">9.9%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <p>Most retirees with significant retirement income will pay 8.75% or 9.9% on their distributions.</p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Does Oregon Tax 401(k) Distributions?',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">401(k) and IRA Taxation in Oregon</h3>
+          <p><strong>Yes, Oregon fully taxes 401(k) and IRA distributions</strong> as ordinary income at rates up to 9.9%. There is no exemption or special treatment for retirement account withdrawals.</p>
+          <p><strong>Example:</strong> A retiree withdrawing $80,000 from their 401(k) would owe approximately $6,500-$7,000 in Oregon state income tax (in addition to federal taxes).</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategies to Reduce Oregon Tax on Retirement Accounts</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Roth conversions before retirement:</strong> Convert traditional IRA/401(k) to Roth while working—pay Oregon tax now to get tax-free withdrawals later</li>
+          <li><strong>Income smoothing:</strong> Spread withdrawals across years to stay in lower brackets</li>
+          <li><strong>Relocate before large distributions:</strong> Some retirees move to Washington or Nevada before taking large 401(k) distributions</li>
+          <li><strong>Delay Social Security:</strong> Since Social Security is exempt, delaying it and living on 401(k) first means more tax-free income later</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Required Minimum Distributions (RMDs)</h3>
+          <p>Oregon taxes RMDs as ordinary income. For retirees with large traditional retirement accounts, RMDs can push you into the 9.9% bracket. Consider:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Roth conversions before RMDs begin (age 73+)</li>
+          <li>Qualified Charitable Distributions (QCDs) to satisfy RMDs tax-free</li>
+          <li>Strategic withdrawal timing</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Oregon Social Security and Pension Taxes',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Social Security: Fully Exempt</h3>
+          <p>Oregon does <strong>not</strong> tax Social Security benefits—one of the few bright spots for retirees. This applies regardless of your total income level.</p>
+          <p><strong>Strategy:</strong> Since Social Security is tax-free but 401(k)/IRA income is taxed, consider delaying Social Security to age 70 and drawing down taxable accounts first. This maximizes your tax-free income later.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Federal Pension Exemption</h3>
+          <p>Oregon offers a <strong>retirement income credit</strong> that can reduce taxes for some retirees:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Available to those 62+ with household income under certain thresholds</li>
+          <li>Credit amount depends on income and filing status</li>
+          <li>Primarily benefits lower-income retirees</li>
+          <li>Federal retirees (FERS/CSRS) may qualify for additional benefits</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Private Pensions: Fully Taxed</h3>
+          <p>Corporate pensions, including those from Nike, Intel, and other Portland-area employers, are fully taxed at Oregon rates. There is no exemption for private-sector pension income.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Military Pensions: No Exemption</h3>
+          <p>Unlike many states, Oregon offers <strong>no exemption</strong> for military retirement pay. Military retirees pay full Oregon income tax on their pensions—a significant drawback compared to states like Arizona or Texas.</p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Oregon Estate Tax: A Major Concern',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Oregon Estate Tax Threshold</h3>
+          <p>Oregon has one of the <strong>lowest estate tax thresholds</strong> in the nation:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Oregon threshold:</strong> $1 million</li>
+          <li><strong>Federal threshold:</strong> $13.61 million (2024)</li>
+          <li><strong>Oregon rates:</strong> 10% to 16% on amounts above $1 million</li>
+          </ul>
+          <p>This means many middle-class retirees with a paid-off home and retirement savings may owe Oregon estate tax—even if they're nowhere near the federal threshold.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Estate Planning Strategies for Oregon Residents</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Gifting:</strong> Annual gifts up to $18,000 per recipient reduce estate size</li>
+          <li><strong>Irrevocable Life Insurance Trust (ILIT):</strong> Removes life insurance from taxable estate</li>
+          <li><strong>Charitable giving:</strong> Reduces estate while supporting causes you care about</li>
+          <li><strong>Relocate before death:</strong> Some retirees move to Washington (no estate tax under $2.193 million) or states with no estate tax</li>
+          </ul>
+          <p>> <strong>Warning:</strong> The $1 million threshold is not indexed for inflation, meaning more Oregonians become subject to estate tax each year as home values and assets appreciate.</p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Is Oregon Tax-Friendly for Retirees?',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Oregon vs. Other States for Retirement</h3>
+          <p>Oregon is <strong>not</strong> considered a tax-friendly state for retirees. Here's how it compares:</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Factor</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Oregon</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Washington</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Nevada</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Income Tax Rate</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Up to 9.9%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Sales Tax</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">6.5%+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">6.85%+</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Estate Tax Threshold</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1 million</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2.193 million</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">None</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Property Tax</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Moderate</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Moderate</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Low</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Oregon's Advantages</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>No sales tax:</strong> Saves 6-10% on purchases compared to neighboring states</li>
+          <li><strong>Social Security exempt:</strong> Unlike some states that tax Social Security</li>
+          <li><strong>Oregon Kicker:</strong> Surplus tax revenue returned to taxpayers in some years</li>
+          <li><strong>Quality of life:</strong> Portland offers excellent healthcare, culture, and outdoor access</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Oregon's Disadvantages</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>High income tax:</strong> 9.9% is among the highest in the nation</li>
+          <li><strong>No retirement income exemption:</strong> 401(k), IRA, and pensions fully taxed</li>
+          <li><strong>Low estate tax threshold:</strong> $1 million affects many middle-class estates</li>
+          <li><strong>No military pension exemption:</strong> Unlike most states</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Tax Planning Strategies for Portland Retirees',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 1: Roth Conversions Before Retirement</h3>
+          <p>Convert traditional retirement accounts to Roth while working. You'll pay Oregon tax now, but:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>All future growth is tax-free</li>
+          <li>Withdrawals in retirement are tax-free</li>
+          <li>Reduces future RMDs</li>
+          <li>Reduces estate for Oregon estate tax purposes</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 2: Charitable Giving</h3>
+          <p>Oregon offers a state tax deduction for charitable contributions. Consider:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Qualified Charitable Distributions (QCDs):</strong> Donate directly from IRA to charity—satisfies RMD without adding to taxable income</li>
+          <li><strong>Donor-Advised Funds:</strong> Bunch multiple years of giving into one year for larger deduction</li>
+          <li><strong>Charitable Remainder Trusts:</strong> Income stream plus charitable deduction</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 3: Tax-Efficient Withdrawal Sequence</h3>
+          <p><strong>Optimal withdrawal order for Oregon retirees:</strong></p>
+          <ol class="list-decimal pl-6 space-y-2 my-4">
+          <li>Taxable accounts first (capital gains taxed at lower rates)</li>
+          <li>Tax-deferred accounts (401k, IRA) to fill lower brackets</li>
+          <li>Roth accounts last (tax-free growth continues)</li>
+          <li>Delay Social Security to maximize tax-free income</li>
+          </ol>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 4: Consider Vancouver, Washington</h3>
+          <p>Some Portland-area retirees move across the river to Vancouver, Washington to avoid Oregon income tax while maintaining access to Portland. Considerations:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Washington has no income tax</li>
+          <li>Shop in Oregon for no sales tax</li>
+          <li>Close proximity to Portland healthcare and amenities</li>
+          <li>Must establish genuine Washington residency</li>
+          </ul>
+        `
+      },
+    ],
+    faqs: [
+      {
+        question: '### Does Oregon tax 401(k) distributions?',
+        answer: 'Yes, Oregon fully taxes 401(k) distributions as ordinary income at rates up to 9.9%. There is no exemption or special treatment for retirement account withdrawals. This applies to both Traditional 401(k) and the taxable portion of Roth 401(k) early withdrawals. Qualified Roth distributions are tax-free.'
+      },
+      {
+        question: '### Is Oregon tax-friendly for retirees?',
+        answer: 'No, Oregon is not considered tax-friendly for retirees. While Social Security is exempt and there\'s no sales tax, Oregon taxes 401(k), IRA, and pension income at rates up to 9.9%. Additionally, Oregon has a low $1 million estate tax threshold. Retirees with significant retirement income often pay more in Oregon than in neighboring Washington or Nevada.'
+      },
+      {
+        question: '### Does Oregon tax Social Security?',
+        answer: 'No, Oregon does not tax Social Security benefits. This is one of the few tax advantages for Oregon retirees. Social Security is fully exempt regardless of your total income level, making it a valuable source of tax-free retirement income in the state.'
+      },
+      {
+        question: '### What is the Oregon retirement income tax rate?',
+        answer: 'Oregon taxes retirement income at regular income tax rates: 4.75% on the first $4,050, 6.75% on income $4,050-$10,200, 8.75% on income $10,200-$125,000, and 9.9% on income over $125,000 (single filers). Most retirees with significant retirement income pay 8.75% or 9.9% on their distributions.'
+      },
+      {
+        question: '### Does Oregon tax retirement income from other states?',
+        answer: 'If you are an Oregon resident, Oregon taxes your worldwide income including retirement income from other states. However, federal law (4 U.S.C. § 114) prohibits states from taxing retirement income of former residents. If you move from Oregon to another state, Oregon cannot tax your retirement distributions after you leave.'
+      },
+      {
+        question: '### How can I reduce Oregon taxes on my retirement income?',
+        answer: 'Strategies to reduce Oregon retirement taxes include: 1) Roth conversions before retirement (pay tax now, withdraw tax-free later), 2) Delay Social Security to maximize tax-free income, 3) Qualified Charitable Distributions from IRAs, 4) Strategic withdrawal sequencing, 5) Consider relocating to Washington state (no income tax) before large distributions.'
+      },
+    ],
+    bottomLine: 'Oregon is not a tax-friendly state for retirees. While Social Security is exempt and there\'s no sales tax, the state taxes 401(k), IRA, and pension income at rates up to 9.9%—among the highest in the nation. The $1 million estate tax threshold affects many middle-class families. Portland retirees should consider Roth conversions, strategic withdrawal sequencing, and potentially relocating to Washington before taking large distributions. Work with a tax-aware financial advisor to minimize your Oregon tax burden while enjoying the Pacific Northwest lifestyle. --- *Learn more about [[Portland Wealth Management]], [[Retirement Planning]], and [[Tax Planning]] in our comprehensive guides.*'
+  },
+  {
+    id: 'city-portland-002',
+    title: 'Retirement Planning in Portland: Pacific Northwest Expert Guide',
+    slug: 'retirement-planning',
+    hubId: 'portland',
+    type: 'spoke',
+    excerpt: 'Comprehensive retirement planning for Portland residents. Navigate Oregon taxes, Nike and Intel equity, healthcare considerations, and Pacific Northwest retirement lifestyle.',
+    readTime: '9 min read',
+    publishDate: '2025-12-23',
+    author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
+    primaryKeyword: 'retirement planning Portland Oregon',
+    metaDescription: 'Retirement planning guide for Portland Oregon residents. Expert strategies for Oregon taxes, tech equity, healthcare, and Pacific Northwest retirement lifestyle.',
+    lastUpdated: '2025-12-23',
+    keyTakeaways: [
+      'Oregon\'s 9.9% income tax significantly impacts retirement income',
+      'Nike, Intel, and tech equity require careful diversification and tax planning',
+      'Portland\'s moderate cost of living requires 10-15% more savings than national average',
+      'Consider Washington state residency for tax savings while staying in Portland area',
+      'Oregon estate tax starts at $1 million—plan accordingly',
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'Portland Retirement Landscape',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Cost of Living</h3>
+          <p>Portland's cost of living is approximately 13% above the national average:</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Category</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Portland Index</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">National Average</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Overall</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">113</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">100</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Housing</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">135</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">100</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Healthcare</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">105</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">100</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Transportation</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">110</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">100</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <p><strong>Retirement income needs:</strong> A retiree comfortable on $60,000 nationally might need $68,000-$70,000 in Portland.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Portland's Retirement Advantages</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Mild climate (no extreme heat or cold)</li>
+          <li>Excellent healthcare facilities (OHSU, Providence)</li>
+          <li>No sales tax on purchases</li>
+          <li>Active outdoor lifestyle opportunities</li>
+          <li>Strong cultural scene and dining</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Managing Tech Equity in Portland',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Major Portland Employers with Equity Compensation</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Nike:</strong> RSUs, stock options, employee stock purchase plan</li>
+          <li><strong>Intel:</strong> RSUs, performance shares, ESPP</li>
+          <li><strong>Columbia Sportswear:</strong> Equity compensation for executives</li>
+          <li><strong>Tech startups:</strong> Various equity arrangements</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Concentration Risk</h3>
+          <p>Portland professionals often have significant wealth tied up in a single company. Strategies to manage this risk:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Systematic selling:</strong> Sell a portion of vested RSUs on a schedule</li>
+          <li><strong>10b5-1 plans:</strong> Pre-arranged trading plans for executives</li>
+          <li><strong>Diversification targets:</strong> Limit any single stock to 10-15% of portfolio</li>
+          <li><strong>Tax-loss harvesting:</strong> Offset gains from equity sales</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Oregon Tax on Equity Compensation</h3>
+          <p>Oregon taxes equity compensation at ordinary income rates (up to 9.9%):</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>RSUs:</strong> Taxed as ordinary income when vested</li>
+          <li><strong>Stock options:</strong> Taxed at exercise (spread is ordinary income)</li>
+          <li><strong>ESPP:</strong> Discount is ordinary income; gains may be capital gains</li>
+          </ul>
+          <p><strong>Strategy:</strong> Consider exercising options or vesting RSUs after relocating to Washington if a move is planned.</p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'How Much Do You Need to Retire in Portland?',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Portland Retirement Savings Targets</h3>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Lifestyle</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Annual Spending</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Savings Needed (25x)</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Modest</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$50,000-$60,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1.25-$1.5 million</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Comfortable</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$70,000-$90,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1.75-$2.25 million</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Affluent</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$100,000-$150,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2.5-$3.75 million</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <p><strong>Important:</strong> These figures assume Social Security income in addition to portfolio withdrawals. Account for Oregon's 8.75-9.9% state income tax on retirement distributions when planning.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">The Tax Factor</h3>
+          <p>Oregon's income tax means you need more gross income to achieve the same net spending:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>$80,000 net spending requires ~$95,000 gross income (after federal + Oregon taxes)</li>
+          <li>Oregon tax alone adds $7,000-$8,000 to annual withdrawal needs at this level</li>
+          <li>Over 30 years, that's $200,000+ extra needed just for Oregon taxes</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Healthcare in Portland Retirement',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Portland Healthcare Resources</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>OHSU (Oregon Health & Science University):</strong> Academic medical center with specialty care</li>
+          <li><strong>Providence:</strong> Major health system with multiple locations</li>
+          <li><strong>Legacy Health:</strong> Regional hospital system</li>
+          <li><strong>Kaiser Permanente:</strong> Integrated care option</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Pre-Medicare Healthcare (Before 65)</h3>
+          <p>For early retirees, options include:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Oregon Health Insurance Marketplace:</strong> ACA plans with premium subsidies for income under 400% FPL</li>
+          <li><strong>COBRA:</strong> Continue employer coverage (expensive, time-limited)</li>
+          <li><strong>Spouse's plan:</strong> If spouse is still working</li>
+          </ul>
+          <p><strong>Budget:</strong> Plan for $12,000-$24,000 annually per couple for ACA coverage before Medicare.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Long-Term Care Considerations</h3>
+          <p>Oregon long-term care costs:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Nursing home: $10,000-$12,000/month</li>
+          <li>Assisted living: $5,000-$7,000/month</li>
+          <li>In-home care: $30-$35/hour</li>
+          </ul>
+          <p>Consider long-term care insurance or self-insuring with adequate savings.</p>
+        `
+      },
+    ],
+    faqs: [
+      {
+        question: '### How much do I need to retire in Portland?',
+        answer: 'For a comfortable retirement in Portland, plan for $70,000-$90,000 annual spending, requiring $1.75-$2.25 million in savings (plus Social Security). Account for Oregon\'s 9.9% income tax on retirement distributions—you\'ll need approximately 10-12% more gross income than in a no-income-tax state to achieve the same net spending.'
+      },
+      {
+        question: '### Should I retire in Oregon or move to Washington?',
+        answer: 'Moving to Washington (Vancouver area) saves 9.9% on retirement income since Washington has no income tax. For a retiree with $100,000 in retirement income, that\'s nearly $10,000/year in tax savings. However, consider lifestyle preferences, family ties, and housing costs. Some retirees live in Vancouver for tax purposes while enjoying Portland\'s amenities.'
+      },
+      {
+        question: '### How should I handle Nike or Intel stock for retirement?',
+        answer: 'Diversify systematically to reduce concentration risk. Sell vested shares on a regular schedule (monthly or quarterly) rather than all at once. Use tax-loss harvesting to offset gains. If moving to Washington, consider timing large sales after establishing residency. Limit any single stock to 10-15% of your portfolio.'
+      },
+      {
+        question: '### What is the Oregon Kicker and how does it affect retirees?',
+        answer: 'The Oregon Kicker returns surplus state revenue to taxpayers when actual revenues exceed projections by 2% or more. It\'s calculated as a percentage of your prior year\'s tax liability. For retirees, this can mean a modest refund in years when Oregon has budget surpluses. However, it\'s unpredictable and shouldn\'t be counted on for planning.'
+      },
+    ],
+    bottomLine: 'Retirement planning in Portland requires navigating Oregon\'s high income tax (9.9%) while enjoying the Pacific Northwest\'s excellent quality of life. Nike, Intel, and tech equity holders need careful diversification strategies. Consider Roth conversions before retirement, strategic withdrawal sequencing, and possibly establishing Washington state residency for significant tax savings. The combination of moderate cost of living, excellent healthcare, and outdoor lifestyle makes Portland attractive for retirees who plan carefully for the tax implications. --- *Learn more about [[Portland Wealth Management]], [[Oregon Retirement Taxes]], and [[Tax Planning]] in our comprehensive guides.*'
+  },
+  {
+    id: 'city-vegas-001',
+    title: 'Nevada Retirement Taxes: Complete Guide for Retirees',
+    slug: 'nevada-retirement-taxes',
+    hubId: 'las-vegas',
+    type: 'spoke',
+    excerpt: 'Comprehensive guide to Nevada retirement taxes including zero income tax, no estate tax, and tax strategies for retirees moving to Las Vegas, Reno, or Henderson.',
+    readTime: '11 min read',
+    publishDate: '2025-12-23',
+    author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
+    primaryKeyword: 'nevada retirement taxes',
+    metaDescription: 'Complete guide to Nevada retirement taxes. No income tax, no estate tax, and no inheritance tax make Nevada one of the most tax-friendly states for retirees.',
+    lastUpdated: '2025-12-23',
+    keyTakeaways: [
+      'Nevada has no state income tax on any type of retirement income',
+      'No state estate tax or inheritance tax in Nevada',
+      'Social Security, pensions, 401(k), and IRA distributions are all tax-free at state level',
+      'Property taxes are relatively low with senior exemptions available',
+      'Sales tax is 8.375% in Clark County (Las Vegas area)',
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'Nevada: A True Tax Haven for Retirees',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Zero State Income Tax</h3>
+          <p>Nevada is one of only nine states with no state income tax, making it exceptionally attractive for retirees with significant retirement income. This means:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Social Security:</strong> 100% tax-free at state level</li>
+          <li><strong>401(k) and 403(b) distributions:</strong> No state tax</li>
+          <li><strong>Traditional IRA withdrawals:</strong> No state tax</li>
+          <li><strong>Pension income:</strong> No state tax (government and private)</li>
+          <li><strong>Investment income:</strong> No state capital gains or dividend tax</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">What This Means for Your Retirement</h3>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Retirement Income</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">California Tax</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Nevada Tax</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Annual Savings</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$100,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">~$6,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$0</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$6,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$150,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">~$10,500</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$0</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$10,500</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$250,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">~$20,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$0</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$20,000</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <p><strong>Over 20 years:</strong> A retiree with $150,000 annual income could save $210,000+ in state taxes by living in Nevada vs. California.</p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Nevada Estate and Inheritance Tax',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">No State Estate Tax</h3>
+          <p>Nevada does not impose a state estate tax, meaning:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Only federal estate tax applies (exemption ~$13.6 million per person in 2024)</li>
+          <li>Married couples can pass ~$27.2 million tax-free</li>
+          <li>No state paperwork or filing requirements for estates</li>
+          <li>Assets pass to heirs without state-level reduction</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">No Inheritance Tax</h3>
+          <p>Nevada also has no inheritance tax, unlike states such as:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Pennsylvania (4.5-15%)</li>
+          <li>New Jersey (up to 16%)</li>
+          <li>Nebraska (up to 18%)</li>
+          <li>Iowa (up to 6%)</li>
+          <li>Kentucky (up to 16%)</li>
+          <li>Maryland (10% + estate tax)</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Comparison with Other States</h3>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">State</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Estate Tax Exemption</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Top Rate</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Nevada</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No state tax</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Oregon</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1 million</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">16%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Washington</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2.19 million</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">20%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Hawaii</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5.49 million</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">20%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <p><strong>Estate planning advantage:</strong> Nevada's lack of estate tax makes it ideal for retirees with significant assets.</p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Nevada Property Taxes',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Low Property Tax Rates</h3>
+          <p>Nevada has one of the lowest effective property tax rates in the country:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Average effective rate:</strong> 0.53% (national average is ~1.1%)</li>
+          <li><strong>Constitutional cap:</strong> 3.64% of assessed value</li>
+          <li><strong>Assessment:</strong> Only 35% of taxable value is assessed</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Property Tax Example</h3>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Home Value</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Nevada (0.53%)</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Texas (1.8%)</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">New Jersey (2.2%)</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$400,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,120</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$7,200</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$8,800</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$600,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$3,180</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$10,800</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$13,200</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Senior Property Tax Exemptions</h3>
+          <p>Nevada offers property tax relief for seniors:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Senior exemption:</strong> Available for homeowners 62+ with income limits</li>
+          <li><strong>Veterans exemption:</strong> Additional exemptions for veterans</li>
+          <li><strong>Disabled veteran exemption:</strong> Significant reductions for disabled vets</li>
+          <li><strong>Tax cap:</strong> Annual increases limited to 3% (primary residence)</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Nevada Sales Tax',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Sales Tax Rates by Area</h3>
+          <p>Nevada's sales tax is the trade-off for no income tax:</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Location</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Combined Sales Tax</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Las Vegas (Clark County)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">8.375%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Henderson</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">8.375%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Reno (Washoe County)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">8.265%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Carson City</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">7.6%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <h3 class="text-xl font-bold mt-8 mb-4">What's Taxed vs. Exempt</h3>
+          <p><strong>Subject to sales tax:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Most retail purchases</li>
+          <li>Prepared food and restaurants</li>
+          <li>Vehicle purchases</li>
+          <li>Some services</li>
+          </ul>
+          <p><strong>Exempt from sales tax:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Groceries (unprepared food)</li>
+          <li>Prescription medications</li>
+          <li>Medical equipment</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Sales Tax Impact on Retirees</h3>
+          <p>For most retirees, the sales tax is far less than income tax savings:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Average retiree spends ~$15,000 on taxable purchases annually</li>
+          <li>At 8.375%, that's ~$1,250 in sales tax</li>
+          <li>Compare to $6,000-$20,000+ saved in income tax</li>
+          <li>Net savings: $4,750-$18,750+ annually</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Relocating to Nevada: Tax Strategies',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Establishing Nevada Residency</h3>
+          <p>To benefit from Nevada's tax advantages, you must establish legal domicile:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Nevada driver's license:</strong> Required within 30 days of moving</li>
+          <li><strong>Vehicle registration:</strong> Register vehicles in Nevada</li>
+          <li><strong>Voter registration:</strong> Register to vote in Nevada</li>
+          <li><strong>Primary residence:</strong> Spend majority of time in Nevada</li>
+          <li><strong>Financial accounts:</strong> Update addresses on bank and brokerage accounts</li>
+          <li><strong>Estate documents:</strong> Execute new will and trusts in Nevada</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Timing Your Move</h3>
+          <p><strong>Strategic considerations:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Before large distributions:</strong> Move before taking large 401(k) or IRA distributions</li>
+          <li><strong>Before selling assets:</strong> Establish residency before selling stocks, real estate, or businesses with large gains</li>
+          <li><strong>Before Roth conversions:</strong> Convert to Roth after becoming Nevada resident</li>
+          <li><strong>Before retirement:</strong> If possible, move before your final work year</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Warning: Beware of Your Former State</h3>
+          <p>High-tax states aggressively audit former residents:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>California:</strong> FTB actively pursues departed high-income earners</li>
+          <li><strong>New York:</strong> Extensive domicile audits</li>
+          <li><strong>Burden of proof:</strong> You must prove you moved; state doesn't have to prove you stayed</li>
+          </ul>
+          <p><strong>Documentation to maintain:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Cell phone records showing location</li>
+          <li>Credit card statements showing Nevada purchases</li>
+          <li>Calendar entries documenting days in Nevada</li>
+          <li>Nevada utility bills, subscriptions, club memberships</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Nevada Retirement Communities',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Las Vegas Area</h3>
+          <p><strong>Popular retirement locations:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Henderson:</strong> Safe, suburban, excellent amenities</li>
+          <li><strong>Summerlin:</strong> Master-planned community, upscale</li>
+          <li><strong>Sun City Summerlin:</strong> 55+ community</li>
+          <li><strong>Green Valley:</strong> Established, family-friendly</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Northern Nevada</h3>
+          <p><strong>Reno/Sparks area:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Reno:</strong> Smaller-city feel, outdoor recreation</li>
+          <li><strong>Sparks:</strong> More affordable than Reno</li>
+          <li><strong>Lake Tahoe (Incline Village):</strong> Luxury, mountain lifestyle</li>
+          <li><strong>Carson City:</strong> State capital, lower costs</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Cost of Living</h3>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Location</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Cost Index (US = 100)</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Median Home Price</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Las Vegas</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">101</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$420,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Henderson</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">108</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$480,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Reno</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">105</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$550,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">San Francisco (comparison)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">180</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1,300,000</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Healthcare Considerations',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Healthcare in Nevada</h3>
+          <p>Nevada's healthcare system has grown significantly with the population:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Major hospitals:</strong> Cleveland Clinic Lou Ruvo Center, UMC, Sunrise Hospital</li>
+          <li><strong>Specialty care:</strong> Growing availability in Las Vegas area</li>
+          <li><strong>Medicare Advantage:</strong> Multiple plan options available</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Medicare in Nevada</h3>
+          <p><strong>Medicare Advantage plans:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Humana, UnitedHealthcare, Aetna all have strong presence</li>
+          <li>Many $0 premium MA plans available</li>
+          <li>Good provider networks in urban areas</li>
+          </ul>
+          <p><strong>Medigap:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>All standardized plans available</li>
+          <li>Competitive pricing due to large retiree population</li>
+          <li>Open enrollment protections when turning 65</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Considerations</h3>
+          <p><strong>Potential concerns:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Fewer academic medical centers than California</li>
+          <li>May need to travel for specialized procedures</li>
+          <li>Rural areas have limited healthcare access</li>
+          </ul>
+          <p><strong>For complex medical needs:</strong> Las Vegas offers most specialty services; UCLA and Stanford are accessible by short flight.</p>
+        `
+      },
+    ],
+    faqs: [
+      {
+        question: '### Does Nevada tax retirement income?',
+        answer: 'No, Nevada has no state income tax on any type of retirement income. Social Security, 401(k) and IRA distributions, pensions, and investment income are all completely exempt from state taxation. Only federal income tax applies to retirement income in Nevada.'
+      },
+      {
+        question: '### Is Nevada a good state to retire in for taxes?',
+        answer: 'Nevada is one of the best states for retirement taxes in the US. It has no income tax (saving 5-13% vs. high-tax states), no estate tax (vs. 12-20% in some states), no inheritance tax, and low property taxes (0.53% effective rate). The only significant tax is sales tax at 8.375% in Las Vegas, which is far less than the income tax savings for most retirees.'
+      },
+      {
+        question: '### How much can I save retiring in Nevada vs. California?',
+        answer: 'A retiree with $100,000 in retirement income saves approximately $6,000-$8,000 annually in state income tax by living in Nevada instead of California. With $200,000 income, savings increase to $15,000-$18,000 annually. Over a 20-year retirement, total savings can exceed $200,000. Additionally, Nevada has no estate tax while California does not (but CA\'s income tax applies until death).'
+      },
+      {
+        question: '### Does Nevada have an estate tax?',
+        answer: 'No, Nevada has no state estate tax or inheritance tax. Only the federal estate tax applies, with an exemption of approximately $13.6 million per person ($27.2 million for married couples) in 2024. This means most estates pass entirely tax-free to heirs in Nevada.'
+      },
+      {
+        question: '### What is the sales tax in Las Vegas?',
+        answer: 'The combined sales tax rate in Las Vegas (Clark County) is 8.375%. This includes Nevada\'s 6.85% base rate plus local additions. Groceries (unprepared food) and prescription medications are exempt from sales tax. For most retirees, the sales tax cost is far less than the income tax savings from living in Nevada.'
+      },
+      {
+        question: '### How do I establish Nevada residency for tax purposes?',
+        answer: 'To establish Nevada residency: 1) Obtain a Nevada driver\'s license within 30 days, 2) Register your vehicles in Nevada, 3) Register to vote in Nevada, 4) Update your address on all financial accounts, 5) Spend the majority of your time in Nevada, 6) Join local clubs, churches, or organizations, 7) Maintain documentation of your presence in Nevada. Former high-tax state residents should be especially careful to document their move thoroughly.'
+      },
+    ],
+    bottomLine: 'Nevada offers one of the best tax environments for retirees in the United States. With no income tax, no estate tax, no inheritance tax, and low property taxes, Nevada retirees keep significantly more of their retirement income. A retiree moving from California with $150,000 annual income can save over $10,000 per year in state taxes. The trade-off is an 8.375% sales tax and a desert climate that isn\'t for everyone. For those who can adapt to the lifestyle, the financial benefits are substantial. --- *Learn more about [[Nevada Wealth Management]], [[Retirement Tax Planning]], and [[State Tax Comparison]] in our comprehensive guides.*'
+  },
+  {
+    id: 'city-vegas-002',
+    title: 'Retirement Planning in Las Vegas: Complete Guide',
+    slug: 'retirement-planning-las-vegas',
+    hubId: 'las-vegas',
+    type: 'spoke',
+    excerpt: 'Comprehensive retirement planning guide for Las Vegas including tax advantages, cost of living, healthcare, lifestyle considerations, and finding qualified financial advisors.',
+    readTime: '12 min read',
+    publishDate: '2025-12-23',
+    author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
+    primaryKeyword: 'retirement planning Las Vegas',
+    metaDescription: 'Complete retirement planning guide for Las Vegas. Learn about Nevada tax advantages, cost of living, healthcare options, and finding the right financial advisor.',
+    lastUpdated: '2025-12-23',
+    keyTakeaways: [
+      'Las Vegas offers significant tax advantages with no state income tax',
+      'Cost of living is moderate—about average for the US overall',
+      'Healthcare infrastructure has improved significantly in recent years',
+      'Hot summers are a consideration—many retirees become snowbirds',
+      'Growing wealth management industry serves the large retiree population',
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'Why Retire in Las Vegas?',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Tax Advantages</h3>
+          <p>Las Vegas's primary appeal for retirees is Nevada's exceptional tax environment:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>No state income tax:</strong> Keep 100% of retirement income (at state level)</li>
+          <li><strong>No state estate tax:</strong> Pass wealth to heirs without state-level reduction</li>
+          <li><strong>Low property taxes:</strong> ~0.53% effective rate</li>
+          <li><strong>No tax on Social Security:</strong> 100% exempt</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Cost of Living</h3>
+          <p>Las Vegas offers moderate living costs, especially compared to California coastal cities:</p>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Category</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Las Vegas</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Los Angeles</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Overall Index (US = 100)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">101</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">166</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Housing</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">98</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">280</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Utilities</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">95</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">103</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Groceries</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">102</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">110</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Lifestyle Considerations</h3>
+          <p><strong>Positives:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>World-class entertainment and dining</li>
+          <li>Easy access to outdoor recreation (Red Rock, Lake Mead)</li>
+          <li>International airport with direct flights everywhere</li>
+          <li>Active 55+ communities</li>
+          <li>Golf courses and resort amenities</li>
+          </ul>
+          <p><strong>Considerations:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Summer heat (115°F+ possible)</li>
+          <li>Desert environment isn't for everyone</li>
+          <li>Tourism-driven economy</li>
+          <li>Less green space than coastal areas</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'How Much Do You Need to Retire in Las Vegas?',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Retirement Savings Targets</h3>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Lifestyle</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Annual Spending</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Savings Needed (25x)</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Modest</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$45,000-$55,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1.1-$1.4 million</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Comfortable</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$60,000-$80,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1.5-$2.0 million</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Affluent</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$100,000-$150,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2.5-$3.75 million</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <p><strong>Note:</strong> These figures assume Social Security income in addition to portfolio withdrawals. Las Vegas's no-income-tax status means you need less gross income than in high-tax states.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">The Tax Advantage Effect</h3>
+          <p>Because Nevada has no income tax, your dollar goes further:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>$80,000 withdrawal = $80,000 (minus federal tax only)</li>
+          <li>In California: $80,000 - $4,800 state tax = $75,200 net</li>
+          <li>You need ~6% less savings in Nevada to achieve the same lifestyle</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Housing Costs</h3>
+          <p>Las Vegas housing options for retirees:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Single-family home:</strong> $350,000-$600,000 (average areas)</li>
+          <li><strong>55+ community:</strong> $250,000-$500,000 + HOA</li>
+          <li><strong>Luxury communities:</strong> $600,000-$2,000,000+</li>
+          <li><strong>Rental apartments:</strong> $1,500-$2,500/month</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Las Vegas Healthcare for Retirees',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Major Healthcare Facilities</h3>
+          <p>Las Vegas healthcare has improved significantly:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Cleveland Clinic Lou Ruvo Center:</strong> Neurological specialization (brain health)</li>
+          <li><strong>University Medical Center (UMC):</strong> Level 1 trauma center</li>
+          <li><strong>Sunrise Hospital:</strong> Major acute care facility</li>
+          <li><strong>Henderson Hospital:</strong> Newer facility in growing suburb</li>
+          <li><strong>Comprehensive Cancer Centers:</strong> Growing oncology services</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Medicare Options</h3>
+          <p><strong>Medicare Advantage:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Humana, UnitedHealthcare, Aetna have strong local networks</li>
+          <li>Many $0 premium plans available</li>
+          <li>Good choice of PPO and HMO options</li>
+          </ul>
+          <p><strong>Original Medicare + Medigap:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>All standardized Medigap plans available</li>
+          <li>Competitive pricing due to large retiree market</li>
+          <li>Plan G and Plan N most popular</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Pre-Medicare Coverage (Under 65)</h3>
+          <p>For early retirees:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Nevada Health Link:</strong> ACA marketplace plans</li>
+          <li><strong>Subsidies available:</strong> If income under 400% FPL</li>
+          <li><strong>Budget:</strong> $800-$1,500/month per person for quality coverage</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Best Las Vegas Retirement Communities',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">55+ Active Adult Communities</h3>
+          <p><strong>Sun City Summerlin:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Largest 55+ community in Nevada</li>
+          <li>Three golf courses, multiple rec centers</li>
+          <li>Home prices: $300,000-$700,000</li>
+          <li>Active social calendar, clubs, activities</li>
+          </ul>
+          <p><strong>Anthem (Henderson):</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Master-planned community with 55+ section</li>
+          <li>Near Lake Las Vegas and outdoor recreation</li>
+          <li>Mix of ages in overall community</li>
+          </ul>
+          <p><strong>Siena (Henderson):</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Guard-gated 55+ community</li>
+          <li>Golf course and country club amenities</li>
+          <li>More upscale option</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Suburban Options</h3>
+          <p><strong>Henderson:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Consistently rated safest city in Nevada</li>
+          <li>Excellent shopping, dining, healthcare access</li>
+          <li>Mix of traditional and age-restricted neighborhoods</li>
+          </ul>
+          <p><strong>Summerlin:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Master-planned, upscale community</li>
+          <li>Near Red Rock Canyon for outdoor activities</li>
+          <li>Good schools (for visiting grandchildren)</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Working with Las Vegas Financial Advisors',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Finding a Qualified Advisor</h3>
+          <p>Las Vegas has a growing wealth management industry serving retirees. Look for:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Fee-only advisors:</strong> No conflicts from commission products</li>
+          <li><strong>CFP certification:</strong> Comprehensive financial planning training</li>
+          <li><strong>Experience with retirees:</strong> Understanding of Social Security, Medicare, RMDs</li>
+          <li><strong>Fiduciary duty:</strong> Legal obligation to act in your interest</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">What Las Vegas Advisors Should Address</h3>
+          <p><strong>Key planning issues:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Social Security optimization</li>
+          <li>Retirement income planning and withdrawal strategies</li>
+          <li>Medicare enrollment and plan selection</li>
+          <li>Estate planning (taking advantage of no state estate tax)</li>
+          <li>Tax-efficient investing (optimizing for federal taxes only)</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Questions to Ask</h3>
+          <p><strong>When interviewing advisors:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>How many retirees do you work with?</li>
+          <li>Are you a fiduciary 100% of the time?</li>
+          <li>What credentials do you hold?</li>
+          <li>How do you charge for services?</li>
+          <li>Do you coordinate with CPAs and estate attorneys?</li>
+          <li>What is your investment philosophy?</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Typical Advisory Fees</h3>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Assets</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Typical AUM Fee</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500,000-$1M</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1.00-1.25%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1M-$2M</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.85-1.00%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2M+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.75-0.85%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+        `
+      },
+      {
+        type: 'text',
+        title: 'The Snowbird Strategy',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Splitting Time Between Locations</h3>
+          <p>Many Las Vegas retirees become "snowbirds" to escape summer heat:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Spring/Fall/Winter in Las Vegas:</strong> Enjoy the mild weather</li>
+          <li><strong>Summer elsewhere:</strong> Escape the 110°F+ heat</li>
+          <li><strong>Tax benefit:</strong> Maintain Nevada residency for tax purposes</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Popular Snowbird Destinations</h3>
+          <p><strong>From Las Vegas, retirees often summer in:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Pacific Northwest (Washington, Oregon)</li>
+          <li>Northern California coast</li>
+          <li>Colorado mountains</li>
+          <li>Montana or Idaho</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Maintaining Nevada Residency</h3>
+          <p>To keep Nevada tax benefits while snowbirding:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Spend more than 50% of time in Nevada</li>
+          <li>Maintain Nevada as primary residence</li>
+          <li>Keep Nevada driver's license and voter registration</li>
+          <li>Have mail forwarded from Nevada address</li>
+          <li>Document days spent in each location</li>
+          </ul>
+          <p><strong>Warning:</strong> Some high-tax states (California, New York) may attempt to claim you as a resident if you spend significant time there. Keep careful records.</p>
+        `
+      },
+    ],
+    faqs: [
+      {
+        question: '### Is Las Vegas a good place to retire?',
+        answer: 'Las Vegas is excellent for retirees seeking tax advantages (no income tax, no estate tax), moderate cost of living, entertainment options, and warm winters. Considerations include extreme summer heat (110°F+), desert environment, and healthcare that, while improving, isn\'t quite at the level of major California cities. Many retirees adopt a "snowbird" lifestyle, spending summers elsewhere.'
+      },
+      {
+        question: '### How much money do you need to retire in Las Vegas?',
+        answer: 'For a comfortable retirement in Las Vegas, plan for $60,000-$80,000 annual spending, requiring approximately $1.5-$2.0 million in savings (plus Social Security). Nevada\'s no income tax means you need less gross income than in high-tax states—about 6-8% less than retiring in California with the same lifestyle.'
+      },
+      {
+        question: '### What are the best retirement communities in Las Vegas?',
+        answer: 'Top 55+ communities include Sun City Summerlin (largest, most amenities), Siena in Henderson (guard-gated, golf), and Anthem in Henderson (master-planned). For non-age-restricted living, Henderson and Summerlin are popular with retirees due to safety, amenities, and proximity to healthcare. Price ranges from $300,000 to $700,000+ depending on community and home type.'
+      },
+      {
+        question: '### How is healthcare in Las Vegas for retirees?',
+        answer: 'Las Vegas healthcare has improved significantly, with facilities like Cleveland Clinic Lou Ruvo Center (neurological), UMC (trauma), and growing specialty services. Medicare Advantage plans have strong networks with $0 premium options available. However, for complex medical conditions, some patients travel to Los Angeles or other major medical centers. The healthcare infrastructure continues to expand with the growing retiree population.'
+      },
+      {
+        question: '### Should I retire in Las Vegas or Arizona?',
+        answer: 'Both offer tax benefits, but with differences: Nevada has no income tax while Arizona has a 2.5% flat tax. Nevada has no estate tax while Arizona does not (under federal threshold). Las Vegas offers more entertainment and urban amenities; Arizona (Phoenix, Scottsdale) has more diverse scenery and slightly lower summer temperatures. Cost of living is similar. Choose based on lifestyle preferences and specific community appeal.'
+      },
+    ],
+    bottomLine: 'Las Vegas offers retirees exceptional tax advantages combined with moderate cost of living, world-class entertainment, and improving healthcare infrastructure. The combination of no income tax and no estate tax can save retirees hundreds of thousands of dollars over their retirement years. The main trade-offs are extreme summer heat and a desert environment that doesn\'t appeal to everyone. For those who can adapt to the climate—or adopt a snowbird lifestyle—Las Vegas provides outstanding financial benefits for retirement. --- *Learn more about [[Nevada Retirement Taxes]], [[Finding a Financial Advisor]], and [[Retirement Income Planning]] in our comprehensive guides.*'
+  },
+
+  // Atlanta Articles
+  {
+    id: 'city-atlanta-001',
+    title: 'Retirement Planning in Atlanta: Georgia Tax Benefits Guide',
+    slug: 'atlanta-retirement-planning-georgia-tax-benefits',
+    hubId: 'atlanta',
+    type: 'city',
+    author: 'Wealth Authority Editorial Team',
+    lastUpdated: 'December 2024',
+    readTime: '12 min read',
+    excerpt: 'Comprehensive guide to retirement planning in Atlanta. Learn about Georgia\'s generous retirement income exclusion, cost of living advantages, and strategies for maximizing your retirement in the Peach State.',
+    category: 'Retirement Planning',
+    keyTakeaways: [
+      'Georgia offers up to $65,000 retirement income exclusion for those 65+',
+      'Social Security benefits are completely exempt from Georgia state tax',
+      'Atlanta\'s cost of living is 2% below the national average',
+      'Emory Healthcare and Piedmont provide world-class medical care',
+      'Georgia has no estate or inheritance tax'
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'Why Atlanta Is a Top Retirement Destination',
+        content: `
+          <p>Atlanta has emerged as one of the most attractive retirement destinations in the Southeast, combining significant tax advantages with a moderate cost of living, excellent healthcare, and a vibrant cultural scene. For retirees seeking to maximize their retirement savings while enjoying four mild seasons and urban amenities, Atlanta offers compelling benefits.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Key Advantages for Retirees</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Tax-Friendly:</strong> Georgia's retirement income exclusion is among the most generous in the nation</li>
+          <li><strong>Affordable Living:</strong> Cost of living 2% below national average (vs. 20%+ above in many coastal cities)</li>
+          <li><strong>Healthcare Excellence:</strong> Home to CDC headquarters, Emory Healthcare, and Piedmont Health System</li>
+          <li><strong>Cultural Hub:</strong> World-class museums, performing arts, and professional sports</li>
+          <li><strong>Major Airport:</strong> Hartsfield-Jackson is the world's busiest airport, making travel convenient</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Georgia Retirement Tax Benefits',
+        content: `
+          <p>Georgia's tax structure provides significant advantages for retirees, making it one of the most tax-friendly states in the Southeast.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Retirement Income Exclusion</h3>
+          <p>Georgia offers a generous retirement income exclusion for taxpayers 62 and older:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Ages 62-64:</strong> Up to $35,000 per person excluded from state income tax</li>
+          <li><strong>Ages 65+:</strong> Up to $65,000 per person excluded from state income tax</li>
+          <li><strong>Married Filing Jointly 65+:</strong> Up to $130,000 combined exclusion</li>
+          </ul>
+          <p><strong>What Qualifies:</strong> The exclusion applies to retirement income including pensions, 401(k) distributions, IRA withdrawals, and annuity income.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Social Security Benefits</h3>
+          <p><strong>100% Exempt:</strong> Georgia does not tax Social Security benefits at all. Combined with the retirement income exclusion, a married couple over 65 could have over $180,000 in tax-advantaged retirement income ($130,000 exclusion + $50,000+ Social Security).</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Georgia Income Tax Rates (2024)</h3>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Income Level</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Tax Rate</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$0 - $750</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1.00%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$750 - $2,250</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2.00%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,250 - $3,750</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">3.00%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$3,750 - $5,250</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">4.00%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5,250 - $7,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">5.00%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$7,000+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">5.75%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <p><strong>Note:</strong> Georgia is transitioning to a flat 5.49% tax rate, with further reductions planned in coming years.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Property Tax Benefits</h3>
+          <p>Georgia offers several property tax exemptions for seniors:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Standard Homestead Exemption:</strong> $2,000 reduction in assessed value</li>
+          <li><strong>Senior Exemption (65+):</strong> Additional exemptions available, varying by county</li>
+          <li><strong>Fulton County (Atlanta):</strong> Senior School Tax Exemption for those 65+ with income under $80,000</li>
+          <li><strong>Floating Homestead:</strong> Some counties freeze property assessments for seniors</li>
+          </ul>
+          <p><strong>Pro Tip:</strong> Property tax exemptions vary significantly by county in Metro Atlanta. Research exemptions in Fulton, DeKalb, Cobb, Gwinnett, and Cherokee counties before choosing where to live.</p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Cost of Living in Atlanta',
+        content: `
+          <p>Atlanta's cost of living is approximately 2% below the national average, making it one of the most affordable major metropolitan areas in the country.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Cost of Living Comparison</h3>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Category</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Atlanta</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">National Avg</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Overall</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">98</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">100</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Housing</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">88</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">100</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Healthcare</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">95</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">100</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Transportation</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">107</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">100</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Utilities</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">103</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">100</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Housing Costs by Area</h3>
+          <p><strong>Median Home Prices (2024):</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Buckhead:</strong> $850,000+ (upscale urban)</li>
+          <li><strong>Midtown:</strong> $550,000-$750,000 (walkable urban)</li>
+          <li><strong>Decatur:</strong> $525,000-$650,000 (charming downtown)</li>
+          <li><strong>Marietta:</strong> $400,000-$500,000 (suburban)</li>
+          <li><strong>Peachtree City:</strong> $450,000-$600,000 (golf cart community)</li>
+          <li><strong>Canton/Woodstock:</strong> $375,000-$475,000 (north suburbs)</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Monthly Budget for Retirees</h3>
+          <p><strong>Comfortable Retirement (Couple):</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Housing (mortgage/rent, taxes, insurance): $2,000-$3,000</li>
+          <li>Healthcare (Medicare + supplements): $600-$900</li>
+          <li>Food and dining: $800-$1,200</li>
+          <li>Transportation: $400-$600</li>
+          <li>Utilities: $300-$400</li>
+          <li>Entertainment/travel: $500-$1,000</li>
+          <li><strong>Total: $4,600-$7,100/month</strong></li>
+          </ul>
+          <p>This translates to approximately $55,000-$85,000 annually for a comfortable retirement in Atlanta.</p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Healthcare in Atlanta',
+        content: `
+          <p>Atlanta is a major healthcare hub with world-renowned medical facilities, making it an excellent choice for retirees concerned about access to quality care.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Top Healthcare Systems</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Emory Healthcare:</strong> Consistently ranked among the nation's best, with specialty excellence in cardiology, cancer, orthopedics, and neurology. Emory University Hospital is U.S. News & World Report ranked.</li>
+          <li><strong>Piedmont Healthcare:</strong> Largest healthcare system in Georgia, known for cardiac care. Piedmont Atlanta has one of the busiest cardiac programs in the country.</li>
+          <li><strong>Northside Hospital:</strong> Leader in cancer care and women's health, multiple locations across Metro Atlanta.</li>
+          <li><strong>Grady Memorial Hospital:</strong> Level I trauma center, Marcus Stroke & Neuroscience Center.</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">CDC Headquarters</h3>
+          <p>Atlanta is home to the Centers for Disease Control and Prevention (CDC), giving the region unique expertise in public health and infectious disease.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Medicare Options</h3>
+          <p>Metro Atlanta has robust Medicare options:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Medicare Advantage:</strong> Major carriers include Humana, UnitedHealthcare, Anthem, Kaiser Permanente (Georgia)</li>
+          <li><strong>$0 Premium Plans:</strong> Multiple options available with comprehensive coverage</li>
+          <li><strong>Medigap:</strong> All Plan types available, though Georgia does not have continuous open enrollment</li>
+          </ul>
+          <p><strong>Kaiser Permanente Georgia:</strong> Unique in the Southeast, Kaiser offers an integrated HMO model in Metro Atlanta with its own facilities and physicians.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Specialized Care</h3>
+          <p>Atlanta excels in specialized medical services:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Winship Cancer Institute:</strong> Emory's NCI-designated cancer center</li>
+          <li><strong>Shepherd Center:</strong> World-renowned spinal cord and brain injury rehabilitation</li>
+          <li><strong>Emory Eye Center:</strong> Nationally ranked ophthalmology</li>
+          <li><strong>Emory Voice Center:</strong> Voice and swallowing disorders</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Best Atlanta Neighborhoods for Retirees',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Urban/Walkable Options</h3>
+          <p><strong>Buckhead:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Upscale shopping and dining along Peachtree Road</li>
+          <li>High-rise condos with amenities</li>
+          <li>Proximity to Piedmont Hospital</li>
+          <li>Home prices: $500,000-$2M+</li>
+          </ul>
+          <p><strong>Midtown:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Arts and culture hub (High Museum, Fox Theatre)</li>
+          <li>Walkable to Piedmont Park</li>
+          <li>MARTA accessible</li>
+          <li>Condo prices: $350,000-$800,000</li>
+          </ul>
+          <p><strong>Decatur:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Charming downtown square with restaurants</li>
+          <li>Walking and biking trails</li>
+          <li>Near Emory University and hospitals</li>
+          <li>Home prices: $500,000-$750,000</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Suburban Options</h3>
+          <p><strong>Peachtree City:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Famous for 100+ miles of golf cart paths</li>
+          <li>Active adult lifestyle</li>
+          <li>Multiple golf courses</li>
+          <li>35 miles south of Atlanta</li>
+          <li>Home prices: $400,000-$700,000</li>
+          </ul>
+          <p><strong>Roswell/Alpharetta:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Historic downtown Roswell</li>
+          <li>Avalon mixed-use development</li>
+          <li>Top-rated healthcare nearby</li>
+          <li>Home prices: $450,000-$800,000</li>
+          </ul>
+          <p><strong>Marietta:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Historic downtown square</li>
+          <li>More affordable than intown</li>
+          <li>Good hospital access (Wellstar)</li>
+          <li>Home prices: $350,000-$550,000</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">55+ Communities</h3>
+          <p><strong>Active Adult Options:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Del Webb at Lake Oconee:</strong> Resort-style on Lake Oconee (about 75 miles from Atlanta)</li>
+          <li><strong>Cresswind at Lake Lanier:</strong> 55+ community with lake access</li>
+          <li><strong>Soleil at Laurel Canyon:</strong> Canton, with mountain views</li>
+          <li><strong>Sterling on the Lake:</strong> Flowery Branch, near Lake Lanier</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Tax Planning Strategies for Atlanta Retirees',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Maximizing the Retirement Income Exclusion</h3>
+          <p><strong>Strategy 1: Time Your Retirement</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>The exclusion jumps from $35,000 to $65,000 at age 65</li>
+          <li>Consider timing large IRA distributions after age 65</li>
+          <li>If retiring at 62-64, consider Roth conversions or other tax planning</li>
+          </ul>
+          <p><strong>Strategy 2: Coordinate with Social Security</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Since Social Security is fully exempt, the exclusion applies entirely to other retirement income</li>
+          <li>A couple at 65+ can have $130,000 in pension/IRA income plus unlimited Social Security tax-free at state level</li>
+          </ul>
+          <p><strong>Strategy 3: Roth Conversion Considerations</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>With the generous exclusion, large Roth conversions may generate unnecessary Georgia tax</li>
+          <li>Consider converting up to your exclusion amount each year</li>
+          <li>May make sense before moving to Georgia (from a higher-tax state)</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Estate Planning in Georgia</h3>
+          <p><strong>Good News:</strong> Georgia has no state estate tax and no inheritance tax.</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Only federal estate tax applies (exemption: $13.61M per person in 2024)</li>
+          <li>Portability allows married couples to combine exemptions</li>
+          <li>Georgia recognizes Uniform Transfer on Death (TOD) for securities</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Investment Income Considerations</h3>
+          <p>Unlike some states, Georgia taxes capital gains as ordinary income:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Long-term capital gains taxed at up to 5.75% state rate</li>
+          <li>Consider tax-loss harvesting to offset gains</li>
+          <li>Municipal bond interest from Georgia bonds is state tax-exempt</li>
+          </ul>
+          <p><strong>Strategy:</strong> Favor qualified dividend stocks and growth stocks held long-term in taxable accounts, as they may benefit from lower federal rates. Use Georgia municipal bonds for additional state tax savings.</p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Finding a Financial Advisor in Atlanta',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Why Work with a Local Advisor?</h3>
+          <p>Atlanta-based financial advisors offer specific advantages:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Georgia Tax Expertise:</strong> Understanding of retirement income exclusion optimization</li>
+          <li><strong>Local Network:</strong> Relationships with Georgia estate attorneys and CPAs</li>
+          <li><strong>Corporate Knowledge:</strong> Experience with major Atlanta employers (Coca-Cola, Delta, Home Depot, UPS)</li>
+          <li><strong>Healthcare Navigation:</strong> Familiarity with local Medicare Advantage plans and providers</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">What to Look For</h3>
+          <p><strong>Credentials and Standards:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Fiduciary standard (legally required to act in your best interest)</li>
+          <li>CFP certification (Certified Financial Planner)</li>
+          <li>Experience with retirement income planning</li>
+          <li>Fee transparency (fee-only or clearly disclosed fee structure)</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Services for Atlanta Retirees</h3>
+          <p><strong>Key Planning Areas:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Retirement income distribution strategies</li>
+          <li>Georgia tax optimization</li>
+          <li>Medicare and healthcare planning</li>
+          <li>Social Security timing strategies</li>
+          <li>Estate planning coordination</li>
+          <li>Investment management</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Fee Structures</h3>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Portfolio Size</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Typical AUM Fee</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500,000-$1M</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1.00-1.25%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1M-$3M</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.85-1.00%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$3M+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.50-0.85%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Atlanta Lifestyle and Recreation',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Cultural Attractions</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>High Museum of Art:</strong> World-class art collection</li>
+          <li><strong>Atlanta Symphony Orchestra:</strong> Grammy-winning performances</li>
+          <li><strong>Fox Theatre:</strong> Historic venue for Broadway and concerts</li>
+          <li><strong>Atlanta Botanical Garden:</strong> 30 acres of stunning displays</li>
+          <li><strong>Center for Civil and Human Rights:</strong> Important historical exhibits</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Professional Sports</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Atlanta Braves:</strong> MLB (Truist Park)</li>
+          <li><strong>Atlanta Falcons:</strong> NFL (Mercedes-Benz Stadium)</li>
+          <li><strong>Atlanta Hawks:</strong> NBA (State Farm Arena)</li>
+          <li><strong>Atlanta United:</strong> MLS (Mercedes-Benz Stadium)</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Outdoor Recreation</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Piedmont Park:</strong> 189-acre urban park with trails and events</li>
+          <li><strong>Atlanta BeltLine:</strong> 33-mile walking/biking trail network</li>
+          <li><strong>Stone Mountain:</strong> Hiking, cable car, and attractions</li>
+          <li><strong>Chattahoochee River:</strong> Kayaking, rafting, and fishing</li>
+          <li><strong>Lake Lanier:</strong> 38,000-acre lake for boating (45 minutes north)</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Golf</h3>
+          <p>Metro Atlanta has over 90 golf courses, including:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>East Lake Golf Club:</strong> Home of Tour Championship</li>
+          <li><strong>TPC Sugarloaf:</strong> Championship course</li>
+          <li><strong>Reynolds Lake Oconee:</strong> Multiple courses at resort community</li>
+          <li><strong>Echelon Golf Club:</strong> Private, Alpharetta</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Climate</h3>
+          <p>Atlanta offers four distinct seasons:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Summer:</strong> Hot and humid (85-95°F), occasional afternoon thunderstorms</li>
+          <li><strong>Fall:</strong> Pleasant (60-75°F), beautiful foliage</li>
+          <li><strong>Winter:</strong> Mild (40-55°F), occasional light snow/ice</li>
+          <li><strong>Spring:</strong> Warm (60-80°F), dogwoods and azaleas bloom</li>
+          </ul>
+        `
+      }
+    ],
+    faqs: [
+      {
+        question: '### Is Atlanta a good place to retire?',
+        answer: 'Atlanta is an excellent retirement destination, offering significant tax advantages (up to $65,000 retirement income exclusion, no Social Security tax), a cost of living 2% below the national average, world-class healthcare (Emory, Piedmont), and rich cultural amenities. The main considerations are summer heat/humidity and traffic congestion. Many retirees choose suburban communities like Peachtree City or north suburbs for a quieter lifestyle while remaining close to Atlanta\'s amenities.'
+      },
+      {
+        question: '### How much retirement income is tax-free in Georgia?',
+        answer: 'Georgia offers a generous retirement income exclusion: $35,000 per person ages 62-64, and $65,000 per person ages 65+. For a married couple both 65+, that\'s $130,000 in retirement income (pensions, 401(k)s, IRAs) exempt from Georgia state tax. Additionally, Social Security benefits are 100% exempt regardless of income, potentially adding another $40,000-$50,000+ in tax-free income.'
+      },
+      {
+        question: '### What is the cost of living in Atlanta for retirees?',
+        answer: 'Atlanta\'s cost of living is approximately 2% below the national average, with housing being particularly affordable compared to coastal cities (12% below average). A retired couple can live comfortably on $55,000-$85,000 annually. Housing costs range from $350,000 in suburban areas like Marietta to $800,000+ in upscale Buckhead. Property taxes are moderate, with additional exemptions available for seniors.'
+      },
+      {
+        question: '### What are the best areas in Atlanta for retirees?',
+        answer: 'Top areas depend on preferences: Buckhead and Midtown for urban walkability and culture; Decatur for a charming small-town feel near Emory hospitals; Peachtree City for the famous golf cart lifestyle; Roswell/Alpharetta for upscale suburban living; Marietta for affordable access to downtown Marietta Square. For 55+ communities, Del Webb at Lake Oconee and Cresswind at Lake Lanier are popular choices.'
+      },
+      {
+        question: '### How is healthcare in Atlanta for retirees?',
+        answer: 'Atlanta has exceptional healthcare. Emory Healthcare is consistently ranked among the nation\'s best hospitals, with specialties including cardiac care, cancer (Winship Cancer Institute), and neurology. Piedmont Healthcare is Georgia\'s largest system with nationally recognized cardiac programs. The CDC is headquartered in Atlanta. Medicare Advantage options are robust, including Kaiser Permanente Georgia\'s integrated model, unique in the Southeast.'
+      },
+      {
+        question: '### Does Georgia have estate tax?',
+        answer: 'No. Georgia has no state estate tax and no inheritance tax. Only federal estate tax applies, with an exemption of $13.61 million per person (2024). This makes Georgia attractive for wealth transfer planning. Combined with the retirement income exclusion and no Social Security tax, Georgia offers one of the most tax-friendly environments for retirees in the Southeast.'
+      }
+    ],
+    bottomLine: 'Atlanta offers retirees an exceptional combination of tax advantages, affordable living, and world-class healthcare. Georgia\'s $65,000 retirement income exclusion (for those 65+) combined with no Social Security tax and no estate tax makes it one of the most tax-friendly states for retirement. The city provides urban amenities, cultural richness, and excellent medical care while maintaining costs well below comparable metropolitan areas. For retirees seeking Southern charm with big-city benefits, Atlanta delivers outstanding value. --- *Learn more about [[Georgia Retirement Taxes]], [[Finding a Financial Advisor]], and [[Retirement Income Planning]] in our comprehensive guides.*'
+  },
+  {
+    id: 'city-atlanta-002',
+    title: 'Georgia Retirement Taxes: Complete Guide for Atlanta Retirees',
+    slug: 'georgia-retirement-taxes-atlanta-guide',
+    hubId: 'atlanta',
+    type: 'city',
+    author: 'Wealth Authority Editorial Team',
+    lastUpdated: 'December 2024',
+    readTime: '10 min read',
+    excerpt: 'Complete guide to Georgia retirement taxes. Learn how the retirement income exclusion works, strategies to minimize taxes on pensions and IRAs, and why Georgia is one of the most tax-friendly states for retirees.',
+    category: 'Tax Planning',
+    keyTakeaways: [
+      'Georgia\'s retirement income exclusion: $35,000 (ages 62-64) or $65,000 (65+) per person',
+      'Social Security benefits are 100% exempt from Georgia income tax',
+      'No state estate tax or inheritance tax in Georgia',
+      'Property tax exemptions available for seniors in most counties',
+      'Georgia is transitioning to a flat 5.49% income tax rate'
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'Georgia Retirement Tax Overview',
+        content: `
+          <p>Georgia ranks among the most tax-friendly states for retirees in the Southeast, thanks to its generous retirement income exclusion and complete exemption of Social Security benefits. Understanding these benefits can save retirees thousands of dollars annually.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Georgia Tax Advantages Summary</h3>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Income Type</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Georgia Tax Treatment</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Social Security</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">100% Exempt</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Pension Income (65+)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Up to $65,000 exempt per person</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">401(k)/IRA Distributions (65+)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Up to $65,000 exempt per person</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Investment Income</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Taxed as ordinary income (up to 5.75%)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Estate/Inheritance</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No state tax</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+        `
+      },
+      {
+        type: 'text',
+        title: 'The Retirement Income Exclusion Explained',
+        content: `
+          <p>Georgia's retirement income exclusion is the cornerstone of its retiree-friendly tax policy. Here's exactly how it works.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Exclusion Amounts by Age</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Ages 62-64:</strong> Up to $35,000 per person per year</li>
+          <li><strong>Age 65 and older:</strong> Up to $65,000 per person per year</li>
+          </ul>
+          <p><strong>For Married Couples Filing Jointly:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Each spouse qualifies individually based on their age</li>
+          <li>A couple both 65+ can exclude up to $130,000 combined</li>
+          <li>If one spouse is 65+ and one is 62-64: $100,000 combined exclusion</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">What Income Qualifies?</h3>
+          <p><strong>Eligible retirement income includes:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Pension income (public and private)</li>
+          <li>401(k) distributions</li>
+          <li>Traditional IRA distributions</li>
+          <li>Annuity income</li>
+          <li>Military retirement pay</li>
+          <li>Government retirement benefits</li>
+          </ul>
+          <p><strong>What does NOT qualify:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Wages and self-employment income</li>
+          <li>Interest and dividends</li>
+          <li>Capital gains</li>
+          <li>Rental income</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Important: Earned Income Reduction</h3>
+          <p>If you have earned income (wages, self-employment), your exclusion is reduced dollar-for-dollar. For example:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Age 67 with $20,000 part-time wages: exclusion reduced to $45,000 ($65,000 - $20,000)</li>
+          <li>Age 65 with $65,000+ earned income: no retirement exclusion available</li>
+          </ul>
+          <p><strong>Planning Tip:</strong> If continuing part-time work, consider the impact on your retirement income exclusion when deciding how much to earn.</p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Social Security Tax Treatment',
+        content: `
+          <p>Georgia fully exempts Social Security benefits from state income tax, regardless of your total income level.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">How This Compares</h3>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">State</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Social Security Treatment</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Georgia</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">100% Exempt</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Colorado</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Partially taxed above thresholds</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Minnesota</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Partially taxed for high earners</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Utah</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Taxed, with credit phase-out</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Combined Benefit Example</h3>
+          <p><strong>Married couple, both 67, living in Atlanta:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Combined Social Security: $55,000 (100% exempt)</li>
+          <li>Combined pension/IRA income: $130,000 (100% exempt via exclusion)</li>
+          <li><strong>Total tax-free income: $185,000</strong></li>
+          </ul>
+          <p>This same couple in a state like California or New York would owe thousands in state income tax on this retirement income.</p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Georgia Property Taxes for Seniors',
+        content: `
+          <p>Property taxes in Georgia are administered at the county level, but several exemptions are available for seniors.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Statewide Exemptions</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Standard Homestead Exemption:</strong> $2,000 off assessed value (all homeowners)</li>
+          <li><strong>Senior Homestead Exemption (65+):</strong> Additional exemptions vary by county</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Metro Atlanta County Exemptions</h3>
+          <p><strong>Fulton County (Atlanta):</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Age 65+: $30,000 exemption for school taxes (income limit: $80,000)</li>
+          <li>Age 62+: $25,000 exemption for county taxes</li>
+          <li>Floating homestead exemption available</li>
+          </ul>
+          <p><strong>DeKalb County:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Age 62+: $50,000 exemption for school taxes (income limit applies)</li>
+          <li>Various senior exemptions for county taxes</li>
+          </ul>
+          <p><strong>Cobb County:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Age 62+: School tax exemption (income limit: $30,000)</li>
+          <li>Age 65+: Enhanced exemption with higher income limits</li>
+          </ul>
+          <p><strong>Gwinnett County:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Age 65+: $10,000 exemption for county taxes</li>
+          <li>School tax exemption with income limits</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Assessment Freezes</h3>
+          <p>Several Georgia counties offer property value assessment freezes for seniors:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Your assessed value is frozen at current level</li>
+          <li>Protects against rising property taxes as values increase</li>
+          <li>Must apply and meet age/income requirements</li>
+          </ul>
+          <p><strong>Action Required:</strong> Property tax exemptions are not automatic. You must apply at your county tax assessor's office. Apply by April 1 for the current tax year.</p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Tax Planning Strategies',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 1: Optimize Distribution Timing</h3>
+          <p><strong>Ages 62-64:</strong> With only a $35,000 exclusion, consider:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Drawing from Roth accounts (tax-free) to stay under exclusion</li>
+          <li>Delaying large IRA distributions until age 65</li>
+          <li>Using taxable accounts for supplemental income</li>
+          </ul>
+          <p><strong>Age 65+:</strong> With $65,000 exclusion:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Take full advantage of the higher exclusion</li>
+          <li>Consider Roth conversions up to the exclusion amount</li>
+          <li>Coordinate with RMD requirements</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 2: Roth Conversion Planning</h3>
+          <p>Georgia's exclusion creates unique Roth conversion considerations:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Before moving to Georgia:</strong> Complete large conversions in your current state if lower tax</li>
+          <li><strong>After age 65 in Georgia:</strong> Convert up to $65,000 annually using the exclusion</li>
+          <li><strong>Coordinate federal taxes:</strong> Stay in lower federal brackets when converting</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 3: Managing Investment Income</h3>
+          <p>Since investment income doesn't qualify for the exclusion:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Hold dividend-producing investments in tax-advantaged accounts</li>
+          <li>Consider Georgia municipal bonds (state tax exempt)</li>
+          <li>Use tax-loss harvesting to offset capital gains</li>
+          <li>Favor growth stocks over income stocks in taxable accounts</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 4: Part-Time Work Considerations</h3>
+          <p>If considering part-time work in retirement:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Remember earned income reduces your exclusion dollar-for-dollar</li>
+          <li>Calculate the true value of working (income minus lost exclusion)</li>
+          <li>Consider consulting/1099 work (still counts as earned income)</li>
+          </ul>
+          <p><strong>Example:</strong> A 66-year-old earning $25,000 part-time reduces their exclusion from $65,000 to $40,000, effectively losing $25,000 x 5.75% = $1,437 in tax savings.</p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Georgia vs. Other Retirement States',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Tax Comparison</h3>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">State</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Income Tax</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Retirement Benefit</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">SS Tax</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Georgia</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">5.75% (moving to 5.49%)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$65K exclusion (65+)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Exempt</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Florida</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">None</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">N/A</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">N/A</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Tennessee</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">None</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">N/A</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">N/A</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">South Carolina</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">6.5% (max)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$10K exclusion</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Exempt</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">North Carolina</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">5.25% flat</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$4K deduction</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Exempt</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Georgia vs. Florida Analysis</h3>
+          <p>Florida has no income tax, but Georgia may be competitive due to:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Georgia's generous exclusion may result in similar effective tax</li>
+          <li>Lower property taxes in many Georgia counties vs. Florida</li>
+          <li>Lower hurricane/flood insurance costs</li>
+          <li>No need to maintain residency documentation</li>
+          </ul>
+          <p><strong>For a couple with $130,000 in retirement income (plus Social Security):</strong> Georgia tax = $0 (fully excluded). Florida tax = $0. The difference comes down to property taxes, insurance, and cost of living.</p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Filing Tips and Requirements',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Georgia Tax Filing Requirements</h3>
+          <p><strong>You must file a Georgia return if:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>You're required to file a federal return, AND</li>
+          <li>You have Georgia-source income, OR</li>
+          <li>You're a Georgia resident</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Claiming the Retirement Income Exclusion</h3>
+          <p><strong>Steps to claim:</strong></p>
+          <ol class="list-decimal pl-6 space-y-2 my-4">
+          <li>Complete federal return first</li>
+          <li>On Georgia Form 500, enter retirement income</li>
+          <li>Complete Schedule 1 to calculate exclusion</li>
+          <li>Subtract exclusion on Schedule 1, Line 4</li>
+          </ol>
+          <p><strong>Documentation needed:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>1099-R forms for pension and IRA distributions</li>
+          <li>Age verification (use birth date on return)</li>
+          <li>Earned income records if applicable</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Common Filing Errors</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Forgetting earned income offset:</strong> Exclusion is reduced by wages/self-employment</li>
+          <li><strong>Wrong age bracket:</strong> Verify age as of December 31 of tax year</li>
+          <li><strong>Missing Social Security exclusion:</strong> Remember it's separate from retirement exclusion</li>
+          <li><strong>Including ineligible income:</strong> Investment income doesn't qualify</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Important Deadlines</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Tax filing:</strong> April 15 (same as federal)</li>
+          <li><strong>Property tax exemption:</strong> April 1 to apply</li>
+          <li><strong>Estimated payments:</strong> Same schedule as federal (quarterly)</li>
+          </ul>
+        `
+      }
+    ],
+    faqs: [
+      {
+        question: '### How much retirement income is tax-free in Georgia?',
+        answer: 'Georgia allows up to $35,000 per person (ages 62-64) or $65,000 per person (ages 65+) in retirement income to be excluded from state taxes. This applies to pensions, 401(k) distributions, and IRA withdrawals. A married couple both 65+ can exclude up to $130,000 combined. Social Security is separately and fully exempt regardless of income level.'
+      },
+      {
+        question: '### Is Georgia a good state for retirees tax-wise?',
+        answer: 'Yes, Georgia is among the most tax-friendly states for retirees. The combination of the retirement income exclusion ($65,000 per person 65+), complete Social Security exemption, no estate tax, and moderate income tax rates (5.75%, moving to 5.49%) creates significant tax advantages. Many retirees pay little to no Georgia income tax.'
+      },
+      {
+        question: '### Does Georgia tax 401(k) withdrawals?',
+        answer: 'Georgia taxes 401(k) withdrawals as ordinary income, but the retirement income exclusion applies. If you\'re 65+, up to $65,000 of your 401(k) distribution is exempt from state tax. Any amount above the exclusion is taxed at Georgia\'s rates (maximum 5.75%). The exclusion is reduced dollar-for-dollar by any earned income you have.'
+      },
+      {
+        question: '### Are property taxes high in Georgia?',
+        answer: 'Georgia property taxes are moderate compared to many states. The state offers a standard homestead exemption plus additional senior exemptions that vary by county. In Metro Atlanta, effective rates typically range from 0.9% to 1.3% of home value. Seniors should apply for exemptions at their county tax assessor\'s office - they are not automatic.'
+      },
+      {
+        question: '### Does Georgia have an estate tax?',
+        answer: 'No, Georgia does not have a state estate tax or inheritance tax. Only federal estate tax applies, with an exemption of $13.61 million per person (2024). This makes Georgia attractive for high-net-worth retirees concerned about wealth transfer, especially compared to states like Massachusetts or Oregon that have lower state estate tax thresholds.'
+      }
+    ],
+    bottomLine: 'Georgia offers retirees exceptional tax benefits through its retirement income exclusion and Social Security exemption. A married couple over 65 can effectively receive over $180,000 in tax-advantaged retirement income when combining the exclusion with Social Security. With no estate tax and moderate property taxes with senior exemptions, Georgia provides a compelling tax environment for retirement. Work with a qualified tax professional to maximize these benefits and coordinate with your overall retirement income strategy. --- *Learn more about [[Retirement Income Planning]], [[Finding a Financial Advisor]], and [[Atlanta Retirement Planning]] in our comprehensive guides.*'
+  },
+
+  // Nashville Articles
+  {
+    id: 'city-nashville-001',
+    title: 'Retirement Planning in Nashville: Tennessee Tax-Free Living Guide',
+    slug: 'nashville-retirement-planning-tennessee-no-income-tax',
+    hubId: 'nashville',
+    type: 'city',
+    author: 'Wealth Authority Editorial Team',
+    lastUpdated: 'December 2024',
+    readTime: '11 min read',
+    excerpt: 'Comprehensive guide to retirement planning in Nashville. Learn why Tennessee\'s no income tax policy makes Music City an ideal retirement destination, plus healthcare, cost of living, and neighborhood insights.',
+    category: 'Retirement Planning',
+    keyTakeaways: [
+      'Tennessee has no state income tax on wages, salaries, or retirement income',
+      'Nashville\'s cost of living is slightly below the national average',
+      'Vanderbilt University Medical Center offers world-class healthcare',
+      'Tennessee has no estate or inheritance tax',
+      'Property taxes are among the lowest in the nation'
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'Why Nashville Is a Top Retirement Destination',
+        content: `
+          <p>Nashville has transformed from a regional music hub into one of America's most dynamic cities, attracting retirees with its zero income tax policy, affordable living, excellent healthcare, and vibrant culture. For retirees seeking to keep more of their retirement income while enjoying an active lifestyle, Nashville delivers exceptional value.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Key Advantages for Retirees</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>No Income Tax:</strong> Tennessee does not tax wages, Social Security, pensions, or investment income</li>
+          <li><strong>Low Property Taxes:</strong> Among the lowest effective property tax rates in the nation</li>
+          <li><strong>Healthcare Excellence:</strong> Home to Vanderbilt University Medical Center and numerous healthcare companies</li>
+          <li><strong>Cultural Scene:</strong> Live music, world-class dining, and entertainment options</li>
+          <li><strong>Central Location:</strong> Within a day's drive of much of the eastern United States</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Tennessee Tax Advantages',
+        content: `
+          <p>Tennessee's tax structure is exceptionally favorable for retirees, offering significant advantages over most other states.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">No State Income Tax</h3>
+          <p><strong>Zero tax on:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Wages and salaries (if you work part-time)</li>
+          <li>Social Security benefits</li>
+          <li>Pension income</li>
+          <li>401(k) and IRA distributions</li>
+          <li>Capital gains</li>
+          <li>Interest and dividends</li>
+          </ul>
+          <p><strong>Historical Note:</strong> Tennessee previously taxed interest and dividends under the "Hall Tax," but this was fully phased out in 2021. Tennessee now has zero state income tax on any type of income.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">No Estate or Inheritance Tax</h3>
+          <p>Tennessee has no state estate tax and no inheritance tax. Only federal estate tax applies (exemption: $13.61M per person in 2024).</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Sales Tax Considerations</h3>
+          <p>Tennessee has a higher sales tax to offset the lack of income tax:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>State rate:</strong> 7%</li>
+          <li><strong>Local additions:</strong> Up to 2.75% (Davidson County/Nashville: 2.25%)</li>
+          <li><strong>Total Nashville rate:</strong> 9.25%</li>
+          <li><strong>Groceries:</strong> Reduced rate of 4% state + local</li>
+          </ul>
+          <p><strong>Impact on Retirees:</strong> While sales tax is higher, retirees typically spend less on goods than they earn in income, making the no-income-tax benefit far outweigh sales tax costs.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Property Taxes</h3>
+          <p>Tennessee property taxes are among the lowest in the nation:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Davidson County (Nashville):</strong> Effective rate approximately 0.76%</li>
+          <li><strong>Williamson County (Franklin/Brentwood):</strong> Approximately 0.47%</li>
+          <li><strong>Rutherford County (Murfreesboro):</strong> Approximately 0.65%</li>
+          </ul>
+          <p><strong>Senior Tax Relief:</strong> Tennessee offers property tax relief for seniors 65+ with limited income (under $31,600). The program reimburses property taxes up to $200.</p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Cost of Living in Nashville',
+        content: `
+          <p>Nashville's cost of living is approximately 2% above the national average, though it varies significantly by neighborhood and offers excellent value compared to other major metropolitan areas.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Cost of Living Comparison</h3>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Category</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Nashville</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">National Avg</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Overall</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">102</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">100</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Housing</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">107</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">100</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Healthcare</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">91</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">100</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Transportation</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">96</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">100</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Utilities</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">95</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">100</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Housing Costs by Area</h3>
+          <p><strong>Median Home Prices (2024):</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Downtown Nashville:</strong> $600,000-$900,000 (urban condos)</li>
+          <li><strong>Green Hills:</strong> $700,000-$1.2M (upscale established)</li>
+          <li><strong>Franklin:</strong> $650,000-$900,000 (historic charm)</li>
+          <li><strong>Brentwood:</strong> $800,000-$1.5M (affluent suburban)</li>
+          <li><strong>Murfreesboro:</strong> $400,000-$500,000 (affordable suburban)</li>
+          <li><strong>Mt. Juliet:</strong> $450,000-$550,000 (growing suburb)</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Monthly Budget for Retirees</h3>
+          <p><strong>Comfortable Retirement (Couple):</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Housing (mortgage/rent, taxes, insurance): $2,000-$3,500</li>
+          <li>Healthcare (Medicare + supplements): $600-$900</li>
+          <li>Food and dining: $900-$1,300</li>
+          <li>Transportation: $400-$600</li>
+          <li>Utilities: $250-$350</li>
+          <li>Entertainment/travel: $600-$1,200</li>
+          <li><strong>Total: $4,750-$7,850/month</strong></li>
+          </ul>
+          <p>This translates to approximately $57,000-$94,000 annually. With no state income tax, your gross income requirements are lower than in taxed states.</p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Healthcare in Nashville',
+        content: `
+          <p>Nashville is known as the "Healthcare Capital of America," home to more than 500 healthcare companies and some of the nation's finest medical facilities.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Major Healthcare Systems</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Vanderbilt University Medical Center:</strong> Nationally ranked in multiple specialties including cancer, cardiology, and neurology. U.S. News & World Report consistently ranks it among the best hospitals in the nation.</li>
+          <li><strong>Ascension Saint Thomas:</strong> Multiple hospitals across Middle Tennessee, strong cardiac and orthopedic programs.</li>
+          <li><strong>TriStar Health (HCA Healthcare):</strong> Comprehensive network including Centennial Medical Center, known for cardiovascular services.</li>
+          <li><strong>Williamson Health:</strong> Serving Franklin and Williamson County with award-winning care.</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Healthcare Industry Presence</h3>
+          <p>Nashville's healthcare ecosystem benefits residents:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>HCA Healthcare:</strong> World's largest for-profit hospital operator, headquartered in Nashville</li>
+          <li><strong>Community Health Systems:</strong> Major hospital operator</li>
+          <li><strong>Envision Healthcare:</strong> Physician services company</li>
+          <li>Over 500 healthcare companies creating a concentration of medical expertise</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Medicare Options</h3>
+          <p>Nashville has robust Medicare coverage:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Medicare Advantage:</strong> Major carriers include UnitedHealthcare, Humana, Aetna, Cigna</li>
+          <li><strong>$0 Premium Plans:</strong> Multiple options available with good Vanderbilt network access</li>
+          <li><strong>Medigap:</strong> All supplement plans available in Tennessee</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Specialized Care</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Vanderbilt-Ingram Cancer Center:</strong> NCI-designated comprehensive cancer center</li>
+          <li><strong>Sarah Cannon Cancer Institute:</strong> One of the largest oncology research networks</li>
+          <li><strong>Vanderbilt Heart:</strong> Leading cardiac care program</li>
+          <li><strong>Tennessee Orthopaedic Alliance:</strong> Largest orthopedic practice in the region</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Best Nashville Neighborhoods for Retirees',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Urban/Walkable Options</h3>
+          <p><strong>Green Hills:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Established neighborhood with shopping and dining</li>
+          <li>Close to Vanderbilt Medical Center</li>
+          <li>Mix of condos and single-family homes</li>
+          <li>Home prices: $600,000-$1.2M</li>
+          </ul>
+          <p><strong>12 South:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Trendy, walkable neighborhood</li>
+          <li>Boutique shops and restaurants</li>
+          <li>Close to downtown</li>
+          <li>Home prices: $700,000-$1M+</li>
+          </ul>
+          <p><strong>The Gulch:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Urban living near downtown</li>
+          <li>High-rise condos with amenities</li>
+          <li>Walking distance to entertainment</li>
+          <li>Condo prices: $400,000-$800,000</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Suburban Options</h3>
+          <p><strong>Franklin:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Charming historic downtown</li>
+          <li>Excellent shopping at Cool Springs</li>
+          <li>Top-rated community</li>
+          <li>Home prices: $600,000-$1M</li>
+          </ul>
+          <p><strong>Brentwood:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Affluent, established community</li>
+          <li>Low crime, excellent amenities</li>
+          <li>Lower property taxes (Williamson County)</li>
+          <li>Home prices: $700,000-$1.5M</li>
+          </ul>
+          <p><strong>Murfreesboro:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>More affordable alternative</li>
+          <li>Growing downtown scene</li>
+          <li>30 miles southeast of Nashville</li>
+          <li>Home prices: $350,000-$500,000</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">55+ Communities</h3>
+          <p><strong>Active Adult Options:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Del Webb at Lake Providence:</strong> Mt. Juliet, resort-style amenities</li>
+          <li><strong>Summerlyn:</strong> White House, affordable 55+ option</li>
+          <li><strong>Westhaven:</strong> Franklin, luxury master-planned community (not 55+ but popular with retirees)</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Tax Planning for Nashville Retirees',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Maximizing Tennessee's Tax Advantages</h3>
+          <p><strong>Strategy 1: Relocate Before Major Distributions</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Move to Tennessee before large IRA/401(k) distributions</li>
+          <li>Establish residency before selling a business</li>
+          <li>Time Roth conversions after becoming a Tennessee resident</li>
+          </ul>
+          <p><strong>Strategy 2: Roth Conversions in Tennessee</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Since Tennessee has no income tax, Roth conversions only trigger federal tax</li>
+          <li>Consider large conversions after moving to Nashville</li>
+          <li>No state tax on the conversion or future growth</li>
+          </ul>
+          <p><strong>Strategy 3: Capital Gains Planning</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Tennessee doesn't tax capital gains</li>
+          <li>Consider selling appreciated assets after establishing residency</li>
+          <li>Only federal capital gains tax applies</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Establishing Tennessee Residency</h3>
+          <p>To ensure tax benefits, establish clear residency:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Tennessee driver's license</li>
+          <li>Voter registration</li>
+          <li>Vehicle registration</li>
+          <li>Primary bank accounts</li>
+          <li>Mail all important documents to Tennessee address</li>
+          <li>Spend majority of time in Tennessee</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Federal Tax Considerations</h3>
+          <p>While Tennessee has no income tax, federal taxes still apply:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Social Security: Up to 85% may be taxable federally</li>
+          <li>Traditional IRA/401(k): Fully taxable at federal rates</li>
+          <li>Capital gains: Federal rates apply (0%, 15%, or 20%)</li>
+          </ul>
+          <p><strong>Planning Tip:</strong> Use a Tennessee-based financial advisor to coordinate federal tax strategies with your tax-free Tennessee status.</p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Nashville Lifestyle and Recreation',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Music and Entertainment</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Grand Ole Opry:</strong> Legendary live radio show since 1925</li>
+          <li><strong>Ryman Auditorium:</strong> "Mother Church of Country Music"</li>
+          <li><strong>Broadway/Honky Tonks:</strong> Live music every night</li>
+          <li><strong>Bluebird Cafe:</strong> Intimate songwriter performances</li>
+          <li><strong>Symphony Hall:</strong> Nashville Symphony Orchestra</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Cultural Attractions</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Country Music Hall of Fame:</strong> World's largest collection of country music artifacts</li>
+          <li><strong>Frist Art Museum:</strong> Major art exhibitions</li>
+          <li><strong>The Parthenon:</strong> Full-scale replica in Centennial Park</li>
+          <li><strong>Belle Meade Plantation:</strong> Historic estate and winery</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Professional Sports</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Tennessee Titans:</strong> NFL (Nissan Stadium)</li>
+          <li><strong>Nashville Predators:</strong> NHL (Bridgestone Arena)</li>
+          <li><strong>Nashville SC:</strong> MLS (GEODIS Park)</li>
+          <li><strong>Nashville Sounds:</strong> AAA Baseball (First Horizon Park)</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Outdoor Recreation</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Percy Warner Park:</strong> 3,100 acres of trails and nature</li>
+          <li><strong>Radnor Lake:</strong> Protected wildlife area with hiking</li>
+          <li><strong>Cumberland River:</strong> Kayaking, paddleboarding</li>
+          <li><strong>Great Smoky Mountains:</strong> 3-hour drive for mountain hiking</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Golf</h3>
+          <p>Nashville area has excellent golf options:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Golf Club of Tennessee:</strong> Top private club</li>
+          <li><strong>Gaylord Springs:</strong> Resort course at Gaylord Opryland</li>
+          <li><strong>Hermitage Golf Course:</strong> Public championship courses</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Climate</h3>
+          <p>Nashville offers four distinct seasons:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Summer:</strong> Hot and humid (85-95°F)</li>
+          <li><strong>Fall:</strong> Pleasant (55-75°F), beautiful foliage</li>
+          <li><strong>Winter:</strong> Mild (35-50°F), occasional snow</li>
+          <li><strong>Spring:</strong> Warm (55-75°F), some thunderstorms</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Finding a Financial Advisor in Nashville',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Why Work with a Nashville Advisor?</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Residency Expertise:</strong> Help establish Tennessee residency properly</li>
+          <li><strong>Federal Tax Focus:</strong> Optimize federal taxes (the only taxes you'll pay)</li>
+          <li><strong>Local Network:</strong> Connections with Tennessee estate attorneys and CPAs</li>
+          <li><strong>Healthcare Navigation:</strong> Knowledge of local Medicare Advantage options and Vanderbilt network</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Services for Nashville Retirees</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Retirement income distribution strategies</li>
+          <li>Roth conversion analysis (Tennessee advantage)</li>
+          <li>Social Security optimization</li>
+          <li>Medicare and healthcare planning</li>
+          <li>Estate planning coordination</li>
+          <li>Investment management</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Typical Fee Structures</h3>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Portfolio Size</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Typical AUM Fee</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500,000-$1M</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1.00-1.25%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1M-$3M</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.85-1.00%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$3M+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.50-0.85%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+        `
+      }
+    ],
+    faqs: [
+      {
+        question: '### Is Nashville a good place to retire?',
+        answer: 'Nashville is an excellent retirement destination, particularly for those seeking to minimize taxes. Tennessee has no state income tax on any type of income, including Social Security, pensions, and investment earnings. Nashville offers world-class healthcare (Vanderbilt Medical Center), a vibrant cultural scene, and a cost of living slightly below many comparable cities. The main considerations are hot summers, Nashville\'s rapid growth and traffic, and higher sales tax (9.25%).'
+      },
+      {
+        question: '### Does Tennessee tax retirement income?',
+        answer: 'No. Tennessee has zero state income tax on any income type, including wages, Social Security, pensions, 401(k) distributions, IRA withdrawals, capital gains, and investment income. The former "Hall Tax" on interest and dividends was fully phased out in 2021. Tennessee is one of the most tax-friendly states for retirees in the nation.'
+      },
+      {
+        question: '### What is the cost of living in Nashville for retirees?',
+        answer: 'Nashville\'s cost of living is approximately 2% above the national average overall, with housing being the primary driver. A retired couple can live comfortably on $57,000-$94,000 annually depending on lifestyle and neighborhood. The suburbs (Murfreesboro, Mt. Juliet) offer more affordable options than Davidson County. The no-income-tax policy effectively reduces your required gross income compared to taxed states.'
+      },
+      {
+        question: '### What are the best areas in Nashville for retirees?',
+        answer: 'Top areas depend on preferences: Green Hills and Belle Meade for established, convenient neighborhoods near Vanderbilt; Franklin for historic charm and upscale suburban living; Brentwood for affluent community with low property taxes; Murfreesboro for affordability; The Gulch for urban condo living. For 55+ communities, Del Webb at Lake Providence in Mt. Juliet is popular.'
+      },
+      {
+        question: '### How is healthcare in Nashville for retirees?',
+        answer: 'Nashville is called the "Healthcare Capital of America" and offers exceptional medical care. Vanderbilt University Medical Center is nationally ranked in multiple specialties. The city is home to HCA Healthcare (world\'s largest hospital company) and over 500 healthcare companies. Medicare Advantage plans have strong networks, and the concentration of healthcare expertise means access to cutting-edge treatments.'
+      },
+      {
+        question: '### Are property taxes high in Nashville?',
+        answer: 'Tennessee has some of the lowest property taxes in the nation. Davidson County (Nashville) has an effective rate of approximately 0.76%, and Williamson County (Franklin, Brentwood) is even lower at about 0.47%. Seniors 65+ with limited income may qualify for property tax relief up to $200 annually.'
+      }
+    ],
+    bottomLine: 'Nashville offers retirees the powerful combination of zero state income tax, excellent healthcare, and a vibrant lifestyle. Tennessee doesn\'t tax wages, Social Security, pensions, 401(k)s, IRAs, or investment income—making it one of the most tax-friendly states in the nation for retirement. The "Healthcare Capital of America" provides world-class medical facilities, and the cultural scene offers endless entertainment. While sales tax is higher (9.25%) and summers can be hot, the overall value proposition makes Nashville an outstanding retirement destination. --- *Learn more about [[Tennessee Retirement Taxes]], [[Finding a Financial Advisor]], and [[Retirement Income Planning]] in our comprehensive guides.*'
+  },
+  {
+    id: 'city-nashville-002',
+    title: 'Tennessee Retirement Taxes: Complete Guide for Nashville Retirees',
+    slug: 'tennessee-retirement-taxes-nashville-guide',
+    hubId: 'nashville',
+    type: 'city',
+    author: 'Wealth Authority Editorial Team',
+    lastUpdated: 'December 2024',
+    readTime: '9 min read',
+    excerpt: 'Complete guide to Tennessee retirement taxes. Learn why Tennessee\'s zero income tax policy makes it one of the best states for retirement, plus strategies to maximize your tax-free income.',
+    category: 'Tax Planning',
+    keyTakeaways: [
+      'Tennessee has no state income tax on any type of income',
+      'Social Security, pensions, 401(k)s, and IRAs are all tax-free at state level',
+      'No estate or inheritance tax in Tennessee',
+      'Property taxes are among the lowest in the nation',
+      'Sales tax is higher (9.25% in Nashville) to offset no income tax'
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'Tennessee Tax Overview',
+        content: `
+          <p>Tennessee is one of the most tax-friendly states for retirees in America. With zero state income tax on any type of income, retirees can keep more of their retirement savings while enjoying everything Nashville and Tennessee have to offer.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Tennessee Tax Advantages Summary</h3>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Income Type</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Tennessee Tax</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Social Security</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No tax</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Pension Income</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No tax</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">401(k)/IRA Distributions</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No tax</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Capital Gains</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No tax</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Interest and Dividends</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No tax</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Estate/Inheritance</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No tax</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+        `
+      },
+      {
+        type: 'text',
+        title: 'No State Income Tax Explained',
+        content: `
+          <p>Tennessee is one of only nine states with no state income tax. Unlike some other no-tax states, Tennessee has fully eliminated all forms of income taxation.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">History of Tennessee's Tax Policy</h3>
+          <p><strong>The Hall Tax Phase-Out:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Tennessee previously taxed interest and dividends under the "Hall Tax"</li>
+          <li>The rate was gradually reduced from 6% starting in 2016</li>
+          <li>The Hall Tax was fully eliminated on January 1, 2021</li>
+          <li>Tennessee now has zero state tax on any income type</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">What This Means for Retirees</h3>
+          <p><strong>Completely tax-free at the state level:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Social Security benefits (also exempt federally for many)</li>
+          <li>Pension income (public and private)</li>
+          <li>401(k) distributions</li>
+          <li>Traditional and Roth IRA withdrawals</li>
+          <li>Annuity income</li>
+          <li>Capital gains from investments</li>
+          <li>Dividend and interest income</li>
+          <li>Wages if you work part-time</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Comparison with Other States</h3>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">State</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Income Tax</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Retirement Treatment</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Tennessee</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">None</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">All income tax-free</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Florida</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">None</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">All income tax-free</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Texas</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">None</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">All income tax-free</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Georgia</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">5.75%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$65K exclusion (65+)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Kentucky</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">4.0% flat</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Limited exemptions</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Property Taxes in Tennessee',
+        content: `
+          <p>Tennessee's property taxes are among the lowest in the nation, further enhancing the state's retirement appeal.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Property Tax Rates by County</h3>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">County</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Effective Rate</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Tax on $500K Home</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Davidson (Nashville)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.76%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$3,800/year</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Williamson (Franklin)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.47%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,350/year</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Rutherford (Murfreesboro)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.65%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$3,250/year</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Wilson (Mt. Juliet)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.55%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,750/year</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Senior Property Tax Relief</h3>
+          <p><strong>Tennessee offers property tax relief for qualifying seniors:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Age requirement:</strong> 65 or older (or disabled)</li>
+          <li><strong>Income limit:</strong> $31,600 or less</li>
+          <li><strong>Benefit:</strong> Reimburses property taxes up to $200</li>
+          <li><strong>Application:</strong> Apply through your county trustee's office</li>
+          </ul>
+          <p><strong>Note:</strong> While the relief amount is modest, the already-low property tax rates mean most retirees pay reasonable property taxes regardless of the relief program.</p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Sales Tax Considerations',
+        content: `
+          <p>Tennessee offsets its lack of income tax with higher sales taxes. Understanding this trade-off is important for retirement planning.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Sales Tax Rates</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>State rate:</strong> 7%</li>
+          <li><strong>Local additions:</strong> Up to 2.75%</li>
+          <li><strong>Nashville total:</strong> 9.25%</li>
+          <li><strong>Grocery rate:</strong> 4% state + local (reduced)</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Impact Analysis for Retirees</h3>
+          <p><strong>Example: Couple with $100,000 annual spending</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Assume 40% of spending subject to sales tax: $40,000</li>
+          <li>Sales tax at 9.25%: $3,700/year</li>
+          </ul>
+          <p><strong>Compare to income tax states:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>California (13.3% top rate): $13,300+ state income tax</li>
+          <li>New York (10.9% top rate): $10,900+ state income tax</li>
+          <li>Tennessee: $3,700 in sales tax</li>
+          </ul>
+          <p><strong>Net savings:</strong> Even with higher sales tax, Tennessee retirees typically save $7,000-$10,000+ annually compared to high-tax states.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Minimizing Sales Tax</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Services are generally not taxed (healthcare, professional services)</li>
+          <li>Groceries taxed at reduced rate (4% + local)</li>
+          <li>Prescription drugs are exempt</li>
+          <li>Make major purchases in lower-tax counties if convenient</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Estate and Inheritance Tax',
+        content: `
+          <p>Tennessee has no state estate tax and no inheritance tax, making it attractive for wealth transfer planning.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Tennessee Estate Tax History</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Tennessee previously had a state estate tax</li>
+          <li>The tax was phased out between 2013-2016</li>
+          <li>As of 2016, Tennessee has no estate tax</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Current Status</h3>
+          <p><strong>What applies:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Only federal estate tax applies</li>
+          <li>Federal exemption: $13.61 million per person (2024)</li>
+          <li>Married couples: $27.22 million combined</li>
+          <li>Portability available between spouses</li>
+          </ul>
+          <p><strong>No inheritance tax:</strong> Beneficiaries pay no state tax on inheritances, regardless of relationship to the deceased.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Planning Implications</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Tennessee is attractive for high-net-worth retirees</li>
+          <li>No need for state-level estate tax planning</li>
+          <li>Focus estate planning on federal exemption optimization</li>
+          <li>Consider domicile in Tennessee if you have homes in multiple states</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Tax Planning Strategies',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 1: Time Your Move</h3>
+          <p>Moving to Tennessee before major taxable events can save significant taxes:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Large Roth conversions</li>
+          <li>Selling a business</li>
+          <li>Selling highly appreciated real estate</li>
+          <li>Taking large distributions from retirement accounts</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 2: Aggressive Roth Conversions</h3>
+          <p>Tennessee's no-income-tax environment is ideal for Roth conversions:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Only federal tax applies to conversions</li>
+          <li>Convert up to the top of your current federal bracket</li>
+          <li>No state tax drag on the conversion</li>
+          <li>Future growth is tax-free at both state and federal levels</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 3: Capital Gains Harvesting</h3>
+          <p>Take advantage of Tennessee's no capital gains tax:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Rebalance portfolio without state tax consequences</li>
+          <li>Harvest gains when in lower federal brackets</li>
+          <li>Consider selling appreciated assets after establishing Tennessee residency</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 4: Social Security Optimization</h3>
+          <p>With no state tax on Social Security, focus on federal optimization:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Delay benefits to age 70 for maximum payout</li>
+          <li>Use other income sources in early retirement</li>
+          <li>Coordinate with spouse for optimal claiming strategy</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Establishing Tennessee Residency',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Why Proper Residency Matters</h3>
+          <p>If you're moving from a high-tax state (California, New York, etc.), proper residency establishment is crucial to avoid audits and continued taxation from your former state.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Steps to Establish Residency</h3>
+          <p><strong>Immediate actions:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Obtain Tennessee driver's license</li>
+          <li>Register to vote in Tennessee</li>
+          <li>Register vehicles in Tennessee</li>
+          <li>Update address with USPS</li>
+          </ul>
+          <p><strong>Financial connections:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Open bank accounts in Tennessee</li>
+          <li>Change address on brokerage accounts</li>
+          <li>Update address with Social Security Administration</li>
+          <li>File Tennessee as home state with employers/pension providers</li>
+          </ul>
+          <p><strong>Social connections:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Join local clubs and organizations</li>
+          <li>Use Tennessee doctors and dentists</li>
+          <li>Establish local professional relationships (attorney, CPA)</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Documentation Best Practices</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Keep records of days spent in each state</li>
+          <li>Maintain receipts showing Tennessee activity</li>
+          <li>Document the date you established Tennessee residence</li>
+          <li>Keep copies of all residency-related documents</li>
+          </ul>
+        `
+      }
+    ],
+    faqs: [
+      {
+        question: '### Does Tennessee tax retirement income?',
+        answer: 'No. Tennessee has zero state income tax on any type of income. This includes Social Security benefits, pensions, 401(k) distributions, IRA withdrawals, capital gains, dividends, and interest. Tennessee is one of only nine states with no income tax, and the former "Hall Tax" on interest/dividends was fully eliminated in 2021.'
+      },
+      {
+        question: '### Is Tennessee a good state for retirees tax-wise?',
+        answer: 'Yes, Tennessee is one of the most tax-friendly states for retirees. With no income tax, no estate tax, no inheritance tax, and low property taxes, retirees keep significantly more of their income. The trade-off is a higher sales tax (9.25% in Nashville), but for most retirees, the income tax savings far exceed the additional sales tax costs.'
+      },
+      {
+        question: '### What taxes will I pay in Tennessee?',
+        answer: 'In Tennessee, you\'ll pay sales tax (7% state + local, totaling 9.25% in Nashville), property tax (0.47%-0.76% depending on county), and federal income tax. You will NOT pay state income tax on wages, retirement income, capital gains, or investment income. There is no state estate or inheritance tax.'
+      },
+      {
+        question: '### Are property taxes high in Tennessee?',
+        answer: 'No. Tennessee has some of the lowest property taxes in the nation. Effective rates range from about 0.47% in Williamson County (Franklin/Brentwood) to 0.76% in Davidson County (Nashville). On a $500,000 home, this translates to $2,350-$3,800 annually—significantly lower than many other states.'
+      },
+      {
+        question: '### Should I do Roth conversions in Tennessee?',
+        answer: 'Tennessee is an excellent state for Roth conversions because only federal tax applies—there\'s no state tax on the conversion. Many retirees who move to Tennessee take advantage of this by converting traditional IRA/401(k) funds to Roth, paying only federal tax, and then enjoying completely tax-free growth and withdrawals.'
+      }
+    ],
+    bottomLine: 'Tennessee offers retirees one of the most favorable tax environments in the nation. With zero state income tax on all types of income, no estate or inheritance tax, and low property taxes, retirees can keep significantly more of their retirement savings. The higher sales tax (9.25% in Nashville) is a minor trade-off that is typically far outweighed by the income tax savings. For retirees moving from high-tax states, Tennessee\'s tax-free environment can save tens of thousands of dollars annually. --- *Learn more about [[Retirement Income Planning]], [[Finding a Financial Advisor]], and [[Nashville Retirement Planning]] in our comprehensive guides.*'
+  },
+
+  // Tampa Articles
+  {
+    id: 'city-tampa-001',
+    title: 'Retirement Planning in Tampa: Florida Tax-Free Living Guide',
+    slug: 'tampa-retirement-planning-florida-no-income-tax',
+    hubId: 'tampa',
+    type: 'city',
+    author: 'Wealth Authority Editorial Team',
+    lastUpdated: 'December 2024',
+    readTime: '11 min read',
+    excerpt: 'Comprehensive guide to retirement planning in Tampa Bay. Learn why Florida\'s no income tax policy, homestead exemption, and Gulf Coast lifestyle make Tampa an ideal retirement destination.',
+    category: 'Retirement Planning',
+    keyTakeaways: [
+      'Florida has no state income tax on any type of income',
+      'Homestead exemption provides significant property tax savings',
+      'Tampa offers lower cost of living than Miami or Naples',
+      'Moffitt Cancer Center and Tampa General Hospital provide excellent healthcare',
+      'Year-round warm weather and Gulf Coast beaches'
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'Why Tampa Is a Premier Retirement Destination',
+        content: `
+          <p>Tampa Bay has become one of America's most popular retirement destinations, combining Florida's famous tax advantages with a more affordable cost of living than Miami or Naples, excellent healthcare, and year-round warm weather. For retirees seeking to maximize their savings while enjoying an active, beach-focused lifestyle, Tampa delivers exceptional value.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Key Advantages for Retirees</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>No Income Tax:</strong> Florida has no state income tax on wages, Social Security, pensions, or investment income</li>
+          <li><strong>Homestead Exemption:</strong> Up to $50,000 off assessed value for property taxes</li>
+          <li><strong>Affordable:</strong> Lower cost of living than most Florida coastal cities</li>
+          <li><strong>Healthcare Excellence:</strong> Home to Moffitt Cancer Center and major hospital systems</li>
+          <li><strong>Climate:</strong> 361 days of sunshine per year, Gulf beaches, and outdoor activities</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Florida Tax Advantages',
+        content: `
+          <p>Florida's tax structure is among the most favorable for retirees in the nation, with no income tax and strong property tax protections.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">No State Income Tax</h3>
+          <p><strong>Zero tax on:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Social Security benefits</li>
+          <li>Pension income</li>
+          <li>401(k) and IRA distributions</li>
+          <li>Capital gains</li>
+          <li>Interest and dividends</li>
+          <li>Wages (if working part-time)</li>
+          </ul>
+          <p><strong>Constitutional Protection:</strong> Florida's constitution prohibits a state income tax, providing long-term certainty for retirement planning.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Homestead Exemption</h3>
+          <p>Florida's homestead exemption is one of the most valuable property tax benefits in the nation:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>$25,000 exemption:</strong> First $25,000 off assessed value (applies to all taxes)</li>
+          <li><strong>Additional $25,000:</strong> For values between $50,000-$75,000 (does not apply to school taxes)</li>
+          <li><strong>Total exemption:</strong> Up to $50,000 off assessed value</li>
+          <li><strong>Save Our Homes Cap:</strong> Assessed value increases limited to 3% annually or CPI, whichever is less</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Senior Exemptions</h3>
+          <p>Additional exemptions for seniors 65+ with limited income:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Additional $50,000 exemption:</strong> Available in some counties for seniors 65+ with income under approximately $35,000</li>
+          <li><strong>Complete exemption:</strong> Some counties offer full exemption for very low-income seniors</li>
+          <li><strong>Varies by county:</strong> Check Hillsborough, Pinellas, or Pasco county requirements</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">No Estate Tax</h3>
+          <p>Florida has no state estate tax and no inheritance tax. Only federal estate tax applies (exemption: $13.61M per person in 2024).</p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Cost of Living in Tampa',
+        content: `
+          <p>Tampa offers a significantly lower cost of living than other Florida coastal metros like Miami, Fort Lauderdale, or Naples, while providing similar amenities and weather.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Cost of Living Comparison</h3>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Category</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Tampa</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">National Avg</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Overall</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">101</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">100</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Housing</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">98</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">100</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Healthcare</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">95</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">100</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Utilities</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">103</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">100</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Transportation</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">108</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">100</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Housing Costs by Area</h3>
+          <p><strong>Median Home Prices (2024):</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>South Tampa:</strong> $650,000-$1M+ (upscale, near bay)</li>
+          <li><strong>Clearwater Beach:</strong> $600,000-$900,000 (beachfront access)</li>
+          <li><strong>St. Petersburg:</strong> $450,000-$700,000 (urban/downtown)</li>
+          <li><strong>Wesley Chapel:</strong> $400,000-$550,000 (newer suburban)</li>
+          <li><strong>Brandon:</strong> $350,000-$450,000 (affordable suburban)</li>
+          <li><strong>Sun City Center:</strong> $250,000-$400,000 (55+ community)</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Monthly Budget for Retirees</h3>
+          <p><strong>Comfortable Retirement (Couple):</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Housing (mortgage/rent, taxes, insurance): $2,200-$3,500</li>
+          <li>Healthcare (Medicare + supplements): $600-$900</li>
+          <li>Food and dining: $800-$1,200</li>
+          <li>Transportation: $400-$600</li>
+          <li>Utilities (including AC): $300-$450</li>
+          <li>Entertainment/travel: $600-$1,200</li>
+          <li><strong>Total: $4,900-$7,850/month</strong></li>
+          </ul>
+          <p>This translates to approximately $59,000-$94,000 annually. With no state income tax, your gross income requirements are lower than in taxed states.</p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Healthcare in Tampa',
+        content: `
+          <p>Tampa Bay offers excellent healthcare options, anchored by nationally-ranked specialty hospitals and comprehensive medical systems.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Major Healthcare Systems</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Moffitt Cancer Center:</strong> One of only 54 NCI-designated Comprehensive Cancer Centers in the U.S. Nationally ranked in cancer care by U.S. News & World Report.</li>
+          <li><strong>Tampa General Hospital:</strong> Region's only Level I trauma center, academic medical center affiliated with USF Health. Nationally ranked in multiple specialties.</li>
+          <li><strong>AdventHealth Tampa:</strong> Part of the large AdventHealth system, strong cardiac and orthopedic programs.</li>
+          <li><strong>BayCare Health System:</strong> 15 hospitals across Tampa Bay, extensive network of outpatient facilities.</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Medicare Options</h3>
+          <p>Tampa Bay has robust Medicare coverage with competitive options:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Medicare Advantage:</strong> Major carriers include Humana (headquartered in Tampa), UnitedHealthcare, Aetna, and Cigna</li>
+          <li><strong>$0 Premium Plans:</strong> Multiple options available with comprehensive coverage</li>
+          <li><strong>Medigap:</strong> All supplement plans available in Florida</li>
+          </ul>
+          <p><strong>Humana Headquarters:</strong> Humana's significant presence in Tampa means strong networks and often competitive Medicare Advantage offerings.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Specialized Care</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Moffitt Cancer Center:</strong> World-renowned cancer treatment and research</li>
+          <li><strong>Florida Orthopaedic Institute:</strong> One of the largest orthopedic practices in Florida</li>
+          <li><strong>USF Health Morsani College:</strong> Medical school driving research and specialty care</li>
+          <li><strong>Johns Hopkins All Children's:</strong> Pediatric care for visiting grandchildren</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Best Tampa Bay Neighborhoods for Retirees',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Urban/Waterfront Options</h3>
+          <p><strong>South Tampa:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Upscale neighborhoods near Bayshore Boulevard</li>
+          <li>Close to downtown Tampa amenities</li>
+          <li>Hyde Park Village shopping and dining</li>
+          <li>Home prices: $600,000-$1.5M</li>
+          </ul>
+          <p><strong>Downtown St. Petersburg:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Walkable urban downtown with arts scene</li>
+          <li>Waterfront parks and pier</li>
+          <li>Museums and restaurants</li>
+          <li>Condo prices: $400,000-$800,000</li>
+          </ul>
+          <p><strong>Clearwater Beach Area:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Award-winning Gulf beaches</li>
+          <li>Resort-style living</li>
+          <li>Active beach lifestyle</li>
+          <li>Home prices: $500,000-$1M+</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Suburban Options</h3>
+          <p><strong>Wesley Chapel:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Newer development with modern amenities</li>
+          <li>Premium Outlets shopping</li>
+          <li>Growing restaurant scene</li>
+          <li>Home prices: $400,000-$600,000</li>
+          </ul>
+          <p><strong>Brandon:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>More affordable established suburb</li>
+          <li>Easy access to Tampa</li>
+          <li>Good shopping options</li>
+          <li>Home prices: $300,000-$450,000</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">55+ Communities</h3>
+          <p><strong>Sun City Center:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>One of Florida's largest 55+ communities</li>
+          <li>Multiple golf courses and amenities</li>
+          <li>Active social calendar</li>
+          <li>Home prices: $200,000-$450,000</li>
+          </ul>
+          <p><strong>Other Options:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>On Top of the World (Clearwater):</strong> Active lifestyle community</li>
+          <li><strong>Valencia Lakes:</strong> GL Homes community with resort amenities</li>
+          <li><strong>Del Webb Bexley:</strong> Newer Del Webb community in Land O'Lakes</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Insurance Considerations',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Homeowner's Insurance</h3>
+          <p>Florida homeowner's insurance has become a significant cost factor due to hurricane risk:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Average annual premium:</strong> $4,000-$8,000+ depending on location and coverage</li>
+          <li><strong>Hurricane deductible:</strong> Typically 2-5% of home value (separate from standard deductible)</li>
+          <li><strong>Citizens Insurance:</strong> Florida's insurer of last resort if private coverage unavailable</li>
+          </ul>
+          <p><strong>Ways to Reduce Costs:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Wind mitigation inspection (can reduce premiums 15-45%)</li>
+          <li>Impact-resistant windows and doors</li>
+          <li>Newer construction with hurricane-rated features</li>
+          <li>Higher deductibles</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Flood Insurance</h3>
+          <p>Many Tampa Bay areas require flood insurance:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Check FEMA flood zone before purchasing</li>
+          <li>National Flood Insurance Program (NFIP) or private flood insurance</li>
+          <li>Costs vary dramatically by flood zone and elevation</li>
+          </ul>
+          <p><strong>Planning Tip:</strong> Factor insurance costs into your housing budget. A $400,000 home might have $6,000+ in annual insurance costs.</p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Tampa Bay Lifestyle and Recreation',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Beaches</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Clearwater Beach:</strong> Consistently ranked among America's best beaches</li>
+          <li><strong>Siesta Key:</strong> Famous quartz sand beach (45 min south)</li>
+          <li><strong>St. Pete Beach:</strong> Miles of Gulf coast shoreline</li>
+          <li><strong>Honeymoon Island:</strong> State park with natural beach</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Cultural Attractions</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Dalí Museum:</strong> World's largest collection of Salvador Dalí works (St. Pete)</li>
+          <li><strong>Tampa Museum of Art:</strong> Contemporary and classical art</li>
+          <li><strong>Straz Center:</strong> Broadway shows and performing arts</li>
+          <li><strong>Florida Aquarium:</strong> Interactive aquarium experience</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Professional Sports</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Tampa Bay Buccaneers:</strong> NFL (Raymond James Stadium)</li>
+          <li><strong>Tampa Bay Rays:</strong> MLB (Tropicana Field)</li>
+          <li><strong>Tampa Bay Lightning:</strong> NHL (Amalie Arena)</li>
+          <li><strong>Spring Training:</strong> Multiple teams train in the area</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Golf</h3>
+          <p>Tampa Bay has over 100 golf courses:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Innisbrook (Copperhead):</strong> PGA Tour venue</li>
+          <li><strong>TPC Tampa Bay:</strong> Championship course</li>
+          <li><strong>Streamsong Resort:</strong> Three acclaimed courses (90 min drive)</li>
+          <li>Numerous public and semi-private options</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Climate</h3>
+          <p>Tampa offers a subtropical climate with warm winters:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Winter:</strong> Mild (60-75°F), low humidity</li>
+          <li><strong>Spring:</strong> Warm and dry (70-85°F)</li>
+          <li><strong>Summer:</strong> Hot and humid (85-95°F), afternoon thunderstorms</li>
+          <li><strong>Fall:</strong> Hurricane season through November, gradually cooling</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Finding a Financial Advisor in Tampa',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Why Work with a Tampa Advisor?</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Florida Residency:</strong> Help establish residency properly</li>
+          <li><strong>Homestead Expertise:</strong> Navigate property tax exemptions</li>
+          <li><strong>Insurance Planning:</strong> Factor Florida insurance costs into retirement plans</li>
+          <li><strong>Local Network:</strong> Connections with Florida estate attorneys and CPAs</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Services for Tampa Retirees</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Retirement income distribution strategies</li>
+          <li>Roth conversion analysis (Florida advantage)</li>
+          <li>Social Security optimization</li>
+          <li>Medicare and healthcare planning</li>
+          <li>Estate planning coordination</li>
+          <li>Investment management</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Typical Fee Structures</h3>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Portfolio Size</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Typical AUM Fee</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500,000-$1M</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1.00-1.25%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1M-$3M</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.85-1.00%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$3M+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.50-0.85%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+        `
+      }
+    ],
+    faqs: [
+      {
+        question: '### Is Tampa a good place to retire?',
+        answer: 'Tampa is an excellent retirement destination, particularly for those seeking Florida\'s tax advantages at a more affordable cost than Miami or Naples. Florida has no state income tax, and Tampa offers world-class healthcare (Moffitt Cancer Center, Tampa General), beautiful Gulf beaches, and an active lifestyle. Considerations include hot humid summers, hurricane risk, and higher insurance costs. The 55+ community Sun City Center offers an affordable, amenity-rich option.'
+      },
+      {
+        question: '### Does Florida tax retirement income?',
+        answer: 'No. Florida has zero state income tax on any type of income, including Social Security, pensions, 401(k) distributions, IRA withdrawals, and capital gains. This is constitutionally protected, meaning Florida cannot implement an income tax without a constitutional amendment. Combined with no estate tax, Florida is one of the most tax-friendly states for retirees.'
+      },
+      {
+        question: '### What is the cost of living in Tampa for retirees?',
+        answer: 'Tampa\'s cost of living is approximately 1% above the national average—significantly lower than Miami (20%+ above) or Naples. A retired couple can live comfortably on $59,000-$94,000 annually. The major variable is housing: Sun City Center offers homes from $200,000, while South Tampa waterfront can exceed $1 million. Factor in higher insurance costs ($4,000-$8,000 annually for homeowner\'s insurance).'
+      },
+      {
+        question: '### What is Florida\'s homestead exemption?',
+        answer: 'Florida\'s homestead exemption provides up to $50,000 off your home\'s assessed value for property tax purposes. The first $25,000 applies to all taxes; an additional $25,000 applies to values between $50,000-$75,000 (excluding school taxes). The "Save Our Homes" cap limits annual assessment increases to 3% or CPI, whichever is less—a significant benefit as property values rise.'
+      },
+      {
+        question: '### How is healthcare in Tampa for retirees?',
+        answer: 'Tampa has excellent healthcare anchored by Moffitt Cancer Center (one of 54 NCI-designated Comprehensive Cancer Centers) and Tampa General Hospital (Level I trauma center affiliated with USF Health). BayCare operates 15 hospitals across the bay area. Medicare Advantage options are strong, with Humana (headquartered nearby) offering competitive plans. Healthcare costs are about 5% below the national average.'
+      },
+      {
+        question: '### Is homeowner\'s insurance expensive in Tampa?',
+        answer: 'Yes. Florida homeowner\'s insurance averages $4,000-$8,000+ annually due to hurricane risk—among the highest in the nation. Hurricane deductibles are typically 2-5% of home value. Ways to reduce costs include wind mitigation inspections, impact-resistant windows, and newer construction. Factor insurance costs into your housing budget when planning retirement in Tampa.'
+      }
+    ],
+    bottomLine: 'Tampa Bay offers retirees the powerful combination of Florida\'s zero income tax with a more affordable cost of living than South Florida. The tax advantages—no income tax, strong homestead exemption, and no estate tax—can save retirees tens of thousands annually. Healthcare is excellent with Moffitt Cancer Center and major hospital systems. The main considerations are hot summers, hurricane season, and high insurance costs, which should be factored into any retirement budget. For those who embrace the climate and plan for insurance costs, Tampa provides outstanding retirement value. --- *Learn more about [[Florida Retirement Taxes]], [[Finding a Financial Advisor]], and [[Retirement Income Planning]] in our comprehensive guides.*'
+  },
+  {
+    id: 'city-tampa-002',
+    title: 'Florida Retirement Taxes: Complete Guide for Tampa Retirees',
+    slug: 'florida-retirement-taxes-tampa-guide',
+    hubId: 'tampa',
+    type: 'city',
+    author: 'Wealth Authority Editorial Team',
+    lastUpdated: 'December 2024',
+    readTime: '10 min read',
+    excerpt: 'Complete guide to Florida retirement taxes for Tampa retirees. Learn about no income tax, homestead exemption, estate tax benefits, and strategies to maximize your tax-free retirement.',
+    category: 'Tax Planning',
+    keyTakeaways: [
+      'Florida has no state income tax (constitutionally protected)',
+      'Social Security, pensions, and 401(k)s are all tax-free at state level',
+      'Homestead exemption saves thousands on property taxes',
+      'No state estate or inheritance tax',
+      'Save Our Homes caps assessment increases at 3%'
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'Florida Tax Overview',
+        content: `
+          <p>Florida is consistently ranked as one of the most tax-friendly states for retirees. With constitutionally-protected zero income tax, strong property tax protections, and no estate tax, Florida offers significant advantages for retirement planning.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Florida Tax Advantages Summary</h3>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Tax Type</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Florida Treatment</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Income Tax</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">None (all income)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Social Security</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No tax</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Pensions/401(k)/IRA</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No tax</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Capital Gains</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No tax</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Estate Tax</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">None</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Property Tax</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Homestead exemptions available</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+        `
+      },
+      {
+        type: 'text',
+        title: 'No State Income Tax',
+        content: `
+          <p>Florida is one of only nine states with no state income tax, and unlike some others, Florida's prohibition is constitutionally protected.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Constitutional Protection</h3>
+          <p>Article VII, Section 5 of the Florida Constitution prohibits a personal income tax. This means:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Florida cannot implement an income tax without a constitutional amendment</li>
+          <li>An amendment requires 60% voter approval</li>
+          <li>This provides long-term certainty for retirement planning</li>
+          <li>Unlike legislative tax policies, this protection is extremely stable</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">What This Means for Retirees</h3>
+          <p><strong>Completely tax-free at the state level:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Social Security benefits</li>
+          <li>Pension income (public and private)</li>
+          <li>401(k) distributions</li>
+          <li>Traditional and Roth IRA withdrawals</li>
+          <li>Annuity income</li>
+          <li>Capital gains</li>
+          <li>Dividend and interest income</li>
+          <li>Wages if you work part-time</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Tax Savings Example</h3>
+          <p><strong>Married couple with $120,000 retirement income:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>California tax: approximately $7,200</li>
+          <li>New York tax: approximately $6,600</li>
+          <li>Illinois tax: approximately $5,900</li>
+          <li>Florida tax: $0</li>
+          </ul>
+          <p><strong>Annual savings: $6,000-$7,200</strong></p>
+          <p>Over a 25-year retirement, this could amount to $150,000-$180,000 in tax savings, not including investment growth on those savings.</p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Homestead Exemption Explained',
+        content: `
+          <p>Florida's homestead exemption is one of the most valuable property tax benefits in the nation, providing both tax savings and protection from rapid assessment increases.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Standard Homestead Exemption</h3>
+          <p><strong>Up to $50,000 off assessed value:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>First $25,000:</strong> Applies to all property taxes</li>
+          <li><strong>Second $25,000:</strong> Applies to values between $50,000-$75,000, but NOT to school taxes</li>
+          <li><strong>Total benefit:</strong> Approximately $1,000-$1,500 annual savings depending on local millage rates</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Save Our Homes Cap</h3>
+          <p>Once you have a homestead exemption, the "Save Our Homes" cap limits how much your assessed value can increase:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Maximum increase:</strong> 3% per year OR Consumer Price Index, whichever is LESS</li>
+          <li><strong>Benefit:</strong> As property values rise, your taxes increase slowly</li>
+          <li><strong>Long-term protection:</strong> After years of ownership, your assessed value may be far below market value</li>
+          </ul>
+          <p><strong>Example:</strong> A home purchased for $400,000 that doubles to $800,000 over 15 years might only be assessed at $550,000 due to the cap, saving thousands annually.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Portability</h3>
+          <p>Florida allows you to transfer your Save Our Homes benefit when moving within Florida:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Transfer up to $500,000 in assessment difference to new home</li>
+          <li>Must establish new homestead within 3 years of selling</li>
+          <li>Helps long-term Florida residents move without losing tax benefits</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Senior Exemptions</h3>
+          <p>Additional exemptions available for seniors 65+ with limited income:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Low-income senior exemption:</strong> Additional $50,000 exemption (income limits apply, approximately $35,000)</li>
+          <li><strong>Varies by county:</strong> Hillsborough, Pinellas, and Pasco counties each have different programs</li>
+          <li><strong>Complete exemption:</strong> Some counties offer full exemption for very low-income seniors</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Property Tax Rates in Tampa Bay',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Property Tax Rates by County</h3>
+          <div class="overflow-x-auto my-6">
+          <table class="min-w-full border-collapse border border-gray-200">
+          <thead class="bg-gray-50">
+          <tr>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">County</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Effective Rate</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Tax on $400K Home*</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Hillsborough (Tampa)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.97%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$3,400/year</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Pinellas (Clearwater/St. Pete)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.89%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$3,100/year</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Pasco (Wesley Chapel)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1.06%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$3,700/year</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <p><em>*After homestead exemption, for a $400,000 home with $350,000 taxable value</em></p>
+          <h3 class="text-xl font-bold mt-8 mb-4">How to Apply for Homestead Exemption</h3>
+          <ol class="list-decimal pl-6 space-y-2 my-4">
+          <li>Must own and occupy home as primary residence by January 1</li>
+          <li>File application by March 1 of the tax year</li>
+          <li>Apply through your county property appraiser's office</li>
+          <li>Provide proof of Florida residency (driver's license, voter registration)</li>
+          <li>Once granted, automatic renewal unless property sold</li>
+          </ol>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Estate and Inheritance Tax',
+        content: `
+          <p>Florida has no state estate tax and no inheritance tax, making it attractive for wealth transfer planning.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Current Status</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Florida eliminated its state estate tax in 2005</li>
+          <li>No inheritance tax has ever existed in Florida</li>
+          <li>Only federal estate tax applies</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Federal Estate Tax (2024)</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Exemption:</strong> $13.61 million per person</li>
+          <li><strong>Married couples:</strong> $27.22 million combined</li>
+          <li><strong>Portability:</strong> Surviving spouse can use deceased spouse's unused exemption</li>
+          <li><strong>Tax rate:</strong> 40% on amounts above exemption</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Planning Implications</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>For estates under $13.61M, no federal or state estate tax</li>
+          <li>Focus estate planning on federal exemption optimization if over threshold</li>
+          <li>Florida is more attractive than states with lower estate tax thresholds (Oregon: $1M, Massachusetts: $2M)</li>
+          <li>Consider Florida domicile if you have homes in multiple states</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Tax Planning Strategies',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 1: Time Your Move</h3>
+          <p>Moving to Florida before major taxable events can save significant taxes:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Large Roth conversions</li>
+          <li>Selling a business or company stock</li>
+          <li>Taking large retirement account distributions</li>
+          <li>Selling appreciated real estate</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 2: Aggressive Roth Conversions</h3>
+          <p>Florida's no-income-tax environment is ideal for Roth conversions:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Only federal tax applies to conversions</li>
+          <li>Convert large amounts without state tax drag</li>
+          <li>Future growth is completely tax-free</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 3: Maximize Homestead Benefits</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Apply for homestead exemption immediately after purchasing</li>
+          <li>Lock in Save Our Homes cap as early as possible</li>
+          <li>If moving within Florida, use portability to transfer benefits</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 4: Establish Proper Domicile</h3>
+          <p>If moving from a high-tax state, establish clear Florida domicile:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Florida driver's license</li>
+          <li>Voter registration in Florida</li>
+          <li>Vehicle registration in Florida</li>
+          <li>File Declaration of Domicile with county recorder</li>
+          <li>Update address on all financial accounts</li>
+          <li>Keep travel records showing time in Florida</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Sales Tax Considerations',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Sales Tax Rates</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>State rate:</strong> 6%</li>
+          <li><strong>Hillsborough County:</strong> Additional 1.5% (total 7.5%)</li>
+          <li><strong>Pinellas County:</strong> Additional 1% (total 7%)</li>
+          <li><strong>Pasco County:</strong> Additional 1% (total 7%)</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">What's Exempt</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Groceries (food for home consumption)</li>
+          <li>Prescription medications</li>
+          <li>Medical equipment and devices</li>
+          <li>Services (generally not taxed)</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Impact on Retirees</h3>
+          <p>Even with sales tax, Florida retirees typically come out far ahead:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Groceries and healthcare (major retiree expenses) are exempt</li>
+          <li>Income tax savings far exceed any sales tax costs</li>
+          <li>Make large purchases during Florida's tax-free holidays for additional savings</li>
+          </ul>
+        `
+      }
+    ],
+    faqs: [
+      {
+        question: '### Does Florida tax retirement income?',
+        answer: 'No. Florida has zero state income tax on any type of income, and this is constitutionally protected. Social Security benefits, pensions, 401(k) distributions, IRA withdrawals, and capital gains are all completely tax-free at the state level. Only federal income tax applies to retirement income.'
+      },
+      {
+        question: '### What is Florida\'s homestead exemption?',
+        answer: 'Florida\'s homestead exemption provides up to $50,000 off your home\'s assessed value for property taxes. The first $25,000 applies to all taxes; an additional $25,000 applies to values between $50,000-$75,000 (excluding school taxes). The "Save Our Homes" cap also limits annual assessment increases to 3% or CPI, whichever is less.'
+      },
+      {
+        question: '### Is Florida a good state for retirees tax-wise?',
+        answer: 'Yes, Florida is one of the most tax-friendly states for retirees. With no income tax (constitutionally protected), no estate tax, strong homestead exemptions, and a cap on property tax assessment increases, retirees can keep significantly more of their retirement income. The main financial consideration is higher insurance costs.'
+      },
+      {
+        question: '### How do I establish Florida residency?',
+        answer: 'To establish Florida residency: (1) Obtain a Florida driver\'s license, (2) Register to vote in Florida, (3) Register vehicles in Florida, (4) File a Declaration of Domicile with the county recorder, (5) Change your address on all financial accounts, (6) Spend more time in Florida than any other state. If moving from a high-tax state, keep records of your time in Florida.'
+      },
+      {
+        question: '### Does Florida have an estate tax?',
+        answer: 'No. Florida eliminated its state estate tax in 2005 and has no inheritance tax. Only federal estate tax applies, with an exemption of $13.61 million per person (2024). This makes Florida attractive for high-net-worth individuals, especially compared to states like Oregon ($1M threshold) or Massachusetts ($2M threshold).'
+      }
+    ],
+    bottomLine: 'Florida offers retirees one of the most favorable tax environments in the nation, with constitutionally-protected zero income tax, no estate tax, and strong property tax protections through the homestead exemption. The combination of no tax on Social Security, pensions, or investment income can save retirees thousands annually compared to high-tax states. The homestead exemption and Save Our Homes cap provide long-term property tax stability. While sales tax applies to some purchases, it\'s a minor trade-off for the substantial income and estate tax savings. --- *Learn more about [[Retirement Income Planning]], [[Finding a Financial Advisor]], and [[Tampa Retirement Planning]] in our comprehensive guides.*'
+  },
+
+  // Washington DC Articles
+  {
+    id: 'city-dc-001',
+    title: 'Retirement Planning in Washington DC: Federal Employee Guide',
+    slug: 'retirement-planning-washington-dc-federal-employee-guide',
+    hubId: 'dc',
+    category: 'retirement',
+    type: 'cityGuide',
+    readTime: '12 min read',
+    author: 'Wealth Authority',
+    lastUpdated: 'December 2024',
+    excerpt: 'Comprehensive retirement planning for federal employees and DC professionals, covering FERS, TSP optimization, and DC\'s unique tax landscape.',
+    keyTakeaways: [
+      'DC income tax rates range from 4% to 10.75% on income over $1 million',
+      'Federal employees have unique retirement benefits through FERS, CSRS, and TSP',
+      'TSP allows contributions up to $23,000 (plus $7,500 catch-up for 50+) in 2024',
+      'DC taxes retirement income but exempts up to $3,000 of Social Security for qualified seniors',
+      'Comparing DC vs Virginia vs Maryland residency can significantly impact your tax situation'
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'Retirement in the Nation\'s Capital',
+        content: `
+          <p>Washington DC offers a unique retirement landscape shaped by its concentration of federal employees, government contractors, and professional service workers. Whether you've spent your career in public service or the private sector, understanding DC's specific financial considerations is essential for a successful retirement.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Why DC Retirement Planning is Different</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Federal workforce:</strong> High concentration of FERS and CSRS retirees with complex benefit structures</li>
+          <li><strong>Multi-jurisdiction options:</strong> DC, Virginia, and Maryland offer different tax treatments</li>
+          <li><strong>High cost of living:</strong> DC metro ranks among the most expensive in the nation</li>
+          <li><strong>Strong healthcare infrastructure:</strong> World-class medical facilities including NIH, Walter Reed, and major university hospitals</li>
+          <li><strong>Cultural amenities:</strong> Free Smithsonian museums, Kennedy Center, and extensive public programs</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'DC Income Tax Overview',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">DC Tax Brackets (2024)</h3>
+          <div class="overflow-x-auto">
+          <table class="min-w-full border-collapse border border-gray-200 my-6">
+          <thead>
+          <tr class="bg-gray-50">
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Taxable Income</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Tax Rate</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$0 - $10,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">4.0%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$10,001 - $40,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">6.0%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$40,001 - $60,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">6.5%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$60,001 - $250,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">8.5%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$250,001 - $500,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">9.25%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500,001 - $1,000,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">9.75%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Over $1,000,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">10.75%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <h3 class="text-xl font-bold mt-8 mb-4">How DC Taxes Retirement Income</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Social Security:</strong> Up to $3,000 exempt for seniors 62+ with income under $85,000 (single) or $100,000 (joint)</li>
+          <li><strong>FERS/CSRS pensions:</strong> Fully taxable</li>
+          <li><strong>Military retirement:</strong> Fully taxable</li>
+          <li><strong>TSP/401(k)/IRA distributions:</strong> Fully taxable</li>
+          <li><strong>Capital gains:</strong> Taxed as ordinary income</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Federal Employee Retirement Benefits',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">FERS (Federal Employees Retirement System)</h3>
+          <p>The three-part FERS retirement system:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Basic Benefit:</strong> Based on years of service and high-3 average salary (1% or 1.1% multiplier)</li>
+          <li><strong>Social Security:</strong> Full participation under FERS</li>
+          <li><strong>TSP:</strong> Government matching contributions up to 5% of salary</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">FERS Pension Calculation</h3>
+          <p>Your annual pension = High-3 Salary × Years of Service × Multiplier</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Retire before 62:</strong> 1% multiplier</li>
+          <li><strong>Retire at 62+ with 20+ years:</strong> 1.1% multiplier</li>
+          </ul>
+          <p><strong>Example:</strong> High-3 of $150,000, 30 years service, retire at 62 = $150,000 × 30 × 1.1% = $49,500/year</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">CSRS (Civil Service Retirement System)</h3>
+          <p>Legacy system for employees hired before 1984:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>More generous pension formula</li>
+          <li>No Social Security participation</li>
+          <li>No TSP matching (but can contribute)</li>
+          <li>2.0% multiplier for years beyond 10</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">TSP (Thrift Savings Plan)</h3>
+          <p>Federal employees' version of a 401(k):</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>2024 contribution limit:</strong> $23,000</li>
+          <li><strong>Catch-up (50+):</strong> Additional $7,500</li>
+          <li><strong>FERS matching:</strong> Up to 5% (automatic 1% + 4% match)</li>
+          <li><strong>Traditional and Roth options:</strong> Both available</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">TSP Fund Options</h3>
+          <div class="overflow-x-auto">
+          <table class="min-w-full border-collapse border border-gray-200 my-6">
+          <thead>
+          <tr class="bg-gray-50">
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Fund</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Investment Type</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Expense Ratio</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">G Fund</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Government Securities</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.049%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">F Fund</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Bond Index</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.049%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">C Fund</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">S&P 500 Index</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.049%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">S Fund</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Small/Mid Cap Index</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.049%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">I Fund</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">International Index</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.049%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">L Funds</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Lifecycle (Target Date)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.049%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <p><strong>Key advantage:</strong> TSP has among the lowest expense ratios of any retirement plan in the country.</p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'DC vs Virginia vs Maryland: Tax Comparison',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Retirement Tax Comparison</h3>
+          <div class="overflow-x-auto">
+          <table class="min-w-full border-collapse border border-gray-200 my-6">
+          <thead>
+          <tr class="bg-gray-50">
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Factor</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">DC</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Virginia</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Maryland</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Top Income Tax Rate</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">10.75%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">5.75%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">5.75% + local (up to 3.2%)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Social Security Tax</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$3K exempt (income limits)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Exempt</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Exempt</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Pension Exclusion</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">None</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$12,000 age 65+ deduction</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Up to $36,200 (65+)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Property Tax Rate</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">~0.85%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">~1.0-1.2% (varies)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">~1.0-1.3% (varies)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Estate Tax</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$4.53 million threshold</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">None</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5 million threshold</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Sales Tax</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">6%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">5.3%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">6%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <h3 class="text-xl font-bold mt-8 mb-4">When DC May Be Better</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Lower property tax rates than many VA/MD suburbs</li>
+          <li>Walkable urban lifestyle reduces car expenses</li>
+          <li>Access to free cultural amenities (Smithsonian, etc.)</li>
+          <li>No commute costs if you stay in the city</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">When Virginia May Be Better</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Social Security fully exempt</li>
+          <li>Lower income tax rates</li>
+          <li>No estate tax</li>
+          <li>Senior deduction for pension income</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">When Maryland May Be Better</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Generous pension exclusion ($36,200 at 65+)</li>
+          <li>Social Security fully exempt</li>
+          <li>Strong homestead credit program</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Cost of Living Considerations',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">DC Metro Cost of Living</h3>
+          <p>The DC metro area consistently ranks among the most expensive in the nation:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Housing:</strong> Median home price ~$650,000+ in DC proper</li>
+          <li><strong>Cost of Living Index:</strong> ~140-150 (national average = 100)</li>
+          <li><strong>Healthcare:</strong> Access to NIH, Johns Hopkins, MedStar, and major academic centers</li>
+          <li><strong>Transportation:</strong> Metro system provides car-optional lifestyle</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Retirement Savings Target by Lifestyle</h3>
+          <div class="overflow-x-auto">
+          <table class="min-w-full border-collapse border border-gray-200 my-6">
+          <thead>
+          <tr class="bg-gray-50">
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Lifestyle</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Annual Spending</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Savings Needed</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Modest (condo, limited travel)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$80,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2.0M (plus FERS/SS)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Comfortable (townhouse, travel)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$120,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$3.0M (plus FERS/SS)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Affluent (house in NW, active)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$180,000+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$4.5M+ (plus FERS/SS)</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <p><em>Note: Federal retirees with full FERS pension and Social Security may need significantly less in personal savings.</em></p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'DC Neighborhoods for Retirees',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Popular Retirement Neighborhoods</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Capitol Hill:</strong> Historic rowhouses, walkable to museums and restaurants</li>
+          <li><strong>Cleveland Park/Woodley Park:</strong> Quiet, tree-lined streets near National Zoo</li>
+          <li><strong>Georgetown:</strong> Upscale shopping and dining, historic architecture</li>
+          <li><strong>Dupont Circle:</strong> Urban walkability, cultural venues</li>
+          <li><strong>Friendship Heights:</strong> Shopping, restaurants, easy Metro access</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">DC Suburbs</h3>
+          <p><strong>Virginia options:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Alexandria - walkable Old Town, lower taxes</li>
+          <li>Arlington - urban amenities, no SS tax</li>
+          <li>Falls Church - smaller town feel, good schools</li>
+          </ul>
+          <p><strong>Maryland options:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Bethesda - upscale shopping, NIH proximity</li>
+          <li>Silver Spring - diverse, urban feel</li>
+          <li>Rockville - more affordable, good healthcare</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Working with DC Financial Advisors',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">What to Look for in DC</h3>
+          <p>Ideal advisor qualifications for DC professionals:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Federal benefits expertise:</strong> Deep understanding of FERS, CSRS, TSP, and FEHB</li>
+          <li><strong>Multi-state tax planning:</strong> Knowledge of DC, VA, and MD tax codes</li>
+          <li><strong>Fee-only structure:</strong> Fiduciary standard, transparent compensation</li>
+          <li><strong>Credentials:</strong> CFP®, CPA, or EA for tax expertise</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Questions to Ask</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>"How many federal employee clients do you work with?"</li>
+          <li>"Can you help me understand my FERS pension calculation?"</li>
+          <li>"What's your approach to TSP allocation in retirement?"</li>
+          <li>"How do you help clients decide between DC, VA, and MD residency?"</li>
+          <li>"Do you have experience with the Federal Employees Health Benefits program?"</li>
+          </ul>
+        `
+      }
+    ],
+    faqs: [
+      {
+        question: '### Does DC tax federal pensions?',
+        answer: 'Yes. DC fully taxes FERS and CSRS pension income, with no exclusion or deduction for federal retirement benefits. This is one factor that leads many federal retirees to consider moving to Virginia or Maryland, which offer more favorable treatment of pension income. Virginia provides a $12,000 age deduction, while Maryland offers a pension exclusion up to $36,200 for those 65 and older.'
+      },
+      {
+        question: '### How does DC tax Social Security benefits?',
+        answer: 'DC offers a limited exclusion: seniors 62 and older with federal adjusted gross income below $85,000 (single) or $100,000 (joint) can exclude up to $3,000 of Social Security benefits from DC income tax. Above these income limits, Social Security is fully taxable. In contrast, both Virginia and Maryland fully exempt Social Security from state income tax regardless of income.'
+      },
+      {
+        question: '### Should I stay in DC or move to Virginia/Maryland for retirement?',
+        answer: 'It depends on your income level and priorities. DC has higher income tax rates (up to 10.75%) but lower property taxes and urban walkability. Virginia has no estate tax and exempts Social Security. Maryland offers the largest pension exclusion. A financial advisor can model your specific situation, but generally, higher-income retirees benefit most from leaving DC, while those valuing urban amenities and lower property taxes may prefer staying.'
+      },
+      {
+        question: '### What is the TSP and how does it work in retirement?',
+        answer: 'The Thrift Savings Plan (TSP) is the federal 401(k) equivalent. In retirement, you can withdraw via lump sum, installments, or purchase a TSP annuity. TSP has extremely low expense ratios (0.049%). You can leave money in TSP after retirement and still access the low-cost funds. Required Minimum Distributions (RMDs) begin at age 73. Consider Roth TSP contributions if you expect higher taxes in retirement.'
+      },
+      {
+        question: '### Does DC have an estate tax?',
+        answer: 'Yes. DC has an estate tax with a $4.53 million threshold (indexed for inflation). Estates exceeding this amount face graduated rates from 11.2% to 16%. Virginia has no estate tax, making it attractive for high-net-worth federal retirees. Maryland has both an estate tax ($5 million threshold) and an inheritance tax. Proper estate planning is essential for DC residents with significant assets.'
+      },
+      {
+        question: '### How much should federal employees contribute to TSP?',
+        answer: 'At minimum, contribute enough to get the full FERS match (5% = 5% match). The 2024 contribution limit is $23,000, plus $7,500 catch-up if 50 or older. For higher earners, consider maxing out traditional TSP to reduce current taxes, or Roth TSP if you expect higher taxes in retirement or are in a lower bracket now. TSP\'s ultra-low fees make it one of the best retirement savings vehicles available.'
+      }
+    ],
+    bottomLine: 'Washington DC offers federal employees a unique retirement landscape with generous pension benefits through FERS or CSRS, ultra-low-cost TSP investing, and world-class cultural amenities. However, DC\'s high income tax rates (up to 10.75%) and limited retirement income exclusions make tax planning essential. Many DC retirees benefit from consulting a fee-only financial advisor who understands federal benefits and can model DC vs Virginia vs Maryland residency options. The combination of FERS pension, Social Security, and TSP can provide substantial retirement income—but optimizing the tax treatment requires expertise in the tri-state area\'s different rules. --- *Learn more about [[Federal Retirement Planning]], [[TSP Optimization]], and [[Finding a Financial Advisor]] in our comprehensive guides.*'
+  },
+  {
+    id: 'city-dc-002',
+    title: 'DC Taxes for Retirees: Complete Guide to Washington DC Tax Planning',
+    slug: 'dc-taxes-retirees-washington-dc-tax-planning-guide',
+    hubId: 'dc',
+    category: 'taxes',
+    type: 'cityGuide',
+    readTime: '11 min read',
+    author: 'Wealth Authority',
+    lastUpdated: 'December 2024',
+    excerpt: 'Complete guide to DC taxes for retirees, including income tax brackets, retirement income treatment, property taxes, and strategies for minimizing your tax burden.',
+    keyTakeaways: [
+      'DC has seven income tax brackets ranging from 4% to 10.75%',
+      'DC taxes most retirement income fully, unlike Virginia and Maryland',
+      'Property tax in DC averages about 0.85%, lower than most suburbs',
+      'DC estate tax begins at $4.53 million with rates up to 16%',
+      'Strategic Roth conversions and residency planning can significantly reduce lifetime taxes'
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'Understanding DC\'s Tax Landscape',
+        content: `
+          <p>Washington DC has one of the highest income tax rates in the nation, which significantly impacts retirement planning. However, the full picture is more nuanced—DC\'s lower property taxes and urban amenities may offset some of the income tax burden for certain retirees.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">DC Tax Overview</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Income tax:</strong> Progressive rates from 4% to 10.75%</li>
+          <li><strong>Property tax:</strong> ~0.85% effective rate (lower than suburbs)</li>
+          <li><strong>Sales tax:</strong> 6% (groceries exempt)</li>
+          <li><strong>Estate tax:</strong> Threshold of $4.53 million</li>
+          <li><strong>No inheritance tax:</strong> Heirs don\'t pay separate tax</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'DC Income Tax Details',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">2024 Tax Brackets</h3>
+          <p>DC uses a graduated income tax with seven brackets:</p>
+          <div class="overflow-x-auto">
+          <table class="min-w-full border-collapse border border-gray-200 my-6">
+          <thead>
+          <tr class="bg-gray-50">
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Income Range</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Rate</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Tax on Lower Brackets</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$0 - $10,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">4.0%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$0</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$10,001 - $40,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">6.0%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$400</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$40,001 - $60,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">6.5%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,200</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$60,001 - $250,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">8.5%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$3,500</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$250,001 - $500,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">9.25%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$19,650</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500,001 - $1,000,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">9.75%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$42,775</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Over $1,000,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">10.75%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$91,525</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Tax Calculation Example</h3>
+          <p>For a retiree with $100,000 taxable income:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>First $10,000 × 4% = $400</li>
+          <li>Next $30,000 × 6% = $1,800</li>
+          <li>Next $20,000 × 6.5% = $1,300</li>
+          <li>Final $40,000 × 8.5% = $3,400</li>
+          <li><strong>Total DC tax: $6,900</strong> (effective rate: 6.9%)</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Retirement Income Taxation',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">How DC Taxes Each Income Type</h3>
+          <div class="overflow-x-auto">
+          <table class="min-w-full border-collapse border border-gray-200 my-6">
+          <thead>
+          <tr class="bg-gray-50">
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Income Type</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">DC Treatment</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Social Security</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$3K exempt if AGI <$85K single/$100K joint and 62+; otherwise taxed</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">FERS Pension</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Fully taxable</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">CSRS Pension</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Fully taxable</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Military Retirement</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Fully taxable</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">TSP Distributions</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Fully taxable (Traditional); Tax-free (Roth)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">401(k)/IRA Distributions</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Fully taxable (Traditional); Tax-free (Roth)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Capital Gains</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Taxed as ordinary income (no preferential rate)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Interest Income</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Fully taxable</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Dividend Income</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Fully taxable (no qualified dividend preference)</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <p><strong>Key issue:</strong> DC taxes capital gains and qualified dividends as ordinary income, unlike the federal government which provides preferential rates. High-income investors pay up to 10.75% on investment gains.</p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'DC Property Taxes',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Property Tax Overview</h3>
+          <p>DC property taxes are assessed at 100% of market value:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Residential rate:</strong> $0.85 per $100 of assessed value (0.85%)</li>
+          <li><strong>Commercial rate:</strong> $1.65 per $100</li>
+          <li><strong>Assessment frequency:</strong> Annual</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Property Tax Relief Programs</h3>
+          <p><strong>Homestead Deduction:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Reduces assessed value by $86,180 for owner-occupied homes</li>
+          <li>Must apply and provide proof of occupancy</li>
+          <li>Automatically renewed once approved</li>
+          </ul>
+          <p><strong>Senior Citizen Tax Relief:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>50% reduction for seniors 65+ with income under ~$150,000</li>
+          <li>Must be owner and occupant</li>
+          <li>Application required annually</li>
+          </ul>
+          <p><strong>Schedule H Credit:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Property tax credit for low/moderate income residents</li>
+          <li>Available to renters and homeowners</li>
+          <li>Based on household income and property taxes paid</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Property Tax Comparison</h3>
+          <p>For a $750,000 home:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>DC:</strong> ~$5,650 after homestead deduction</li>
+          <li><strong>Arlington, VA:</strong> ~$7,500</li>
+          <li><strong>Montgomery County, MD:</strong> ~$7,125</li>
+          </ul>
+          <p>DC's lower property taxes can partially offset its higher income taxes for homeowners.</p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'DC Estate Tax',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Estate Tax Threshold</h3>
+          <p>DC imposes an estate tax on estates exceeding $4.53 million (2024, indexed for inflation):</p>
+          <div class="overflow-x-auto">
+          <table class="min-w-full border-collapse border border-gray-200 my-6">
+          <thead>
+          <tr class="bg-gray-50">
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Taxable Estate</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Rate</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$0 - $500,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$500,001 - $750,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">11.2%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$750,001 - $1,000,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">12.0%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Over $1,000,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">12% - 16%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Estate Planning Strategies</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Portability:</strong> DC allows portability of unused exemption to surviving spouse</li>
+          <li><strong>Gifting:</strong> Use annual gift exclusion ($18,000/year per recipient) to reduce estate</li>
+          <li><strong>Irrevocable trusts:</strong> Remove assets from taxable estate</li>
+          <li><strong>Charitable planning:</strong> Reduce taxable estate through charitable bequests</li>
+          <li><strong>Domicile change:</strong> Consider Virginia (no estate tax) for very large estates</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Tax Planning Strategies for DC Retirees',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 1: Strategic Roth Conversions</h3>
+          <p>DC's high income tax rates make timing crucial:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Convert in years with lower income (gap years between retirement and RMDs)</li>
+          <li>Stay below 8.5% bracket threshold ($60,000) when possible</li>
+          <li>Consider converting more if planning to move to a lower-tax jurisdiction</li>
+          <li>Roth distributions are completely tax-free in DC</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 2: Tax-Efficient Asset Location</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Tax-deferred accounts (TSP, IRA):</strong> Hold bonds and REITs (income taxed at ordinary rates anyway)</li>
+          <li><strong>Roth accounts:</strong> Hold highest-growth potential investments</li>
+          <li><strong>Taxable accounts:</strong> Hold index funds with low turnover, municipal bonds</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 3: Municipal Bond Advantage</h3>
+          <p>DC municipal bonds offer triple tax-free income:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Exempt from federal income tax</li>
+          <li>Exempt from DC income tax</li>
+          <li>Consider DC-specific muni funds for retirees in high brackets</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 4: Charitable Giving Optimization</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Qualified Charitable Distributions (QCDs):</strong> Donate up to $105,000 directly from IRA to charity after age 70½</li>
+          <li><strong>Bunching donations:</strong> Concentrate charitable giving in alternating years to exceed standard deduction</li>
+          <li><strong>Donor-advised funds:</strong> Front-load donations for immediate deduction, distribute over time</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 5: Residency Planning</h3>
+          <p>For high-income retirees, moving to Virginia or Maryland may make sense:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Virginia:</strong> Lower rates, no Social Security tax, no estate tax</li>
+          <li><strong>Maryland:</strong> Generous pension exclusion, no Social Security tax</li>
+          <li>Maintain DC property as rental if attached to the location</li>
+          <li>Establish clear domicile in new state (driver's license, voter registration, etc.)</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'DC Tax Calendar for Retirees',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Important Deadlines</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>April 15:</strong> DC income tax return due (D-40)</li>
+          <li><strong>April 15:</strong> First estimated tax payment due</li>
+          <li><strong>June 15:</strong> Second estimated tax payment</li>
+          <li><strong>September 15:</strong> Third estimated tax payment</li>
+          <li><strong>January 15:</strong> Fourth estimated tax payment</li>
+          <li><strong>March 1:</strong> Property tax homestead deduction application deadline (new applicants)</li>
+          <li><strong>October 15:</strong> Extended DC tax return deadline</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Estimated Tax Requirements</h3>
+          <p>DC retirees must make estimated payments if:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Expected tax liability exceeds $100</li>
+          <li>Withholding doesn't cover 90% of current year tax or 100% of prior year</li>
+          <li>Penalty applies for underpayment</li>
+          </ul>
+          <p><strong>Tip:</strong> Have DC tax withheld from TSP, IRA, or pension distributions to avoid quarterly payments.</p>
+        `
+      }
+    ],
+    faqs: [
+      {
+        question: '### What is DC\'s income tax rate for retirees?',
+        answer: 'DC uses graduated tax rates from 4% to 10.75%. Most retirees with moderate income fall in the 6.5% to 8.5% brackets. For taxable income between $60,001 and $250,000, the rate is 8.5%. Income over $1 million is taxed at 10.75%. There are no special deductions or credits for retirement income, making DC one of the less favorable jurisdictions for retirees from a tax perspective.'
+      },
+      {
+        question: '### Does DC tax capital gains differently than ordinary income?',
+        answer: 'No. Unlike the federal government, DC taxes capital gains and qualified dividends as ordinary income at rates up to 10.75%. There is no preferential rate for long-term gains. This is a significant disadvantage for retirees with substantial investment income, particularly those realizing gains from appreciated assets.'
+      },
+      {
+        question: '### What property tax relief is available for DC seniors?',
+        answer: 'DC offers several programs: (1) Homestead Deduction reduces assessed value by $86,180 for owner-occupied homes; (2) Senior Citizen Tax Relief provides a 50% reduction for those 65+ with income under approximately $150,000; (3) Schedule H Credit provides additional relief for low/moderate income residents. Combined, these programs can significantly reduce property tax burden for qualifying seniors.'
+      },
+      {
+        question: '### How can I reduce my DC tax burden in retirement?',
+        answer: 'Key strategies include: (1) Strategic Roth conversions during low-income years; (2) Municipal bonds for tax-free income; (3) Qualified Charitable Distributions from IRAs; (4) Maximizing property tax relief programs; (5) Tax-efficient asset location across account types; (6) Consider residency in Virginia or Maryland for significantly lower tax burden. Work with a tax professional familiar with DC\'s unique tax landscape.'
+      },
+      {
+        question: '### Is it worth moving from DC to Virginia or Maryland for taxes?',
+        answer: 'For many retirees, yes. Virginia has lower income tax rates, exempts Social Security, offers a senior deduction, and has no estate tax. Maryland exempts Social Security and provides up to $36,200 pension exclusion. However, DC has lower property taxes and walkable urban amenities that reduce transportation costs. The break-even depends on your income sources, property value, and lifestyle preferences. A financial advisor can model both scenarios for your specific situation.'
+      }
+    ],
+    bottomLine: 'DC\'s tax structure presents challenges for retirees: high income tax rates (up to 10.75%), taxation of most retirement income, and no preferential treatment for capital gains. However, DC\'s lower property taxes, urban walkability, and cultural amenities provide offsetting benefits for those who value city living. Strategic tax planning—including Roth conversions, municipal bonds, and charitable giving—can reduce your burden. For high-income retirees, the math often favors relocating to Virginia or Maryland while maintaining social connections in DC. Work with a fee-only financial advisor experienced in tri-state tax planning to optimize your retirement strategy. --- *Learn more about [[DC Retirement Planning]], [[Federal Employee Benefits]], and [[Finding a Financial Advisor]] in our comprehensive guides.*'
+  },
+
+  // Charlotte Articles
+  {
+    id: 'city-charlotte-001',
+    title: 'Retirement Planning in Charlotte: North Carolina Tax Guide',
+    slug: 'retirement-planning-charlotte-north-carolina-tax-guide',
+    hubId: 'charlotte',
+    category: 'retirement',
+    type: 'cityGuide',
+    readTime: '11 min read',
+    author: 'Wealth Authority',
+    lastUpdated: 'December 2024',
+    excerpt: 'Comprehensive retirement planning for Charlotte residents, covering North Carolina\'s flat tax rate, Bailey Settlement benefits, and banking industry retirement strategies.',
+    keyTakeaways: [
+      'North Carolina has a flat 5.25% income tax rate (dropping to 3.99% by 2027)',
+      'The Bailey Settlement exempts certain government pensions from NC tax',
+      'Social Security is fully exempt from North Carolina income tax',
+      'Charlotte offers lower cost of living than Northeast metros with similar job markets',
+      'No estate or inheritance tax in North Carolina'
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'Retirement in the Queen City',
+        content: `
+          <p>Charlotte has emerged as one of America's top retirement destinations, combining a thriving economy, moderate climate, and increasingly favorable tax environment. As the nation's second-largest banking center after New York, Charlotte offers unique opportunities and considerations for retirees.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Why Charlotte for Retirement</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Growing tax advantages:</strong> NC flat tax dropping from 5.25% to 3.99% by 2027</li>
+          <li><strong>No Social Security tax:</strong> Full exemption regardless of income</li>
+          <li><strong>Moderate cost of living:</strong> Below national average despite metro growth</li>
+          <li><strong>Healthcare access:</strong> Atrium Health and Novant Health systems</li>
+          <li><strong>Four-season climate:</strong> Mild winters, proximity to mountains and beaches</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'North Carolina Income Tax',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Flat Tax Rate Schedule</h3>
+          <p>North Carolina simplified to a flat tax in 2014, with ongoing reductions:</p>
+          <div class="overflow-x-auto">
+          <table class="min-w-full border-collapse border border-gray-200 my-6">
+          <thead>
+          <tr class="bg-gray-50">
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Tax Year</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Rate</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2024</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">5.25%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2025</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">4.75%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2026</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">4.50%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2027+</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">3.99%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <h3 class="text-xl font-bold mt-8 mb-4">How NC Taxes Retirement Income</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Social Security:</strong> Fully exempt from NC tax</li>
+          <li><strong>401(k)/IRA distributions:</strong> Taxed at flat rate</li>
+          <li><strong>Pension income:</strong> Generally taxed (see Bailey Settlement exception)</li>
+          <li><strong>Capital gains:</strong> Taxed as ordinary income at flat rate</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'The Bailey Settlement',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">What is the Bailey Settlement?</h3>
+          <p>The Bailey Settlement is a landmark 1998 court decision that exempts certain government retirement benefits from North Carolina income tax:</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Who Qualifies</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>State and local government retirees:</strong> Vested in NC retirement system as of August 12, 1989</li>
+          <li><strong>Federal retirees:</strong> Had 5+ years of creditable service as of August 12, 1989</li>
+          <li><strong>Military retirees:</strong> Had 5+ years of creditable service as of August 12, 1989</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Benefits</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Qualifying retirement income is completely exempt from NC income tax</li>
+          <li>Applies to pension payments, not just lump sums</li>
+          <li>Surviving spouses may also qualify</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Banking Industry Retirement',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Charlotte's Financial Sector</h3>
+          <p>As headquarters to Bank of America and Truist, Charlotte has a large population of banking professionals with unique retirement considerations:</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Common Retirement Assets</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Concentrated stock:</strong> Large positions in BAC, TFC, or other financial stocks</li>
+          <li><strong>Deferred compensation:</strong> Executive deferred comp plans with complex vesting</li>
+          <li><strong>Stock options:</strong> ISOs and NQSOs requiring careful exercise planning</li>
+          <li><strong>RSUs:</strong> Restricted stock units with various vesting schedules</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Planning Strategies</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Diversification:</strong> Systematic selling of concentrated positions</li>
+          <li><strong>Tax-loss harvesting:</strong> Offset gains with strategic losses</li>
+          <li><strong>10b5-1 plans:</strong> Pre-scheduled selling for insiders</li>
+          <li><strong>Charitable giving:</strong> Donate appreciated stock for double benefit</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Cost of Living Comparison',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Charlotte vs Other Banking Hubs</h3>
+          <div class="overflow-x-auto">
+          <table class="min-w-full border-collapse border border-gray-200 my-6">
+          <thead>
+          <tr class="bg-gray-50">
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Metro</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Cost of Living Index</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Median Home Price</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Charlotte</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">102</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$420,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">New York</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">187</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$750,000+</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">San Francisco</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">179</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$1.2M+</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Boston</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">152</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$650,000</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <p><strong>Key advantage:</strong> Charlotte offers major metro amenities at a fraction of coastal city costs.</p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Charlotte Neighborhoods for Retirees',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Popular Retirement Areas</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Myers Park:</strong> Established, tree-lined streets, walkable to SouthPark</li>
+          <li><strong>Dilworth:</strong> Historic charm, close to Uptown, active community</li>
+          <li><strong>Lake Norman:</strong> Waterfront living, golf communities, more space</li>
+          <li><strong>Ballantyne:</strong> Master-planned, golf courses, upscale retail</li>
+          <li><strong>SouthPark:</strong> Shopping, dining, medical facilities nearby</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Nearby Retirement Communities</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Sun City Carolina Lakes:</strong> 55+ active adult community</li>
+          <li><strong>The Palisades:</strong> Lake Wylie waterfront living</li>
+          <li><strong>Tega Cay:</strong> Small-town feel on Lake Wylie (SC side)</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Working with Charlotte Financial Advisors',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">What to Look For</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Banking industry expertise:</strong> Understanding of equity compensation, deferred comp</li>
+          <li><strong>NC tax knowledge:</strong> Bailey Settlement, declining tax rates</li>
+          <li><strong>Fee-only structure:</strong> Fiduciary standard, transparent pricing</li>
+          <li><strong>CFP® certification:</strong> Comprehensive planning credential</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Questions to Ask</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>"What experience do you have with banking industry clients?"</li>
+          <li>"How do you approach concentrated stock positions?"</li>
+          <li>"What's your strategy for managing deferred compensation?"</li>
+          <li>"How will NC's declining tax rate affect my retirement plan?"</li>
+          </ul>
+        `
+      }
+    ],
+    faqs: [
+      {
+        question: '### Does North Carolina tax Social Security?',
+        answer: 'No. North Carolina fully exempts Social Security benefits from state income tax, regardless of your total income. This makes NC more favorable than many states for retirees who rely heavily on Social Security, as approximately 13 states tax Social Security benefits to some degree.'
+      },
+      {
+        question: '### What is North Carolina\'s income tax rate?',
+        answer: 'North Carolina has a flat income tax rate of 5.25% for 2024. This rate is scheduled to decrease over the next several years: 4.75% in 2025, 4.50% in 2026, and 3.99% in 2027 and beyond. This declining rate makes NC increasingly attractive for retirees compared to states with higher progressive rates.'
+      },
+      {
+        question: '### Does North Carolina have an estate tax?',
+        answer: 'No. North Carolina eliminated its estate tax in 2013. There is also no inheritance tax. Only the federal estate tax applies, with an exemption of $13.61 million per person (2024). This makes NC attractive for high-net-worth individuals concerned about estate tax compared to states like Massachusetts or Oregon with much lower thresholds.'
+      },
+      {
+        question: '### What is the Bailey Settlement and do I qualify?',
+        answer: 'The Bailey Settlement (1998) exempts certain government retirement benefits from NC income tax. You may qualify if you were vested in the NC state/local retirement system by August 12, 1989, or had 5+ years of federal/military service by that date. This exemption fully shields qualifying pension income from NC tax. Newer government employees do not qualify.'
+      },
+      {
+        question: '### How does Charlotte compare to other cities for retirement?',
+        answer: 'Charlotte offers a compelling combination: major metro amenities, moderate cost of living (index ~102 vs 100 national average), no Social Security tax, declining income tax rates, and no estate tax. Compared to Northeast or West Coast metros, Charlotte typically offers 30-50% lower housing costs while providing comparable healthcare, cultural amenities, and airport access.'
+      }
+    ],
+    bottomLine: 'Charlotte offers retirees an increasingly attractive tax environment with North Carolina\'s flat income tax declining to 3.99% by 2027, full Social Security exemption, and no estate tax. Banking industry retirees benefit from Charlotte\'s deep expertise in equity compensation and deferred comp planning. The moderate cost of living, mild climate, and strong healthcare systems add to the appeal. For those qualifying under the Bailey Settlement, certain government pensions are completely tax-free. Work with a fee-only financial advisor who understands NC\'s evolving tax landscape and Charlotte\'s banking industry specifics. --- *Learn more about [[Retirement Income Planning]], [[Finding a Financial Advisor]], and [[North Carolina Tax Planning]] in our comprehensive guides.*'
+  },
+  {
+    id: 'city-charlotte-002',
+    title: 'North Carolina Retirement Taxes: Complete Guide for Charlotte Retirees',
+    slug: 'north-carolina-retirement-taxes-charlotte-guide',
+    hubId: 'charlotte',
+    category: 'taxes',
+    type: 'cityGuide',
+    readTime: '10 min read',
+    author: 'Wealth Authority',
+    lastUpdated: 'December 2024',
+    excerpt: 'Complete guide to North Carolina taxes for retirees, including the declining flat tax rate, property taxes, and strategies to minimize your retirement tax burden.',
+    keyTakeaways: [
+      'NC flat tax drops from 5.25% (2024) to 3.99% (2027+)',
+      'Social Security is 100% exempt from NC income tax',
+      'No state estate or inheritance tax',
+      'Property taxes vary by county but average around 0.80%',
+      'Standard deduction for married couples is $25,500 (2024)'
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'North Carolina Tax Overview',
+        content: `
+          <p>North Carolina has transformed its tax code over the past decade, moving from a progressive income tax to a flat rate that continues to decline. For retirees, this creates an increasingly favorable environment, especially combined with Social Security exemption and no estate tax.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">NC Tax Snapshot</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Income tax:</strong> Flat 5.25% (2024), declining to 3.99% (2027+)</li>
+          <li><strong>Social Security:</strong> Fully exempt</li>
+          <li><strong>Sales tax:</strong> 4.75% state + local (typically 6.75-7.5% total)</li>
+          <li><strong>Property tax:</strong> ~0.80% average (varies by county)</li>
+          <li><strong>Estate tax:</strong> None</li>
+          <li><strong>Inheritance tax:</strong> None</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Income Tax Details',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Standard Deduction (2024)</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Single:</strong> $12,750</li>
+          <li><strong>Married filing jointly:</strong> $25,500</li>
+          <li><strong>Head of household:</strong> $19,125</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Tax Calculation Example</h3>
+          <p>Married couple, $100,000 total income (including $30,000 Social Security):</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Total income: $100,000</li>
+          <li>Less Social Security (exempt): -$30,000</li>
+          <li>NC taxable income: $70,000</li>
+          <li>Less standard deduction: -$25,500</li>
+          <li>Taxable amount: $44,500</li>
+          <li><strong>NC tax (5.25%):</strong> $2,336</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Retirement Income Taxation',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">How NC Taxes Each Income Type</h3>
+          <div class="overflow-x-auto">
+          <table class="min-w-full border-collapse border border-gray-200 my-6">
+          <thead>
+          <tr class="bg-gray-50">
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Income Type</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">NC Treatment</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Social Security</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Fully exempt</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">401(k)/IRA Distributions</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Taxed at flat rate</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Private Pensions</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Taxed at flat rate</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Government Pensions (Bailey)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Exempt if qualified</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Military Retirement</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Exempt if Bailey qualified</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Capital Gains</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Taxed as ordinary income</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Property Taxes in Charlotte Area',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Property Tax Rates by County</h3>
+          <div class="overflow-x-auto">
+          <table class="min-w-full border-collapse border border-gray-200 my-6">
+          <thead>
+          <tr class="bg-gray-50">
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">County</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Effective Rate</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Tax on $400K Home</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Mecklenburg (Charlotte)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.98%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$3,920</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Union</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.79%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$3,160</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Cabarrus</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.72%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,880</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">York County, SC</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0.54%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$2,160</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Property Tax Relief for Seniors</h3>
+          <p><strong>Homestead Exclusion:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Age 65+ or totally disabled</li>
+          <li>Income limit: $33,800 (2024)</li>
+          <li>Excludes $25,000 or 50% of value (whichever greater) from tax</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Tax Planning Strategies',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 1: Time Large Distributions</h3>
+          <p>With NC's declining tax rate, consider timing:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Delay large IRA withdrawals until 2027 (3.99% rate) if possible</li>
+          <li>The 1.26% difference = $1,260 savings per $100,000 withdrawn</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 2: Maximize Social Security</h3>
+          <p>Since NC fully exempts Social Security:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Delaying to age 70 increases tax-free income</li>
+          <li>Bridge with taxable IRA withdrawals in early retirement</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 3: Roth Conversions</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>NC's flat rate makes conversion math simpler</li>
+          <li>Convert to fill lower federal brackets</li>
+          <li>Future withdrawals are tax-free at both levels</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Charlotte vs South Carolina Border',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Tax Comparison</h3>
+          <div class="overflow-x-auto">
+          <table class="min-w-full border-collapse border border-gray-200 my-6">
+          <thead>
+          <tr class="bg-gray-50">
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Factor</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">North Carolina</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">South Carolina</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Income Tax Rate</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">5.25% flat (→3.99%)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0-6.4% graduated</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Social Security</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Exempt</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Exempt</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Retirement Deduction</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">None (except Bailey)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$10,000 (65+)</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Property Tax</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">~0.80-1.0%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">~0.54%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <p><strong>Bottom line:</strong> SC has lower property taxes and a retirement deduction, but NC's declining flat rate will favor high-income retirees by 2027.</p>
+        `
+      }
+    ],
+    faqs: [
+      {
+        question: '### Is North Carolina tax-friendly for retirees?',
+        answer: 'Yes, and improving. NC exempts Social Security, has no estate tax, and its flat rate drops to 3.99% by 2027. While 401(k)/IRA distributions are taxed, the declining rate makes NC competitive. The Bailey Settlement also exempts qualifying government pensions.'
+      },
+      {
+        question: '### How much NC tax on $100,000 retirement income?',
+        answer: 'For a married couple with $100,000 including $30,000 Social Security: SS is exempt, leaving $70,000. After $25,500 standard deduction, you pay 5.25% on $44,500 = $2,336 (2024). By 2027, this drops to ~$1,775.'
+      },
+      {
+        question: '### What property tax relief for NC seniors?',
+        answer: 'NC offers the Homestead Exclusion for those 65+ with income under $33,800, excluding $25,000 or 50% of home value from property tax. The Circuit Breaker program defers taxes exceeding 4% of income for seniors under $50,700.'
+      },
+      {
+        question: '### Should I move to South Carolina for taxes?',
+        answer: 'Depends on income level. SC has lower property taxes and $10,000 retirement deduction (65+), but top rate of 6.4% vs NC\'s 3.99% by 2027. High-income retirees likely pay less in NC. Model both with a tax professional.'
+      },
+      {
+        question: '### Does NC tax capital gains from home sale?',
+        answer: 'NC taxes capital gains as ordinary income at the flat rate. However, the federal exclusion ($250K single/$500K married) applies. Gains under the exclusion owe no NC tax. Excess gains are taxed at the flat rate.'
+      }
+    ],
+    bottomLine: 'North Carolina offers retirees a favorable and improving tax environment. The flat tax dropping to 3.99% by 2027, full Social Security exemption, and no estate tax make NC increasingly competitive. Charlotte-area retirees benefit from moderate property taxes and senior relief programs. Strategic planning around NC\'s declining rates can optimize your retirement tax situation. --- *Learn more about [[Charlotte Retirement Planning]], [[Tax-Efficient Withdrawals]], and [[Finding a Financial Advisor]] in our comprehensive guides.*'
+  },
+
+  // Detroit Articles
+  {
+    id: 'city-detroit-001',
+    title: 'Retirement Planning in Detroit: Michigan Tax Guide for Auto Industry Professionals',
+    slug: 'retirement-planning-detroit-michigan-auto-industry-guide',
+    hubId: 'detroit',
+    category: 'retirement',
+    type: 'cityGuide',
+    readTime: '11 min read',
+    author: 'Wealth Authority',
+    lastUpdated: 'December 2024',
+    excerpt: 'Comprehensive retirement planning for Detroit-area residents, covering Michigan\'s flat tax rate, auto industry retirement benefits, and strategies for Big Three retirees.',
+    keyTakeaways: [
+      'Michigan has a flat 4.25% state income tax with no local income tax (except Detroit city)',
+      'Social Security is fully exempt from Michigan income tax',
+      'Public pensions have generous exemptions; private pensions have age-based deductions',
+      'Detroit city residents pay an additional 2.4% city income tax',
+      'Michigan has no estate or inheritance tax'
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'Retirement in Motor City',
+        content: `
+          <p>Detroit and Metro Detroit offer retirees an affordable cost of living, deep automotive industry expertise, and a moderately favorable tax environment. For those who built careers at Ford, GM, or Stellantis, understanding Michigan's unique retirement landscape is essential.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Why Detroit Area for Retirement</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Affordable living:</strong> Housing costs well below national average</li>
+          <li><strong>Flat state tax:</strong> 4.25% with Social Security exemption</li>
+          <li><strong>No estate tax:</strong> Michigan eliminated estate tax in 2019</li>
+          <li><strong>Healthcare access:</strong> Beaumont, Henry Ford, U-M Health systems</li>
+          <li><strong>Four seasons:</strong> Lakes, golf, and winter activities</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Michigan Income Tax Overview',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">State Tax Rate</h3>
+          <p>Michigan uses a flat 4.25% income tax on most income types.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">City Income Tax (Detroit)</h3>
+          <p>Important: Detroit is one of few Michigan cities with a local income tax:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Detroit residents:</strong> 2.4% city income tax</li>
+          <li><strong>Non-residents working in Detroit:</strong> 1.2%</li>
+          <li><strong>Total for Detroit residents:</strong> 6.65% (state + city)</li>
+          </ul>
+          <p><strong>Tip:</strong> Suburban retirees avoid the city tax while staying close to Detroit amenities.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">How Michigan Taxes Retirement Income</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Social Security:</strong> Fully exempt</li>
+          <li><strong>Public pensions:</strong> Exempt up to age-based limits</li>
+          <li><strong>Private pensions/401(k):</strong> Deduction available for those born before 1953</li>
+          <li><strong>Capital gains:</strong> Taxed at 4.25% flat rate</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Michigan Pension Tax Treatment',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Three Tiers Based on Birth Year</h3>
+          <div class="overflow-x-auto">
+          <table class="min-w-full border-collapse border border-gray-200 my-6">
+          <thead>
+          <tr class="bg-gray-50">
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Birth Year</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Treatment</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Before 1946</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">All public/private pension exempt; SS exempt</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1946-1952</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$20,000 single/$40,000 joint deduction for all retirement income at age 67</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1953-1958</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$20,000 single/$40,000 joint deduction at age 67; reduced for higher incomes</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1959 and later</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No deduction until reaching full SS retirement age; then standard senior deduction</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Public vs Private Pensions</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Public pensions (state/local/federal):</strong> Generally more favorable treatment</li>
+          <li><strong>Private pensions (auto industry):</strong> Subject to birth-year tier rules</li>
+          <li><strong>Military pensions:</strong> Fully exempt from Michigan tax</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Auto Industry Retirement Benefits',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Big Three Retirement Plans</h3>
+          <p>Ford, GM, and Stellantis (formerly Chrysler) offer various retirement structures:</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Common Benefits</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Defined benefit pension:</strong> Legacy plans for long-tenured employees</li>
+          <li><strong>401(k) with match:</strong> Company matching contributions</li>
+          <li><strong>Retiree healthcare:</strong> Often subsidized for older retirees</li>
+          <li><strong>Stock options/RSUs:</strong> For management-level employees</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Planning Considerations</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Pension vs lump sum:</strong> Many have option to take lump sum</li>
+          <li><strong>Concentrated stock:</strong> Heavy positions in F, GM, or STLA</li>
+          <li><strong>Healthcare bridge:</strong> Coverage before Medicare eligibility</li>
+          <li><strong>Early retirement packages:</strong> Common in industry restructuring</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Cost of Living Advantage',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Detroit Metro vs Other Major Metros</h3>
+          <div class="overflow-x-auto">
+          <table class="min-w-full border-collapse border border-gray-200 my-6">
+          <thead>
+          <tr class="bg-gray-50">
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Metro Area</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Cost of Living Index</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Median Home Price</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Detroit Metro</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">89</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$235,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Chicago</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">107</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$350,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">National Average</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">100</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$420,000</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <p><strong>Key advantage:</strong> Detroit's low cost of living means retirement savings go further.</p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Detroit Area Neighborhoods for Retirees',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Popular Suburban Areas</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Birmingham:</strong> Walkable downtown, upscale shopping, excellent dining</li>
+          <li><strong>Royal Oak:</strong> Arts district, restaurants, urban feel</li>
+          <li><strong>Grosse Pointe:</strong> Lakefront living, established neighborhoods</li>
+          <li><strong>Ann Arbor:</strong> University town, cultural amenities (30 min west)</li>
+          <li><strong>Northville:</strong> Historic downtown, golf courses, horse country</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Avoiding Detroit City Tax</h3>
+          <p>Most retirees choose suburban Oakland, Macomb, or Washtenaw counties to avoid the 2.4% Detroit city income tax while staying within 20-30 minutes of downtown amenities.</p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Working with Detroit Financial Advisors',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">What to Look For</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Auto industry expertise:</strong> Understanding of pension options, buyouts</li>
+          <li><strong>Michigan tax knowledge:</strong> Birth-year tier system, city taxes</li>
+          <li><strong>Fee-only structure:</strong> Fiduciary standard, transparent pricing</li>
+          <li><strong>CFP® certification:</strong> Comprehensive planning credential</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Questions to Ask</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>"What experience do you have with auto industry retirees?"</li>
+          <li>"How do you evaluate pension vs lump sum decisions?"</li>
+          <li>"What's your approach to concentrated stock positions?"</li>
+          <li>"How do Michigan's pension tax rules affect my planning?"</li>
+          </ul>
+        `
+      }
+    ],
+    faqs: [
+      {
+        question: '### Does Michigan tax Social Security?',
+        answer: 'No. Michigan fully exempts Social Security benefits from state income tax, regardless of your total income or birth year. This makes Michigan more favorable than many states for retirees who rely heavily on Social Security income.'
+      },
+      {
+        question: '### What is Michigan\'s income tax rate?',
+        answer: 'Michigan has a flat 4.25% state income tax. However, Detroit city adds a 2.4% local income tax for residents (1.2% for non-residents working in Detroit). Most suburban areas have no local income tax, making the total rate 4.25% for suburban retirees.'
+      },
+      {
+        question: '### How does Michigan tax auto industry pensions?',
+        answer: 'It depends on your birth year. Those born before 1946 have full exemption. Those born 1946-1952 get a $20,000 single/$40,000 joint deduction at age 67. Those born 1953-1958 get a reduced deduction. Those born 1959+ get the standard senior deduction only after reaching full Social Security retirement age.'
+      },
+      {
+        question: '### Should I take my pension or a lump sum?',
+        answer: 'This depends on your health, other income sources, survivor needs, and investment confidence. Pensions provide guaranteed income for life but may not adjust for inflation and end at death (or survivor death). Lump sums offer flexibility and inheritance potential but require investment management. A fee-only advisor can model both scenarios for your specific situation.'
+      },
+      {
+        question: '### Does Michigan have an estate tax?',
+        answer: 'No. Michigan eliminated its estate tax in 2019. There is also no inheritance tax. Only federal estate tax applies, with an exemption of $13.61 million per person (2024). This makes Michigan attractive for high-net-worth individuals concerned about state estate tax.'
+      }
+    ],
+    bottomLine: 'Detroit-area retirement offers affordability and a moderately favorable tax environment. Michigan\'s 4.25% flat rate, Social Security exemption, and no estate tax create a solid foundation. Auto industry retirees face unique decisions around pension elections, concentrated stock, and healthcare bridge coverage. The birth-year tier system for pension taxation adds complexity. Suburban living avoids Detroit\'s 2.4% city tax while keeping you close to metro amenities. Work with a fee-only advisor experienced in auto industry retirement planning and Michigan\'s specific tax rules. --- *Learn more about [[Pension Planning]], [[Finding a Financial Advisor]], and [[Michigan Tax Strategies]] in our comprehensive guides.*'
+  },
+  {
+    id: 'city-detroit-002',
+    title: 'Michigan Retirement Taxes: Complete Guide for Detroit-Area Retirees',
+    slug: 'michigan-retirement-taxes-detroit-guide',
+    hubId: 'detroit',
+    category: 'taxes',
+    type: 'cityGuide',
+    readTime: '10 min read',
+    author: 'Wealth Authority',
+    lastUpdated: 'December 2024',
+    excerpt: 'Complete guide to Michigan taxes for retirees, including the flat tax rate, pension exemptions by birth year, and strategies to minimize your retirement tax burden.',
+    keyTakeaways: [
+      'Michigan flat tax rate is 4.25% (plus 2.4% for Detroit city residents)',
+      'Social Security is 100% exempt from Michigan income tax',
+      'Pension taxation depends on birth year with three-tier system',
+      'No state estate or inheritance tax',
+      'Property taxes average around 1.5% but vary significantly by county'
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'Michigan Tax Overview',
+        content: `
+          <p>Michigan offers retirees a straightforward flat tax system with valuable exemptions for Social Security and certain pension income. Understanding the birth-year rules for pension taxation is crucial for retirement planning.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Michigan Tax Snapshot</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>State income tax:</strong> Flat 4.25%</li>
+          <li><strong>Detroit city tax:</strong> Additional 2.4% for residents</li>
+          <li><strong>Social Security:</strong> Fully exempt</li>
+          <li><strong>Sales tax:</strong> 6%</li>
+          <li><strong>Property tax:</strong> ~1.5% average (varies by county)</li>
+          <li><strong>Estate tax:</strong> None</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Retirement Income Taxation by Birth Year',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Tier 1: Born Before 1946</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>All public pension income: Exempt</li>
+          <li>All private pension income: Exempt</li>
+          <li>401(k)/IRA distributions: Exempt</li>
+          <li>Social Security: Exempt</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Tier 2: Born 1946-1952</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>At age 67: $20,000 single/$40,000 joint deduction</li>
+          <li>Applies to all retirement income types</li>
+          <li>Social Security: Exempt (separate from deduction)</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Tier 3: Born 1953-1958</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>At age 67: $20,000 single/$40,000 joint deduction</li>
+          <li>Deduction reduced for AGI over $75,000 single/$150,000 joint</li>
+          <li>Social Security: Exempt</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Tier 4: Born 1959 or Later</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Standard deduction at SS full retirement age</li>
+          <li>$20,000 single/$40,000 joint after reaching FRA</li>
+          <li>Social Security: Exempt</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Tax Calculation Examples',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Example 1: Born 1950, Suburban Retiree</h3>
+          <p>Married couple, age 74, living in Birmingham:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>GM pension: $50,000</li>
+          <li>Social Security: $40,000</li>
+          <li>401(k) distribution: $20,000</li>
+          <li>Total income: $110,000</li>
+          </ul>
+          <p><strong>Tax calculation:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Social Security: Exempt ($0 taxable)</li>
+          <li>Retirement income: $70,000</li>
+          <li>Less Tier 2 deduction: -$40,000</li>
+          <li>Taxable: $30,000 × 4.25% = <strong>$1,275 Michigan tax</strong></li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Example 2: Born 1960, Detroit Resident</h3>
+          <p>Single, age 65, living in Detroit (before reaching SS FRA):</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Ford pension: $45,000</li>
+          <li>Social Security: $25,000</li>
+          <li>Total income: $70,000</li>
+          </ul>
+          <p><strong>Tax calculation:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Social Security: Exempt</li>
+          <li>No retirement deduction yet (hasn't reached FRA)</li>
+          <li>Michigan tax: $45,000 × 4.25% = $1,912</li>
+          <li>Detroit tax: $45,000 × 2.4% = $1,080</li>
+          <li><strong>Total: $2,992</strong></li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Property Taxes by County',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Metro Detroit Property Tax Rates</h3>
+          <div class="overflow-x-auto">
+          <table class="min-w-full border-collapse border border-gray-200 my-6">
+          <thead>
+          <tr class="bg-gray-50">
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">County</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Average Rate</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Tax on $250K Home</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Oakland</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1.75%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$4,375</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Wayne (suburbs)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2.10%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5,250</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Macomb</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1.60%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$4,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Washtenaw</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1.85%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$4,625</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Property Tax Relief for Seniors</h3>
+          <p><strong>Homestead Property Tax Credit:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Based on income and property taxes paid</li>
+          <li>Maximum credit: $1,700 for most homeowners</li>
+          <li>Available to all ages, not just seniors</li>
+          <li>Claim on Michigan income tax return</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Tax Planning Strategies',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 1: Avoid Detroit City Tax</h3>
+          <p>Living in Oakland, Macomb, or Washtenaw county saves 2.4% on all income:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>On $50,000 income: $1,200/year savings</li>
+          <li>Many suburbs are within 20-30 minutes of downtown Detroit</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 2: Time Distributions</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>If born 1946-1958: Wait until age 67 for deduction</li>
+          <li>If born 1959+: Wait until SS full retirement age</li>
+          <li>Take larger distributions after qualifying for deduction</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 3: Roth Conversions</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Consider conversions before age 67 deduction kicks in</li>
+          <li>Pay 4.25% now for tax-free growth later</li>
+          <li>Roth distributions don't count against deduction limits</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Michigan vs Nearby States',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Tax Comparison</h3>
+          <div class="overflow-x-auto">
+          <table class="min-w-full border-collapse border border-gray-200 my-6">
+          <thead>
+          <tr class="bg-gray-50">
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Factor</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Michigan</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Ohio</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Indiana</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Income Tax</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">4.25% flat</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0-3.5%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">3.05% flat</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Social Security</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Exempt</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Exempt</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Exempt</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Pension Treatment</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Birth-year tiers</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$200 credit</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Fully taxed</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Estate Tax</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">None</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">None</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">None</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <p><strong>Bottom line:</strong> Michigan is competitive with neighboring states, especially for those qualifying for pension deductions.</p>
+        `
+      }
+    ],
+    faqs: [
+      {
+        question: '### Is Michigan tax-friendly for retirees?',
+        answer: 'Moderately. Michigan exempts Social Security and has no estate tax. The 4.25% flat rate is reasonable. Pension taxation depends on birth year—older retirees get better treatment. Avoiding Detroit city tax (2.4%) by living in suburbs significantly improves the picture.'
+      },
+      {
+        question: '### How much Michigan tax on $80,000 retirement income?',
+        answer: 'Depends on birth year and income sources. A 1950-born couple with $40K SS and $40K pension at age 74: SS exempt, $40K pension less $40K deduction = $0 taxable. A 1965-born single with same income before FRA: $40K × 4.25% = $1,700 (plus Detroit city tax if applicable).'
+      },
+      {
+        question: '### What is Detroit city income tax?',
+        answer: 'Detroit residents pay 2.4% city income tax on top of the 4.25% state tax, for a total of 6.65%. Non-residents working in Detroit pay 1.2%. Most retirees choose suburban Oakland, Macomb, or Washtenaw counties to avoid this additional tax.'
+      },
+      {
+        question: '### Does Michigan tax military pensions?',
+        answer: 'No. Military pensions are fully exempt from Michigan income tax, regardless of birth year. This makes Michigan attractive for military retirees compared to states that tax military retirement income.'
+      },
+      {
+        question: '### How do Michigan property taxes work?',
+        answer: 'Michigan property taxes average about 1.5% but vary significantly by county and municipality. A Homestead Property Tax Credit is available based on income and taxes paid (max $1,700). Property is assessed at 50% of true cash value, with annual increases capped at inflation or 5%, whichever is less.'
+      }
+    ],
+    bottomLine: 'Michigan offers retirees a straightforward tax system with Social Security exemption and no estate tax. The birth-year tier system for pension taxation favors older retirees, while younger retirees face full taxation until reaching age 67 or Social Security full retirement age. Avoiding Detroit\'s 2.4% city tax by choosing suburban living can save thousands annually. The flat 4.25% rate keeps calculations simple, and Michigan\'s low cost of living helps stretch retirement dollars. Work with an advisor familiar with Michigan\'s birth-year rules to optimize your retirement income strategy. --- *Learn more about [[Detroit Retirement Planning]], [[Pension Decisions]], and [[Finding a Financial Advisor]] in our comprehensive guides.*'
+  },
+
+  // Minneapolis Articles
+  {
+    id: 'city-minneapolis-001',
+    title: 'Retirement Planning in Minneapolis: Minnesota Tax Guide',
+    slug: 'retirement-planning-minneapolis-minnesota-tax-guide',
+    hubId: 'minneapolis',
+    category: 'retirement',
+    type: 'cityGuide',
+    readTime: '11 min read',
+    author: 'Wealth Authority',
+    lastUpdated: 'December 2024',
+    excerpt: 'Comprehensive retirement planning for Minneapolis residents, covering Minnesota\'s progressive tax rates, Social Security taxation, and Fortune 500 executive retirement strategies.',
+    keyTakeaways: [
+      'Minnesota has high income tax rates (5.35% to 9.85%) but exempts Social Security',
+      'Minneapolis has more Fortune 500 headquarters per capita than any US metro',
+      'No inheritance tax but Minnesota has estate tax ($3 million threshold)',
+      'Strong healthcare with Mayo Clinic access and major hospital systems',
+      'Executive compensation planning is crucial for corporate retirees'
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'Retirement in the Twin Cities',
+        content: `
+          <p>Minneapolis-St. Paul offers retirees a unique combination of corporate opportunities, cultural amenities, and world-class healthcare. While Minnesota's taxes are among the highest in the nation, the quality of life and Social Security exemption make it worth considering.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Why Twin Cities for Retirement</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Social Security exempt:</strong> Full exemption from MN income tax</li>
+          <li><strong>Fortune 500 hub:</strong> Target, UnitedHealth, 3M, General Mills, Best Buy</li>
+          <li><strong>Healthcare excellence:</strong> Mayo Clinic (90 min), U of MN Medical Center</li>
+          <li><strong>Cultural richness:</strong> Guthrie Theater, Walker Art Center, orchestra</li>
+          <li><strong>Four seasons:</strong> Lakes, parks, and winter activities</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Minnesota Income Tax',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Tax Brackets (2024)</h3>
+          <div class="overflow-x-auto">
+          <table class="min-w-full border-collapse border border-gray-200 my-6">
+          <thead>
+          <tr class="bg-gray-50">
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Single Taxable Income</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Rate</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$0 - $30,070</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">5.35%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$30,071 - $98,760</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">6.80%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$98,761 - $183,340</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">7.85%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Over $183,340</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">9.85%</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <h3 class="text-xl font-bold mt-8 mb-4">How MN Taxes Retirement Income</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Social Security:</strong> Fully exempt (as of 2024)</li>
+          <li><strong>401(k)/IRA distributions:</strong> Taxed at regular rates</li>
+          <li><strong>Pension income:</strong> Taxed at regular rates</li>
+          <li><strong>Capital gains:</strong> Taxed as ordinary income</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Minnesota Estate Tax',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Estate Tax Details</h3>
+          <p>Minnesota has a separate estate tax with a lower threshold than federal:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Threshold:</strong> $3 million (vs $13.61 million federal)</li>
+          <li><strong>Rates:</strong> 13% to 16%</li>
+          <li><strong>No inheritance tax:</strong> Heirs don't pay separately</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Estate Planning Strategies</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Gifting strategies to reduce estate below threshold</li>
+          <li>Irrevocable life insurance trusts</li>
+          <li>Charitable giving to reduce taxable estate</li>
+          <li>Consider domicile change for very large estates</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Fortune 500 Executive Retirement',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Minneapolis Corporate Landscape</h3>
+          <p>Major employers with complex compensation packages:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Target:</strong> Retail giant headquarters</li>
+          <li><strong>UnitedHealth Group:</strong> Healthcare insurance</li>
+          <li><strong>3M:</strong> Diversified manufacturer</li>
+          <li><strong>General Mills:</strong> Consumer packaged goods</li>
+          <li><strong>Best Buy:</strong> Electronics retail</li>
+          <li><strong>US Bancorp:</strong> Financial services</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Common Planning Challenges</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Concentrated stock:</strong> Heavy positions in employer stock</li>
+          <li><strong>Deferred compensation:</strong> Complex NQDC plans</li>
+          <li><strong>Stock options:</strong> ISOs and NQSOs timing</li>
+          <li><strong>Supplemental executive retirement plans:</strong> SERPs</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Cost of Living Considerations',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Twin Cities vs Other Major Metros</h3>
+          <div class="overflow-x-auto">
+          <table class="min-w-full border-collapse border border-gray-200 my-6">
+          <thead>
+          <tr class="bg-gray-50">
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Metro</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Cost of Living</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Median Home</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Minneapolis</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">105</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$360,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Chicago</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">107</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$350,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Denver</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">129</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$580,000</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <p>Minneapolis offers moderate cost of living relative to income levels.</p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Twin Cities Neighborhoods',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Popular Retirement Areas</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Edina:</strong> Upscale suburb, excellent amenities</li>
+          <li><strong>Wayzata:</strong> Lake Minnetonka waterfront</li>
+          <li><strong>White Bear Lake:</strong> Charming lake community</li>
+          <li><strong>Stillwater:</strong> Historic St. Croix River town</li>
+          <li><strong>Kenwood (Mpls):</strong> Urban living near lakes</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Working with Minneapolis Advisors',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">What to Look For</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Executive comp expertise:</strong> Stock options, NQDC, SERPs</li>
+          <li><strong>MN tax knowledge:</strong> Estate tax planning</li>
+          <li><strong>Fee-only structure:</strong> Fiduciary standard</li>
+          <li><strong>CFP® certification:</strong> Comprehensive credential</li>
+          </ul>
+        `
+      }
+    ],
+    faqs: [
+      {
+        question: '### Does Minnesota tax Social Security?',
+        answer: 'No. As of 2024, Minnesota fully exempts Social Security benefits from state income tax, regardless of income level. This was a significant change—prior to 2024, MN was one of few states that taxed Social Security. This makes Minnesota more attractive for retirees who rely heavily on Social Security income.'
+      },
+      {
+        question: '### What is Minnesota\'s income tax rate?',
+        answer: 'Minnesota has four tax brackets ranging from 5.35% to 9.85%. The top rate of 9.85% applies to income over $183,340 (single) or $304,970 (married). This is among the highest state income tax rates in the nation, though the Social Security exemption provides meaningful relief for many retirees.'
+      },
+      {
+        question: '### Does Minnesota have an estate tax?',
+        answer: 'Yes. Minnesota has an estate tax with a $3 million threshold—significantly lower than the federal $13.61 million exemption. Rates range from 13% to 16%. This affects many successful executives and business owners. Estate planning is essential for Minneapolis-area residents with substantial assets.'
+      },
+      {
+        question: '### Is Minneapolis good for retirement despite high taxes?',
+        answer: 'For many, yes. The Social Security exemption, world-class healthcare (Mayo Clinic access), cultural amenities, and strong community make it worthwhile. Corporate retirees with pensions and 401(k)s face higher taxes, but quality of life is excellent. Some choose to relocate to lower-tax states; others stay for family and lifestyle.'
+      },
+      {
+        question: '### What makes executive retirement different in Minneapolis?',
+        answer: 'Minneapolis has more Fortune 500 companies per capita than any US metro, creating a large population of executives with complex compensation: concentrated stock positions, deferred compensation, stock options, and supplemental retirement plans. These require specialized planning to navigate MN\'s high tax rates and estate tax.'
+      }
+    ],
+    bottomLine: 'Minneapolis offers retirees world-class healthcare, cultural richness, and strong corporate retirement benefits, balanced against some of the nation\'s highest income tax rates. The 2024 Social Security exemption significantly improves the picture for many retirees. Executive and corporate retirees face complex planning around concentrated stock, deferred compensation, and Minnesota\'s $3 million estate tax threshold. Work with a fee-only advisor experienced in executive compensation and Minnesota\'s tax landscape. --- *Learn more about [[Executive Retirement Planning]], [[Finding a Financial Advisor]], and [[Minnesota Tax Strategies]] in our comprehensive guides.*'
+  },
+  {
+    id: 'city-minneapolis-002',
+    title: 'Minnesota Retirement Taxes: Complete Guide for Minneapolis Retirees',
+    slug: 'minnesota-retirement-taxes-minneapolis-guide',
+    hubId: 'minneapolis',
+    category: 'taxes',
+    type: 'cityGuide',
+    readTime: '10 min read',
+    author: 'Wealth Authority',
+    lastUpdated: 'December 2024',
+    excerpt: 'Complete guide to Minnesota taxes for retirees, including progressive income tax rates, the new Social Security exemption, and estate tax planning strategies.',
+    keyTakeaways: [
+      'Minnesota income tax ranges from 5.35% to 9.85%',
+      'Social Security is now fully exempt (as of 2024)',
+      'Estate tax threshold is $3 million (much lower than federal)',
+      'No inheritance tax',
+      'Property taxes average about 1.1% but vary by location'
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'Minnesota Tax Overview',
+        content: `
+          <p>Minnesota has high income taxes but recently improved its treatment of Social Security benefits. Understanding the full tax picture is essential for retirement planning in the Twin Cities.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">MN Tax Snapshot</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Income tax:</strong> 5.35% to 9.85% (progressive)</li>
+          <li><strong>Social Security:</strong> Fully exempt (as of 2024)</li>
+          <li><strong>Sales tax:</strong> 6.875% state + local</li>
+          <li><strong>Property tax:</strong> ~1.1% average</li>
+          <li><strong>Estate tax:</strong> $3 million threshold</li>
+          <li><strong>Inheritance tax:</strong> None</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Retirement Income Taxation',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">How MN Taxes Retirement Income</h3>
+          <div class="overflow-x-auto">
+          <table class="min-w-full border-collapse border border-gray-200 my-6">
+          <thead>
+          <tr class="bg-gray-50">
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Income Type</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">MN Treatment</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Social Security</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Fully exempt</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">401(k)/IRA</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Taxed at regular rates</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Pensions</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Taxed at regular rates</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Capital Gains</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Taxed as ordinary income</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Military Retirement</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Full or partial exemption</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Tax Calculation Example',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Single Retiree Example</h3>
+          <p>Single, $100,000 retirement income ($35,000 SS, $65,000 pension/IRA):</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Social Security: Exempt ($0 taxable)</li>
+          <li>Pension/IRA: $65,000 taxable</li>
+          <li>Standard deduction: -$14,575</li>
+          <li>MN taxable income: $50,425</li>
+          </ul>
+          <p><strong>MN tax calculation:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>$30,070 × 5.35% = $1,609</li>
+          <li>$20,355 × 6.80% = $1,384</li>
+          <li><strong>Total MN tax: $2,993</strong></li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Estate Tax Planning',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Minnesota Estate Tax</h3>
+          <p>Minnesota's estate tax is a significant concern for successful retirees:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Threshold:</strong> $3 million (compared to $13.61M federal)</li>
+          <li><strong>Tax rates:</strong> 13% to 16% on amounts over threshold</li>
+          <li><strong>Portability:</strong> Limited (differs from federal rules)</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategies to Reduce Estate Tax</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Annual gifting ($18,000/person in 2024)</li>
+          <li>Irrevocable life insurance trusts (ILITs)</li>
+          <li>Charitable remainder trusts</li>
+          <li>Qualified personal residence trusts</li>
+          <li>Consider domicile change for very large estates</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Tax Planning Strategies',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 1: Maximize Social Security</h3>
+          <p>With SS now exempt, delaying benefits increases tax-free income:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Delay to 70 for maximum benefit</li>
+          <li>Use taxable accounts to bridge</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 2: Roth Conversions</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Convert during lower-income years</li>
+          <li>Pay MN tax now for tax-free later</li>
+          <li>Reduces future RMDs and estate</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 3: Charitable Giving</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>QCDs reduce both federal and MN tax</li>
+          <li>Bunching with donor-advised funds</li>
+          <li>Reduces estate for estate tax purposes</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Minnesota vs Neighboring States',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Tax Comparison</h3>
+          <div class="overflow-x-auto">
+          <table class="min-w-full border-collapse border border-gray-200 my-6">
+          <thead>
+          <tr class="bg-gray-50">
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Factor</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Minnesota</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Wisconsin</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">South Dakota</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Top Income Rate</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">9.85%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">7.65%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">0%</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Social Security</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Exempt</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Exempt</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">No income tax</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Estate Tax</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$3M threshold</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">None</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">None</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <p>Some retirees relocate to no-tax states like South Dakota while maintaining Minnesota connections.</p>
+        `
+      }
+    ],
+    faqs: [
+      {
+        question: '### Is Minnesota tax-friendly for retirees?',
+        answer: 'Mixed. MN has high income tax rates (up to 9.85%) but now fully exempts Social Security. There\'s no inheritance tax, but estate tax kicks in at $3 million. Quality of life is excellent, but tax-sensitive retirees should carefully model their situation and consider whether the lifestyle benefits outweigh the tax burden.'
+      },
+      {
+        question: '### How much MN tax on $100,000 retirement income?',
+        answer: 'Depends on sources. A single retiree with $35K SS and $65K pension: SS exempt, ~$51K taxable after deduction, ~$3,000 MN tax. A retiree with $100K all from 401(k): ~$85K taxable, ~$5,200 MN tax. The Social Security exemption significantly helps those with substantial SS benefits.'
+      },
+      {
+        question: '### Should I move to South Dakota to avoid MN taxes?',
+        answer: 'Some do. South Dakota has no income or estate tax. However, you must establish genuine domicile—not just a mail drop. Consider: (1) Do you have family/community ties in MN? (2) Is the tax savings worth the lifestyle change? (3) Can you handle SD winters without MN healthcare access? Model the numbers before deciding.'
+      },
+      {
+        question: '### How does MN estate tax work?',
+        answer: 'Minnesota taxes estates over $3 million at rates from 13% to 16%. Unlike federal, there\'s limited portability between spouses. A $4 million estate might owe ~$130,000 in MN estate tax. Planning strategies include gifting, life insurance trusts, and charitable giving. Very large estates may consider changing domicile.'
+      },
+      {
+        question: '### Does MN tax military retirement?',
+        answer: 'Partially. Minnesota provides a subtraction for military retirement pay. The exact amount depends on income level and other factors. Full exemption may be available for lower-income military retirees. Check current MN tax forms for specific calculations.'
+      }
+    ],
+    bottomLine: 'Minnesota\'s tax landscape is challenging but manageable with proper planning. The 2024 Social Security exemption was a major improvement, but high income tax rates (up to 9.85%) and a $3 million estate tax threshold remain concerns. Strategic Roth conversions, maximizing Social Security, and proactive estate planning can mitigate the burden. Minneapolis offers excellent quality of life, world-class healthcare, and strong corporate community—factors many retirees weigh against the tax cost. Work with an advisor experienced in Minnesota\'s unique tax rules. --- *Learn more about [[Minneapolis Retirement Planning]], [[Estate Planning]], and [[Finding a Financial Advisor]] in our comprehensive guides.*'
+  },
+
+  // San Antonio Articles
+  {
+    id: 'city-san-antonio-001',
+    title: 'Retirement Planning in San Antonio: Texas Tax-Free Guide',
+    slug: 'retirement-planning-san-antonio-texas-tax-free-guide',
+    hubId: 'san-antonio',
+    category: 'retirement',
+    type: 'cityGuide',
+    readTime: '10 min read',
+    author: 'Wealth Authority',
+    lastUpdated: 'December 2024',
+    excerpt: 'Comprehensive retirement planning for San Antonio, covering Texas\'s zero income tax, military retirement benefits, and affordable living strategies.',
+    keyTakeaways: [
+      'Texas has no state income tax on any income type',
+      'No estate or inheritance tax in Texas',
+      'San Antonio offers significantly lower cost of living than other Texas metros',
+      'Large military and veteran community with specialized resources',
+      'Property taxes are higher than average (but no income tax offsets this)'
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'Retirement in the Alamo City',
+        content: `
+          <p>San Antonio offers retirees the best of Texas—no income tax—combined with significantly lower costs than Austin, Dallas, or Houston. With a large military presence and rich cultural heritage, San Antonio has become one of America's top retirement destinations.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Why San Antonio for Retirement</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>No income tax:</strong> Texas constitution prohibits state income tax</li>
+          <li><strong>Affordable:</strong> Lower cost than other major Texas metros</li>
+          <li><strong>Military community:</strong> Joint Base San Antonio, veteran resources</li>
+          <li><strong>Healthcare:</strong> UT Health, Methodist, Baptist health systems</li>
+          <li><strong>Mild winters:</strong> Rarely freezes, outdoor lifestyle year-round</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Texas Tax Advantages',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">No Income Tax</h3>
+          <p>Texas is one of nine states with no state income tax:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Social Security:</strong> No state tax</li>
+          <li><strong>Pensions:</strong> No state tax</li>
+          <li><strong>401(k)/IRA:</strong> No state tax</li>
+          <li><strong>Capital gains:</strong> No state tax</li>
+          <li><strong>Interest/dividends:</strong> No state tax</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">No Estate or Inheritance Tax</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Only federal estate tax applies ($13.61M exemption)</li>
+          <li>Heirs pay no state inheritance tax</li>
+          <li>Attractive for wealth transfer planning</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Property Taxes',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">The Trade-Off</h3>
+          <p>Texas has no income tax but higher property taxes to fund local services:</p>
+          <div class="overflow-x-auto">
+          <table class="min-w-full border-collapse border border-gray-200 my-6">
+          <thead>
+          <tr class="bg-gray-50">
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">County</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Effective Rate</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Tax on $300K Home</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Bexar (San Antonio)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">2.0%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$6,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Comal (New Braunfels)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1.8%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5,400</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Kendall (Boerne)</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">1.7%</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$5,100</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <h3 class="text-xl font-bold mt-8 mb-4">Property Tax Exemptions</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Homestead:</strong> $100,000 off school taxes + local exemptions</li>
+          <li><strong>Over 65:</strong> Additional $10,000 + school tax freeze</li>
+          <li><strong>Disabled:</strong> Additional $10,000 exemption</li>
+          <li><strong>Disabled veteran:</strong> Up to 100% exemption</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Military and Veteran Benefits',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">San Antonio's Military Presence</h3>
+          <p>Joint Base San Antonio (JBSA) makes San Antonio a major military hub:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Fort Sam Houston:</strong> Army base, medical training</li>
+          <li><strong>Lackland AFB:</strong> Air Force basic training</li>
+          <li><strong>Randolph AFB:</strong> Air Force personnel center</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Veteran Benefits</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>No income tax:</strong> Military retirement fully tax-free</li>
+          <li><strong>Property tax exemption:</strong> Up to 100% for disabled vets</li>
+          <li><strong>Hazelwood Act:</strong> Free tuition for eligible veterans</li>
+          <li><strong>VA Healthcare:</strong> Major VA medical center</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Cost of Living Comparison',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">San Antonio vs Other Texas Metros</h3>
+          <div class="overflow-x-auto">
+          <table class="min-w-full border-collapse border border-gray-200 my-6">
+          <thead>
+          <tr class="bg-gray-50">
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Metro</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Cost of Living</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Median Home</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">San Antonio</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">91</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$290,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Austin</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">103</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$450,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Dallas</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">102</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$380,000</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Houston</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">96</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$330,000</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <p><strong>Key advantage:</strong> San Antonio offers Texas tax benefits at lower cost than other major metros.</p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'San Antonio Neighborhoods',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Popular Retirement Areas</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Alamo Heights:</strong> Established, walkable, near museums</li>
+          <li><strong>Stone Oak:</strong> Master-planned, golf, retail</li>
+          <li><strong>Boerne:</strong> Hill Country charm, lower property taxes</li>
+          <li><strong>New Braunfels:</strong> German heritage, river activities</li>
+          <li><strong>Helotes:</strong> Small-town feel, hill country access</li>
+          </ul>
+        `
+      }
+    ],
+    faqs: [
+      {
+        question: '### Does Texas tax retirement income?',
+        answer: 'No. Texas has no state income tax on any income type. Social Security, pensions, 401(k)/IRA distributions, capital gains, and investment income are all completely free from state income tax. This is protected by the Texas constitution, which requires voter approval to implement an income tax.'
+      },
+      {
+        question: '### How do Texas property taxes work?',
+        answer: 'Texas funds local services through property taxes, which average about 1.8-2.0% in the San Antonio area. However, generous exemptions reduce the burden: $100,000 homestead exemption for school taxes, additional $10,000 for those over 65 with school tax freeze, and up to 100% exemption for disabled veterans.'
+      },
+      {
+        question: '### Is San Antonio good for military retirees?',
+        answer: 'Excellent. San Antonio is one of the best cities for military retirees: no income tax on military retirement, up to 100% property tax exemption for disabled veterans, major VA medical center, commissary access at JBSA, and a large, supportive veteran community. The cost of living is also lower than most major metros.'
+      },
+      {
+        question: '### How does San Antonio compare to Austin for retirement?',
+        answer: 'San Antonio offers similar Texas tax benefits at significantly lower cost. Median homes in Austin are about $160,000 more expensive. San Antonio has more affordable housing, a larger military/veteran community, and less traffic, while Austin offers more tech jobs and a younger demographic. Both have good healthcare and cultural amenities.'
+      },
+      {
+        question: '### Does Texas have an estate tax?',
+        answer: 'No. Texas has no state estate tax and no inheritance tax. Only federal estate tax applies, with a $13.61 million exemption per person (2024). This makes Texas attractive for high-net-worth individuals concerned about estate planning, compared to states like Minnesota ($3M threshold) or Oregon ($1M threshold).'
+      }
+    ],
+    bottomLine: 'San Antonio delivers the Texas tax advantage—zero income tax on all retirement income—at the lowest cost of any major Texas metro. Military retirees benefit from extensive veteran resources, potential 100% property tax exemption, and a supportive community. While property taxes are higher than average, generous exemptions for homeowners 65+ significantly reduce the burden. The combination of no income tax, no estate tax, affordable housing, and mild weather makes San Antonio one of America\'s top retirement values. --- *Learn more about [[Texas Retirement Planning]], [[Military Retirement]], and [[Finding a Financial Advisor]] in our comprehensive guides.*'
+  },
+  {
+    id: 'city-san-antonio-002',
+    title: 'Texas Retirement Taxes: Complete Guide for San Antonio Retirees',
+    slug: 'texas-retirement-taxes-san-antonio-guide',
+    hubId: 'san-antonio',
+    category: 'taxes',
+    type: 'cityGuide',
+    readTime: '9 min read',
+    author: 'Wealth Authority',
+    lastUpdated: 'December 2024',
+    excerpt: 'Complete guide to Texas taxes for retirees, covering the zero income tax advantage, property tax strategies, and maximizing tax-free retirement in San Antonio.',
+    keyTakeaways: [
+      'Texas has zero state income tax (constitutionally protected)',
+      'All retirement income is tax-free at the state level',
+      'Property taxes average 1.8-2.0% but exemptions help',
+      'No estate or inheritance tax',
+      'Sales tax is 8.25% in San Antonio area'
+    ],
+    sections: [
+      {
+        type: 'text',
+        title: 'Texas Tax Overview',
+        content: `
+          <p>Texas offers retirees one of the most favorable tax environments in the nation. With no income tax on any income type and no estate tax, Texas allows retirees to keep more of their retirement savings.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Texas Tax Snapshot</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Income tax:</strong> None (constitutionally prohibited)</li>
+          <li><strong>Capital gains tax:</strong> None</li>
+          <li><strong>Estate tax:</strong> None</li>
+          <li><strong>Inheritance tax:</strong> None</li>
+          <li><strong>Sales tax:</strong> 6.25% state + local (8.25% in San Antonio)</li>
+          <li><strong>Property tax:</strong> ~1.8-2.0% (varies by county/city)</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Retirement Income - All Tax Free',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">No State Tax on Any Retirement Income</h3>
+          <div class="overflow-x-auto">
+          <table class="min-w-full border-collapse border border-gray-200 my-6">
+          <thead>
+          <tr class="bg-gray-50">
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Income Type</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Texas Tax</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Social Security</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$0</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">401(k)/IRA distributions</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$0</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Pension income</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$0</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Military retirement</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$0</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Capital gains</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$0</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Dividends/Interest</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$0</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <p><strong>Bottom line:</strong> Only federal income tax applies to your retirement income in Texas.</p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Property Tax Details',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Understanding Texas Property Tax</h3>
+          <p>Since Texas has no income tax, property taxes fund schools and local services:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Assessed annually at 100% market value</li>
+          <li>Rates vary by school district, city, and county</li>
+          <li>Bexar County average: ~2.0% effective rate</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Exemptions for Retirees</h3>
+          <p><strong>General Homestead:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>$100,000 off school district taxes (all homeowners)</li>
+          <li>Additional exemptions from city/county vary</li>
+          </ul>
+          <p><strong>Over 65 Exemption:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Additional $10,000 off school taxes</li>
+          <li>School tax ceiling (freeze) at current level</li>
+          <li>Tax deferral option available</li>
+          </ul>
+          <p><strong>Disabled Veteran:</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>$12,000 to 100% exemption based on disability rating</li>
+          <li>100% disabled = total property tax exemption</li>
+          <li>Surviving spouses may qualify</li>
+          </ul>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Tax Comparison',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Texas vs Income Tax States</h3>
+          <p>Example: Married couple, $100,000 retirement income</p>
+          <div class="overflow-x-auto">
+          <table class="min-w-full border-collapse border border-gray-200 my-6">
+          <thead>
+          <tr class="bg-gray-50">
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">State</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">State Income Tax</th>
+          <th class="border border-gray-200 px-4 py-2 text-left text-sm font-semibold text-gray-900">Annual Savings vs TX</th>
+          </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Texas</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">$0</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">—</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">California</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">~$4,500</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Save $4,500/yr</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">New York</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">~$5,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Save $5,000/yr</td>
+          </tr>
+          <tr>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Minnesota</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">~$4,000</td>
+          <td class="border border-gray-200 px-4 py-2 text-sm text-gray-700">Save $4,000/yr</td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          <p>Over 20 years, the income tax savings can exceed $80,000-$100,000.</p>
+        `
+      },
+      {
+        type: 'text',
+        title: 'Planning Strategies',
+        content: `
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 1: Roth Conversions in Texas</h3>
+          <p>Since Texas has no income tax, Roth conversions are attractive:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Pay only federal tax on conversions</li>
+          <li>Future growth completely tax-free</li>
+          <li>No state tax on traditional OR Roth distributions</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 2: Maximize Property Tax Exemptions</h3>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Apply for homestead exemption immediately</li>
+          <li>File for over-65 exemption when eligible</li>
+          <li>Veterans: document disability rating for exemption</li>
+          </ul>
+          <h3 class="text-xl font-bold mt-8 mb-4">Strategy 3: Establish Clear Texas Domicile</h3>
+          <p>If moving from high-tax state:</p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Texas driver's license</li>
+          <li>Register to vote in Texas</li>
+          <li>Vehicle registration in Texas</li>
+          <li>Update financial accounts</li>
+          <li>Spend majority of time in Texas</li>
+          </ul>
+        `
+      }
+    ],
+    faqs: [
+      {
+        question: '### How much can I save by retiring in Texas?',
+        answer: 'Depends on your income and former state. A retiree with $100,000 income moving from California saves ~$4,500/year in state income tax. Over 20 years, that\'s $90,000 in savings (not including investment returns on those savings). Higher incomes save even more due to progressive tax rates in most states.'
+      },
+      {
+        question: '### Are Texas property taxes really that high?',
+        answer: 'Texas property taxes average about 1.8% statewide, higher than the national average of ~1.1%. However, generous exemptions reduce this significantly: $100,000 homestead exemption, $10,000 over-65 exemption with tax freeze, and up to 100% exemption for disabled veterans. For most retirees, the income tax savings far exceed any property tax difference.'
+      },
+      {
+        question: '### Can Texas ever implement an income tax?',
+        answer: 'It would be extremely difficult. The Texas constitution prohibits a state income tax without voter approval, and any such measure would require a two-thirds supermajority vote in both legislative chambers before going to voters. Historically, Texans have strongly opposed income tax proposals.'
+      },
+      {
+        question: '### Is San Antonio cheaper than other Texas cities?',
+        answer: 'Yes. San Antonio has a cost of living index of 91 (below national average) compared to Austin (103), Dallas (102), and Houston (96). Median home prices are about $160,000 less than Austin. You get the same Texas tax benefits at significantly lower housing costs.'
+      },
+      {
+        question: '### What is the over-65 property tax freeze?',
+        answer: 'When you turn 65 and file for the over-65 exemption, your school district taxes are "frozen" at the current year\'s amount. Your taxes won\'t increase for school purposes as long as you own and live in the home, even if property values rise. City and county taxes are not frozen but may offer additional exemptions.'
+      }
+    ],
+    bottomLine: 'Texas offers retirees a powerful tax advantage: zero income tax on all retirement income, protected by the state constitution. Combined with no estate or inheritance tax, retirees keep significantly more of their savings. While property taxes are higher than average, generous exemptions—especially for those over 65 and disabled veterans—reduce the burden substantially. San Antonio delivers these Texas tax benefits at lower cost than Austin, Dallas, or Houston. For retirees moving from high-tax states, the annual savings can exceed $5,000, compounding to six figures over a typical retirement. --- *Learn more about [[San Antonio Retirement Planning]], [[Texas Property Taxes]], and [[Finding a Financial Advisor]] in our comprehensive guides.*'
   }
 ];

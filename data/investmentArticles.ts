@@ -1902,8 +1902,32 @@ export const INVESTMENT_ARTICLES: Article[] = [
     ],
     faqs: [
       {
+        question: '### What is diversification of investments?',
+        answer: 'Diversification of investments means spreading your money across different asset classes, sectors, and geographies to reduce risk. Instead of putting all your money in one stock, you invest in many stocks, bonds, and other assets. When some investments decline, others may hold steady or rise, smoothing your overall returns. Diversification is often called the only "free lunch" in investing because it reduces risk without necessarily reducing expected returns.'
+      },
+      {
+        question: '### What are the benefits of portfolio diversification?',
+        answer: 'Portfolio diversification benefits include: 1) Reduced volatility - your portfolio won\'t swing as wildly, 2) Lower risk of catastrophic loss - no single investment can destroy you, 3) Smoother returns over time, 4) Reduced emotional stress during market downturns, 5) Protection against company-specific risks (bankruptcy, fraud), and 6) Potential for similar returns with less risk. Diversification is the primary tool for managing investment risk.'
+      },
+      {
         question: '### How many funds do I need to be diversified?',
         answer: 'For most investors, 3-5 funds is sufficient. One total stock, one international stock, and one bond fund provides complete diversification. More complexity rarely improves outcomes.'
+      },
+      {
+        question: '### What is the best way to diversify investments?',
+        answer: 'The best way to diversify investments is: 1) Own multiple asset classes (stocks, bonds, possibly real estate), 2) Diversify within asset classes (US stocks, international stocks, emerging markets), 3) Use broad index funds rather than individual stocks, 4) Include assets with low correlation to each other, 5) Maintain a mix appropriate for your time horizon and risk tolerance. A simple three-fund portfolio (US stocks, international stocks, bonds) provides excellent diversification.'
+      },
+      {
+        question: '### What is the 5% rule of diversification?',
+        answer: 'The 5% rule suggests that no single investment should represent more than 5% of your portfolio. This prevents any one stock or holding from causing catastrophic losses. For example, in a $100,000 portfolio, no single stock should exceed $5,000. Some investors use 10% as the threshold. This rule is especially important for concentrated positions in employer stock or individual stock picks.'
+      },
+      {
+        question: '### How does diversification reduce investment risk?',
+        answer: 'Diversification reduces investment risk because different assets don\'t move in lockstep. When stocks fall, bonds often rise. When US markets struggle, international markets may do well. By combining assets with low or negative correlation, your portfolio\'s overall volatility decreases. You eliminate company-specific risk (the risk of one company failing) while retaining market risk (which you\'re compensated for through returns).'
+      },
+      {
+        question: '### What are diversified investment strategies?',
+        answer: 'Common diversified investment strategies include: 1) Three-fund portfolio (US stocks, international stocks, bonds), 2) Target-date funds (automatic diversification in one fund), 3) Asset allocation based on age (110 minus age in stocks), 4) Core-satellite (diversified index core plus small active positions), 5) All-weather portfolio (stocks, bonds, gold, commodities). The best strategy is one you can stick with through market cycles.'
       },
     ],
     bottomLine: 'Diversification is the fundamental risk management tool in investing. By spreading investments across different asset classes, geographies, and securities that don\'t move in lockstep, you reduce portfolio volatility without sacrificing expected returns. The key is meaningful diversification—assets with low correlation—not just owning more things. For most investors, a simple portfolio of three to five low-cost index funds provides all the diversification needed. Complexity beyond that rarely improves outcomes and often creates problems. --- *Learn more about [[Investment Strategies]], [[Asset Allocation]], and [[Risk Management]] in our comprehensive guides.*'
@@ -2242,8 +2266,32 @@ export const INVESTMENT_ARTICLES: Article[] = [
     ],
     faqs: [
       {
+        question: '### What is factor investing?',
+        answer: 'Factor investing is an investment strategy that targets specific characteristics ("factors") historically associated with higher returns. Instead of weighting stocks by market cap like traditional index funds, factor funds weight stocks by characteristics like value (cheap stocks), size (small companies), momentum (recent winners), quality (profitable companies), or low volatility. The approach is backed by decades of academic research, particularly the Fama-French models.'
+      },
+      {
+        question: '### What is the difference between factor investing and smart beta?',
+        answer: 'Factor investing and smart beta are essentially the same concept with different names. "Smart beta" is the marketing term popularized by the investment industry, while "factor investing" is the academic term. Both refer to rules-based strategies that weight portfolios by specific characteristics rather than market capitalization. Smart beta funds are factor funds—they just use a more commercially appealing name.'
+      },
+      {
+        question: '### What are the main factor investing strategies?',
+        answer: 'The main factor investing strategies target these factors: 1) Value - buying cheap stocks relative to fundamentals, 2) Size - overweighting smaller companies, 3) Momentum - buying recent winners, 4) Quality - focusing on profitable, stable companies, 5) Low Volatility - emphasizing less volatile stocks. Many investors combine factors through multi-factor funds or blend factor funds with total market exposure.'
+      },
+      {
         question: '### Is factor investing active or passive?',
-        answer: 'It\'s in between—sometimes called "smart beta." Rules-based like indexing, but selecting securities based on characteristics like active management.'
+        answer: 'Factor investing falls between active and passive—it\'s often called "smart beta." Like passive indexing, it follows rules-based, systematic approaches rather than manager discretion. Like active management, it selects securities based on specific characteristics rather than simply buying the market. Costs typically fall between index funds (0.03-0.10%) and active funds (0.50-1.50%), usually ranging from 0.15-0.35%.'
+      },
+      {
+        question: '### Why do some investors choose factor investing?',
+        answer: 'Investors choose factor investing for potential higher returns backed by academic research. Historically, factors like value and small-cap have generated 2-4% annual premiums over the broad market. However, these premiums are not guaranteed, can disappear for years or decades, and require enormous patience. Factor investing works best for investors with 20+ year horizons who understand the approach and can stay disciplined during inevitable underperformance periods.'
+      },
+      {
+        question: '### What is the 5 factor investing model?',
+        answer: 'The 5-factor model refers to the Fama-French Five-Factor Model (2015), which explains stock returns through five factors: 1) Market (exposure to stocks vs. bonds), 2) Size (small vs. large companies), 3) Value (cheap vs. expensive stocks), 4) Profitability (high vs. low profitability), and 5) Investment (conservative vs. aggressive investment). This model expanded on the original 3-factor model and explains about 95% of diversified portfolio returns.'
+      },
+      {
+        question: '### Are factor ETFs good investments?',
+        answer: 'Factor ETFs can be appropriate for informed, patient investors with long time horizons. Popular examples include VTV (Vanguard Value), VB (Vanguard Small-Cap), MTUM (iShares Momentum), and QUAL (iShares Quality). However, factor premiums are not guaranteed—value stocks underperformed growth for 13+ years (2010-2023). Most investors should keep the majority of their portfolio in total market funds and limit factor exposure to 20-30%.'
       },
     ],
     bottomLine: 'Factor investing offers a systematic way to potentially enhance returns beyond broad market indexes. The academic evidence is substantial, but factor premiums are not guaranteed and require enormous patience through inevitable periods of underperformance. For most investors, a simple total market index approach remains appropriate. Those who understand factors, have long time horizons, and can maintain discipline might benefit from modest factor tilts—particularly small-cap value, which combines the two most robust factors. Whatever you choose, simplicity and consistency beat complexity and chasing. --- *Learn more about [[Investment Strategies]], [[Index vs Active Funds]], and [[Asset Allocation]] in our comprehensive guides.*'
@@ -3527,8 +3575,24 @@ export const INVESTMENT_ARTICLES: Article[] = [
     ],
     faqs: [
       {
+        question: '### What is tax-aware rebalancing?',
+        answer: 'Tax-aware rebalancing is a strategy that considers tax implications when adjusting your portfolio allocation. Instead of simply selling overweight assets (triggering capital gains), tax-aware rebalancing prioritizes: 1) Rebalancing within tax-advantaged accounts first (no tax consequences), 2) Directing new contributions to underweight assets, 3) Using dividends and interest to buy underweight positions, 4) Harvesting losses to offset gains from rebalancing, 5) Accepting partial rebalancing if full rebalancing creates excessive tax costs.'
+      },
+      {
         question: '### How often should I rebalance?',
         answer: 'For most investors, annually or semi-annually is sufficient. Use a hybrid approach: review on schedule, but only trade if allocations are 5%+ from targets.'
+      },
+      {
+        question: '### How do I rebalance without paying taxes?',
+        answer: 'To minimize taxes when rebalancing: 1) Rebalance inside IRAs, 401(k)s, and Roth accounts first (no tax impact), 2) Direct new contributions and dividend reinvestment to underweight assets, 3) Use tax-loss harvesting—sell losers and reinvest in similar assets, 4) Wait for long-term capital gains treatment (lower rates after 1 year), 5) Consider donating appreciated shares to charity instead of selling. Complete tax avoidance isn\'t always possible, but these strategies minimize the tax drag.'
+      },
+      {
+        question: '### What is the best tax-efficient rebalancing strategy?',
+        answer: 'The most tax-efficient rebalancing strategy is: 1) Use new money first—direct contributions to underweight assets, 2) Rebalance in tax-advantaged accounts where trades are tax-free, 3) Harvest losses when selling in taxable accounts, 4) Accept wider rebalancing bands (10% vs 5%) to trade less frequently, 5) Use asset location—keep tax-inefficient assets in tax-advantaged accounts so rebalancing there has no tax cost. This approach can reduce rebalancing tax costs by 50-80%.'
+      },
+      {
+        question: '### Should I use automatic rebalancing?',
+        answer: 'Automatic rebalancing works well in tax-advantaged accounts where there\'s no tax cost. In taxable accounts, automatic rebalancing can trigger unwanted capital gains. Consider: robo-advisors with tax-aware features, automatic rebalancing in 401(k)/IRA only, or threshold-based alerts that prompt you to rebalance manually using tax-efficient methods. The best approach depends on portfolio size, account types, and how hands-on you want to be.'
       },
     ],
     bottomLine: 'Rebalancing is essential portfolio maintenance—it keeps your investment strategy aligned with your goals and risk tolerance. Use a systematic approach (hybrid calendar/threshold works best), prioritize tax efficiency, and view all accounts as one portfolio. Don\'t obsess over perfect allocations, but don\'t ignore drift either. Annual rebalancing is sufficient for most investors. The key is consistency: pick an approach and stick with it through all market conditions. --- *Learn more about [[Investment Strategies]], [[Asset Allocation]], and [[Tax-Loss Harvesting]] in our comprehensive guides.*'

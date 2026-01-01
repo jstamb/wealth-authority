@@ -2551,8 +2551,36 @@ export const FINDADVISOR_ARTICLES: Article[] = [
     ],
     faqs: [
       {
-        question: '### What\'s a reasonable fee for a financial advisor?',
+        question: '### How much do wealth managers charge?',
+        answer: 'Wealth managers typically charge 0.50% to 1.50% of assets under management (AUM) annually. The exact fee depends on asset level: under $500K often pays 1.00-1.50%, $500K-$2M typically pays 0.75-1.00%, and $2M+ usually pays 0.50-0.75%. Some wealth managers charge flat fees ($5,000-$25,000+ annually) or hourly rates ($200-$500/hour) instead of AUM fees.'
+      },
+      {
+        question: '### What are average wealth management fees?',
+        answer: 'The average wealth management fee is approximately 1.00% of AUM for portfolios under $1 million. For larger portfolios, fees typically decline: $1-2M averages 0.75-0.85%, $2-5M averages 0.60-0.75%, and $5M+ averages 0.50-0.65%. Remember to add fund expense ratios (typically 0.05-0.50%) to get total investment costs. Industry-wide, the average total cost is around 1.25-1.50% when including all fees.'
+      },
+      {
+        question: '### What is an AUM fee?',
+        answer: 'AUM stands for "Assets Under Management." An AUM fee is a percentage of your investment portfolio that you pay annually to a financial advisor or wealth manager. For example, a 1% AUM fee on a $1 million portfolio equals $10,000 per year. AUM fees are the most common compensation model in wealth management. The advantage is aligned interests (advisor grows when you grow); the disadvantage is high absolute costs as portfolios grow.'
+      },
+      {
+        question: '### What is a reasonable fee for a financial advisor?',
         answer: 'For AUM fees, 0.75% to 1.00% is reasonable for a million-dollar portfolio with comprehensive services. Fees should decrease as assets increase. For flat fees, $5,000 to $15,000 annually is typical for comprehensive planning. Always consider total cost including investment expenses.'
+      },
+      {
+        question: '### How do wealth management fees compare across firms?',
+        answer: 'Wealth management fees vary significantly: Robo-advisors charge 0.25-0.50%, online advisors with human access charge 0.30-0.50%, independent RIAs charge 0.50-1.25%, wirehouses (Merrill, Morgan Stanley, UBS) charge 0.75-1.50%, and private banks charge 0.50-1.00% plus additional fees. Higher fees don\'t always mean better service—compare total cost and services received. The best value is typically fee-only independent advisors charging 0.60-1.00% with comprehensive planning included.'
+      },
+      {
+        question: '### How much money do you need for wealth management?',
+        answer: 'Wealth management minimums vary by firm: robo-advisors require $0-$5,000, fee-only planners (flat fee) have no minimum, independent RIAs typically require $250,000-$1 million, wirehouses require $250,000-$500,000, and private wealth management often requires $1-5 million+. However, many fee-only advisors serve clients with lower asset levels through flat-fee arrangements. You don\'t need millions to get good advice.'
+      },
+      {
+        question: '### Are wealth management fees tax deductible?',
+        answer: 'For most individual investors, wealth management fees are no longer tax deductible after the 2017 Tax Cuts and Jobs Act eliminated the miscellaneous itemized deduction. However, fees can be deducted directly from IRA/401(k) accounts (reducing taxable distributions), and business owners may deduct fees related to business investments. Consult a tax advisor for your specific situation.'
+      },
+      {
+        question: '### What is the difference between wealth management fees and commission?',
+        answer: 'Fee-based wealth managers charge a percentage of assets (AUM) or flat fees for advice—you pay them directly. Commission-based advisors receive payment from product companies when you buy investments (mutual funds, insurance, annuities). Fee-only advisors accept only client fees with no commissions, minimizing conflicts of interest. Fee-based advisors may receive both fees and commissions. The industry is moving toward fee-only models for transparency.'
       },
     ],
     bottomLine: 'Wealth management fees matter, but value matters more. Know your total cost including fund expenses—not just the headline advisory fee. Compare fees across similar service models and asset levels. Expect fees to decrease as your wealth grows. The cheapest advisor isn\'t always the best choice; comprehensive planning, tax integration, and behavioral guidance have real value. But fees that are significantly above market rates need clear justification. Understand what you\'re paying, what you\'re getting, and whether the value proposition makes sense for your situation. --- *Learn more about [[Find a Wealth Manager]], [[Fee-Only vs Commission]], and [[How to Choose an Advisor]] in our comprehensive guides.*'

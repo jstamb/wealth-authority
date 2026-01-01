@@ -26,8 +26,15 @@ export const FINANCIALPLANNING_ARTICLES: Article[] = [
         type: 'text',
         title: 'What Is a Major Purchase?',
         content: `
-          <h3 class="text-xl font-bold mt-8 mb-4">Definition</h3>
-          <p>A purchase that significantly impacts your finances—typically hundreds to thousands of dollars or more.</p>
+          <h3 class="text-xl font-bold mt-8 mb-4">Major Purchase Meaning and Definition</h3>
+          <p>A <strong>major purchase</strong> is any expenditure that significantly impacts your finances—typically hundreds to thousands of dollars or more. The meaning of "major purchase" varies by individual financial situation: for someone earning $50,000, a $500 appliance is major; for someone earning $200,000, that same purchase might be routine.</p>
+          <p><strong>What qualifies as a major purchase?</strong></p>
+          <ul class="list-disc pl-6 space-y-2 my-4">
+          <li>Any purchase requiring more than 1-2% of your annual income</li>
+          <li>Purchases that require financing or depleting savings</li>
+          <li>Items with ongoing costs (maintenance, insurance, operation)</li>
+          <li>Decisions that affect your financial trajectory for years</li>
+          </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Common Major Purchases</h3>
           <p><strong>Largest:</strong></p>
           <ul class="list-disc pl-6 space-y-2 my-4">
@@ -542,8 +549,36 @@ export const FINANCIALPLANNING_ARTICLES: Article[] = [
     ],
     faqs: [
       {
+        question: '### What is a major purchase?',
+        answer: 'A major purchase is any expenditure that significantly impacts your financial situation—typically costing hundreds to thousands of dollars or more. The definition varies by income: a $1,000 purchase is major for someone earning $40,000/year but might be routine for someone earning $400,000. Common examples include homes, vehicles, education, major appliances, furniture sets, and home improvements.'
+      },
+      {
+        question: '### What is the meaning of a major purchase in financial planning?',
+        answer: 'In financial planning, a major purchase refers to any significant expenditure requiring planning, saving, or financing. These purchases typically represent 1-5% or more of annual income and require consideration of total cost of ownership, opportunity cost, and impact on other financial goals. Major purchases often require trade-offs with retirement savings, emergency funds, or other priorities.'
+      },
+      {
+        question: '### What is considered a major purchase when buying a house?',
+        answer: 'When buying a house, major purchases are any large expenditures that could affect your mortgage approval or debt-to-income ratio. Lenders flag purchases like vehicles, furniture financed on credit, appliances on store credit, or any large credit card charges. Avoid major purchases from the time you apply until after closing—even purchases you can afford in cash can raise red flags if they significantly change your asset position.'
+      },
+      {
+        question: '### What are some examples of major purchases?',
+        answer: 'Major purchase examples include: Homes ($200,000-$1,000,000+), vehicles ($25,000-$75,000), education ($50,000-$250,000), home improvements ($10,000-$100,000+), furniture sets ($3,000-$20,000), major appliances ($500-$5,000), electronics ($500-$3,000), vacations ($2,000-$10,000+), weddings ($15,000-$50,000+), and medical procedures ($5,000-$100,000+).'
+      },
+      {
+        question: '### What are the biggest purchases in life?',
+        answer: 'The biggest purchases most people make in life are: 1) A home (median price $400,000+ in 2025), 2) Education (college averaging $150,000+ for 4 years), 3) Vehicles (lifetime car spending often exceeds $500,000), 4) Weddings ($30,000+ average), and 5) Healthcare (major medical events). Of these, only homes and education potentially appreciate in value; the others are pure expenses.'
+      },
+      {
+        question: '### What is a significant purchase meaning?',
+        answer: 'A significant purchase (also called a major purchase) means any expenditure large enough to require planning rather than impulse buying. The threshold varies by person: for high-income individuals, significant might mean $10,000+; for average earners, $500-$1,000 might be significant. The key characteristics are: it affects your budget for weeks or months, you should compare options, and the decision has lasting financial consequences.'
+      },
+      {
         question: '### How much should I spend on a car?',
         answer: 'Conservative guideline: Total car costs (payment, insurance, gas, maintenance) should be under 15% of gross income. Many financial experts suggest buying used and keeping total car spending even lower, especially if you have other financial priorities.'
+      },
+      {
+        question: '### What are the advantages of saving up for large purchases?',
+        answer: 'Saving for large purchases instead of financing offers multiple advantages: 1) No interest payments (financing a $30,000 car at 7% for 5 years costs $4,500+ in interest), 2) Negotiating power (cash buyers often get better deals), 3) No debt stress, 4) Forced planning period prevents impulse decisions, 5) Money earns interest while saving, and 6) You maintain financial flexibility for emergencies.'
       },
     ],
     bottomLine: 'Major purchases deserve major planning. The decision process—research, compare, calculate true cost, time wisely, negotiate—can save thousands of dollars and prevent years of financial setback. Avoid impulse decisions, focus on total cost rather than monthly payments, and save in advance when possible. A well-planned major purchase enhances your life; a poorly planned one creates stress and delays your financial goals. --- *Learn more about [[Financial Planning]], [[Budgeting]], and [[Financial Goals]] in our comprehensive guides.*'
@@ -2518,8 +2553,28 @@ export const FINANCIALPLANNING_ARTICLES: Article[] = [
     ],
     faqs: [
       {
+        question: '### What is insurance planning in wealth management?',
+        answer: 'Insurance planning in wealth management involves analyzing your risk exposures and determining appropriate coverage to protect your assets, income, and family. It includes evaluating life insurance needs, disability income protection, health coverage, property and casualty insurance, umbrella liability, and long-term care insurance. Good insurance planning ensures a single catastrophic event can\'t derail your financial plan.'
+      },
+      {
         question: '### How much life insurance do I need?',
         answer: 'Use the needs-based method: Calculate what your survivors would need to replace your income, pay off debts, and fund future goals. Subtract existing resources. The gap is your insurance need. Rules of thumb (10× income) are starting points but may miss your specific situation.'
+      },
+      {
+        question: '### What insurance do I need for financial planning?',
+        answer: 'Essential insurance for a sound financial plan includes: 1) Health insurance (protects against medical bankruptcy), 2) Life insurance (if others depend on your income), 3) Disability insurance (protects your earning power), 4) Homeowners/renters insurance, 5) Auto insurance, and 6) Umbrella liability insurance (for asset protection). Long-term care insurance becomes important after 50. The goal is protecting against catastrophic risks that could destroy your financial plan.'
+      },
+      {
+        question: '### What is personal insurance planning?',
+        answer: 'Personal insurance planning is the process of evaluating your individual and family risk exposures and selecting appropriate coverage. It differs from business insurance planning and involves assessing: income replacement needs, dependent care obligations, property values, liability exposures, and healthcare needs. A personal insurance plan typically includes life, disability, health, property, auto, and umbrella policies coordinated to provide comprehensive protection.'
+      },
+      {
+        question: '### How does insurance fit into financial planning?',
+        answer: 'Insurance is a foundational element of financial planning that protects everything else you build. Without proper insurance: 1) A disability could eliminate your income, 2) A lawsuit could take your assets, 3) A death could leave dependents without support, 4) A health crisis could cause bankruptcy. Insurance planning comes early in the financial planning process—before investing, you need to protect your existing assets and income.'
+      },
+      {
+        question: '### What is the role of insurance in wealth planning?',
+        answer: 'In wealth planning, insurance serves multiple roles: 1) Risk protection (shielding assets from lawsuits, health costs, liability), 2) Income replacement (life and disability insurance), 3) Estate planning (life insurance for liquidity, taxes, equalization), 4) Wealth transfer (using ILITs to pass wealth tax-efficiently), and 5) Long-term care funding (protecting retirement assets from care costs). High net worth individuals often use insurance strategically for estate and tax planning, not just protection.'
       },
     ],
     bottomLine: 'Insurance planning protects everything you\'re building financially. Focus on catastrophic risks: death (life insurance), disability (disability insurance), health costs (health insurance), and liability (umbrella insurance). Don\'t over-insure small risks you can absorb. Term life insurance is appropriate for most life insurance needs. Disability insurance is commonly overlooked but critical. Review coverage annually and adjust as your life changes. Proper insurance costs money but provides priceless peace of mind that your financial plan is protected. --- *Learn more about [[Financial Planning]], [[Risk Management]], and [[Estate Planning]] in our comprehensive guides.*'
