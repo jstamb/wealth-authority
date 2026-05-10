@@ -1,0 +1,25 @@
+# Wealth Authority
+> Premier wealth management platform connecting Americans with top-rated fiduciary wealth managers and financial advisors.
+
+## About
+Wealth Authority is a national wealth management resource that helps individuals and families find vetted fiduciary advisors, plan for retirement, manage taxes, and preserve assets across generations. We publish in-depth, expert-reviewed guides on retirement planning, financial planning, tax strategy, estate planning, investment management, risk management, and high-net-worth strategies.
+
+## Services
+- [Find a Financial Advisor](https://www.wealthauthority.org/find-advisor): Match with top-rated fiduciary wealth managers in your area.
+- [Wealth Strategies](https://www.wealthauthority.org/strategies): Proven strategies for growing and preserving wealth.
+- [City-Based Advisor Directory](https://www.wealthauthority.org/cities): Local wealth management resources by metro.
+
+## Topic Hubs
+- [Retirement Planning](https://www.wealthauthority.org/hub/retirement-planning)
+- [Financial Planning](https://www.wealthauthority.org/hub/financial-planning)
+- [Tax Planning](https://www.wealthauthority.org/hub/tax-planning)
+- [Estate Planning](https://www.wealthauthority.org/hub/estate-planning)
+- [Investment Management](https://www.wealthauthority.org/hub/investment)
+- [Risk Management](https://www.wealthauthority.org/hub/risk-management)
+- [High Net Worth Strategies](https://www.wealthauthority.org/hub/high-net-worth)
+
+## Service Area
+National (United States) — coverage across all 50 states with city-specific resources for major metros.
+
+## Contact
+- Website: https://www.wealthauthority.org
