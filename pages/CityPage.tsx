@@ -5,12 +5,19 @@ import LeadForm from '../components/LeadForm';
 import Breadcrumb from '../components/Breadcrumb';
 import Disclaimer from '../components/Disclaimer';
 import SchemaMarkup from '../components/SchemaMarkup';
+import { useSEO } from '../components/useSEO';
 import { MapPin, ArrowRight, Building2, TrendingUp, Users, Plus, Minus, Home, Percent, Wallet, BookOpen, Clock } from 'lucide-react';
 
 const CityPage: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
   const city = CITIES.find(c => c.slug === slug);
   const [openFaq, setOpenFaq] = React.useState<number | null>(null);
+
+  useSEO({
+    title: city ? `Wealth Management in ${city.name}, ${city.state} | Wealth Authority` : 'Wealth Authority',
+    description: city ? `Find top fiduciary wealth managers in ${city.name}, ${city.state}. ${city.description}`.slice(0, 158) : undefined,
+    canonical: city ? `https://www.wealthauthority.org/city/${city.slug}` : '',
+  });
 
   if (!city) {
     return <Navigate to="/" replace />;
