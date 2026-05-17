@@ -8,11 +8,19 @@ import Breadcrumb from '../components/Breadcrumb';
 import AuthorBio from '../components/AuthorBio';
 import Disclaimer from '../components/Disclaimer';
 import SchemaMarkup from '../components/SchemaMarkup';
+import { useSEO } from '../components/useSEO';
 
 const ArticlePage: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
   const article = MOCK_ARTICLES.find(a => a.slug === slug);
   const [openFaq, setOpenFaq] = React.useState<number | null>(null);
+
+  const seoUrl = article ? `https://www.wealthauthority.org/article/${article.slug}` : '';
+  useSEO({
+    title: article ? `${article.title} | Wealth Authority` : 'Wealth Authority',
+    description: article ? (article.metaDescription || article.excerpt) : undefined,
+    canonical: seoUrl,
+  });
 
   if (!article) {
     return <Navigate to="/" replace />;

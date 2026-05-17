@@ -1861,8 +1861,8 @@ export const FINDADVISOR_ARTICLES: Article[] = [
     publishDate: '2025-11-25',
     author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
     primaryKeyword: 'wealth management fees',
-    metaDescription: 'Complete guide to wealth management fees including AUM, flat fees, hourly rates, and how to evaluate whether you\'re paying too much for financial advice.',
-    lastUpdated: '2025-11-25',
+    metaDescription: 'Wealth management fees explained: typical AUM fee structures (0.50%-1.25%), flat fees, hourly rates and standard advisor fee charges. Learn how to tell if you are paying too much in 2026.',
+    lastUpdated: '2026-05-17',
     keyTakeaways: [
       'AUM fees typically range from 0.50% to 1.25% depending on asset level',
       'Flat fees range from $2,000 to $15,000+ annually for comprehensive planning',

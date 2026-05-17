@@ -6,11 +6,18 @@ import LeadForm from '../components/LeadForm';
 import Breadcrumb from '../components/Breadcrumb';
 import Disclaimer from '../components/Disclaimer';
 import SchemaMarkup from '../components/SchemaMarkup';
+import { useSEO } from '../components/useSEO';
 
 const TopicHub: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
   const hub = HUBS.find(h => h.slug === slug);
   const [openFaq, setOpenFaq] = React.useState<number | null>(null);
+
+  useSEO({
+    title: hub ? `${hub.title} | Wealth Authority` : 'Wealth Authority',
+    description: hub ? hub.description : undefined,
+    canonical: hub ? `https://www.wealthauthority.org/hub/${hub.slug}` : '',
+  });
 
   if (!hub) {
     return <Navigate to="/" replace />;
