@@ -225,7 +225,7 @@
   </url>
   <url>
     <loc>https://www.wealthauthority.org/article/credentials-explained</loc>
-    <lastmod>2026-05-10</lastmod>
+    <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -399,7 +399,7 @@
   </url>
   <url>
     <loc>https://www.wealthauthority.org/article/fees</loc>
-    <lastmod>2026-05-10</lastmod>
+    <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -676,6 +676,12 @@
   <url>
     <loc>https://www.wealthauthority.org/article/irrevocable-trusts</loc>
     <lastmod>2026-05-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.wealthauthority.org/article/levels-of-wealth</loc>
+    <lastmod>2026-06-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

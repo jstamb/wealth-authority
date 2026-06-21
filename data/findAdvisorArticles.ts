@@ -1007,8 +1007,8 @@ export const FINDADVISOR_ARTICLES: Article[] = [
     publishDate: '2025-11-25',
     author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
     primaryKeyword: 'financial advisor credentials',
-    metaDescription: 'Understand financial advisor credentials including CFP, CFA, CPA/PFS, ChFC, and others. Learn which designations matter and what they mean for your wealth.',
-    lastUpdated: '2025-11-25',
+    metaDescription: 'Financial advisor credentials compared: what CFP, CFA, CPA/PFS, ChFC and CPWA mean, which designations to look for, and how to verify a fiduciary advisor managing high-net-worth assets.',
+    lastUpdated: '2026-06-21',
     keyTakeaways: [
       'CFP® (Certified Financial Planner) is the gold standard for comprehensive financial planning',
       'CFA (Chartered Financial Analyst) indicates deep investment expertise',
@@ -1852,7 +1852,7 @@ export const FINDADVISOR_ARTICLES: Article[] = [
   },
   {
     id: 'spoke-find-006',
-    title: 'Wealth Management Fees: What Financial Advisors Cost in 2025',
+    title: 'Wealth Management Fees: What Financial Advisors Cost in 2026',
     slug: 'fees',
     hubId: 'find-wealth-manager',
     type: 'spoke',
@@ -1861,8 +1861,8 @@ export const FINDADVISOR_ARTICLES: Article[] = [
     publishDate: '2025-11-25',
     author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
     primaryKeyword: 'wealth management fees',
-    metaDescription: 'Wealth management fees explained: typical AUM fee structures (0.50%-1.25%), flat fees, hourly rates and standard advisor fee charges. Learn how to tell if you are paying too much in 2026.',
-    lastUpdated: '2026-05-17',
+    metaDescription: 'Average wealth management fees in 2026: typical AUM rates (0.50%-1.25%), flat fees, hourly rates and asset-under-management charges. See how advisor costs compare and whether you are paying too much.',
+    lastUpdated: '2026-06-21',
     keyTakeaways: [
       'AUM fees typically range from 0.50% to 1.25% depending on asset level',
       'Flat fees range from $2,000 to $15,000+ annually for comprehensive planning',
