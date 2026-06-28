@@ -1634,7 +1634,7 @@ export const HIGHNETWORTH_ARTICLES: Article[] = [
   },
   {
     id: 'spoke-hnw-005',
-    title: 'Private Banking Explained: Services, Benefits & Requirements',
+    title: 'Private Banking Explained: Accounts, Requirements & Benefits (2026)',
     slug: 'private-banking',
     hubId: 'high-net-worth',
     type: 'spoke',
@@ -1642,9 +1642,10 @@ export const HIGHNETWORTH_ARTICLES: Article[] = [
     readTime: '9 min read',
     publishDate: '2025-11-25',
     author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
+    reviewer: { name: 'Wealth Authority Review Board', role: 'Editorial Standards & Fact-Checking', credentials: 'CFP®/CFA-led review' },
     primaryKeyword: 'private banking',
-    metaDescription: 'Learn what private banking is, who qualifies, what services are included, and whether private banking is right for your high net worth situation.',
-    lastUpdated: '2025-11-25',
+    metaDescription: 'Private banking explained for 2026: how a private bank account works, typical minimums ($250K-$1M+), dedicated bankers, preferential rates and lending—plus how it differs from wealth management and who qualifies.',
+    lastUpdated: '2026-06-28',
     keyTakeaways: [
       'Private banking provides premium banking services for HNW individuals',
       'Typical minimums: $250,000 to $1 million+ in deposits or investable assets',
