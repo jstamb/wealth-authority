@@ -3028,7 +3028,7 @@ export const TAXPLANNING_ARTICLES: Article[] = [
   },
   {
     id: 'spoke-tax-008',
-    title: 'Tax Planning for Stock Compensation: RSUs, ISOs, and Stock Options',
+    title: 'Stock Compensation Taxes 2026: RSU, ISO, NQSO & ESPP Guide',
     slug: 'stock-compensation-taxes',
     hubId: 'tax-planning',
     type: 'spoke',
@@ -3036,9 +3036,10 @@ export const TAXPLANNING_ARTICLES: Article[] = [
     readTime: '10 min read',
     publishDate: '2025-11-25',
     author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
+    reviewer: { name: 'Wealth Authority Review Board', role: 'Editorial Standards & Fact-Checking', credentials: 'CFP®/CPA-led review' },
     primaryKeyword: 'stock compensation taxes',
-    metaDescription: 'Comprehensive guide to taxation of stock compensation including RSUs, ISOs, NQSOs, and ESPP. Learn strategies to minimize taxes on equity compensation.',
-    lastUpdated: '2025-11-25',
+    metaDescription: 'How RSUs, ISOs, NQSOs and ESPP are taxed in 2026: ordinary income at vesting, AMT on ISOs, the spread at exercise, plus diversification and withholding strategies to cut your equity comp tax bill.',
+    lastUpdated: '2026-06-28',
     keyTakeaways: [
       'RSUs are taxed as ordinary income when they vest',
       'ISOs can qualify for long-term capital gains but trigger AMT',
