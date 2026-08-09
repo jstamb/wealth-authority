@@ -3111,9 +3111,10 @@ export const FINDADVISOR_ARTICLES: Article[] = [
     readTime: '8 min read',
     publishDate: '2025-11-25',
     author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
+    reviewer: { name: 'Wealth Authority Review Board', role: 'Editorial Standards & Fact-Checking', credentials: 'CFP®/CFA-led review' },
     primaryKeyword: 'fee-only vs commission advisors',
-    metaDescription: 'Compare fee-only and commission-based financial advisors including how each is paid, conflicts of interest, and which model works best for your situation.',
-    lastUpdated: '2025-11-25',
+    metaDescription: 'Fee-only vs commission financial advisors compared: how each gets paid, conflicts of interest, fiduciary duty, and which model saves you money in 2026.',
+    lastUpdated: '2026-08-09',
     keyTakeaways: [
       'Fee-only advisors are paid only by client fees—no commissions',
       'Commission-based advisors earn from selling financial products',
