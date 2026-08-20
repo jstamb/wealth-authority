@@ -1487,7 +1487,7 @@ export const FINDADVISOR_ARTICLES: Article[] = [
   },
   {
     id: 'spoke-find-007',
-    title: 'Financial Advisor Red Flags: 10 Warning Signs to Watch For (2026)',
+    title: '10 Financial Advisor Red Flags That Could Cost You Thousands (2026)',
     slug: 'red-flags',
     hubId: 'find-wealth-manager',
     type: 'spoke',
@@ -1497,7 +1497,7 @@ export const FINDADVISOR_ARTICLES: Article[] = [
     author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
     reviewer: { name: 'Wealth Authority Review Board', role: 'Editorial Standards & Fact-Checking', credentials: 'CFP®/CFA-led review' },
     primaryKeyword: 'financial advisor red flags',
-    metaDescription: '10 financial advisor red flags to watch for in 2026: guaranteed returns, high-pressure sales tactics, hidden fees, custody issues and disciplinary history. Learn how to verify an advisor before you trust them with your wealth.',
+    metaDescription: 'Spot these 10 financial advisor red flags before they cost you: guaranteed returns, hidden fees, high-pressure tactics. Free verification checklist to protect your wealth in 2026.',
     lastUpdated: '2026-06-28',
     keyTakeaways: [
       'Guaranteed returns are impossible—any promise is a red flag',
@@ -1863,7 +1863,7 @@ export const FINDADVISOR_ARTICLES: Article[] = [
     author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
     reviewer: { name: 'Wealth Authority Review Board', role: 'Editorial Standards & Fact-Checking', credentials: 'CFP®/CFA-led review' },
     primaryKeyword: 'wealth management fees',
-    metaDescription: 'Average wealth management fees in 2026: typical AUM rates (0.50%-1.25%), flat fees, hourly rates and asset-under-management charges. See how advisor costs compare and whether you are paying too much.',
+    metaDescription: 'How much does wealth management cost? 2026 fee guide: AUM rates (0.50%–1.25%), flat fees ($2K–$15K), hourly rates. Compare advisor costs by asset level and learn if you are overpaying.',
     lastUpdated: '2026-06-21',
     keyTakeaways: [
       'AUM fees typically range from 0.50% to 1.25% depending on asset level',
