@@ -4377,7 +4377,7 @@ export const HIGHNETWORTH_ARTICLES: Article[] = [
   },
   {
     id: 'spoke-hnw-010',
-    title: 'Ultra High Net Worth Services: What $30M+ Wealth Requires',
+    title: 'Ultra High Net Worth Wealth Management: Services for $30M+ Portfolios (2026)',
     slug: 'ultra-high-net-worth',
     hubId: 'high-net-worth',
     type: 'spoke',
@@ -4385,9 +4385,10 @@ export const HIGHNETWORTH_ARTICLES: Article[] = [
     readTime: '9 min read',
     publishDate: '2025-11-25',
     author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
-    primaryKeyword: 'ultra high net worth',
-    metaDescription: 'Discover what ultra high net worth individuals need including family offices, advanced tax strategies, multi-generational planning, and specialized services.',
-    lastUpdated: '2025-11-25',
+    reviewer: { name: 'Wealth Authority Review Board', role: 'Editorial Standards & Fact-Checking', credentials: 'CFP®/CFA-led review' },
+    primaryKeyword: 'ultra high net worth wealth management',
+    metaDescription: 'Ultra high net worth wealth management explained: family offices, UHNW tax strategies, multi-generational planning, and how $30M+ portfolios differ from standard advisory.',
+    lastUpdated: '2026-08-09',
     keyTakeaways: [
       'Ultra high net worth typically means $30 million+ in investable assets',
       'UHNW requires integrated services across investments, tax, estate, and lifestyle',
