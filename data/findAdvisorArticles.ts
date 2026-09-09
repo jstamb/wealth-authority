@@ -1487,7 +1487,7 @@ export const FINDADVISOR_ARTICLES: Article[] = [
   },
   {
     id: 'spoke-find-007',
-    title: '10 Financial Advisor Red Flags That Could Cost You Thousands (2026)',
+    title: '10 Financial Advisor Red Flags to Watch For Before You Hire (2026)',
     slug: 'red-flags',
     hubId: 'find-wealth-manager',
     type: 'spoke',
@@ -1497,7 +1497,7 @@ export const FINDADVISOR_ARTICLES: Article[] = [
     author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
     reviewer: { name: 'Wealth Authority Review Board', role: 'Editorial Standards & Fact-Checking', credentials: 'CFP®/CFA-led review' },
     primaryKeyword: 'financial advisor red flags',
-    metaDescription: '10 financial advisor red flags that cost investors thousands: guaranteed returns, hidden fees, custody red flags and pressure tactics. Spot these warning signs before trusting anyone with your money in 2026.',
+    metaDescription: 'Spot these 10 financial advisor red flags before trusting anyone with your money: guaranteed returns, hidden fees, custody issues and pressure tactics. Updated for 2026.',
     lastUpdated: '2026-07-26',
     keyTakeaways: [
       'Guaranteed returns are impossible—any promise is a red flag',
@@ -1853,7 +1853,7 @@ export const FINDADVISOR_ARTICLES: Article[] = [
   },
   {
     id: 'spoke-find-006',
-    title: 'Wealth Management Fees Exposed: Are You Overpaying? (2026 Guide)',
+    title: 'Wealth Management Fees: What You Should Actually Pay in 2026',
     slug: 'fees',
     hubId: 'find-wealth-manager',
     type: 'spoke',
@@ -1863,7 +1863,7 @@ export const FINDADVISOR_ARTICLES: Article[] = [
     author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
     reviewer: { name: 'Wealth Authority Review Board', role: 'Editorial Standards & Fact-Checking', credentials: 'CFP®/CFA-led review' },
     primaryKeyword: 'wealth management fees',
-    metaDescription: 'Are you overpaying for wealth management? Compare 2026 AUM fees (0.50%–1.25%), flat-fee and hourly rates. Benchmark your advisor costs and find out what you should actually pay.',
+    metaDescription: 'Wealth management fees compared for 2026: AUM rates (0.50%-1.25%), flat fees ($2K-$15K+) and hourly options. Use our benchmarks to see if you are overpaying your advisor.',
     lastUpdated: '2026-07-26',
     keyTakeaways: [
       'AUM fees typically range from 0.50% to 1.25% depending on asset level',

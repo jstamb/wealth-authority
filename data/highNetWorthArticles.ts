@@ -5461,7 +5461,7 @@ export const HIGHNETWORTH_ARTICLES: Article[] = [
     publishDate: '2025-12-23',
     author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
     primaryKeyword: 'levels of wealth',
-    metaDescription: 'Where do you fall? Levels of wealth from mass affluent ($100K–$1M) to HNW ($1M+), VHNW ($5M+) and UHNW ($30M+). Compare services, fees and planning strategies for each net worth tier in 2026.',
+    metaDescription: 'Levels of net worth explained for 2026: mass affluent ($100K-$1M), HNW ($1M+), VHNW ($5M+) and UHNW ($30M+). See which wealth tier you fall in and what it means for advisor services and fees.',
     lastUpdated: '2026-06-21',
     keyTakeaways: [
       'Wealth is categorized into distinct tiers: mass market, mass affluent, high net worth (HNW), very high net worth (VHNW), and ultra high net worth (UHNW)',
