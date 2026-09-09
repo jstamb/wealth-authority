@@ -998,7 +998,7 @@ export const FINDADVISOR_ARTICLES: Article[] = [
   },
   {
     id: 'spoke-find-005',
-    title: 'Financial Advisor Credentials Explained: CFP, CFA, and More',
+    title: 'Financial Advisor Credentials: Which Designations Actually Matter?',
     slug: 'credentials-explained',
     hubId: 'find-wealth-manager',
     type: 'spoke',
@@ -1007,8 +1007,8 @@ export const FINDADVISOR_ARTICLES: Article[] = [
     publishDate: '2025-11-25',
     author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
     primaryKeyword: 'financial advisor credentials',
-    metaDescription: 'Financial advisor credentials compared: what CFP, CFA, CPA/PFS, ChFC and CPWA mean, which designations to look for, and how to verify a fiduciary advisor managing high-net-worth assets.',
-    lastUpdated: '2026-06-21',
+    metaDescription: 'Not all financial advisor credentials are equal. Compare CFP®, CFA, CPA/PFS, ChFC and CPWA — learn which designations actually matter and how to verify a fiduciary advisor for your wealth.',
+    lastUpdated: '2026-07-26',
     keyTakeaways: [
       'CFP® (Certified Financial Planner) is the gold standard for comprehensive financial planning',
       'CFA (Chartered Financial Analyst) indicates deep investment expertise',
@@ -1497,8 +1497,8 @@ export const FINDADVISOR_ARTICLES: Article[] = [
     author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
     reviewer: { name: 'Wealth Authority Review Board', role: 'Editorial Standards & Fact-Checking', credentials: 'CFP®/CFA-led review' },
     primaryKeyword: 'financial advisor red flags',
-    metaDescription: 'Spot these 10 financial advisor red flags before they cost you: guaranteed returns, hidden fees, high-pressure tactics. Free verification checklist to protect your wealth in 2026.',
-    lastUpdated: '2026-06-28',
+    metaDescription: '10 financial advisor red flags that cost investors thousands: guaranteed returns, hidden fees, custody red flags and pressure tactics. Spot these warning signs before trusting anyone with your money in 2026.',
+    lastUpdated: '2026-07-26',
     keyTakeaways: [
       'Guaranteed returns are impossible—any promise is a red flag',
       'High-pressure sales tactics indicate the advisor\'s interest, not yours',
@@ -1853,7 +1853,7 @@ export const FINDADVISOR_ARTICLES: Article[] = [
   },
   {
     id: 'spoke-find-006',
-    title: 'Wealth Management Fees: What Financial Advisors Cost in 2026',
+    title: 'Wealth Management Fees Exposed: Are You Overpaying? (2026 Guide)',
     slug: 'fees',
     hubId: 'find-wealth-manager',
     type: 'spoke',
@@ -1863,8 +1863,8 @@ export const FINDADVISOR_ARTICLES: Article[] = [
     author: { name: 'Wealth Authority Team', role: 'Editorial Staff' },
     reviewer: { name: 'Wealth Authority Review Board', role: 'Editorial Standards & Fact-Checking', credentials: 'CFP®/CFA-led review' },
     primaryKeyword: 'wealth management fees',
-    metaDescription: 'How much does wealth management cost? 2026 fee guide: AUM rates (0.50%–1.25%), flat fees ($2K–$15K), hourly rates. Compare advisor costs by asset level and learn if you are overpaying.',
-    lastUpdated: '2026-06-21',
+    metaDescription: 'Are you overpaying for wealth management? Compare 2026 AUM fees (0.50%–1.25%), flat-fee and hourly rates. Benchmark your advisor costs and find out what you should actually pay.',
+    lastUpdated: '2026-07-26',
     keyTakeaways: [
       'AUM fees typically range from 0.50% to 1.25% depending on asset level',
       'Flat fees range from $2,000 to $15,000+ annually for comprehensive planning',
