@@ -5,10 +5,17 @@ import { HUBS, CITIES } from '../constants';
 import { HOMEPAGE_CONTENT } from '../data/homepage';
 import LeadForm from '../components/LeadForm';
 import GrowthChart from '../components/GrowthChart';
+import { useSEO } from '../components/useSEO';
 
 const Home: React.FC = () => {
   // Clean H1 for display (remove brand suffix if present)
   const displayH1 = HOMEPAGE_CONTENT.h1.split('|')[0].trim();
+
+  useSEO({
+    title: HOMEPAGE_CONTENT.metaTitle || 'Wealth Authority | Find Top Fiduciary Wealth Managers',
+    description: HOMEPAGE_CONTENT.metaDescription,
+    canonical: 'https://www.wealthauthority.org/',
+  });
 
   return (
     <div className="flex flex-col min-h-screen">

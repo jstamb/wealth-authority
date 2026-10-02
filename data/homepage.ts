@@ -2,7 +2,7 @@ import { HomepageContent } from '../types';
 
 export const HOMEPAGE_CONTENT: HomepageContent = {
   metaTitle: 'Wealth Management Guide: Financial Planning & Investment Strategies | Wealth Authority',
-  metaDescription: 'Expert wealth management resources covering retirement planning, investment strategies, tax optimization, and estate planning. Find qualified financial advisors and build lasting wealth.',
+  metaDescription: 'Your complete wealth management resource: retirement planning, investment strategies, tax optimization and estate planning. Find a qualified fiduciary advisor and start building lasting wealth today.',
   primaryKeyword: 'wealth management',
   h1: 'Wealth Management: Your Complete Guide to Building & Protecting Wealth | Wealth Authority',
   heroSubheading: 'Wealth management is the strategic coordination of your entire financial life—investments, taxes, retirement, estate planning, and risk management—working together toward your goals. At Wealth Authority, we provide expert guidance to help you make informed decisions about your money, whether you\'re building wealth, preparing for retirement, or looking for a qualified financial advisor. Our comprehensive resources cover everything from basic financial planning to sophisticated strategies for high-net-worth individuals.',
