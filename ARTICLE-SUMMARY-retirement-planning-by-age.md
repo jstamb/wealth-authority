@@ -2,7 +2,7 @@
 
 ## Article Information
 
-**File Location**: `/Users/cosmodrome/Local Sites/wealth-authority/retirement-planning-by-age-article.ts`
+**File Location**: `~/Development/wealth-authority/retirement-planning-by-age-article.ts`
 
 **Content ID**: `spoke-retirement-012`
 
@@ -194,9 +194,9 @@ All figures use current 2025 limits:
 
 To add this article to the site:
 
-1. Open `/Users/cosmodrome/Local Sites/wealth-authority/data/retirementArticles.ts`
+1. Open `~/Development/wealth-authority/data/retirementArticles.ts`
 
-2. Add the article object from `/Users/cosmodrome/Local Sites/wealth-authority/retirement-planning-by-age-article.ts` to the `RETIREMENT_ARTICLES` array
+2. Add the article object from `~/Development/wealth-authority/retirement-planning-by-age-article.ts` to the `RETIREMENT_ARTICLES` array
 
 3. The article is assigned ID `spoke-retirement-012` (next sequential number)
 

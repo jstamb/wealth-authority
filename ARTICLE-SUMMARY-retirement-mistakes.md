@@ -1,9 +1,9 @@
 # Article Summary: 10 Costly Retirement Planning Mistakes to Avoid
 
 ## Article Location
-**File:** `/Users/cosmodrome/Local Sites/wealth-authority/retirement-planning-mistakes-article.ts`
+**File:** `~/Development/wealth-authority/retirement-planning-mistakes-article.ts`
 
-**To publish:** Add the article object from this file to the `RETIREMENT_ARTICLES` array in `/Users/cosmodrome/Local Sites/wealth-authority/data/retirementArticles.ts`
+**To publish:** Add the article object from this file to the `RETIREMENT_ARTICLES` array in `~/Development/wealth-authority/data/retirementArticles.ts`
 
 ---
 
@@ -255,9 +255,9 @@ Each FAQ:
 
 ## Next Steps for Publication
 
-1. **Review the article** in `/Users/cosmodrome/Local Sites/wealth-authority/retirement-planning-mistakes-article.ts`
+1. **Review the article** in `~/Development/wealth-authority/retirement-planning-mistakes-article.ts`
 
-2. **Copy the article object** and add it to the `RETIREMENT_ARTICLES` array in `/Users/cosmodrome/Local Sites/wealth-authority/data/retirementArticles.ts`
+2. **Copy the article object** and add it to the `RETIREMENT_ARTICLES` array in `~/Development/wealth-authority/data/retirementArticles.ts`
 
 3. **Add internal links** - Update the `internal_links` field with actual URLs once you confirm which related articles exist
 
@@ -312,15 +312,15 @@ Each FAQ:
 
 **Article File:**
 ```
-/Users/cosmodrome/Local Sites/wealth-authority/retirement-planning-mistakes-article.ts
+~/Development/wealth-authority/retirement-planning-mistakes-article.ts
 ```
 
 **Target Destination:**
 ```
-/Users/cosmodrome/Local Sites/wealth-authority/data/retirementArticles.ts
+~/Development/wealth-authority/data/retirementArticles.ts
 ```
 
 **Summary Document (this file):**
 ```
-/Users/cosmodrome/Local Sites/wealth-authority/ARTICLE-SUMMARY-retirement-mistakes.md
+~/Development/wealth-authority/ARTICLE-SUMMARY-retirement-mistakes.md
 ```

@@ -15,7 +15,7 @@ import argparse
 
 # Configuration
 OBSIDIAN_VAULT = "/Users/cosmodrome/Library/Mobile Documents/iCloud~md~obsidian/Documents/Second Brain/8 - Projects/Wealth Management/Content"
-WEBSITE_ROOT = "/Users/cosmodrome/Local Sites/wealth-authority"
+WEBSITE_ROOT = "/Users/cosmodrome/Development/wealth-authority"
 DATA_DIR = os.path.join(WEBSITE_ROOT, "data")
 
 class ObsidianToTSConverter:
