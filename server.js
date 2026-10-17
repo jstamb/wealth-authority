@@ -2,6 +2,7 @@ import http from 'http';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { handleLead } from './lib/leadProxy.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -70,6 +71,18 @@ const MIME_TYPES = {
 const server = http.createServer((req, res) => {
   // Remove query strings and prevent directory traversal
   const safeUrl = path.normalize(req.url.split('?')[0]).replace(/^(\.\.[\/\\])+/, '');
+
+  // Lead proxy (server-side so the GHL webhook URL never reaches the browser)
+  if (safeUrl === '/api/lead' || safeUrl === '/api/lead/') {
+    handleLead(req, res).catch((err) => {
+      console.error('lead: unhandled error', err && err.message);
+      if (!res.headersSent) {
+        res.writeHead(500, { 'Content-Type': 'application/json' });
+        res.end('{"ok":false,"error":"Server error"}');
+      }
+    });
+    return;
+  }
 
   // SEO files - serve from dist
   if (safeUrl === '/sitemap.xml') {
