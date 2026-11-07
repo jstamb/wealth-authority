@@ -9,6 +9,7 @@ import { INVESTMENT_ARTICLES } from './data/investmentArticles';
 import { HIGHNETWORTH_ARTICLES } from './data/highNetWorthArticles';
 import { RISKMANAGEMENT_ARTICLES } from './data/riskManagementArticles';
 import { CITY_ARTICLES } from './data/cityArticles';
+import { OVERNIGHT_ARTICLES } from './data/overnightArticles';
 
 // Synced data from Obsidian (takes priority over hardcoded)
 import { SYNCED_HUBS } from './data/hubs';
@@ -19,6 +20,15 @@ function mergeById<T extends { id: string }>(hardcoded: T[], synced: T[]): T[] {
   const syncedIds = new Set(synced.map(item => item.id));
   const hardcodedFiltered = hardcoded.filter(item => !syncedIds.has(item.id));
   return [...synced, ...hardcodedFiltered];
+}
+
+function uniqueBySlug<T extends { slug: string }>(items: T[]): T[] {
+  const seen = new Set<string>();
+  return items.filter((item) => {
+    if (seen.has(item.slug)) return false;
+    seen.add(item.slug);
+    return true;
+  });
 }
 
 // Asset ranges for lead form
@@ -601,8 +611,8 @@ const HARDCODED_CITIES: City[] = [
 ];
 
 // Merged exports: Obsidian synced data takes priority, hardcoded serves as fallback
-export const HUBS: TopicHub[] = mergeById(HARDCODED_HUBS, SYNCED_HUBS);
-export const CITIES: City[] = mergeById(HARDCODED_CITIES, SYNCED_CITIES);
+export const HUBS: TopicHub[] = uniqueBySlug(mergeById(HARDCODED_HUBS, SYNCED_HUBS));
+export const CITIES: City[] = uniqueBySlug(mergeById(HARDCODED_CITIES, SYNCED_CITIES));
 
 // Combined articles from all sources
 export const MOCK_ARTICLES: Article[] = [
@@ -614,5 +624,6 @@ export const MOCK_ARTICLES: Article[] = [
   ...INVESTMENT_ARTICLES,
   ...HIGHNETWORTH_ARTICLES,
   ...RISKMANAGEMENT_ARTICLES,
-  ...CITY_ARTICLES
+  ...CITY_ARTICLES,
+  ...OVERNIGHT_ARTICLES,
 ];

@@ -1,8 +1,17 @@
 import React from 'react';
 import LeadForm from '../components/LeadForm';
 import { Shield, CheckCircle } from 'lucide-react';
+import { useSEO } from '../components/useSEO';
+import { STATIC_PAGE_SEO } from '../data/staticPages';
 
 const FindAdvisor: React.FC = () => {
+  const seo = STATIC_PAGE_SEO['/find-advisor'];
+  useSEO({
+    title: seo.title,
+    description: seo.description,
+    canonical: 'https://www.wealthauthority.org/find-advisor',
+  });
+
   return (
     <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8 flex flex-col items-center">
       <div className="max-w-4xl w-full">

@@ -2,8 +2,17 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { HUBS } from '../constants';
 import { ArrowRight, BookOpen } from 'lucide-react';
+import { useSEO } from '../components/useSEO';
+import { STATIC_PAGE_SEO } from '../data/staticPages';
 
 const Strategies: React.FC = () => {
+  const seo = STATIC_PAGE_SEO['/strategies'];
+  useSEO({
+    title: seo.title,
+    description: seo.description,
+    canonical: 'https://www.wealthauthority.org/strategies',
+  });
+
   return (
     <div className="min-h-screen bg-white">
       <div className="bg-emerald-950 text-white py-20">
