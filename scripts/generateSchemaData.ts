@@ -1,14 +1,6 @@
-import { SYNCED_HUBS } from '../data/hubs';
-import { SYNCED_CITIES } from '../data/cityHubs';
-import { RETIREMENT_ARTICLES } from '../data/retirementArticles';
-import { FINANCIALPLANNING_ARTICLES } from '../data/financialPlanningArticles';
-import { FINDADVISOR_ARTICLES } from '../data/findAdvisorArticles';
-import { TAXPLANNING_ARTICLES } from '../data/taxPlanningArticles';
-import { ESTATEPLANNING_ARTICLES } from '../data/estatePlanningArticles';
-import { INVESTMENT_ARTICLES } from '../data/investmentArticles';
-import { HIGHNETWORTH_ARTICLES } from '../data/highNetWorthArticles';
-import { RISKMANAGEMENT_ARTICLES } from '../data/riskManagementArticles';
-import { CITY_ARTICLES } from '../data/cityArticles';
+import { HUBS, CITIES, MOCK_ARTICLES } from '../constants';
+import { HOMEPAGE_CONTENT } from '../data/homepage';
+import { STATIC_PAGE_SEO } from '../data/staticPages';
 import { TopicHub, Article, City, FAQItem } from '../types';
 import * as fs from 'fs';
 import * as path from 'path';
@@ -19,18 +11,8 @@ const __dirname = path.dirname(__filename);
 
 const BASE_URL = 'https://www.wealthauthority.org';
 
-// Combine all articles
-const ALL_ARTICLES: Article[] = [
-  ...RETIREMENT_ARTICLES,
-  ...FINANCIALPLANNING_ARTICLES,
-  ...FINDADVISOR_ARTICLES,
-  ...TAXPLANNING_ARTICLES,
-  ...ESTATEPLANNING_ARTICLES,
-  ...INVESTMENT_ARTICLES,
-  ...HIGHNETWORTH_ARTICLES,
-  ...RISKMANAGEMENT_ARTICLES,
-  ...CITY_ARTICLES,
-];
+// Same order the app uses. First slug wins, matching ArticlePage.find().
+const ALL_ARTICLES: Article[] = MOCK_ARTICLES;
 
 interface SchemaData {
   hubs: Record<string, string>;
@@ -68,7 +50,7 @@ function generateHubSchema(hub: TopicHub, articles: Article[]): string {
       url: BASE_URL,
       logo: {
         '@type': 'ImageObject',
-        url: `${BASE_URL}/logo.png`,
+        url: `${BASE_URL}/logo.svg`,
       },
     },
     mainEntity: {
@@ -126,7 +108,7 @@ function generateArticleSchema(article: Article): string {
       url: BASE_URL,
       logo: {
         '@type': 'ImageObject',
-        url: `${BASE_URL}/logo.png`,
+        url: `${BASE_URL}/logo.svg`,
       },
     },
     datePublished: article.publishDate,
@@ -176,35 +158,141 @@ function generateCitySchema(city: City): string {
   return schemas.map((s) => `<script type="application/ld+json">${JSON.stringify(s)}</script>`).join('\n');
 }
 
+function xmlEscape(value: string): string {
+  return value
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
+function cityDescription(city: City): string {
+  return `Find top fiduciary wealth managers in ${city.name}, ${city.state}. ${city.description}`.slice(0, 158);
+}
+
+function isoDate(value?: string): string {
+  if (value && /^\d{4}-\d{2}-\d{2}/.test(value)) return value.slice(0, 10);
+  return '2026-11-07';
+}
+
 function main() {
   const schemaData: SchemaData = {
     hubs: {},
     articles: {},
     cities: {},
   };
+  const routes: Record<string, { title: string; description: string; canonical: string }> = {
+    '/': {
+      title: HOMEPAGE_CONTENT.metaTitle,
+      description: HOMEPAGE_CONTENT.metaDescription,
+      canonical: `${BASE_URL}/`,
+    },
+  };
 
-  // Generate hub schemas
-  for (const hub of SYNCED_HUBS) {
-    schemaData.hubs[hub.slug] = generateHubSchema(hub, ALL_ARTICLES);
+  for (const [route, seo] of Object.entries(STATIC_PAGE_SEO)) {
+    routes[route] = {
+      title: seo.title,
+      description: seo.description,
+      canonical: `${BASE_URL}${route}`,
+    };
   }
 
-  // Generate article schemas
+  for (const hub of HUBS) {
+    if (!schemaData.hubs[hub.slug]) {
+      schemaData.hubs[hub.slug] = generateHubSchema(hub, ALL_ARTICLES);
+    }
+    const route = `/hub/${hub.slug}`;
+    routes[route] = {
+      title: `${hub.title} | Wealth Authority`,
+      description: hub.description,
+      canonical: `${BASE_URL}${route}`,
+    };
+  }
+
+  let skippedDuplicates = 0;
   for (const article of ALL_ARTICLES) {
+    if (schemaData.articles[article.slug]) {
+      skippedDuplicates += 1;
+      continue;
+    }
     schemaData.articles[article.slug] = generateArticleSchema(article);
+    const route = `/article/${article.slug}`;
+    routes[route] = {
+      title: `${article.title} | Wealth Authority`,
+      description: article.metaDescription || article.excerpt,
+      canonical: `${BASE_URL}${route}`,
+    };
   }
 
-  // Generate city schemas
-  for (const city of SYNCED_CITIES) {
-    schemaData.cities[city.slug] = generateCitySchema(city);
+  for (const city of CITIES) {
+    if (!schemaData.cities[city.slug]) {
+      schemaData.cities[city.slug] = generateCitySchema(city);
+    }
+    const route = `/city/${city.slug}`;
+    routes[route] = {
+      title: `Wealth Management in ${city.name}, ${city.state} | Wealth Authority`,
+      description: cityDescription(city),
+      canonical: `${BASE_URL}${route}`,
+    };
   }
 
-  // Write to dist folder
-  const outputPath = path.join(__dirname, '../dist/schema-data.json');
+  const distDir = path.join(__dirname, '../dist');
+  fs.mkdirSync(distDir, { recursive: true });
+  const outputPath = path.join(distDir, 'schema-data.json');
   fs.writeFileSync(outputPath, JSON.stringify(schemaData, null, 2));
+  fs.writeFileSync(path.join(distDir, 'route-meta.json'), JSON.stringify({ routes }, null, 2));
+
+  const urls: { loc: string; lastmod: string; changefreq: string; priority: string }[] = [
+    { loc: `${BASE_URL}/`, lastmod: '2026-11-07', changefreq: 'weekly', priority: '1.0' },
+    { loc: `${BASE_URL}/find-advisor`, lastmod: '2026-11-07', changefreq: 'monthly', priority: '0.9' },
+    { loc: `${BASE_URL}/strategies`, lastmod: '2026-11-07', changefreq: 'weekly', priority: '0.8' },
+    { loc: `${BASE_URL}/cities`, lastmod: '2026-11-07', changefreq: 'weekly', priority: '0.8' },
+  ];
+  const seen = new Set(urls.map((item) => item.loc));
+  for (const hub of HUBS) {
+    const loc = `${BASE_URL}/hub/${hub.slug}`;
+    if (seen.has(loc)) continue;
+    seen.add(loc);
+    urls.push({ loc, lastmod: '2026-11-07', changefreq: 'weekly', priority: '0.8' });
+  }
+  for (const article of ALL_ARTICLES) {
+    const loc = `${BASE_URL}/article/${article.slug}`;
+    if (seen.has(loc)) continue;
+    seen.add(loc);
+    urls.push({
+      loc,
+      lastmod: isoDate(article.lastUpdated || article.publishDate),
+      changefreq: 'monthly',
+      priority: '0.7',
+    });
+  }
+  for (const city of CITIES) {
+    const loc = `${BASE_URL}/city/${city.slug}`;
+    if (seen.has(loc)) continue;
+    seen.add(loc);
+    urls.push({ loc, lastmod: '2026-11-07', changefreq: 'monthly', priority: '0.6' });
+  }
+
+  const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${urls.map((item) => `  <url>
+    <loc>${xmlEscape(item.loc)}</loc>
+    <lastmod>${item.lastmod}</lastmod>
+    <changefreq>${item.changefreq}</changefreq>
+    <priority>${item.priority}</priority>
+  </url>`).join('\n')}
+</urlset>
+`;
+  fs.writeFileSync(path.join(__dirname, '../sitemap.xml'), sitemap);
+  fs.writeFileSync(path.join(distDir, 'sitemap.xml'), sitemap);
+
   console.log(`Schema data written to ${outputPath}`);
   console.log(`  - ${Object.keys(schemaData.hubs).length} hub pages`);
   console.log(`  - ${Object.keys(schemaData.articles).length} article pages`);
   console.log(`  - ${Object.keys(schemaData.cities).length} city pages`);
+  console.log(`  - ${Object.keys(routes).length} route meta entries`);
+  console.log(`  - ${urls.length} sitemap URLs`);
+  console.log(`  - skipped ${skippedDuplicates} duplicate article slugs`);
 }
 
 main();

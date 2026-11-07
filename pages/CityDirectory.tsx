@@ -2,8 +2,17 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { CITIES } from '../constants';
 import { MapPin, ArrowRight } from 'lucide-react';
+import { useSEO } from '../components/useSEO';
+import { STATIC_PAGE_SEO } from '../data/staticPages';
 
 const CityDirectory: React.FC = () => {
+  const seo = STATIC_PAGE_SEO['/cities'];
+  useSEO({
+    title: seo.title,
+    description: seo.description,
+    canonical: 'https://www.wealthauthority.org/cities',
+  });
+
   return (
     <div className="min-h-screen bg-white">
       <div className="bg-emerald-950 text-white py-20">

@@ -9,6 +9,7 @@ import AuthorBio from '../components/AuthorBio';
 import Disclaimer from '../components/Disclaimer';
 import SchemaMarkup from '../components/SchemaMarkup';
 import { useSEO } from '../components/useSEO';
+import { cleanFaqQuestion, readableText } from '../components/seoText';
 
 const ArticlePage: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -230,7 +231,7 @@ const ArticlePage: React.FC = () => {
                         onClick={() => setOpenFaq(openFaq === index ? null : index)}
                         className="w-full flex items-center justify-between p-4 text-left bg-white hover:bg-gray-50 transition-colors focus:outline-none"
                       >
-                        <span className="font-bold text-gray-900">{faq.question}</span>
+                        <span className="font-bold text-gray-900">{cleanFaqQuestion(faq.question)}</span>
                         {openFaq === index ? <Minus size={20} className="text-emerald-600" /> : <Plus size={20} className="text-gray-400" />}
                       </button>
                       {openFaq === index && (
@@ -248,7 +249,7 @@ const ArticlePage: React.FC = () => {
             <div className="mt-16 bg-emerald-900 text-white p-8 rounded-2xl text-center">
               <h3 className="text-2xl font-serif font-bold mb-4">The Bottom Line</h3>
               <p className="text-lg text-emerald-100 mb-8 leading-relaxed">
-                {article.bottomLine}
+                {readableText(article.bottomLine)}
               </p>
               <Link to="/find-advisor" className="inline-block bg-white text-emerald-900 font-bold py-3 px-8 rounded-lg hover:bg-emerald-50 transition-colors">
                  Find a Wealth Manager

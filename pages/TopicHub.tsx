@@ -7,6 +7,7 @@ import Breadcrumb from '../components/Breadcrumb';
 import Disclaimer from '../components/Disclaimer';
 import SchemaMarkup from '../components/SchemaMarkup';
 import { useSEO } from '../components/useSEO';
+import { cleanFaqQuestion } from '../components/seoText';
 
 const TopicHub: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -172,7 +173,7 @@ const TopicHub: React.FC = () => {
                         onClick={() => setOpenFaq(openFaq === index ? null : index)}
                         className="w-full flex items-center justify-between p-4 text-left bg-white hover:bg-gray-50 transition-colors focus:outline-none"
                       >
-                        <span className="font-bold text-gray-900">{faq.question}</span>
+                        <span className="font-bold text-gray-900">{cleanFaqQuestion(faq.question)}</span>
                         {openFaq === index ? <Minus size={20} className="text-emerald-600" /> : <Plus size={20} className="text-gray-400" />}
                       </button>
                       {openFaq === index && (

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Article, FAQItem, Author, TopicHub } from '../types';
+import { cleanFaqQuestion } from './seoText';
 
 interface ArticleSchemaProps {
   type: 'article';
@@ -72,7 +73,7 @@ const SchemaMarkup: React.FC<SchemaProps> = (props) => {
           url: 'https://www.wealthauthority.org',
           logo: {
             '@type': 'ImageObject',
-            url: 'https://www.wealthauthority.org/logo.png'
+            url: 'https://www.wealthauthority.org/logo.svg'
           }
         },
         datePublished: props.publishDate,
@@ -90,7 +91,7 @@ const SchemaMarkup: React.FC<SchemaProps> = (props) => {
         '@type': 'FAQPage',
         mainEntity: props.faqs.map((faq) => ({
           '@type': 'Question',
-          name: faq.question,
+          name: cleanFaqQuestion(faq.question),
           acceptedAnswer: {
             '@type': 'Answer',
             text: faq.answer
@@ -118,7 +119,7 @@ const SchemaMarkup: React.FC<SchemaProps> = (props) => {
         '@type': 'Organization',
         name: 'Wealth Authority',
         url: 'https://www.wealthauthority.org',
-        logo: 'https://www.wealthauthority.org/logo.png',
+        logo: 'https://www.wealthauthority.org/logo.svg',
         description: 'Connect with America\'s top-rated fiduciary wealth managers. Expert guidance for retirement, tax planning, and estate preservation.',
         sameAs: [],
         contactPoint: {
@@ -164,7 +165,7 @@ const SchemaMarkup: React.FC<SchemaProps> = (props) => {
           url: 'https://www.wealthauthority.org',
           logo: {
             '@type': 'ImageObject',
-            url: 'https://www.wealthauthority.org/logo.png'
+            url: 'https://www.wealthauthority.org/logo.svg'
           }
         },
         mainEntity: {

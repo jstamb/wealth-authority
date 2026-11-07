@@ -6,6 +6,7 @@ import Breadcrumb from '../components/Breadcrumb';
 import Disclaimer from '../components/Disclaimer';
 import SchemaMarkup from '../components/SchemaMarkup';
 import { useSEO } from '../components/useSEO';
+import { cleanFaqQuestion } from '../components/seoText';
 import { MapPin, ArrowRight, Building2, TrendingUp, Users, Plus, Minus, Home, Percent, Wallet, BookOpen, Clock } from 'lucide-react';
 
 const CityPage: React.FC = () => {
@@ -174,7 +175,7 @@ const CityPage: React.FC = () => {
                         onClick={() => setOpenFaq(openFaq === index ? null : index)}
                         className="w-full flex items-center justify-between p-5 text-left hover:bg-gray-50 transition-colors focus:outline-none"
                       >
-                        <span className="font-bold text-gray-900 pr-4">{faq.question}</span>
+                        <span className="font-bold text-gray-900 pr-4">{cleanFaqQuestion(faq.question)}</span>
                         {openFaq === index ? <Minus size={20} className="text-emerald-600 flex-shrink-0" /> : <Plus size={20} className="text-gray-400 flex-shrink-0" />}
                       </button>
                       {openFaq === index && (
