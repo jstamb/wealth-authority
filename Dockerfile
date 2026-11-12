@@ -22,7 +22,8 @@ WORKDIR /app
 
 # Copy built files and server
 COPY --from=builder /app/dist ./dist
-COPY --from=builder /app/server.js ./
+COPY --from=builder /app/package.json /app/server.js ./
+COPY --from=builder /app/lib/leadValidation.js /app/lib/leadProxy.js ./lib/
 COPY --from=builder /app/robots.txt ./dist/
 COPY --from=builder /app/sitemap.xml ./dist/
 

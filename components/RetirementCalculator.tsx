@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Calculator, Lock, ArrowRight } from 'lucide-react';
-
-const WEBHOOK_URL = 'https://services.leadconnectorhq.com/hooks/7ncy1J3g3mD0v3IddFW2/webhook-trigger/70eaad9e-3099-4349-b6bb-18e8193fcbf9';
+import { validateLead } from '../lib/leadValidation.js';
+import { submitLead } from '../lib/submitLead';
 
 const RetirementCalculator: React.FC = () => {
   const [step, setStep] = useState(1);
@@ -14,6 +14,7 @@ const RetirementCalculator: React.FC = () => {
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [result, setResult] = useState<number | null>(null);
+  const [error, setError] = useState<string | null>(null);
 
   const handleIncomeChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     // Remove non-numeric chars
@@ -30,9 +31,15 @@ const RetirementCalculator: React.FC = () => {
     setFormData(prev => ({ ...prev, [e.target.name]: e.target.value }));
   };
 
-  const calculateAndSubmit = async (e: React.FormEvent) => {
+  const calculateAndSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setIsSubmitting(true);
+    setError(null);
+
+    const invalid = validateLead(formData);
+    if (invalid) {
+      setError(invalid);
+      return;
+    }
 
     const incomeNum = Number(annualIncome);
     const nestEgg = incomeNum * 25; // 4% rule
@@ -42,26 +49,20 @@ const RetirementCalculator: React.FC = () => {
       desiredAnnualRetirementIncome: incomeNum,
       calculatedNestEgg: nestEgg,
       source: 'Retirement Calculator Tool',
-      formType: 'calculator'
+      formType: 'calculator',
+      // Honeypot: always sent, judged server-side only.
+      hp_verify: String(new FormData(e.currentTarget).get('hp_verify') ?? ''),
     };
 
-    try {
-      // Send to webhook
-      await fetch(WEBHOOK_URL, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        mode: 'no-cors', // Used to prevent CORS errors on client-side opaque requests
-        body: JSON.stringify(payload)
-      });
-    } catch (error) {
-      console.error('Submission error', error);
-    } finally {
-      // Always show result even if webhook fails (graceful degradation)
+    setIsSubmitting(true);
+    const sent = await submitLead('calculator', payload);
+    setIsSubmitting(false);
+
+    if (sent.ok) {
       setResult(nestEgg);
       setStep(3);
-      setIsSubmitting(false);
+    } else {
+      setError("We couldn't send your details. Please check your connection and try again.");
     }
   };
 
@@ -111,6 +112,20 @@ const RetirementCalculator: React.FC = () => {
 
         {step === 2 && (
           <form onSubmit={calculateAndSubmit} className="space-y-4 fade-in">
+            {/* Honeypot: hidden from people, judged server-side only */}
+            <div aria-hidden="true" style={{ position: 'absolute', left: '-10000px', width: 1, height: 1, overflow: 'hidden' }}>
+              <label>
+                Leave this field empty
+                <input type="text" name="hp_verify" tabIndex={-1} autoComplete="off" defaultValue="" data-lpignore="true" data-1p-ignore="" data-bwignore="" data-form-type="other" />
+              </label>
+            </div>
+
+            {error && (
+              <div role="alert" className="bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded-lg text-sm">
+                {error}
+              </div>
+            )}
+
             <div className="text-center mb-6">
               <h4 className="text-xl font-bold text-gray-900">Your results are ready</h4>
               <p className="text-gray-600">Enter your details to reveal your personalized retirement target.</p>
