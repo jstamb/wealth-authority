@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 8080;
 const STATIC_DIR = path.join(__dirname, 'dist');
 
 // Load schema data for SSR injection
-let schemaData = { hubs: {}, articles: {}, cities: {} };
+let schemaData = { hubs: {}, articles: {}, cities: {}, meta: {} };
 try {
   const schemaPath = path.join(STATIC_DIR, 'schema-data.json');
   if (fs.existsSync(schemaPath)) {
@@ -41,6 +41,42 @@ function getSchemaForUrl(url) {
   }
 
   return null;
+}
+
+function escapeHtml(str) {
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
+
+// Per-route title/description/canonical (built by scripts/generateSchemaData.ts).
+// index.html ships the homepage tags; without this every route's raw HTML told
+// crawlers it was a duplicate of the homepage (canonical -> /).
+function getMetaForUrl(url) {
+  const key = url.length > 1 ? url.replace(/\/+$/, '') : url;
+  return (schemaData.meta && schemaData.meta[key]) || null;
+}
+
+function injectMeta(html, meta) {
+  if (!meta) return html;
+  const t = escapeHtml(meta.title);
+  const d = escapeHtml(meta.description);
+  const c = escapeHtml(meta.canonical);
+  let out = html
+    .replace(/<title>[^<]*<\/title>/, `<title>${t}</title>`)
+    .replace(/<link rel="canonical" href="[^"]*"\s*\/?>/, `<link rel="canonical" href="${c}" />`)
+    .replace(/<meta property="og:url" content="[^"]*"\s*\/?>/, `<meta property="og:url" content="${c}" />`)
+    .replace(/<meta property="og:title" content="[^"]*"\s*\/?>/, `<meta property="og:title" content="${t}" />`)
+    .replace(/<meta name="twitter:title" content="[^"]*"\s*\/?>/, `<meta name="twitter:title" content="${t}" />`);
+  if (d) {
+    out = out
+      .replace(/<meta name="description" content="[^"]*"\s*\/?>/, `<meta name="description" content="${d}" />`)
+      .replace(/<meta property="og:description" content="[^"]*"\s*\/?>/, `<meta property="og:description" content="${d}" />`)
+      .replace(/<meta name="twitter:description" content="[^"]*"\s*\/?>/, `<meta name="twitter:description" content="${d}" />`);
+  }
+  return out;
 }
 
 // Inject schema into HTML
@@ -122,7 +158,7 @@ const server = http.createServer((req, res) => {
         } else {
           // Inject schema for this URL
           const schema = getSchemaForUrl(safeUrl);
-          const html = injectSchema(content, schema);
+          const html = injectSchema(injectMeta(content, getMetaForUrl(safeUrl)), schema);
           res.writeHead(200, { 'Content-Type': 'text/html' });
           res.end(html);
         }

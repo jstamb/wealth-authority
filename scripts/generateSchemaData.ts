@@ -10,6 +10,8 @@ import { HIGHNETWORTH_ARTICLES } from '../data/highNetWorthArticles';
 import { RISKMANAGEMENT_ARTICLES } from '../data/riskManagementArticles';
 import { CITY_ARTICLES } from '../data/cityArticles';
 import { TopicHub, Article, City, FAQItem } from '../types';
+import { HUBS, CITIES, MOCK_ARTICLES } from '../constants';
+import { HOMEPAGE_CONTENT } from '../data/homepage';
 import * as fs from 'fs';
 import * as path from 'path';
 import { fileURLToPath } from 'url';
@@ -32,10 +34,51 @@ const ALL_ARTICLES: Article[] = [
   ...CITY_ARTICLES,
 ];
 
+interface RouteMeta {
+  title: string;
+  description: string;
+  canonical: string;
+}
+
 interface SchemaData {
   hubs: Record<string, string>;
   articles: Record<string, string>;
   cities: Record<string, string>;
+  // Per-route <title>/description/canonical, injected server-side so crawlers
+  // get the right tags in the raw HTML instead of index.html's homepage tags.
+  // Mirrors the useSEO() calls in pages/*.tsx — keep them in sync.
+  meta: Record<string, RouteMeta>;
+}
+
+function buildRouteMeta(): Record<string, RouteMeta> {
+  const meta: Record<string, RouteMeta> = {};
+  meta['/'] = {
+    title: HOMEPAGE_CONTENT.metaTitle || 'Wealth Authority | Find Top Fiduciary Wealth Managers',
+    description: HOMEPAGE_CONTENT.metaDescription || '',
+    canonical: `${BASE_URL}/`,
+  };
+  for (const article of MOCK_ARTICLES) {
+    meta[`/article/${article.slug}`] = {
+      title: `${article.title} | Wealth Authority`,
+      description: article.metaDescription || article.excerpt || '',
+      canonical: `${BASE_URL}/article/${article.slug}`,
+    };
+  }
+  for (const hub of HUBS) {
+    meta[`/hub/${hub.slug}`] = {
+      title: `${hub.title} | Wealth Authority`,
+      description: hub.description || '',
+      canonical: `${BASE_URL}/hub/${hub.slug}`,
+    };
+  }
+  for (const city of CITIES) {
+    meta[`/city/${city.slug}`] = {
+      title: `Wealth Management in ${city.name}, ${city.state} | Wealth Authority`,
+      description: `Find top fiduciary wealth managers in ${city.name}, ${city.state}. ${city.description}`.slice(0, 158),
+      canonical: `${BASE_URL}/city/${city.slug}`,
+    };
+  }
+  return meta;
 }
 
 function generateFAQSchema(faqs: FAQItem[]): object {
@@ -181,6 +224,7 @@ function main() {
     hubs: {},
     articles: {},
     cities: {},
+    meta: buildRouteMeta(),
   };
 
   // Generate hub schemas
@@ -205,6 +249,7 @@ function main() {
   console.log(`  - ${Object.keys(schemaData.hubs).length} hub pages`);
   console.log(`  - ${Object.keys(schemaData.articles).length} article pages`);
   console.log(`  - ${Object.keys(schemaData.cities).length} city pages`);
+  console.log(`  - ${Object.keys(schemaData.meta).length} routes with SSR meta`);
 }
 
 main();
