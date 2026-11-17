@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { ASSET_RANGES, TIMELINES } from '../constants';
 import { LeadFormData } from '../types';
 import { CheckCircle, Lock } from 'lucide-react';
-
-const WEBHOOK_URL = 'https://services.leadconnectorhq.com/hooks/7ncy1J3g3mD0v3IddFW2/webhook-trigger/70eaad9e-3099-4349-b6bb-18e8193fcbf9';
+import { validateLead } from '../lib/leadValidation.js';
+import { submitLead } from '../lib/submitLead';
 
 interface LeadFormProps {
   cityName?: string;
@@ -14,6 +14,7 @@ const LeadForm: React.FC<LeadFormProps> = ({ cityName = 'your area', isCompact =
   const [step, setStep] = useState(1);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
+  const [error, setError] = useState<string | null>(null);
   
   const [formData, setFormData] = useState<LeadFormData>({
     firstName: '',
@@ -29,55 +30,30 @@ const LeadForm: React.FC<LeadFormProps> = ({ cityName = 'your area', isCompact =
     setFormData(prev => ({ ...prev, [e.target.name]: e.target.value }));
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    setError(null);
+
+    const invalid = validateLead(formData);
+    if (invalid) {
+      setError(invalid);
+      return;
+    }
+
     setIsSubmitting(true);
-
-    // Create form-urlencoded data (works with no-cors mode)
-    const formBody = new URLSearchParams({
-      firstName: formData.firstName,
-      lastName: formData.lastName,
-      email: formData.email,
-      phone: formData.phone,
-      city: formData.city,
-      assets: formData.assets,
-      timeline: formData.timeline,
+    const result = await submitLead('advisor-match', {
+      ...formData,
       source: 'Wealth Authority Main Lead Form',
-      formType: 'advisor-match'
+      formType: 'advisor-match',
+      // Honeypot: always sent, judged server-side only.
+      hp_verify: String(new FormData(e.currentTarget).get('hp_verify') ?? ''),
     });
+    setIsSubmitting(false);
 
-    try {
-      // Try CORS mode first (if webhook supports it)
-      const response = await fetch(WEBHOOK_URL, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/x-www-form-urlencoded',
-        },
-        body: formBody.toString()
-      });
-
-      if (response.ok) {
-        console.log('Form submitted successfully');
-      }
-    } catch (error) {
-      // If CORS fails, try no-cors mode (fire and forget)
-      console.log('CORS failed, trying no-cors mode');
-      try {
-        await fetch(WEBHOOK_URL, {
-          method: 'POST',
-          mode: 'no-cors',
-          headers: {
-            'Content-Type': 'application/x-www-form-urlencoded',
-          },
-          body: formBody.toString()
-        });
-        console.log('Form submitted via no-cors');
-      } catch (innerError) {
-        console.error('Submission error:', innerError);
-      }
-    } finally {
-      setIsSubmitting(false);
+    if (result.ok) {
       setIsSuccess(true);
+    } else {
+      setError("We couldn't send your request. Please check your connection and try again.");
     }
   };
 
@@ -105,6 +81,20 @@ const LeadForm: React.FC<LeadFormProps> = ({ cityName = 'your area', isCompact =
       )}
       
       <form onSubmit={handleSubmit} className="p-6 space-y-4">
+        {/* Honeypot: hidden from people, judged server-side only */}
+        <div aria-hidden="true" style={{ position: 'absolute', left: '-10000px', width: 1, height: 1, overflow: 'hidden' }}>
+          <label>
+            Leave this field empty
+            <input type="text" name="hp_verify" tabIndex={-1} autoComplete="off" defaultValue="" data-lpignore="true" data-1p-ignore="" data-bwignore="" data-form-type="other" />
+          </label>
+        </div>
+
+        {error && (
+          <div role="alert" className="bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded-lg text-sm">
+            {error}
+          </div>
+        )}
+
         {step === 1 && (
           <div className="space-y-4 fade-in">
              <div className="space-y-1">
