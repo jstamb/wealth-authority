@@ -1215,7 +1215,7 @@ export const FINDADVISOR_ARTICLES: Article[] = [
           <li>Exam</li>
           <li>Continuing education</li>
           </ul>
-          <p><strong>Focus:</strong> High net worth and ultra high net worth client needs.</p>
+          <p><strong>Focus:</strong> <a href="/article/levels-of-wealth" class="text-emerald-700 underline">High net worth and ultra high net worth</a> client needs.</p>
           <p><strong>Best for:</strong> Advisors serving wealthy clients. Indicates specialized HNW knowledge.</p>
         `
       },
