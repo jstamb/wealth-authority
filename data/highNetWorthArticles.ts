@@ -5359,7 +5359,7 @@ export const HIGHNETWORTH_ARTICLES: Article[] = [
           <li>Estate planning integration</li>
           </ul>
           <h3 class="text-xl font-bold mt-8 mb-4">Pricing and Fees</h3>
-          <p><strong>Fee structures often change with wealth level:</strong></p>
+          <p><strong>Fee structures often change with <a href="/article/levels-of-wealth" class="text-emerald-700 underline">wealth level</a>:</strong></p>
           <div class="overflow-x-auto my-6">
           <table class="min-w-full border-collapse border border-gray-200">
           <thead class="bg-gray-50">
