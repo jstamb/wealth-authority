@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && npm run generate-schema",
+    "build": "npm run generate-sitemap && vite build && npm run generate-schema",
+    "generate-sitemap": "node scripts/generate-sitemap.js",
     "generate-schema": "tsx scripts/generateSchemaData.ts",
     "start": "node server.js"
   },
