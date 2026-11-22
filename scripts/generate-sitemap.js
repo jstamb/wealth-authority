@@ -15,7 +15,8 @@ const __dirname = path.dirname(__filename);
 
 const BASE_URL = 'https://www.wealthauthority.org';
 const DATA_DIR = path.join(__dirname, '..', 'data');
-const OUTPUT_FILE = path.join(__dirname, '..', 'sitemap.xml');
+const PUBLIC_DIR = path.join(__dirname, '..', 'public');
+const OUTPUT_FILE = path.join(PUBLIC_DIR, 'sitemap.xml');
 
 // Extract slugs from TypeScript files
 function extractSlugs(filePath) {
@@ -100,8 +101,8 @@ function generateSitemap() {
   <!-- City Pages -->
 `;
 
-  // City pages
-  const cities = ['new-york-city', 'los-angeles', 'chicago', 'houston', 'phoenix', 'miami', 'seattle', 'denver', 'dallas', 'san-francisco'];
+  // City pages: keep the sitemap in sync with the city data source.
+  const cities = extractSlugs(path.join(DATA_DIR, 'cityHubs.ts'));
   cities.forEach(city => {
     xml += `  <url>
     <loc>${BASE_URL}/city/${city}</loc>
